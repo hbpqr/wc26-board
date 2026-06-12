@@ -408,6 +408,42 @@
     #chart-equity { height: 220px !important; }
     .fgrid { gap: 8px; }
   }
+
+  /* ===== ≤700px: 全部表格重排为卡片流,零横向滚动 ===== */
+  @media (max-width: 700px) {
+    table, tbody, tr, td { display: block; }
+    thead { display: none; }
+    table { min-width: 0 !important; }
+    tbody tr {
+      border: 1px solid var(--line); background: var(--panel);
+      margin-bottom: 10px; padding: 8px 14px;
+    }
+    tbody tr:hover { background: var(--panel); }
+    tbody td {
+      display: flex; justify-content: space-between; align-items: baseline; gap: 14px;
+      padding: 7px 0; border-bottom: 1px dashed rgba(255,255,255,.06); text-align: right;
+    }
+    tbody td:last-child { border-bottom: none; }
+    tbody td::before {
+      content: attr(data-label); color: var(--faint); font-size: 11.5px;
+      text-align: left; flex: none; letter-spacing: .02em;
+    }
+    tbody td:not([data-label])::before { content: none; }
+    tbody td:not([data-label]) { justify-content: flex-end; }
+    .odds-scroll { max-height: none; overflow: visible; border: none; }
+    .odds-scroll, .matrix-wrap, .ev-ledger,
+    .ledger-grid > div:first-child, .slip-grid > div:first-child { overflow-x: visible; }
+    #odds-table, #ticket-table, #slip-table, #matrix-table, #ev-ledger-table { min-width: 0; }
+    .modal-body { overflow-x: hidden; }
+    .modal-body table { min-width: 0; }
+    .rule-card { padding: 14px 16px; }
+    /* 顶栏与统计条换行,根除页面级横向溢出 */
+    .hbar { flex-wrap: wrap; height: auto; padding: 10px 14px; row-gap: 4px; }
+    .hmeta { flex-wrap: wrap; row-gap: 4px; margin-left: 0; width: 100%; }
+    .hmeta .item:last-child .v { font-size: 12px; }
+    .cal-stats, .sumrow { flex-wrap: wrap; gap: 18px 28px; }
+    .bank-now { gap: 18px 30px; }
+  }
 </style>
 </head>
 <body>
@@ -612,6 +648,7 @@ function openModal(title, tabs) {
     tabs.map((t, i) => `<div class="modal-body mpanel" style="display:${i === 0 ? "" : "none"}">${t.html}</div>`).join("") + `</div>`;
   ov.addEventListener("click", ev => { if (ev.target === ov) closeModal(); });
   document.body.appendChild(ov);
+  labelize(ov);
   document.addEventListener("keydown", escClose);
 }
 const biNews = n => {
@@ -1128,6 +1165,18 @@ D.calibration.records.forEach(r => {
       <div class="cal-note">${r.note}</div>
     </div>`);
 });
+
+/* 移动端表格卡片化: 给每个 td 注入列名标签 */
+function labelize(root) {
+  (root || document).querySelectorAll("table").forEach(tb => {
+    const ths = [...tb.querySelectorAll("thead th")].map(th => th.textContent.trim());
+    if (!ths.length) return;
+    tb.querySelectorAll("tbody tr").forEach(tr => {
+      [...tr.children].forEach((td, i) => { if (ths[i]) td.setAttribute("data-label", ths[i]); });
+    });
+  });
+}
+labelize();
 
 /* resize all charts */
 window.addEventListener("resize", () => {
