@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 01:11",
+    updated: "2026-06-13 02:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -201,6 +201,12 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "加拿大 vs 波黑", impact: "首发出炉:博比托/哲科均替补", tone: "neutral",
+      text: "赛前1小时首发官宣:加拿大首发(4-4-2)克雷佩奥;拉雷亚、科内利厄斯、德福热罗尔、约翰斯顿;米勒、科内、欧斯达基奥、布坎南;奥卢瓦塞伊、大卫——博比托替补。波黑首发:哲科替补,德米洛维奇+卢基奇搭档锋线。哲科缺席首发削弱波黑定位球体系(资格赛22球中11个来自定位球),对0:0比分票偏利。(来源:khelnow.com/Bolavip)",
+      en: "Official starting XIs (1hr pre-kickoff): Canada (4-4-2) Crépeau; Laryea, Cornelius, De Fougerolles, Johnston; Millar, Koné, Eustáquio, Buchanan; Oluwaseyi, David — Bombito on bench. Bosnia: Dzeko on bench, Demirović+Lukic lead the line. Dzeko's absence reduces Bosnia's set-piece threat (11/22 qualifying goals from set pieces), marginally positive for the 0:0 correct-score bet. (per khelnow.com / Bolavip)",
+      links: [{"name": "khelnow.com", "url": "https://khelnow.com/football/world-football-canada-starting-lineup-vs-bosnia-herzegovina-fifa-world-cup-202606"}, {"name": "Bolavip", "url": "https://bolavip.com/en/world-cup/canada-vs-bosnia-and-herzegovina-predicted-lineups-for-their-2026-world-cup-debut"}],
+      full: "赛前约1小时,两队官方首发出炉。加拿大(4-4-2):克雷佩奥门将;后卫拉雷亚、科内利厄斯(中卫)、德福热罗尔(中卫)、约翰斯顿;中场米勒、科内、欧斯达基奥(队长)、布坎南;前锋奥卢瓦塞伊、大卫。博比托尽管确认健康,仍在替补席——马什选择谨慎管理其骨折复出首战负荷。波黑(4-4-2):瓦西尔门将;科拉西纳茨、穆哈雷莫维奇、卡提奇、德迪奇;梅米奇、塔希罗维奇、巴西奇、巴伊拉克塔雷维奇;前锋德米洛维奇+卢基奇——哲科替补。哲科首发缺席是本场最重要的阵容变量:波黑资格赛22球中11个来自定位球,绝大多数通过哲科的高空支点传导。其替补出场意味着波黑进攻开局火力降级,0:0的概率小幅上升。",
+      enFull: "Official confirmed starting XIs released approximately one hour before kickoff. Canada (4-4-2): Crépeau; Laryea, Cornelius, De Fougerolles, Johnston; Millar, Koné, Eustáquio (captain), Buchanan; Oluwaseyi, David. Bombito is on the bench — Marsch managing his tibia fracture return for Game 1. Bosnia (4-4-2): Vasilj; Kolašinac, Muharemović, Katić, Dedić; Memić, Tahirović, Bašić, Bajraktarević; Demirović, Lukic. Dzeko starts on the bench. With 11 of Bosnia's 22 qualifying goals sourced from set pieces, most routed through Dzeko's aerial presence, his absence materially reduces Bosnia's scoring threat — net positive for the 0:0 correct-score bet." },
     { date: "06-13", match: "加拿大 vs 波黑", impact: "博比托确认可出场", tone: "home",
       text: "博比托确认参战加拿大揭幕战:主帅马什表示他'将能出战并做出贡献',已完成最高速度测试,此前'临场裁决'疑云消散,中卫组合恢复完整。有利0:0防守票,波黑从博比托缺阵获益的预期落空。(来源:TSN/Canadian Press)",
       en: "Moise Bombito cleared for Canada's opener vs Bosnia: coach Marsch confirms he 'will be ready to contribute' and 'has reached his top speed' in his comeback from last October's tibia fracture — earlier game-time uncertainty now resolved. Positive signal for the 0:0 correct-score bet. (per TSN / Canadian Press)",
@@ -270,9 +276,6 @@ window.DASH_DATA = {
     { date: "06-12", match: "韩国 vs 捷克", impact: "支持小球", tone: "neutral",
       text: "韩国近15场只有1场双方都进球、近7场有5场总进球低于2.5;两队输家次轮即陷生死战,开局求稳概率高。",
       en: "Korea registered just one both-teams-scored match in their last 15, with 5 of the last 7 going under 2.5 goals; with the loser facing a must-win vs South Africa, a cagey opening was widely expected." },
-    { date: "06-11", match: "韩国 vs 捷克", impact: "市场信号", tone: "neutral",
-      text: "1:1 比分赔率从预估 6.5 一路被砸到 3.65:大众资金疯狂涌入共识比分,方向与模型一致但价值已被买空,情怀票陷阱活教材。",
-      en: "The 1:1 correct-score odds collapsed from an expected ~6.5 to 3.65 as retail money piled into the consensus scoreline - the direction matched our model, but all betting value was gone." },
     { date: "06-12", match: "加拿大 vs 波黑", impact: "利好加拿大", tone: "home",
       text: "东道主主场首秀(多伦多),三国合办下加拿大全部小组赛在本土进行;Elo 模型给出 72% 主胜,显著高于市场 55%。",
       en: "Canada open at home in Toronto and, as co-hosts, play every group game on home soil. Our Elo model rates them ~72% to win, well above the market's ~55% - the gap is the Dzeko-generation experience premium." },
