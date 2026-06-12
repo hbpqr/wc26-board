@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 02:10",
+    updated: "2026-06-13 03:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -201,6 +201,12 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "美国 vs 巴拉圭", impact: "门将变阵:弗里斯料首发", tone: "neutral",
+      text: "美国队门将锁定弗里斯(Matt Freese)首发:泡切蒂诺执教以来18场弗里斯首发15场,热身赛末战打满90分钟;特纳联赛扑救率78.2%优于弗里斯73.9%,双方竞争至临场,但用人脉络清晰指向弗里斯。门将变阵对比分赔率影响可忽略。(来源:Yahoo Sports/CBS Sports)",
+      en: "USMNT GK race leans Freese: Matt Freese has started 15 of 18 matches under Pochettino and went the full 90 in the final warm-up; Turner has the better 2026 MLS save rate (78.2% vs 73.9%) but the selection pattern points clearly to Freese. Negligible impact on correct-score odds. (per Yahoo Sports / CBS Sports)",
+      links: [{"name": "Yahoo Sports", "url": "https://sports.yahoo.com/soccer/article/matt-freese-usmnts-harvard-educated-goalkeeper-poised-to-start-world-cup-opener-vs-paraguay-003007584.html"}, {"name": "CBS Sports", "url": "https://www.cbssports.com/soccer/news/usmnts-matt-turner-push-for-world-cup-starting-spot-2026/"}],
+      full: "美国队主帅泡切蒂诺(Pochettino)在揭幕战门将人选上倾向于弗里斯:过去18场比赛他首发15场,最近一场热身赛亦打满90分钟。特纳数据端表现更抢眼——2026年MLS扑救率78.2%(联赛第三),弗里斯为73.9%(第六);两人竞争健康,都表示'会支持最终人选'。用人脉络基本锁定弗里斯,但泡切蒂诺可能根据对位特点做最后微调。两人均为高水平职业门将,对押比分1:0或0:0的防守价值票无实质影响。⚠️ 官方首发候开赛前确认。",
+      enFull: "USMNT head coach Pochettino is expected to hand the starting gloves to Matt Freese (NYCFC) for the Paraguay opener: Freese has started 15 of 18 matches under Pochettino and played a full 90 in the final warmup. Turner makes a statistical case — his 2026 MLS save rate of 78.2% ranks third in the league versus Freese's 73.9% (sixth) — and both keepers say they are ready for any role. Pochettino's 12-month usage pattern points firmly to Freese, though a last-minute call is not impossible. The GK choice does not materially affect the win-probability or the value assessment on the 1:0 or 0:0 correct-score bets. ⚠️ Confirm at kickoff." },
     { date: "06-13", match: "加拿大 vs 波黑", impact: "首发出炉:博比托/哲科均替补", tone: "neutral",
       text: "赛前1小时首发官宣:加拿大首发(4-4-2)克雷佩奥;拉雷亚、科内利厄斯、德福热罗尔、约翰斯顿;米勒、科内、欧斯达基奥、布坎南;奥卢瓦塞伊、大卫——博比托替补。波黑首发:哲科替补,德米洛维奇+卢基奇搭档锋线。哲科缺席首发削弱波黑定位球体系(资格赛22球中11个来自定位球),对0:0比分票偏利。(来源:khelnow.com/Bolavip)",
       en: "Official starting XIs (1hr pre-kickoff): Canada (4-4-2) Crépeau; Laryea, Cornelius, De Fougerolles, Johnston; Millar, Koné, Eustáquio, Buchanan; Oluwaseyi, David — Bombito on bench. Bosnia: Dzeko on bench, Demirović+Lukic lead the line. Dzeko's absence reduces Bosnia's set-piece threat (11/22 qualifying goals from set pieces), marginally positive for the 0:0 correct-score bet. (per khelnow.com / Bolavip)",
