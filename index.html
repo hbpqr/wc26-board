@@ -648,7 +648,7 @@ const stMap = { win: ["✓ 中奖", "st-win"], lose: ["✕ 未中", "st-lose"], 
 window.openReport = i => {
   const m = D.todayMatches[i];
   const e = m.ensemble;
-  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}`);
+  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}` || (t.match.includes("×") && t.match.startsWith(m.home)));
   const tRows = matchTickets.map(t => { const [lb, cl] = stMap[t.status];
     return `<tr><td>${t.pick}</td><td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td><td class="r ${cl}">${lb}</td><td class="r num ${cl}">${t.payout === null ? "待结" : t.payout.toFixed(1)}</td></tr>`; }).join("");
   const settled = matchTickets.filter(t => t.status !== "pending");
@@ -683,7 +683,7 @@ window.openReport = i => {
 const repWrap = document.getElementById("report-list");
 D.todayMatches.forEach((m, i) => {
   const e = m.ensemble;
-  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}`);
+  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}` || (t.match.includes("×") && t.match.startsWith(m.home)));
   const settled = matchTickets.filter(t => t.status !== "pending");
   const pendSum = matchTickets.filter(t => t.status === "pending").reduce((s, t) => s + t.stake, 0);
   const tPnl = settled.reduce((s, t) => s + (t.payout || 0) - t.stake, 0);
