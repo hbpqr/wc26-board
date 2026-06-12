@@ -55,8 +55,8 @@
     border-bottom: 1px solid var(--line);
   }
   .hbar {
-    max-width: 1400px; margin: 0 auto; padding: 0 28px;
-    height: 64px; display: flex; align-items: center; gap: 24px;
+    max-width: 1400px; margin: 0 auto; padding: 10px 28px;
+    min-height: 64px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; row-gap: 6px;
   }
   .brand { font-size: 17px; font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
   .brand b { color: var(--gold); font-weight: 700; }
@@ -438,9 +438,15 @@
     .modal-body table { min-width: 0; }
     .rule-card { padding: 14px 16px; }
     /* 顶栏与统计条换行,根除页面级横向溢出 */
-    .hbar { flex-wrap: wrap; height: auto; padding: 10px 14px; row-gap: 4px; }
-    .hmeta { flex-wrap: wrap; row-gap: 4px; margin-left: 0; width: 100%; }
-    .hmeta .item:last-child .v { font-size: 12px; }
+    .hbar { flex-wrap: wrap; height: auto; padding: 10px 14px; row-gap: 6px; }
+    /* 指标走马条: 整页唯一允许横滑的元素 */
+    .hmeta {
+      flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+      margin-left: 0; width: 100%; padding-bottom: 4px;
+      scrollbar-width: none; mask-image: linear-gradient(90deg, #000 92%, transparent);
+    }
+    .hmeta::-webkit-scrollbar { display: none; }
+    .hmeta .item { flex: none; }
     .cal-stats, .sumrow { flex-wrap: wrap; gap: 18px 28px; }
     .bank-now { gap: 18px 30px; }
   }
@@ -454,13 +460,7 @@
     <nav class="topnav">
       <a href="#sec-report">战报</a><a href="#sec-tomorrow">明日</a><a href="#sec-bank">资金池</a><a href="#sec-focus">深析</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
     </nav>
-    <div class="hmeta">
-      <div class="item"><span class="k">轮次</span><span class="v" id="h-round"></span></div>
-      <div class="item"><span class="k">本轮投入</span><span class="v num" id="h-invested"></span></div>
-      <div class="item"><span class="k">已回收</span><span class="v num pos" id="h-returned"></span></div>
-      <div class="item"><span class="k">在场</span><span class="v num" id="h-pending"></span></div>
-      <div class="item"><span class="k">赔率快照</span><span class="v num updated" id="h-odds-time"></span></div>
-    </div>
+    <div class="hmeta" id="hmeta"></div>
   </div>
 </header>
 
@@ -624,12 +624,27 @@ function flag(team, cls = "flag") {
 const GOLD = "#e9b44c", RED = "#e5484d", STEEL = "#7d9cbb", DIM = "#3d4654", FAINT = "#646c78";
 const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axisLabel: { color: "#9aa3ad", fontSize: 11 }, splitLine: { lineStyle: { color: "rgba(255,255,255,.06)" } } };
 
-/* ---------- header ---------- */
-document.getElementById("h-round").textContent = D.meta.round;
-document.getElementById("h-invested").textContent = D.holdings.invested + " 元";
-document.getElementById("h-returned").textContent = D.holdings.returned.toFixed(1) + " 元";
-document.getElementById("h-pending").textContent = D.holdings.pendingStake + " 元";
-document.getElementById("h-odds-time").textContent = O ? O.fetched_at : "未加载";
+/* ---------- header 指标走马条 ---------- */
+{
+  const Bk = D.bankroll;
+  const settledPnl = D.holdings.tickets.filter(x => x.status !== "pending")
+    .reduce((s, x) => s + (x.payout || 0) - x.stake, 0);
+  const cum = Bk.cashNow + Bk.pending - Bk.start;
+  const cushion = Math.max(0, Bk.cashNow + Bk.pending - Bk.start);
+  const sgn = v => (v > 0 ? "pos" : v < 0 ? "neg" : "");
+  const chips = [
+    ["资金池", Bk.cashNow.toFixed(1), ""],
+    ["累计盈亏", fmt(cum), sgn(cum)],
+    ["在场", D.holdings.pendingStake + " 元", D.holdings.pendingStake > 0 ? "st-pending" : ""],
+    ["本轮投入", D.holdings.invested + " 元", ""],
+    ["本轮已结", fmt(settledPnl), sgn(settledPnl)],
+    ["安全垫", cushion.toFixed(1), cushion > 0 ? "pos" : "neg"],
+    ["轮次", D.meta.round, ""],
+    ["快照", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
+  ];
+  document.getElementById("hmeta").innerHTML = chips.map(([k, v, cls]) =>
+    `<div class="item"><span class="k">${k}</span><span class="v num ${cls}">${v}</span></div>`).join("");
+}
 document.getElementById("f-disclaimer").textContent = D.meta.disclaimer + " 数据源:" + (O ? O.source : "") + " · 策展更新 " + D.meta.updated;
 
 /* ---------- modal 下钻系统 ---------- */
