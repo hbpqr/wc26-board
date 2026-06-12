@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 05:14",
+    updated: "2026-06-13 06:11",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -128,6 +128,14 @@ window.DASH_DATA = {
       predManual: "1:0", predModel: "1:0",
       ensemble: { h: 61.4, d: 23.7, a: 14.9 },
       note: "卢基奇21分钟角球头球先拔(波黑定位球体系兑现,哲科替补);替补拉林78分钟补射扳平,加拿大历史首个世界杯积分。集成61.4%预测主胜,实际平局,方向全误;4张加拿大相关票归零。"
+    },
+    {
+      num: "周五004", group: "D组", home: "美国", away: "巴拉圭",
+      time: "06-13 09:00", status: "pending",
+      actual: null,
+      predManual: "1:0", predModel: "1:0",
+      ensemble: { h: 53.2, d: 26.6, a: 20.3 },
+      note: ""
     }
   ],
 
@@ -226,6 +234,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "美国 vs 巴拉圭", impact: "恩西索 MRI 无结构性撕裂·仍高度疑问", tone: "away",
+      text: "恩西索伤情最新:核磁共振排除大腿肌肉结构性撕裂,这正是教练阿尔法罗能说'门敞开'的依据;但他依然被多家媒体评为'高度疑问',是否能参加对美国首场比赛将临场决定,若上场巴拉圭反击创造力接近完整状态。(来源:covers.com/freetips.com)",
+      en: "Enciso MRI update: scans ruled out a structural muscle tear — the medical basis for coach Alfaro's 'door is open' comment — but he remains highly doubtful for the USA opener with a final call near kickoff; if he starts, Paraguay's counter-attacking creativity is near full strength. (per covers.com / freetips.com)",
+      full: "6月5日对尼加拉瓜热身赛受伤后,巴拉圭医疗团队对恩西索进行了核磁共振检查,结果排除了大腿肌肉结构性撕裂,这是最关键的利好信息。没有结构性撕裂意味着损伤程度属于软组织挫伤/拉紧类别,康复窗口比韧带或肌腱损伤快得多。这也是教练阿尔法罗能够公开表示'大门敞开'的医学依据。然而多家媒体(covers.com伤情报告、freetips.com)仍将他评定为'高度疑问',是否入选首发将在临近开赛时作最终决定。若恩西索上场:巴拉圭的持球推进和反击创造力接近完整,美国胜面隐含优势收窄。若继续坐板凳:迭戈·戈麦斯顶上更靠前的位置,巴拉圭仍具备防守体系但缺乏顶级创造力。⚠️ 临场前30分钟必须盯@albirroja官方首发。",
+      enFull: "Following his June 5 injury vs Nicaragua, Paraguay's medical team conducted an MRI on Enciso that came back negative for any structural muscle tear — the critical positive finding that medically justifies coach Alfaro's 'door is open' posture. No structural tear places the injury in the soft-tissue contusion/strain category, which has a shorter recovery window than ligament or tendon damage. Multiple outlets (covers.com injury tracker, freetips.com) still rate him highly doubtful for the USA opener, with a final call expected within 30 minutes of kickoff. If Enciso starts: Paraguay's hold-up play and counter-attacking creativity approaches full strength, narrowing the implied edge on USA-win bets. If he is benched: Diego Gomez slots into a more central role — Paraguay retain their defensive structure but lose their top-five-league creative outlet. ⚠️ Monitor @albirroja's official starting XI no later than 30 minutes before kickoff.",
+      links: [{"name": "Covers.com 伤情报告", "url": "https://www.covers.com/world-cup/injury-report-2026"}, {"name": "FreeTips.com", "url": "https://www.freetips.com/football/julio-enciso-injury-20260610-0026/"}]
+    },
+    { date: "06-13", match: "美国 vs 巴拉圭", impact: "美国热身4场仅1胜3负·进攻防守均存漏洞", tone: "away",
+      text: "美国队2026年4场热身赛仅1胜3负(3月2:5负比利时、0:2负葡萄牙;5月末3:2险胜塞内加尔;6月6日1:2负德国),东道主热身成绩堪忧,进攻衔接与防守韧性存疑;泡切蒂诺称'正赛与热身完全不同',Elo积分仍支撑53%主胜。(来源:NBC Sports/ESPN)",
+      en: "USMNT went 1W-3L in four pre-tournament warmups (L 2-5 Belgium, L 0-2 Portugal, W 3-2 Senegal, L 1-2 Germany), raising questions over attacking connectivity and defensive resilience; Pochettino insists 'competitive football is completely different' and Elo models still give USA ~53% to win. (per NBC Sports / ESPN)",
+      full: "美国队2026世界杯备战期间4场热身赛战绩堪忧:3月28日2:5负比利时,3月31日0:2负葡萄牙,5月31日3:2险胜塞内加尔,6月6日在芝加哥主场1:2负于德国——整体1胜3负,作为东道主成绩不甚理想。失球问题尤为突出,特别是对比利时一役暴露了中后场组织漏洞。主帅泡切蒂诺在赛前媒体会上坚持认为热身赛只是磨合战术与调试轮换的平台,'竞争性正式比赛完全是另一回事'。从数据模型角度看,美国队Elo积分仍维持在1840-1850区间,集成模型依然给出53.2%的主胜概率,热身成绩不直接映射正式赛。⚠️ 需关注的风险点:若巴拉圭成功打出高效防守反击,美国赛前暴露的防守连接问题可能在正赛第一时间被针对。",
+      enFull: "The USMNT posted a 1W-3L record across four pre-tournament warmups: a heavy 2-5 loss to Belgium (March 28), 0-2 defeat to Portugal (March 31), a narrow 3-2 win over Senegal (May 31), and a 1-2 home loss to Germany (June 6 in Chicago). Defensive fragility — especially the Belgium concession rate — has been the most discussed concern. Coach Pochettino has consistently maintained that warmup friendlies serve as a tactical and rotation laboratory and that 'competitive international football is a completely different thing.' Statistically, the USMNT's Elo rating remains in the 1840-1850 range and the ensemble model still projects 53.2% USA-win probability, so warmup form is not directly mapped to this prediction. ⚠️ Risk flag: if Paraguay executes their counter-attacking system efficiently, the defensive gaps exposed in the warmups could be exploited from the opening whistle.",
+      links: [{"name": "NBC Sports USMNT Schedule", "url": "https://www.nbcsports.com/soccer/news/usmnt-2026-schedule-results"}, {"name": "ESPN USA 1-2 Germany", "url": "https://www.espn.com/soccer/report/_/gameId/762260"}]
+    },
     { date: "06-13", match: "加拿大 vs 波黑", impact: "已结算", tone: "neutral",
       text: "加拿大 1-1 波黑:卢基奇21分钟角球头球先拔头筹(波黑定位球体系兑现);替补拉林78分钟补射扳平,加拿大历史首个世界杯积分。模型集成(61.4%主胜)与手工选择均押加拿大胜,实际平局,方向全误,4张加拿大相关票归零。(来源:CBC/Yahoo Sports)",
       en: "Canada 1-1 Bosnia: Lukic headed in from a corner on 21 minutes; substitute Larin equalized in the 78th — Canada's first-ever point at a men's World Cup. Our model (61.4% Canada win) and manual picks both predicted Canada win; all four Canada-related bets lost. (per CBC / Yahoo Sports)",
