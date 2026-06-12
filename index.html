@@ -434,7 +434,7 @@
   <section id="sec-report">
     <div class="top-grid">
       <div>
-        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">点击下钻</span></div>
+        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">点击下钻 · +赚 −亏 · "待结"=未结算</span></div>
         <div id="report-list"></div>
       </div>
       <div id="sec-tomorrow">
@@ -456,7 +456,7 @@
         </table>
       </div>
       <div>
-        <div class="charthead">韩捷四种终局推演(赛前) · 已兑现:韩国胜 +55.5,赛前概率最高的剧本(41%)</div>
+        <div class="charthead" id="scn-head">终局推演</div>
         <div id="chart-scenario" class="chartbox chart-h280"></div>
       </div>
     </div>
@@ -650,7 +650,7 @@ window.openReport = i => {
   const e = m.ensemble;
   const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}`);
   const tRows = matchTickets.map(t => { const [lb, cl] = stMap[t.status];
-    return `<tr><td>${t.pick}</td><td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td><td class="r ${cl}">${lb}</td><td class="r num ${cl}">${t.payout === null ? "-" : t.payout.toFixed(1)}</td></tr>`; }).join("");
+    return `<tr><td>${t.pick}</td><td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td><td class="r ${cl}">${lb}</td><td class="r num ${cl}">${t.payout === null ? "待结" : t.payout.toFixed(1)}</td></tr>`; }).join("");
   const tPnl = matchTickets.reduce((s, t) => s + (t.payout || 0) - t.stake, 0);
   const calRec = D.calibration.records.find(r => r.match === `${m.home} vs ${m.away}`);
   openModal(`${flag(m.home, "flag-sm")} ${m.home} ${m.actual || "vs"} ${m.away} ${flag(m.away, "flag-sm")} · ${m.num}`, [
@@ -687,7 +687,7 @@ D.todayMatches.forEach((m, i) => {
     <div class="mini" onclick="openReport(${i})">
       <div class="mini-top">
         <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${m.actual ? m.actual : "vs"}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
-        ${matchTickets.length ? `<span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span>` : ""}
+        ${matchTickets.length ? `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">本场盈亏 </span><span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span></span>` : ""}
       </div>
       <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
       <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span><span style="margin-left:auto">下钻 ▸</span></div>
@@ -762,7 +762,7 @@ D.focus.forEach((f, idx) => {
 const SM0 = D.slip.summary;
 document.getElementById("tmr-plan").innerHTML = `
   <div class="blk"><span class="k">计划仓位</span><span class="v num">${SM0.stake} 元</span></div>
-  <div class="blk"><span class="k">数学期望</span><span class="v num neg">${SM0.evHigh.toFixed(1)}~${SM0.evLow.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">数学期望</span><span class="v num ${SM0.evHigh >= 0 ? "pos" : "neg"}">${SM0.evHigh >= 0 ? "+" : ""}${SM0.evHigh.toFixed(1)}${SM0.evHigh === SM0.evLow ? "" : "~" + SM0.evLow.toFixed(1)}</span></div>
   <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM0.winProb}%</span></div>
   <div class="blk"><span class="k">头奖</span><span class="v num pos">+${SM0.best.pnl.toFixed(0)}</span></div>
   <div class="blk"><span class="k">下单</span><span class="v" style="font-size:13px"><a href="#sec-slip" style="color:var(--gold)">文案 ↓</a></span></div>`;
@@ -775,7 +775,7 @@ D.holdings.tickets.forEach(t => {
     <tr><td>${t.match.split(" vs ").map(x => flag(x, "flag-sm") + " " + x).join(" vs ")}</td><td>${t.pick}</td>
     <td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td>
     <td class="r ${cls}">${label}</td>
-    <td class="r num ${cls}">${t.payout === null ? "-" : t.payout.toFixed(1)}</td></tr>`);
+    <td class="r num ${cls}">${t.payout === null ? "待结" : t.payout.toFixed(1)}</td></tr>`);
 });
 const net = D.holdings.returned - D.holdings.invested;
 document.getElementById("ledger-sum").innerHTML = `
@@ -879,8 +879,8 @@ B.evLedger.forEach(e => {
       <td class="r num">${e.stake}</td>
       <td class="r num ${e.evPnl >= 0 ? "pos" : ""}" style="${e.evPnl < 0 ? "color:var(--red)" : ""}">${fmt(e.evPnl)}</td>
       <td class="r num">${e.winProb}%</td>
-      <td class="r num ${hasActual ? (e.actualPnl >= 0 ? "pos" : "neg") : ""}">${hasActual ? fmt(e.actualPnl) : "-"}</td>
-      <td class="r num ${diff !== null ? (diff >= 0 ? "pos" : "neg") : ""}">${diff !== null ? fmt(diff) : "-"}</td>
+      <td class="r num ${hasActual ? (e.actualPnl >= 0 ? "pos" : "neg") : ""}" style="${hasActual ? "" : "color:var(--faint)"}">${hasActual ? fmt(e.actualPnl) : "待结"}</td>
+      <td class="r num ${diff !== null ? (diff >= 0 ? "pos" : "neg") : ""}" style="${diff !== null ? "" : "color:var(--faint)"}">${diff !== null ? fmt(diff) : "待结"}</td>
       <td><span class="tier">${e.status}</span></td>
     </tr>`);
 });
@@ -890,6 +890,7 @@ document.getElementById("ev-cum").innerHTML =
   `。期望永远是负的(抽水决定),这个台账盯的是两件事:<b>期望损耗有没有越压越小</b>(价值筛选在进步),以及<b>实际是否长期跑赢期望</b>(模型真有超额判断力,而不是运气)。`;
 
 /* ---------- scenario chart ---------- */
+if (D.holdings.scenariosTitle) document.getElementById("scn-head").textContent = D.holdings.scenariosTitle;
 const scn = echarts.init(document.getElementById("chart-scenario"));
 scn.setOption({
   grid: { left: 10, right: 10, top: 36, bottom: 10, containLabel: true },
@@ -1076,7 +1077,7 @@ D.slip.matrix.forEach((m, i) => {
 const SM = D.slip.summary;
 document.getElementById("slip-sum").innerHTML = `
   <div class="blk"><span class="k">总投入</span><span class="v num">${SM.stake}</span></div>
-  <div class="blk"><span class="k">数学期望(集成~保守口径)</span><span class="v num neg">${SM.evHigh.toFixed(1)} ~ ${SM.evLow.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">数学期望</span><span class="v num ${SM.evHigh >= 0 ? "pos" : "neg"}">${SM.evHigh >= 0 ? "+" : ""}${SM.evHigh.toFixed(1)}${SM.evHigh === SM.evLow ? "" : " ~ " + SM.evLow.toFixed(1)}</span></div>
   <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM.winProb}%</span></div>
   <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
   <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
