@@ -474,7 +474,7 @@
         <div id="report-list"></div>
       </div>
       <div id="sec-tomorrow">
-        <div class="stitle"><h2>明日作战</h2><span class="sub">点击下钻 · 预测与买点</span></div>
+        <div class="stitle"><h2>明日作战</h2><span class="sub">点击下钻 · 预测与买点 · 北京时间</span></div>
         <div id="tmr-list"></div>
       </div>
     </div>
@@ -538,7 +538,7 @@
     <div class="stitle"><h2>赔率监控</h2><span class="sub">竞彩官方(结算基准) + 国际共识(参考维度,蓝色) · 点击行展开比分赔率</span></div>
     <div class="odds-scroll">
       <table id="odds-table">
-        <thead><tr><th>编号</th><th>对阵</th><th>开赛(北京)</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th><th class="r">让球线</th><th class="r intl-cell">国际共识折合欧赔 主/平/客</th><th class="r">更新</th></tr></thead>
+        <thead><tr><th>编号</th><th>对阵</th><th>开赛(北京)</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th><th class="r">让球线</th><th class="r intl-cell">国际共识折合欧赔 主/平/客</th><th class="r">更新(北京)</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -640,12 +640,12 @@ const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axis
     ["本轮已结", fmt(settledPnl), sgn(settledPnl)],
     ["安全垫", cushion.toFixed(1), cushion > 0 ? "pos" : "neg"],
     ["轮次", D.meta.round, ""],
-    ["快照", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
+    ["快照(北京)", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
   ];
   document.getElementById("hmeta").innerHTML = chips.map(([k, v, cls]) =>
     `<div class="item"><span class="k">${k}</span><span class="v num ${cls}">${v}</span></div>`).join("");
 }
-document.getElementById("f-disclaimer").textContent = D.meta.disclaimer + " 数据源:" + (O ? O.source : "") + " · 策展更新 " + D.meta.updated;
+document.getElementById("f-disclaimer").textContent = D.meta.disclaimer + " 数据源:" + (O ? O.source : "") + " · 策展更新 " + D.meta.updated + " · 全站时间均为北京时间";
 
 /* ---------- modal 下钻系统 ---------- */
 function escClose(e) { if (e.key === "Escape") closeModal(); }
@@ -690,7 +690,7 @@ const intlDetail = intl => {
       <td class="r num">${odds}</td></tr>`;
   }).join("");
   return `
-    <div class="charthead" style="margin:16px 0 6px">国际机构逐家明细 · 快照 ${intl.ts.slice(5, 16)}</div>
+    <div class="charthead" style="margin:16px 0 6px">国际机构逐家明细 · 快照(北京) ${intl.ts.slice(5, 16)}</div>
     <table><thead><tr><th>机构</th><th class="r">权重</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th><th class="r">欧赔 主/平/客</th></tr></thead><tbody>${rows}</tbody></table>
     <div class="src-line">权重: Pinnacle 3.0 > Betfair 2.5 > bet365/Unibet 2.0 > 其他 1.0 · Polymarket(预测市场) 1.5;概率市场无传统赔率,折合=1/概率(公平价,无抽水)。注册 The Odds API 免费 key 后,这里将列出 Pinnacle/bet365/WilliamHill 等数十家真实欧赔。</div>`;
 };
