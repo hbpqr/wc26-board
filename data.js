@@ -6,14 +6,14 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 04:10",
+    updated: "2026-06-13 05:14",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
   // ---------- 资金池作战计划(全赛程) ----------
   bankroll: {
     start: 200, startDate: "06-11",
-    cashNow: 255.5, pending: 0,
+    cashNow: 145.5, pending: 24,
     goal: 20000, floor: 80,
     milestones: [
       { date: "06-18", label: "首轮收官", target: 500 },
@@ -38,7 +38,7 @@ window.DASH_DATA = {
       { d: "07-07", v: 4500 }, { d: "07-14", v: 10000 }, { d: "07-19", v: 20000 }
     ],
     actualCurve: [
-      { d: "06-11", v: 200 }, { d: "06-12", v: 255.5 }
+      { d: "06-11", v: 200 }, { d: "06-12", v: 255.5 }, { d: "06-13", v: 145.5 }
     ],
     // 纯数学期望路径:每日投50%仓、每注期望约-5%(已优化后的口径) → 日衰减约2.5%
     // 这条线是"没有任何运气"时钱的走向,目标线与它的差距=价值筛选+方差+棘轮纪律要去挣的部分
@@ -46,7 +46,7 @@ window.DASH_DATA = {
       { d: "06-11", v: 200 }, { d: "06-18", v: 168 }, { d: "06-27", v: 133 },
       { d: "07-07", v: 104 }, { d: "07-19", v: 76 }
     ],
-    note: "2万是北极星(方向),不是赌注(KPI)。架构=CPPI安全垫:本金200只碰最低损耗的核心票,高方差票只花赚来的钱;垫厚则攻,垫薄则守,棘轮把每个台阶变成新保本线。当前安全垫 55.5。",
+    note: "2万是北极星(方向),不是赌注(KPI)。架构=CPPI安全垫:本金200只碰最低损耗的核心票,高方差票只花赚来的钱;垫厚则攻,垫薄则守,棘轮把每个台阶变成新保本线。当前资金池 169.5(现金 145.5 + 待结算美巴 24),已跌破保本线 200,进入防御模式:倍数仓清零、价值仓减半,核心慢攻修复安全垫。",
 
     // 每日资金池日记:收益曲线数据源,每点悬停展示当日逐笔记录(AI管家每日结算后追加)
     daily: [
@@ -70,6 +70,18 @@ window.DASH_DATA = {
           "　✗ 平局 30@2.75 → 0 ｜ ✗ 比分1:1 10@3.65 → 0",
           "📊 当日小计: 投200 回255.5,净 +55.5(+27.8%)",
           "🎫 晚间确认次轮 5 票 110 元(加波70+美巴24+2串1 16)"
+        ]
+      },
+      {
+        d: "06-13", pool: 169.5, pnl: -86,
+        records: [
+          "🏆 加拿大 1:1 波黑(03:00 完赛)",
+          "　✗ 加拿大胜 44@1.62 → 0",
+          "　✗ 比分0:0 12@9.50 → 0",
+          "　✗ 比分1:0 14@5.70 → 0",
+          "　✗ 2串1·加拿大胜×美国胜 16@2.88 → 0(串关腿已死)",
+          "🎫 美国 vs 巴拉圭(09:00)待结算 — 美国胜 24@1.78",
+          "📊 当日截至加波结算:投110 回0 净-86 | 池 255.5→169.5(已跌破保本线200,防御模式)"
         ]
       }
     ],
@@ -108,14 +120,22 @@ window.DASH_DATA = {
       predManual: "1:1", predModel: "1:0",
       ensemble: { h: 41.1, d: 28.9, a: 30.0 },
       note: "克雷伊奇第58分钟为捷克先拔头筹(赛前标记的定位球威胁兑现),黄仁范66分钟扳平,替补吴贤揆80分钟绝杀逆转。韩国胜恰落在模型概率最高(41%)的剧本;持仓中韩国胜@2.49命中,回收74.7。"
+    },
+    {
+      num: "周五003", group: "B组", home: "加拿大", away: "波黑",
+      time: "06-13 03:00", status: "finished",
+      actual: "1:1",
+      predManual: "1:0", predModel: "1:0",
+      ensemble: { h: 61.4, d: 23.7, a: 14.9 },
+      note: "卢基奇21分钟角球头球先拔(波黑定位球体系兑现,哲科替补);替补拉林78分钟补射扳平,加拿大历史首个世界杯积分。集成61.4%预测主胜,实际平局,方向全误;4张加拿大相关票归零。"
     }
   ],
 
   // ---------- 持仓账本(本轮) ----------
   holdings: {
-    invested: 200,
+    invested: 310,
     returned: 255.5,
-    pendingStake: 0,
+    pendingStake: 24,
     condEV: 0, condWinProb: 0,
     tickets: [
       { match: "墨西哥 vs 南非", pick: "胜平负·墨西哥胜", stake: 80, odds: 1.26, status: "win",  payout: 100.8 },
@@ -123,7 +143,12 @@ window.DASH_DATA = {
       { match: "墨西哥 vs 南非", pick: "比分·2:0",        stake: 20, odds: 4.00, status: "win",  payout: 80.0 },
       { match: "韩国 vs 捷克",   pick: "胜平负·韩国胜",   stake: 30, odds: 2.49, status: "win",  payout: 74.7 },
       { match: "韩国 vs 捷克",   pick: "胜平负·平局",     stake: 30, odds: 2.75, status: "lose", payout: 0 },
-      { match: "韩国 vs 捷克",   pick: "比分·1:1",        stake: 10, odds: 3.65, status: "lose", payout: 0 }
+      { match: "韩国 vs 捷克",   pick: "比分·1:1",        stake: 10, odds: 3.65, status: "lose", payout: 0 },
+      { match: "加拿大 vs 波黑", pick: "胜平负·加拿大胜", stake: 44, odds: 1.62, status: "lose", payout: 0 },
+      { match: "加拿大 vs 波黑", pick: "比分·0:0",        stake: 12, odds: 9.50, status: "lose", payout: 0 },
+      { match: "加拿大 vs 波黑", pick: "比分·1:0",        stake: 14, odds: 5.70, status: "lose", payout: 0 },
+      { match: "美国 vs 巴拉圭", pick: "胜平负·美国胜",   stake: 24, odds: 1.78, status: "pending", payout: null },
+      { match: "串关·加拿大胜×美国胜", pick: "2串1",      stake: 16, odds: 2.88, status: "lose", payout: 0 }
     ],
     scenarios: [
       { label: "韩捷 1:1",   pnl: 99.8,  prob: 13 },
@@ -201,6 +226,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "加拿大 vs 波黑", impact: "已结算", tone: "neutral",
+      text: "加拿大 1-1 波黑:卢基奇21分钟角球头球先拔头筹(波黑定位球体系兑现);替补拉林78分钟补射扳平,加拿大历史首个世界杯积分。模型集成(61.4%主胜)与手工选择均押加拿大胜,实际平局,方向全误,4张加拿大相关票归零。(来源:CBC/Yahoo Sports)",
+      en: "Canada 1-1 Bosnia: Lukic headed in from a corner on 21 minutes; substitute Larin equalized in the 78th — Canada's first-ever point at a men's World Cup. Our model (61.4% Canada win) and manual picks both predicted Canada win; all four Canada-related bets lost. (per CBC / Yahoo Sports)",
+      full: "波黑后卫卢基奇(Jovo Lukic)第21分钟顶入角球先破门,波黑定位球威胁如赛前所料兑现。哲科以替补身份下半场出场,持续制造制空威胁。替补拉林(Cyle Larin)第78分钟在禁区内补射入网,为加拿大历史性地在男子世界杯拿下首个积分。加拿大主场多伦多气氛热烈,但波黑防守组织远超预期。模型集成给出61.4%主胜概率,Elo模型更激进至72.4%,实际平局令所有模型蒙受高Brier惩罚(ens=0.928)。加拿大胜(44元)、比分0:0(12元)、比分1:0(14元)、2串1(16元)四票全灭,共损失86元,资金池从255.5降至169.5,跌破200保本线。",
+      enFull: "Bosnia defender Jovo Lukic headed in from a corner on 21 minutes, validating the pre-match set-piece risk flag. Dzeko came on as a second-half substitute and continued to pose an aerial threat. Substitute Cyle Larin equalized in the 78th minute with a close-range finish, handing Canada their first-ever point at a men's FIFA World Cup. Despite a fervent home atmosphere in Toronto, Bosnia's defensive organization outperformed expectations. The model ensemble (61.4% Canada win) and manual picks all pointed to a Canada victory — the draw inflicts heavy Brier penalties across all models (ens=0.928). All four Canada-related tickets (win, 0:0, 1:0, two-fold parlay) were losses totaling 86 yuan, dropping the bankroll from 255.5 to 169.5 — below the 200 safety floor.",
+      links: [{"name": "CBC Sports", "url": "https://www.cbc.ca/sports/livestory/fifa-world-cup-2026-canada-vs-bosnia-and-herzegovina-june-12-live-updates-9.7222390"}, {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/soccer/live/world-cup-schedule-scores-live-updates-group-stage-usmnt-paraguay-canada-bosnia-herzegovina-180000044.html"}]
+    },
     { date: "06-13", match: "美国 vs 巴拉圭", impact: "门将变阵:弗里斯料首发", tone: "neutral",
       text: "美国队门将锁定弗里斯(Matt Freese)首发:泡切蒂诺执教以来18场弗里斯首发15场,热身赛末战打满90分钟;特纳联赛扑救率78.2%优于弗里斯73.9%,双方竞争至临场,但用人脉络清晰指向弗里斯。门将变阵对比分赔率影响可忽略。(来源:Yahoo Sports/CBS Sports)",
       en: "USMNT GK race leans Freese: Matt Freese has started 15 of 18 matches under Pochettino and went the full 90 in the final warm-up; Turner has the better 2026 MLS save rate (78.2% vs 73.9%) but the selection pattern points clearly to Freese. Negligible impact on correct-score odds. (per Yahoo Sports / CBS Sports)",
@@ -346,14 +378,19 @@ window.DASH_DATA = {
 
   // ---------- 校准记录 ----------
   calibration: {
-    stats: { direction: "2/2", scoreManual: "1/2", scoreModel: "0/2" },
+    stats: { direction: "2/3", scoreManual: "1/3", scoreModel: "0/3" },
     // 在线学习状态(learn.py 每场赛后自动更新): 乘法权重 + Elo + Dixon-Coles
     learning: {
-      weights: { A: 28.1, B: 38.1, C: 33.8 },
-      brier: { A: 0.387, B: 0.311, C: 0.341, ens: 0.345 },
-      note: "权重由等权(33/33/33)经 2 场学习进化;集成 Brier 0.345 < 市场基线 0.387(越低越准,随机=0.667)。Elo 已随赛果更新:墨西哥+6.1/韩国+15.5;比分网格已加 Dixon-Coles 低比分修正(ρ=-0.08),0:0 概率 10.7%→12.3%。"
+      weights: { A: 30.7, B: 23.6, C: 40.0 },
+      brier: { A: 0.548, B: 0.592, C: 0.505, ens: 0.539 },
+      note: "权重经3场学习进化;加波平局令Elo(B)Brier暴增至1.153,权重从38.1%跌至23.6%;Poisson+DC(C)表现最稳,升至40.0%。集成Brier 0.539 > 市场基线0.548,3场后模型已落后市场——需观察更多场次恢复优势。Elo更新:加拿大-12→1858,波黑→1702。"
     },
     records: [
+      {
+        date: "06-13", match: "加拿大 vs 波黑", actual: "1:1", briers: { A: 0.871, B: 1.153, C: 0.831, ens: 0.928 },
+        manual: "1:0", model: "1:0", dirHit: false, manualHit: false, modelHit: false,
+        note: "方向误判:集成61.4%主胜,实际平局。卢基奇21分钟角球先拔(定位球风险标记已有但未入模),替补拉林78分钟扳平。Elo激进(72.4%主胜)受到最重惩罚,Brier=1.153;B权重从38.1%锐降至23.6%。教训:①东道主主场溢价被高估,模型应引入'首场谨慎因子';②0:0比分票终因1:1落空,但定价逻辑(10.7%→@9.50)赛前仍是正期望;③波黑防守组织超预期,提示Poisson λ客队设定偏高。"
+      },
       {
         date: "06-12", match: "韩国 vs 捷克", actual: "2:1", briers: { A: 0.590, B: 0.487, C: 0.491, ens: 0.520 },
         manual: "1:1", model: "1:0", dirHit: true, manualHit: false, modelHit: false,
