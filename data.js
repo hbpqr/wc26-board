@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 06:35",
+    updated: "2026-06-13 07:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -766,6 +766,27 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "耶尔德兹小腿伤单独训练·首发几乎出局", tone: "home",
+      text: "土耳其最大牌新星凯南·耶尔德兹(尤文图斯)因小腿伤单独训练,首发概率极低;阿尔达·居勒(皇马)伤愈将首发登场。耶尔德兹缺失令土耳其右路爆点消失,进攻深度下降,澳大利亚爆冷胜的价值信号进一步增强。(来源:Sports Mole/Squawka)",
+      en: "Turkey standout Kenan Yildiz (Juventus) is training alone with a calf injury and unlikely to start vs Australia; Arda Guler (Real Madrid) is fit and set to play from kick-off. Yildiz's likely absence removes Turkey's explosive right-side threat — a further positive signal for Australia's upset price. (per Sports Mole / Squawka)",
+      full: "耶尔德兹本赛季为尤文立下战功,入选土耳其大名单后小腿出现不适,近日一直单独康复训练而非参与全队集训。Sports Mole与Squawka双双在预测首发XI中将其排除,认为'他首发出场将是意外之举'。皇马中场居勒则完成赛季末伤病复出,据报将从开场首发;其内切型踢法可部分弥补创造力,但无法复制耶尔德兹的宽域直线爆破——土耳其的快攻威力在无耶尔德兹情况下明显下降。这对我们押澳大利亚胜@5.30(价值1.07)构成利好:土耳其进攻端削弱,澳大利亚定位球与整体跑动反超概率相对提升。⚠️ 临场前确认耶尔德兹是否奇迹入选首发。",
+      enFull: "Yildiz developed a calf problem after Turkey's squad was announced and has been training individually — Sports Mole and Squawka both omit him from their predicted XIs, calling it 'a surprise if he starts.' Real Madrid midfielder Arda Guler has recovered from his end-of-season injury and is expected to start from kick-off, providing creativity as an inside-forward. However, Guler cannot replicate Yildiz's direct wide-channel explosiveness — Turkey's counter-attacking pace threat is meaningfully reduced without him. For our Australia-to-win position at @5.30 (value 1.07): a weakened Turkish attack increases Australia's probability of controlling transitions and exploiting set pieces. ⚠️ Monitor official lineups at kickoff for any Yildiz surprise inclusion.",
+      links: [{"name": "Sports Mole · Turkey lineup vs Australia", "url": "https://www.sportsmole.co.uk/football/australia/world-cup-2026/predicted-lineups/will-yildiz-be-involved-how-turkey-could-line-up-against-australia_599009.html"}, {"name": "Squawka · Australia vs Turkey team news", "url": "https://www.squawka.com/en/news/world-cup/australia-vs-turkey-team-news-predicted-lineups/"}]
+    },
+    { date: "06-13", match: "巴西 vs 摩洛哥", impact: "阿圭尔/马兹劳伊/厄布德·摩洛哥防守链堆叠伤缺", tone: "home",
+      text: "摩洛哥伤情叠加:最强中卫阿圭尔(耻骨炎)首发存疑,左后卫马兹劳伊(肩伤)能力待定,边锋厄布德膝韧带中度撕裂缺席整个小组赛。2022四强赖以成名的防守架构在揭幕战即承压,巴西双翼维尼修斯/拉菲尼亚的突破空间或扩大。(来源:Sports Mole/RotoWire)",
+      en: "Morocco's injury list piles up: best CB Nayef Aguerd (pubalgia) is questionable, left-back Mazraoui (shoulder) is doubtful, and winger Ez Abde is ruled out of the entire group stage with a moderate knee ligament sprain — the defensive spine that reached the 2022 semis faces its first test weakened. (per Sports Mole / RotoWire)",
+      full: "摩洛哥在首战前遭遇三重伤情:①最佳中卫纳伊夫·阿圭尔因耻骨炎未在预测首发XI中出现,伊萨·迪奥普与沙迪·里亚德预计顶上;②左后卫努塞尔·马兹劳伊肩伤存疑,全场作战能力不确定;③边锋厄兹·阿布德核磁共振确认膝关节韧带中度撕裂,缺席整个小组赛阶段。三名关键球员伤情叠加,削弱了2022年帮助摩洛哥杀入四强的低失球+定位球防守体系。巴西维尼修斯和拉菲尼亚面对拼凑后防,侧路突破空间或增大——这在一定程度上抵消了内马尔缺阵对巴西进攻指标的负面影响。摩洛哥的克星剧本依赖完整防守链,三处漏洞同时出现令其防反成功率难以保证。",
+      enFull: "Morocco arrive at their opener carrying a three-point injury burden: (1) Best center-back Nayef Aguerd is absent from predicted XIs due to pubalgia, with Issa Diop and Chadi Riad expected to partner at the back; (2) Left-back Noussair Mazraoui is doubtful with a shoulder injury and may not last 90 minutes; (3) Winger Ez Abde had scans confirm a moderate knee ligament sprain, ruling him out of the entire group stage. The compounded injury toll weakens the defensive framework that carried Morocco to the 2022 semis on low goals conceded and set-piece efficiency. Brazil's Vinicius Jr. and Raphinha face a patchwork backline — potentially widening the space in behind that neutralizes Morocco's counter-attacking blueprint. This development partially offsets the negative signal from Neymar's absence on Brazil's attacking metrics.",
+      links: [{"name": "Sports Mole · Brazil vs Morocco preview", "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-morocco-prediction-team-news-lineups_598948.html"}, {"name": "RotoWire · Brazil vs Morocco", "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816"}]
+    },
+    { date: "06-13", match: "巴西 vs 摩洛哥", impact: "内马尔小腿二级撕裂·确认缺席揭幕战", tone: "away",
+      text: "内马尔(34岁)因小腿二级撕裂缺席6月14日对摩洛哥首战:巴西足协6月8日核磁共振显示康复顺利但仍需2-3周,昂切洛蒂称'无悔把他带来,等淘汰赛发力'。伊戈尔·蒂亚戈料领衔前锋,维尼修斯/拉菲尼亚/库尼亚三叉戟依然高火力,但定点攻坚创造力下降。(来源:ESPN/Yahoo Sports)",
+      en: "Neymar (34) confirmed out for Brazil's June 14 opener vs Morocco with a grade-2 calf strain: a June 8 CBF scan showed improvement but projected 2-3 more weeks of recovery; Ancelotti said 'no regrets — waiting for the knockouts.' Igor Thiago is expected to lead the line ahead of Vinicius Jr., Raphinha and Matheus Cunha. (per ESPN / Yahoo Sports)",
+      full: "5月中旬小腿二级撕裂后,内马尔被带进大名单但缺席了对巴拿马、埃及两场热身赛。巴西足协6月8日核磁共振报告显示康复进展顺利,仍明确注明需2-3周恢复期,确认揭幕战无缘登场。昂切洛蒂赛前明确表态:'把他带来毫无遗憾,我们相信他能在淘汰赛发挥关键作用。'阵型预计4-2-3-1:伊戈尔·蒂亚戈担任中锋,维尼修斯/拉菲尼亚/马修斯·库尼亚组成攻击三叉戟。对比分影响:1:0概率轻微下调,0:0概率略升。摩洛哥防线自身有伤情(见另条情报),两队互有削弱,整体比分盘谨慎看待。⚠️ 内马尔后续小组赛能否复出视康复进展而定。",
+      enFull: "Neymar tore his calf (grade 2) in mid-May and joined Brazil's training camp despite missing warmups against Panama and Egypt. The CBF's June 8 scan confirmed steady recovery but maintained a 2-3 week timeline — ruling him out of the June 14 Morocco opener and leaving later group-stage availability uncertain. Coach Ancelotti stated: 'I have no regrets bringing him — we believe he can be decisive in the knockout stage.' Brazil are expected to deploy a 4-2-3-1: Igor Thiago leads the line with Vinicius Jr., Raphinha and Matheus Cunha in support. Scoring impact: 1:0 probability nudges marginally down, 0:0 slightly up. Note that Morocco's own injury accumulation (see separate item) partially offsets this — both sides are weakened, warranting caution on correct-score bets. ⚠️ Neymar's return for later group games depends on daily rehab progress.",
+      links: [{"name": "ESPN · Ancelotti on Neymar", "url": "https://www.espn.com/soccer/story/_/id/48922562/brazil-carlo-ancelotti-neymar-injury-2026-world-cup"}, {"name": "Yahoo Sports · Neymar vs Morocco", "url": "https://sports.yahoo.com/articles/neymar-playing-vs-morocco-latest-083001270.html"}]
+    },
     { date: "06-13", match: "美国 vs 巴拉圭", impact: "恩西索 MRI 无结构性撕裂·仍高度疑问", tone: "away",
       text: "恩西索伤情最新:核磁共振排除大腿肌肉结构性撕裂,这正是教练阿尔法罗能说'门敞开'的依据;但他依然被多家媒体评为'高度疑问',是否能参加对美国首场比赛将临场决定,若上场巴拉圭反击创造力接近完整状态。(来源:covers.com/freetips.com)",
       en: "Enciso MRI update: scans ruled out a structural muscle tear — the medical basis for coach Alfaro's 'door is open' comment — but he remains highly doubtful for the USA opener with a final call near kickoff; if he starts, Paraguay's counter-attacking creativity is near full strength. (per covers.com / freetips.com)",
