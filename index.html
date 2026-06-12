@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WC26 竞彩作战板</title>
+<script src="assets/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0d11;
+    --panel: #12151b;
+    --panel-2: #161a21;
+    --line: rgba(255,255,255,.08);
+    --line-strong: rgba(255,255,255,.14);
+    --txt: #e8eaed;
+    --dim: #9aa3ad;
+    --faint: #646c78;
+    --gold: #e9b44c;
+    --gold-dim: rgba(233,180,76,.14);
+    --red: #e5484d;
+    --red-dim: rgba(229,72,77,.12);
+    --steel: #7d9cbb;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body {
+    background: var(--bg);
+    color: var(--txt);
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 0 32px 110px; }
+
+  /* ---------- flags ---------- */
+  .flag {
+    width: 26px; height: 19.5px; border-radius: 2.5px; object-fit: cover;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.14), 0 1px 3px rgba(0,0,0,.5);
+    vertical-align: -3px; flex: none;
+  }
+  .flag-sm {
+    width: 18px; height: 13.5px; border-radius: 2px; object-fit: cover;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.12);
+    vertical-align: -2px; flex: none;
+  }
+
+  /* ---------- header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(11,13,17,.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .hbar {
+    max-width: 1400px; margin: 0 auto; padding: 0 28px;
+    height: 64px; display: flex; align-items: center; gap: 24px;
+  }
+  .brand { font-size: 17px; font-weight: 700; letter-spacing: .02em; white-space: nowrap; }
+  .brand b { color: var(--gold); font-weight: 700; }
+  .topnav { display: flex; gap: 4px; margin-left: 20px; }
+  .topnav a {
+    color: var(--dim); text-decoration: none; font-size: 12.5px;
+    padding: 4px 9px; border-radius: 2px; white-space: nowrap;
+  }
+  .topnav a:hover { color: var(--gold); background: var(--gold-dim); }
+  .hmeta { display: flex; gap: 24px; margin-left: auto; align-items: baseline; }
+  .hmeta .item { display: flex; gap: 8px; align-items: baseline; white-space: nowrap; }
+  .hmeta .k { font-size: 12px; color: var(--faint); }
+  .hmeta .v { font-size: 15px; }
+  .pos { color: var(--gold); }
+  .neg { color: var(--red); }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 72px; }
+  .stitle {
+    display: flex; align-items: baseline; gap: 14px;
+    padding-bottom: 14px; margin-bottom: 28px;
+    border-bottom: 1px solid var(--line-strong);
+  }
+  .stitle h2 { font-size: 17px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+  .stitle h2::before { content: ""; width: 8px; height: 8px; background: var(--gold); flex: none; }
+  .stitle .sub { font-size: 12.5px; color: var(--faint); }
+
+  /* ---------- today matches ---------- */
+  .matches { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .match { background: var(--panel); padding: 20px 24px; }
+  .mtop { display: flex; align-items: center; gap: 10px; font-size: 12px; color: var(--faint); margin-bottom: 14px; }
+  .badge {
+    font-size: 11px; padding: 2px 8px; border: 1px solid var(--line-strong);
+    color: var(--dim); border-radius: 2px;
+  }
+  .badge.live { color: var(--gold); border-color: var(--gold); }
+  .badge.done { color: var(--bg); background: var(--gold); border-color: var(--gold); font-weight: 600; }
+  .scoreline { display: flex; align-items: center; gap: 18px; margin-bottom: 14px; }
+  .team { font-size: 19px; font-weight: 700; flex: 1; display: flex; align-items: center; gap: 10px; }
+  .team.away { justify-content: flex-end; }
+  .score { font-size: 34px; font-weight: 700; letter-spacing: .04em; }
+  .score.done { color: var(--gold); }
+  .score.tbd { color: var(--faint); font-size: 22px; }
+  .probbar { display: flex; height: 6px; border-radius: 1px; overflow: hidden; margin-bottom: 8px; }
+  .probbar i { display: block; height: 100%; }
+  .probbar .ph { background: var(--gold); }
+  .probbar .pd { background: #3d4654; }
+  .probbar .pa { background: var(--steel); }
+  .problabel { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--faint); margin-bottom: 12px; }
+  .mnote { font-size: 12.5px; color: var(--dim); border-top: 1px dashed var(--line); padding-top: 10px; }
+  .match.expandable { cursor: pointer; transition: background .15s ease; }
+  .match.expandable:hover { background: var(--panel-2); }
+  .m-expand { display: none; border-top: 1px solid var(--line-strong); margin-top: 12px; padding-top: 12px; }
+  .match.open .m-expand { display: block; }
+  .m-expand table { font-size: 12.5px; margin-bottom: 8px; }
+  .m-hint { font-size: 11px; color: var(--faint); text-align: right; margin-top: 8px; }
+
+  /* ---------- modal (下钻对话框) ---------- */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(5,7,10,.72); backdrop-filter: blur(4px);
+    z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px;
+  }
+  .modal {
+    width: min(900px, 94vw); max-height: 86vh; overflow-y: auto;
+    background: #14171d; border: 1px solid var(--line-strong); border-radius: 6px;
+    box-shadow: 0 28px 90px rgba(0,0,0,.65);
+  }
+  .modal-head {
+    position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 22px; background: #14171d; border-bottom: 1px solid var(--line-strong); z-index: 2;
+  }
+  .modal-title { font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+  .modal-x { cursor: pointer; color: var(--faint); font-size: 18px; background: none; border: none; padding: 4px 8px; }
+  .modal-x:hover { color: var(--txt); }
+  .modal-tabs { display: flex; gap: 2px; padding: 8px 22px 0; border-bottom: 1px solid var(--line); position: sticky; top: 49px; background: #14171d; z-index: 2; }
+  .mtab {
+    padding: 8px 15px; font-size: 13px; color: var(--dim); cursor: pointer;
+    border: none; background: none; border-bottom: 2px solid transparent; font-family: inherit;
+  }
+  .mtab.active { color: var(--gold); border-bottom-color: var(--gold); font-weight: 600; }
+  .modal-body { padding: 26px 30px; }
+  .modal-body table { font-size: 13px; }
+  .bi-block { margin-bottom: 18px; padding: 16px 20px; background: var(--panel); border-left: 2px solid var(--gold); line-height: 1.85; }
+  .bi-block.en { border-left-color: var(--steel); font-size: 13px; color: var(--dim); }
+  .bi-lang { font-size: 11px; color: var(--faint); letter-spacing: .08em; margin-bottom: 6px; }
+  .src-line { font-size: 11.5px; color: var(--faint); margin-top: 10px; }
+
+  /* ---------- compact top (战报+明日 并排) ---------- */
+  .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
+  .mini {
+    background: var(--panel); border: 1px solid var(--line); padding: 18px 20px;
+    margin-bottom: 14px; cursor: pointer; transition: border-color .15s ease, background .15s ease;
+  }
+  .mini:hover { border-color: rgba(233,180,76,.55); background: var(--panel-2); }
+  .mini-top { display: flex; align-items: center; gap: 10px; }
+  .mini-teams { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; flex: 1; flex-wrap: wrap; }
+  .mini-score { font-family: var(--mono); font-weight: 700; font-size: 19px; color: var(--gold); white-space: nowrap; }
+  .mini-time { font-family: var(--mono); font-size: 13px; color: var(--dim); white-space: nowrap; }
+  .mini-meta { font-size: 11.5px; color: var(--faint); display: flex; gap: 14px; margin-top: 11px; flex-wrap: wrap; }
+  .mini-meta .pos2 { color: var(--gold); font-weight: 600; }
+  .mini .probbar { margin: 12px 0 0; height: 4px; }
+  .mini-hint { font-size: 10.5px; color: var(--faint); text-align: right; margin-top: 6px; }
+
+  /* ---------- tomorrow battle cards ---------- */
+  .tmr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 16px; }
+  .tmr-card {
+    border: 1px solid rgba(233,180,76,.35); background: linear-gradient(180deg, rgba(233,180,76,.05), transparent 40%), var(--panel);
+    padding: 20px 24px; position: relative;
+  }
+  .tmr-card .when { font-size: 12px; color: var(--faint); display: flex; gap: 10px; margin-bottom: 12px; }
+  .tmr-teams { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+  .tmr-teams .vs { color: var(--faint); font-size: 13px; font-weight: 400; }
+  .pickrow { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+  .pick {
+    border: 1px solid rgba(233,180,76,.5); background: var(--gold-dim); color: var(--gold);
+    font-size: 12.5px; padding: 4px 11px; border-radius: 2px; font-weight: 600;
+  }
+  .pick.sub { border-color: var(--line-strong); background: transparent; color: var(--dim); font-weight: 400; }
+  .tmr-key { font-size: 12.5px; color: var(--dim); border-top: 1px dashed var(--line); padding-top: 10px; }
+  .tmr-key b { color: var(--txt); }
+  .drill-btn {
+    margin-top: 12px; display: inline-block; font-size: 12.5px; color: var(--gold);
+    cursor: pointer; border: 1px solid rgba(233,180,76,.4); padding: 5px 14px; border-radius: 2px;
+    background: transparent; font-family: inherit;
+  }
+  .drill-btn:hover { background: var(--gold-dim); }
+  .tmr-plan {
+    display: flex; gap: 38px; flex-wrap: wrap; padding: 18px 26px;
+    background: var(--panel-2); border-left: 2px solid var(--gold);
+  }
+  .tmr-plan .blk .k { font-size: 11.5px; color: var(--faint); display: block; }
+  .tmr-plan .blk .v { font-size: 16px; font-weight: 700; }
+
+  /* ---------- odds drilldown ---------- */
+  .odds-scroll tbody tr.clickable { cursor: pointer; }
+  .drill-row td { background: var(--panel-2) !important; padding: 14px 18px; }
+  .crs-grid { display: flex; gap: 8px; flex-wrap: wrap; }
+  .crs-chip {
+    border: 1px solid var(--line-strong); padding: 4px 10px; font-size: 12px;
+    border-radius: 2px; color: var(--dim);
+  }
+  .crs-chip b { color: var(--txt); font-family: var(--mono); }
+  .intl-line { margin-top: 10px; font-size: 12.5px; color: var(--steel); }
+  .intl-cell { color: var(--steel); }
+  .predrow { display: flex; gap: 18px; font-size: 12.5px; margin-bottom: 10px; }
+  .predrow .k { color: var(--faint); }
+  .hit { color: var(--gold); font-weight: 600; }
+  .miss { color: var(--faint); text-decoration: line-through; }
+
+  /* ---------- ledger ---------- */
+  .ledger-grid { display: grid; grid-template-columns: 5fr 4fr; gap: 52px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-weight: 500; font-size: 12px; color: var(--faint); padding: 10px 12px; border-bottom: 1px solid var(--line-strong); white-space: nowrap; }
+  td { padding: 12px 12px; border-bottom: 1px solid var(--line); }
+  tbody tr { transition: background .12s ease; }
+  tbody tr:hover { background: rgba(255,255,255,.03); }
+  tr:last-child td { border-bottom: none; }
+  td.r, th.r { text-align: right; }
+  .st-win { color: var(--gold); font-weight: 600; }
+  .st-lose { color: var(--faint); }
+  .st-pending { color: var(--steel); }
+  .sumrow { display: flex; gap: 44px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line-strong); }
+  .sumrow .blk .k { font-size: 12px; color: var(--faint); display: block; }
+  .sumrow .blk .v { font-size: 20px; font-weight: 700; }
+  .chartbox { width: 100%; }
+  .chart-h260 { height: 260px; }
+  .chart-h280 { height: 280px; }
+  .charthead { font-size: 13px; color: var(--dim); margin-bottom: 10px; }
+
+  /* ---------- bankroll ---------- */
+  .bank-grid { display: grid; grid-template-columns: 4fr 5fr; gap: 52px; align-items: start; }
+  .bank-now {
+    display: flex; gap: 46px; align-items: baseline; flex-wrap: wrap;
+    background: var(--panel); border: 1px solid var(--line);
+    padding: 22px 28px; margin-bottom: 14px;
+  }
+  .bank-now .blk .k { font-size: 12px; color: var(--faint); display: block; }
+  .bank-now .blk .v { font-size: 28px; font-weight: 700; }
+  .bank-now .blk .v small { font-size: 13px; color: var(--faint); font-weight: 400; }
+  .ms-strip { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
+  .ms {
+    flex: 1; min-width: 110px; border: 1px solid var(--line-strong); padding: 13px 14px;
+    border-radius: 2px; text-align: center;
+  }
+  .ms .t { font-size: 17px; font-weight: 700; font-family: var(--mono); color: var(--gold); }
+  .ms .l { font-size: 11px; color: var(--faint); }
+  .rules-table td:first-child { color: var(--gold); white-space: nowrap; font-weight: 600; font-size: 12.5px; }
+  .rules-table td { font-size: 12.5px; color: var(--dim); padding: 12px 12px; line-height: 1.75; }
+  .rules-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .rule-card {
+    background: var(--panel); border: 1px solid var(--line); padding: 16px 20px;
+  }
+  .rule-card .rk { color: var(--gold); font-weight: 600; font-size: 13px; margin-bottom: 8px; }
+  .rule-card .rv { color: var(--dim); font-size: 12.5px; line-height: 1.75; }
+  .ev-ledger { margin-top: 8px; }
+  .ev-ledger .lnote { font-size: 12px; color: var(--faint); }
+  .ev-cum {
+    margin-top: 18px; padding: 15px 20px; background: var(--panel-2);
+    border-left: 2px solid var(--steel); font-size: 12.5px; color: var(--dim);
+  }
+  .ev-cum b { color: var(--txt); }
+  .matrix-wrap td, .matrix-wrap th { font-size: 13px; }
+  .pbar { display: inline-block; height: 8px; background: #3d4654; border-radius: 1px; vertical-align: middle; }
+  .pbar.win { background: var(--gold); }
+
+  /* ---------- slip summary ---------- */
+  .slip-sum {
+    display: flex; gap: 36px; flex-wrap: wrap; margin-top: 22px; padding: 16px 22px;
+    background: var(--panel-2); border-left: 2px solid var(--gold);
+  }
+  .slip-sum .blk .k { font-size: 11.5px; color: var(--faint); display: block; }
+  .slip-sum .blk .v { font-size: 16px; font-weight: 700; }
+  .tier { font-size: 11px; padding: 1px 7px; border: 1px solid var(--line-strong); border-radius: 2px; color: var(--dim); white-space: nowrap; }
+  .tier.core { color: var(--gold); border-color: rgba(233,180,76,.5); }
+  .tier.multi { color: var(--steel); border-color: rgba(125,156,187,.5); }
+
+  /* ---------- focus ---------- */
+  .focus-block { border: 1px solid var(--line); background: var(--panel); padding: 32px 36px; margin-bottom: 36px; }
+  .fhead { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; margin-bottom: 12px; }
+  .fhead h3 { font-size: 18px; font-weight: 700; }
+  .fhead .meta { font-size: 12.5px; color: var(--faint); }
+  .oddstrip { display: flex; gap: 12px; margin: 14px 0 26px; flex-wrap: wrap; }
+  .ochip {
+    border: 1px solid var(--line-strong); padding: 8px 14px; font-size: 12.5px; color: var(--dim);
+    display: flex; gap: 8px; align-items: baseline; border-radius: 2px;
+  }
+  .ochip .o { font-size: 14px; color: var(--txt); }
+  .ochip.good { border-color: var(--gold); background: var(--gold-dim); }
+  .ochip.good .o { color: var(--gold); font-weight: 700; }
+  .ochip .vs { font-size: 11px; }
+  .fgrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 34px; }
+  .verdict {
+    margin-top: 26px; padding: 16px 22px; background: var(--panel-2);
+    border-left: 2px solid var(--gold); font-size: 13px; color: var(--dim); line-height: 1.8;
+  }
+  .verdict b { color: var(--txt); }
+
+  /* ---------- odds table ---------- */
+  .odds-scroll { max-height: 430px; overflow-y: auto; border: 1px solid var(--line); }
+  .odds-scroll table { font-size: 13px; }
+  .odds-scroll thead th { position: sticky; top: 0; background: var(--panel-2); z-index: 1; }
+  .rowhl td { background: var(--gold-dim); }
+  .updated { font-size: 11.5px; color: var(--faint); }
+
+  /* ---------- news ---------- */
+  .news-list { border: 1px solid var(--line); }
+  .news-item { display: flex; gap: 16px; padding: 17px 22px; border-bottom: 1px solid var(--line); align-items: baseline; background: var(--panel); border-left: 3px solid transparent; }
+  .news-item.home { border-left-color: var(--gold); }
+  .news-item.away { border-left-color: var(--steel); }
+  .news-item.neutral { border-left-color: rgba(255,255,255,.18); }
+  .news-item:last-child { border-bottom: none; }
+  .news-date { font-size: 12px; color: var(--faint); white-space: nowrap; }
+  .tag { font-size: 11px; padding: 2px 8px; border-radius: 2px; white-space: nowrap; border: 1px solid var(--line-strong); color: var(--dim); }
+  .tag.home { color: var(--gold); border-color: rgba(233,180,76,.5); }
+  .tag.away { color: var(--steel); border-color: rgba(125,156,187,.5); }
+  .news-text { font-size: 13px; color: var(--dim); }
+  .news-text b { color: var(--txt); font-weight: 600; }
+
+  /* ---------- slip ---------- */
+  .slip-grid { display: grid; grid-template-columns: 5fr 4fr; gap: 52px; align-items: start; }
+  .slip-note { font-size: 12.5px; color: var(--faint); margin-bottom: 14px; }
+  .ticket {
+    position: relative; border-radius: 8px; overflow: hidden;
+    background: #f2ecdb; color: #261f12;
+    box-shadow: 0 10px 36px rgba(0,0,0,.5);
+  }
+  .t-head {
+    display: flex; justify-content: space-between; align-items: center;
+    background: #b8453a; color: #f6efe0; padding: 11px 18px;
+    font-size: 13.5px; font-weight: 700; letter-spacing: .08em;
+  }
+  .t-head .num { font-weight: 400; letter-spacing: 0; opacity: .9; }
+  .t-body {
+    padding: 18px 20px 14px; font-family: var(--mono); font-size: 13px;
+    white-space: pre-wrap; line-height: 1.8; color: #2b2415;
+  }
+  .t-perf {
+    position: relative; border-top: 2px dashed rgba(38,31,18,.3); margin: 0 6px;
+  }
+  .t-perf::before, .t-perf::after {
+    content: ""; position: absolute; top: -9px; width: 18px; height: 18px;
+    border-radius: 50%; background: var(--bg);
+  }
+  .t-perf::before { left: -16px; }
+  .t-perf::after { right: -16px; }
+  .t-foot {
+    display: flex; justify-content: space-between; padding: 11px 18px 13px;
+    font-size: 12px; color: #6e6047; font-family: var(--mono);
+  }
+  .t-foot b { color: #261f12; }
+  .copybtn {
+    margin-top: 14px; width: 100%; padding: 13px 0;
+    background: var(--gold); color: #1a1408; border: none;
+    font-size: 15px; font-weight: 700; cursor: pointer; border-radius: 2px;
+    font-family: inherit; letter-spacing: .05em;
+    transition: transform .1s ease, opacity .15s ease;
+  }
+  .copybtn:hover { opacity: .92; }
+  .copybtn:active { transform: scale(.985); }
+  .copybtn.copied { background: #2a3140; color: var(--gold); }
+  .vgood { color: var(--gold); font-weight: 600; }
+  .vbad { color: var(--faint); }
+
+  /* ---------- calibration ---------- */
+  .cal-stats { display: flex; gap: 46px; margin-bottom: 26px; }
+  .cal-stats .blk .k { font-size: 12px; color: var(--faint); display: block; }
+  .cal-stats .blk .v { font-size: 22px; font-weight: 700; }
+  .cal-rec { border: 1px solid var(--line); background: var(--panel); padding: 22px 26px; margin-bottom: 16px; }
+  .cal-head { display: flex; gap: 14px; align-items: baseline; margin-bottom: 6px; flex-wrap: wrap; }
+  .cal-head .m { font-weight: 700; }
+  .cal-note { font-size: 12.5px; color: var(--dim); }
+
+  footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--faint); display: flex; gap: 24px; flex-wrap: wrap; }
+
+  @media (max-width: 900px) {
+    .wrap { padding: 0 14px 48px; }
+    .hbar { padding: 0 14px; gap: 12px; height: auto; min-height: 56px; flex-wrap: wrap; }
+    .hmeta { gap: 14px; }
+    .matches, .ledger-grid, .fgrid, .slip-grid, .bank-grid, .tmr-grid, .rules-grid, .top-grid { grid-template-columns: 1fr; }
+    .topnav { display: none; }
+    body { font-size: 13.5px; }
+    section { margin-top: 52px; }
+    .stitle { flex-wrap: wrap; gap: 8px; }
+    .score { font-size: 26px; }
+    .hbar { padding: 10px 16px; row-gap: 6px; }
+    .hmeta { gap: 16px; }
+    /* 大数字与条带收紧 */
+    .bank-now { padding: 16px 18px; gap: 26px; }
+    .bank-now .blk .v { font-size: 21px; }
+    .ms { min-width: 86px; padding: 10px 8px; }
+    .ms .t { font-size: 15px; }
+    .tmr-plan, .slip-sum, .sumrow { gap: 22px; }
+    .focus-block { padding: 20px 16px; }
+    .mini { padding: 14px 14px; }
+    .fhead h3 { font-size: 16px; }
+    /* 宽表格横向滑动(触屏惯性) */
+    .odds-scroll, .matrix-wrap, .ev-ledger,
+    .ledger-grid > div:first-child, .slip-grid > div:first-child { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    #odds-table { min-width: 780px; }
+    #ticket-table, #slip-table, #matrix-table, #ev-ledger-table { min-width: 600px; }
+    /* 弹窗适配 */
+    .modal { max-height: 92vh; width: 96vw; }
+    .modal-tabs { overflow-x: auto; white-space: nowrap; }
+    .modal-body { padding: 18px 14px; overflow-x: auto; }
+    .modal-body table { min-width: 520px; }
+    .news-item { flex-wrap: wrap; row-gap: 6px; }
+    .chartbox { max-width: 100%; }
+    #chart-bankroll { height: 250px !important; }
+    #chart-equity { height: 220px !important; }
+    .fgrid { gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <div class="brand">WC26 <b>竞彩作战板</b></div>
+    <nav class="topnav">
+      <a href="#sec-report">战报</a><a href="#sec-tomorrow">明日</a><a href="#sec-bank">资金池</a><a href="#sec-focus">深析</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
+    </nav>
+    <div class="hmeta">
+      <div class="item"><span class="k">轮次</span><span class="v" id="h-round"></span></div>
+      <div class="item"><span class="k">本轮投入</span><span class="v num" id="h-invested"></span></div>
+      <div class="item"><span class="k">已回收</span><span class="v num pos" id="h-returned"></span></div>
+      <div class="item"><span class="k">在场</span><span class="v num" id="h-pending"></span></div>
+      <div class="item"><span class="k">赔率快照</span><span class="v num updated" id="h-odds-time"></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 战报 + 明日作战(并排) -->
+  <section id="sec-report">
+    <div class="top-grid">
+      <div>
+        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">点击下钻</span></div>
+        <div id="report-list"></div>
+      </div>
+      <div id="sec-tomorrow">
+        <div class="stitle"><h2>明日作战</h2><span class="sub">点击下钻 · 预测与买点</span></div>
+        <div id="tmr-list"></div>
+      </div>
+    </div>
+    <div class="tmr-plan" id="tmr-plan" style="margin-top:6px"></div>
+  </section>
+
+  <!-- 账本 -->
+  <section>
+    <div class="stitle"><h2>持仓账本</h2><span class="sub">本轮票据与终局推演</span></div>
+    <div class="ledger-grid">
+      <div>
+        <table id="ticket-table">
+          <thead><tr><th>对阵</th><th>投注项</th><th class="r">金额</th><th class="r">赔率</th><th class="r">状态</th><th class="r">返还</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div>
+        <div class="charthead">韩捷四种终局推演(赛前) · 已兑现:韩国胜 +55.5,赛前概率最高的剧本(41%)</div>
+        <div id="chart-scenario" class="chartbox chart-h280"></div>
+      </div>
+    </div>
+    <div class="sumrow" id="ledger-sum"></div>
+  </section>
+
+  <!-- 资金池作战计划 -->
+  <section id="sec-bank">
+    <div class="stitle"><h2>资金池作战计划</h2><span class="sub">本金不亏 → 风险可控下利润最大化 → 北极星 ×100(2万) · 安全垫机制 · 对数坐标</span></div>
+    <!-- 全宽上下流:状态条 → 里程碑 → 曲线 → 规则网格 → 台账 → 收益曲线 -->
+    <div class="bank-now" id="bank-now"></div>
+    <div class="ms-strip" id="ms-strip"></div>
+
+    <div class="charthead" id="bank-chart-head" style="margin-top:40px">资金池曲线:实际(实线) vs 目标轨迹(虚线)</div>
+    <div id="chart-bankroll" class="chartbox" style="height:320px"></div>
+
+    <div class="charthead" style="margin:44px 0 14px">作战规则 · 九条纪律</div>
+    <div class="rules-grid" id="rules-grid"></div>
+
+    <div class="ev-ledger">
+      <div class="charthead" style="margin:44px 0 10px">每晚投放 EV 台账 · 当晚记期望,结算回填实际</div>
+      <table id="ev-ledger-table">
+        <thead><tr><th>投放日</th><th>内容</th><th class="r">投放</th><th class="r">期望</th><th class="r">盈利概率</th><th class="r">实际</th><th class="r">实际-期望</th><th>状态</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="ev-cum" id="ev-cum"></div>
+    </div>
+
+    <div class="equity-wrap">
+      <div class="charthead" style="margin:44px 0 10px">收益曲线 · 日频资金池(已结算现金,线性坐标) · <span style="color:var(--gold)">悬停任意点看当日逐笔记录</span></div>
+      <div id="chart-equity" class="chartbox" style="height:260px"></div>
+    </div>
+  </section>
+
+  <!-- 明日焦点 -->
+  <section id="sec-focus">
+    <div class="stitle"><h2>明日焦点 · 模型深析</h2><span class="sub">四模型:A 竞彩去水 / B Elo / C Poisson+DC / D 国际共识</span></div>
+    <div id="focus-blocks"></div>
+  </section>
+
+  <!-- 赔率监控 -->
+  <section id="sec-odds">
+    <div class="stitle"><h2>赔率监控</h2><span class="sub">竞彩官方(结算基准) + 国际共识(参考维度,蓝色) · 点击行展开比分赔率</span></div>
+    <div class="odds-scroll">
+      <table id="odds-table">
+        <thead><tr><th>编号</th><th>对阵</th><th>开赛(北京)</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th><th class="r">让球线</th><th class="r intl-cell">国际共识折合欧赔 主/平/客</th><th class="r">更新</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 情报流 -->
+  <section id="sec-news">
+    <div class="stitle"><h2>情报流</h2><span class="sub">伤停 · 教练 · 战术 · 市场资金信号,标注对盘口的影响方向</span></div>
+    <div class="news-list" id="news-list"></div>
+  </section>
+
+  <!-- 下单草案 -->
+  <section id="sec-slip">
+    <div class="stitle"><h2>明日下单草案</h2><span class="sub" id="slip-title"></span></div>
+    <div class="slip-grid">
+      <div>
+        <div class="slip-note" id="slip-status"></div>
+        <table id="slip-table">
+          <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="slip-sum" id="slip-sum"></div>
+      </div>
+      <div>
+        <div class="ticket">
+          <div class="t-head"><span>竞彩足球 · 单关投注单</span><span class="num">2026-06-13</span></div>
+          <div class="t-body" id="slip-paper"></div>
+          <div class="t-perf"></div>
+          <div class="t-foot"><span>合计 <b>110 元</b> · 4 单关 + 1 个 2串1</span><span>理性购彩 · 量力而行</span></div>
+        </div>
+        <button class="copybtn" id="copy-btn">复制下单文案 · 发给老板</button>
+      </div>
+    </div>
+    <div class="matrix-wrap">
+      <div class="charthead" style="margin:34px 0 10px">全结局矩阵 · 8 种组合从最优到最劣,概率合计 100%</div>
+      <table id="matrix-table">
+        <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 校准记录 -->
+  <section id="sec-cal">
+    <div class="stitle"><h2>校准记录</h2><span class="sub">模型好不好,用命中率说话</span></div>
+    <div class="cal-stats" id="cal-stats"></div>
+    <div id="cal-records"></div>
+  </section>
+
+  <footer>
+    <span id="f-disclaimer"></span>
+  </footer>
+</div>
+
+<script>
+// 数据文件带时间戳加载,绕开浏览器启发式缓存(每小时自动更新必须即时可见)
+document.write(`<script src="data.js?t=${Date.now()}"><\/script><script src="odds_data.js?t=${Date.now()}"><\/script><script src="intl_data.js?t=${Date.now()}"><\/script>`);
+</script>
+<script>
+const D = window.DASH_DATA, O = window.ODDS_DATA, I = window.INTL_DATA || {};
+const fmt = n => (n > 0 ? "+" : "") + n.toFixed(1);
+
+/* ---------- flags ---------- */
+const FLAG_MAP = {
+  "墨西哥":"mx","南非":"za","韩国":"kr","捷克":"cz","加拿大":"ca","波黑":"ba","美国":"us","巴拉圭":"py",
+  "卡塔尔":"qa","瑞士":"ch","巴西":"br","摩洛哥":"ma","海地":"ht","苏格兰":"gb-sct","澳大利亚":"au","土耳其":"tr",
+  "德国":"de","库拉索":"cw","荷兰":"nl","日本":"jp","科特迪瓦":"ci","厄瓜多尔":"ec","瑞典":"se","突尼斯":"tn",
+  "西班牙":"es","佛得角":"cv","比利时":"be","埃及":"eg","沙特":"sa","乌拉圭":"uy","伊朗":"ir","新西兰":"nz",
+  "法国":"fr","塞内加尔":"sn","伊拉克":"iq","挪威":"no","阿根廷":"ar","阿尔及利亚":"dz","奥地利":"at","约旦":"jo",
+  "葡萄牙":"pt","刚果":"cd","乌兹别克":"uz","哥伦比亚":"co","英格兰":"gb-eng","克罗地亚":"hr","加纳":"gh","巴拿马":"pa"
+};
+function flagOf(team) {
+  if (FLAG_MAP[team]) return FLAG_MAP[team];
+  for (const k in FLAG_MAP) if (team.includes(k) || k.includes(team)) return FLAG_MAP[k];
+  return null;
+}
+function flag(team, cls = "flag") {
+  const c = flagOf(team);
+  if (!c) return "";
+  const src = (window.FLAG_DATA && window.FLAG_DATA[c]) || `assets/flags/${c}.svg`;
+  return `<img class="${cls}" src="${src}" alt="${team}">`;
+}
+const GOLD = "#e9b44c", RED = "#e5484d", STEEL = "#7d9cbb", DIM = "#3d4654", FAINT = "#646c78";
+const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axisLabel: { color: "#9aa3ad", fontSize: 11 }, splitLine: { lineStyle: { color: "rgba(255,255,255,.06)" } } };
+
+/* ---------- header ---------- */
+document.getElementById("h-round").textContent = D.meta.round;
+document.getElementById("h-invested").textContent = D.holdings.invested + " 元";
+document.getElementById("h-returned").textContent = D.holdings.returned.toFixed(1) + " 元";
+document.getElementById("h-pending").textContent = D.holdings.pendingStake + " 元";
+document.getElementById("h-odds-time").textContent = O ? O.fetched_at : "未加载";
+document.getElementById("f-disclaimer").textContent = D.meta.disclaimer + " 数据源:" + (O ? O.source : "") + " · 策展更新 " + D.meta.updated;
+
+/* ---------- modal 下钻系统 ---------- */
+function escClose(e) { if (e.key === "Escape") closeModal(); }
+function closeModal() { const o = document.getElementById("modal-ov"); if (o) o.remove(); document.removeEventListener("keydown", escClose); }
+function switchTab(i) {
+  document.querySelectorAll(".mtab").forEach((b, j) => b.classList.toggle("active", j === i));
+  document.querySelectorAll(".mpanel").forEach((p, j) => p.style.display = j === i ? "" : "none");
+}
+function openModal(title, tabs) {
+  closeModal();
+  const ov = document.createElement("div");
+  ov.className = "modal-overlay"; ov.id = "modal-ov";
+  ov.innerHTML = `<div class="modal"><div class="modal-head"><span class="modal-title">${title}</span><button class="modal-x" onclick="closeModal()">✕</button></div>` +
+    (tabs.length > 1 ? `<div class="modal-tabs">${tabs.map((t, i) => `<button class="mtab ${i === 0 ? "active" : ""}" onclick="switchTab(${i})">${t.label}</button>`).join("")}</div>` : "") +
+    tabs.map((t, i) => `<div class="modal-body mpanel" style="display:${i === 0 ? "" : "none"}">${t.html}</div>`).join("") + `</div>`;
+  ov.addEventListener("click", ev => { if (ev.target === ov) closeModal(); });
+  document.body.appendChild(ov);
+  document.addEventListener("keydown", escClose);
+}
+const biNews = n => {
+  const links = (n.links || []).map(l => `<a href="${l.url}" target="_blank" style="color:var(--steel)">${l.name} ↗</a>`).join(" · ");
+  const q = encodeURIComponent(((n.enFull || n.en || n.text) + "").slice(0, 80));
+  return `
+  <div class="bi-block"><div class="bi-lang">中文${n.full ? " · 完整编译" : " · 摘要"}</div>${n.full || n.text}</div>
+  ${(n.enFull || n.en) ? `<div class="bi-block en"><div class="bi-lang">ENGLISH${n.enFull ? " · FULL SUMMARY" : " · 摘要"}</div>${n.enFull || n.en}</div>` : ""}
+  <div class="src-line">${n.date} · ${n.match} · 影响判定: ${n.impact}</div>
+  <div class="src-line">原文来源: ${links || '<span style="color:var(--faint)">信源见文末括注</span>'} &nbsp;·&nbsp; <a target="_blank" style="color:var(--faint)" href="https://www.google.com/search?q=${q}">搜索更多报道 ↗</a></div>`;
+};
+const newsListHtml = (home, away) => {
+  const list = D.news.filter(n => n.match === `${home} vs ${away}`);
+  return list.length ? list.map(biNews).join("") : '<span style="color:var(--faint)">暂无该场情报</span>';
+};
+// 国际机构逐家明细表(odds=机构原始欧赔;概率市场则折合公平赔率=1/概率)
+const intlDetail = intl => {
+  if (!intl || !intl.entries || !intl.entries.length) return "";
+  const rows = intl.entries.map(e => {
+    const odds = e.odds ? e.odds.map(o => Number(o).toFixed(2)).join(" / ")
+                        : e.probs.map(p => (1 / p).toFixed(2)).join(" / ") + ' <span style="color:var(--faint)">(折合)</span>';
+    return `<tr><td>${e.src}</td><td class="r num">${e.w.toFixed(1)}</td>
+      <td class="r num">${(e.probs[0]*100).toFixed(1)}%</td><td class="r num">${(e.probs[1]*100).toFixed(1)}%</td><td class="r num">${(e.probs[2]*100).toFixed(1)}%</td>
+      <td class="r num">${odds}</td></tr>`;
+  }).join("");
+  return `
+    <div class="charthead" style="margin:16px 0 6px">国际机构逐家明细 · 快照 ${intl.ts.slice(5, 16)}</div>
+    <table><thead><tr><th>机构</th><th class="r">权重</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th><th class="r">欧赔 主/平/客</th></tr></thead><tbody>${rows}</tbody></table>
+    <div class="src-line">权重: Pinnacle 3.0 > Betfair 2.5 > bet365/Unibet 2.0 > 其他 1.0 · Polymarket(预测市场) 1.5;概率市场无传统赔率,折合=1/概率(公平价,无抽水)。注册 The Odds API 免费 key 后,这里将列出 Pinnacle/bet365/WilliamHill 等数十家真实欧赔。</div>`;
+};
+
+/* ---------- 战报 minis + 下钻 ---------- */
+const stMap = { win: ["✓ 中奖", "st-win"], lose: ["✕ 未中", "st-lose"], pending: ["⋯ 在场", "st-pending"] };
+window.openReport = i => {
+  const m = D.todayMatches[i];
+  const e = m.ensemble;
+  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}`);
+  const tRows = matchTickets.map(t => { const [lb, cl] = stMap[t.status];
+    return `<tr><td>${t.pick}</td><td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td><td class="r ${cl}">${lb}</td><td class="r num ${cl}">${t.payout === null ? "-" : t.payout.toFixed(1)}</td></tr>`; }).join("");
+  const tPnl = matchTickets.reduce((s, t) => s + (t.payout || 0) - t.stake, 0);
+  const calRec = D.calibration.records.find(r => r.match === `${m.home} vs ${m.away}`);
+  openModal(`${flag(m.home, "flag-sm")} ${m.home} ${m.actual || "vs"} ${m.away} ${flag(m.away, "flag-sm")} · ${m.num}`, [
+    { label: "战况与复盘", html: `
+        <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
+        <div class="problabel"><span>主胜 ${e.h}%</span><span>平 ${e.d}%</span><span>客胜 ${e.a}%</span></div>
+        <div class="bi-block"><div class="bi-lang">战况</div>${m.note}</div>
+        ${calRec ? `<div class="bi-block" style="border-left-color:var(--red)"><div class="bi-lang">复盘教训</div>${calRec.note}</div>` : ""}` },
+    { label: `票据(${fmt(tPnl)})`, html: matchTickets.length ? `<table><thead><tr><th>投注项</th><th class="r">金额</th><th class="r">赔率</th><th class="r">结果</th><th class="r">返还</th></tr></thead><tbody>${tRows}</tbody></table><div class="src-line">本场合计盈亏 ${fmt(tPnl)} 元</div>` : "本场无持仓" },
+    { label: "预测对照", html: `
+        <table><thead><tr><th>口径</th><th class="r">预测</th><th class="r">命中</th></tr></thead><tbody>
+        <tr><td>手工首选比分</td><td class="r num">${m.predManual}</td><td class="r">${m.actual === m.predManual ? "✓" : "✗"}</td></tr>
+        <tr><td>模型首选比分</td><td class="r num">${m.predModel}</td><td class="r">${m.actual === m.predModel ? "✓" : "✗"}</td></tr>
+        <tr><td>集成胜平负概率</td><td class="r num">主${e.h} / 平${e.d} / 客${e.a}</td><td class="r">${calRec && calRec.dirHit ? "方向✓" : "—"}</td></tr>
+        <tr><td>实际比分</td><td class="r num"><b style="color:var(--gold)">${m.actual || "-"}</b></td><td></td></tr></tbody></table>
+        ${calRec && calRec.briers ? `
+        <div class="charthead" style="margin:16px 0 6px">本场各模型 Brier 实测(越低越准,随机=0.667)</div>
+        <table><thead><tr><th>模型</th><th class="r">Brier</th><th class="r">表现</th></tr></thead><tbody>
+        ${Object.entries(calRec.briers).map(([k, v]) => {
+          const name = { A: "A 竞彩去水", B: "B Elo", C: "C Poisson", ens: "集成" }[k] || k;
+          const best = Math.min(...Object.values(calRec.briers));
+          return `<tr${k === "ens" ? ' style="color:var(--gold)"' : ""}><td>${name}</td><td class="r num">${v.toFixed(3)}</td><td class="r">${v === best ? "本场最准 ★" : (v < 0.333 ? "好" : v < 0.55 ? "中" : "差")}</td></tr>`;
+        }).join("")}</tbody></table>
+        <div class="src-line">这些分数实时喂给 learn.py 的乘法权重——准的模型话语权变大,这就是"自进化"的原料。</div>` : ""}` },
+    { label: "情报(中英)", html: newsListHtml(m.home, m.away) }
+  ]);
+};
+const repWrap = document.getElementById("report-list");
+D.todayMatches.forEach((m, i) => {
+  const e = m.ensemble;
+  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}`);
+  const tPnl = matchTickets.reduce((s, t) => s + (t.payout || 0) - t.stake, 0);
+  repWrap.insertAdjacentHTML("beforeend", `
+    <div class="mini" onclick="openReport(${i})">
+      <div class="mini-top">
+        <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${m.actual ? m.actual : "vs"}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
+        ${matchTickets.length ? `<span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span>` : ""}
+      </div>
+      <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
+      <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span><span style="margin-left:auto">下钻 ▸</span></div>
+    </div>`);
+});
+
+/* ---------- 明日作战 minis + 下钻 ---------- */
+window.openTmr = idx => {
+  const f = D.focus[idx];
+  const intl = I[f.num];
+  const modelRows = [["A 竞彩去水", f.models.A], ["B Elo", f.models.B], ["C Poisson+DC", f.models.C]]
+    .concat(intl ? [["D 国际共识 · " + intl.sources.join("+"), intl.probs.map(x => x * 100)]] : [])
+    .concat([["集成(学习权重)", f.models.ens]])
+    .map(([n, p]) => `<tr${n.startsWith("集成") ? ' style="color:var(--gold);font-weight:700"' : ""}><td>${n}</td><td class="r num">${p[0].toFixed(1)}%</td><td class="r num">${p[1].toFixed(1)}%</td><td class="r num">${p[2].toFixed(1)}%</td></tr>`).join("");
+  const wdl = f.wdlValue.map(w => `<tr><td>${w.pick}</td><td class="r num">@${w.odds.toFixed(2)}</td><td class="r num">${w.prob}%</td><td class="r num ${w.value >= 0.85 ? "vgood" : "vbad"}">${w.value.toFixed(2)}</td></tr>`).join("");
+  const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 0.85 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
+  const myTickets = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)))
+    .map(it => `<tr><td>${it.pick}</td><td><span class="tier">${it.tier}</span></td><td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td><td class="r num ${it.value >= 0.85 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td><td class="r num">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`).join("");
+  openModal(`${flag(f.home, "flag-sm")} ${f.home} vs ${f.away} ${flag(f.away, "flag-sm")} · ${f.num} · ${f.time}`, [
+    { label: "概率与价值", html: `
+        <table style="margin-bottom:16px"><thead><tr><th>模型</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>${modelRows}</tbody></table>
+        <table><thead><tr><th>胜平负</th><th class="r">竞彩赔率</th><th class="r">集成概率</th><th class="r">价值分</th></tr></thead><tbody>${wdl}</tbody></table>
+        ${intlDetail(intl)}
+        <div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${f.verdict}</div>
+        <button class="drill-btn" onclick="closeModal();document.querySelectorAll('.focus-block')[${idx}].scrollIntoView({behavior:'smooth'})">三图深析(模型柱图/六维雷达/比分价值) ↓</button>` },
+    { label: "比分分布", html: `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥0.85 可买;EV/元 = 概率×赔率−1</div>` },
+    { label: "我们的票", html: myTickets ? `<table><thead><tr><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值</th><th class="r">EV</th></tr></thead><tbody>${myTickets}</tbody></table>` : "本场暂无票" },
+    { label: "情报(中英)", html: newsListHtml(f.home, f.away) }
+  ]);
+};
+/* ---------- 图表"为什么"下钻 ---------- */
+window.openWhy = (idx, kind) => {
+  const f = D.focus[idx];
+  if (kind === "radar" && f.radarWhy) {
+    const rows = f.radarWhy.map(r => `
+      <tr><td style="white-space:nowrap;color:var(--gold);font-weight:600">${r.dim}</td>
+      <td><b class="num">${r.h}</b> · ${r.hw}</td>
+      <td><b class="num">${r.a}</b> · ${r.aw}</td></tr>`).join("");
+    openModal(`六维评分依据 · ${f.home} vs ${f.away}`, [{ label: "评分依据", html: `
+      <table><thead><tr><th>维度</th><th>${f.home}(金)</th><th>${f.away}(蓝)</th></tr></thead><tbody>${rows}</tbody></table>
+      <div class="src-line">评分 1-10,由六维情报采集(伤停/状态/战术/环境/历史/心理)人工评定,是 Poisson 修正与手工判断的输入之一;雷达面积差 ≈ 综合实力差的直觉化表达。</div>` }]);
+  } else if (kind === "model" && f.modelNotes) {
+    const rows = f.modelNotes.map(m => `
+      <div class="bi-block" style="${m.k.startsWith("集成") ? "border-left-color:var(--gold)" : ""}">
+        <div class="bi-lang">${m.k}</div>${m.note}</div>`).join("");
+    openModal(`模型计算依据 · ${f.home} vs ${f.away}`, [{ label: "四模型与集成", html: rows + `
+      <div class="src-line">权重由 learn.py 每场赛后按 Brier 乘法更新;当前 A28.1/B38.1/C33.8。模型分歧本身就是信息:分歧大 = 不确定性高 = 降仓位。</div>` }]);
+  } else if (kind === "score") {
+    const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 0.85 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
+    openModal(`比分分布生成逻辑 · ${f.home} vs ${f.away}`, [{ label: "生成逻辑与全表", html: `
+      <div class="bi-block"><div class="bi-lang">怎么算出来的</div>① 用竞彩去水概率反推两队进球率 λ(本场 ${f.home} ${(f.modelNotes && f.modelNotes[2]) ? f.modelNotes[2].note.match(/λ=([^ ,)]+)/)?.[1] || "" : ""}),即"若重赛一万次,平均各进几球";② 双 Poisson 网格算出每个比分的独立概率;③ Dixon-Coles ρ=-0.08 修正低比分(0:0/1:1 上调,1:0/0:1 下调)——修复韩捷 2:1 暴露的独立性偏差;④ 价值分 = 概率 × 竞彩赔率,≥0.85 进入可买池。</div>
+      <table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table>
+      <div class="src-line">最优单比分命中率天花板 12-17%,这张表的价值在排序而非押中;1:1/2:1 是大众情怀票,价值分常年垫底。</div>` }]);
+  }
+};
+
+const tmrWrap = document.getElementById("tmr-list");
+D.focus.forEach((f, idx) => {
+  const e = f.models.ens;
+  const intl = I[f.num];
+  const stake = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home))).reduce((s, it) => s + it.stake, 0);
+  tmrWrap.insertAdjacentHTML("beforeend", `
+    <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
+      <div class="mini-top">
+        <span class="mini-teams">${flag(f.home, "flag-sm")} ${f.home} <span class="mini-time">vs</span> ${f.away} ${flag(f.away, "flag-sm")}</span>
+        <span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>
+      </div>
+      <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
+      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">持票 ${stake}元</span><span style="margin-left:auto">下钻 ▸</span></div>
+    </div>`);
+});
+const SM0 = D.slip.summary;
+document.getElementById("tmr-plan").innerHTML = `
+  <div class="blk"><span class="k">计划仓位</span><span class="v num">${SM0.stake} 元</span></div>
+  <div class="blk"><span class="k">数学期望</span><span class="v num neg">${SM0.evHigh.toFixed(1)}~${SM0.evLow.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM0.winProb}%</span></div>
+  <div class="blk"><span class="k">头奖</span><span class="v num pos">+${SM0.best.pnl.toFixed(0)}</span></div>
+  <div class="blk"><span class="k">下单</span><span class="v" style="font-size:13px"><a href="#sec-slip" style="color:var(--gold)">文案 ↓</a></span></div>`;
+
+/* ---------- ledger ---------- */
+const tbody = document.querySelector("#ticket-table tbody");
+D.holdings.tickets.forEach(t => {
+  const [label, cls] = stMap[t.status];
+  tbody.insertAdjacentHTML("beforeend", `
+    <tr><td>${t.match.split(" vs ").map(x => flag(x, "flag-sm") + " " + x).join(" vs ")}</td><td>${t.pick}</td>
+    <td class="r num">${t.stake}</td><td class="r num">${t.odds.toFixed(2)}</td>
+    <td class="r ${cls}">${label}</td>
+    <td class="r num ${cls}">${t.payout === null ? "-" : t.payout.toFixed(1)}</td></tr>`);
+});
+const net = D.holdings.returned - D.holdings.invested;
+document.getElementById("ledger-sum").innerHTML = `
+  <div class="blk"><span class="k">总投入</span><span class="v num">${D.holdings.invested}</span></div>
+  <div class="blk"><span class="k">已回收</span><span class="v num pos">${D.holdings.returned.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">${D.holdings.pendingStake > 0 ? "当前现金流" : "本轮盈亏"}</span><span class="v num ${net >= 0 ? "pos" : "neg"}">${fmt(net)}</span></div>
+  ${D.holdings.pendingStake > 0 ? `<div class="blk"><span class="k">在场条件期望</span><span class="v num pos">${fmt(D.holdings.condEV)}<span style="font-size:12px;color:var(--faint)"> (盈利${D.holdings.condWinProb}%)</span></span></div>
+  <div class="blk"><span class="k">盈亏锁定区间</span><span class="v num">${fmt(Math.min(...D.holdings.scenarios.map(s => s.pnl)))} ~ ${fmt(Math.max(...D.holdings.scenarios.map(s => s.pnl)))}</span></div>` : `<div class="blk"><span class="k">收益率</span><span class="v num ${net >= 0 ? "pos" : "neg"}">${(net / D.holdings.invested * 100).toFixed(1)}%</span></div>`}`;
+
+/* ---------- bankroll ---------- */
+const B = D.bankroll;
+const poolTotal = B.cashNow + B.pending;
+const cushion = Math.max(0, B.cashNow + B.pending - B.start);
+document.getElementById("bank-now").innerHTML = `
+  <div class="blk"><span class="k">资金池(现金)</span><span class="v num">${B.cashNow.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">在场</span><span class="v num">${B.pending} <small>待结算</small></span></div>
+  <div class="blk"><span class="k">本金</span><span class="v num" style="color:var(--dim)">${B.start}</span></div>
+  <div class="blk"><span class="k">安全垫(高方差预算)</span><span class="v num pos">${cushion.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">保本线 / 绝对地板</span><span class="v num neg">${B.start} / ${B.floor}</span></div>`;
+document.getElementById("ms-strip").innerHTML = B.milestones.map(m => `
+  <div class="ms"><div class="t">${m.target}</div><div class="l">${m.date} ${m.label}</div></div>`).join("");
+document.getElementById("rules-grid").innerHTML = B.rules.map(r =>
+  `<div class="rule-card"><div class="rk">${r[0]}</div><div class="rv">${r[1]}</div></div>`).join("");
+document.getElementById("bank-chart-head").textContent =
+  `资金池曲线:实际(实线) vs 目标轨迹(虚线) · ${B.note}`;
+
+const allDates = [...new Set([...B.targetCurve.map(p => p.d), ...B.actualCurve.map(p => p.d)])].sort();
+const mapCurve = c => allDates.map(d => { const p = c.find(x => x.d === d); return p ? p.v : null; });
+echarts.init(document.getElementById("chart-bankroll")).setOption({
+  grid: { left: 10, right: 24, top: 30, bottom: 10, containLabel: true },
+  legend: { textStyle: { color: "#9aa3ad", fontSize: 11 }, top: 0, itemWidth: 16, itemHeight: 8 },
+  xAxis: { type: "category", data: allDates, ...AXIS, boundaryGap: false },
+  yAxis: { type: "log", min: 50, max: 25000, logBase: 10, ...AXIS },
+  series: [
+    { name: "目标轨迹", type: "line", data: mapCurve(B.targetCurve), connectNulls: true,
+      lineStyle: { type: "dashed", color: FAINT, width: 1.5 }, itemStyle: { color: FAINT },
+      symbol: "circle", symbolSize: 5,
+      label: { show: true, color: "#9aa3ad", fontSize: 10, fontFamily: "Menlo", formatter: p => p.value ?? "" } },
+    { name: "实际资金池", type: "line", data: mapCurve(B.actualCurve), connectNulls: true,
+      lineStyle: { color: GOLD, width: 2.5 }, itemStyle: { color: GOLD },
+      symbol: "circle", symbolSize: 7, areaStyle: { color: "rgba(233,180,76,.07)" },
+      label: { show: true, color: GOLD, fontSize: 11, fontFamily: "Menlo", formatter: p => p.value ?? "" } },
+    { name: "纯期望路径(无运气)", type: "line", data: mapCurve(B.evCurve), connectNulls: true,
+      lineStyle: { color: RED, width: 1.5, type: "dashed" }, itemStyle: { color: RED },
+      symbol: "circle", symbolSize: 4,
+      label: { show: true, position: "bottom", color: RED, fontSize: 10, fontFamily: "Menlo", formatter: p => p.value ?? "" } },
+    { name: "止损地板", type: "line", data: allDates.map(() => B.floor), symbol: "none",
+      lineStyle: { color: RED, width: 1, type: "dotted" }, itemStyle: { color: RED } }
+  ]
+});
+
+/* ---------- equity curve (日频收益曲线,悬停看当日记录) ---------- */
+if (B.daily && B.daily.length) {
+  const eq = echarts.init(document.getElementById("chart-equity"));
+  eq.setOption({
+    grid: { left: 10, right: 56, top: 30, bottom: 10, containLabel: true },
+    legend: { textStyle: { color: "#9aa3ad", fontSize: 11 }, top: 0, itemWidth: 14, itemHeight: 8 },
+    tooltip: {
+      trigger: "axis",
+      backgroundColor: "#171b22",
+      borderColor: "rgba(233,180,76,.45)",
+      borderWidth: 1,
+      textStyle: { color: "#e8eaed", fontSize: 12.5 },
+      extraCssText: "max-width:460px;white-space:normal;line-height:1.8;box-shadow:0 12px 40px rgba(0,0,0,.6);",
+      formatter: params => {
+        const day = B.daily[params[0].dataIndex];
+        const pnlStr = day.pnl === 0 ? "±0" : (day.pnl > 0 ? "+" : "") + day.pnl.toFixed(1);
+        return `<div style="font-weight:700;margin-bottom:6px">${day.d} · 资金池 <span style="color:#e9b44c">${day.pool.toFixed(1)}</span> · 当日盈亏 <span style="color:${day.pnl >= 0 ? "#e9b44c" : "#e5484d"}">${pnlStr}</span></div>` +
+          day.records.map(r => `<div style="color:#b6bdc6;font-size:12px">${r}</div>`).join("");
+      }
+    },
+    xAxis: { type: "category", data: B.daily.map(x => x.d), ...AXIS, boundaryGap: true },
+    yAxis: [
+      { type: "value", name: "资金池", scale: true, ...AXIS },
+      { type: "value", name: "当日盈亏", position: "right", splitLine: { show: false },
+        axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axisLabel: { color: "#646c78", fontSize: 10 } }
+    ],
+    series: [
+      { name: "资金池", type: "line", data: B.daily.map(x => x.pool),
+        lineStyle: { color: GOLD, width: 2.5 }, itemStyle: { color: GOLD },
+        symbol: "circle", symbolSize: 9, areaStyle: { color: "rgba(233,180,76,.08)" },
+        label: { show: true, position: "top", color: GOLD, fontFamily: "Menlo", fontSize: 11, formatter: p => p.value.toFixed(1) } },
+      { name: "当日盈亏", type: "bar", yAxisIndex: 1, barWidth: 16,
+        data: B.daily.map(x => ({ value: x.pnl, itemStyle: { color: x.pnl >= 0 ? "rgba(233,180,76,.45)" : "rgba(229,72,77,.55)" } })) }
+    ]
+  });
+}
+
+/* ---------- EV ledger ---------- */
+const evBody = document.querySelector("#ev-ledger-table tbody");
+let cumEv = 0, cumActual = 0, settledCount = 0;
+B.evLedger.forEach(e => {
+  cumEv += e.evPnl;
+  const hasActual = e.actualPnl !== null;
+  if (hasActual) { cumActual += e.actualPnl; settledCount++; }
+  const diff = hasActual ? (e.actualPnl - e.evPnl) : null;
+  evBody.insertAdjacentHTML("beforeend", `
+    <tr title="${e.note.replace(/"/g, "'")}">
+      <td class="num">${e.date}</td>
+      <td>${e.desc}<div class="lnote">${e.note.length > 60 ? e.note.slice(0, 60) + "…(悬停看全文)" : e.note}</div></td>
+      <td class="r num">${e.stake}</td>
+      <td class="r num ${e.evPnl >= 0 ? "pos" : ""}" style="${e.evPnl < 0 ? "color:var(--red)" : ""}">${fmt(e.evPnl)}</td>
+      <td class="r num">${e.winProb}%</td>
+      <td class="r num ${hasActual ? (e.actualPnl >= 0 ? "pos" : "neg") : ""}">${hasActual ? fmt(e.actualPnl) : "-"}</td>
+      <td class="r num ${diff !== null ? (diff >= 0 ? "pos" : "neg") : ""}">${diff !== null ? fmt(diff) : "-"}</td>
+      <td><span class="tier">${e.status}</span></td>
+    </tr>`);
+});
+document.getElementById("ev-cum").innerHTML =
+  `<b>累计口径:</b>已投放 ${B.evLedger.reduce((s, e) => s + e.stake, 0)} 元,累计数学期望 <b class="num" style="color:var(--red)">${fmt(cumEv)}</b>` +
+  (settledCount ? ` · 已结算实际 <b class="num">${fmt(cumActual)}</b> · 实际-期望 <b class="num">${fmt(cumActual - cumEv)}</b>` : "") +
+  `。期望永远是负的(抽水决定),这个台账盯的是两件事:<b>期望损耗有没有越压越小</b>(价值筛选在进步),以及<b>实际是否长期跑赢期望</b>(模型真有超额判断力,而不是运气)。`;
+
+/* ---------- scenario chart ---------- */
+const scn = echarts.init(document.getElementById("chart-scenario"));
+scn.setOption({
+  grid: { left: 10, right: 10, top: 36, bottom: 10, containLabel: true },
+  xAxis: { type: "category", data: D.holdings.scenarios.map(s => s.label), ...AXIS, axisLabel: { color: "#9aa3ad", fontSize: 12 } },
+  yAxis: { type: "value", min: -80, max: 130, ...AXIS },
+  series: [{
+    type: "bar", barWidth: 44,
+    data: D.holdings.scenarios.map(s => ({
+      value: s.pnl,
+      itemStyle: { color: s.pnl >= 0 ? GOLD : RED },
+      label: { show: true, position: s.pnl >= 0 ? "top" : "bottom", color: "#e8eaed", fontFamily: "Menlo", fontSize: 12, formatter: () => `${fmt(s.pnl)}\n${s.prob}%` }
+    }))
+  }]
+});
+
+/* ---------- focus blocks ---------- */
+const fWrap = document.getElementById("focus-blocks");
+D.focus.forEach((f, idx) => {
+  const wdlChips = f.wdlValue.map(w => `
+    <div class="ochip ${w.value >= 0.85 ? "good" : ""}">
+      <span>${w.pick}</span><span class="o num">@${w.odds.toFixed(2)}</span>
+      <span class="vs num">概率${w.prob}% · 价值${w.value.toFixed(2)}</span>
+    </div>`).join("") + (I[f.num] ? `
+    <div class="ochip" style="border-color:rgba(125,156,187,.5)">
+      <span style="color:var(--steel)">D·国际共识</span>
+      <span class="o num" style="color:var(--steel)">${(I[f.num].probs[0]*100).toFixed(1)}/${(I[f.num].probs[1]*100).toFixed(1)}/${(I[f.num].probs[2]*100).toFixed(1)}</span>
+      <span class="vs num">${I[f.num].sources.join("+")} · ${I[f.num].ts.slice(5, 16)}</span>
+    </div>` : "");
+  fWrap.insertAdjacentHTML("beforeend", `
+    <div class="focus-block">
+      <div class="fhead">
+        <h3>${flag(f.home)} ${f.home} <span style="color:var(--faint);font-weight:400">vs</span> ${f.away} ${flag(f.away)}</h3>
+        <span class="meta num">${f.num} · ${f.group} · ${f.time} 北京时间</span>
+      </div>
+      <div class="oddstrip">${wdlChips}</div>
+      <div class="fgrid">
+        <div style="cursor:pointer" onclick="openWhy(${idx},'model')"><div class="charthead">四模型胜平负概率(%) · <span style="color:var(--gold)">点击看计算依据 ▸</span></div><div id="chart-model-${idx}" class="chartbox chart-h260"></div></div>
+        <div style="cursor:pointer" onclick="openWhy(${idx},'radar')"><div class="charthead">六维对比雷达 · <span style="color:var(--gold)">点击看评分依据 ▸</span></div><div id="chart-radar-${idx}" class="chartbox chart-h260"></div></div>
+        <div style="cursor:pointer" onclick="openWhy(${idx},'score')"><div class="charthead">比分概率 × 价值分 · <span style="color:var(--gold)">点击看生成逻辑 ▸</span></div><div id="chart-score-${idx}" class="chartbox chart-h260"></div></div>
+      </div>
+      <div class="verdict"><b>结论:</b>${f.verdict}</div>
+    </div>`);
+});
+D.focus.forEach((f, idx) => {
+  // model bars
+  echarts.init(document.getElementById(`chart-model-${idx}`)).setOption({
+    grid: { left: 8, right: 8, top: 30, bottom: 22, containLabel: true },
+    legend: { textStyle: { color: "#9aa3ad", fontSize: 11 }, top: 0, itemWidth: 12, itemHeight: 8 },
+    xAxis: { type: "category", data: f.models.labels, ...AXIS },
+    yAxis: { type: "value", max: 80, ...AXIS },
+    series: [
+      { name: "A 市场", type: "bar", data: f.models.A, itemStyle: { color: DIM }, barWidth: 12 },
+      { name: "B Elo", type: "bar", data: f.models.B, itemStyle: { color: STEEL }, barWidth: 12 },
+      { name: "C Poisson", type: "bar", data: f.models.C, itemStyle: { color: "#56616f" }, barWidth: 12 },
+      { name: "集成", type: "bar", data: f.models.ens, itemStyle: { color: GOLD }, barWidth: 12,
+        label: { show: true, position: "top", color: GOLD, fontSize: 11, fontFamily: "Menlo" } }
+    ]
+  });
+  // radar
+  echarts.init(document.getElementById(`chart-radar-${idx}`)).setOption({
+    legend: { textStyle: { color: "#9aa3ad", fontSize: 11 }, top: 0, data: [f.home, f.away], itemWidth: 12, itemHeight: 8 },
+    radar: {
+      indicator: f.radar.dims.map(d => ({ name: d, max: 10 })),
+      radius: "62%", center: ["50%", "56%"],
+      axisName: { color: "#9aa3ad", fontSize: 11 },
+      splitLine: { lineStyle: { color: "rgba(255,255,255,.08)" } },
+      splitArea: { areaStyle: { color: ["transparent"] } },
+      axisLine: { lineStyle: { color: "rgba(255,255,255,.1)" } }
+    },
+    series: [{
+      type: "radar",
+      data: [
+        { value: f.radar.home, name: f.home, lineStyle: { color: GOLD }, itemStyle: { color: GOLD }, areaStyle: { color: "rgba(233,180,76,.12)" } },
+        { value: f.radar.away, name: f.away, lineStyle: { color: STEEL }, itemStyle: { color: STEEL }, areaStyle: { color: "rgba(125,156,187,.10)" } }
+      ]
+    }]
+  });
+  // score bars
+  const sc = [...f.scores].reverse();
+  echarts.init(document.getElementById(`chart-score-${idx}`)).setOption({
+    grid: { left: 8, right: 80, top: 8, bottom: 22, containLabel: true },
+    xAxis: { type: "value", ...AXIS },
+    yAxis: { type: "category", data: sc.map(s => s.s), ...AXIS, axisLabel: { color: "#e8eaed", fontSize: 12, fontFamily: "Menlo" } },
+    series: [{
+      type: "bar", barWidth: 14,
+      data: sc.map(s => ({
+        value: s.p,
+        itemStyle: { color: s.value >= 0.85 ? GOLD : DIM },
+        label: { show: true, position: "right", fontSize: 11, fontFamily: "Menlo",
+          color: s.value >= 0.85 ? GOLD : FAINT,
+          formatter: () => `${s.p}% @${s.odds} V${s.value.toFixed(2)}` }
+      }))
+    }]
+  });
+});
+
+/* ---------- odds table ---------- */
+const focusNums = new Set(D.focus.map(f => f.num));
+const oBody = document.querySelector("#odds-table tbody");
+(O ? O.matches : []).forEach((m, mi) => {
+  const had = m.had || {}, hh = m.hhad || {};
+  const intl = I[m.num];
+  const intlCell = intl
+    ? `<span class="intl-cell num">${intl.probs.map(p => (1/p).toFixed(2)).join(" / ")}</span> <span style="color:var(--faint);font-size:10.5px">${intl.entries ? intl.entries.length : 1}源</span>`
+    : '<span style="color:var(--faint)">-</span>';
+  oBody.insertAdjacentHTML("beforeend", `
+    <tr class="clickable ${focusNums.has(m.num) ? "rowhl" : ""}" onclick="openOdds(${mi})">
+      <td class="num">${m.num}</td>
+      <td>${flag(m.home, "flag-sm")} <b>${m.home}</b> vs ${m.away} ${flag(m.away, "flag-sm")} <span style="color:var(--faint);font-size:11px">▸</span></td>
+      <td class="num">${m.date.slice(5)} ${m.time}</td>
+      <td class="r num">${had.h || "-"}</td><td class="r num">${had.d || "-"}</td><td class="r num">${had.a || "-"}</td>
+      <td class="r num">${hh.line || "-"}</td>
+      <td class="r">${intlCell}</td>
+      <td class="r updated num">${(had.updated || "").slice(5, 16)}</td>
+    </tr>`);
+});
+window.openOdds = mi => {
+  const m = O.matches[mi];
+  const had = m.had || {}, hh = m.hhad || {};
+  const intl = I[m.num];
+  const crsChips = Object.entries(m.crs || {})
+    .sort((a, b) => parseFloat(a[1]) - parseFloat(b[1]))
+    .map(([s, o]) => `<span class="crs-chip">${s} <b>@${o}</b></span>`).join("");
+  const tabs = [
+    { label: "盘口全景", html: `
+        <table style="margin-bottom:14px"><thead><tr><th>玩法</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>
+        <tr><td>胜平负(竞彩)</td><td class="r num">${had.h || "-"}</td><td class="r num">${had.d || "-"}</td><td class="r num">${had.a || "-"}</td></tr>
+        <tr><td>让球 ${hh.line || "-"} 盘</td><td class="r num">${hh.h || "-"}</td><td class="r num">${hh.d || "-"}</td><td class="r num">${hh.a || "-"}</td></tr>
+        ${intl ? `<tr style="color:var(--steel)"><td>国际加权共识</td><td class="r num">${(intl.probs[0]*100).toFixed(1)}%</td><td class="r num">${(intl.probs[1]*100).toFixed(1)}%</td><td class="r num">${(intl.probs[2]*100).toFixed(1)}%</td></tr>` : ""}
+        </tbody></table>
+        ${intlDetail(intl)}
+        <div class="src-line">竞彩为结算基准,国际盘仅参考 · 竞彩快照 ${O.fetched_at}</div>` },
+    { label: "比分赔率", html: `<div class="crs-grid">${crsChips || '<span style="color:var(--faint)">比分盘未开</span>'}</div><div class="src-line">赔率升序 · 竞彩官方</div>` }
+  ];
+  const matchNews = D.news.filter(n => n.match === `${m.home} vs ${m.away}`);
+  if (matchNews.length) tabs.push({ label: "情报(中英)", html: matchNews.map(biNews).join("") });
+  openModal(`${flag(m.home, "flag-sm")} ${m.home} vs ${m.away} ${flag(m.away, "flag-sm")} · ${m.num} · ${m.date.slice(5)} ${m.time}`, tabs);
+};
+
+/* ---------- news (点击下钻中英原文) ---------- */
+const nWrap = document.getElementById("news-list");
+D.news.forEach((n, ni) => {
+  nWrap.insertAdjacentHTML("beforeend", `
+    <div class="news-item ${n.tone}" onclick="openNews(${ni})" style="cursor:pointer">
+      <span class="news-date num">${n.date}</span>
+      <span class="tag ${n.tone}">${n.impact}</span>
+      <span class="news-text"><b>${n.match}</b> · ${n.text.length > 90 ? n.text.slice(0, 90) + "…" : n.text}</span>
+      <span style="margin-left:auto;color:var(--faint);font-size:11px;white-space:nowrap">${n.en ? "中英 ▸" : "▸"}</span>
+    </div>`);
+});
+window.openNews = ni => {
+  const n = D.news[ni];
+  openModal(`${n.impact} · ${n.match}`, [{ label: "情报详情", html: biNews(n) }]);
+};
+
+/* ---------- slip ---------- */
+document.getElementById("slip-title").textContent = D.slip.title;
+document.getElementById("slip-status").textContent = D.slip.status;
+const sBody = document.querySelector("#slip-table tbody");
+const tierCls = { "核心": "core", "倍数": "multi", "价值": "" };
+D.slip.items.forEach(it => {
+  sBody.insertAdjacentHTML("beforeend", `
+    <tr><td class="num">${it.num}</td><td>${it.pick}</td>
+    <td><span class="tier ${tierCls[it.tier] || ""}">${it.tier}</span></td>
+    <td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td>
+    <td class="r num ${it.value >= 0.85 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td>
+    <td class="r num ${it.ev >= 0 ? "pos" : ""}" style="${it.ev >= 0 ? "" : "color:var(--faint)"}">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`);
+});
+/* ---------- outcome matrix ---------- */
+const mBody = document.querySelector("#matrix-table tbody");
+const maxProb = Math.max(...D.slip.matrix.map(m => m.prob));
+D.slip.matrix.forEach((m, i) => {
+  mBody.insertAdjacentHTML("beforeend", `
+    <tr>
+      <td class="num" style="color:var(--faint)">${i + 1}</td>
+      <td>${m.label}</td>
+      <td class="r num">${m.recover.toFixed(1)}</td>
+      <td class="r num ${m.pnl >= 0 ? "pos" : "neg"}" style="font-weight:600">${fmt(m.pnl)}</td>
+      <td class="r num">${m.prob.toFixed(1)}%</td>
+      <td><span class="pbar ${m.pnl >= 0 ? "win" : ""}" style="width:${Math.round(m.prob / maxProb * 120)}px"></span></td>
+    </tr>`);
+});
+
+const SM = D.slip.summary;
+document.getElementById("slip-sum").innerHTML = `
+  <div class="blk"><span class="k">总投入</span><span class="v num">${SM.stake}</span></div>
+  <div class="blk"><span class="k">数学期望(集成~保守口径)</span><span class="v num neg">${SM.evHigh.toFixed(1)} ~ ${SM.evLow.toFixed(1)}</span></div>
+  <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM.winProb}%</span></div>
+  <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
+  <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
+  <div class="blk"><span class="k">最可能剧本</span><span class="v num">${SM.keyScenarios[0].label} ${fmt(SM.keyScenarios[0].pnl)}</span></div>`;
+document.getElementById("slip-paper").textContent = D.slip.copyText;
+const btn = document.getElementById("copy-btn");
+btn.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(D.slip.copyText);
+  } catch (e) {
+    const ta = document.createElement("textarea");
+    ta.value = D.slip.copyText; document.body.appendChild(ta);
+    ta.select(); document.execCommand("copy"); ta.remove();
+  }
+  btn.textContent = "✓ 已复制,微信粘贴发给老板即可";
+  btn.classList.add("copied");
+  setTimeout(() => { btn.textContent = "复制下单文案 · 发给老板"; btn.classList.remove("copied"); }, 2600);
+});
+
+/* ---------- calibration ---------- */
+const cs = D.calibration.stats;
+const LN = D.calibration.learning;
+document.getElementById("cal-stats").innerHTML = `
+  <div class="blk"><span class="k">方向命中</span><span class="v num pos">${cs.direction}</span></div>
+  <div class="blk"><span class="k">比分命中 · 手工</span><span class="v num pos">${cs.scoreManual}</span></div>
+  <div class="blk"><span class="k">比分命中 · 模型</span><span class="v num">${cs.scoreModel}</span></div>
+  ${LN ? `<div class="blk"><span class="k">模型权重(在线学习)</span><span class="v num">A ${LN.weights.A}<span style="color:var(--faint)">/</span>B <span class="pos">${LN.weights.B}</span><span style="color:var(--faint)">/</span>C ${LN.weights.C}</span></div>
+  <div class="blk"><span class="k">Brier 集成 vs 市场</span><span class="v num"><span class="pos">${LN.brier.ens}</span> <span style="color:var(--faint);font-size:13px">&lt;</span> ${LN.brier.A}</span></div>` : ""}`;
+if (LN) {
+  document.getElementById("cal-stats").insertAdjacentHTML("afterend",
+    `<div class="ev-cum" style="margin-bottom:18px"><b>模型进化:</b>${LN.note}</div>`);
+}
+const cWrap = document.getElementById("cal-records");
+D.calibration.records.forEach(r => {
+  cWrap.insertAdjacentHTML("beforeend", `
+    <div class="cal-rec">
+      <div class="cal-head">
+        <span class="num updated">${r.date}</span><span class="m">${r.match.split(" vs ").map(t => flag(t, "flag-sm") + " " + t).join(" vs ")}</span>
+        <span class="num">实际 <b>${r.actual}</b></span>
+        <span class="num">手工 <span class="${r.manualHit ? "hit" : "miss"}">${r.manual}</span></span>
+        <span class="num">模型 <span class="${r.modelHit ? "hit" : "miss"}">${r.model}</span></span>
+        <span class="${r.dirHit ? "hit" : "miss"}">方向${r.dirHit ? "✓" : "✕"}</span>
+      </div>
+      <div class="cal-note">${r.note}</div>
+    </div>`);
+});
+
+/* resize all charts */
+window.addEventListener("resize", () => {
+  document.querySelectorAll(".chartbox").forEach(el => {
+    const c = echarts.getInstanceByDom(el);
+    if (c) c.resize();
+  });
+});
+</script>
+</body>
+</html>
