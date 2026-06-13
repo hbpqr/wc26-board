@@ -763,9 +763,9 @@ D.todayMatches.forEach((m, i) => {
   repWrap.insertAdjacentHTML("beforeend", `
     <div class="mini" onclick="openReport(${i})">
       <div class="mini-top">
-        <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${m.actual ? m.actual : "vs"}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
+        <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${m.actual ? m.actual : (m.live ? m.live.split(" ")[0] : "vs")}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
         <span style="white-space:nowrap;display:flex;gap:10px;align-items:baseline">
-        ${m.status !== "finished" ? `<span class="mini-time" style="color:var(--gold)">${m.time.slice(6)}</span>` : ""}
+        ${m.status !== "finished" ? (m.live ? `<span class="mini-time" style="color:var(--red)">● 进行中 ${m.live.includes("(") ? m.live.slice(m.live.indexOf("(") + 1, -1) : ""}</span>` : `<span class="mini-time" style="color:var(--gold)">${m.time.slice(6)}</span>`) : ""}
         ${pendSum > 0 ? `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">在场 </span><span class="num" style="color:var(--steel);font-weight:700">${pendSum}元</span></span>` : (settled.length ? `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">本场盈亏 </span><span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span></span>` : "")}
         </span>
       </div>
