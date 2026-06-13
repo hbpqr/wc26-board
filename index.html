@@ -19,6 +19,8 @@
     --gold-dim: rgba(233,180,76,.14);
     --red: #e5484d;
     --red-dim: rgba(229,72,77,.12);
+    --green: #46c06a;
+    --green-dim: rgba(70,192,106,.13);
     --steel: #7d9cbb;
     --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
   }
@@ -168,15 +170,13 @@
   .mini-meta { font-size: 11.5px; color: var(--faint); display: flex; gap: 14px; margin-top: 11px; flex-wrap: wrap; }
   /* 卡片持仓 tag:与 .tier 同族(1px边/2px锐角),状态=边色+底色,金额段 1px 分隔 */
   .mini-tix { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 11px; }
-  .tix { display: inline-flex; align-items: stretch; font-size: 12px; line-height: 1; border: 1px solid; border-radius: 2px; white-space: nowrap; }
-  .tix .pk { padding: 5px 9px; display: inline-flex; gap: 6px; align-items: center; }
-  .tix .amt { padding: 5px 9px; border-left: 1px solid; font-family: var(--mono); font-variant-numeric: tabular-nums; display: inline-flex; align-items: center; }
-  .tix.tx-win, .tix.tx-plan { color: var(--gold); border-color: rgba(233,180,76,.5); background: var(--gold-dim); }
-  .tix.tx-win .amt, .tix.tx-plan .amt { border-left-color: rgba(233,180,76,.3); }
-  .tix.tx-lose { color: var(--faint); border-color: rgba(255,255,255,.13); background: rgba(255,255,255,.03); }
-  .tix.tx-lose .amt { border-left-color: rgba(255,255,255,.1); }
-  .tix.tx-pend { color: var(--steel); border-color: rgba(125,156,187,.5); background: rgba(125,156,187,.1); }
-  .tix.tx-pend .amt { border-left-color: rgba(125,156,187,.3); }
+  /* 持仓标签:红=猜错 / 绿=猜中 / 黄=进行中(待结)。文字精简,赔率等明细点开卡片看 */
+  .tix { display: inline-flex; align-items: center; gap: 7px; font-size: 12.5px; line-height: 1; padding: 6px 11px; border: 1px solid; border-radius: 2px; white-space: nowrap; cursor: pointer; transition: filter .15s; }
+  .tix:hover { filter: brightness(1.25); }
+  .tix b { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 600; opacity: .9; }
+  .tix.tx-green { color: var(--green); border-color: rgba(70,192,106,.5); background: var(--green-dim); }
+  .tix.tx-red { color: var(--red); border-color: rgba(229,72,77,.45); background: var(--red-dim); }
+  .tix.tx-yellow { color: var(--gold); border-color: rgba(233,180,76,.5); background: var(--gold-dim); }
   .mini-meta .pos2 { color: var(--gold); font-weight: 600; }
   .mini .probbar { margin: 12px 0 0; height: 4px; }
   .mini-hint { font-size: 10.5px; color: var(--faint); text-align: right; margin-top: 6px; }
@@ -236,9 +236,9 @@
   tbody tr:hover { background: rgba(255,255,255,.03); }
   tr:last-child td { border-bottom: none; }
   td.r, th.r { text-align: right; }
-  .st-win { color: var(--gold); font-weight: 600; }
-  .st-lose { color: var(--faint); }
-  .st-pending { color: var(--steel); }
+  .st-win { color: var(--green); font-weight: 600; }
+  .st-lose { color: var(--red); }
+  .st-pending { color: var(--gold); }
   .sumrow { display: flex; gap: 44px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line-strong); }
   .sumrow .blk .k { font-size: 12px; color: var(--faint); display: block; }
   .sumrow .blk .v { font-size: 20px; font-weight: 700; }
@@ -720,7 +720,7 @@ const intlDetail = intl => {
 };
 
 /* ---------- 战报 minis + 下钻 ---------- */
-const stMap = { win: ["✓ 中奖", "st-win"], lose: ["✕ 未中", "st-lose"], pending: ["⋯ 在场", "st-pending"] };
+const stMap = { win: ["中奖", "st-win"], lose: ["未中", "st-lose"], pending: ["进行中", "st-pending"] };
 window.openReport = i => {
   const m = D.todayMatches[i];
   const e = m.ensemble;
@@ -774,11 +774,9 @@ D.todayMatches.forEach((m, i) => {
       </div>
       <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
       ${matchTickets.length ? `<div class="mini-tix">${matchTickets.map(t => {
-        const tcls = { win: "tx-win", lose: "tx-lose", pending: "tx-pend" }[t.status] || "tx-lose";
-        const mk = { win: "✓", lose: "✕", pending: "⋯" }[t.status] || "";
-        const name = t.match.includes("×") ? `2串1·${t.match}` : t.pick.replace("胜平负·", "");
-        const tail = t.status === "win" ? ` →${t.payout}` : (t.status === "pending" ? " 待结" : "");
-        return `<span class="tix ${tcls}"><span class="pk">${mk} ${name}</span><span class="amt">${t.stake}@${t.odds}${tail}</span></span>`;
+        const tcls = { win: "tx-green", lose: "tx-red", pending: "tx-yellow" }[t.status] || "tx-red";
+        const name = t.match.includes("×") ? "2串1" : t.pick.replace(/^(胜平负|比分)·/, "");
+        return `<span class="tix ${tcls}">${name} <b>${t.stake}元</b></span>`;
       }).join("")}</div>` : ""}
       <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
     </div>`);
@@ -842,7 +840,7 @@ D.focus.forEach((f, idx) => {
   const myItems = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)));
   const stake = myItems.reduce((s, it) => s + it.stake, 0);
   const tipTags = myItems.map(it =>
-    `<span class="tix tx-plan"><span class="pk">${it.tier} ${it.pick.replace("胜平负·", "")}</span><span class="amt">${it.stake}@${it.odds.toFixed(2)}</span></span>`).join("");
+    `<span class="tix tx-yellow">${it.pick.replace(/^(胜平负|比分)·/, "")} <b>${it.stake}元</b></span>`).join("");
   tmrWrap.insertAdjacentHTML("beforeend", `
     <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
       <div class="mini-top">
