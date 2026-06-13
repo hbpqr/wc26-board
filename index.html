@@ -166,8 +166,17 @@
   .mini-score { font-family: var(--mono); font-weight: 700; font-size: 19px; color: var(--gold); white-space: nowrap; }
   .mini-time { font-family: var(--mono); font-size: 13px; color: var(--dim); white-space: nowrap; }
   .mini-meta { font-size: 11.5px; color: var(--faint); display: flex; gap: 14px; margin-top: 11px; flex-wrap: wrap; }
-  .mini-tix { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; font-size: 12px; }
-  .mini-tix .num { font-family: var(--mono); }
+  /* 卡片持仓 tag:与 .tier 同族(1px边/2px锐角),状态=边色+底色,金额段 1px 分隔 */
+  .mini-tix { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 11px; }
+  .tix { display: inline-flex; align-items: stretch; font-size: 12px; line-height: 1; border: 1px solid; border-radius: 2px; white-space: nowrap; }
+  .tix .pk { padding: 5px 9px; display: inline-flex; gap: 6px; align-items: center; }
+  .tix .amt { padding: 5px 9px; border-left: 1px solid; font-family: var(--mono); font-variant-numeric: tabular-nums; display: inline-flex; align-items: center; }
+  .tix.tx-win, .tix.tx-plan { color: var(--gold); border-color: rgba(233,180,76,.5); background: var(--gold-dim); }
+  .tix.tx-win .amt, .tix.tx-plan .amt { border-left-color: rgba(233,180,76,.3); }
+  .tix.tx-lose { color: var(--faint); border-color: rgba(255,255,255,.13); background: rgba(255,255,255,.03); }
+  .tix.tx-lose .amt { border-left-color: rgba(255,255,255,.1); }
+  .tix.tx-pend { color: var(--steel); border-color: rgba(125,156,187,.5); background: rgba(125,156,187,.1); }
+  .tix.tx-pend .amt { border-left-color: rgba(125,156,187,.3); }
   .mini-meta .pos2 { color: var(--gold); font-weight: 600; }
   .mini .probbar { margin: 12px 0 0; height: 4px; }
   .mini-hint { font-size: 10.5px; color: var(--faint); text-align: right; margin-top: 6px; }
@@ -762,9 +771,11 @@ D.todayMatches.forEach((m, i) => {
       </div>
       <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
       ${matchTickets.length ? `<div class="mini-tix">${matchTickets.map(t => {
-        const [mk, cls] = stMap[t.status] || ["", ""];
+        const tcls = { win: "tx-win", lose: "tx-lose", pending: "tx-pend" }[t.status] || "tx-lose";
+        const mk = { win: "✓", lose: "✕", pending: "⋯" }[t.status] || "";
         const name = t.match.includes("×") ? `2串1·${t.match}` : t.pick.replace("胜平负·", "");
-        return `<span class="${cls}">${mk.split(" ")[0]} ${name} <span class="num">${t.stake}@${t.odds}</span>${t.status === "win" ? `<span class="num"> →${t.payout}</span>` : t.status === "pending" ? " 待结" : ""}</span>`;
+        const tail = t.status === "win" ? ` →${t.payout}` : (t.status === "pending" ? " 待结" : "");
+        return `<span class="tix ${tcls}"><span class="pk">${mk} ${name}</span><span class="amt">${t.stake}@${t.odds}${tail}</span></span>`;
       }).join("")}</div>` : ""}
       <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
     </div>`);
@@ -827,7 +838,8 @@ D.focus.forEach((f, idx) => {
   const intl = I[f.num];
   const myItems = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)));
   const stake = myItems.reduce((s, it) => s + it.stake, 0);
-  const picks = myItems.map(it => `${it.pick.replace("胜平负·", "")}<span class="num">@${it.odds}</span>`).join(" + ");
+  const tipTags = myItems.map(it =>
+    `<span class="tix tx-plan"><span class="pk">${it.tier} ${it.pick.replace("胜平负·", "")}</span><span class="amt">${it.stake}@${it.odds.toFixed(2)}</span></span>`).join("");
   tmrWrap.insertAdjacentHTML("beforeend", `
     <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
       <div class="mini-top">
@@ -835,7 +847,8 @@ D.focus.forEach((f, idx) => {
         <span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
-      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">${stake > 0 ? `持票 ${stake}元 · ${picks}` : "持票 0元"}</span></div>
+      ${myItems.length ? `<div class="mini-tix">${tipTags}</div>` : ""}
+      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">${stake > 0 ? `持票 ${stake}元` : "持票 0元"}</span></div>
     </div>`);
 });
 const SM0 = D.slip.summary;
