@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 21:10",
+    updated: "2026-06-13 22:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -810,6 +810,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "海地 vs 苏格兰", impact: "麦克托米奈胃病痊愈确认出战·吉尔摩伤缺·苏格兰门将位置待定·海地无伤情", tone: "away",
+      text: "苏格兰核心中场麦克托米奈(周四胃病缺训)已完全康复,主帅克拉克确认'状态完美,随时可上';吉尔摩(膝)缺席本届世界杯。门将位置在43岁老将克雷格·戈登与昂格斯·甘之间悬而未决。海地无伤停困扰,本土联赛中锋威尔逊·伊索尔与中场贝莱加德预计首发。(来源:Sports Mole/Yahoo Sports)",
+      en: "Scotland's key midfielder Scott McTominay (stomach complaint, missed Thursday training) is fully recovered — Clarke: 'perfect and ready to go.' Billy Gilmour (knee) is ruled out for the tournament. Scotland's goalkeeping slot remains undecided between 43-year-old Craig Gordon and Angus Gunn. Haiti have no injury concerns; Wilson Isidor and Jean-Ricner Bellegarde expected to start. (per Sports Mole / Yahoo Sports)",
+      full: "苏格兰出征海地前最新伤情汇总:①麦克托米奈(胃病):周四缺席训练令外界担忧,但主帅史蒂夫·克拉克在赛前发布会上确认'他状态完美,随时可以出战'——核心中场出战无虞;②吉尔摩(膝):已正式宣布伤缺本届世界杯全程,中场深度受损;③门将悬案:43岁老将克雷格·戈登与昂格斯·甘竞争首发位置,克拉克尚未公开首发人选。苏格兰预计4-4-2:切·亚当斯与劳伦斯·尚克兰德搭档双前锋。海地无伤停困扰,预计沿用对新西兰和秘鲁热身赛的4-4-2阵型:贝莱加德+伊索尔担当锋线。整体而言,苏格兰主力中场健康是利好,门将悬案是小变数,对本场赔率影响有限。",
+      enFull: "Scotland's pre-match injury picture for the Haiti opener: (1) Scott McTominay (stomach complaint) — missed Thursday's training session but declared 'perfect and ready to go' by manager Steve Clarke at the pre-match press conference; no concern for his availability. (2) Billy Gilmour (knee) officially ruled out for the entire tournament — weakens Scotland's midfield depth beyond the McTominay-Tierney axis. (3) Goalkeeper dilemma: 43-year-old Craig Gordon vs Angus Gunn for the starting spot; Clarke yet to reveal his choice publicly. Scotland expected to deploy a 4-4-2 with Che Adams partnering Lawrence Shankland. Haiti report zero injury or suspension concerns and are expected to replicate their warm-up 4-4-2 with Jean-Ricner Bellegarde (Wolves) and Wilson Isidor (Sunderland) in key roles. Assessment: McTominay fit is the biggest positive; Gilmour's absence is a known quantity; goalkeeper uncertainty has minimal odds impact. ⚠️ Official confirmed XI roughly 60 minutes before the 09:00 BJT kickoff.",
+      links: [{"name": "Sports Mole · Haiti vs Scotland team news", "url": "https://www.sportsmole.co.uk/football/haiti/injury-news/team-news/haiti-vs-scotland-injury-suspension-list-predicted-xis_598956.html"}, {"name": "Yahoo Sports · Scotland XI vs Haiti", "url": "https://uk.sports.yahoo.com/news/scotland-xi-vs-haiti-confirmed-235146194.html"}]
+    },
     { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "终盘定稿:三主力伤情确认·Tilt澳胜价值1.16·EV+0.165", tone: "home",
       text: "20:33终盘:亚尔德孜(小腿)单独训练几乎确认缺席,卡尔汉奥卢(小腿)临场决定,卡迪奥卢临场决定;澳大利亚全员无伤。Tilt客λ×0.75重跑:澳胜集成22.6%,@5.15=价值1.16,EV+0.165/元——全日最强正EV单关。",
       en: "Final 20:33 BJT: Yildiz (calf, training alone) effectively out; Calhanoglu (calf) and Kadioglu both GTD. Australia fully fit. Post-tilt (away-λ×0.75): Australia-win ensemble 22.6%, @5.15 → value 1.16, EV+0.165/yuan — strongest positive-EV single on the slate.",
