@@ -1181,14 +1181,16 @@ document.getElementById("slip-sum").innerHTML = `
   <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
   <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
   <div class="blk"><span class="k">最可能剧本</span><span class="v num">${SM.keyScenarios[0].label} ${fmt(SM.keyScenarios[0].pnl)}</span></div>`;
-document.getElementById("slip-paper").textContent = D.slip.copyText;
+// 文案里的 \n 是"换行"占位,显示和复制前都还原成真换行(否则满屏 n)
+const pasteText = D.slip.copyText.replace(/\\n/g, "\n");
+document.getElementById("slip-paper").textContent = pasteText;
 const btn = document.getElementById("copy-btn");
 btn.addEventListener("click", async () => {
   try {
-    await navigator.clipboard.writeText(D.slip.copyText);
+    await navigator.clipboard.writeText(pasteText);
   } catch (e) {
     const ta = document.createElement("textarea");
-    ta.value = D.slip.copyText; document.body.appendChild(ta);
+    ta.value = pasteText; document.body.appendChild(ta);
     ta.select(); document.execCommand("copy"); ta.remove();
   }
   btn.textContent = "✓ 已复制,微信粘贴发给老板即可";
