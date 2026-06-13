@@ -839,8 +839,10 @@ D.focus.forEach((f, idx) => {
   const intl = I[f.num];
   const myItems = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)));
   const stake = myItems.reduce((s, it) => s + it.stake, 0);
-  const tipTags = myItems.map(it =>
-    `<span class="tix tx-yellow">${it.pick.replace(/^(胜平负|比分)·/, "")} <b>${it.stake}元</b></span>`).join("");
+  const tipTags = myItems.map(it => {
+    const name = it.match.includes("×") ? "2串1" : it.pick.replace(/^(胜平负|比分)·/, "");
+    return `<span class="tix tx-yellow">${name} <b>${it.stake}元</b></span>`;
+  }).join("");
   tmrWrap.insertAdjacentHTML("beforeend", `
     <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
       <div class="mini-top">
