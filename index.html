@@ -470,11 +470,11 @@
   <section id="sec-report">
     <div class="top-grid">
       <div>
-        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">点击下钻 · +赚 −亏 · "待结"=未结算</span></div>
+        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">+赚 −亏 · "待结"=未结算</span></div>
         <div id="report-list"></div>
       </div>
       <div id="sec-tomorrow">
-        <div class="stitle"><h2>明日作战</h2><span class="sub">点击下钻 · 预测与买点 · 北京时间</span></div>
+        <div class="stitle"><h2>明日作战</h2><span class="sub">预测与买点 · 北京时间</span></div>
         <div id="tmr-list"></div>
       </div>
     </div>
@@ -749,7 +749,7 @@ D.todayMatches.forEach((m, i) => {
         </span>
       </div>
       <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
-      <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span><span style="margin-left:auto">下钻 ▸</span></div>
+      <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
     </div>`);
 });
 
@@ -816,7 +816,7 @@ D.focus.forEach((f, idx) => {
         <span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
-      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">持票 ${stake}元</span><span style="margin-left:auto">下钻 ▸</span></div>
+      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">持票 ${stake}元</span></div>
     </div>`);
 });
 const SM0 = D.slip.summary;
