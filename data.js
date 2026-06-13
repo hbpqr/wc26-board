@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 08:16",
+    updated: "2026-06-13 10:12",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -803,6 +803,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "海地 vs 苏格兰", impact: "Gilmour 膝伤缺席整届世界杯·苏格兰中场受损", tone: "home",
+      text: "苏格兰中场核心比利·吉尔摩(纳波利,24岁)在WC2026最后一场热身赛4-1胜库拉索时无接触倒地受伤,扫描确认膝盖受损,缺席整届世界杯;教练克拉克:'这太残忍了。'曼联19岁中场泰勒·弗莱彻补位入选大名单。吉尔摩是苏格兰进攻组织和中场传导最关键环节,其缺席削弱中场衔接,海地防守反击空间或相对扩大。(来源:Sky Sports/beIN Sports)",
+      en: "Scotland midfielder Billy Gilmour (Napoli, 24) suffered a knee injury in the 4-1 warm-up win over Curacao and has been ruled out of the entire 2026 World Cup; coach Steve Clarke called it 'so cruel.' Manchester United teenager Tyler Fletcher (19) replaces him in the squad — Scotland lose their most influential midfield creative link ahead of the Haiti opener. (per Sky Sports / beIN Sports)",
+      full: "吉尔摩在苏格兰出发前最后一场热身赛中无接触倒地,经扫描确认膝盖韧带受损,将返回俱乐部进行康复。这是苏格兰本届世界杯首个退赛名额,主帅克拉克公开表示:'为比利感到心碎,因为他是我们世界杯预选赛不可或缺的一部分,伤病时机太残忍了。'泰勒·弗莱彻(19岁,曼联)在临场紧急征召期间获得优先考虑,尽管此前仅为苏格兰出战1场。吉尔摩的缺席使苏格兰在对阵海地的揭幕战中,中场控制力和快速推进能力明显下降。需额外关注:麦克托米奈周四因胃部不适缺席训练,周五恢复且预计首发;斯科特·麦肯纳首发状态也在疑问之中。若多名关键球员同时打折扣,苏格兰揭幕战压迫强度将进一步受限。",
+      enFull: "Gilmour collapsed without contact during the final warm-up, a 4-1 win over Curacao; a post-match scan confirmed a knee injury ruling him out for the entire tournament — Scotland's first World Cup withdrawal. Clarke's statement: 'I am devastated for Billy — the timing of this injury is so cruel and we all feel for him.' Tyler Fletcher, a 19-year-old Manchester United midfielder who earned his first cap vs Curacao, has been called into the squad as the replacement. Gilmour's absence strips Scotland of their primary deep-lying creative outlet. Additional concern: McTominay missed Thursday training with a stomach complaint but trained fully on Friday and is expected to start; centre-back Scott McKenna is also a doubt. Stacking injury concerns complicate Scotland's opener against a Haiti side with a clean bill of health.",
+      links: [{"name": "Sky Sports · Gilmour WC injury", "url": "https://www.skysports.com/football/news/12017/13549373/billy-gilmour-scotland-midfielder-ruled-out-of-world-cup-with-knee-injury"}, {"name": "beIN Sports · Scotland lose Gilmour", "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/scotland-lose-billy-gilmour-before-the-2026-world-cup-after-knee-injury-in-major-blow-to-their-midfield-ahead-of-the-tournament-2026-05-31"}]
+    },
+    { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "瓦尔加斯肌肉伤疑问·临场决定是否出战", tone: "home",
+      text: "瑞士右翼卢本·瓦尔加斯(奥格斯堡)因肌肉伤疑问出战对卡塔尔揭幕战,伤势在赛季末对阵塞尔塔维戈替补出场后复发,临场最终决定。若缺阵,法比安·里德顺移右翼,瑞士角球和定位球传递少一核心支点;整体实力影响有限,扎卡/弗罗伊勒主体系完整。(来源:RotoWire/Sports Mole)",
+      en: "Switzerland winger Ruben Vargas (Augsburg) is questionable for the Qatar opener with a muscle issue that flared after his substitute appearance against Celta Vigo; final call at kickoff. If absent, Rieder shifts right and Switzerland lose their primary corner/set-piece delivery from the right flank — limited overall impact with Xhaka/Freuler's core system intact. (per RotoWire / Sports Mole)",
+      full: "瓦尔加斯此前因伤缺阵,赛季末从塞尔塔维戈替补登场约8分钟后再次出现肌肉不适,导致世界杯揭幕战出场存疑。RotoWire和Sports Mole均将其列为疑问状态,可能返回日期标注为比赛当日(6月14日)。若瓦尔加斯缺席:里德从内切型中路移到右路,米歇尔·埃比谢尔可能左路出场;角球/任意球主传递员缺失可能影响定位球布置。对卡塔尔的意义:瑞士整体以1.24国际盘定价在80%胜率区间,瓦尔加斯缺阵无法根本改变力量对比,但竞彩开盘若出现瑞士胜1.30+,此利空可作为小仓保守信号之一。⚠️ 开赛前30分钟关注瑞士官方首发确认。",
+      enFull: "Vargas sustained a muscular setback approximately eight minutes after coming off the bench for Celta Vigo — re-aggravating a previous injury that had already sidelined him since late November. RotoWire and Sports Mole both flag him as questionable with a potential return on matchday. If Vargas misses: Fabian Rieder shifts to right wing, and Michel Aebischer may retain the left channel; Switzerland lose their primary corner and free-kick taker from wide-right. Against Qatar (priced at 1.24 ≈ 80% win probability internationally), this does not shift the outcome prediction materially — but if China Lottery opens Switzerland at 1.30 or higher, Vargas's doubt is one factor supporting a cautious approach. ⚠️ Confirm official XI 30 minutes before kickoff.",
+      links: [{"name": "RotoWire · Qatar vs Switzerland preview", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"}, {"name": "Sports Mole · Qatar vs Switzerland team news", "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup/team-news/qatar-vs-switzerland-injury-suspension-list-predicted-xis_598997.html"}]
+    },
     { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "耶尔德兹小腿伤单独训练·首发几乎出局", tone: "home",
       text: "土耳其最大牌新星凯南·耶尔德兹(尤文图斯)因小腿伤单独训练,首发概率极低;阿尔达·居勒(皇马)伤愈将首发登场。耶尔德兹缺失令土耳其右路爆点消失,进攻深度下降,澳大利亚爆冷胜的价值信号进一步增强。(来源:Sports Mole/Squawka)",
       en: "Turkey standout Kenan Yildiz (Juventus) is training alone with a calf injury and unlikely to start vs Australia; Arda Guler (Real Madrid) is fit and set to play from kick-off. Yildiz's likely absence removes Turkey's explosive right-side threat — a further positive signal for Australia's upset price. (per Sports Mole / Squawka)",
