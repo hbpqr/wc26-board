@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 03:10",
+    updated: "2026-06-14 04:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -810,6 +810,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "巴西 vs 摩洛哥", impact: "马兹劳伊确认预计首发·防线比tilt假设更完整", tone: "away",
+      text: "Sports Mole和RotoWire最新预测首发均确认马兹劳伊(肩伤已恢复训练)出现在摩洛哥右后卫位置;此前连续两条情报将其列为'临场决定/存疑'。若首发:摩洛哥后防较预期更稳固,巴西维尼修斯-拉菲尼亚双翼面临更完整的对位防守。当前slip无巴西相关票,本条为模型校准参考。(来源:Sports Mole/RotoWire)",
+      en: "Sports Mole and RotoWire predicted XIs both list Mazraoui in Morocco's starting lineup at right-back following shoulder injury recovery. Previous two items flagged him as 'game-time decision/doubtful.' If confirmed: Morocco's defensive structure is more intact than the attrition tilt assumed. No slip exposure; for model calibration. (per Sports Mole / RotoWire)",
+      full: "赛前约2小时情报更新:①马兹劳伊(拜仁/摩洛哥右后卫):对挪威热身赛肩部脱臼后曾被连续列为'临场决定',今晨Sports Mole与RotoWire两家独立预测首发均将他排入右后卫首发位置。预计摩洛哥后防四人组:马兹劳伊、里亚德(中卫)、迪奥普(中卫)、哈基米(左后卫)。②阿圭尔(腹股沟)和阿布代(膝)仍全赛季缺阵不变。③巴西预计首发:阿利松;达尼洛、加布里埃尔、马尔基尼奥斯、亚历克斯·桑德罗;基马朗伊斯、卡塞米罗;路易斯·恩里克、拉菲尼亚、维尼修斯;库尼亚。内马尔缺席已定。④综合影响:马兹劳伊首发令摩洛哥防线比tilt模型假设(away-λ×0.90)更完整,巴西右路维尼修斯/达尼洛方向的边路撕扯受阻力更大。如他成功跑满90分钟,赛后复盘应上调摩洛哥防线稳健参数。当前无任何巴西相关票在slip中(主会话已决策不买本场)。⚠️ 官方XI须赛前60分钟确认,若马兹劳伊临场退出则按'tilt防线'重新评估。",
+      enFull: "Pre-match update ~2 hours before 06:00 BJT kickoff: (1) Noussair Mazraoui (Bayern / Morocco RB): after being flagged as 'game-time decision' following a shoulder dislocation vs Norway, both Sports Mole and RotoWire's latest predicted XIs now include him at right-back. Projected Morocco back four: Mazraoui, Riad, Diop, Hakimi. (2) Nayef Aguerd (groin) and Ez Abde (knee) remain full-tournament absentees. (3) Brazil expected XI: Alisson; Danilo, Gabriel, Marquinhos, Alex Sandro; Guimaraes, Casemiro; Luiz Henrique, Raphinha, Vinicius Jr; Cunha. Neymar confirmed absent. (4) Impact: Mazraoui's expected start means Morocco's backline is more cohesive than the 'defensive attrition' tilt (away-λ×0.90) assumed. Post-match calibration should adjust Morocco's defensive stability coefficient if he completes 90 minutes. No current slip exposure on this match. ⚠️ Confirmed XIs ~60 min before 06:00 BJT kickoff; if Mazraoui withdraws late, revert to attrition-tilt defensive assessment.",
+      links: [{"name": "Sports Mole · Brazil vs Morocco preview", "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-morocco-prediction-team-news-lineups_598948.html"}, {"name": "RotoWire · Brazil vs Morocco", "url": "https://www.rotowire.com/soccer/article/brazil-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117816"}]
+    },
     { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "⚠️恰尔汗奥卢预测首发·触发减仓规则·出票前须确认", tone: "away",
       text: "Sports Mole最新预测阵容将恰尔汗奥卢(小腿)列入土耳其首发;RotoWire确认其友谊赛以替补出场后仍被谨慎管理中——若官方名单确认首发,按slip预设规则须将澳胜仓位从22元降至16元。(来源:Sports Mole/RotoWire)",
       en: "Sports Mole's latest predicted XI places Calhanoglu in Turkey's starting lineup; RotoWire confirms he is 'being managed carefully' after returning as a substitute in a friendly. Per pre-set slip rule: if confirmed starting → reduce Australia-win stake from 22 to 16 yuan. (per Sports Mole / RotoWire)",
