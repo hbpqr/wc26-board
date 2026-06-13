@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 16:10",
+    updated: "2026-06-13 17:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "瓦尔加斯完全康复随队训练·临场疑问解除·预计首发", tone: "away",
+      text: "瑞士右翼卢本·瓦尔加斯(奥格斯堡)伤情解除:RotoWire更新为'完全随队训练',khelnow.com预测首发XI中他回归右路先发——此前因肌肉不适被列为'临场疑问'的阴云消散,瑞士定位球核心支点和角球传递随之恢复完整。上条存疑情报已被本条覆盖。(来源:RotoWire/khelnow.com)",
+      en: "Switzerland winger Ruben Vargas (Augsburg) upgraded to full training — RotoWire bulletin reads 'Trains fully with Switzerland,' and khelnow.com's predicted XI restores him to right wing; earlier game-time doubt is resolved. Previous 'questionable' item superseded. (per RotoWire / khelnow.com)",
+      full: "瓦尔加斯此前因赛季末对阵塞尔塔维戈的8分钟替补登场后肌肉不适复发,被列为对卡塔尔揭幕战的临场疑问球员。最新RotoWire更新标题为'Trains fully with Switzerland'(完全随队训练),是对上一条'Trains partially'(部分训练)的明确升级。khelnow.com的预测首发XI同步将他列在右路位置,与恩博洛+扎卡/弗罗伊勒的主体系无缝衔接。这意味着瑞士角球/定位球核心传球点恢复到位,里德无需顶替右路,阵型整洁度提升。在已有恩博洛确认可战的基础上,瑞士锋线深度完整,对卡塔尔的火力输出预期保持在集成74.2%客胜概率以上。⚠️ 官方首发仍需临场30分钟前核实,但伤情层面疑问已基本消除。",
+      enFull: "Vargas had re-aggravated a muscular issue after coming off the bench briefly for Celta Vigo near the end of the season — leaving his availability for the Qatar opener uncertain. RotoWire's latest update is headlined 'Trains fully with Switzerland,' a clear upgrade from the earlier 'Trains partially with team' bulletin. khelnow.com's predicted starting XI simultaneously slots him back on the right wing alongside the Xhaka/Freuler midfield engine and Embolo through the middle. With this upgrade, Switzerland's set-piece delivery from wide-right (Vargas is the primary corner taker) is restored, and Fabian Rieder does not need to cover the right flank — a cleaner tactical shape going into the opener. Combined with Embolo's earlier visa clearance, Switzerland arrive at the Qatar match with a near-complete attacking unit. ⚠️ Confirm official starting XI 30 minutes before kickoff — the injury situation is resolved, but lineup confirmation is routine practice.",
+      links: [{"name": "RotoWire · Vargas trains fully", "url": "https://www.rotowire.com/soccer/headlines/ruben-vargas-injury-trains-fully-with-switzerland-519186"}, {"name": "khelnow.com · Switzerland XI vs Qatar", "url": "https://khelnow.com/football/world-football-switzerland-xi-vs-qatar-predicted-lineup-team-news-fifa-world-cup-202606"}]
+    },
     { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "恩博洛签证获批·确认加入大名单·揭幕战可上阵", tone: "home",
       text: "瑞士前锋布雷尔·恩博洛(摩纳哥)因2018年巴塞尔斗殴及2023年威胁罪相关材料被美国当局审查,无法随队出发;6月5日签证批准后飞抵圣地亚哥营地,主帅穆里尼奥确认参加对卡塔尔揭幕战。瑞士锋线实力完整,进攻火力无损。(来源:ESPN/Yahoo Sports)",
       en: "Switzerland striker Breel Embolo (Monaco) was unable to travel with the squad after his ESTA was placed under additional review tied to a 2018 altercation and a 2023 threats conviction; he received visa approval and flew to San Diego on June 5, confirmed available for the Qatar opener — Switzerland's attacking firepower is intact. (per ESPN / Yahoo Sports)",
