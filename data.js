@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 06:10",
+    updated: "2026-06-14 07:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -823,6 +823,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "⚠️恰尔汗奥卢确认预计首发(队长身份)·减仓规则触发·须在12:00前将澳胜从22降至16元", tone: "away",
+      text: "07:10巡检更新:covers.com明确'恰尔汗奥卢将以队长身份出现在中场',RotoWire预测XI同向——两家独立信源均将其列为首发。这是对之前'临场决定'状态的决定性升级,触发slip预设减仓规则:澳大利亚胜仓位须从22元降至16元。亚尔德孜依然缺席首发。(来源:covers.com/RotoWire)",
+      en: "07:10 patrol update: covers.com states Calhanoglu 'is set to have a spot in midfield for Turkey as captain'; RotoWire predicted XI aligns — two independent sources now list him as a starter. This is a definitive upgrade from the 'game-time decision' status. Pre-set slip rule triggered: reduce Australia-win stake from 22 to 16 yuan before 12:00 kickoff. Yildiz still not expected to start. (per covers.com / RotoWire)",
+      full: "07:10 BJT巡检二次确认(触发slip减仓):①covers.com明确写道恰尔汗奥卢将以队长身份首发于4-2-3-1中场枢纽位置(恰尔汗/于克塞克双后腰),这比前一条'Sports Mole预测首发+RotoWire临场决定'的措辞更为确定;②RotoWire预测XI同向:卡基尔;杰利克、德米拉尔、巴尔达克奇、埃尔马勒;恰尔汗奥卢、于克塞克;居勒、科克丘、亦尔马兹;古尔。③亚尔德孜(腓肠肌):仍'首发将令人意外',不在预测名单中。④澳大利亚全员健康,3-4-2-1出战。综合判断:恰尔汗首发令土耳其中场控制力部分恢复,tilt假设中的×0.75客队λ折扣偏乐观。slip预设规则明确指出'恰尔汗奥卢意外首发→澳胜从22元降至16元',当前确认触发条件成立。⚠️ 主会话须在赛前60分钟(约11:00前)根据官方XI执行最终仓位调整。",
+      enFull: "07:10 BJT patrol — second source confirmation triggers stake-reduction rule: (1) covers.com explicitly states Calhanoglu 'is set to have a spot in midfield for Turkey as captain,' placing him in the 4-2-3-1 double-pivot alongside Yuksek — a more definitive statement than the earlier 'managed carefully/game-time decision' framing. (2) RotoWire predicted XI mirrors: Cakir; Celik, Demiral, Bardakci, Elmali; Calhanoglu, Yuksek; Guler, Kokcu, Yilmaz; Gul. (3) Yildiz (calf): still 'would be a surprise to feature' per Sports Mole. (4) Australia: no injury concerns, expected 3-4-2-1. Assessment: Calhanoglu starting partially restores Turkey's midfield structure, making the away-λ×0.75 tilt less defensible. The pre-set slip rule condition is met. ⚠️ Main session must execute stake trim (22→16 yuan) before official XI confirmation ~60 min before 12:00 kickoff.",
+      links: [{"name": "covers.com · Turkey vs Australia prediction", "url": "https://www.covers.com/world-cup/turkey-vs-australia-prediction-picks-odds-sunday-6-14-2026"}, {"name": "RotoWire · Australia vs Turkey preview", "url": "https://www.rotowire.com/soccer/article/australia-vs-turkey-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-117953"}]
+    },
+    { date: "06-14", match: "海地 vs 苏格兰", impact: "切·亚当斯已列入预测首发·双前锋搭档完整·较昨日'疑问'状态升级", tone: "away",
+      text: "07:10巡检:RotoWire与Sports Mole最新预测首发均将切·亚当斯列入苏格兰阵容(亚当斯-尚克兰德-多克三前锋),较昨日'临场疑问'状态明确升级;甘首发门将、麦克托米奈中场确认出战。苏格兰攻守架构趋于完整,64.4%胜率国际共识未变。(来源:RotoWire/Sports Mole)",
+      en: "07:10 patrol: RotoWire and Sports Mole predicted XIs both include Ché Adams in Scotland's starting eleven (Adams–Shankland–Doak front three), an upgrade from yesterday's 'doubtful' tag. Angus Gunn confirmed in goal, McTominay fit to start. Scotland's full attacking lineup intact; 64.4% market win probability unchanged. (per RotoWire / Sports Mole)",
+      full: "07:10 BJT巡检更新(赛前~1.5小时):①切·亚当斯(苏格兰前锋):RotoWire预测首发将其列入正选,亚当斯-尚克兰德搭档双前锋方案(或含多克三前锋);昨日Sports Mole将他列为'临场疑问',此次升级表明伤情评估已向好。②昂格斯·甘:多数预测XI确认首发门将,排挤43岁老将克雷格·戈登;甘的积极出击风格契合苏格兰控球打法。③麦克托米奈:健康确认无虞,中场核心出战不变。④海地:预计4-3-3,贝莱加德-伊索尔-皮耶罗特锋线,全员无伤。⑤市场赔率:苏格兰胜1.54(Smarkets),今日较昨日+2.6pp,海地胜6.90。综合:亚当斯首发是此前预期的最优阵型方案,苏格兰进攻纵深恢复,64.4%胜率共识合理。无持仓,本条为模型校准与后续情报参考。",
+      enFull: "07:10 BJT pre-match patrol (~1.5 hours before kickoff): (1) Ché Adams: RotoWire predicted XI includes him in Scotland's starting lineup alongside Shankland, forming the two-striker or three-front partnership with Doak. Previous Sports Mole item (06-14) flagged him as 'doubtful' — this is a clear upgrade in status. (2) Angus Gunn confirmed as starting goalkeeper ahead of 43-year-old Craig Gordon. (3) Scott McTominay: fully fit, midfield axis intact. (4) Haiti: expected 4-3-3 with Bellegarde–Isidor–Pierrot in attack, no injury concerns. (5) Market: Scotland win 1.54 on Smarkets (+2.6pp since opening); Haiti win 6.90. Assessment: Adams's inclusion restores Scotland's optimal attacking structure. The 64.4% consensus win probability is well-supported. No current slip exposure; primarily for model calibration reference.",
+      links: [{"name": "RotoWire · Haiti vs Scotland preview", "url": "https://www.rotowire.com/soccer/article/haiti-vs-scotland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-117818"}, {"name": "Sports Mole · Haiti vs Scotland preview", "url": "https://www.sportsmole.co.uk/football/haiti/world-cup-2026/preview/haiti-vs-scotland-prediction-team-news-lineups_598953.html"}]
+    },
     { date: "06-14", match: "巴西 vs 摩洛哥", impact: "马兹劳伊确认预计首发·防线比tilt假设更完整", tone: "away",
       text: "Sports Mole和RotoWire最新预测首发均确认马兹劳伊(肩伤已恢复训练)出现在摩洛哥右后卫位置;此前连续两条情报将其列为'临场决定/存疑'。若首发:摩洛哥后防较预期更稳固,巴西维尼修斯-拉菲尼亚双翼面临更完整的对位防守。当前slip无巴西相关票,本条为模型校准参考。(来源:Sports Mole/RotoWire)",
       en: "Sports Mole and RotoWire predicted XIs both list Mazraoui in Morocco's starting lineup at right-back following shoulder injury recovery. Previous two items flagged him as 'game-time decision/doubtful.' If confirmed: Morocco's defensive structure is more intact than the attrition tilt assumed. No slip exposure; for model calibration. (per Sports Mole / RotoWire)",
