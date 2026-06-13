@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 12:10",
+    updated: "2026-06-13 13:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "耶尔德兹升级临场决定·部分随队训练·预计出场", tone: "away",
+      text: "土耳其耶尔德兹(尤文图斯)小腿伤情好转:从单独训练升级为部分随队训练,被列为临场决定且'预计出场'——较此前'首发概率极低'显著利好土耳其;若他最终首发,土耳其右路爆点恢复,澳大利亚胜@5.30的价值1.07可能降至接近甚至低于1.0。(来源:RotoWire/Sports Mole)",
+      en: "Kenan Yildiz (Juventus) calf injury upgraded: from training separately to training partially with the Turkey squad, now a game-time decision 'projected to feature' — far more optimistic than earlier reports. If Yildiz starts, Turkey's right-flank explosiveness is restored and Australia's upset value at @5.30 may fall to or below 1.0. (per RotoWire / Sports Mole)",
+      full: "耶尔德兹在土耳其亚利桑那训练营期间因小腿问题单独训练,此前外界判断'首发出场将是意外之举'。RotoWire最新动态更新为'Trains partially with team',Sports Mole预测首发中也指出'三名伤愈临场决定球员均预计出场'——其中包括耶尔德兹。若他首发:土耳其右路宽域直线爆破完全复原,我们集成概率20.3%(澳大利亚胜)中内含的耶尔德兹缺阵折扣将被收回,5.30赔率对应价值1.07可能降至接近1.0甚至以下,押注价值消失。若他仍替补:居勒主控,现有评估基本维持,澳大利亚价值信号有效。⚠️ 临场前30分钟确认土耳其官方首发是本场最关键的临场变量,定票必须等首发确认后再执行。",
+      enFull: "Yildiz had been training individually in Arizona due to a calf complaint, with multiple outlets calling it 'a surprise if he starts.' RotoWire's latest bulletin is now headlined 'Trains partially with team,' and Sports Mole's team-news preview lists him among three game-time decisions 'all currently projected to feature.' If Yildiz starts: Turkey's direct wide-channel threat on the right is fully restored. Our ensemble Australia-win probability of 20.3% carries an implicit Yildiz-absence discount; that discount is partially or fully removed if he plays, and the true value of Australia @5.30 may fall to or below 1.0 — removing the betting case. If benched: the existing assessment and value call hold. ⚠️ Confirm Turkey's official starting XI no later than 30 minutes before kickoff — this is the single most important late-breaking variable for the Australia stake decision.",
+      links: [{"name": "RotoWire · Yildiz trains partially with team", "url": "https://www.rotowire.com/soccer/headlines/kenan-yildiz-injury-trains-partially-with-team-519087"}, {"name": "Sports Mole · Australia vs Turkey team news", "url": "https://www.sportsmole.co.uk/football/australia/world-cup/team-news/australia-vs-turkey-injury-suspension-list-predicted-xis_599006.html"}]
+    },
     { date: "06-13", match: "巴西 vs 摩洛哥", impact: "阿圭尔+阿布代确认缺席整届世界杯·萨达内替补入队", tone: "home",
       text: "摩洛哥伤情升级:最强中卫阿圭尔(马赛)确认缺席整届世界杯——并非因伤复发,而是腹股沟手术后体能不足以应对顶级赛事,本人表态'康复顺利但竞技状态未达标';边锋阿布代膝伤亦确认缺席全程。两人分别由萨达内、斯巴伊火线替补。此前情报将阿圭尔标为'首发存疑',现升级为整届缺阵。(来源:GhanaSoccernet/DailySports)",
       en: "Morocco injury upgrade: CB Nayef Aguerd (Marseille) confirmed out for the entire World Cup — not a relapse, but insufficient match fitness post-groin surgery; he stated 'recovery has gone well but I am not at the level required.' Winger Ez Abde is also out for the full tournament. Marwane Saadane and Amine Sbai join as replacements. Previous item listed Aguerd as 'doubtful for opener' — upgraded to full-tournament absence. (per GhanaSoccernet / DailySports)",
