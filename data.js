@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 00:10",
+    updated: "2026-06-14 01:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -810,6 +810,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "卡塔尔 vs 瑞士", impact: "赛前2小时确认:两队全员健康·瓦尔加斯出战无虞·恩博洛首发概率领先", tone: "away",
+      text: "赛前终盘确认:卡塔尔与瑞士均无伤停困扰。瑞士主帅穆拉特·雅金确认全员可用,恩博洛与阿姆多尼竞争首发前锋位置,瓦尔加斯临场决定疑问已完全解除。卡塔尔主帅洛佩特吉亦有完整阵容可供调度,预计4-3-3登场:埃德米尔森·朱尼奥尔、阿克拉姆·阿菲夫、尤素福·阿布都里扎格担当三前锋。(来源:Sports Mole/RotoWire)",
+      en: "Pre-match confirmation: both Qatar and Switzerland report no injury concerns. Yakin has a fully fit squad; Embolo leads to start ahead of Amdouni with Vargas doubts fully resolved. Lopetegui also picks from a complete group, expected 4-3-3 with Edmilson Junior, Afif, Abdurisag. (per Sports Mole / RotoWire)",
+      full: "赛前不到2小时确认:①卡塔尔:洛佩特吉全员健康,无任何伤停缺阵。预计4-3-3,布迪亚夫坐镇中场,阿克拉姆·阿菲夫(现效力马竞)预计出任最强进攻点,埃德米尔森·朱尼奥尔和阿布都里扎格两翼。②瑞士:主帅雅金确认无伤停困扰,瓦尔加斯早前肌肉疑问已完全解除可以首发;恩博洛与阿姆多尼争抢第一中锋,共识正向恩博洛偏移(签证获批晚导致训练量略不足是唯一变数)。③赔率背景:国际市场卡塔尔主胜仅5.9%,瑞士胜率高达81.6%,分组同日加拿大1:1波黑——瑞士赢球即可在B组占据主动。⚠️首发XI须赛前60分钟公布确认。",
+      enFull: "Pre-match status under 2 hours from kickoff: (1) Qatar: Lopetegui reports a fully fit squad, no injuries. Expected 4-3-3 with Boudiaf in midfield; Akram Afif, Edmilson Junior, and Abdurisag as the attacking trio. (2) Switzerland: Yakin confirms no injury concerns; Vargas muscle doubts fully resolved and he is expected to start; Embolo vs Amdouni is the one selection question — consensus drifting toward Embolo despite slightly less training after late visa clearance; Shaqiri and Zakaria fit. (3) Market context: international markets price Qatar at just 5.9% win probability, Switzerland at 81.6%. With Canada and Bosnia drawing 1-1 earlier, a Switzerland win seizes Group B control. ⚠️ Confirmed XIs expected ~60 minutes before 03:00 BJT kickoff.",
+      links: [{"name": "Sports Mole · Qatar vs Switzerland team news", "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup/team-news/qatar-vs-switzerland-injury-suspension-list-predicted-xis_598997.html"}, {"name": "RotoWire · Qatar vs Switzerland preview", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"}]
+    },
+    { date: "06-14", match: "海地 vs 苏格兰", impact: "切·亚当斯临场疑问·甘首发门将·苏格兰锋线有变数", tone: "home",
+      text: "最新更新:切·亚当斯(苏格兰核心前锋)临场疑问,若缺阵则尚克兰德或须独挑锋线;预计甘(Angus Gunn)首发门将,43岁老将克雷格·戈登边缘化。海地方面无任何伤停,贝莱加德+伊索尔预计搭档首发。(来源:Sports Mole/ESPN)",
+      en: "Late update: Ché Adams listed as doubtful — if absent Shankland leads Scotland's line alone in a reshaped 4-4-2. Angus Gunn now more likely to start in goal over 43-year-old Craig Gordon. Haiti zero injury concerns; Bellegarde and Isidor expected to partner up front. (per Sports Mole / ESPN)",
+      full: "赛前最新伤情(较06-13档案有重要变动):①切·亚当斯(苏格兰联合前锋):Sports Mole确认为临场疑问——若缺阵,苏格兰4-4-2中劳伦斯·尚克兰德须独担前锋,进攻纵深受损,与海地差距收窄。②门将:主帅克拉克现倾向昂格斯·甘首发,而非43岁老将克雷格·戈登——甘更为积极,适合苏格兰预期掌控的比赛节奏。③麦克托米奈:已确认出战,中场核心问题解决。④海地:完全无伤停或禁赛,贝莱加德(狼队)与威尔逊·伊索尔(桑德兰)预计首发,队史最佳射手达肯斯·纳松亦在列。⑤国际市场苏格兰胜率63.7%,海地主胜仅15.4%。⚠️需赛前60分钟确认苏格兰官方名单以核实亚当斯出战与否。",
+      enFull: "Pre-match update with key change from 06-13 entry: (1) Ché Adams (Scotland co-striker) listed as doubtful per Sports Mole — if absent, Lawrence Shankland operates as a lone striker, narrowing Scotland's attacking depth. (2) Goalkeeping slot: consensus now favors Angus Gunn over 43-year-old Craig Gordon; Gunn's athleticism suits Scotland's expected possession game. (3) Scott McTominay: fully fit (confirmed 06-13) — midfield axis intact. (4) Haiti: zero injury or suspension concerns; Bellegarde (Wolves), Wilson Isidor (Sunderland), and record scorer Duckens Nazon all available. (5) Market: Scotland 63.7% win, Haiti 15.4%. ⚠️ Adams' participation to be confirmed in the official squad announcement ~60 minutes before the 09:00 BJT kickoff.",
+      links: [{"name": "Sports Mole · Haiti vs Scotland preview", "url": "https://www.sportsmole.co.uk/football/haiti/world-cup-2026/preview/haiti-vs-scotland-prediction-team-news-lineups_598953.html"}, {"name": "ESPN · Haiti vs Scotland preview", "url": "https://www.espn.com/soccer/story/_/id/49026945/haiti-scotland-kickoff-how-watch-stats-team-news-fifa-world-cup-2026"}]
+    },
     { date: "06-13", match: "海地 vs 苏格兰", impact: "麦克托米奈胃病痊愈确认出战·吉尔摩伤缺·苏格兰门将位置待定·海地无伤情", tone: "away",
       text: "苏格兰核心中场麦克托米奈(周四胃病缺训)已完全康复,主帅克拉克确认'状态完美,随时可上';吉尔摩(膝)缺席本届世界杯。门将位置在43岁老将克雷格·戈登与昂格斯·甘之间悬而未决。海地无伤停困扰,本土联赛中锋威尔逊·伊索尔与中场贝莱加德预计首发。(来源:Sports Mole/Yahoo Sports)",
       en: "Scotland's key midfielder Scott McTominay (stomach complaint, missed Thursday training) is fully recovered — Clarke: 'perfect and ready to go.' Billy Gilmour (knee) is ruled out for the tournament. Scotland's goalkeeping slot remains undecided between 43-year-old Craig Gordon and Angus Gunn. Haiti have no injury concerns; Wilson Isidor and Jean-Ricner Bellegarde expected to start. (per Sports Mole / Yahoo Sports)",
