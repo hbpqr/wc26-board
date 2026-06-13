@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 10:50",
+    updated: "2026-06-13 11:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "巴西 vs 摩洛哥", impact: "阿圭尔+阿布代确认缺席整届世界杯·萨达内替补入队", tone: "home",
+      text: "摩洛哥伤情升级:最强中卫阿圭尔(马赛)确认缺席整届世界杯——并非因伤复发,而是腹股沟手术后体能不足以应对顶级赛事,本人表态'康复顺利但竞技状态未达标';边锋阿布代膝伤亦确认缺席全程。两人分别由萨达内、斯巴伊火线替补。此前情报将阿圭尔标为'首发存疑',现升级为整届缺阵。(来源:GhanaSoccernet/DailySports)",
+      en: "Morocco injury upgrade: CB Nayef Aguerd (Marseille) confirmed out for the entire World Cup — not a relapse, but insufficient match fitness post-groin surgery; he stated 'recovery has gone well but I am not at the level required.' Winger Ez Abde is also out for the full tournament. Marwane Saadane and Amine Sbai join as replacements. Previous item listed Aguerd as 'doubtful for opener' — upgraded to full-tournament absence. (per GhanaSoccernet / DailySports)",
+      full: "阿圭尔3月因腹股沟伤动手术,此后未参加任何俱乐部比赛。摩洛哥宣布他从大名单退出,本人随即发文:'我的康复进展顺利,伤病已经过去,但我目前的竞技状态还不足以参加世界杯这样的顶级赛事。'这意味着摩洛哥在揭幕战对阵巴西时,2022年赖以成名的核心中卫链(阿圭尔+萨伊斯)将缺失一环;依萨·迪奥普与沙迪·里亚德需临时顶起后防。边锋阿布代的膝伤(1:1平挪威热身赛中受伤)经扫描确认为中度韧带撕裂,全程缺席。摩洛哥防守深度和进攻宽度双双受损——对巴西维尼修斯/拉菲尼亚的边路突破构成重大利好。⚠️ 马兹劳伊(肩伤)仍为临场决定,预计跑满90分钟能力存疑。",
+      enFull: "Aguerd operated on his groin in March and has not played club football since. Morocco announced his withdrawal; Aguerd posted: 'My recovery has gone well and the injury is behind me — but I am not yet at the competitive level required to participate in the World Cup.' This removes Morocco's best aerial center-back from the entire tournament. Issa Diop and Chadi Riad form the likely pairing versus Brazil. Winger Ez Abde had scans confirm a moderate knee ligament tear (sustained in the 1-1 warmup vs Norway) and is also out for the full competition. The double absence weakens both Morocco's defensive compactness and their attacking width on the right flank — a material positive for Brazil's Vinicius Jr. and Raphinha. ⚠️ Mazraoui (shoulder) remains a late call; his ability to last 90 minutes is uncertain.",
+      links: [{"name": "GhanaSoccernet · Aguerd ruled out", "url": "https://ghanasoccernet.com/world-cup-2026-morocco-defender-nayef-aguerd-gutted-after-being-ruled-out-of-tournament"}, {"name": "DailySports · Morocco double blow", "url": "https://dailysports.net/news/morocco-suffer-double-injury-blow-as-nayef-aguerd-and-abde-ezzalzouli-are-ruled-out-of-the-2026-world-cup/"}]
+    },
+    { date: "06-13", match: "巴西 vs 摩洛哥", impact: "韦斯利大腿内收肌撕裂·缺席整届世界杯·埃德森补位", tone: "away",
+      text: "巴西22岁右后卫韦斯利(罗马)6月7日热身赛对阵埃及仅17分钟后流泪离场,MRI确认左大腿内收肌严重撕裂,缺席整届世界杯;埃德森(亚特兰大)火线征召。达尼洛/伊班尼斯将应急顶右后卫,均非本位,巴西右路可能成为摩洛哥定点突破口。(来源:Fox Sports/heavy.com)",
+      en: "Brazil's 22-year-old right-back Wesley (Roma) left in tears after just 17 minutes in the June 7 friendly vs Egypt; MRI confirmed a severe left thigh adductor tear ruling him out of the entire World Cup — Éderson (Atalanta) is his replacement. Danilo or Ibáñez at right-back are stopgap solutions; Morocco may target Brazil's right flank as a vulnerability. (per Fox Sports / heavy.com)",
+      full: "韦斯利是巴西本届世界杯主力右后卫人选,在6月7日克利夫兰举行的对阵埃及热身赛中第17分钟即感不适,流泪被担架抬离场。当日核磁共振显示左大腿内收肌严重损伤,昂切洛蒂随即于6月8日征召亚特兰大中场埃德森(被测试于右后卫位置)填补名额。达尼洛(经验丰富但年龄大)和伊班尼斯(惯用中卫)是临时右后卫选项,两人均非本位球员。在对阵摩洛哥时,右路防守短板如被哈基米或阿布代(已伤出)的替位者针对,可能产生危险。整体上,巴西在攻防两端均有缺损(无内马尔+右后卫降级),不过模型集成仍维持60.1%主胜概率,因为对手摩洛哥伤情更为严重。",
+      enFull: "Wesley was Brazil's first-choice right-back entering the World Cup. In a June 7 warmup vs Egypt in Cleveland, he left the field in tears after just 17 minutes. MRI confirmed a severe left adductor tear; Ancelotti called up Éderson (Atalanta) on June 8 as the replacement, testing him in the right-back slot during training. Danilo (veteran, advanced age) or Ibáñez (natural center-back) are the in-tournament options at right-back — neither a specialist. Against Morocco, their right flank could be targeted by Hakimi (Morocco's best player) pushing forward. The compounded absences (Neymar + Wesley) weaken Brazil at both ends, though the ensemble model holds at 60.1% win probability given Morocco's even larger injury toll (Aguerd + Abde fully out, Mazraoui doubtful).",
+      links: [{"name": "Fox Sports · Wesley ruled out", "url": "https://www.foxsports.com/stories/soccer/brazil-right-back-wesley-is-out-of-the-world-cup-with-a-thigh-injury-and-ederson-is-replacing-him"}, {"name": "heavy.com · Brazil injury blow", "url": "https://heavy.com/sports/soccer/brazil-dealt-crushing-blow-as-rising-star-franca-wesley-ruled-out-of-2026-world-cup/"}]
+    },
     { date: "06-13", match: "海地 vs 苏格兰", impact: "Gilmour 膝伤缺席整届世界杯·苏格兰中场受损", tone: "home",
       text: "苏格兰中场核心比利·吉尔摩(纳波利,24岁)在WC2026最后一场热身赛4-1胜库拉索时无接触倒地受伤,扫描确认膝盖受损,缺席整届世界杯;教练克拉克:'这太残忍了。'曼联19岁中场泰勒·弗莱彻补位入选大名单。吉尔摩是苏格兰进攻组织和中场传导最关键环节,其缺席削弱中场衔接,海地防守反击空间或相对扩大。(来源:Sky Sports/beIN Sports)",
       en: "Scotland midfielder Billy Gilmour (Napoli, 24) suffered a knee injury in the 4-1 warm-up win over Curacao and has been ruled out of the entire 2026 World Cup; coach Steve Clarke called it 'so cruel.' Manchester United teenager Tyler Fletcher (19) replaces him in the squad — Scotland lose their most influential midfield creative link ahead of the Haiti opener. (per Sky Sports / beIN Sports)",
@@ -954,59 +968,79 @@ window.DASH_DATA = {
 
   // ---------- 明日下单草案(防御模式) ----------
   slip: {
-      "title": "6月14日 · 🛡 防御模式 · 核心仓 10 元",
-      "status": "防御模式生效(池169.5<保本线200):倍数仓清零、价值仓暂停、本金只碰核心票。全日唯一过线核心=澳大利亚胜@5.30(价值1.07,正期望);卡塔尔vs瑞士未开盘,开盘后复评。出票前重跑 predict.py 复核。",
+      "title": "6月14日 · ⚔️ 进取(只碰正EV/打平) · 澳洲为锚 · 38 元",
+      "status": "决策升级(用户授权全权管仓+盯北极星×100):防御≠最小档。剔除全部负EV纯热门票(巴西/瑞士/苏格兰单关都在贴水),把仓压在唯一有真实边的澳大利亚胜(价值1.10正EV),再用它串巴西博8倍上车票。池188.2,本日投38(20%),最坏跌到150仍远高于地板80;命中则跳到288~384,直奔首里程碑500。卡塔尔vs瑞士竞彩未开盘,若21:00前开出瑞士≥1.30,最终版管家追加 澳洲×瑞士(正EV串)。出票前以终端实时赔率为准。",
       "items": [
           {
               "num": "周六008",
               "match": "澳大利亚 vs 土耳其",
               "pick": "胜平负·澳大利亚胜",
               "tier": "核心",
-              "stake": 10,
+              "stake": 26,
               "odds": 5.3,
-              "value": 1.07,
-              "ev": 0.7
+              "value": 1.10,
+              "ev": 2.5
+          },
+          {
+              "num": "串关",
+              "match": "澳大利亚胜×巴西胜",
+              "pick": "2串1 @8.00",
+              "tier": "上车",
+              "stake": 12,
+              "odds": 8.0,
+              "value": 1.00,
+              "ev": 0.0
           }
       ],
       "summary": {
-          "stake": 10,
-          "evLow": 0.7,
-          "evHigh": 0.7,
-          "winProb": 20.3,
+          "stake": 38,
+          "evLow": 2.5,
+          "evHigh": 2.5,
+          "winProb": 20.7,
           "best": {
-              "label": "澳大利亚爆冷取胜",
-              "pnl": 43.0
+              "label": "澳胜+巴西胜 双中",
+              "pnl": 196.0
           },
           "worst": {
-              "label": "澳不胜",
-              "pnl": -10.0
+              "label": "澳不胜(两票全死)",
+              "pnl": -38.0
           },
           "keyScenarios": [
               {
-                  "label": "澳不胜(80%)",
-                  "pnl": -10.0
+                  "label": "澳不胜(79.3%)",
+                  "pnl": -38.0
               },
               {
-                  "label": "澳胜(20%)",
-                  "pnl": 43.0
+                  "label": "澳胜·巴西未胜(8.2%)",
+                  "pnl": 100.0
+              },
+              {
+                  "label": "澳胜+巴西胜(12.5%)",
+                  "pnl": 196.0
               }
           ]
       },
       "matrix": [
           {
-              "label": "澳大利亚胜",
-              "recover": 53.0,
-              "pnl": 43.0,
-              "prob": 20.3
+              "label": "澳大利亚胜 + 巴西胜",
+              "recover": 234.0,
+              "pnl": 196.0,
+              "prob": 12.5
           },
           {
-              "label": "澳不胜(平或负)",
+              "label": "澳大利亚胜 + 巴西未胜",
+              "recover": 138.0,
+              "pnl": 100.0,
+              "prob": 8.2
+          },
+          {
+              "label": "澳大利亚不胜(平或负)",
               "recover": 0,
-              "pnl": -10.0,
-              "prob": 79.7
+              "pnl": -38.0,
+              "prob": 79.3
           }
       ],
-      "copyText": "老板你好,竞彩足球,6月14日:\\n\\n【周六008】澳大利亚 vs 土耳其\\n① 胜平负 · 澳大利亚胜 - 10元(单关)\\n\\n合计 10 元,谢谢!"
+      "copyText": "老板你好,竞彩足球,6月14日:\\n\\n【周六008】澳大利亚 vs 土耳其\\n① 胜平负 · 澳大利亚胜 - 26元(单关)\\n\\n【2串1】\\n② 澳大利亚胜(周六008) × 巴西胜(周六006) - 12元\\n\\n合计 38 元,谢谢!"
   },
 
   // ---------- 校准记录 ----------
