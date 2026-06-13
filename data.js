@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 17:10",
+    updated: "2026-06-13 18:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "土耳其三主力受伤·恰尔汗奥卢/耶尔德兹/卡迪奥卢均临场疑问·耶尔德兹实际几乎出局", tone: "home",
+      text: "土耳其对澳大利亚揭幕战伤情雪上加霜:队长恰尔汗奥卢(小腿)、明星球员耶尔德兹(小腿)、左后卫卡迪奥卢均被列为临场决定;耶尔德兹单独训练,SportsMole称'令人惊讶的是他能上场'——实际几乎出局。三人若均缺席,土耳其中场创造力与左路纵深大损,澳大利亚防线压力显著减轻。(来源:RotoWire/SportsMole)",
+      en: "Turkey head into their Australia opener with three key men in doubt: captain Hakan Calhanoglu (calf, game-time), Kenan Yildiz (calf, effectively out — 'would be a surprise if he features') and Ferdi Kadioglu (game-time). If Yildiz and Calhanoglu both miss, Turkey lose their primary creators; Australia have no injury concerns. (per RotoWire / SportsMole)",
+      full: "土耳其对澳大利亚揭幕战伤情雪上加霜:①队长恰尔汗奥卢(小腿):被RotoWire列为临场疑问,部分媒体预测阵容仍将他安置在中场锚链位置,但确定性存疑。②耶尔德兹(小腿):近日单独训练,SportsMole明确表示'如果他能上场将是令人惊讶的事',基本确认缺席揭幕战——上一条情报(耶尔德兹升级临场疑问)由本条覆盖。③卡迪奥卢(左后卫):被RotoWire列为临场疑问。三人若同时缺席,土耳其阵型变动显著:居莱尔与卡赫韦吉需独撑创造力,左路纵深大幅削弱;澳大利亚无伤情困扰,身体状态完整。集成模型给澳大利亚20.3%胜率,若土耳其伤情属实,实际胜率或小幅上修。⚠️ 恰尔汗奥卢首发与否将在开球前最后确认。",
+      enFull: "Turkey's injury situation ahead of their World Cup opener against Australia has escalated into a three-man concern. Captain Hakan Calhanoglu is listed as a game-time decision with a calf complaint — multiple sources project him in the starting XI, but his inclusion is far from certain. Kenan Yildiz trained individually in the days before the match and SportsMole state it 'would be a surprise to see him feature,' making him effectively an absentee for the opener (this item supersedes the earlier 'game-time doubt' entry). Ferdi Kadioglu, the versatile left-back/winger, is also on the game-time decision list. If all three miss out, Turkey's creative depth is severely reduced — Arda Güler and Irfan Kahveci would carry the attacking burden alone, and the left flank loses its dynamism. Australia have no injury concerns going into the match. ⚠️ Calhanoglu's participation should become clearer in the 30-minute pre-kickoff confirmation window.",
+      links: [{"name": "RotoWire · Australia vs Turkey preview", "url": "https://www.rotowire.com/soccer/article/australia-vs-turkey-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-117953"}, {"name": "SportsMole · Turkey injury list", "url": "https://www.sportsmole.co.uk/football/australia/world-cup/team-news/australia-vs-turkey-injury-suspension-list-predicted-xis_599006.html"}]
+    },
+    { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "多媒体预测阿姆多尼首发中锋·恩博洛训练时间不足或仅替补登场", tone: "home",
+      text: "多家媒体(SportsMole/khelnow.com)预测泽基·阿姆多尼(伯恩利)而非布雷尔·恩博洛作为首发中锋:原因是恩博洛因签证风波晚到营地,完整集训时间不足。穆里尼奥或以状态稳定的阿姆多尼先发,留恩博洛作下半场冲击牌。瑞士进攻整体仍强,但首发锋线对抗强度略减。(来源:SportsMole/khelnow.com)",
+      en: "Multiple sources (SportsMole, khelnow.com) predict Zeki Amdouni (Burnley) to start as centre-forward ahead of Breel Embolo against Qatar — Embolo's late visa arrival left him short on integrated training time. Switzerland's attack remains capable, but Embolo may feature only as an impact sub. (per SportsMole / khelnow.com)",
+      full: "多家媒体预测首发变化:①SportsMole的瑞士阵容预测将泽基·阿姆多尼(伯恩利,22岁)列为中锋首发,恩博洛替补;②khelnow.com的预测XI同样将阿姆多尼列在9号位;③SI.com则维持恩博洛首发预测——媒体存在分歧。分析逻辑:恩博洛于6月5日确认签证并飞抵圣地亚哥,与全程集训的阿姆多尼相比完整训练时间差约10天。穆里尼奥可能选择以阿姆多尼先发,为恩博洛保留更多体能到关键时刻。对瑞士的实际影响较小:阿姆多尼本赛季伯恩利联赛11球,执行能力可靠;恩博洛的对抗强度和大赛经验更高,是理想替补砝码。⚠️ 官方首发待临场30分钟前确认,两人均具首发可能。",
+      enFull: "The striker debate for Switzerland's Qatar opener has crystallized around Zeki Amdouni and Breel Embolo. SportsMole's predicted Swiss lineup places Amdouni at center-forward with Embolo among the substitutes; khelnow.com's predicted XI mirrors that call. The rationale is logistical — Embolo only arrived in San Diego on June 5 after his visa complications, leaving him roughly 10 days of integrated squad training versus Amdouni who has been with the group throughout. SI.com still projects Embolo in the XI, so genuine media disagreement remains. In practical terms the difference is modest: Amdouni scored 11 goals for Burnley this season and is a reliable finisher; Embolo brings superior physicality and big-game experience from the bench. ⚠️ Official lineups confirmed 30 minutes before kickoff — treat all predictions as provisional.",
+      links: [{"name": "SportsMole · Switzerland predicted XI", "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/predicted-lineups/the-old-guard-how-switzerland-could-line-up-against-qatar_598999.html"}, {"name": "khelnow.com · Switzerland XI vs Qatar", "url": "https://khelnow.com/football/world-football-switzerland-xi-vs-qatar-predicted-lineup-team-news-fifa-world-cup-202606"}]
+    },
     { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "瓦尔加斯完全康复随队训练·临场疑问解除·预计首发", tone: "away",
       text: "瑞士右翼卢本·瓦尔加斯(奥格斯堡)伤情解除:RotoWire更新为'完全随队训练',khelnow.com预测首发XI中他回归右路先发——此前因肌肉不适被列为'临场疑问'的阴云消散,瑞士定位球核心支点和角球传递随之恢复完整。上条存疑情报已被本条覆盖。(来源:RotoWire/khelnow.com)",
       en: "Switzerland winger Ruben Vargas (Augsburg) upgraded to full training — RotoWire bulletin reads 'Trains fully with Switzerland,' and khelnow.com's predicted XI restores him to right wing; earlier game-time doubt is resolved. Previous 'questionable' item superseded. (per RotoWire / khelnow.com)",
