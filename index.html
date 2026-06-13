@@ -66,7 +66,17 @@
     padding: 4px 9px; border-radius: 2px; white-space: nowrap;
   }
   .topnav a:hover { color: var(--gold); background: var(--gold-dim); }
-  .hmeta { display: flex; gap: 24px; margin-left: auto; align-items: baseline; }
+  /* 顶栏指标:自动向左缓滚的跑马灯(悬停/按住暂停) */
+  .hmeta {
+    margin-left: auto; flex: 1 1 280px; min-width: 220px; overflow: hidden;
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  }
+  .hmeta-track { display: flex; width: max-content; animation: hticker 40s linear infinite; }
+  .hmeta-set { display: flex; gap: 24px; padding-right: 24px; align-items: baseline; }
+  @keyframes hticker { to { transform: translateX(-50%); } }
+  .hmeta:hover .hmeta-track, .hmeta:active .hmeta-track { animation-play-state: paused; }
+  @media (prefers-reduced-motion: reduce) { .hmeta-track { animation: none; } }
   .hmeta .item { display: flex; gap: 8px; align-items: baseline; white-space: nowrap; }
   .hmeta .k { font-size: 12px; color: var(--faint); }
   .hmeta .v { font-size: 15px; }
@@ -376,7 +386,7 @@
   @media (max-width: 900px) {
     .wrap { padding: 0 14px 48px; }
     .hbar { padding: 0 14px; gap: 12px; height: auto; min-height: 56px; flex-wrap: wrap; }
-    .hmeta { gap: 14px; }
+    .hmeta-set { gap: 14px; padding-right: 14px; }
     .matches, .ledger-grid, .fgrid, .slip-grid, .bank-grid, .tmr-grid, .rules-grid, .top-grid { grid-template-columns: 1fr; }
     .topnav { display: none; }
     body { font-size: 13.5px; }
@@ -384,7 +394,7 @@
     .stitle { flex-wrap: wrap; gap: 8px; }
     .score { font-size: 26px; }
     .hbar { padding: 10px 16px; row-gap: 6px; }
-    .hmeta { gap: 16px; }
+    .hmeta-set { gap: 16px; padding-right: 16px; }
     /* 大数字与条带收紧 */
     .bank-now { padding: 16px 18px; gap: 26px; }
     .bank-now .blk .v { font-size: 21px; }
@@ -441,13 +451,8 @@
     .rule-card { padding: 14px 16px; }
     /* 顶栏与统计条换行,根除页面级横向溢出 */
     .hbar { flex-wrap: wrap; height: auto; padding: 10px 14px; row-gap: 6px; }
-    /* 指标走马条: 整页唯一允许横滑的元素 */
-    .hmeta {
-      flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
-      margin-left: 0; width: 100%; padding-bottom: 4px;
-      scrollbar-width: none; mask-image: linear-gradient(90deg, #000 92%, transparent);
-    }
-    .hmeta::-webkit-scrollbar { display: none; }
+    /* 指标跑马灯: 手机端占满整行,自动缓滚(按住暂停),非手动横滑 */
+    .hmeta { margin-left: 0; width: 100%; flex: none; padding-bottom: 4px; }
     .hmeta .item { flex: none; }
     .cal-stats, .sumrow { flex-wrap: wrap; gap: 18px 28px; }
     .bank-now { gap: 18px 30px; }
@@ -644,8 +649,13 @@ const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axis
     ["轮次", D.meta.round, ""],
     ["快照(北京)", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
   ];
-  document.getElementById("hmeta").innerHTML = chips.map(([k, v, cls]) =>
+  const chipHtml = chips.map(([k, v, cls]) =>
     `<div class="item"><span class="k">${k}</span><span class="v num ${cls}">${v}</span></div>`).join("");
+  // 跑马灯:内容渲染两份,位移 -50% 即一组宽度,无缝循环;速度按内容宽度 ≈30px/秒
+  document.getElementById("hmeta").innerHTML =
+    `<div class="hmeta-track"><div class="hmeta-set">${chipHtml}</div><div class="hmeta-set" aria-hidden="true">${chipHtml}</div></div>`;
+  const set0 = document.querySelector("#hmeta .hmeta-set");
+  document.querySelector("#hmeta .hmeta-track").style.animationDuration = Math.max(20, Math.round(set0.offsetWidth / 30)) + "s";
 }
 document.getElementById("f-disclaimer").textContent = D.meta.disclaimer + " 数据源:" + (O ? O.source : "") + " · 策展更新 " + D.meta.updated + " · 全站时间均为北京时间";
 
