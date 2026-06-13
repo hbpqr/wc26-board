@@ -130,7 +130,6 @@ window.DASH_DATA = {
           "time": "06-13 09:00",
           "status": "upcoming",
           "actual": null,
-          "live": "3:0 (终场)",
           "predManual": "1:0",
           "predModel": "1:0",
           "ensemble": {

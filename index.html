@@ -611,10 +611,13 @@
 
 <script>
 // 数据文件带时间戳加载,绕开浏览器启发式缓存(每小时自动更新必须即时可见)
-document.write(`<script src="data.js?t=${Date.now()}"><\/script><script src="odds_data.js?t=${Date.now()}"><\/script><script src="intl_data.js?t=${Date.now()}"><\/script>`);
+document.write(`<script src="data.js?t=${Date.now()}"><\/script><script src="odds_data.js?t=${Date.now()}"><\/script><script src="intl_data.js?t=${Date.now()}"><\/script><script src="live_data.js?t=${Date.now()}"><\/script>`);
 </script>
 <script>
 const D = window.DASH_DATA, O = window.ODDS_DATA, I = window.INTL_DATA || {};
+const LIVE = window.LIVE_DATA || {};  // 实时比分唯一来源:live_ticker.py 读 ESPN STATUS 写入,与 data.js 物理隔离
+// 未结算场次的实时比分一律以 ticker 为准(ESPN 状态权威;LLM 误写的 live 被覆盖)
+D.todayMatches && D.todayMatches.forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.num].live : null; });
 const fmt = n => (n > 0 ? "+" : "") + n.toFixed(1);
 
 /* ---------- flags ---------- */
