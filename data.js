@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 01:10",
+    updated: "2026-06-14 02:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -810,6 +810,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "⚠️恰尔汗奥卢预测首发·触发减仓规则·出票前须确认", tone: "away",
+      text: "Sports Mole最新预测阵容将恰尔汗奥卢(小腿)列入土耳其首发;RotoWire确认其友谊赛以替补出场后仍被谨慎管理中——若官方名单确认首发,按slip预设规则须将澳胜仓位从22元降至16元。(来源:Sports Mole/RotoWire)",
+      en: "Sports Mole's latest predicted XI places Calhanoglu in Turkey's starting lineup; RotoWire confirms he is 'being managed carefully' after returning as a substitute in a friendly. Per pre-set slip rule: if confirmed starting → reduce Australia-win stake from 22 to 16 yuan. (per Sports Mole / RotoWire)",
+      full: "赛前约10小时情报更新(触发slip减仓条件):①Sports Mole发布土耳其预测首发,恰尔汗奥卢(队长/中场发动机)出现在首发位置,这与20:33终盘评估中'三人全缺悲观情景'出现偏差;②RotoWire专项文章题为'Hakan Calhanoglu Injury: Being managed carefully',指出他在友谊赛对北马其顿时以替补出场,医疗组谨慎管控恢复节奏,目前仍为临场决定;③亚尔德兹:单独训练,Sports Mole确认'几乎不可能首发';阿尔达·居勒:确认健康并预计首发;④澳大利亚全员无伤。综合评估:恰尔汗奥卢至少有替补出场概率,Sports Mole甚至预测他首发——若首发,土耳其中场体系部分恢复,之前tilt假设(×0.75)将偏乐观。⚠️ 按slip预设规则:赛前约60分钟官方名单公布后若确认恰尔汗首发→澳胜仓位22元→16元;若缺席或替补则维持22元。",
+      enFull: "Intelligence update ~10 hours before kickoff (triggers pre-set slip adjustment rule): (1) Sports Mole's latest Turkey predicted XI lists Calhanoglu in the starting lineup — diverging from the 20:33 'all-three-absent pessimistic tilt' scenario used for value calculation. (2) RotoWire headline: 'Hakan Calhanoglu Injury: Being managed carefully' — he came off the bench in a friendly win over North Macedonia; medical staff taking a measured approach to his return. (3) Yildiz (calf, training alone): unlikely to start per Sports Mole. Arda Guler: confirmed fit and expected to start. (4) Australia: no injury concerns. Assessment: if Calhanoglu starts, Turkey's midfield structure is materially restored and the away-λ×0.75 tilt discount is overstated. ⚠️ Per pre-set slip rule: check official XIs ~60 min before the 12:00 BJT kickoff — Calhanoglu confirmed starting → reduce Australia-win stake from 22 to 16 yuan; if he is a late scratch or sub → maintain 22 yuan.",
+      links: [{"name": "Sports Mole · Turkey predicted XI vs Australia", "url": "https://www.sportsmole.co.uk/football/australia/world-cup-2026/predicted-lineups/will-yildiz-be-involved-how-turkey-could-line-up-against-australia_599009.html"}, {"name": "RotoWire · Calhanoglu injury update", "url": "https://www.rotowire.com/soccer/headlines/hakan-calhanoglu-injury-being-managed-carefully-518742"}]
+    },
     { date: "06-14", match: "卡塔尔 vs 瑞士", impact: "赛前2小时确认:两队全员健康·瓦尔加斯出战无虞·恩博洛首发概率领先", tone: "away",
       text: "赛前终盘确认:卡塔尔与瑞士均无伤停困扰。瑞士主帅穆拉特·雅金确认全员可用,恩博洛与阿姆多尼竞争首发前锋位置,瓦尔加斯临场决定疑问已完全解除。卡塔尔主帅洛佩特吉亦有完整阵容可供调度,预计4-3-3登场:埃德米尔森·朱尼奥尔、阿克拉姆·阿菲夫、尤素福·阿布都里扎格担当三前锋。(来源:Sports Mole/RotoWire)",
       en: "Pre-match confirmation: both Qatar and Switzerland report no injury concerns. Yakin has a fully fit squad; Embolo leads to start ahead of Amdouni with Vargas doubts fully resolved. Lopetegui also picks from a complete group, expected 4-3-3 with Edmilson Junior, Afif, Abdurisag. (per Sports Mole / RotoWire)",
