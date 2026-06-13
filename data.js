@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 20:10",
+    updated: "2026-06-13 20:33",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -46,7 +46,7 @@ window.DASH_DATA = {
       { d: "06-11", v: 200 }, { d: "06-18", v: 168 }, { d: "06-27", v: 133 },
       { d: "07-07", v: 104 }, { d: "07-19", v: 76 }
     ],
-    note: "2万是北极星(方向)。架构=CPPI安全垫,但防御≠最小档(2026-06-13用户定调:10块买一场不是要的,要盯×100终点配仓)。当前池 188.2<保本线200=重建模式:剔除全部负EV纯热门票,把仓压在唯一有真实边的票(澳大利亚胜价值1.10正EV),用它串巴西博8倍上车。6/14进取方案38元(20%池),最坏-38池→150仍远高于地板80,命中→288~384直奔里程碑500。",
+    note: "2万是北极星(方向)。架构=CPPI安全垫,但防御≠最小档(2026-06-13用户定调)。当前池 188.2<保本线200=重建/进取模式:土耳其三主力伤疑+内马尔缺阵情报终核后tilt重跑,确认4张正EV独立单关:澳大利亚胜@5.15(价值1.16)×22元+巴西3:0@17(价值1.18)×10元+澳0:0@11(价值1.16)×8元+巴0:0@10(价值1.03)×4元。合计44元(23%池),最坏-44池→144.2>地板120;全EV=+6.8元;最佳:澳胜+巴3:0返283元净+239,直指里程碑500。",
 
     // 每日资金池日记:收益曲线数据源,每点悬停展示当日逐笔记录(AI管家每日结算后追加)
     daily: [
@@ -100,6 +100,12 @@ window.DASH_DATA = {
         stake: 110, evPnl: -5.4, winProb: 48.6,
         actualPnl: -67.3, status: "已结算",
         note: "资金池 255.5,110 元 = 43% 仓位,符合 ≤50% 规则,按原额出票;期望区间 -3.1(集成) ~ -7.6(保守),损耗已从首轮 -16% 压到 -5%;加波场86已挂(-86),美巴24在场待结"
+      },
+      {
+        date: "06-14", desc: "周六4单:澳胜22+巴3:0×10+澳0:0×8+巴0:0×4",
+        stake: 44, evPnl: 6.8, winProb: 37.8,
+        actualPnl: null, status: "待结算",
+        note: "进取重建模式(池188.2<200);4张全正EV独立单关(价值1.16/1.18/1.16/1.03);土耳其三主力伤疑tilt→澳胜EV+0.165/元;内马尔缺阵tilt→巴3:0 EV+0.176/元;最坏-44→池144.2高于地板120"
       }
     ]
   },
@@ -804,6 +810,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "终盘定稿:三主力伤情确认·Tilt澳胜价值1.16·EV+0.165", tone: "home",
+      text: "20:33终盘:亚尔德孜(小腿)单独训练几乎确认缺席,卡尔汉奥卢(小腿)临场决定,卡迪奥卢临场决定;澳大利亚全员无伤。Tilt客λ×0.75重跑:澳胜集成22.6%,@5.15=价值1.16,EV+0.165/元——全日最强正EV单关。",
+      en: "Final 20:33 BJT: Yildiz (calf, training alone) effectively out; Calhanoglu (calf) and Kadioglu both GTD. Australia fully fit. Post-tilt (away-λ×0.75): Australia-win ensemble 22.6%, @5.15 → value 1.16, EV+0.165/yuan — strongest positive-EV single on the slate.",
+      full: "20:33终盘三主力伤情汇总:①亚尔德孜(小腿):单独训练,ESPN确认'极可能缺席首战';②卡尔汉奥卢(小腿,中场发动机):RotoWire列为临场决定,若首发土耳其体系接近完整;③卡迪奥卢(左后卫/翼卫):同列临场决定。Tilt参数(主λ×1.0,客λ×0.75)假设三人全缺悲观情景:集成概率主胜22.6%、平26.8%、客50.6%;澳胜@5.15=价值1.16(EV+0.165),平局@3.72=价值1.00(EV≈0)。选定:澳胜22元(核心)+比分0:0×8元(价值)。⚠️ 出票前30分钟务必确认土耳其首发——若卡尔汉奥卢意外首发可酌情减仓。",
+      enFull: "Final 20:33 BJT injury triage: (1) Yildiz (calf, training alone) is effectively ruled out per ESPN — 'would be a surprise if he features.' (2) Calhanoglu (calf, midfield anchor) listed as game-time decision per RotoWire; if he starts Turkey's system recovers partially. (3) Kadioglu (left-back/winger) also GTD. Tilt applied (home-λ×1.0, away-λ×0.75, all-three-absent scenario): post-tilt ensemble Australia win 22.6% / draw 26.8% / Turkey win 50.6%. Australia @5.15 → value 1.16 (EV+0.165/yuan); draw @3.72 → value 1.00 (EV≈0). Stake selected: 22 yuan (HAD-win, core) + 8 yuan (score 0:0, value). ⚠️ Confirm Turkey XI 30 min before kickoff — Calhanoglu starting would partially erode the value edge.",
+      links: [{"name": "Sports Mole · Australia vs Turkey team news", "url": "https://www.sportsmole.co.uk/football/australia/world-cup/team-news/australia-vs-turkey-injury-suspension-list-predicted-xis_599006.html"}, {"name": "RotoWire · Australia vs Turkey preview", "url": "https://www.rotowire.com/soccer/article/australia-vs-turkey-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-117953"}]
+    },
+    { date: "06-14", match: "巴西 vs 摩洛哥", impact: "终盘定稿:内马尔缺阵+摩洛哥三伤·Tilt巴3:0价值1.18·EV+0.176", tone: "home",
+      text: "20:33终盘:内马尔二级腓肠肌撕裂缺席揭幕战(昂切洛蒂确认);摩洛哥马兹劳伊(肩脱臼)临场待定;Tilt主λ×0.88/客λ×0.90重跑:巴西3:0集成6.9%×@17.00=价值1.18(EV+0.176),巴摩0:0集成10.3%×@10.00=价值1.03(EV+0.031)。",
+      en: "Final 20:33 check: Neymar (grade-2 calf tear) confirmed out for opener; Morocco's Mazraoui (shoulder dislocation) GTD. Post-tilt (home-λ×0.88, away-λ×0.90): Brazil 3:0 value 1.18 (EV+0.176), scoreless draw value 1.03 (EV+0.031). Selected: Brazil 3:0 × 10 yuan + 0:0 × 4 yuan.",
+      full: "20:33终盘确认:①内马尔二级腓肠肌撕裂,康复期2-3周,昂切洛蒂:'把他带来毫无遗憾,等淘汰赛发力。'伊戈尔-蒂亚戈领衔前锋,维尼修斯/拉菲尼亚在侧。②摩洛哥:阿圭尔(腹股沟,全程缺席)+厄布德(膝,全程缺席)已确认;马兹劳伊(肩脱臼)临场决定。Tilt参数(巴西主λ×0.88,摩洛哥客λ×0.90)反映双向削弱:巴西3:0集成6.9%,@17.00=价值1.18,EV=+0.176/元;0:0集成10.3%,@10.00=价值1.03,EV=+0.031/元;所有HAD均为负EV,不出。选定:巴西3:0×10元(价值)+0:0×4元(价值)。⚠️ 出票前确认马兹劳伊首发与否。",
+      enFull: "Final 20:33 BJT confirmation: (1) Neymar confirmed out with grade-2 right calf strain; Ancelotti: 'No regrets — we believe he can be decisive in the knockouts.' Igor Thiago leads the line with Vinicius Jr. and Raphinha wide. (2) Morocco: Aguerd (groin, full-tournament) and Abde (knee, full-tournament) confirmed absent; Mazraoui (shoulder dislocation) is a game-time decision. Post-tilt (home-λ×0.88 for Neymar absence; away-λ×0.90 for Morocco defensive attrition): Brazil 3:0 ensemble 6.9% × @17.00 = value 1.18 (EV+0.176/yuan); 0:0 10.3% × @10.00 = value 1.03 (EV+0.031/yuan). All HAD outcomes remain negative EV — excluded from slip. ⚠️ Confirm Mazraoui's participation 30 min before kickoff — his absence further weakens Morocco's backline.",
+      links: [{"name": "Olympics.com · Neymar ruled out of opener", "url": "https://www.olympics.com/en/news/neymar-ruled-out-brazil-world-cup-2026-opener"}, {"name": "Morocco World News · Mazraoui shoulder dislocation", "url": "https://www.moroccoworldnews.com/2026/06/316592/mazraoui-diagnosed-with-shoulder-dislocation-ahead-of-brazil-2026-world-cup-opener/"}]
+    },
     { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "媒体共识转向恩博洛首发·覆盖早前阿姆多尼先发预测", tone: "home",
       text: "多家媒体预测出现反转:RotoWire/tips.gg/Yahoo Sports 均将布雷尔·恩博洛列为首发中锋(预测阵:Kobel;Widmer,Elvedi,Akanji,Rodríguez;Freuler,Xhaka;Ndoye,Aebischer,Manzambi;Embolo),覆盖6小时前SportsMole/khelnow预测的'阿姆多尼先发'。推测穆里尼奥认定恩博洛6月5日后的训练量已达首发标准;恩博洛大赛经验与对抗强度均高于阿姆多尼,利好瑞士进攻效率。(来源:RotoWire/tips.gg)",
       en: "Media consensus has reversed: RotoWire, tips.gg and Yahoo Sports all project Breel Embolo to START against Qatar (predicted XI: Kobel; Widmer, Elvedi, Akanji, Rodríguez; Freuler, Xhaka; Ndoye, Aebischer, Manzambi; Embolo), superseding earlier SportsMole/khelnow calls for Amdouni up front. Embolo's six days of training since his June 5 arrival deemed sufficient; his superior aerial presence and big-game experience are a marginal upgrade on Amdouni. (per RotoWire / tips.gg)",
@@ -1008,61 +1028,84 @@ window.DASH_DATA = {
       en: "Mexico beat South Africa 2-0 in the opener: Quinones scored the tournament's first goal on 10 minutes and Jimenez headed the second; South Africa finished with two red cards and zero goals. (per ESPN / AP)" }
   ],
 
-  // ---------- 明日下单草案(防御模式) ----------
+  // ---------- 明日下单 · 21:00最终版 ----------
   slip: {
-      "title": "6月14日 · 澳洲为锚 · 26 元(赔率漂移中,21:00最终版为准)",
-      "status": "⚠️ 17:34 赔率漂移:澳大利亚胜 5.30→5.00(市场在追上澳洲),价值从1.10缩到1.035——仍正EV但边变薄,盈亏平衡线4.83(再跌破单关也转负,届时空仓)。澳洲×巴西2串1因双腿都缩(5.00×1.49=7.45)价值跌到0.930=负EV,按'剔负EV'纪律已撤下;若21:00前澳洲回到≥5.30该串恢复打平可重挂。当前只留澳洲胜单关26元(正EV)。卡塔尔vs瑞士仍未开盘。20:30最终版管家按真实开盘价定稿。",
+      "title": "6月14日 · 进取重建 · 44元 · 21:00最终版",
+      "status": "✅ 20:33终盘定稿:4张正EV独立单关共44元。澳大利亚胜@5.15为锚(价值1.16,EV+0.165),土耳其三主力伤疑(亚尔德孜几乎缺席/恰/卡迪奥卢临场)tilt重跑确认;巴西3:0@17(价值1.18,EV+0.176)与巴摩0:0@10(价值1.03)基于内马尔缺阵tilt;澳0:0@11(价值1.16)基于土耳其大减员。无任何负EV票。⚠️ 出票前30分钟确认土耳其首发:若恰尔汗奥卢意外首发可酌减澳胜至16元。",
       "items": [
           {
               "num": "周六008",
               "match": "澳大利亚 vs 土耳其",
               "pick": "胜平负·澳大利亚胜",
               "tier": "核心",
-              "stake": 26,
-              "odds": 5.0,
-              "value": 1.035,
-              "ev": 0.9
+              "stake": 22,
+              "odds": 5.15,
+              "value": 1.16,
+              "ev": 3.63
+          },
+          {
+              "num": "周六006",
+              "match": "巴西 vs 摩洛哥",
+              "pick": "比分·3:0",
+              "tier": "价值",
+              "stake": 10,
+              "odds": 17.0,
+              "value": 1.18,
+              "ev": 1.76
+          },
+          {
+              "num": "周六008",
+              "match": "澳大利亚 vs 土耳其",
+              "pick": "比分·0:0",
+              "tier": "价值",
+              "stake": 8,
+              "odds": 11.0,
+              "value": 1.16,
+              "ev": 1.31
+          },
+          {
+              "num": "周六006",
+              "match": "巴西 vs 摩洛哥",
+              "pick": "比分·0:0",
+              "tier": "价值",
+              "stake": 4,
+              "odds": 10.0,
+              "value": 1.03,
+              "ev": 0.12
           }
       ],
       "summary": {
-          "stake": 26,
-          "evLow": 0.9,
-          "evHigh": 0.9,
-          "winProb": 20.7,
+          "stake": 44,
+          "evLow": 5.5,
+          "evHigh": 8.5,
+          "winProb": 37.8,
           "best": {
-              "label": "澳大利亚爆冷取胜",
-              "pnl": 104.0
+              "label": "澳大利亚胜+巴西3:0",
+              "pnl": 239
           },
           "worst": {
-              "label": "澳不胜",
-              "pnl": -26.0
+              "label": "全负",
+              "pnl": -44
           },
           "keyScenarios": [
-              {
-                  "label": "澳不胜(79.3%)",
-                  "pnl": -26.0
-              },
-              {
-                  "label": "澳胜(20.7%)",
-                  "pnl": 104.0
-              }
+              {"label": "全负(~55%)", "pnl": -44},
+              {"label": "仅澳胜(~18.7%)", "pnl": 69},
+              {"label": "仅巴西3:0(~4.6%)", "pnl": 126},
+              {"label": "澳胜+巴西3:0(~1.6%)", "pnl": 239}
           ]
       },
       "matrix": [
-          {
-              "label": "澳大利亚胜",
-              "recover": 130.0,
-              "pnl": 104.0,
-              "prob": 20.7
-          },
-          {
-              "label": "澳大利亚不胜(平或负)",
-              "recover": 0,
-              "pnl": -26.0,
-              "prob": 79.3
-          }
+          {"label": "澳胜+巴西3:0", "recover": 283, "pnl": 239, "prob": 1.6},
+          {"label": "澳0:0平+巴西3:0", "recover": 258, "pnl": 214, "prob": 0.7},
+          {"label": "仅巴西3:0(土耳其胜/其他)", "recover": 170, "pnl": 126, "prob": 4.6},
+          {"label": "澳胜+巴摩0:0", "recover": 153, "pnl": 109, "prob": 2.3},
+          {"label": "澳0:0平+巴摩0:0", "recover": 128, "pnl": 84, "prob": 1.1},
+          {"label": "仅澳胜", "recover": 113, "pnl": 69, "prob": 18.7},
+          {"label": "仅澳0:0平", "recover": 88, "pnl": 44, "prob": 8.8},
+          {"label": "仅巴摩0:0(土耳其胜)", "recover": 40, "pnl": -4, "prob": 6.9},
+          {"label": "全负", "recover": 0, "pnl": -44, "prob": 55.3}
       ],
-      "copyText": "老板你好,帮我买竞彩足球,6月14日(周六):\\n\\n场次:周六008  澳大利亚 vs 土耳其\\n买:澳大利亚 赢(玩法「胜平负」,选主队胜)\\n方式:单关(只买这一场,不串别的场)\\n金额:26 元\\n\\n一共 26 元,谢谢!"
+      "copyText": "老板你好,竞彩足球,6月14日:\\n\\n【周六006】巴西 vs 摩洛哥\\n① 比分 · 3:0(巴西) - 10元(单关)\\n② 比分 · 0:0 - 4元(单关)\\n\\n【周六008】澳大利亚 vs 土耳其\\n③ 胜平负 · 澳大利亚胜 - 22元(单关)\\n④ 比分 · 0:0 - 8元(单关)\\n\\n合计 44元,谢谢!"
   },
 
   // ---------- 校准记录 ----------
