@@ -617,7 +617,8 @@ document.write(`<script src="data.js?t=${Date.now()}"><\/script><script src="odd
 const D = window.DASH_DATA, O = window.ODDS_DATA, I = window.INTL_DATA || {};
 const LIVE = window.LIVE_DATA || {};  // 实时比分唯一来源:live_ticker.py 读 ESPN STATUS 写入,与 data.js 物理隔离
 // 未结算场次的实时比分一律以 ticker 为准(ESPN 状态权威;LLM 误写的 live 被覆盖)
-D.todayMatches && D.todayMatches.forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.num].live : null; });
+// 实时比分应用到两个区(战报 + 明日作战):未结束且 ticker 有数据就显示进行中
+[...(D.todayMatches || []), ...(D.focus || [])].forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.num].live : null; });
 const fmt = n => (n > 0 ? "+" : "") + n.toFixed(1);
 
 /* ---------- flags ---------- */
@@ -846,8 +847,8 @@ D.focus.forEach((f, idx) => {
   tmrWrap.insertAdjacentHTML("beforeend", `
     <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
       <div class="mini-top">
-        <span class="mini-teams">${flag(f.home, "flag-sm")} ${f.home} <span class="mini-time">vs</span> ${f.away} ${flag(f.away, "flag-sm")}</span>
-        <span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>
+        <span class="mini-teams">${flag(f.home, "flag-sm")} ${f.home} <span class="mini-score">${f.live ? f.live.split(" ")[0] : "vs"}</span> ${f.away} ${flag(f.away, "flag-sm")}</span>
+        ${f.live ? `<span class="mini-time" style="color:var(--red)">● 进行中 ${f.live.includes("(") ? f.live.slice(f.live.indexOf("(") + 1, -1) : ""}</span>` : `<span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>`}
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
       ${myItems.length ? `<div class="mini-tix">${tipTags}</div>` : ""}
