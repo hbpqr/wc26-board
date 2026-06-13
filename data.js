@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 20:33",
+    updated: "2026-06-13 21:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -1071,14 +1071,19 @@ window.DASH_DATA = {
 
   // ---------- 校准记录 ----------
   calibration: {
-    stats: { direction: "2/3", scoreManual: "1/3", scoreModel: "0/3" },
+    stats: { direction: "3/4", scoreManual: "1/4", scoreModel: "0/4" },
     // 在线学习状态(learn.py 每场赛后自动更新): 乘法权重 + Elo + Dixon-Coles
     learning: {
-      weights: { A: 30.7, B: 23.6, C: 40.0 },
-      brier: { A: 0.548, B: 0.592, C: 0.505, ens: 0.539 },
-      note: "权重经3场学习进化;加波平局令Elo(B)Brier暴增至1.153,权重从38.1%跌至23.6%;Poisson+DC(C)表现最稳,升至40.0%。集成Brier 0.539 > 市场基线0.548,3场后模型已落后市场——需观察更多场次恢复优势。Elo更新:加拿大-12→1858,波黑→1702。"
+      weights: { A: 31.5, B: 22.8, C: 40.9 },
+      brier: { A: 0.507, B: 0.522, C: 0.478, ens: 0.498 },
+      note: "权重经4场学习进化;美巴4:1方向命中(ens Brier=0.374)拉低均值,集成Brier 0.498 < 市场基线0.548,模型追回优势。Elo(B)本场0.311最优但累积均值最高(0.522),Poisson+DC(C)连续最稳(0.478)权重微升至40.9%。Elo更新:美国+16.4→1909.1,巴拉圭→1730.9。"
     },
     records: [
+      {
+        date: "06-13", match: "美国 vs 巴拉圭", actual: "4:1", briers: { A: 0.384, B: 0.311, C: 0.399, ens: 0.374 },
+        manual: "1:0", model: "1:0", dirHit: true, manualHit: false, modelHit: false,
+        note: "方向命中(集成53.2%美国胜,实际4:1大胜);比分偏守1:0与实际大比分差距明显,进球环境再次高估。博巴迪利亚7'乌龙+巴洛贡31'/45+5'双响奠定半场3:0,毛里西奥73'扳回一城,弗里曼90+8'锁定终场4:1。美国Elo+16.4→1909.1。B-Elo(0.311)本场最优,D国际共识(0.429)表现最差。"
+      },
       {
         date: "06-13", match: "加拿大 vs 波黑", actual: "1:1", briers: { A: 0.871, B: 1.153, C: 0.831, ens: 0.928 },
         manual: "1:0", model: "1:0", dirHit: false, manualHit: false, modelHit: false,
