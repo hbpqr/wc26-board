@@ -1,1 +1,1 @@
-window.LIVE_DATA = {"周五004": {"live": "3:0 (73')", "ts": "2026-06-13 10:37:10"}};
+window.LIVE_DATA = {};
