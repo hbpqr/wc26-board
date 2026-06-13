@@ -760,6 +760,7 @@ window.openTmr = idx => {
   const modelRows = [["A 竞彩去水", f.models.A], ["B Elo", f.models.B], ["C Poisson+DC", f.models.C]]
     .concat(intl ? [["D 国际共识 · " + intl.sources.join("+"), intl.probs.map(x => x * 100)]] : [])
     .concat([["集成(学习权重)", f.models.ens]])
+    .filter(([n, p]) => p)
     .map(([n, p]) => `<tr${n.startsWith("集成") ? ' style="color:var(--gold);font-weight:700"' : ""}><td>${n}</td><td class="r num">${p[0].toFixed(1)}%</td><td class="r num">${p[1].toFixed(1)}%</td><td class="r num">${p[2].toFixed(1)}%</td></tr>`).join("");
   const wdl = f.wdlValue.map(w => `<tr><td>${w.pick}</td><td class="r num">@${w.odds.toFixed(2)}</td><td class="r num">${w.prob}%</td><td class="r num ${w.value >= 0.85 ? "vgood" : "vbad"}">${w.value.toFixed(2)}</td></tr>`).join("");
   const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 0.85 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
@@ -768,11 +769,11 @@ window.openTmr = idx => {
   openModal(`${flag(f.home, "flag-sm")} ${f.home} vs ${f.away} ${flag(f.away, "flag-sm")} · ${f.num} · ${f.time}`, [
     { label: "概率与价值", html: `
         <table style="margin-bottom:16px"><thead><tr><th>模型</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>${modelRows}</tbody></table>
-        <table><thead><tr><th>胜平负</th><th class="r">竞彩赔率</th><th class="r">集成概率</th><th class="r">价值分</th></tr></thead><tbody>${wdl}</tbody></table>
+        ${f.wdlValue.length ? `<table><thead><tr><th>胜平负</th><th class="r">竞彩赔率</th><th class="r">集成概率</th><th class="r">价值分</th></tr></thead><tbody>${wdl}</tbody></table>` : `<div class="src-line" style="margin-bottom:12px">⚠️ 竞彩未开盘——价值分 = 集成概率 × 竞彩赔率,等开盘后生成;下方国际盘仅参考,结算永远以竞彩为准。</div>`}
         ${intlDetail(intl)}
         <div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${f.verdict}</div>
         <button class="drill-btn" onclick="closeModal();document.querySelectorAll('.focus-block')[${idx}].scrollIntoView({behavior:'smooth'})">三图深析(模型柱图/六维雷达/比分价值) ↓</button>` },
-    { label: "比分分布", html: `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥0.85 可买;EV/元 = 概率×赔率−1</div>` },
+    { label: "比分分布", html: f.scores.length ? `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥0.85 可买;EV/元 = 概率×赔率−1</div>` : `<div class="src-line">竞彩比分盘未开,开盘后此页自动生成 Poisson×赔率全表。</div>` },
     { label: "我们的票", html: myTickets ? `<table><thead><tr><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值</th><th class="r">EV</th></tr></thead><tbody>${myTickets}</tbody></table>` : "本场暂无票" },
     { label: "情报(中英)", html: newsListHtml(f.home, f.away) }
   ]);
@@ -1001,7 +1002,7 @@ D.focus.forEach((f, idx) => {
     xAxis: { type: "category", data: f.models.labels, ...AXIS },
     yAxis: { type: "value", max: 80, ...AXIS },
     series: [
-      { name: "A 市场", type: "bar", data: f.models.A, itemStyle: { color: DIM }, barWidth: 12 },
+      { name: "A 市场", type: "bar", data: f.models.A || [], itemStyle: { color: DIM }, barWidth: 12 },
       { name: "B Elo", type: "bar", data: f.models.B, itemStyle: { color: STEEL }, barWidth: 12 },
       { name: "C Poisson", type: "bar", data: f.models.C, itemStyle: { color: "#56616f" }, barWidth: 12 },
       { name: "集成", type: "bar", data: f.models.ens, itemStyle: { color: GOLD }, barWidth: 12,
@@ -1027,8 +1028,12 @@ D.focus.forEach((f, idx) => {
       ]
     }]
   });
-  // score bars
+  // score bars(竞彩比分盘未开时显示占位说明)
   const sc = [...f.scores].reverse();
+  if (!sc.length) {
+    document.getElementById(`chart-score-${idx}`).innerHTML = '<div style="display:flex;height:100%;align-items:center;justify-content:center;color:var(--faint);font-size:12px;text-align:center;padding:0 18px">竞彩比分盘未开<br>开盘后自动生成 Poisson×赔率 价值图</div>';
+    return;
+  }
   echarts.init(document.getElementById(`chart-score-${idx}`)).setOption({
     grid: { left: 8, right: 80, top: 8, bottom: 22, containLabel: true },
     xAxis: { type: "value", ...AXIS },
