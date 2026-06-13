@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 15:10",
+    updated: "2026-06-13 16:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "恩博洛签证获批·确认加入大名单·揭幕战可上阵", tone: "home",
+      text: "瑞士前锋布雷尔·恩博洛(摩纳哥)因2018年巴塞尔斗殴及2023年威胁罪相关材料被美国当局审查,无法随队出发;6月5日签证批准后飞抵圣地亚哥营地,主帅穆里尼奥确认参加对卡塔尔揭幕战。瑞士锋线实力完整,进攻火力无损。(来源:ESPN/Yahoo Sports)",
+      en: "Switzerland striker Breel Embolo (Monaco) was unable to travel with the squad after his ESTA was placed under additional review tied to a 2018 altercation and a 2023 threats conviction; he received visa approval and flew to San Diego on June 5, confirmed available for the Qatar opener — Switzerland's attacking firepower is intact. (per ESPN / Yahoo Sports)",
+      full: "恩博洛于6月5日持最新签证抵达瑞士圣地亚哥集训基地,结束了长达数日的法律-外交风波。美国当局在出发前对其ESTA授权启动额外审查,原因涉及两件记录在案的法律事件:①2018年巴塞尔斗殴案件相关文件;②2023年因多次威胁行为被判处缓期处罚,该判决今年初正式生效具有法律约束力。瑞士足协为此联系美国领馆提交法院记录,最终于周三获批临时签证。恩博洛当即飞赴圣地亚哥,完成了6月14日揭幕战前的全部集训。对阵卡塔尔一役,他预计作为中锋首发——配合格拉内特·扎卡/雷莫·弗罗伊勒中场体系,以速度和对抗能力针对卡塔尔防线。⚠️ 此事件无队内影响,穆里尼奥阵容规划始终以恩博洛在场为前提。",
+      enFull: "Embolo's ESTA travel authorization was flagged for additional review at the last minute, preventing him from boarding the squad's charter. U.S. authorities requested documentation related to two legal records: a 2018 altercation in Basel and a 2023 suspended fine for multiple threats that became legally binding earlier this year. The Swiss football federation coordinated with the U.S. Embassy in Bern, submitted the court records, and secured a temporary visa by Wednesday. Embolo flew immediately to San Diego and completed all pre-match training before the June 14 Qatar opener. He is projected to start as the center forward — his pace and physical presence as the focal point of Switzerland's attack remains intact alongside the Xhaka/Freuler midfield engine. ⚠️ No squad-related fallout: Switzerland's coaching staff planned around Embolo from day one; his clearance removes the only meaningful uncertainty in their lineup depth.",
+      links: [{"name": "ESPN · Embolo gets visa", "url": "https://www.espn.com/soccer/story/_/id/48969072/switzerland-striker-embolo-gets-visa-us-world-cup"}, {"name": "Yahoo Sports · Swiss striker cleared", "url": "https://ca.sports.yahoo.com/news/nightmare-over-breel-embolo-switzerland-075451350.html"}]
+    },
     { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "耶尔德兹升级临场决定·部分随队训练·预计出场", tone: "away",
       text: "土耳其耶尔德兹(尤文图斯)小腿伤情好转:从单独训练升级为部分随队训练,被列为临场决定且'预计出场'——较此前'首发概率极低'显著利好土耳其;若他最终首发,土耳其右路爆点恢复,澳大利亚胜@5.30的价值1.07可能降至接近甚至低于1.0。(来源:RotoWire/Sports Mole)",
       en: "Kenan Yildiz (Juventus) calf injury upgraded: from training separately to training partially with the Turkey squad, now a game-time decision 'projected to feature' — far more optimistic than earlier reports. If Yildiz starts, Turkey's right-flank explosiveness is restored and Australia's upset value at @5.30 may fall to or below 1.0. (per RotoWire / Sports Mole)",
