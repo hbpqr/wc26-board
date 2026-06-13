@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-13 19:10",
+    updated: "2026-06-13 20:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -804,6 +804,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-13", match: "卡塔尔 vs 瑞士", impact: "媒体共识转向恩博洛首发·覆盖早前阿姆多尼先发预测", tone: "home",
+      text: "多家媒体预测出现反转:RotoWire/tips.gg/Yahoo Sports 均将布雷尔·恩博洛列为首发中锋(预测阵:Kobel;Widmer,Elvedi,Akanji,Rodríguez;Freuler,Xhaka;Ndoye,Aebischer,Manzambi;Embolo),覆盖6小时前SportsMole/khelnow预测的'阿姆多尼先发'。推测穆里尼奥认定恩博洛6月5日后的训练量已达首发标准;恩博洛大赛经验与对抗强度均高于阿姆多尼,利好瑞士进攻效率。(来源:RotoWire/tips.gg)",
+      en: "Media consensus has reversed: RotoWire, tips.gg and Yahoo Sports all project Breel Embolo to START against Qatar (predicted XI: Kobel; Widmer, Elvedi, Akanji, Rodríguez; Freuler, Xhaka; Ndoye, Aebischer, Manzambi; Embolo), superseding earlier SportsMole/khelnow calls for Amdouni up front. Embolo's six days of training since his June 5 arrival deemed sufficient; his superior aerial presence and big-game experience are a marginal upgrade on Amdouni. (per RotoWire / tips.gg)",
+      full: "上一巡检(约1小时前)SportsMole与khelnow.com预测阿姆多尼首发9号,理由是恩博洛6月5日才抵营、集训时间不足。最新媒体共识逆转:①RotoWire卡塔尔vs瑞士预测文章将恩博洛列为首发中锋;②tips.gg预测XI:Kobel;Widmer,Elvedi,Akanji,Rodríguez;Freuler,Xhaka;Ndoye,Aebischer,Manzambi;Embolo;③Yahoo Sports给出相同阵容。变化逻辑:恩博洛六天密集训练被穆里尼奥认定满足首发要求,其身体对抗和空中优势在对阵卡塔尔防线时比阿姆多尼更具针对性。实际影响为正:恩博洛大赛经验更丰富、高压对抗下的控球衔接更可靠,瑞士集成74.2%客胜概率维持不变或微升。⚠️ 官方首发仍需临场30分钟前确认,此条为媒体预测共识,非官方消息。",
+      enFull: "Approximately six hours ago, SportsMole and khelnow.com predicted Amdouni to start over Embolo, citing Embolo's late June 5 arrival and insufficient integrated training time. The media consensus has now reversed. RotoWire's match preview, tips.gg, and Yahoo Sports all now project Embolo in the starting XI with the predicted lineup reading: Kobel; Widmer, Elvedi, Akanji, Rodríguez; Freuler, Xhaka; Ndoye, Aebischer, Manzambi; Embolo. The likely reasoning is that six intensive training days satisfied Murat Yakin's fitness threshold, and Embolo's physical profile — aerial dominance, strength in tight spaces — is better suited to pin back Qatar's center-backs than Amdouni. Practical assessment: Embolo starting is a marginal positive over Amdouni given superior big-game experience and hold-up play reliability. Switzerland's 74.2% ensemble win probability is unchanged or very slightly upgraded. ⚠️ Official XI confirmed 30 minutes before kickoff — treat all predictions as provisional until then. This item supersedes the earlier 'Amdouni to start' entry.",
+      links: [{"name": "RotoWire · Qatar vs Switzerland preview", "url": "https://www.rotowire.com/soccer/article/qatar-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-117815"}, {"name": "tips.gg · Qatar vs Switzerland predicted lineups", "url": "https://tips.gg/article/qatar-switzerland-predicted-lineups-story/"}]
+    },
     { date: "06-13", match: "澳大利亚 vs 土耳其", impact: "土耳其三主力受伤·恰尔汗奥卢/耶尔德兹/卡迪奥卢均临场疑问·耶尔德兹实际几乎出局", tone: "home",
       text: "土耳其对澳大利亚揭幕战伤情雪上加霜:队长恰尔汗奥卢(小腿)、明星球员耶尔德兹(小腿)、左后卫卡迪奥卢均被列为临场决定;耶尔德兹单独训练,SportsMole称'令人惊讶的是他能上场'——实际几乎出局。三人若均缺席,土耳其中场创造力与左路纵深大损,澳大利亚防线压力显著减轻。(来源:RotoWire/SportsMole)",
       en: "Turkey head into their Australia opener with three key men in doubt: captain Hakan Calhanoglu (calf, game-time), Kenan Yildiz (calf, effectively out — 'would be a surprise if he features') and Ferdi Kadioglu (game-time). If Yildiz and Calhanoglu both miss, Turkey lose their primary creators; Australia have no injury concerns. (per RotoWire / SportsMole)",
