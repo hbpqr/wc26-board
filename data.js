@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-15 05:10",
+    updated: "2026-06-15 06:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -199,6 +199,19 @@ window.DASH_DATA = {
           "predModel": "主胜92.0%",
           "ensemble": {"h": 92.0, "d": 8.0, "a": 0.0},
           "note": "德国7:1大胜库拉索。集成92.0%主胜方向正确(Brier=0.016,极优)。竞彩赛前未开盘/预计赔率≈1.05无肉,按纪律无票,无资金影响。Elo:德国+2.9→1902.9,库拉索→1347.1。"
+      },
+      {
+          "num": "周日010",
+          "group": "E组",
+          "home": "荷兰",
+          "away": "日本",
+          "time": "06-15 04:00",
+          "status": "finished",
+          "actual": "2:2",
+          "predManual": "未出票",
+          "predModel": "主胜50.6%",
+          "ensemble": {"h": 50.6, "d": 26.5, "a": 22.9},
+          "note": "荷兰 2:2 日本,精彩平局。进球:范戴克51'头球(1:0)→中村航辅57'偏转弹(1:1)→萨默维尔63'世界波(2:1)→镰田大地88'后点补射绝平(2:2)。集成50.6%看荷兰主胜方向错(ens Brier=0.845>随机0.667);荷兰西蒙斯/蒂姆伯/德里赫特三主力缺阵,日本远藤/三笘双核亦缺,双方相互削弱,市场定价高效(HAD三项价值0.87-0.90,按纪律无票)。Elo:荷兰-7.6→1912.4,日本→1847.6。无持仓,无资金影响。"
       }
   ],
 
@@ -809,6 +822,16 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-15", match: "科特迪瓦 vs 厄瓜多尔", impact: "瓦伦西亚确认首发", tone: "away",
+      text: "官方首发公布:厄瓜多尔队长恩纳·瓦伦西亚(历史最佳射手)确认出现在首发阵容中,此前轻微伤疑顾虑消散;同时科特迪瓦科苏努(取代伤缺恩迪卡)确认首发,双方核心阵容均完整。(来源:khelnow.com/ESPN)",
+      en: "Official lineups confirmed: Ecuador captain Enner Valencia starts, clearing previous minor fitness concerns. Ivory Coast: Kossounou starts at CB replacing the injured Ndika. Both squads field their expected strongest XIs. (per khelnow.com / ESPN)",
+      full: "06-15 赛前首发信息:①厄瓜多尔:加林德斯;奥尔多涅斯、帕乔、因卡皮耶、埃斯图皮南;卡塞多、维特;耶博亚、普拉塔、安古洛;瓦伦西亚。恩纳·瓦伦西亚(历史49球最佳射手,LAFC)确认首发,此前赛前轻微伤疑已解除,卡塞多+瓦伦西亚中锋双核完整,厄瓜多尔进攻火力维持预期上限。②科特迪瓦:Y.福法纳;杜埃、阿格布多、科苏努、科南;凯西耶、桑加雷、S.福法纳;迪亚洛、盖桑德、迪奥芒代。主力中卫恩迪卡(罗马)因大腿伤确定缺席,科苏努搭档阿格布多中卫组合上阵。科苏努此前仅完成恢复性训练,后防磨合仍有隐忧。整体评估:厄瓜多尔进攻线完整比赛前预期更好,科特迪瓦后防重组是最大变量。现有HAD价值全在0.90以下,无票建议不变。",
+      enFull: "Official lineups for June 15 match: (1) Ecuador: Galindez; Ordonez, Pacho, Hincapie, Estupinan; Caicedo, Vite; Yeboah, Plata, Angulo; Valencia. Enner Valencia (49-goal all-time top scorer, LAFC) confirmed as starter — pre-match minor fitness concern fully resolved. Ecuador's attacking axis of Caicedo + Valencia is intact at full strength. (2) Ivory Coast: Y. Fofana; Doue, Agbadou, Kossounou, Konan; Kessie, Sangare, S. Fofana; Diallo, Guessand, Diomande. Starting CB Ndika (AS Roma) is absent with a thigh injury — Kossounou partners Agbadou in central defence. Kossounou had only completed limited recovery training, so defensive cohesion remains a question. Assessment: Ecuador's attack is at expected capacity; Ivory Coast's defensive reshuffle is the key variable. All HAD values remain below 0.90 — no-bet stance unchanged.",
+      links: [
+        { name: "khelnow.com · Ecuador vs Ivory Coast lineup", url: "https://khelnow.com/football/world-football-ecuador-starting-lineup-vs-ivory-coast-fifa-world-cup-202606" },
+        { name: "ESPN · Ivory Coast vs Ecuador preview", url: "https://www.espn.com/soccer/story/_/id/49029367/fifa-world-cup-2026-ivory-coast-vs-ecuador-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups" }
+      ]
+    },
     { date: "06-15", match: "瑞典 vs 突尼斯", impact: "汉尼拔确认就绪", tone: "away",
       text: "最新Sports Mole伤停更新:突尼斯无任何伤停顾虑,汉尼拔·梅布里(伯恩利)被列入预测首发,此前'出战存疑'状态已升级为就绪;突尼斯进攻组织线完整,对瑞典压力加大。(来源:Sports Mole/khelnow.com)",
       en: "Latest Sports Mole team news confirms Tunisia have no injury concerns for the June 15 opener; Hannibal Mejbri (Burnley) is in the predicted XI — upgrading from the previous 'doubtful' status. Tunisia's creative midfield is fully intact. (per Sports Mole / khelnow.com)",
