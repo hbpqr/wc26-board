@@ -1328,5 +1328,74 @@ window.addEventListener("resize", () => {
   });
 });
 </script>
+<!-- ===== 未来预判 Agent 对话框(客服气泡 · 可全屏 · 背后接真 Agent)===== -->
+<style>
+#aochat-bubble{position:fixed;right:18px;bottom:18px;z-index:9998;width:56px;height:56px;border-radius:50%;
+ background:#e9b44c;color:#1a1410;border:none;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.45);
+ font-size:24px;display:flex;align-items:center;justify-content:center;transition:transform .15s}
+#aochat-bubble:hover{transform:translateY(-2px)}
+#aochat-panel{position:fixed;right:18px;bottom:84px;z-index:9999;width:min(380px,92vw);height:min(560px,72vh);
+ background:#15110c;border:1px solid #3a3026;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.55);
+ display:none;flex-direction:column;overflow:hidden;font-family:inherit}
+#aochat-panel.open{display:flex}
+#aochat-panel.full{right:2vw;bottom:2vh;left:2vw;top:2vh;width:auto;height:auto;max-width:1100px;margin:0 auto}
+.aochat-hd{display:flex;align-items:center;gap:8px;padding:11px 13px;background:#1d1710;border-bottom:1px solid #3a3026}
+.aochat-hd b{color:#e9b44c;font-size:14px}
+.aochat-dot{width:8px;height:8px;border-radius:50%;background:#777;flex:none}
+.aochat-dot.on{background:#46c06a}
+.aochat-hd .sp{flex:1}
+.aochat-hd button{background:none;border:none;color:#a99;cursor:pointer;font-size:15px;padding:2px 5px}
+.aochat-hd button:hover{color:#e9b44c}
+#aochat-msgs{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.55}
+.aochat-m{max-width:86%;padding:8px 11px;border-radius:10px;white-space:pre-wrap;word-break:break-word}
+.aochat-m.u{align-self:flex-end;background:#3a2e16;color:#f0e6d2}
+.aochat-m.a{align-self:flex-start;background:#211a12;color:#d8cfc0;border:1px solid #322a20}
+.aochat-m.sys{align-self:center;color:#8a8276;font-size:12px;text-align:center;background:none;max-width:96%}
+.aochat-m b{color:#e9b44c}
+.aochat-in{display:flex;gap:7px;padding:10px;border-top:1px solid #3a3026;background:#1a140e}
+.aochat-in textarea{flex:1;resize:none;background:#0f0c08;border:1px solid #3a3026;border-radius:8px;color:#eee;
+ padding:8px;font-family:inherit;font-size:13px;height:38px;max-height:120px}
+.aochat-in button{background:#e9b44c;color:#1a1410;border:none;border-radius:8px;padding:0 14px;cursor:pointer;font-weight:600}
+.aochat-in button:disabled{opacity:.5;cursor:default}
+</style>
+<button id="aochat-bubble" title="问未来预判 Agent">💬</button>
+<div id="aochat-panel">
+ <div class="aochat-hd">
+  <span class="aochat-dot" id="aochat-dot"></span><b>未来预判 Agent</b>
+  <span class="sp"></span>
+  <button id="aochat-full" title="全屏/还原">⛶</button>
+  <button id="aochat-close" title="关闭">✕</button>
+ </div>
+ <div id="aochat-msgs"></div>
+ <div class="aochat-in">
+  <textarea id="aochat-text" placeholder="问问今晚策略…(Enter 发送，Shift+Enter 换行)"></textarea>
+  <button id="aochat-send">发送</button>
+ </div>
+</div>
+<script>
+(function(){
+ var API="http://127.0.0.1:5050";
+ var hist=[], busy=false;
+ var $=function(id){return document.getElementById(id)};
+ var panel=$("aochat-panel"),msgs=$("aochat-msgs"),dot=$("aochat-dot"),txt=$("aochat-text");
+ function md(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")}
+ function add(role,text){var d=document.createElement("div");d.className="aochat-m "+(role==="user"?"u":role==="sys"?"sys":"a");d.innerHTML=md(text);msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;return d}
+ function health(){fetch(API+"/health").then(function(r){return r.json()}).then(function(){dot.classList.add("on")}).catch(function(){dot.classList.remove("on")})}
+ function send(){
+  var m=txt.value.trim();if(!m||busy)return;
+  txt.value="";add("user",m);hist.push({role:"user",content:m});
+  busy=true;$("aochat-send").disabled=true;var t=add("a","· · ·");
+  fetch(API+"/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:m,history:hist})})
+   .then(function(r){return r.json()}).then(function(d){t.innerHTML=md(d.reply||"(无回复)");hist.push({role:"assistant",content:d.reply||""});msgs.scrollTop=msgs.scrollHeight})
+   .catch(function(){t.innerHTML="⚠️ 连不上本地 Agent 服务。请在本机打开看板,并确保 agent_chat_server 在跑(launchd 已挂)。公网 HTTPS 页因浏览器混合内容限制无法连本地服务。"})
+   .finally(function(){busy=false;$("aochat-send").disabled=false;health()});
+ }
+ $("aochat-bubble").onclick=function(){panel.classList.toggle("open");if(panel.classList.contains("open")){if(!msgs.children.length){add("sys","我是「未来预判 Agent」本人——同一套底层逻辑、同一份当前策略。问我今晚怎么买、为什么空仓、某场的让球盘都行。");}health()}};
+ $("aochat-close").onclick=function(){panel.classList.remove("open")};
+ $("aochat-full").onclick=function(){panel.classList.toggle("full")};
+ $("aochat-send").onclick=send;
+ txt.addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();send()}});
+})();
+</script>
 </body>
 </html>
