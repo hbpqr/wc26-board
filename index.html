@@ -555,8 +555,7 @@
     <div class="charthead" id="bank-chart-head" style="margin-top:40px">资金池曲线:实际(实线) vs 目标轨迹(虚线)</div>
     <div id="chart-bankroll" class="chartbox" style="height:320px"></div>
 
-    <div class="charthead" style="margin:44px 0 14px">作战规则 · 九条纪律</div>
-    <div class="rules-grid" id="rules-grid"></div>
+    <div style="margin:40px 0 4px"><button id="rules-btn" style="background:var(--gold-dim);border:1px solid rgba(233,180,76,.4);color:var(--gold);padding:11px 18px;border-radius:2px;cursor:pointer;font-size:13px;font-weight:600;font-family:inherit">作战纪律 · 9 条铁律(点击展开) ▸</button></div>
 
     <div class="ev-ledger">
       <div class="charthead" style="margin:44px 0 10px">每晚投放 EV 台账 · 当晚记期望,结算回填实际</div>
@@ -893,8 +892,11 @@ document.getElementById("bank-now").innerHTML = `
   <div class="blk"><span class="k">保本线 / 绝对地板</span><span class="v num neg">${B.start} / ${B.floor}</span></div>`;
 document.getElementById("ms-strip").innerHTML = B.milestones.map(m => `
   <div class="ms"><div class="t">${m.target}</div><div class="l">${m.date} ${m.label}</div></div>`).join("");
-document.getElementById("rules-grid").innerHTML = B.rules.map(r =>
-  `<div class="rule-card"><div class="rk">${r[0]}</div><div class="rv">${r[1]}</div></div>`).join("");
+// 铁律收进下钻(参考性内容,不占主界面);数字动态,免得加了规则对不上
+document.getElementById("rules-btn").textContent = `作战纪律 · ${B.rules.length} 条铁律(点击展开) ▸`;
+document.getElementById("rules-btn").onclick = () => openModal(`资金作战纪律 · ${B.rules.length} 条铁律`, [{ label: "纪律", html:
+  `<div style="display:flex;flex-direction:column;gap:14px">${B.rules.map(r =>
+    `<div class="rule-card"><div class="rk">${r[0]}</div><div class="rv">${r[1]}</div></div>`).join("")}</div>` }]);
 document.getElementById("bank-chart-head").textContent =
   `资金池曲线:实际(实线) vs 目标轨迹(虚线) · ${B.note}`;
 
