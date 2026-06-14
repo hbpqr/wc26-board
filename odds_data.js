@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-14 22:10:05",
+ "fetched_at": "2026-06-14 23:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -17,9 +17,9 @@ window.ODDS_DATA = {
     "updated": ""
    },
    "hhad": {
-    "h": "1.68",
+    "h": "1.65",
     "d": "4.85",
-    "a": "3.05",
+    "a": "3.15",
     "line": "-3",
     "tier": "deep",
     "tier_label": "深让·镜像雷区",
@@ -29,12 +29,12 @@ window.ODDS_DATA = {
      0.502
     ],
     "mkt": [
-     0.527,
+     0.536,
      0.183,
-     0.29
+     0.281
     ],
-    "val_top": 1.53,
-    "edge_top": 0.211,
+    "val_top": 1.58,
+    "edge_top": 0.221,
     "mirage": true,
     "top_label": "让负",
     "verdict": "镜像假金矿,不买"
@@ -63,9 +63,9 @@ window.ODDS_DATA = {
    "status": "Selling",
    "had": {
     "h": "1.86",
-    "d": "3.38",
-    "a": "3.38",
-    "updated": "2026-06-14 19:37:12"
+    "d": "3.33",
+    "a": "3.43",
+    "updated": "2026-06-14 22:47:27"
    },
    "hhad": {
     "h": "4.00",
