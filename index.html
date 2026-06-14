@@ -159,15 +159,15 @@
   /* ---------- compact top (战报+明日 并排) ---------- */
   .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
   .mini {
-    background: var(--panel); border: 1px solid var(--line); padding: 18px 20px;
-    margin-bottom: 14px; cursor: pointer; transition: border-color .15s ease, background .15s ease;
+    background: var(--panel); border: 1px solid var(--line); padding: 14px 18px;
+    margin-bottom: 10px; cursor: pointer; transition: border-color .15s ease, background .15s ease;
   }
   .mini:hover { border-color: rgba(233,180,76,.55); background: var(--panel-2); }
   .mini-top { display: flex; align-items: center; gap: 10px; }
   .mini-teams { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; flex: 1; flex-wrap: wrap; }
   .mini-score { font-family: var(--mono); font-weight: 700; font-size: 19px; color: var(--gold); white-space: nowrap; }
   .mini-time { font-family: var(--mono); font-size: 13px; color: var(--dim); white-space: nowrap; }
-  .mini-meta { font-size: 11.5px; color: var(--faint); display: flex; gap: 14px; margin-top: 11px; flex-wrap: wrap; }
+  .mini-meta { font-size: 11.5px; color: var(--faint); display: flex; gap: 14px; margin-top: 9px; flex-wrap: wrap; }
   /* 卡片持仓 tag:与 .tier 同族(1px边/2px锐角),状态=边色+底色,金额段 1px 分隔 */
   .mini-tix { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 11px; }
   /* 持仓标签:红=猜错 / 绿=猜中 / 黄=进行中(待结)。文字精简,赔率等明细点开卡片看 */
@@ -178,7 +178,7 @@
   .tix.tx-red { color: var(--red); border-color: rgba(229,72,77,.45); background: var(--red-dim); }
   .tix.tx-yellow { color: var(--gold); border-color: rgba(233,180,76,.5); background: var(--gold-dim); }
   .mini-meta .pos2 { color: var(--gold); font-weight: 600; }
-  .mini .probbar { margin: 12px 0 0; height: 4px; }
+  .mini .probbar { margin: 9px 0 0; height: 4px; }
   .mini-hint { font-size: 10.5px; color: var(--faint); text-align: right; margin-top: 6px; }
 
   /* ---------- tomorrow battle cards ---------- */
@@ -496,6 +496,36 @@
     </div>
     <div class="tmr-plan" id="tmr-plan" style="margin-top:6px"></div>
   </section>
+  <section id="sec-slip">
+    <div class="stitle"><h2>明日下单草案</h2><span class="sub" id="slip-title"></span></div>
+    <div class="slip-grid">
+      <div>
+        <div class="slip-note" id="slip-status"></div>
+        <table id="slip-table">
+          <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="slip-sum" id="slip-sum"></div>
+      </div>
+      <div>
+        <div class="ticket">
+          <div class="t-head"><span>竞彩足球 · 单关投注单</span><span class="num">2026-06-13</span></div>
+          <div class="t-body" id="slip-paper"></div>
+          <div class="t-perf"></div>
+          <div class="t-foot"><span>合计 <b>110 元</b> · 4 单关 + 1 个 2串1</span><span>理性购彩 · 量力而行</span></div>
+        </div>
+        <button class="copybtn" id="copy-btn">复制下单文案 · 发给老板</button>
+      </div>
+    </div>
+    <div class="matrix-wrap">
+      <div class="charthead" style="margin:34px 0 10px">全结局矩阵 · 8 种组合从最优到最劣,概率合计 100%</div>
+      <table id="matrix-table">
+        <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
 
   <!-- 账本 -->
   <section id="sec-holdings">
@@ -563,36 +593,6 @@
   </section>
 
   <!-- 下单草案 -->
-  <section id="sec-slip">
-    <div class="stitle"><h2>明日下单草案</h2><span class="sub" id="slip-title"></span></div>
-    <div class="slip-grid">
-      <div>
-        <div class="slip-note" id="slip-status"></div>
-        <table id="slip-table">
-          <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <div class="slip-sum" id="slip-sum"></div>
-      </div>
-      <div>
-        <div class="ticket">
-          <div class="t-head"><span>竞彩足球 · 单关投注单</span><span class="num">2026-06-13</span></div>
-          <div class="t-body" id="slip-paper"></div>
-          <div class="t-perf"></div>
-          <div class="t-foot"><span>合计 <b>110 元</b> · 4 单关 + 1 个 2串1</span><span>理性购彩 · 量力而行</span></div>
-        </div>
-        <button class="copybtn" id="copy-btn">复制下单文案 · 发给老板</button>
-      </div>
-    </div>
-    <div class="matrix-wrap">
-      <div class="charthead" style="margin:34px 0 10px">全结局矩阵 · 8 种组合从最优到最劣,概率合计 100%</div>
-      <table id="matrix-table">
-        <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </section>
-
   <!-- 校准记录 -->
   <section id="sec-cal">
     <div class="stitle"><h2>校准记录</h2><span class="sub">模型好不好,用命中率说话</span></div>
@@ -847,11 +847,13 @@ D.focus.forEach((f, idx) => {
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
       ${myItems.length ? `<div class="mini-tix">${tipTags}</div>` : ""}
-      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}<span class="pos2">${stake > 0 ? `持票 ${stake}元` : "持票 0元"}</span></div>
+      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}${stake > 0 ? `<span class="pos2">持票 ${stake}元</span>` : ""}</div>
     </div>`);
 });
 const SM0 = D.slip.summary;
-document.getElementById("tmr-plan").innerHTML = `
+document.getElementById("tmr-plan").innerHTML = D.slip.items.length === 0 ? `
+  <div class="blk" style="flex:1"><span class="k">下一轮计划</span><span class="v" style="font-size:15px;color:var(--gold)">空仓 · 无符合纪律的票(value≥1.10)</span></div>
+  <div class="blk"><span class="k">详情</span><span class="v" style="font-size:13px"><a href="#sec-slip" style="color:var(--gold)">说明 ↓</a></span></div>` : `
   <div class="blk"><span class="k">计划仓位</span><span class="v num">${SM0.stake} 元</span></div>
   <div class="blk"><span class="k">数学期望</span><span class="v num ${SM0.evHigh >= 0 ? "pos" : "neg"}">${SM0.evHigh >= 0 ? "+" : ""}${SM0.evHigh.toFixed(1)}${SM0.evHigh === SM0.evLow ? "" : "~" + SM0.evLow.toFixed(1)}</span></div>
   <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM0.winProb}%</span></div>
@@ -1189,6 +1191,14 @@ document.getElementById("slip-sum").innerHTML = `
   <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
   <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
   <div class="blk"><span class="k">最可能剧本</span><span class="v num">${SM.keyScenarios[0].label} ${fmt(SM.keyScenarios[0].pnl)}</span></div>`;
+// 空仓态:隐藏空的表格/期望/票据/复制,只留标题+说明(status note 已解释为何空仓)
+if (D.slip.items.length === 0) {
+  ["slip-table", "slip-sum", "copy-btn"].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = "none"; });
+  document.querySelectorAll("#sec-slip .matrix-wrap, #sec-slip .ticket").forEach(el => el.style.display = "none");
+} else {
+  const foot = document.querySelector("#sec-slip .t-foot span");
+  if (foot) foot.innerHTML = `合计 <b>${SM.stake} 元</b> · ${D.slip.items.length} 注`;
+}
 // 文案里的 \n 是"换行"占位,显示和复制前都还原成真换行(否则满屏 n)
 const pasteText = D.slip.copyText.replace(/\\n/g, "\n");
 document.getElementById("slip-paper").textContent = pasteText;
