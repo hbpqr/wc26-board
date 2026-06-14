@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 15:10",
+    updated: "2026-06-14 16:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -788,6 +788,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "瑞典 vs 突尼斯", impact: "库鲁谢夫斯基缺阵", tone: "neutral",
+      text: "德扬·库鲁谢夫斯基(托特纳姆)因膝伤(2025年5月起缺席超一年)未入选瑞典26人大名单,彻底无缘本届世界杯;瑞典右路冲击力削减,吉约克莱斯+伊萨克组合仍是进攻支柱。(来源:Goal.com/myKhel/Passport Soccer)",
+      en: "Dejan Kulusevski (Tottenham) officially misses the 2026 World Cup entirely — omitted from Sweden's 26-man squad after 12+ months out with a right patella cartilage injury; Gyökeres and Isak remain Sweden's attacking pillars but right-wing threat is reduced. (per Goal.com / myKhel / Passport Soccer)",
+      full: "德扬·库鲁谢夫斯基自2025年5月在热刺对阵水晶宫的比赛中膝软骨伤出现后连续缺席超过一年,因伤势被医生描述为'难以处理',始终未能回到全训。球员本人有强烈意愿争取时间,但纳格尔斯曼最终在公布大名单时将其排除在26人名单之外,宣告其世界杯梦想终结。库鲁谢夫斯基自2024年起再未为瑞典出战。对战术影响:库鲁谢夫斯基本是瑞典右路持球推进和技术突破的核心,缺席令格里芬胡芬/斯特劳德等人须顶上;但吉约克莱斯(独立队)与亚历山大·伊萨克(纽卡斯尔)仍构成一流双前锋,整体胜率评估影响有限。Gabriel Gudmundsson赛前亦有病毒性感冒,出战存疑。(来源:Goal.com、myKhel、Passport Soccer/X)",
+      enFull: "Dejan Kulusevski has officially missed the 2026 World Cup after being left out of Sweden's 26-man squad. The Tottenham midfielder suffered a right patella cartilage injury in May 2025 and has been sidelined for over 12 months without recovering in time for the tournament. Sweden's team doctor described the injury as 'difficult to treat' — Kulusevski was unable to complete full training at Hotspur Way ahead of the squad deadline. The player, who last appeared for Sweden in 2024, had expressed a strong desire to recover in time but ultimately his fitness could not be guaranteed. Tactical impact: Kulusevski was Sweden's primary ball-carrier on the right flank, providing technical creativity between the lines. His absence means reliance on Griefenhofen or Stroud; however, Gyökeres (Club Atlético Independiente Rivadavia) and Isak (Newcastle) remain a feared strike partnership. Additionally, Gabriel Gudmundsson has been battling a pre-match virus and is touch-and-go for the June 15 opener vs Tunisia. ⚠️ Confirm Gudmundsson's availability in the official XI 60 minutes before kickoff.",
+      links: [{"name": "Goal.com · Kulusevski World Cup miss", "url": "https://www.goal.com/en/lists/world-cup-dejan-kulusevski-injury-tottenham-sweden-viktor-gyokeres-alexander-isak/bltd56651aa57664624"}, {"name": "Sports Bible · Kulusevski injury explained", "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/spurs-dejan-kulusevski-sweden-world-cup-062753-20260528"}]
+    },
+    { date: "06-14", match: "瑞典 vs 突尼斯", impact: "汉尼拔伤疑出战", tone: "home",
+      text: "突尼斯核心中场汉尼拔·梅布里在赛前热身赛对阵奥地利中受伤,出战06-15揭幕战存疑;若缺席将严重削弱突尼斯中场组织推进能力,利好瑞典中路控制。(来源:Sports Mole/koorabreak.com)",
+      en: "Tunisia midfielder Hannibal Mejbri picked up an injury in a pre-tournament friendly vs Austria and is a doubt for the June 15 opener vs Sweden; if absent, Tunisia lose their primary creative outlet in midfield — benefits Sweden's midfield dominance. (per Sports Mole / koorabreak.com)",
+      full: "突尼斯中场汉尼拔·梅布里(伯恩利)是突尼斯最重要的中场推进和创造力来源,被视为球队核心。他在赛前与奥地利的热身赛中受伤,虽有报道称可能是大腿/腘绳肌损伤(4-10周级别),具体伤情仍有争议——另有媒体将其纳入对瑞典的预测首发阵容,最终状态须赛前确认。若汉尼拔确实缺席或未能全时出战:突尼斯在预测XI中以赫代拉、斯基里(防守型)为中场基础,创造力大幅下降,正面对抗瑞典中场将处于明显劣势。从价值闸看:瑞典(集成52.4%)赔率1.71对应价值0.90仍负EV,汉尼拔缺阵利好瑞典但不足以产生明显alpha缺口。仍以无票观望为主策略,关注正式首发确认。⚠️ 赛前60分钟确认汉尼拔出战状态。",
+      enFull: "Hannibal Mejbri (Burnley), Tunisia's primary creative midfielder and playmaker, sustained an injury during a pre-tournament friendly against Austria. Reports vary on severity — one source (koorabreak.com) cited a potential hamstring tear that could mean 4-10 weeks out, while Sports Mole described him as 'a doubt for the opening match.' Multiple predicted XIs still include Hannibal in the starting lineup, suggesting his availability remains uncertain rather than confirmed absent. If Mejbri is unavailable or limited, Tunisia's midfield creativity falls substantially — Skhiri and Khédira are more defensive-minded profiles, and the team would struggle to break down Sweden's organised midfield block. From a value-gate perspective: Sweden's 52.4% win probability at odds 1.71 implies value of 0.90 (still negative-EV). Hannibal's absence benefits Sweden but doesn't yet open a clear alpha gap. Current recommendation: no bet, monitor official XI 60 minutes before the June 15 10:00 BJT kickoff. ⚠️ Hannibal's status is the single most important pre-match update for this fixture.",
+      links: [{"name": "Sports Mole · Sweden vs Tunisia team news", "url": "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/team-news/sweden-vs-tunisia-injury-suspension-list-predicted-xis_599053.html"}, {"name": "koorabreak · Hannibal injury", "url": "https://koorabreak.com/en/270327/"}]
+    },
     { date: "06-14", match: "德国 vs 库拉索", impact: "卡尔临战退出", tone: "neutral",
       text: "18岁翼锋伦纳特·卡尔(拜仁)训练受伤退出大名单,阿萨尼·乌埃达奥戈紧急补位;德国右路首发或回归萨内,对阵库拉索胜率(92%+)不受影响,但让球盘节奏或有微调。(来源:Yahoo Sports/Sports Mole)",
       en: "18-year-old winger Lennart Karl (Bayern) picked up a training injury and withdrew from Germany's WC squad; Assan Ouédraogo called up as replacement — right-wing role defaults to Sané; win probability vs Curaçao unchanged at 92%+. (per Yahoo Sports / Sports Mole)",
