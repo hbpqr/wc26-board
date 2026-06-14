@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 16:10",
+    updated: "2026-06-14 17:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -788,6 +788,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "荷兰 vs 日本", impact: "德帕伊维布双双就绪", tone: "home",
+      text: "ESPN 06-14最新确认:德帕伊与维尔布鲁根均健康放行、预计首发出战06-15揭幕战。德帕伊3月起大腿伤曾令科曼明言'须证明状态';维尔布鲁根髋伤已恢复训练。两人就绪令荷兰阵容比悲观预期更完整,但三项HAD价值仍<0.90,无票建议不变。⚠️Sports Mole一篇文章预测弗莱肯首发(与多数共识相反),赛前60分钟确认官方XI。(来源:ESPN/cryptobriefing.com)",
+      en: "ESPN confirmed June 14: Both Memphis Depay (thigh injury since March) and Bart Verbruggen (hip bruise) are fit to start vs Japan on June 15. Koeman had required Depay to 'prove fitness'; both players rejoined training and are now cleared. Lineup stronger than worst-case models assumed — but all HAD value scores remain <0.90 (negative EV), no bet. ⚠️ One Sports Mole article projects Flekken starting (vs consensus Verbruggen); confirm official XI 60 min before 04:00 BJT. (per ESPN / cryptobriefing.com)",
+      full: "ESPN于2026年6月14日发出明确报道:'Netherlands' Memphis Depay, Bart Verbruggen both fit to face Japan'。①德帕伊(科林蒂安斯/历史最佳射手):3月底大腿伤后缺席至今,赛前还有另一条腿疼痛传言,科曼明言'必须证明体能才能首发';德帕伊本人从未公开表示放弃。最新:已完成康复返回训练,ESPN确认预计06-15出战。②维尔布鲁根(布莱顿):乌兹别克斯坦热身赛落地伤髋,本周五重回全队训练,多数媒体确认预计首发;Sports Mole有一篇文章预测弗莱肯首发(可能是较早版本或编辑意见分歧)。综合评估:两人就绪令荷兰进攻线与门将线均比悲观情景更完整,集成50.6%主胜可能微升1-2pp。三项HAD价值最高约0.90(价值闸1.10以下),无票建议维持。⚠️赛前60分钟确认官方首发,关注弗莱肯/维尔布鲁根最终人选。",
+      enFull: "ESPN confirmed June 14, 2026: 'Netherlands' Memphis Depay, Bart Verbruggen both fit to face Japan.' (1) Depay (Corinthians): sidelined since late March with a thigh injury, compounded by reports of pain in a second leg days before the tournament. Coach Koeman publicly demanded he 'prove fitness' before earning a starting slot. Depay dismissed the doubts and returned to full training; ESPN now clears him for the opener. (2) Verbruggen (Brighton): bruised hip from friendly vs Uzbekistan led to goalkeeping doubt; rejoined full training Friday, expected to start ahead of Flekken — though one Sports Mole lineup piece projects Flekken as starter (likely a dissenting editorial opinion, not the consensus). Assessment: Both players available makes Netherlands' squad noticeably stronger than the worst-case assumptions that were priced into many pre-match models. Ensemble Netherlands win probability may tick 1-2pp above 50.6%. However, all three HAD market outcomes remain negative-EV (max value ~0.90, vs buy-gate ≥1.10) — no bet recommended. ⚠️ Confirm official XI 60 minutes before 04:00 BJT kickoff; Verbruggen vs Flekken is the last open question.",
+      links: [{"name": "ESPN · Depay and Verbruggen fit vs Japan", "url": "https://www.espn.com/soccer/story/_/id/49054964/netherlands-memphis-depay-bart-verbruggen-fit-face-japan-world-cup"}, {"name": "cryptobriefing.com · Netherlands Depay Verbruggen fit", "url": "https://cryptobriefing.com/netherlands-depay-verbruggen-fit-japan-world-cup/"}]
+    },
     { date: "06-14", match: "瑞典 vs 突尼斯", impact: "库鲁谢夫斯基缺阵", tone: "neutral",
       text: "德扬·库鲁谢夫斯基(托特纳姆)因膝伤(2025年5月起缺席超一年)未入选瑞典26人大名单,彻底无缘本届世界杯;瑞典右路冲击力削减,吉约克莱斯+伊萨克组合仍是进攻支柱。(来源:Goal.com/myKhel/Passport Soccer)",
       en: "Dejan Kulusevski (Tottenham) officially misses the 2026 World Cup entirely — omitted from Sweden's 26-man squad after 12+ months out with a right patella cartilage injury; Gyökeres and Isak remain Sweden's attacking pillars but right-wing threat is reduced. (per Goal.com / myKhel / Passport Soccer)",
