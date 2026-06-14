@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 19:10",
+    updated: "2026-06-14 20:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -788,6 +788,36 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "荷兰 vs 日本", impact: "荷兰多核缺阵", tone: "away",
+      text: "荷兰主力GK维尔布吕根臀伤存疑,德里格、蒂姆伯、哈维·西蒙斯均确认缺席;四名主力告缺严重削弱荷兰竞争力。(来源:Sports Mole/Rotowire)",
+      en: "Netherlands GK Bart Verbruggen is a major doubt with a hip injury; de Ligt, Timber and Xavi Simons are confirmed absences — four key players missing before the Group F opener. (per Sports Mole / Rotowire)",
+      full: "根据Sports Mole与Rotowire赛前报道,荷兰迎战日本前已确认多名主力缺席:德里格与蒂姆伯均因伤缺席世界杯,哈维·西蒙斯也在伤缺名单;主力门将巴特·维尔布吕根赛前在热身中受到臀伤困扰,是否首发存疑,后备门将弗莱肯(拜尔勒沃库森)或罗伊夫斯候补。整体阵容缺口直接影响荷兰后防与中前场组织,是本场最关键的背景变量。国际市场:荷兰胜率开盘以来下行1.2pp至46.7%(Smarkets),与伤情曝光时间线吻合。⚠️赛前确认GK首发及后防组合是最后的关键变量。",
+      enFull: "Ahead of the Group F opener vs Japan, Netherlands face significant injury headaches: Matthijs de Ligt, Jurrien Timber and Xavi Simons are all confirmed absentees. Starting GK Bart Verbruggen suffered a hip problem in their final warm-up and is a major doubt; Bayer Leverkusen's Mark Flekken or Robin Roefs would deputise. The absences weaken both the defensive unit and the creative midfield. International market: Netherlands win probability has drifted down 1.2pp since opening to 46.7% on Smarkets, timing consistent with injury news spreading. ⚠️ Confirming the GK and central defensive partnership in the starting XI is the last key variable before kick-off.",
+      links: [
+        { name: "Sports Mole · Netherlands vs Japan team news", url: "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-japan-injury-suspension-list-predicted-xis_599066.html" },
+        { name: "Rotowire · Netherlands vs Japan preview", url: "https://www.rotowire.com/soccer/article/netherlands-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-117958" }
+      ]
+    },
+    { date: "06-14", match: "荷兰 vs 日本", impact: "日本双核缺阵", tone: "home",
+      text: "日本队长远藤航因脚伤宣布退出国家队,三笘薫同样因伤缺席世界杯;攻守两端核心均告缺,日本实力打折。(来源:Sports Mole/CBS Sports)",
+      en: "Japan captain Wataru Endo announced his international retirement due to a foot injury; livewire winger Kaoru Mitoma is also absent — Japan missing both their defensive anchor and their most dangerous wide attacker. (per Sports Mole / CBS Sports)",
+      full: "Sports Mole与CBS Sports报道,日本在世界杯开赛前遭遇双重打击:队长远藤航(利物浦,防守核心)在脚伤未愈情况下宣布退出国家队;快马翼卫三笘薫同样因伤无缘本届赛事。远藤航是日本中场防守支柱,负责拦截和组织节奏;三笘薫是日本在边路最具威胁的进攻武器,两名核心缺阵直接压低日本攻防两端上限。尽管如此,日本防守体系完备,久保建英、堂安律等仍在,不可低估。国际市场:日本目前客胜赔率3.92(Smarkets),市场给荷兰仅46.7%胜率;结合荷兰自身伤情,两队均有减员,比赛走向不确定性上升。",
+      enFull: "Japan suffered two major pre-tournament blows: captain Wataru Endo (Liverpool) announced his international retirement after failing to recover from a foot injury, while electrifying winger Kaoru Mitoma also missed out injured. Endo was Japan's defensive midfield anchor and rhythm controller; Mitoma their most creative wide threat. Despite these losses, Japan retain Takefusa Kubo, Ritsu Doan, and Daichi Kamada and should not be underestimated. International market: Japan at 25.3% win (Smarkets) at odds of ~3.92; combined with Netherlands' own injury issues, match uncertainty is elevated. ⚠️ Both teams significantly weakened — market efficiency may lag the full injury picture.",
+      links: [
+        { name: "Sports Mole · Netherlands vs Japan team news", url: "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-japan-injury-suspension-list-predicted-xis_599066.html" },
+        { name: "CBS Sports · Netherlands vs Japan preview", url: "https://www.cbssports.com/soccer/news/netherlands-vs-japan-live-stream-prediction-lineups-and-how-to-watch-2026-world-cup/" }
+      ]
+    },
+    { date: "06-14", match: "科特迪瓦 vs 厄瓜多尔", impact: "恩迪卡确定缺席", tone: "home",
+      text: "科特迪瓦主力中卫恩迪卡(罗马)因大腿伤确定缺席首战,后防线需重组;科苏努复出候补中卫。(来源:Rotowire/Sports Mole)",
+      en: "Ivory Coast first-choice centre-back Evan N'Dicka (Roma) is ruled out with a thigh injury; Kossounou is fit to start as replacement — Ivory Coast defensive line forced to reorganise. (per Rotowire / Sports Mole)",
+      full: "Rotowire与Sports Mole赛前报道确认,科特迪瓦主力中卫埃文·恩迪卡(效力罗马)因大腿伤确定缺席6月15日与厄瓜多尔的首战。恩迪卡是科特迪瓦防线的绝对主力,身材高大、覆盖面广,是后防关键人物。好消息是奥迪隆·科苏努已从大腿伤复出,预计搭档迪奥芒代镇守中路。但科苏努此前在友谊赛中仅出战60分钟(赛前恢复性热身),磨合默契度不如恩迪卡在队时。预测阵容:福法纳;古埃·杜埃、辛戈、迪奥芒代、科南;迪亚基特、凯西耶、塞科·福法纳、扬·迪奥芒代;阿马德·迪亚洛、阿丁格拉。厄瓜多尔锋线若能利用科特迪瓦后防重组期形成威胁,将是突破口。⚠️结合瓦伦西亚伤疑,双方均有关键人物存疑/缺阵,全场风险双向释放。",
+      enFull: "Rotowire and Sports Mole confirm Ivory Coast first-choice centre-back Evan N'Dicka (Roma) is ruled out with a thigh injury for the June 15 Group E opener vs Ecuador. N'Dicka is a commanding presence at the back and his absence forces a defensive reshuffle. The silver lining: Odilon Kossounou is fit to deputise after recovering from his own thigh issue, though he only played 60 minutes of a recent friendly. Predicted Ivory Coast XI: Fofana; Doue, Singo, Diomande, Konan; Diakite, Kessie, Seko Fofana, Yan Diomande; Amad Diallo, Adingra. Ecuador's frontline may target the reshuffled Ivory Coast backline as a point of entry. ⚠️ With Valencia also a doubt for Ecuador, both teams face uncertainty over key personnel — a higher-variance match than the market currently prices.",
+      links: [
+        { name: "Rotowire · Ivory Coast vs Ecuador preview", url: "https://www.rotowire.com/soccer/article/ivory-coast-vs-ecuador-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-117960" },
+        { name: "Sports Mole · Ivory Coast vs Ecuador team news", url: "https://www.sportsmole.co.uk/football/ivory-coast/injury-news/team-news/ivory-coast-vs-ecuador-injury-suspension-list-predicted-xis_599041.html" }
+      ]
+    },
     { date: "06-14", match: "科特迪瓦 vs 厄瓜多尔", impact: "瓦伦西亚伤疑", tone: "away",
       text: "厄瓜多尔队长恩纳·瓦伦西亚临赛前被列为轻微伤疑,正式首发存疑;若缺席或受限,厄瓜多尔失去49球历史最佳射手,进攻火力受明显影响。(来源:Rotowire/Sports Mole)",
       en: "Ecuador captain Enner Valencia is listed as a minor fitness doubt ahead of the June 15 opener vs Ivory Coast; if absent or limited, Ecuador lose their 49-goal all-time top scorer in attack. (per Rotowire / Sports Mole)",

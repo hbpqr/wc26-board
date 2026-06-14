@@ -1114,6 +1114,10 @@ fWrap && D.focus.forEach((f, idx) => {
 
 /* ---------- odds table ---------- */
 const focusNums = new Set(D.focus.map(f => f.num));
+const HC_COLOR = { deep: "#e24b4a", shallow: "#d99e00", level: "#9ca3af" };
+const HC_SHORT = { deep: "深让", shallow: "浅让", level: "平手" };
+const hcPct = a => a ? a.map(x => Math.round(x * 100)).join("/") : "";
+const hcVC = v => !v ? "var(--faint)" : v.indexOf("真edge") >= 0 ? "#3b9c5a" : v.indexOf("假金矿") >= 0 ? "#e24b4a" : "var(--steel)";
 // 只显示本轮(今日)+下一轮(明日作战)的赔率,其余未来场次不在主界面铺开
 const oddsScope = new Set([...D.todayMatches.map(m => m.num), ...D.focus.map(f => f.num)]);
 const oBody = document.querySelector("#odds-table tbody");
@@ -1130,7 +1134,7 @@ const oBody = document.querySelector("#odds-table tbody");
       <td>${flag(m.home, "flag-sm")} <b>${m.home}</b> vs ${m.away} ${flag(m.away, "flag-sm")} <span style="color:var(--faint);font-size:11px">▸</span></td>
       <td class="num">${m.date.slice(5)} ${m.time}</td>
       <td class="r num">${had.h || "-"}</td><td class="r num">${had.d || "-"}</td><td class="r num">${had.a || "-"}</td>
-      <td class="r num">${hh.line || "-"}</td>
+      <td class="r"><span class="num">${hh.line || "-"}</span>${hh.tier ? `<div style="font-size:10px;margin-top:1px;white-space:nowrap;color:${HC_COLOR[hh.tier]}" title="${hh.tier_label}${hh.verdict ? " · " + hh.verdict : ""}">● ${HC_SHORT[hh.tier]}</div>` : ""}</td>
       <td class="r">${intlCell}</td>
       <td class="r updated num">${(had.updated || "").slice(5, 16)}</td>
     </tr>`);
@@ -1147,6 +1151,7 @@ window.openOdds = mi => {
         <table style="margin-bottom:14px"><thead><tr><th>玩法</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>
         <tr><td>胜平负(竞彩)</td><td class="r num">${had.h || "-"}</td><td class="r num">${had.d || "-"}</td><td class="r num">${had.a || "-"}</td></tr>
         <tr><td>让球 ${hh.line || "-"} 盘</td><td class="r num">${hh.h || "-"}</td><td class="r num">${hh.d || "-"}</td><td class="r num">${hh.a || "-"}</td></tr>
+        ${hh.tier ? `<tr style="font-size:12px"><td style="color:var(--steel)">↳ 让球分层</td><td colspan="3" style="color:var(--steel)"><span style="color:${HC_COLOR[hh.tier]}">●</span> ${hh.tier_label}${hh.model ? ` · 模型 ${hcPct(hh.model)} vs 市场 ${hcPct(hh.mkt)} · ${hh.top_label} edge ${hh.edge_top > 0 ? "+" : ""}${Math.round(hh.edge_top * 100)}pp` : ""} · <b style="color:${hcVC(hh.verdict)}">${hh.verdict || "—"}</b></td></tr>` : ""}
         ${intl ? `<tr style="color:var(--steel)"><td>国际加权共识</td><td class="r num">${(intl.probs[0]*100).toFixed(1)}%</td><td class="r num">${(intl.probs[1]*100).toFixed(1)}%</td><td class="r num">${(intl.probs[2]*100).toFixed(1)}%</td></tr>` : ""}
         </tbody></table>
         ${intlDetail(intl)}
