@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 13:50",
+    updated: "2026-06-14 14:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -788,6 +788,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "科特迪瓦 vs 厄瓜多尔", impact: "N迪卡伤缺", tone: "away",
+      text: "象牙海岸核心中卫埃文·恩迪卡(AS罗马)因大腿伤确认缺席06-15揭幕战;左后卫克莱门特·阿克帕亦因伤退出大名单,由克里斯托弗·奥佩里顶位。双重后防空缺令厄瓜多尔侧路突破和定位球进攻空间明显扩大。(来源:Sports Mole/Squawka)",
+      en: "Ivory Coast CB Evan N'Dicka (AS Roma) ruled out of the June 15 opener vs Ecuador with a thigh injury; LB Clément Akpa also exits the squad injured, replaced by Christopher Operi — two defensive absences open space for Ecuador's attacking transitions. (per Sports Mole / Squawka)",
+      full: "象牙海岸在06-15首战前遭受双重防守打击:①埃文·恩迪卡(AS罗马/象牙海岸最强中卫)大腿伤确认缺阵——恩迪卡身高1.90米,是象牙海岸禁区对抗核心与出球支点,同赛季在意甲以稳定性著称,其缺席直接令中卫组合降级;②左后卫克莱门特·阿克帕因伤从大名单退出,克里斯托弗·奥佩里紧急补入。预计象牙海岸后防由阿格巴多+科苏努搭档中卫,科南顶左后卫。反观厄瓜多尔:莫伊塞斯·凯塞多(布莱顿)领衔中场,帕乔+因卡皮耶中卫双核健在,普拉塔边路突破具威胁。国际市场已将厄瓜多尔定为略微大热(Smarkets:客胜37.7% vs 主胜29.3%);象牙海岸防线受损或进一步扩大这一差距。⚠️ 官方首发须赛前60分钟确认,关注科苏努中卫搭档最终人选。",
+      enFull: "Ivory Coast face their June 15 World Cup Group E opener vs Ecuador with two significant defensive injuries: (1) Evan N'Dicka (AS Roma) — Ivory Coast's best centre-back and a 1.90m aerial presence — is ruled out with a thigh injury. N'Dicka was integral to the Ivorian defensive structure and his absence is a material blow to their line organisation and set-piece defence. (2) Left-back Clément Akpa has also been forced out of the squad with injury; Christopher Operi joins as his replacement. The projected Ivory Coast backline now depends on Agbadou and Kossounou in central defence with Konan at left-back — all capable but a step below the intended setup. Ecuador arrive with their key players largely fit: Moises Caicedo, Piero Hincapie, Pervis Estupinan and Plata are all available. The international market already has Ecuador as slight favourites (Smarkets: 37.7% away win vs 29.3% Ivory Coast); the defensive double absence reinforces that lean. ⚠️ Confirm official XIs 60 minutes before the June 15 kickoff and monitor if Kossounou can anchor the CB pairing effectively.",
+      links: [{"name": "Sports Mole · Ivory Coast vs Ecuador team news", "url": "https://www.sportsmole.co.uk/football/ivory-coast/injury-news/team-news/ivory-coast-vs-ecuador-injury-suspension-list-predicted-xis_599041.html"}, {"name": "Squawka · Ivory Coast vs Ecuador lineups", "url": "https://www.squawka.com/en/news/world-cup/ivory-coast-vs-ecuador-team-news-predicted-lineups/"}]
+    },
     { date: "06-14", match: "德国 vs 库拉索", impact: "诺伊尔复出首战", tone: "home",
       text: "诺伊尔(拜仁)从赛季末小腿伤中康复复出,多家媒体确认将以首发门将身份出战德国06-15 01:00揭幕战;纳格尔斯曼预计4-2-3-1:诺伊尔;基米希、塔、吕迪格、劳姆;格罗斯、帕夫洛维奇;维尔茨、穆西亚拉、萨内;哈弗茨。德国赛前已连赢9场。(来源:Yahoo Sports/Sports Mole)",
       en: "Manuel Neuer (Bayern) returns from a calf injury and is expected to start in Germany's World Cup opener vs Curaçao (June 15 01:00 BJT). Nagelsmann's projected 4-2-3-1: Neuer; Kimmich (c), Tah, Rüdiger, Raum; Groß, Pavlović; Wirtz, Musiala, Sané; Havertz. Germany on a 9-match winning run. (per Yahoo Sports / Sports Mole)",
