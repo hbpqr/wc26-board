@@ -1380,7 +1380,7 @@ window.addEventListener("resize", () => {
 </div>
 <script>
 (function(){
- var API="http://127.0.0.1:5050";
+ var API=(window.AOCHAT_ENDPOINT||"https://movement-operational-warranties-modify.trycloudflare.com");
  var hist=[], busy=false;
  var $=function(id){return document.getElementById(id)};
  var panel=$("aochat-panel"),msgs=$("aochat-msgs"),dot=$("aochat-dot"),txt=$("aochat-text");
@@ -1393,7 +1393,7 @@ window.addEventListener("resize", () => {
   busy=true;$("aochat-send").disabled=true;var t=add("a","· · ·");
   fetch(API+"/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message:m,history:hist})})
    .then(function(r){return r.json()}).then(function(d){t.innerHTML=md(d.reply||"(无回复)");hist.push({role:"assistant",content:d.reply||""});msgs.scrollTop=msgs.scrollHeight})
-   .catch(function(){t.innerHTML="⚠️ 连不上本地 Agent 服务。请在本机打开看板,并确保 agent_chat_server 在跑(launchd 已挂)。公网 HTTPS 页因浏览器混合内容限制无法连本地服务。"})
+   .catch(function(){t.innerHTML="⚠️ 暂时连不上 Agent(海外 VPS / 隧道可能在重启)。稍后再试一次。"})
    .finally(function(){busy=false;$("aochat-send").disabled=false;health()});
  }
  $("aochat-bubble").onclick=function(){panel.classList.toggle("open");if(panel.classList.contains("open")){if(!msgs.children.length){add("sys","我是「未来预判 Agent」本人——同一套底层逻辑、同一份当前策略。问我今晚怎么买、为什么空仓、某场的让球盘都行。");}health()}};
