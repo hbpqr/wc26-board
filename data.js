@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 11:10",
+    updated: "2026-06-14 13:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -786,6 +786,13 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "德国 vs 库拉索", impact: "诺伊尔复出首战", tone: "home",
+      text: "诺伊尔(拜仁)从赛季末小腿伤中康复复出,多家媒体确认将以首发门将身份出战德国06-15 01:00揭幕战;纳格尔斯曼预计4-2-3-1:诺伊尔;基米希、塔、吕迪格、劳姆;格罗斯、帕夫洛维奇;维尔茨、穆西亚拉、萨内;哈弗茨。德国赛前已连赢9场。(来源:Yahoo Sports/Sports Mole)",
+      en: "Manuel Neuer (Bayern) returns from a calf injury and is expected to start in Germany's World Cup opener vs Curaçao (June 15 01:00 BJT). Nagelsmann's projected 4-2-3-1: Neuer; Kimmich (c), Tah, Rüdiger, Raum; Groß, Pavlović; Wirtz, Musiala, Sané; Havertz. Germany on a 9-match winning run. (per Yahoo Sports / Sports Mole)",
+      full: "诺伊尔在拜仁赛季末最后一场德甲赛事中腿部受伤,被迫缺席赛前两场热身赛(4:0胜芬兰、2:1胜美国),外界一度担忧其能否出战世界杯首战。最新确认:Yahoo Sports、Sports Mole、bulinews均将诺伊尔列入德国首发门将,正式回归国际赛场。纳格尔斯曼体系不变——4-2-3-1:基米希右后卫、劳姆左后卫、塔+吕迪格中卫,格罗斯+帕夫洛维奇双后腰,维尔茨、穆西亚拉、萨内三前腰,哈弗茨中锋。库拉索本届世界杯历史首秀(FIFA排名第82),主要球员:前队长莱安德罗·巴库纳(前阿斯顿维拉,中场)与前锋塔希斯·洪(谢菲尔德联)。综合:德国集成92-94%胜率,库拉索实力差距悬殊。本场主要价值在让球盘/大球盘——胜平负单关德国胜赔率约1.05无肉,等开盘再评估。⚠️ 官方XI须赛前60分钟确认,关注诺伊尔是否有临场变化。",
+      enFull: "Neuer sustained a calf injury in Bayern Munich's final Bundesliga fixture and sat out both pre-tournament warm-ups (4-0 vs Finland, 2-1 vs USA). He has returned to full training and is projected to start by Yahoo Sports, Sports Mole, and bulinews. Nagelsmann's expected 4-2-3-1: Neuer; Kimmich (c), Tah, Rüdiger, Raum; Groß, Pavlović; Wirtz, Musiala, Sané; Havertz. Germany arrive on a nine-match winning run. Curaçao make their World Cup debut as FIFA #82; key players include captain Leandro Bacuna (ex-Aston Villa) and forward Tahith Chong (Sheffield United). Assessment: Germany's 92-94% win probability makes the HAD market near-valueless (expected odds ~1.05). True opportunity lies in the handicap/total goals market — wait for lines to open before evaluating. ⚠️ Confirm official XI 60 minutes before 01:00 BJT kickoff and monitor any late Neuer update.",
+      links: [{"name": "Yahoo Sports · Germany vs Curaçao preview", "url": "https://sports.yahoo.com/articles/preview-germany-vs-cura-ao-170000931.html"}, {"name": "Sports Mole · Germany vs Curaçao preview", "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-curacao-prediction-team-news-lineups_599044.html"}]
+    },
     { date: "06-14", match: "荷兰 vs 日本", impact: "日本双核缺阵", tone: "home",
       text: "日本队长远藤航(利物浦)因脚踝伤确认缺席整届世界杯(6月11日宣布退出并宣告国家队退役);边锋三笘薫亦确认全程缺阵——双核同退,日本中场控制与边路突破力大幅削弱,荷兰客观受益。(来源:Olympics.com/cryptobriefing.com)",
       en: "Japan captain Wataru Endo (Liverpool) has officially withdrawn from the 2026 World Cup with a persistent ankle injury, simultaneously announcing his international retirement; winger Kaoru Mitoma is also ruled out for the entire tournament — Japan lose their two most influential players ahead of their June 15 opener vs Netherlands. (per Olympics.com / cryptobriefing.com)",
