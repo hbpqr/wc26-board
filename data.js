@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 10:10",
+    updated: "2026-06-14 10:50",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -784,6 +784,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "荷兰 vs 日本", impact: "日本双核缺阵", tone: "home",
+      text: "日本队长远藤航(利物浦)因脚踝伤确认缺席整届世界杯(6月11日宣布退出并宣告国家队退役);边锋三笘薫亦确认全程缺阵——双核同退,日本中场控制与边路突破力大幅削弱,荷兰客观受益。(来源:Olympics.com/cryptobriefing.com)",
+      en: "Japan captain Wataru Endo (Liverpool) has officially withdrawn from the 2026 World Cup with a persistent ankle injury, simultaneously announcing his international retirement; winger Kaoru Mitoma is also ruled out for the entire tournament — Japan lose their two most influential players ahead of their June 15 opener vs Netherlands. (per Olympics.com / cryptobriefing.com)",
+      full: "远藤航于6月11日正式宣布退出2026年世界杯大名单,同时宣告国家队生涯结束。原因为脚踝伤势持续困扰,复出时间线不符合本届大赛要求。远藤是日本资历最深的中场领袖——在利物浦出任双后腰核心,2022年世界杯亦是日本创造历史性成绩的关键拼图。Ajax中卫板仓滉人接任队长袖标。另:边锋三笘薫(布莱顿)亦确认因伤缺席整届世界杯,取代球员从同联赛抽调。两人合计缺失令日本失去中场组织与右路突破两条最稳定的输出渠道;荷兰(主队)中场压迫在失去远藤这个对抗点后,理论上更容易建立球权。⚠️ 日本主帅森保一将以更注重整体纪律和防守反击的阵式应对,不可低估集体战术补位能力。",
+      enFull: "Japan captain Wataru Endo announced on June 11 that he was withdrawing from the 2026 World Cup squad due to a persistent foot and ankle injury that has not sufficiently healed, simultaneously retiring from international football. Endo was the Liverpool central midfielder and defensive anchor who had played a key role in Japan's 2022 World Cup run to the round of 16. Itakura Ko (Ajax), now the likely captain replacement, is a center-back by trade — a different profile from Endo's ball-winning and recycling function. Winger Kaoru Mitoma (Brighton) is also confirmed absent for the full tournament; Machino Shuto (Borussia Mönchengladbach) replaces him. The combined loss removes Japan's most reliable creative outlet and their top pressing trigger. For Netherlands (designated home side), the absence of Endo reduces the physical contest in midfield, potentially allowing Frenkie de Jong and Xavi Simons's replacement to dominate transitions. ⚠️ Japan under Moriyasu have historically compensated for individual absences with disciplined collective defending — treat this as a material negative for Japan rather than a decisive one.",
+      links: [{"name": "Olympics.com · Endo withdraws", "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-japan-wataru-endo-o"}, {"name": "cryptobriefing.com · Endo retires", "url": "https://cryptobriefing.com/japan-captain-wataru-endo-withdraws-from-2026-world-cup-due-to-injury/"}]
+    },
+    { date: "06-14", match: "荷兰 vs 日本", impact: "荷兰阵容受损", tone: "away",
+      text: "荷兰多名主力缺阵:西蒙斯(ACL,全程缺席)、维尔布鲁根(髋伤,第一守门员悬念)、斯豪滕(膝伤)、廷贝尔(未完全康复)——进攻创造和门将线均有隐忧;利好日本反击布局。(来源:Sports Mole/OneFootball)",
+      en: "Netherlands carry multiple absences into their Japan opener: Xavi Simons (ACL, full tournament), goalkeeper Bart Verbruggen (hip, availability uncertain), Jerdy Schouten (knee) and Jurrien Timber (not fully fit) — Netherlands' creative and defensive depth is stretched, leaving room for a Japanese counter-attacking performance. (per Sports Mole / OneFootball)",
+      full: "荷兰赛前伤情积累明显:①哈维·西蒙斯(RB莱比锡)4月遭遇ACL撕裂,确认缺席整届世界杯,失去其锋线最具创造力的突破手段;②主力门将巴特·维尔布鲁根在最后一场热身赛中遭受髋部伤势,能否首发存疑,马克·弗莱肯可能顶上;③后腰耶尔迪·斯豪滕(膝)亦已报废全程;④中卫尤里安·廷贝尔此前因背部问题未完全康复。荷兰赛前剩余阵容仍具相当质量——科迪·加克波/德容/杜姆弗里斯均可战——但整体深度受损,控球节奏和禁区创造力较完整状态下降。日本若能保持高位压迫+快速反击体系,理论上可在荷兰门将线存疑时抢夺定位球和反击机会。⚠️ 集成50.6%荷兰主胜,三项价值均<0.90(负EV),本场不建议下注;继续观察两队首发官方确认。",
+      enFull: "Netherlands enter their June 15 World Cup opener carrying a notable injury toll. Xavi Simons ruptured his ACL in April and is out for the full tournament — removing their most incisive creative forward runner from PSV/RB Leipzig. Starting goalkeeper Bart Verbruggen sustained a hip injury in the Netherlands' final World Cup warmup and his availability remains uncertain; Mark Flekken is next in line. Defensive midfielder Jerdy Schouten (knee) is similarly ruled out, and centre-back Jurrien Timber has not been fully fit following a back issue. The Dutch squad retains quality names — Gakpo, De Jong, Dumfries, and Depay — but collective depth and creative directness are noticeably weaker than at full strength. Japan's counter-attacking system historically excels against teams that control the ball but lack final-third precision. ⚠️ The ensemble model gives Netherlands 50.6% win probability, but all three outcomes are negative-EV (max 0.90). This game is priced efficiently — avoid betting; monitor official starting XIs for any further late changes.",
+      links: [{"name": "Sports Mole · Netherlands vs Japan team news", "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-japan-injury-suspension-list-predicted-xis_599066.html"}, {"name": "OneFootball · Netherlands vs Japan preview", "url": "https://onefootball.com/en/news/netherlands-vs-japan-prediction-world-cup-2026-preview-best-bets-42993964"}]
+    },
     { date: "06-14", match: "澳大利亚 vs 土耳其", impact: "⚠️恰尔汗奥卢确认预计首发(队长身份)·减仓规则触发·须在12:00前将澳胜从22降至16元", tone: "away",
       text: "07:10巡检更新:covers.com明确'恰尔汗奥卢将以队长身份出现在中场',RotoWire预测XI同向——两家独立信源均将其列为首发。这是对之前'临场决定'状态的决定性升级,触发slip预设减仓规则:澳大利亚胜仓位须从22元降至16元。亚尔德孜依然缺席首发。(来源:covers.com/RotoWire)",
       en: "07:10 patrol update: covers.com states Calhanoglu 'is set to have a spot in midfield for Turkey as captain'; RotoWire predicted XI aligns — two independent sources now list him as a starter. This is a definitive upgrade from the 'game-time decision' status. Pre-set slip rule triggered: reduce Australia-win stake from 22 to 16 yuan before 12:00 kickoff. Yildiz still not expected to start. (per covers.com / RotoWire)",
