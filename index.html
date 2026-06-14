@@ -338,7 +338,21 @@
 
   /* ---------- slip ---------- */
   .slip-grid { display: grid; grid-template-columns: 5fr 4fr; gap: 52px; align-items: start; }
-  .slip-note { font-size: 12.5px; color: var(--faint); margin-bottom: 14px; }
+  .slip-note { font-size: 12.5px; color: var(--dim); line-height: 1.85; margin-bottom: 14px; }
+  .slip-note b { color: var(--gold); font-weight: 600; }
+  /* 下单决策横幅 + 候选评估卡(可视化下单区) */
+  .slip-banner { display: flex; align-items: center; gap: 10px; padding: 15px 20px; border-radius: 3px; margin-bottom: 16px; font-size: 15px; font-weight: 700; }
+  .slip-banner .bsub { font-size: 12.5px; font-weight: 400; color: var(--faint); }
+  .slip-banner.empty { background: var(--gold-dim); border: 1px solid rgba(233,180,76,.4); color: var(--gold); }
+  .slip-banner.bet { background: var(--green-dim); border: 1px solid rgba(70,192,106,.45); color: var(--green); }
+  .cand-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .cand-card { border: 1px solid var(--line); background: var(--panel); padding: 14px 16px; border-radius: 2px; }
+  .cand-card .cc-teams { font-size: 13.5px; font-weight: 600; color: var(--txt); margin-bottom: 9px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+  .cand-card .cc-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 12.5px; color: var(--dim); margin-bottom: 9px; gap: 8px; }
+  .cand-card .cc-val { font-family: var(--mono); font-weight: 600; white-space: nowrap; }
+  .cand-card .cc-verdict { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 2px; display: inline-block; }
+  .cand-card .cc-verdict.vgood { color: var(--green); background: var(--green-dim); }
+  .cand-card .cc-verdict.vbad { color: var(--faint); background: rgba(255,255,255,.04); }
   .ticket {
     position: relative; border-radius: 8px; overflow: hidden;
     background: #f2ecdb; color: #261f12;
@@ -396,7 +410,7 @@
     .wrap { padding: 0 14px 48px; }
     .hbar { padding: 0 14px; gap: 12px; height: auto; min-height: 56px; flex-wrap: wrap; }
     .hmeta-set { gap: 14px; padding-right: 14px; }
-    .matches, .ledger-grid, .fgrid, .slip-grid, .bank-grid, .tmr-grid, .rules-grid, .top-grid { grid-template-columns: 1fr; }
+    .matches, .ledger-grid, .fgrid, .slip-grid, .bank-grid, .tmr-grid, .rules-grid, .top-grid, .cand-grid { grid-template-columns: 1fr; }
     .topnav { display: none; }
     body { font-size: 13.5px; }
     section { margin-top: 52px; }
@@ -497,10 +511,12 @@
     <div class="tmr-plan" id="tmr-plan" style="margin-top:6px"></div>
   </section>
   <section id="sec-slip">
-    <div class="stitle"><h2>明日下单草案</h2><span class="sub" id="slip-title"></span></div>
-    <div class="slip-grid">
+    <div class="stitle"><h2>下单计划</h2><span class="sub" id="slip-title"></span></div>
+    <div id="slip-banner"></div>
+    <div id="slip-cards"></div>
+    <div class="slip-note" id="slip-status" style="margin-top:14px"></div>
+    <div class="slip-grid" id="slip-bet-grid">
       <div>
-        <div class="slip-note" id="slip-status"></div>
         <table id="slip-table">
           <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
           <tbody></tbody>
@@ -1160,7 +1176,36 @@ window.openNews = ni => {
 
 /* ---------- slip ---------- */
 document.getElementById("slip-title").textContent = D.slip.title;
-document.getElementById("slip-status").textContent = D.slip.status;
+// 说明渲染 Markdown(**粗** + 换行),不再露生符号
+document.getElementById("slip-status").innerHTML = (D.slip.status || "")
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+  .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>");
+// 决策横幅
+const isEmpty = D.slip.items.length === 0;
+document.getElementById("slip-banner").className = "slip-banner " + (isEmpty ? "empty" : "bet");
+document.getElementById("slip-banner").innerHTML = isEmpty
+  ? `🛑 本轮空仓 <span class="bsub">· 四场无一张达买入门槛 value≥1.10,按纪律不出手</span>`
+  : `✓ 本轮出 ${D.slip.items.length} 注 · 共 ${D.slip.summary.stake} 元 <span class="bsub">· 期望 ${D.slip.summary.evHigh >= 0 ? "+" : ""}${D.slip.summary.evHigh}</span>`;
+// 候选评估卡:空仓时展示下一轮四场的最佳买点+裁决(可视化"为什么不买");有票时展示下注卡
+document.getElementById("slip-cards").className = "cand-grid";
+document.getElementById("slip-cards").innerHTML = isEmpty
+  ? D.focus.map(f => {
+      const best = (f.wdlValue && f.wdlValue.length) ? f.wdlValue.reduce((a, b) => b.value > a.value ? b : a) : null;
+      let vcls, verdict, valStr;
+      if (f.presale || !best) { vcls = "vbad"; verdict = "竞彩未开盘"; valStr = "—"; }
+      else if (best.value >= 1.10) { vcls = "vgood"; verdict = `✓ 可买 @${best.odds}`; valStr = best.value.toFixed(2); }
+      else { vcls = "vbad"; verdict = "✗ 贴水跳过"; valStr = best.value.toFixed(2); }
+      return `<div class="cand-card">
+        <div class="cc-teams">${flag(f.home, "flag-sm")} ${f.home} <span style="color:var(--faint);font-weight:400">vs</span> ${f.away}</div>
+        <div class="cc-row"><span>最佳:${best ? best.pick : "—"}</span><span class="cc-val ${vcls}">价值 ${valStr}</span></div>
+        <div class="cc-verdict ${vcls}">${verdict}</div></div>`;
+    }).join("")
+  : D.slip.items.map(it => `<div class="cand-card">
+      <div class="cc-teams">${it.pick} <span class="tier ${({ "核心": "core", "倍数": "multi" })[it.tier] || ""}">${it.tier}</span></div>
+      <div class="cc-row"><span>${it.match}</span><span class="cc-val">${it.stake}元 @${it.odds}</span></div>
+      <div class="cc-verdict vgood">价值 ${it.value} · EV ${it.ev >= 0 ? "+" : ""}${it.ev}</div></div>`).join("");
+// 空仓时下半部(下注表/票据/矩阵)整体隐藏
+document.getElementById("slip-bet-grid").style.display = isEmpty ? "none" : "";
 const sBody = document.querySelector("#slip-table tbody");
 const tierCls = { "核心": "core", "倍数": "multi", "价值": "" };
 D.slip.items.forEach(it => {
