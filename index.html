@@ -51,7 +51,7 @@
 
   /* ---------- header ---------- */
   header {
-    position: sticky; top: 0; z-index: 10;
+    position: sticky; top: 0; z-index: 10; overflow-x: clip;
     background: rgba(11,13,17,.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--line);
@@ -324,16 +324,16 @@
 
   /* ---------- news ---------- */
   .news-list { border: 1px solid var(--line); }
-  .news-item { display: flex; gap: 16px; padding: 17px 22px; border-bottom: 1px solid var(--line); align-items: baseline; background: var(--panel); border-left: 3px solid transparent; }
+  .news-item { display: flex; gap: 16px; padding: 17px 22px; border-bottom: 1px solid var(--line); align-items: baseline; background: var(--panel); border-left: 3px solid transparent; overflow-wrap: anywhere; }
   .news-item.home { border-left-color: var(--gold); }
   .news-item.away { border-left-color: var(--steel); }
   .news-item.neutral { border-left-color: rgba(255,255,255,.18); }
   .news-item:last-child { border-bottom: none; }
   .news-date { font-size: 12px; color: var(--faint); white-space: nowrap; }
-  .tag { font-size: 11px; padding: 2px 8px; border-radius: 2px; white-space: nowrap; border: 1px solid var(--line-strong); color: var(--dim); }
+  .tag { font-size: 11px; padding: 2px 8px; border-radius: 2px; white-space: normal; word-break: break-word; max-width: 100%; border: 1px solid var(--line-strong); color: var(--dim); }
   .tag.home { color: var(--gold); border-color: rgba(233,180,76,.5); }
   .tag.away { color: var(--steel); border-color: rgba(125,156,187,.5); }
-  .news-text { font-size: 13px; color: var(--dim); }
+  .news-text { font-size: 13px; color: var(--dim); min-width: 0; flex: 1; overflow-wrap: anywhere; word-break: break-word; }
   .news-text b { color: var(--txt); font-weight: 600; }
 
   /* ---------- slip ---------- */
@@ -552,7 +552,12 @@
     <div class="bank-now" id="bank-now"></div>
     <div class="ms-strip" id="ms-strip"></div>
 
-    <div class="charthead" id="bank-chart-head" style="margin-top:40px">资金池曲线:实际(实线) vs 目标轨迹(虚线)</div>
+    <div class="equity-wrap">
+      <div class="charthead" style="margin:36px 0 10px">收益曲线 · 日频资金池(已结算现金) · <span style="color:var(--gold)">点任意点看当日逐笔记录</span></div>
+      <div id="chart-equity" class="chartbox" style="height:260px"></div>
+    </div>
+
+    <div class="charthead" id="bank-chart-head" style="margin-top:40px">资金池目标曲线:实际(实线) vs ×100 目标轨迹(虚线,对数坐标)</div>
     <div id="chart-bankroll" class="chartbox" style="height:320px"></div>
 
     <div style="margin:40px 0 4px"><button id="rules-btn" style="background:var(--gold-dim);border:1px solid rgba(233,180,76,.4);color:var(--gold);padding:11px 18px;border-radius:2px;cursor:pointer;font-size:13px;font-weight:600;font-family:inherit">作战纪律 · 9 条铁律(点击展开) ▸</button></div>
@@ -564,11 +569,6 @@
         <tbody></tbody>
       </table>
       <div class="ev-cum" id="ev-cum"></div>
-    </div>
-
-    <div class="equity-wrap">
-      <div class="charthead" style="margin:44px 0 10px">收益曲线 · 日频资金池(已结算现金,线性坐标) · <span style="color:var(--gold)">悬停任意点看当日逐笔记录</span></div>
-      <div id="chart-equity" class="chartbox" style="height:260px"></div>
     </div>
   </section>
 
@@ -933,11 +933,12 @@ if (B.daily && B.daily.length) {
     legend: { textStyle: { color: "#9aa3ad", fontSize: 11 }, top: 0, itemWidth: 14, itemHeight: 8 },
     tooltip: {
       trigger: "axis",
+      confine: true,
       backgroundColor: "#171b22",
       borderColor: "rgba(233,180,76,.45)",
       borderWidth: 1,
-      textStyle: { color: "#e8eaed", fontSize: 12.5 },
-      extraCssText: "max-width:460px;white-space:normal;line-height:1.8;box-shadow:0 12px 40px rgba(0,0,0,.6);",
+      textStyle: { color: "#e8eaed", fontSize: 12 },
+      extraCssText: "max-width:min(440px,90vw);white-space:normal;line-height:1.7;box-shadow:0 12px 40px rgba(0,0,0,.6);",
       formatter: params => {
         const day = B.daily[params[0].dataIndex];
         const pnlStr = day.pnl === 0 ? "±0" : (day.pnl > 0 ? "+" : "") + day.pnl.toFixed(1);
