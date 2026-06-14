@@ -1330,11 +1330,11 @@ window.addEventListener("resize", () => {
 </script>
 <!-- ===== 未来预判 Agent 对话框(客服气泡 · 可全屏 · 背后接真 Agent)===== -->
 <style>
-#aochat-bubble{position:fixed;right:18px;bottom:18px;z-index:9998;width:56px;height:56px;border-radius:50%;
+#aochat-bubble{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:100000;width:56px;height:56px;border-radius:50%;
  background:#e9b44c;color:#1a1410;border:none;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.45);
  font-size:24px;display:flex;align-items:center;justify-content:center;transition:transform .15s}
 #aochat-bubble:hover{transform:translateY(-2px)}
-#aochat-panel{position:fixed;right:18px;bottom:84px;z-index:9999;width:min(380px,92vw);height:min(560px,72vh);
+#aochat-panel{position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:100001;width:min(380px,92vw);height:min(560px,72vh);
  background:#15110c;border:1px solid #3a3026;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.55);
  display:none;flex-direction:column;overflow:hidden;font-family:inherit}
 #aochat-panel.open{display:flex}
@@ -1357,6 +1357,12 @@ window.addEventListener("resize", () => {
  padding:8px;font-family:inherit;font-size:13px;height:38px;max-height:120px}
 .aochat-in button{background:#e9b44c;color:#1a1410;border:none;border-radius:8px;padding:0 14px;cursor:pointer;font-weight:600}
 .aochat-in button:disabled{opacity:.5;cursor:default}
+@media (max-width:600px){
+ #aochat-panel,#aochat-panel.full{right:0;left:0;top:0;bottom:0;width:auto;height:100dvh;max-width:none;border-radius:0;border:none;margin:0}
+ .aochat-in textarea{font-size:16px;height:42px}
+ #aochat-bubble{width:52px;height:52px;right:14px}
+ .aochat-in{padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+}
 </style>
 <button id="aochat-bubble" title="问未来预判 Agent">💬</button>
 <div id="aochat-panel">
@@ -1368,7 +1374,7 @@ window.addEventListener("resize", () => {
  </div>
  <div id="aochat-msgs"></div>
  <div class="aochat-in">
-  <textarea id="aochat-text" placeholder="问问今晚策略…(Enter 发送，Shift+Enter 换行)"></textarea>
+  <textarea id="aochat-text" placeholder="问今晚策略…（Enter 发送）"></textarea>
   <button id="aochat-send">发送</button>
  </div>
 </div>
