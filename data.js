@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 14:10",
+    updated: "2026-06-14 15:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -117,10 +117,10 @@ window.DASH_DATA = {
         note: "资金池 255.5,110 元 = 43% 仓位,符合 ≤50% 规则,按原额出票;期望区间 -3.1(集成) ~ -7.6(保守),损耗已从首轮 -16% 压到 -5%;加波场86已挂(-86),美巴24在场待结"
       },
       {
-        date: "06-14", desc: "周六4单:澳胜22+巴3:0×10+澳0:0×8+巴0:0×4",
-        stake: 44, evPnl: 6.8, winProb: 37.8,
-        actualPnl: null, status: "待结算",
-        note: "进取重建模式(池188.2<200);4张全正EV独立单关(价值1.16/1.18/1.16/1.03);土耳其三主力伤疑tilt→澳胜EV+0.165/元;内马尔缺阵tilt→巴3:0 EV+0.176/元;最坏-44→池144.2高于地板120"
+        date: "06-14", desc: "周六实出1单:澳胜22(其余3单未出票)",
+        stake: 22, evPnl: 3.6, winProb: 22.5,
+        actualPnl: 91.3, status: "已结算",
+        note: "原计划4单44元(澳胜+巴3:0+澳0:0+巴0:0),实际只出澳洲胜22元@5.15;其余3单(巴3:0/澳0:0/巴0:0)未下注。澳大利亚2:0完胜土耳其,命中→回收113.3,净+91.3;池188.2→279.5,重站保本线200上方。巴西和澳0:0若出票均挂,不出是对的。"
       }
     ]
   },
@@ -788,6 +788,20 @@ window.DASH_DATA = {
 
   // ---------- 情报流 ----------
   news: [
+    { date: "06-14", match: "德国 vs 库拉索", impact: "卡尔临战退出", tone: "neutral",
+      text: "18岁翼锋伦纳特·卡尔(拜仁)训练受伤退出大名单,阿萨尼·乌埃达奥戈紧急补位;德国右路首发或回归萨内,对阵库拉索胜率(92%+)不受影响,但让球盘节奏或有微调。(来源:Yahoo Sports/Sports Mole)",
+      en: "18-year-old winger Lennart Karl (Bayern) picked up a training injury and withdrew from Germany's WC squad; Assan Ouédraogo called up as replacement — right-wing role defaults to Sané; win probability vs Curaçao unchanged at 92%+. (per Yahoo Sports / Sports Mole)",
+      full: "伦纳特·卡尔是纳格尔斯曼为德国世界杯大名单选入的18岁翼锋(拜仁慕尼黑),赛前被认为有较高概率出任右路首发,其速度和直线冲击是主要卖点。卡尔在集训期间训练受伤,被迫退出大名单,阿萨尼·乌埃达奥戈作为紧急替补加入。德国右翼人选因此回归萨内,威尔茨/穆西亚拉居中不变。对阵库拉索(FIFA #82,本届首秀)整体实力悬殊,人员变动对胜平负结果影响极小——集成92%以上主胜。主要影响在进攻节奏:卡尔的直线速度冲击被萨内的技术型变速所取代,或减缓比分积累速度。⚠️ 官方首发赛前60分钟确认;让球盘开出后重新评估进球数预期。",
+      enFull: "Lennart Karl, 18-year-old Bayern Munich winger, was among Nagelsmann's selected names for Germany's World Cup squad and was projected to have a real shot at starting on the right flank given his explosive pace. Karl suffered a training injury during camp preparations and was forced to withdraw; Assan Ouédraogo was called up as emergency replacement. Germany's right wing role will now most likely fall to Sané, with Wirtz and Musiala in their usual central positions, and Havertz as the lone striker. The personnel change has negligible impact on Germany's win probability against Curaçao (FIFA #82, World Cup debut) — ensemble probability remains above 92%. The more relevant question is how Karl's pace-based disruption vs Sané's technically-driven build-up affects the total goals and handicap markets. ⚠️ Confirm official XI 60 minutes before the 01:00 BJT kickoff; re-evaluate handicap lines once released.",
+      links: [{"name": "Yahoo Sports · Germany XI vs Curaçao", "url": "https://uk.sports.yahoo.com/news/germany-xi-vs-curacao-confirmed-122125951.html"}, {"name": "Sports Mole · Germany team news", "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/team-news/germany-vs-curacao-injury-suspension-list-predicted-xis_599045.html"}]
+    },
+    { date: "06-14", match: "荷兰 vs 日本", impact: "德利赫特缺阵", tone: "away",
+      text: "荷兰中卫马蒂斯·德利赫特确认缺席2026世界杯(加入西蒙斯/斯豪滕/廷贝尔缺阵列表,四主力齐缺);同时更新:维尔布鲁根髋伤已恢复,预计首发出战,门将悬念解除。(来源:ESPN/Sports Mole)",
+      en: "Matthijs de Ligt confirmed out for the 2026 World Cup, adding to Dutch absences of Simons (ACL), Schouten (knee), and Timber — four key players missing; positive update: Verbruggen (hip) now expected to start vs Japan, goalkeeping doubt resolved. (per ESPN / Sports Mole)",
+      full: "荷兰伤情更新:马蒂斯·德利赫特(前拜仁/曼联中卫)正式确认缺席本届世界杯,与哈维·西蒙斯(ACL)、耶尔迪·斯豪滕(膝)、尤里安·廷贝尔(背部)并列,四名主力同时缺席。德利赫特的缺阵令荷兰中卫深度更加吃紧,本·耶达拉或范登博格将补位搭档。积极更新:主力门将巴特·维尔布鲁根在多家媒体最新预测XI中已恢复首发位置,髋伤已基本康复,门将悬念解除。总体评估:荷兰仍有加克波、弗伦基·德容、德佩、杜姆弗里斯等核心可战,但四主力缺席令阵容深度与协调性低于最佳状态。集成50.6%荷兰主胜,三项HAD价值均<0.90(负EV)——本场维持无票观望。⚠️ 赛前60分钟确认官方首发。",
+      enFull: "Updated Netherlands injury picture ahead of the June 15 opener vs Japan: Matthijs de Ligt is confirmed absent for the 2026 World Cup, joining Xavi Simons (ACL, full tournament), Jerdy Schouten (knee) and Jurrien Timber (back) — four key Dutch players missing. De Ligt's absence further depletes Netherlands' central defensive depth; Ben Yedder or Van den Berg are expected to cover. Positive update: goalkeeper Bart Verbruggen, who suffered a hip injury in the final warmup and whose availability was previously flagged as uncertain, is now expected to start per multiple latest media XI projections — the goalkeeping doubt noted in the earlier entry is largely resolved. Quality names remain available (Gakpo, De Jong, Depay, Dumfries) but the four absences collectively reduce squad flexibility and creativity. Ensemble Netherlands win probability at 50.6%; all three HAD outcomes are negative-EV (max 0.90). Monitor official XIs 60 minutes before kickoff — no bet recommended.",
+      links: [{"name": "ESPN · 2026 WC injury tracker", "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"}, {"name": "Sports Mole · Netherlands vs Japan team news", "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-japan-injury-suspension-list-predicted-xis_599066.html"}]
+    },
     { date: "06-14", match: "科特迪瓦 vs 厄瓜多尔", impact: "N迪卡伤缺", tone: "away",
       text: "象牙海岸核心中卫埃文·恩迪卡(AS罗马)因大腿伤确认缺席06-15揭幕战;左后卫克莱门特·阿克帕亦因伤退出大名单,由克里斯托弗·奥佩里顶位。双重后防空缺令厄瓜多尔侧路突破和定位球进攻空间明显扩大。(来源:Sports Mole/Squawka)",
       en: "Ivory Coast CB Evan N'Dicka (AS Roma) ruled out of the June 15 opener vs Ecuador with a thigh injury; LB Clément Akpa also exits the squad injured, replaced by Christopher Operi — two defensive absences open space for Ecuador's attacking transitions. (per Sports Mole / Squawka)",
