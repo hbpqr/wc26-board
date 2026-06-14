@@ -792,10 +792,10 @@ window.openTmr = idx => {
     .concat([["集成(学习权重)", f.models.ens]])
     .filter(([n, p]) => p)
     .map(([n, p]) => `<tr${n.startsWith("集成") ? ' style="color:var(--gold);font-weight:700"' : ""}><td>${n}</td><td class="r num">${p[0].toFixed(1)}%</td><td class="r num">${p[1].toFixed(1)}%</td><td class="r num">${p[2].toFixed(1)}%</td></tr>`).join("");
-  const wdl = f.wdlValue.map(w => `<tr><td>${w.pick}</td><td class="r num">@${w.odds.toFixed(2)}</td><td class="r num">${w.prob}%</td><td class="r num ${w.value >= 0.85 ? "vgood" : "vbad"}">${w.value.toFixed(2)}</td></tr>`).join("");
-  const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 0.85 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
+  const wdl = f.wdlValue.map(w => `<tr><td>${w.pick}</td><td class="r num">@${w.odds.toFixed(2)}</td><td class="r num">${w.prob}%</td><td class="r num ${w.value >= 1.10 ? "vgood" : "vbad"}">${w.value.toFixed(2)}</td></tr>`).join("");
+  const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 1.10 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
   const myTickets = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)))
-    .map(it => `<tr><td>${it.pick}</td><td><span class="tier">${it.tier}</span></td><td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td><td class="r num ${it.value >= 0.85 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td><td class="r num">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`).join("");
+    .map(it => `<tr><td>${it.pick}</td><td><span class="tier">${it.tier}</span></td><td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td><td class="r num ${it.value >= 1.10 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td><td class="r num">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`).join("");
   openModal(`${flag(f.home, "flag-sm")} ${f.home} vs ${f.away} ${flag(f.away, "flag-sm")} · ${f.num} · ${f.time}`, [
     { label: "概率与价值", html: `
         <table style="margin-bottom:16px"><thead><tr><th>模型</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>${modelRows}</tbody></table>
@@ -803,7 +803,7 @@ window.openTmr = idx => {
         ${intlDetail(intl)}
         <div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${f.verdict}</div>
         <button class="drill-btn" onclick="closeModal();document.querySelectorAll('.focus-block')[${idx}].scrollIntoView({behavior:'smooth'})">三图深析(模型柱图/六维雷达/比分价值) ↓</button>` },
-    { label: "比分分布", html: f.scores.length ? `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥0.85 可买;EV/元 = 概率×赔率−1</div>` : `<div class="src-line">竞彩比分盘未开,开盘后此页自动生成 Poisson×赔率全表。</div>` },
+    { label: "比分分布", html: f.scores.length ? `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥1.10 可买(含安全边际);EV/元 = 概率×赔率−1</div>` : `<div class="src-line">竞彩比分盘未开,开盘后此页自动生成 Poisson×赔率全表。</div>` },
     { label: "我们的票", html: myTickets ? `<table><thead><tr><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值</th><th class="r">EV</th></tr></thead><tbody>${myTickets}</tbody></table>` : "本场暂无票" },
     { label: "情报(中英)", html: newsListHtml(f.home, f.away) }
   ]);
@@ -826,9 +826,9 @@ window.openWhy = (idx, kind) => {
     openModal(`模型计算依据 · ${f.home} vs ${f.away}`, [{ label: "四模型与集成", html: rows + `
       <div class="src-line">权重由 learn.py 每场赛后按 Brier 乘法更新;当前 A28.1/B38.1/C33.8。模型分歧本身就是信息:分歧大 = 不确定性高 = 降仓位。</div>` }]);
   } else if (kind === "score") {
-    const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 0.85 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
+    const sc = f.scores.map(s => `<tr><td class="num">${s.s}</td><td class="r num">${s.p}%</td><td class="r num">@${s.odds.toFixed(2)}</td><td class="r num ${s.value >= 1.10 ? "vgood" : "vbad"}">${s.value.toFixed(2)}</td><td class="r num">${(s.p / 100 * s.odds - 1).toFixed(2)}</td></tr>`).join("");
     openModal(`比分分布生成逻辑 · ${f.home} vs ${f.away}`, [{ label: "生成逻辑与全表", html: `
-      <div class="bi-block"><div class="bi-lang">怎么算出来的</div>① 用竞彩去水概率反推两队进球率 λ(本场 ${f.home} ${(f.modelNotes && f.modelNotes[2]) ? f.modelNotes[2].note.match(/λ=([^ ,)]+)/)?.[1] || "" : ""}),即"若重赛一万次,平均各进几球";② 双 Poisson 网格算出每个比分的独立概率;③ Dixon-Coles ρ=-0.08 修正低比分(0:0/1:1 上调,1:0/0:1 下调)——修复韩捷 2:1 暴露的独立性偏差;④ 价值分 = 概率 × 竞彩赔率,≥0.85 进入可买池。</div>
+      <div class="bi-block"><div class="bi-lang">怎么算出来的</div>① 用竞彩去水概率反推两队进球率 λ(本场 ${f.home} ${(f.modelNotes && f.modelNotes[2]) ? f.modelNotes[2].note.match(/λ=([^ ,)]+)/)?.[1] || "" : ""}),即"若重赛一万次,平均各进几球";② 双 Poisson 网格算出每个比分的独立概率;③ Dixon-Coles ρ=-0.08 修正低比分(0:0/1:1 上调,1:0/0:1 下调)——修复韩捷 2:1 暴露的独立性偏差;④ 价值分 = 概率 × 竞彩赔率,**≥1.10 才进可买池**(塔勒布安全边际:1.0-1.10虽正EV但落在估计误差带内,跳过;<1.0是负EV)。</div>
       <table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table>
       <div class="src-line">最优单比分命中率天花板 12-17%,这张表的价值在排序而非押中;1:1/2:1 是大众情怀票,价值分常年垫底。</div>` }]);
   }
@@ -1006,7 +1006,7 @@ scn.setOption({
 const fWrap = document.getElementById("focus-blocks");
 D.focus.forEach((f, idx) => {
   const wdlChips = f.wdlValue.map(w => `
-    <div class="ochip ${w.value >= 0.85 ? "good" : ""}">
+    <div class="ochip ${w.value >= 1.10 ? "good" : ""}">
       <span>${w.pick}</span><span class="o num">@${w.odds.toFixed(2)}</span>
       <span class="vs num">概率${w.prob}% · 价值${w.value.toFixed(2)}</span>
     </div>`).join("") + (I[f.num] ? `
@@ -1078,9 +1078,9 @@ D.focus.forEach((f, idx) => {
       type: "bar", barWidth: 14,
       data: sc.map(s => ({
         value: s.p,
-        itemStyle: { color: s.value >= 0.85 ? GOLD : DIM },
+        itemStyle: { color: s.value >= 1.10 ? GOLD : DIM },
         label: { show: true, position: "right", fontSize: 11, fontFamily: "Menlo",
-          color: s.value >= 0.85 ? GOLD : FAINT,
+          color: s.value >= 1.10 ? GOLD : FAINT,
           formatter: () => `${s.p}% @${s.odds} V${s.value.toFixed(2)}` }
       }))
     }]
@@ -1156,7 +1156,7 @@ D.slip.items.forEach(it => {
     <tr><td class="num">${it.num}</td><td>${it.pick}</td>
     <td><span class="tier ${tierCls[it.tier] || ""}">${it.tier}</span></td>
     <td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td>
-    <td class="r num ${it.value >= 0.85 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td>
+    <td class="r num ${it.value >= 1.10 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td>
     <td class="r num ${it.ev >= 0 ? "pos" : ""}" style="${it.ev >= 0 ? "" : "color:var(--faint)"}">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`);
 });
 /* ---------- outcome matrix ---------- */

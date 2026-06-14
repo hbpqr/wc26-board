@@ -6,7 +6,7 @@
 window.DASH_DATA = {
   meta: {
     round: "小组赛第 1 轮",
-    updated: "2026-06-14 08:10",
+    updated: "2026-06-14 09:10",
     disclaimer: "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
   },
 
@@ -1019,63 +1019,21 @@ window.DASH_DATA = {
       links: [{"name": "NESN", "url": "https://nesn.com/soccer/news/usa-paraguay-lineups-starting-11-usmnt-world-cup-2026/788d6bd807ab152c78f1b843"}, {"name": "Sports Mole", "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/predicted-lineups/enciso-doubt-hangs-over-world-cup-kickoff-predicted-paraguay-lineup-vs-usa_598935.html"}],
       full: "⚠️ 状态反转:巴拉圭教练阿尔法罗最新表态'大门敞开',恩西索有可能参加对美国一役。NESN 援引教练话指出'他有明显进步';Sports Mole 的预测首发XI将他列为存疑(大腿),若无缘首发则迭戈·戈麦斯顶上更中心位置。此前 beIN Sports/新华社 报道的'确认缺席前两场'可能是伤情最严重时刻的悲观评估,并非最终定论。⚠️ 临场前必须盯 @albirroja 官方首发名单——若恩西索出战,巴拉圭的反击创造力接近完整状态,押美国胜(价值 0.95)的赔率隐含优势收窄,需结合首发名单重新判断是否持有。",
       enFull: "⚠️ Status reversal: coach Alfaro is now 'leaving the door open' for Enciso to start vs USA, with a final call expected close to kickoff. NESN reports he has shown 'encouraging progress'; Sports Mole lists him as questionable (thigh) in the projected XI, with Diego Gomez as the fallback. The earlier 'first two games out' framing from beIN/Xinhua may have reflected peak-injury pessimism rather than a final verdict. Monitor @albirroja's official starting XI at kickoff — if Enciso starts, Paraguay's counter-attacking creativity approaches full strength and the implied edge in our USA-win bet (value 0.95) narrows meaningfully." },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "加拿大防线存疑", tone: "away",
-      text: "加拿大中卫博比托(Bombito)骨折复出状态存疑,教练马什承诺'临场最后裁决':他6月9日对乌兹别克斯坦热身赛仅打38分钟即一瘸一拐退场,球队称属计划内保护,但首战是否出阵至今未定——去年10月胫骨骨折至今未完全恢复。若缺阵加拿大中卫深度明显下降,波黑老将哲科的空中威胁受益。(来源:TSN/Canadian Press)",
-      en: "Canada center-back Moise Bombito is a game-time decision for the opener: he limped off after 38 minutes in the June 9 friendly vs Uzbekistan. The team calls it planned load management in his return from last October's tibia fracture, but coach Marsch says a final call comes on matchday; if he misses out, Dzeko's aerial threat looms larger. (per TSN / Canadian Press)",
-      links: [],
-      full: "博比托去年 10 月胫骨骨折,6 月 9 日对乌兹别克斯坦的热身赛仅打 38 分钟便一瘸一拐离场。球队称这是复出计划内的负荷管理,马什表示首发与否'临场最后裁决'。若他缺阵,加拿大中卫深度吃紧,哲科的高空威胁将被放大——与我们押 0:0 的防守逻辑形成微妙对冲,临场必须盯首发名单。",
-      enFull: "Bombito, returning from last October's tibia fracture, limped off after 38 minutes in the June 9 friendly vs Uzbekistan. The team frames it as planned load management and coach Marsch says the final call comes on matchday. If he misses out, Canada's center-back depth thins and Dzeko's aerial threat looms larger." },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "利空加拿大深度", tone: "away",
-      text: "加拿大攻击中场弗洛雷斯(Marcelo Flores,21岁)ACL断裂确认缺阵整届世界杯:联赛决赛对托卡鉴撕裂韧带,6月5日已手术,威顿-纳尔逊(Jayden Nelson)接替名额入选大名单。弗洛雷斯非主力首发但是关键替代牌,整届缺阵令替补线多功能性受损,加拿大本已因戴维斯缺阵而进攻深度打折。(来源:ESPN/CBC Sports)",
-      en: "Canada attacking midfielder Marcelo Flores (21) is out of the entire World Cup with a torn ACL suffered in the Liga MX final; he had surgery on June 5 and Jayden Nelson replaces him in the squad - another blow to Canada's attacking depth with Davies already out for the opener. (per ESPN / CBC Sports)",
-      links: [],
-      full: "弗洛雷斯在联赛决赛中前交叉韧带断裂,6 月 5 日完成手术,确认缺席整届世界杯,纳尔逊替补入选大名单。他虽非主力首发,但作为多面手替补牌整届缺阵,叠加戴维斯伤缺与博比托存疑,加拿大的阵容深度在首战被三重削弱。",
-      enFull: "Flores tore his ACL in the Liga MX final and had surgery on June 5, ruling him out of the entire World Cup; Jayden Nelson replaces him in the squad. Though not a starter, losing the versatile substitute - stacked on Davies' absence and Bombito's doubt - leaves Canada's depth triple-hit for the opener." },
-    { date: "06-12", match: "美国 vs 巴拉圭", impact: "利多美国防线", tone: "home",
-      text: "美国主力中卫克里斯·理查兹(Richards)踝韧带伤后确认出战首战:赛前官方表示'感觉良好,已准备好',重返与队长雷姆搭档中卫的最优组合。他5月17日水晶宫联赛末轮韧带撕裂,缺席最后两场热身赛,此番归队令美国后防线更稳固。(来源:ESPN/CBS Sports)",
-      en: "USA center-back Chris Richards is confirmed fit for the opener vs Paraguay after his ankle ligament injury; he says he 'feels good and is ready to go', rejoining captain Tim Ream in the first-choice pairing. (per ESPN / CBS Sports)",
-      links: [],
-      full: "理查兹 5 月 17 日代表水晶宫的联赛收官战踝韧带受伤,缺席了美国队最后两场热身。赛前他向媒体确认'感觉良好,已经准备好出战',将重返与队长雷姆搭档的首发中卫组合。他的回归让美国防线恢复最优配置,对位巴拉圭的防反冲击尤为关键。",
-      enFull: "Richards hurt his ankle ligaments in Crystal Palace's league finale on May 17 and missed the USMNT's final two friendlies. Ahead of the opener he confirmed he 'feels good and is ready to go', rejoining captain Tim Ream in the first-choice center-back pairing - a key boost against Paraguay's counter-attacking threat." },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "利空波黑锋线", tone: "home",
-      text: "波黑核心前锋塔巴科维奇(Tabakovic)踝关节骨折确认缺阵首战:他随队抵达多伦多但仍单独接受康复治疗,官方明确'不会出战首轮对加拿大一役'。波黑锋线只剩40岁老将哲科+德米洛维奇搭档,进攻火力大打折扣,加拿大防线压力明显减轻。(来源:RotoWire/BuliNews)",
-      en: "Bosnia striker Haris Tabakovic (ankle fracture) is ruled out of the opener vs Canada. He traveled to Toronto but is rehabbing separately; officials confirm he will not feature in the first match, leaving 40-year-old Dzeko to lead the line. (per RotoWire / BuliNews)",
-      links: [{"name": "RotoWire", "url": "https://www.rotowire.com/soccer/headlines/haris-tabakovic-injury-not-facing-canada-519149"}, {"name": "BuliNews", "url": "https://bulinews.com/haris-tabakovic-expected-miss-world-cup-bosnia-after-suffering-injury-for-gladbach"}],
-      full: "波黑主帅巴尔巴雷兹确认塔巴科维奇无缘揭幕战:'现在还太早,最好的情况是他能赶上第二场。'他赛季末段在门兴踝部受伤,虽随队抵达多伦多但单独康复。锋线重担落回 40 岁的哲科——他刚克服小伤,预计首发突前。",
-      enFull: "Bosnia coach Sergej Barbarez confirmed Tabakovic will miss the opener: 'It's too early - in the best case he'll play in the second game.' He picked up an ankle injury late in the season with Gladbach and is rehabbing separately in Toronto. Veteran captain Edin Dzeko, having shaken off minor issues, is expected to lead the line." },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "利空加拿大首场", tone: "away",
-      text: "队长戴维斯(拜仁)确认缺阵对波黑首战:主帅马什证实其左腿腘绳肌未愈,预计6/18对卡塔尔后归队。戴维斯是左路核心与进攻发动机,首场缺阵令加拿大压迫强度与创造力打折,注意0:0防守票不受影响。(来源:SI.com/Yahoo Sports)",
-      en: "Canada captain Alphonso Davies (Bayern) misses the opener vs Bosnia with a hamstring issue; coach Jesse Marsch confirms he is targeting the June 18 Qatar match for his return. (per SI.com / Yahoo Sports)",
-      links: [{"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/why-alphonso-davies-missing-2026-213721175.html"}, {"name": "Goal.com", "url": "https://www.goal.com/en-sa/lists/world-cup-news-canada-alphonso-davies-injury-misses-opener/blt70b8865d97c189dc"}],
-      full: "戴维斯 5 月 6 日欧冠半决赛次回合对巴黎圣日耳曼拉伤左腿腘绳肌,主帅马什证实他缺席 6 月 12 日对波黑的揭幕战;乐观预期是 6 月 18 日温哥华对卡塔尔一役复出。作为队长与左路发动机,他的缺阵让加拿大失去最具爆点的推进通道——对我们的 0:0 防守票影响中性偏正。",
-      enFull: "Davies injured his left hamstring in Bayern's Champions League semifinal second leg vs PSG on May 6. Coach Jesse Marsch confirmed he will be held out of the opener vs Bosnia; the realistic return target is June 18 vs Qatar in Vancouver. As captain and Canada's primary left-side engine, his absence removes their most explosive progression outlet." },
-    { date: "06-12", match: "美国 vs 巴拉圭", impact: "利多美国", tone: "home",
-      text: "巴拉圭22岁攻击中场恩西索(Enciso)因大腿伤确认缺阵至少首两场小组赛,对美国一役无缘出战。他是巴拉圭进攻最具创造力的球员,缺阵令其反击体系受损,美国控盘更有把握。(来源:beIN Sports/新华社)",
-      en: "Paraguay playmaker Julio Enciso (thigh) will miss at least the first two group games, including the USA match - a major blow to Paraguay's counter-attacking creativity. (per beIN Sports / Xinhua)",
-      links: [{"name": "beIN SPORTS", "url": "https://www.beinsports.com/en-au/football/fifa-world-cup-2026/articles/paraguay-s-julio-enciso-injured-ahead-of-world-cup-2026-06-06"}, {"name": "SI", "url": "https://www.si.com/soccer/usmnt-first-world-cup-opponent-injury-blow-star-player"}, {"name": "The Mirror", "url": "https://www.themirror.com/sport/soccer/enciso-injury-world-cup-usmnt-1873343"}],
-      full: "6 月 5 日对尼加拉瓜热身赛第 25 分钟,恩西索在连续两次撞击后被担架抬离场,当场落泪。主帅阿尔法罗:'他同时遭遇两处伤——撞击致腘绳肌拉紧,腰部受击又波及股四头肌区域',已安排核磁共振。他本赛季为斯特拉斯堡打进 12 球,是这支以硬朗著称的球队里唯一的五大联赛级创造点。阿尔法罗对赶上揭幕战留有一线乐观,但多家媒体预计他缺席前两场——对美国一役大概率无缘。⚠️ 注意:并非官方确认缺阵,临场需盯首发名单。",
-      enFull: "Enciso was stretchered off in tears about 25 minutes into the June 5 friendly vs Nicaragua after two quick blows. Coach Alfaro: 'Julio suffered two simultaneous injuries: a tight hamstring from impact and a blow to his waist affecting the quadriceps area.' An MRI was ordered. He scored 12 goals for Strasbourg this season and is Paraguay's only top-five-league creator. Alfaro kept faint hope for the opener, but multiple outlets expect him to miss the first two matches - not yet officially ruled out, so check the starting XI." },
+
+
+
+
+
+
     { date: "06-12", match: "韩国 vs 捷克", impact: "已结算", tone: "neutral",
       text: "韩国 2-1 逆转捷克:克雷伊奇第58分钟定位球破门,黄仁范66分钟世界波扳平,替补吴贤揆80分钟绝杀。首轮两场全部命中方向,资金池 200 → 255.5(+27.8%)。",
       en: "South Korea came from behind to beat Czechia 2-1: Ladislav Krejci scored from a set piece (58'), Hwang In-beom equalized with a strike (66'), and substitute Oh Hyeon-gyu hit the 80th-minute winner. (per ESPN / Sky Sports)" },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "价值信号", tone: "home",
-      text: "0:0 赔率被推高到 @9.50,模型概率 10.7%,价值分 1.02:本届第一张数学正期望票。大众资金都在追加拿大大胜比分,防御票被错杀。",
-      en: "The 0:0 correct-score price has drifted out to 9.50 on China Sports Lottery while our model puts the probability near 11-12% - a rare positive-EV ticket as public money chases Canada blowout scorelines." },
-    { date: "06-12", match: "韩国 vs 捷克", impact: "利好韩国", tone: "home",
-      text: "捷克74岁主帅库贝克接手至今只指挥过2场正式比赛,战术体系安装时间极短;韩国洪明甫已带队两年,体系成熟。",
-      en: "Czech head coach Miroslav Koubek, 74, has overseen only two competitive matches since replacing Hasek after the Faroe Islands upset; Korea's Hong Myung-bo is two years into a settled system." },
-    { date: "06-12", match: "韩国 vs 捷克", impact: "利空韩国", tone: "away",
-      text: "捷克资格赛22个进球中11个来自定位球;克雷伊奇/索切克/希克全是高点,韩国三中卫除金玟哉外高度普通。",
-      en: "11 of Czechia's 22 qualifying goals came from set pieces; Krejci, Soucek and Schick are all aerial threats against a Korean back three with little height beyond Kim Min-jae." },
-    { date: "06-12", match: "韩国 vs 捷克", impact: "支持小球", tone: "neutral",
-      text: "韩国近15场只有1场双方都进球、近7场有5场总进球低于2.5;两队输家次轮即陷生死战,开局求稳概率高。",
-      en: "Korea registered just one both-teams-scored match in their last 15, with 5 of the last 7 going under 2.5 goals; with the loser facing a must-win vs South Africa, a cagey opening was widely expected." },
-    { date: "06-12", match: "加拿大 vs 波黑", impact: "利好加拿大", tone: "home",
-      text: "东道主主场首秀(多伦多),三国合办下加拿大全部小组赛在本土进行;Elo 模型给出 72% 主胜,显著高于市场 55%。",
-      en: "Canada open at home in Toronto and, as co-hosts, play every group game on home soil. Our Elo model rates them ~72% to win, well above the market's ~55% - the gap is the Dzeko-generation experience premium." },
-    { date: "06-12", match: "美国 vs 巴拉圭", impact: "利空美国", tone: "away",
-      text: "巴拉圭凭南美区预选赛的低失球防守体系晋级,典型防反打法,正是容易把比赛拖入小球绞杀局的类型。",
-      en: "Paraguay qualified on the back of one of CONMEBOL's stingiest defenses and play a counter-attacking style that tends to drag matches into low-scoring grinds." },
+
+
+
+
+
+
     { date: "06-12", match: "墨西哥 vs 南非", impact: "已结算", tone: "neutral",
       text: "揭幕战墨西哥 2-0 南非:基尼奥内斯第10分钟推射打进本届第一球,希门尼斯下半场头球锁定;南非2红牌0射正,方向预判全部兑现。",
       en: "Mexico beat South Africa 2-0 in the opener: Quinones scored the tournament's first goal on 10 minutes and Jimenez headed the second; South Africa finished with two red cards and zero goals. (per ESPN / AP)" }
