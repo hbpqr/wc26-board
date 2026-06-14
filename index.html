@@ -474,7 +474,7 @@
   <div class="hbar">
     <div class="brand">WC26 <b>竞彩作战板</b></div>
     <nav class="topnav">
-      <a href="#sec-report">战报</a><a href="#sec-tomorrow">明日</a><a href="#sec-bank">资金池</a><a href="#sec-focus">深析</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
+      <a href="#sec-report">战报</a><a href="#sec-tomorrow">明日</a><a href="#sec-bank">资金池</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
     </nav>
     <div class="hmeta" id="hmeta"></div>
   </div>
@@ -498,8 +498,8 @@
   </section>
 
   <!-- 账本 -->
-  <section>
-    <div class="stitle"><h2>持仓账本</h2><span class="sub">本轮票据与终局推演</span></div>
+  <section id="sec-holdings">
+    <div class="stitle"><h2>持仓账本</h2><span class="sub">在场持仓与终局推演</span></div>
     <div class="ledger-grid">
       <div>
         <table id="ticket-table">
@@ -544,10 +544,6 @@
   </section>
 
   <!-- 明日焦点 -->
-  <section id="sec-focus">
-    <div class="stitle"><h2>明日焦点 · 模型深析</h2><span class="sub">四模型:A 竞彩去水 / B Elo / C Poisson+DC / D 国际共识</span></div>
-    <div id="focus-blocks"></div>
-  </section>
 
   <!-- 赔率监控 -->
   <section id="sec-odds">
@@ -801,8 +797,7 @@ window.openTmr = idx => {
         <table style="margin-bottom:16px"><thead><tr><th>模型</th><th class="r">主胜</th><th class="r">平</th><th class="r">客胜</th></tr></thead><tbody>${modelRows}</tbody></table>
         ${f.wdlValue.length ? `<table><thead><tr><th>胜平负</th><th class="r">竞彩赔率</th><th class="r">集成概率</th><th class="r">价值分</th></tr></thead><tbody>${wdl}</tbody></table>` : `<div class="src-line" style="margin-bottom:12px">⚠️ 竞彩未开盘——价值分 = 集成概率 × 竞彩赔率,等开盘后生成;下方国际盘仅参考,结算永远以竞彩为准。</div>`}
         ${intlDetail(intl)}
-        <div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${f.verdict}</div>
-        <button class="drill-btn" onclick="closeModal();document.querySelectorAll('.focus-block')[${idx}].scrollIntoView({behavior:'smooth'})">三图深析(模型柱图/六维雷达/比分价值) ↓</button>` },
+        <div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${f.verdict}</div>` },
     { label: "比分分布", html: f.scores.length ? `<table><thead><tr><th>比分</th><th class="r">概率</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV/元</th></tr></thead><tbody>${sc}</tbody></table><div class="src-line">金色 = 价值 ≥1.10 可买(含安全边际);EV/元 = 概率×赔率−1</div>` : `<div class="src-line">竞彩比分盘未开,开盘后此页自动生成 Poisson×赔率全表。</div>` },
     { label: "我们的票", html: myTickets ? `<table><thead><tr><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值</th><th class="r">EV</th></tr></thead><tbody>${myTickets}</tbody></table>` : "本场暂无票" },
     { label: "情报(中英)", html: newsListHtml(f.home, f.away) }
@@ -864,6 +859,9 @@ document.getElementById("tmr-plan").innerHTML = `
   <div class="blk"><span class="k">下单</span><span class="v" style="font-size:13px"><a href="#sec-slip" style="color:var(--gold)">文案 ↓</a></span></div>`;
 
 /* ---------- ledger ---------- */
+// 持仓账本只在"有在场未结算的票"时上主界面;整轮已结算=历史(盈亏已进收益曲线),收起不占地方
+const hasPending = D.holdings.tickets.some(t => t.status === "pending");
+if (!hasPending) document.getElementById("sec-holdings").style.display = "none";
 const tbody = document.querySelector("#ticket-table tbody");
 D.holdings.tickets.forEach(t => {
   const [label, cls] = stMap[t.status];
@@ -1002,9 +1000,9 @@ scn.setOption({
   }]
 });
 
-/* ---------- focus blocks ---------- */
+/* ---------- focus blocks(深析:已从主界面移除,分析改在明日作战卡的下钻里看;若DOM存在才渲染) ---------- */
 const fWrap = document.getElementById("focus-blocks");
-D.focus.forEach((f, idx) => {
+fWrap && D.focus.forEach((f, idx) => {
   const wdlChips = f.wdlValue.map(w => `
     <div class="ochip ${w.value >= 1.10 ? "good" : ""}">
       <span>${w.pick}</span><span class="o num">@${w.odds.toFixed(2)}</span>
@@ -1030,7 +1028,7 @@ D.focus.forEach((f, idx) => {
       <div class="verdict"><b>结论:</b>${f.verdict}</div>
     </div>`);
 });
-D.focus.forEach((f, idx) => {
+fWrap && D.focus.forEach((f, idx) => {
   // model bars
   echarts.init(document.getElementById(`chart-model-${idx}`)).setOption({
     grid: { left: 8, right: 8, top: 30, bottom: 22, containLabel: true },
@@ -1089,8 +1087,11 @@ D.focus.forEach((f, idx) => {
 
 /* ---------- odds table ---------- */
 const focusNums = new Set(D.focus.map(f => f.num));
+// 只显示本轮(今日)+下一轮(明日作战)的赔率,其余未来场次不在主界面铺开
+const oddsScope = new Set([...D.todayMatches.map(m => m.num), ...D.focus.map(f => f.num)]);
 const oBody = document.querySelector("#odds-table tbody");
 (O ? O.matches : []).forEach((m, mi) => {
+  if (!oddsScope.has(m.num)) return;  // 跳过非本轮/下一轮的场次
   const had = m.had || {}, hh = m.hhad || {};
   const intl = I[m.num];
   const intlCell = intl
@@ -1131,8 +1132,13 @@ window.openOdds = mi => {
 };
 
 /* ---------- news (点击下钻中英原文) ---------- */
+// 主界面只显示本轮+下一轮相关情报、最多 8 条;已结束/无关比赛的旧情报不堆在主界面
+const newsScope = new Set([...D.todayMatches.map(m => `${m.home} vs ${m.away}`), ...D.focus.map(f => `${f.home} vs ${f.away}`)]);
 const nWrap = document.getElementById("news-list");
+let newsShown = 0;
 D.news.forEach((n, ni) => {
+  if (!newsScope.has(n.match) || newsShown >= 8) return;
+  newsShown++;
   nWrap.insertAdjacentHTML("beforeend", `
     <div class="news-item ${n.tone}" onclick="openNews(${ni})" style="cursor:pointer">
       <span class="news-date num">${n.date}</span>
@@ -1141,6 +1147,7 @@ D.news.forEach((n, ni) => {
       <span style="margin-left:auto;color:var(--faint);font-size:11px;white-space:nowrap">${n.en ? "中英 ▸" : "▸"}</span>
     </div>`);
 });
+if (!newsShown) nWrap.innerHTML = '<div class="src-line" style="padding:14px">本轮与下一轮暂无新情报。</div>';
 window.openNews = ni => {
   const n = D.news[ni];
   openModal(`${n.impact} · ${n.match}`, [{ label: "情报详情", html: biNews(n) }]);
