@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 18:12",
+  "updated": "2026-06-15 20:14",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -542,6 +542,26 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "沙特 vs 乌拉圭",
+   "impact": "卡塞雷斯比尼亚预测首发",
+   "tone": "away",
+   "text": "Sports Mole/ESPN最新预测XI:卡塞雷斯与奥利维拉(紧急顶入CB)出任双中卫、比尼亚打左后卫——两人此前均列「存疑」,但多家媒体仍将其排入首发;希门尼斯/阿劳霍/德阿拉斯卡耶塔/皮克雷斯确认缺席。乌拉圭后防线虽重组但并非全线崩溃,沙特tilt幅度较悲观估算略降。(来源:Sports Mole/ESPN)",
+   "en": "Sports Mole/ESPN predicted Uruguay XI: Rochet; Varela, Caceres, Olivera (emergency CB), Vina; Valverde, Ugarte, Bentancur; Canobbio, Nunez, M.Araújo — Caceres and Vina both listed as 'doubts' yet still predicted to start; Gimenez/Araujo/De Arrascaeta/Piquerez confirmed out. Defence reshuffled but not fully depleted; Saudi tilt value lower than worst-case scenario. (per Sports Mole / ESPN)",
+   "full": "Sports Mole与ESPN赛前预测首发(06-15晚)新信息:乌拉圭预测XI为罗谢特;巴雷拉、卡塞雷斯、奥利维拉、比尼亚;巴尔韦德、乌加尔特、本坦库尔;卡诺比奥、努涅斯、马克西·阿劳霍。关键解读:①卡塞雷斯(头伤,存疑)和比尼亚(肌肉,存疑)均出现在预测首发,说明他们状态好于悲观预期;②奥利维拉本位置左后卫/中卫,此场顶入右中卫位置;③希门尼斯/阿劳霍缺阵意味着毕尔萨中卫双核均不在场,但卡塞雷斯+奥利维拉组合仍有一定实战经验。价值重算:与昨日「三核全缺+两CB悬」的悲观情景相比,若卡塞雷斯和比尼亚实际出战,沙特获胜概率可能维持在14-16%(而非悲观场景的17-18%),对应国际交易所赔率~8.50(去水约11.8%),隐含价值约1.14-1.17仍在价值闸1.10以上,但安全边际收窄。⚠️赛前60分钟务必确认卡塞雷斯和比尼亚官方首发——这两人的实际出战与否直接影响价值计算。",
+   "enFull": "Sports Mole and ESPN pre-match predicted XI (June 15 evening): Uruguay predicted lineup is Rochet; Varela, Caceres, Olivera, Vina; Valverde, Ugarte, Bentancur; Canobbio, Nunez, Maxi Araújo. Key interpretation: (1) Caceres (head injury, doubt) and Vina (muscle, doubt) both appear in the predicted starting XI, suggesting their fitness is better than the pessimistic scenario. (2) Olivera, normally a left-back or centre-back, fills in at right-centre-back. (3) While Gimenez and Araujo are both confirmed absent, the Caceres+Olivera pairing still carries reasonable international experience. Value recalculation: compared to yesterday's worst-case 'both CBs absent + triple key players out' scenario, if Caceres and Vina do start, Saudi win probability may settle closer to 14–16% (vs 17–18% worst-case). Against international exchange odds ~8.50 (implied ~11.8% vig-free), the implied value remains ~1.14–1.17 — above the ≥1.10 buy threshold but with a narrower margin of safety. ⚠️ Confirm Caceres and Vina in the official XI 60 minutes before kickoff — their actual participation directly determines the value calculation.",
+   "links": [
+    {
+     "name": "Sports Mole · Uruguay predicted XI vs Saudi Arabia",
+     "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/predicted-lineups/injury-concerns-for-bielsa-how-uruguay-could-line-up-vs-saudi-arabia_599117.html"
+    },
+    {
+     "name": "ESPN · Saudi Arabia vs Uruguay preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49050294/fifa-world-cup-2026-saudi-arabia-vs-uruguay-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "06-16",
    "match": "伊朗 vs 新西兰",
