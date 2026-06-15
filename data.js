@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 10:10",
+  "updated": "2026-06-15 11:13",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -930,6 +930,66 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "沙特 vs 乌拉圭",
+   "impact": "乌拉圭防线重创",
+   "tone": "home",
+   "text": "乌拉圭多名关键球员存疑:中卫希门尼斯(踝关节)、阿劳霍(小腿)均伤疑,中场德阿拉斯卡耶塔(小腿)、比纳(肌肉)、卡塞雷斯(头部)共5人受伤;沙特仅阿基迪缺席,整体阵容完整。(来源:Sports Mole/RotoWire)",
+   "en": "Uruguay carry significant injury worries into their opener: CBs Gimenez (ankle) and Araujo (calf) both doubtful, plus De Arrascaeta (calf), Vina (muscle), Caceres (head); Saudi Arabia are near full strength with only Al Aqidi absent. (per Sports Mole / RotoWire)",
+   "full": "Sports Mole及RotoWire 06-15 赛前报告显示乌拉圭伤情严峻:①霍塞·希门尼斯(马竞,主力中卫)——踝关节伤,存疑;②罗纳尔多·阿劳霍(巴萨,主力中后卫)——小腿伤,存疑;③希奥尔赫安·德阿拉斯卡耶塔(弗拉门戈,进攻中场)——小腿伤,存疑;④马蒂亚斯·比纳(肌肉伤),存疑;⑤塞巴斯蒂安·卡塞雷斯(头部伤)——5人受伤中卡塞雷斯最可能出战。若希门尼斯+阿劳霍双双缺阵,乌拉圭中后卫组合将面临巨大重组压力(两人是毕尔萨体系的关键支柱)。沙特阵容方面:阿基迪(肌肉/腘绳肌)虽在训练中有所恢复但仍存疑,其余阵容完整。国际市场共识:乌拉圭 65.5%(赔率~1.52),沙特 12.0%(赔率~8.50)。若双CB确认缺阵,等价集成概率有望因tilt上升至15-20%,价值闸有待赛前首发确认后重算。⚠️赛前60分钟确认希门尼斯/阿劳霍/德阿拉斯卡耶塔三人出战状态——这是本场最大的情报变量。",
+   "enFull": "Pre-match injury report from Sports Mole and RotoWire (June 15): Uruguay enter their Group H opener against Saudi Arabia with serious squad concerns. (1) José Giménez (Atlético Madrid, CB) — ankle injury, listed as doubtful; (2) Ronald Araújo (Barcelona, CB/DF) — calf strain, listed as doubtful; (3) Giorgian de Arrascaeta (Flamengo, attacking midfielder) — calf injury, doubtful; (4) Matías Viña (muscle injury), doubtful; (5) Sebastián Cáceres (head), doubtful — described as the most likely of the five to be involved. The most critical scenario: if both Giménez and Araújo are absent, Uruguay's central defence requires a major reshuffle; both are key to Marcelo Bielsa's high-pressing structure. Saudi Arabia, by contrast, are close to full strength — Nawaf Al Aqidi (hamstring) has returned to training but remains uncertain. International consensus: Uruguay 65.5% (implied odds ~1.52), Saudi Arabia 12.0% (implied odds ~8.50). If both CBs are confirmed absent, the ensemble probability for Saudi Arabia could shift toward 15-20%, potentially opening a value gap. ⚠️ Confirm Giménez, Araújo, and De Arrascaeta official starting status 60 minutes before kick-off — they are the three most important pre-match variables for this fixture.",
+   "links": [
+    {
+     "name": "Sports Mole · Saudi Arabia vs Uruguay team news",
+     "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/team-news/saudi-arabia-vs-uruguay-injury-suspension-list-predicted-xis_599116.html"
+    },
+    {
+     "name": "RotoWire · Saudi Arabia vs Uruguay preview",
+     "url": "https://www.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095"
+    }
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "西班牙 vs 佛得角",
+   "impact": "亚马尔维廉存疑",
+   "tone": "neutral",
+   "text": "西班牙双星亚马尔(拉明)与尼科·维廉斯本周末完成恢复训练,但临战首发存疑,预计替补出场;穆尼奥斯亦因肌肉过载存疑;西班牙进攻线比预期弱,佩德里/法比安/奥亚尔萨瓦尔补位。(来源:Sports Mole/Racing Post)",
+   "en": "Spain's star duo Lamine Yamal and Nico Williams have returned to full training but are unlikely to start vs Cape Verde — both expected on the bench; Victor Munoz also a doubt (muscular overload); Ferran Torres, Baena and Oyarzabal forecast to start. (per Sports Mole / Racing Post)",
+   "full": "Sports Mole及Racing Post 06-15 报告:①拉明·亚马尔(巴萨,17岁右翼)——赛前伤病恢复训练,周末已重返全队合练,但作为赛季主力出战、本届最期待球星之一,临战首发存疑,大概率替补出场以控制风险;②尼科·维廉斯(毕尔巴鄂,左翼)——伤病恢复情况相似,与亚马尔并列替补出场概率较高;③维克托·穆尼奥斯——肌肉过载,存疑,可能被托雷斯或巴埃纳替代。西班牙预测首发(不含亚马尔/维廉斯):乌纳伊·西蒙;库库雷利亚、拉波尔特、库巴尔西、波罗;罗德里、佩德里、法比安·鲁伊斯;托雷斯或巴埃纳、奥亚尔萨瓦尔。佛得角:无伤停顾虑,全阵容就绪。价值评估:西班牙仍是压倒性热门,双星缺席首发令进攻预期分略降(更多需等竞彩开盘赔率及集成概率算出后确认)。⚠️赛前60分钟确认亚马尔与维廉斯是否出现在官方首发XI中。",
+   "enFull": "Spain's two brightest attacking talents enter Monday's Group H opener against Cape Verde with fitness questions. (1) Lamine Yamal (Barcelona, 17, right wing): resumed full training with the squad over the weekend after recovering from a pre-tournament issue, but starting him from the off against Cape Verde is considered a risk — bench appearance the more likely scenario. (2) Nico Williams (Athletic Bilbao, left wing): in a similar recovery situation, and also likely to be managed off the bench. (3) Victor Munoz: suffering from muscular overload and may not feature at all; Ferran Torres or Alex Baena would cover on the right flank. Spain's anticipated starting XI without the two stars: Unai Simón; Cucurella, Laporte, Cubarsí, Porro; Rodri, Pedri, Fabián Ruiz; Torres/Baena, Oyarzabal. Cape Verde: no fitness concerns, fully available. Value assessment: Spain remain overwhelming favorites even without Yamal and Williams from kick-off; their depth is sufficient for a win vs Cape Verde. The impact is more relevant for handicap and goals markets than win/draw/loss outcome. ⚠️ Confirm Yamal and Williams' starting status in the official XI 60 minutes before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Spain vs Cape Verde team news",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/team-news/spain-vs-cape-verde-injury-suspension-list-predicted-xis_599108.html"
+    },
+    {
+     "name": "Racing Post · Spain vs Cape Verde prediction",
+     "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/spain-vs-cape-verde-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aicRQ8L439n7/"
+    }
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "比利时 vs 埃及",
+   "impact": "萨拉赫伤疑管控",
+   "tone": "home",
+   "text": "埃及萨拉赫腘绳肌伤(4月受伤)赛前管控,6月6日仅替补出场45分钟;比利时仅德巴斯特缺席,德布劳内/卢卡库/多库/特罗萨尔全主力首发。(来源:Sports Mole/RotoWire)",
+   "en": "Egypt's Mo Salah is managing a hamstring injury from April and started only 45 minutes off the bench in the June 6 friendly vs Brazil; Belgium are near full strength — De Bruyne, Lukaku, Doku, Trossard all expected to start; only Debast absent. (per Sports Mole / RotoWire)",
+   "full": "比利时阵容:罗梅鲁·卢卡库、凯文·德布劳内、莱安德罗·特罗萨尔、热雷米·多库均确认首发——四名核心攻击手悉数就绪。唯一主要缺席:泽诺·德巴斯特(腿伤)。庭华·科特瓦、托马斯·穆尼耶、蒂亚戈·特特和米基·贝安斯围拢后防,奥纳纳-蒂勒曼斯双后腰。比利时整体阵容完整性极高。埃及阵容:核心球星穆罕默德·萨拉赫自4月利物浦比赛中拉伤腘绳肌,之后仅在6月6日热身赛对阵巴西时出场45分钟(后半场替换入场),伤情至今管控中。Sports Mole分析:萨拉赫将可能首发,但全队进攻安排可能做适当保护,以防止进一步撕裂——马尔穆什、特雷兹盖、济左将承担防守回追更多责任。预测埃及XI:谢纳维;哈尼、易卜拉欣、拉比阿、法图赫;拉欣、法西;萨拉赫、特雷兹盖、济左;马尔穆什。价值评估:市场共识比利时胜概率约59.9%(赔率~1.66),埃及胜赔率约6.30;萨拉赫出战受限令埃及进攻威胁低于全状态。⚠️赛前60分钟确认萨拉赫是否首发或能否打满全场。",
+   "enFull": "Belgium team news: Romelu Lukaku, Kevin De Bruyne, Leandro Trossard, and Jérémy Doku are all confirmed starters — Belgium's four key attacking stars are available. Only Zeno Debast (leg injury) is absent from the squad. Thibaut Courtois, Meunier, Thomas Meunier, Theate and De Cuyper form the defensive unit; Onana and Tielemans in central midfield. Belgium's lineup is among the strongest available in this tournament. Egypt team news: Mohamed Salah has been managing a hamstring injury sustained during a Liverpool match in late April. His most recent match action was 45 minutes as a second-half substitute against Brazil in a June 6 friendly — his first game since the injury. Sports Mole notes that while Salah is expected to start, Egypt's forward line (Marmoush, Trezeguet, Zizo) may be deployed to cover for him defensively and reduce stress on the hamstring. Predicted Egypt XI: El Shenawy; Hany, Ibrahim, Rabia, Fatouh; Lashin, Fathy; Salah, Trezeguet, Zizo; Marmoush. Value assessment: Belgium win at ~59.9% (market odds ~1.66), Egypt win ~16.0% (odds ~6.30). Salah's fitness limitation reduces Egypt's attacking ceiling. ⚠️ Confirm Salah's ability to start / complete 90 minutes in the official XI 60 minutes before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Belgium vs Egypt team news",
+     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-egypt-injury-suspension-list-predicted-xis_599144.html"
+    },
+    {
+     "name": "RotoWire · Belgium vs Egypt preview",
+     "url": "https://www.rotowire.com/soccer/article/belgium-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118093"
+    }
+   ]
+  },
   {
    "date": "06-15",
    "match": "瑞典 vs 突尼斯",
