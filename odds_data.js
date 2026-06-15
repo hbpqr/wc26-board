@@ -1,9 +1,10 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-15 07:10:06",
+ "fetched_at": "2026-06-15 08:41:11",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
    "num": "周日012",
+   "round": "周日",
    "matchId": 2040173,
    "home": "瑞典",
    "away": "突尼斯",
@@ -55,6 +56,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周一013",
+   "round": "周一",
    "matchId": 2040174,
    "home": "西班牙",
    "away": "佛得角",
@@ -92,6 +94,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周一014",
+   "round": "周一",
    "matchId": 2040175,
    "home": "比利时",
    "away": "埃及",
@@ -143,6 +146,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周一015",
+   "round": "周一",
    "matchId": 2040176,
    "home": "沙特",
    "away": "乌拉圭",
@@ -194,6 +198,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周一016",
+   "round": "周一",
    "matchId": 2040177,
    "home": "伊朗",
    "away": "新西兰",
@@ -245,6 +250,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周二017",
+   "round": "周二",
    "matchId": 2040178,
    "home": "法国",
    "away": "塞内加尔",
@@ -296,6 +302,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周二018",
+   "round": "周二",
    "matchId": 2040179,
    "home": "伊拉克",
    "away": "挪威",
@@ -333,6 +340,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周二019",
+   "round": "周二",
    "matchId": 2040180,
    "home": "阿根廷",
    "away": "阿尔及利",
@@ -384,6 +392,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周二020",
+   "round": "周二",
    "matchId": 2040181,
    "home": "奥地利",
    "away": "约旦",
@@ -435,6 +444,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周三021",
+   "round": "周三",
    "matchId": 2040182,
    "home": "葡萄牙",
    "away": "刚果金",
@@ -486,6 +496,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周三022",
+   "round": "周三",
    "matchId": 2040183,
    "home": "英格兰",
    "away": "克罗地亚",
@@ -537,6 +548,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周三023",
+   "round": "周三",
    "matchId": 2040184,
    "home": "加纳",
    "away": "巴拿马",
@@ -588,6 +600,7 @@ window.ODDS_DATA = {
   },
   {
    "num": "周三024",
+   "round": "周三",
    "matchId": 2040185,
    "home": "乌兹别克",
    "away": "哥伦比亚",
