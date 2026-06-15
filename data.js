@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 16:12",
+  "updated": "2026-06-15 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -364,6 +364,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-16",
+   "match": "伊朗 vs 新西兰",
+   "impact": "伊朗体能断档",
+   "tone": "away",
+   "text": "伊朗国内联赛自2026年3月起暂停，哈吉萨菲、穆罕默迪、哈利勒扎德等主力后卫逾3个月无竞技比赛；伊朗已通过集训弥补，但高强度世界杯开幕战对长期空白赛季的后防是严峻考验，新西兰相对受益。(来源:RotoWire/Yahoo Sports)",
+   "en": "Iran's domestic league has been suspended since March 2026, leaving key defenders Hajsafi, Mohammadi and Khalilzadeh without competitive match play for 3+ months — a potential match-sharpness disadvantage vs New Zealand at World Cup intensity. Pre-tournament camp partially offsets this. (per RotoWire / Yahoo Sports)",
+   "full": "RotoWire与Yahoo Sports赛前深度分析共同指出:伊朗国内联赛自2026年3月暂停,主力后卫埃赫桑·哈吉萨菲(左后卫)、米拉德·穆罕默迪(左后卫/中后卫)、肖贾·哈利勒扎德(中后卫)等多名球员已逾3个月没有参加竞技比赛,仅靠集训维持状态。相比之下,新西兰球员大多在欧洲/北美联赛打完常规赛季,竞技锐度更佳。体能断档对世界杯首战的影响:后卫高强度跑动覆盖、空中对抗、快速转换时的判断力均可能因缺乏实战而打折扣。伊朗教练组意识到这一风险,在集训期安排了大量对抗性训练(6月1-13日跟乌干达/阿联酋热身),部分弥补赛季空白。但在开幕战高度紧张的比赛节奏下,第60-90分钟体能下滑是真实风险。国际市场:伊朗自开盘以来漂移-2.5pp(50.3%),与体能顾虑的逐步发酵时间线吻合。⚠️不改变无票建议(HAD价值均<1.10),但体能因素为平局或新西兰超额表现提供了额外支撑。",
+   "enFull": "Both RotoWire and Yahoo Sports highlight a significant structural disadvantage for Iran heading into the June 16 Group G opener: the Iranian domestic league has been suspended since March 2026 — over three months before the World Cup kicks off. Key defenders including Ehsan Hajsafi (LB), Milad Mohammadi (LB/CB), and Shojae Khalilzadeh (CB) have not played competitive club football since that suspension. In contrast, New Zealand's players (largely active in European and North American leagues) have completed full club seasons closer to the tournament. The match-fitness gap manifests most acutely in: (1) high-intensity defensive runs and coverage in the final third of each half, (2) aerial duel sharpness, (3) decision-making speed under World Cup-level press. Iran's coaching staff organised intensive training camps with friendlies vs Uganda and the UAE (June 1–13) to partially compensate. However, the 60–90 min period remains a genuine risk window for fitness-related errors in their defensive shape. Market context: Iran have drifted -2.5pp from opening odds (now 50.3%), consistent with this fitness concern gradually being priced in. ⚠️ No-bet stance unchanged (all HAD value scores below 1.10), but the fitness gap adds structural support to draw or NZ overperformance scenarios.",
+   "links": [
+    {
+     "name": "RotoWire · Iran vs New Zealand preview",
+     "url": "https://www.rotowire.com/soccer/article/iran-vs-new-zealand-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118098"
+    },
+    {
+     "name": "Yahoo Sports · Iran vs New Zealand preview",
+     "url": "https://sports.yahoo.com/articles/preview-iran-vs-zealand-team-010500869.html"
+    }
+   ]
+  },
   {
    "date": "06-16",
    "match": "伊朗 vs 新西兰",
