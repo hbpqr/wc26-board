@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 14:11",
+  "updated": "2026-06-15 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -364,6 +364,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-16",
+   "match": "伊朗 vs 新西兰",
+   "impact": "加贝特升格首发",
+   "tone": "away",
+   "text": "新西兰加贝特(此前因无法完成训练列为「存疑」)已出现在多家媒体预测首发XI中,升格出战预期;瑞安·托马斯(腘绳肌)仍为存疑;克里斯·伍德确认健康首发。伊朗切什米替位人选待赛前官方XI确认。(来源:Sports Mole/Yahoo Sports)",
+   "en": "NZ's Garbett upgraded from 'doubtful' to predicted starter despite missing Saturday training; Ryan Thomas (hamstring) remains a doubt; Chris Wood confirmed fit. Iran's Cheshmi replacement in starting XI still TBC. (per Sports Mole / Yahoo Sports)",
+   "full": "Sports Mole及Yahoo Sports 06-15最新报道:新西兰防守中场马特·加贝特——此前因周六无法完成训练被列为「存疑」——现已出现在多家媒体的预测首发XI中,说明其整体状态好于悲观预期;斯塔梅尼奇与加贝特将搭档双后腰,梳理中场节奏。伊恩·福斯特阵型预测为4-2-3-1:克罗科姆;佩恩、萨曼、博克塞尔、卡卡切;斯塔梅尼奇、加贝特;辛格、贝尔、贾斯特;伍德。瑞安·托马斯(腘绳肌管控)仍为存疑,若出战则进攻线更为完整。克里斯·伍德(队长)确认健康首发,是新西兰最大威胁点。伊朗方面:切什米确认缺席,候补人选萨伊德内贾德或卡里米待赛前官方XI最终确认。整体评估:加贝特出战令新西兰中场强度略高于悲观场景,但伊朗HAD价值仍约0.89,维持无票建议。⚠️赛前确认加贝特及托马斯官方XI状态。",
+   "enFull": "Latest update from Sports Mole and Yahoo Sports (June 15): New Zealand defensive midfielder Matt Garbett — previously listed as a doubt after being unable to complete Saturday's training session — now appears in multiple predicted starting XIs, suggesting his condition is better than feared. Ian Foster expected to deploy a 4-2-3-1: Crocombe; Payne, Surman, Boxall, Cacace; Stamenić, Garbett; Singh, Bell, Just; Wood. Ryan Thomas (hamstring management) remains doubtful but would strengthen the attack if available. Chris Wood (captain) confirmed fully fit — primary threat. Iran: Cheshmi confirmed absent; Saeidnejad or Karimi expected to deputise in central midfield, to be confirmed in official XI. Overall assessment: Garbett's availability lifts New Zealand's midfield quality above the pessimistic scenario but Iran HAD value score remains ~0.89 — no-bet stance unchanged. ⚠️ Confirm Garbett and Thomas in the official XI before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Iran vs New Zealand preview",
+     "url": "https://www.sportsmole.co.uk/football/iran/world-cup-2026/preview/iran-vs-new-zealand-prediction-team-news-lineups_599122.html"
+    },
+    {
+     "name": "Yahoo Sports · Iran vs New Zealand prediction",
+     "url": "https://sports.yahoo.com/articles/iran-vs-zealand-prediction-world-121500817.html"
+    }
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "比利时 vs 埃及",
+   "impact": "萨拉赫预测首发",
+   "tone": "away",
+   "text": "Sports Mole最新预测首发确认萨拉赫(今日34岁生日)首发出场;4月腘绳肌伤实施全程负荷管控,进攻覆盖距离受限;比利时德布劳内/卢卡库/多库/特罗萨尔全主力就绪,仍为压倒性热门。(来源:Sports Mole/SI.com)",
+   "en": "Sports Mole predicted XI has Salah starting despite managed hamstring (April injury); he turns 34 today — chasing first WC knockout win. Belgium deploy full-strength attack: De Bruyne, Lukaku, Doku, Trossard all expected to start. (per Sports Mole / SI.com)",
+   "full": "Sports Mole 06-15赛前预测首发更新:穆罕默德·萨拉赫(今日34岁生日)确认出现在Sports Mole的埃及预测首发XI中——与此前预期的「管控使用/替补出场」相比明显升级。预测埃及XI:谢纳维;哈尼、阿卜杜勒莫内姆、拉比阿、法图赫;阿提亚、法西、阿苏尔;萨拉赫、马尔穆什、济左。值得注意:萨拉赫今日迎来34岁生日,是为数不多一项成就仍未到手(世界杯淘汰赛胜利)的球员,心理驱动力极高,但腘绳肌管控仍是全程续档变量。比利时阵容:卢卡库、德布劳内、多库、特罗萨尔全主力就绪,唯一缺阵德巴斯特(腿伤)。整体评估:埃及进攻线完整性略高于管控场景预期;比利时HAD价值≈0.91,三项均<1.10,无票建议维持不变。⚠️赛前60分钟确认萨拉赫是否完整参战及比利时正式首发。",
+   "enFull": "Sports Mole pre-match predicted lineup update (June 15): Mohamed Salah confirmed in Egypt's predicted starting XI — a meaningful upgrade from earlier expectations of load-managed bench role. Predicted Egypt XI: El-Shenawy; Hany, Abdelmonem, Rabia, Fatouh; Attia, Fathy, Ashour; Salah, Marmoush, Zizo. Context: Salah turns 34 today and is chasing the one major achievement still missing — a World Cup knockout-round victory — providing unusually high personal motivation. However, the April hamstring injury remains a monitoring variable for substitution timing. Belgium: Lukaku, De Bruyne, Doku, Trossard all set to start; only Debast (leg) absent. Overall assessment: Egypt's attacking ceiling slightly higher than the pessimistic scenario had assumed; Belgium HAD value scores remain ~0.91, all three below the ≥1.10 buy threshold — no-bet stance unchanged. ⚠️ Confirm Salah's full participation and Belgium's official XI 60 minutes before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Egypt lineup vs Belgium",
+     "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/predicted-lineups/salah-starts-predicted-egypt-xi-vs-belgium_599123.html"
+    },
+    {
+     "name": "SI.com · Belgium vs Egypt preview",
+     "url": "https://www.si.com/soccer/belgium-vs-egypt-world-cup-preview-predictions-lineups-6-15-26"
+    }
+   ]
+  },
   {
    "date": "06-16",
    "match": "沙特 vs 乌拉圭",
