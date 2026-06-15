@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 12:10",
+  "updated": "2026-06-15 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -934,6 +934,54 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "沙特 vs 乌拉圭",
+   "impact": "三核确认缺席",
+   "tone": "home",
+   "text": "最新确认:希门尼斯(马竞CB)、阿劳霍(巴萨,已返西已可能整组缺)、德阿拉斯卡耶塔(2级小腿伤)、皮克雷斯全部正式缺阵——较昨日「存疑」大幅升级;乌拉圭双CB+核心中场全线重组,沙特tilt价值显著升温。(来源:Sports Mole/ESPN/RotoWire)",
+   "en": "CONFIRMED: Gimenez (Atletico), Araujo (returned to Barcelona, risks missing full group stage), De Arrascaeta (grade 2 calf, targeting match 3 vs Spain), and Piquerez all ruled OUT — major escalation from 'doubtful'; Uruguay's CB pairing and creative midfield require full reconstruction. (per Sports Mole / ESPN / RotoWire)",
+   "full": "Sports Mole/ESPN/RotoWire 06-15 最新确认:①希门尼斯(马竞,主力CB,99帽)——身体问题正式宣布缺席揭幕战(较之前「踝关节存疑」升级);②阿劳霍(巴萨)——小腿伤情恶化后已返回巴塞罗那接受专项治疗,有可能缺席整个小组赛阶段;③德阿拉斯卡耶塔(弗拉门戈)——6月初确认2级小腿伤,预计最早第3轮对西班牙才有望复出;④皮克雷斯(帕尔梅拉斯)同样确认缺席;卡塞雷斯、比纳仍为存疑。乌拉圭后防线与进攻中场均需大规模重组——直接瓦解毕尔萨高位压迫体系的两侧支柱。价值重算:市场共识沙特12%/双CB缺阵tilt约+4-6pp→沙特集成预估达17-18%,若竞彩开盘赔率仍在~8.50(去水后~11.8%),则隐含价值约1.14-1.17。⚠️赛前60分钟确认首发XI——卡塞雷斯/戈丁/罗谢特补防组合是核心悬案。",
+   "enFull": "Updated injury confirmation from Sports Mole, ESPN, and RotoWire (June 15): (1) José Giménez (Atlético Madrid, 99 caps, CB) — officially OUT for the Saudi Arabia opener; injury escalated beyond 'doubtful' status. (2) Ronald Araújo (Barcelona, CB) — returned to Barcelona for specialist treatment after a worsening calf strain; risks missing the full group stage. (3) Giorgian de Arrascaeta (Flamengo, attacking midfielder) — confirmed out with a grade 2 calf injury (early June); targeting Group H match 3 vs Spain at the earliest. (4) Joaquín Piquerez (Palmeiras, LB) — also confirmed absent. Sebastián Cáceres and Matías Viña remain doubts. Cumulative impact: Uruguay lose both starting centre-backs and their chief creative midfielder, dismantling the defensive and transitional axes of Bielsa's high-press system. Value update: Saudi Arabia market probability ~12%; tilt adjustment from double-CB absence adds approximately +4–6pp → estimated range 16–18%; vs international exchange odds ~8.50 (implied ~11.8% vig-free), potential value ≈1.14–1.17, pending official Chinese handicap odds. ⚠️ Confirm Uruguay's centre-back pairing (Cáceres/Godín/Rochet options) in official XI 60 minutes before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Saudi Arabia vs Uruguay team news",
+     "url": "https://www.sportsmole.co.uk/football/saudi-arabia/world-cup-2026/team-news/saudi-arabia-vs-uruguay-injury-suspension-list-predicted-xis_599116.html"
+    },
+    {
+     "name": "ESPN · Saudi Arabia vs Uruguay preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49050294/fifa-world-cup-2026-saudi-arabia-vs-uruguay-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    },
+    {
+     "name": "RotoWire · Saudi Arabia vs Uruguay preview",
+     "url": "https://www.rotowire.com/soccer/article/saudi-arabia-vs-uruguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118095"
+    }
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "伊朗 vs 新西兰",
+   "impact": "切什米确认缺席",
+   "tone": "away",
+   "text": "伊朗队长/防守中场切什米确认缺席揭幕战(5月土耳其训练营腘绳肌撕裂,MRI确认严重);另贾汉巴赫什赛前体测存疑;新西兰加贝特周六无法完成训练亦存疑,但克里斯·伍德确认健康首发。(来源:Sports Mole/RotoWire)",
+   "en": "Iran captain/DM Roozbeh Cheshmi confirmed OUT (left hamstring tear, May training camp); Jahanbakhsh faces late fitness test; NZ's Garbett is a doubt (couldn't complete Saturday training), but Chris Wood is fully fit to lead the line. (per Sports Mole / RotoWire)",
+   "full": "Sports Mole及RotoWire 06-15赛前确认:①鲁兹贝·切什米(埃斯特格拉尔FC,32岁,伊朗队长/防守中场)——5月20-22日土耳其训练营腘绳肌撕裂,MRI确认严重后正式宣布缺席揭幕战;②阿利雷扎·贾汉巴赫什(翼卫)——需赛前最终体能测试,Sports Mole预测大概率可出场;③丹尼斯·埃克特、迈赫迪·托拉比亦缺阵;伊朗核心锋线梅赫迪·塔雷米完整。新西兰:①马特·加贝特——周六无法完成训练,存疑;②瑞安·托马斯(腘绳肌)——轻伤管控,存疑;③克里斯·伍德(队长/前锋)确认健康首发,是最重要威胁点。整体评估:切什米缺阵令伊朗防守中场覆盖压力加大,但市场共识50.2%热门地位仍在(vs 新西兰21.3%);国际赔率~1.98:4.70(伊朗vs新西兰)。⚠️赛前确认切什米替位人选及加贝特首发状态。",
+   "enFull": "Pre-match injury report from Sports Mole, RotoWire, and CryptoBriefing (June 15): (1) Roozbeh Cheshmi (Esteghlal FC, 32, Iran captain / DM) — confirmed OUT for the June 16 Group G opener; suffered a left hamstring tear during pre-tournament training in Turkey (May 20–22), with MRI confirming severity. (2) Alireza Jahanbakhsh (winger) — faces a late fitness test; Sports Mole predict he is likely to be available. (3) Dennis Eckert and Mehdi Torabi also absent. Iran's attacking core led by Mehdi Taremi is intact. New Zealand: (1) Matt Garbett — unable to complete Saturday training, listed as a doubt; (2) Ryan Thomas (hamstring) — managed ahead of the opener, doubtful; (3) Chris Wood (captain/striker) — confirmed fully fit, primary attacking threat. Overall assessment: Cheshmi's absence increases pressure on Iran's midfield coverage but does not alter the consensus 50.2% win probability. International exchange odds: Iran ~1.98, New Zealand ~4.70. ⚠️ Confirm Cheshmi's replacement (Saeidnejad or Karimi) in the starting XI and Garbett's availability before kick-off.",
+   "links": [
+    {
+     "name": "Sports Mole · Iran vs New Zealand team news",
+     "url": "https://www.sportsmole.co.uk/football/iran/world-cup-2026/team-news/iran-vs-new-zealand-injury-suspension-list-predicted-xis_599140.html"
+    },
+    {
+     "name": "RotoWire · Iran vs New Zealand preview",
+     "url": "https://www.rotowire.com/soccer/article/iran-vs-new-zealand-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118098"
+    },
+    {
+     "name": "CryptoBriefing · Cheshmi ruled out vs New Zealand",
+     "url": "https://cryptobriefing.com/cheshmi-misses-world-cup-opener-injury/"
+    }
+   ]
+  },
   {
    "date": "06-16",
    "match": "沙特 vs 乌拉圭",
