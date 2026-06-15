@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 07:10",
+  "updated": "2026-06-15 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -292,6 +292,40 @@ window.DASH_DATA = {
     "a": 22.9
    },
    "note": "荷兰 2:2 日本,精彩平局。进球:范戴克51'头球(1:0)→中村航辅57'偏转弹(1:1)→萨默维尔63'世界波(2:1)→镰田大地88'后点补射绝平(2:2)。集成50.6%看荷兰主胜方向错(ens Brier=0.845>随机0.667);荷兰西蒙斯/蒂姆伯/德里赫特三主力缺阵,日本远藤/三笘双核亦缺,双方相互削弱,市场定价高效(HAD三项价值0.87-0.90,按纪律无票)。Elo:荷兰-7.6→1912.4,日本→1847.6。无持仓,无资金影响。"
+  },
+  {
+   "num": "周日011",
+   "group": "F组",
+   "home": "科特迪瓦",
+   "away": "厄瓜多尔",
+   "time": "06-15 07:00",
+   "status": "finished",
+   "actual": "1:0",
+   "predManual": "未出票",
+   "predModel": "客胜40.4%",
+   "ensemble": {
+    "h": 27,
+    "d": 32.6,
+    "a": 40.4
+   },
+   "note": "科特迪瓦 1:0 厄瓜多尔。集成预测客胜概率最高(40.4%)方向错,主场科特迪瓦爆冷取胜(Brier≈0.802,差于随机0.667)。三项价值0.86-0.91全<1.10,按纪律无票,无资金影响。"
+  },
+  {
+   "num": "周日012",
+   "group": "E组",
+   "home": "瑞典",
+   "away": "突尼斯",
+   "time": "06-15 10:00",
+   "status": "scheduled",
+   "actual": null,
+   "predManual": "未出票",
+   "predModel": "主胜52.4%",
+   "ensemble": {
+    "h": 52.4,
+    "d": 27.5,
+    "a": 20.1
+   },
+   "note": "待开球。集成52.4%看瑞典主胜;三项价值0.86-0.90全<1.10,无出票计划。"
   }
  ],
  "holdings": {
@@ -896,6 +930,26 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-15",
+   "match": "瑞典 vs 突尼斯",
+   "impact": "古德蒙德松存疑",
+   "tone": "away",
+   "text": "瑞典左后卫古德蒙德松因病毒感染临战存疑,若缺阵由斯文森或斯特劳德补位;另库卢舍夫斯基全赛季因右髌软骨伤缺席确认无缘本届。(来源:Sports Mole/ESPN)",
+   "en": "Sweden LB Gabriel Gudmundsson is touch-and-go with a virus ahead of the 10:00 BJT kick-off; Svensson or Stroud would deputize if he is ruled out. Dejan Kulusevski is confirmed out all season with a right patella cartilage injury. (per Sports Mole / ESPN)",
+   "full": "赛前最新伤情(Sports Mole 06-15 专项报告):①古德蒙德松(利兹联,左后卫)——病毒感染,临战存疑(touch-and-go),若不能出战将由达尼尔·斯文森或埃利奥特·斯特劳德补位左路;②库卢舍夫斯基(托特纳姆,右翼)——全赛季右髌软骨重伤,确认缺席本届世界杯;③林德洛夫、埃兰加、奈格伦、伯恩哈德松均已从小伤中完全恢复,可正常首发。整体评估:古德蒙德松若缺阵,瑞典左路进攻略有削弱,但备选已有预案,影响有限;库卢舍夫斯基缺席是开赛前已知变量,不改主胜52.4%集成概率。三项竞彩价值0.86-0.90仍<1.10,无票建议维持不变。⚠️赛前官方XI确认时再复核左后卫人选。",
+   "enFull": "Pre-match injury update from Sports Mole dedicated team-news report (June 15): (1) Gabriel Gudmundsson (Leeds Utd, LB) — virus illness, listed as 'touch-and-go'; Daniel Svensson or Elliot Stroud would cover the left flank if he is ruled out. (2) Dejan Kulusevski (Spurs, RW) — confirmed out all season with a serious right patella cartilage injury; his absence is a pre-tournament known quantity. (3) Lindelof, Elanga, Nygren, Bernhardsson have all made full recoveries from minor knocks and are expected to start. Assessment: Gudmundsson's potential absence marginally weakens Sweden's left-side attack but contingency cover is clear. Kulusevski's miss does not change the ensemble win probability (52.4%). All three HAD value scores remain below 1.10 — no-bet stance unchanged. ⚠️ Verify official XI 60 min before 10:00 kickoff.",
+   "links": [
+    {
+     "name": "Sports Mole · Sweden vs Tunisia team news",
+     "url": "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/team-news/sweden-vs-tunisia-injury-suspension-list-predicted-xis_599053.html"
+    },
+    {
+     "name": "ESPN · Sweden vs Tunisia preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49038031/sweden-vs-tunisia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "06-15",
    "match": "科特迪瓦 vs 厄瓜多尔",
