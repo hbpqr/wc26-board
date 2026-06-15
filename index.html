@@ -797,7 +797,7 @@ D.todayMatches.forEach((m, i) => {
         const name = t.match.includes("×") ? "2串1" : t.pick.replace(/^(胜平负|比分)·/, "");
         return `<span class="tix ${tcls}">${name} <b>${t.stake}元</b></span>`;
       }).join("")}</div>` : ""}
-      <div class="mini-meta"><span class="num">${m.num}</span><span>${m.status === "finished" ? "完赛" : m.time}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
+      <div class="mini-meta"><span class="num">${m.num}</span><span style="color:var(--gold)">🕐 ${m.time} 北京${m.status === "finished" ? " · 完赛" : ""}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
     </div>`);
 });
 
@@ -869,7 +869,7 @@ D.focus.forEach((f, idx) => {
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
       ${myItems.length ? `<div class="mini-tix">${tipTags}</div>` : ""}
-      <div class="mini-meta"><span class="num">${f.num}</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}${stake > 0 ? `<span class="pos2">持票 ${stake}元</span>` : ""}</div>
+      <div class="mini-meta"><span class="num">${f.num}</span><span style="color:var(--gold)">🕐 ${f.time} 北京</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}${stake > 0 ? `<span class="pos2">持票 ${stake}元</span>` : ""}</div>
     </div>`);
 });
 const SM0 = D.slip.summary;
