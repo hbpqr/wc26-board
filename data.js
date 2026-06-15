@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 23:10",
+  "updated": "2026-06-16 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -542,6 +542,33 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "比利时 vs 埃及",
+   "impact": "德巴斯特伤缺",
+   "tone": "away",
+   "text": "比利时中后卫德巴斯特(腿部伤势)确认无缘揭幕战，预测首发中路改由梅什勒+恩戈伊搭档，两人国际赛场搭档经验相对有限(Sports Mole·ESPN·RotoWire)",
+   "en": "Belgian CB Zeno Debast confirmed out for opener with a leg injury; Mechele+Ngoy CB pairing replaces him, a combination with limited shared international experience (Sports Mole·ESPN·RotoWire)",
+   "full": "多家权威媒体（Sports Mole、ESPN、RotoWire）一致确认：比利时中后卫泽诺·德巴斯特因腿部伤势，确认无法出战世界杯揭幕战（比利时 vs 埃及，06-16 03:00）。德巴斯特是比利时后防重建的核心，其缺席意味着中后卫组合改由布兰顿·梅什勒搭档纳坦·恩戈伊（Nathan Ngoy），两人搭档大赛验证较少，存在一定协防风险。战术影响：比利时中路覆盖略有削弱，但整体阵容厚度依然强于埃及；对现有「比利时主胜」集成预测（61.2%）影响有限，无票状态按§3不变。",
+   "enFull": "Multiple credible sources (Sports Mole, ESPN, RotoWire) confirm Belgian CB Zeno Debast is sidelined for the World Cup opener vs Egypt (June 16 03:00 BJT) with a leg injury. Without him, Belgium line up with Brandon Mechele and Nathan Ngoy at CB — a pairing with limited top-level international experience together, introducing some defensive coordination risk. Tactical impact: slight weakening of Belgium's central defensive block, though Belgium remain clear favorites. Belgium's integrated win probability (61.2%) may be marginally affected; no-bet stance (HAD value below ≥1.10 threshold) unchanged.",
+   "links": [
+    {"name": "Sports Mole: Belgium vs Egypt team news", "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-egypt-injury-suspension-list-predicted-xis_599144.html"},
+    {"name": "ESPN: Belgium vs Egypt preview", "url": "https://www.espn.com/soccer/story/_/id/49046985/belgium-vs-egypt-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"}
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "比利时 vs 埃及",
+   "impact": "多库惊魂复训",
+   "tone": "home",
+   "text": "多库训练中途提前离场引发担忧，但随后归队完成训练，参战揭幕战无虞；预测首发XI仍列左路(Sports Mole·ESPN)",
+   "en": "Doku left training early causing concern but returned to complete the session; still projected to start at LW vs Egypt (Sports Mole·ESPN)",
+   "full": "赛前训练新情报（Sports Mole/ESPN）：比利时左路边锋杰雷米·多库（曼城）训练中途提前离场，一度引发伤情担忧。但媒体随后确认，多库已归队完成完整训练，并无大碍，预计将于揭幕战首发亮相（左路）。多库是比利时锋线最具速度威胁的球员，能否上场对比利时边路冲击力至关重要。RotoWire预测首发依然列多库于左路首发。综合：比利时攻击端无减损，主胜方向（61.2%）不变，无票状态不变。",
+   "enFull": "Pre-match training update (Sports Mole/ESPN): Belgian winger Jérémy Doku (Man City) briefly left training early, raising injury concerns before the Egypt opener. However, Doku returned to the pitch and completed the full session — Belgian staff indicated no serious concern. RotoWire's predicted XI still lists Doku as LW starter. Positive update for Belgium's attacking width and pace; integrated win probability (61.2%) unchanged, no-bet stance maintained.",
+   "links": [
+    {"name": "Sports Mole: Belgium vs Egypt team news", "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-egypt-injury-suspension-list-predicted-xis_599144.html"}
+   ]
+  },
   {
    "date": "06-16",
    "match": "伊朗 vs 新西兰",
