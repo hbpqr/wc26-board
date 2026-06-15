@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-15 21:13",
+  "updated": "2026-06-15 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -542,6 +542,46 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "伊朗 vs 新西兰",
+   "impact": "切什米伤愈或入队",
+   "tone": "home",
+   "text": "RotoWire/Yahoo Sports最新(22:00前):切什米与托拉比已伤愈回归全量训练,伊朗全员健在进入揭幕战;但预测首发XI仍为埃扎托拉希担任后腰——切什米或以替补身份入队(RotoWire·Yahoo Sports)",
+   "en": "Cheshmi and Torabi have both recovered and returned to full training per RotoWire/Yahoo Sports; Iran enter the opener with a fully fit squad, though Ezatolahi still expected to start as DM (RotoWire·Yahoo Sports)",
+   "full": "RotoWire与Yahoo Sports 22:00前最新报道(与此前「切什米确认缺席」相矛盾,⚠️请以赛前官方首发XI为准):①鲁兹贝·切什米(腘绳肌)已完成全量训练,归队状态良好;②迈赫迪·托拉比(小腿)亦已恢复;③伊朗全队健在进入揭幕战,无伤缺公告。但RotoWire预测首发(4-3-3):贝伊然万德;优素菲、哈利勒扎德、内马蒂、穆罕马迪;埃扎托拉希、戈达斯、莫赫比;加耶迪、塔雷米、候赛因扎德——首发后腰仍是埃扎托拉希,切什米可能以替补身份入队。价值影响:若切什米确实健在,伊朗中场覆盖强于「核心缺席」场景,focus板块当前空仓判断(HAD value均<1.10)不受影响,但伊朗让球value可能略有上修,待主会话复核。⚠️距开球不足2小时,务必在官方首发XI中确认切什米出场状态。",
+   "enFull": "RotoWire and Yahoo Sports (pre-match update, ~22:00 BJT) report that Iran midfielder Roozbeh Cheshmi has recovered from his hamstring injury and returned to full training — contradicting earlier 'confirmed absent' reports (⚠️ treat as updated status; defer to official XI for final confirmation). Mehdi Torabi (calf) has also recovered. Iran enter the opener with a fully fit squad. However, RotoWire's predicted XI (4-3-3): Beiranvand; Yousefi, Khalilzadeh, Nemati, Mohammadi; Ezatolahi, Ghoddos, Mohebi; Ghayedi, Taremi, Hosseinzadeh — Ezatolahi still listed as starting DM, with Cheshmi possibly as a sub. Impact: if Cheshmi is fit/available, Iran's defensive midfield cover is stronger than the 'key absence' scenario assumed. Current no-bet stance (HAD values all <1.10) unchanged, but main session should reassess Iran handicap value. ⚠️ Official XI expected ~60 min before 09:00 BJT kick-off.",
+   "links": [
+    {
+     "name": "RotoWire: Iran vs New Zealand preview",
+     "url": "https://www.rotowire.com/soccer/article/iran-vs-new-zealand-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118098"
+    },
+    {
+     "name": "Yahoo Sports: Iran vs New Zealand preview",
+     "url": "https://sports.yahoo.com/articles/preview-iran-vs-zealand-team-010500869.html"
+    }
+   ]
+  },
+  {
+   "date": "06-16",
+   "match": "伊朗 vs 新西兰",
+   "impact": "热身强势5-0收官",
+   "tone": "home",
+   "text": "伊朗热身赛强势:击败马里2-0、冈比亚3-1、哥斯达黎加5-0,三场全胜进球10,带着高昂士气进入揭幕战;新西兰热身赛先0-4负海地后1-0负英格兰(RotoWire·Yahoo Sports)",
+   "en": "Iran swept warm-ups: beat Mali 2-0, Gambia 3-1, Costa Rica 5-0 (10 goals, 3 wins); NZ lost 0-4 to Haiti, then 1-0 to England in pre-tournament friendlies (RotoWire·Yahoo Sports)",
+   "full": "RotoWire与Yahoo Sports赛前分析均指出:伊朗在赛前集训中取得三连胜——马里2-0、冈比亚3-1、哥斯达黎加5-0,合计进10球失0球。这一成绩既弥补了联赛停摆3个月的体能断层顾虑,也显示伊朗整体状态明显优于预期。主将塔雷米(帕尔马)领衔进攻,状态高峰。对比新西兰:先以0-4惨负海地,随后对英格兰苦战1-0告负——热身赛成绩差异较大,但英格兰场新西兰曾打出合理竞争性,并非溃败。综合评估:伊朗热身大胜有助于消化联赛停摆影响,但让球 -1 value约0.98仍在价值闸下(§3安全边际跳过)。热身赛大胜不直接构成边,但把「体能断档」风险从中等调至低等。⚠️注意:热身对手质量偏低(马里/冈比亚/哥斯达黎加均非强队)，不可过度解读。",
+   "enFull": "Both RotoWire and Yahoo Sports highlight Iran's strong pre-tournament warm-up run: three consecutive wins — Mali 2-0, Gambia 3-1, Costa Rica 5-0 — with 10 goals scored and zero conceded. This addresses the fitness concern arising from a 3-month domestic league suspension (since March 2026), suggesting Iran are in competitive shape ahead of the opener. Sardar Azmoun and Mehdi Taremi lead the attack in fine form. In contrast, New Zealand's warm-up record is mixed: a 0-4 loss to Haiti, followed by a 1-0 defeat to England (the England match was closer than the scoreline suggests). Overall: Iran's form mitigates the 'fitness gap' risk cited in earlier reports. However, Iran's handicap (-1) value score remains ~0.98, below the ≥1.10 buy threshold (§3 safety margin) — no-bet stance unchanged. ⚠️ Caveat: warm-up opponents were not top-tier; Iran's results should not be over-indexed.",
+   "links": [
+    {
+     "name": "RotoWire: Iran vs New Zealand tactical analysis",
+     "url": "https://www.rotowire.com/soccer/article/iran-vs-new-zealand-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118098"
+    },
+    {
+     "name": "Yahoo Sports: Iran vs New Zealand preview",
+     "url": "https://sports.yahoo.com/articles/preview-iran-vs-zealand-team-010500869.html"
+    }
+   ]
+  },
   {
    "date": "06-16",
    "match": "西班牙 vs 佛得角",
