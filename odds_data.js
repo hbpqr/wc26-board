@@ -1,59 +1,7 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-16 08:10:06",
+ "fetched_at": "2026-06-16 09:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
-  {
-   "num": "周一016",
-   "round": "周一",
-   "matchId": 2040177,
-   "home": "伊朗",
-   "away": "新西兰",
-   "date": "2026-06-16",
-   "time": "09:00",
-   "status": "Selling",
-   "had": {
-    "h": "1.55",
-    "d": "3.38",
-    "a": "5.30",
-    "updated": "2026-06-15 21:39:21"
-   },
-   "hhad": {
-    "h": "2.87",
-    "d": "3.30",
-    "a": "2.09",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.323,
-     0.261,
-     0.416
-    ],
-    "mkt": [
-     0.308,
-     0.268,
-     0.423
-    ],
-    "val_top": 0.93,
-    "edge_top": 0.014,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "市场≈模型·无边"
-   },
-   "crs": {
-    "1:0": "5.10",
-    "2:0": "5.50",
-    "3:0": "14.00",
-    "2:1": "6.00",
-    "0:0": "8.50",
-    "1:1": "5.80",
-    "2:2": "19.00",
-    "0:1": "12.00",
-    "0:2": "32.00",
-    "0:3": "90.00",
-    "1:2": "17.00"
-   }
-  },
   {
    "num": "周二017",
    "round": "周二",
@@ -77,19 +25,19 @@ window.ODDS_DATA = {
     "tier": "shallow",
     "tier_label": "浅让·主战场",
     "model": [
-     0.412,
-     0.264,
-     0.324
+     0.443,
+     0.251,
+     0.306
     ],
     "mkt": [
      0.418,
      0.263,
      0.32
     ],
-    "val_top": 0.9,
-    "edge_top": 0.005,
+    "val_top": 0.94,
+    "edge_top": 0.026,
     "mirage": false,
-    "top_label": "让负",
+    "top_label": "让胜",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
@@ -128,7 +76,21 @@ window.ODDS_DATA = {
     "line": "+2",
     "tier": "deep",
     "tier_label": "深让·镜像雷区",
-    "verdict": "未评估(待模型)"
+    "model": [
+     0.359,
+     0.229,
+     0.412
+    ],
+    "mkt": [
+     0.401,
+     0.228,
+     0.372
+    ],
+    "val_top": 0.98,
+    "edge_top": 0.04,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "信市场让线"
    },
    "crs": {
     "1:0": "35.00",
@@ -167,19 +129,19 @@ window.ODDS_DATA = {
     "tier": "shallow",
     "tier_label": "浅让·主战场",
     "model": [
-     0.44,
-     0.265,
-     0.295
+     0.473,
+     0.252,
+     0.275
     ],
     "mkt": [
      0.466,
      0.253,
      0.281
     ],
-    "val_top": 0.93,
-    "edge_top": 0.014,
+    "val_top": 0.9,
+    "edge_top": 0.007,
     "mirage": false,
-    "top_label": "让负",
+    "top_label": "让胜",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
@@ -219,19 +181,19 @@ window.ODDS_DATA = {
     "tier": "shallow",
     "tier_label": "浅让·主战场",
     "model": [
-     0.494,
-     0.24,
-     0.266
+     0.528,
+     0.224,
+     0.249
     ],
     "mkt": [
      0.495,
      0.249,
      0.257
     ],
-    "val_top": 0.92,
-    "edge_top": 0.009,
+    "val_top": 0.94,
+    "edge_top": 0.033,
     "mirage": false,
-    "top_label": "让负",
+    "top_label": "让胜",
     "verdict": "市场≈模型·无边"
    },
    "crs": {

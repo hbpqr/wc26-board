@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 08:55",
+  "updated": "2026-06-16 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -621,6 +621,48 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-17",
+   "match": "法国 vs 塞内加尔",
+   "impact": "萨利巴孔代双确认",
+   "tone": "home",
+   "text": "萨利巴(背伤)已完成全量训练确认首发;孔代从肌肉拉伤中恢复亦确认首发右后卫;麦格南负荷管理非大碍——法国后防线完整无伤病(Sports Mole·ESPN)",
+   "en": "Saliba (back) confirmed fully fit and expected to start; Kounde recovered from muscle scare to start at RB; Maignan in load management but no serious concern — France back line intact (Sports Mole·ESPN)",
+   "full": "Sports Mole与ESPN赛前最新:①威廉·萨利巴(阿森纳)上赛季欧冠决赛后曾被报告背伤复发,但其随后完成45分钟热身(3-1胜北爱尔兰),目前已全量训练,预计首发中后卫;②儒勒斯·孔代从肌肉拉伤中完全恢复,确认首发右后卫,无出场限制;③门将米克·麦格南周六仅做负荷管理缺席完整训练,但伤情并不严重,仍是首发门将。综合评估:法国后卫线此前「萨利巴存疑」的风险已消除,首发防线接近满员最强阵容。预测XI:麦格南;孔代、萨利巴、于帕梅卡诺、迪涅;拉比奥、楚阿梅尼;杜埃、登贝莱、奥利斯;姆巴佩。对focus中「法国-1让胜/胜平负 edge」的价值判断——法国防线稳固进一步压缩塞内加尔反扑空间,但value依然<1.10,纪律空仓不变。",
+   "enFull": "Sports Mole and ESPN (latest pre-match): ① William Saliba (Arsenal) had reported a recurring back issue post-UCL final but completed 45 minutes in the 3-1 friendly win over Northern Ireland and is now training fully — expected to start at CB; ② Jules Kounde has fully recovered from a muscular scare and is confirmed to start at RB with no restrictions; ③ GK Mike Maignan skipped full training Saturday for load management only — not a serious injury concern, still the projected starter. Takeaway: France's backline concern ('Saliba doubtful') is resolved; they enter with a near-full-strength defensive unit. Predicted XI: Maignan; Kounde, Saliba, Upamecano, Digne; Rabiot, Tchouameni; Doue, Dembele, Olise; Mbappe. Impact on value assessment: France's defensive stability further limits Senegal's counter-attack chances, but HAD/HHAD values remain below the ≥1.10 buy threshold — no-bet unchanged.",
+   "links": [
+    {"name": "Sports Mole: France vs Senegal predicted lineup", "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/saliba-status-doue-decision-predicted-france-xi-vs-senegal_599158.html"},
+    {"name": "ESPN: France vs Senegal preview", "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"}
+   ]
+  },
+  {
+   "date": "06-17",
+   "match": "阿根廷 vs 阿尔及利",
+   "impact": "梅西200帽首发",
+   "tone": "home",
+   "text": "梅西确认首发将迎200帽里程碑;埃米利亚诺·马丁内斯赛前手指骨折已伤愈入选首发门将;塔利亚菲科(小腿)确认缺阵(Sports Mole·World Soccer Talk)",
+   "en": "Messi confirmed to start for his milestone 200th cap; Emi Martinez (broken finger pre-tournament) passed fit and expected to start in goal; Tagliafico (calf) ruled out (Sports Mole·World Soccer Talk)",
+   "full": "Sports Mole与World Soccer Talk赛前最新:①梅西(迈阿密国际)将出战阿根廷世界杯揭幕战,迎来国家队第200场里程碑出场,多家媒体确认首发;②埃米利亚诺·马丁内斯赛前曾被曝欧罗巴联赛决赛前手指骨折,但已通过体检,确认首发门将;③左后卫尼古拉斯·塔利亚菲科(小腿)确认缺阵。预测XI(4-3-3/4-2-3-1):埃米·马丁内斯;莫利纳、奥塔门迪、L·马丁内斯、梅迪纳;德保罗、费尔南德斯、麦卡利斯特;阿尔马达;梅西、L·马丁内斯。注:此前focus提到「Scaloni演练5后卫收缩」,但多家媒体预测XI均为4后卫阵型——开球前关注官方首发确认。纪律层面:阿根廷-1让胜value=0.90(<1.10),空仓不变。",
+   "enFull": "Sports Mole and World Soccer Talk (pre-match): ① Lionel Messi will start Argentina's opener vs Algeria, marking his 200th international cap — a milestone confirmed by multiple outlets; ② Emiliano Martinez (Man United) suffered a broken finger before the Europa League final but has been cleared fit and is expected to start in goal; ③ Nicolas Tagliafico (calf) is confirmed absent. Predicted XI (4-3-3): E. Martinez; Molina, Otamendi, L. Martinez, Medina; De Paul, Fernandez, Mac Allister, Almada; Messi, L. Martinez. Note: earlier focus report mentioned Scaloni 'rehearsing 5-back defensive shape' but multiple media predict a 4-back system — check official XI closer to kick-off. Disciplinary takeaway: Argentina HHAD value 0.90 (<1.10 buy threshold) — no-bet unchanged.",
+   "links": [
+    {"name": "Sports Mole: Argentina vs Algeria predicted lineup", "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-makes-more-history-emi-returns-predicted-argentina-lineup-vs-algeria_599169.html"},
+    {"name": "World Soccer Talk: Messi included in Scaloni lineup", "url": "https://worldsoccertalk.com/world-cup/report-messi-included-in-scalonis-unprecedented-lineup-for-argentinas-world-cup-opener-vs-algeria/"}
+   ]
+  },
+  {
+   "date": "06-17",
+   "match": "奥地利 vs 约旦",
+   "impact": "阿拉巴带伤首发",
+   "tone": "home",
+   "text": "阿拉巴有伤在身但预计首发;鲍姆加特纳(肌肉伤)已被驱逐出名单,由柳比契奇替补;维默/格里利奇亦有伤势担忧(Sports Mole·ESPN)",
+   "en": "Alaba expected to start despite injury concern; Baumgartner (muscle) ruled out of squad replaced by Ljubicic; Wimmer and Grillitsch also carrying knocks (Sports Mole·ESPN)",
+   "full": "Sports Mole与ESPN赛前最新:①大卫·阿拉巴(皇马)有伤在身,但兰格尼克教练组仍预计他首发出战;②克里斯托夫·鲍姆加特纳因肌肉伤势被完全踢出23人名单,由德扬·柳比契奇顶替——鲍姆加特纳是奥地利技术中枢,其缺席一定程度上削弱了中场组织质量;③帕特里克·维默与弗洛里安·格里利奇亦带伤出战,存在不确定性。预测XI:施拉格;孔拉德·莱默、菲利普·利恩哈特、阿拉巴、菲利普·姆韦内;X·施拉格、塞瓦尔德;施密德、萨比策、格雷戈里奇;阿尔诺托维奇。约旦方面:Al-Naimat(预选赛8球首席射手)十字韧带伤缺(已price-in)。综合:奥地利主力名单受伤影响大于预期,但focus判断的「净胜2+不确定性」进一步被验证——空仓正确。",
+   "enFull": "Sports Mole and ESPN (pre-match): ① David Alaba (Real Madrid) is carrying an injury but is still expected to be named in Rangnick's starting XI; ② Christoph Baumgartner has been withdrawn from the squad entirely due to a muscle injury, replaced by Dejan Ljubicic — Baumgartner's absence weakens Austria's technical midfield creativity; ③ Patrick Wimmer and Florian Grillitsch are also doubtful. Predicted XI: Schlager; Laimer, Lienhart, Alaba, Mwene; X. Schlager, Seiwald; Schmid, Sabitzer, Gregoritsch; Arnautovic. Jordan note: Al-Naimat (8 WC qualifying goals) is out since December with ACL (already market-priced). Takeaway: Austria's injury list is wider than initially anticipated, validating the focus assessment that 'Austria winning by 2+' is not high-confidence. No-bet stance correct — HHAD value 0.94 below ≥1.10 threshold.",
+   "links": [
+    {"name": "Sports Mole: Austria vs Jordan predicted lineup", "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted-lineups/will-alaba-start-predicted-austria-lineup-vs-jordan_599177.html"},
+    {"name": "ESPN: Austria vs Jordan preview", "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"}
+   ]
+  },
   {
    "date": "06-16",
    "match": "比利时 vs 埃及",
