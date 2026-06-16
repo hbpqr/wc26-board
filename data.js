@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 18:10",
+  "updated": "2026-06-16 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -624,6 +624,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "阿根廷 vs 阿尔及利",
+   "impact": "梅西腿伤全愈三核就绪",
+   "tone": "home",
+   "text": "斯卡洛尼赛前确认梅西大腿疲劳伤已完全康复、将按计划首发200帽；ESPN证实阿根廷'三核无虞'——梅西、E.马丁内斯与胡利安·阿尔瓦雷斯均已就绪，阵容可控平静(ESPN·Business Standard)",
+   "en": "Scaloni confirms Messi's hamstring 'totally recovered' — no more minute-management caveat; ESPN: 'Argentina calm' with Messi, Emi Martinez AND Julián Álvarez all fit ahead of Algeria opener (ESPN·Business Standard)",
+   "full": "ESPN（06-16）及Business Standard赛前最新确认:①梅西大腿疲劳伤已完全康复——与此前「斯卡洛尼将管控分钟数(large腿担忧)」的表述相比，这是一次明确升级。斯卡洛尼表示球队「对阵容状况平静自信」，无需出于保护目的限制梅西出场时间。②胡利安·阿尔瓦雷斯（曼城）亦获独立确认健康就绪——此前仅提到「训练返回」，现已升级为完全可战。③埃米利亚诺·马丁内斯（手指骨折赛前）在此前消息基础上再次获确认首发门将位置。综合三重确认：阿根廷核心竞争力高于「梅西受限保护」的悲观场景。但价值层面不变：阿根廷集成概率约88%，-1让胜 value≈0.90，胜平负最优值≈0.80，仍均低于≥1.10价值闸——空仓决定不变。",
+   "enFull": "ESPN (June 16) and Business Standard pre-match update: ① Lionel Messi's hamstring ailment is 'totally recovered' per Scaloni — a clear upgrade from earlier 'minute management due to ongoing concern' status; no protective substitution planned. Scaloni described the squad as 'calm' ahead of Algeria. ② Julián Álvarez (Man City) is independently confirmed fully fit — upgraded from 'returned to training' to 'available to play'. ③ Emiliano Martínez (broken finger pre-tournament) confirmed fit again as starter. Three-pronged fitness confirmation means Argentina's attacking depth is at expected capacity, not the protected scenario. Value unchanged: Argentina integrated probability ~88%; HHAD value ≈0.90; HAD best value ≈0.80 — all below the ≥1.10 buy threshold. No-bet stance holds.",
+   "links": [
+    {"name": "ESPN: Argentina calm with Messi, Martinez, Álvarez fit", "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria"},
+    {"name": "Business Standard: Scaloni issues fitness update", "url": "https://www.business-standard.com/sports/fifa-world-cup/argentina-vs-algeria-messi-prepared-for-his-for-his-6th-world-cup-scaloni-126061600157_1.html"}
+   ]
+  },
   {
    "date": "06-17",
    "match": "奥地利 vs 约旦",
