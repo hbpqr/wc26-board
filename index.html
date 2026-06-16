@@ -507,15 +507,16 @@
   <section id="sec-report">
     <div class="top-grid">
       <div>
-        <div class="stitle"><h2>战报 · 上一比赛日</h2><span class="sub">+赚 −亏 · "待结"=未结算</span></div>
+        <div class="stitle"><h2 id="cur-title">当前比赛日</h2><span class="sub" id="cur-sub">完赛比分 / 进行中实时 / 未开赛预测</span></div>
         <div id="report-list"></div>
       </div>
       <div id="sec-tomorrow">
-        <div class="stitle"><h2>明日作战</h2><span class="sub">预测与买点 · 北京时间</span></div>
+        <div class="stitle"><h2 id="next-title">下一比赛日</h2><span class="sub">预测与买点 · 北京时间</span></div>
         <div id="tmr-list"></div>
       </div>
     </div>
     <div class="tmr-plan" id="tmr-plan" style="margin-top:6px"></div>
+    <div id="past-entry" style="margin-top:18px"></div>
   </section>
   <section id="sec-slip">
     <div class="stitle"><h2>下单计划</h2><span class="sub" id="slip-title"></span></div>
@@ -635,9 +636,79 @@ document.write(`<script src="data.js?t=${Date.now()}"><\/script><script src="odd
 const D = window.DASH_DATA, O = window.ODDS_DATA, I = window.INTL_DATA || {};
 const LIVE = window.LIVE_DATA || {};  // 实时比分唯一来源:live_ticker.py 读 ESPN STATUS 写入,与 data.js 物理隔离
 // 未结算场次的实时比分一律以 ticker 为准(ESPN 状态权威;LLM 误写的 live 被覆盖)
-// 实时比分应用到两个区(战报 + 明日作战):未结束且 ticker 有数据就显示进行中
-[...(D.todayMatches || []), ...(D.focus || [])].forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.num].live : null; });
 const fmt = n => (n > 0 ? "+" : "") + n.toFixed(1);
+
+/* ===== 全比赛视图:三源(战报/明日预测/赔率盘)按 num 合并去重,每场一条 =====
+   字段优先级:
+     actual/note/predManual/predModel/ensemble ← todayMatches(已结算权威)
+     round/赔率(had/hhad/crs)/官方status      ← ODDS_DATA.matches
+     预测(models/wdlValue/scores/verdict)      ← focus
+   num 是唯一全局可靠键(格式恒为 "周X"+3位数字),3位数字全局单调递增=排序键 */
+function buildAllMatches() {
+  const map = new Map();
+  const get = num => map.get(num) || map.set(num, { num }).get(num);
+
+  // 1) 战报(已结算):带来 actual / note / 手工模型预测 / ensemble / 完赛status
+  (D.todayMatches || []).forEach((m, idx) => Object.assign(get(m.num), {
+    home: m.home, away: m.away, time: m.time, status: m.status,
+    actual: m.actual, note: m.note, ensemble: m.ensemble,
+    predManual: m.predManual, predModel: m.predModel,
+    _tmIdx: idx            // 复用 openReport(i) — 必须传原始下标
+  }));
+
+  // 2) 明日作战(预测):带来 models/wdlValue/scores/verdict;不覆盖已有 actual/time
+  (D.focus || []).forEach((f, idx) => {
+    const t = get(f.num);
+    if (!t.home) { t.home = f.home; t.away = f.away; }
+    if (!t.time) t.time = f.time;
+    t.models = f.models; t.wdlValue = f.wdlValue; t.scores = f.scores; t.verdict = f.verdict;
+    t._focusIdx = idx;     // 复用 openTmr(idx) — 必须传原始下标
+  });
+
+  // 3) 赔率盘:带来权威 round + 官方 status(Selling=可买) + 赔率;补 home/away/time
+  (O && O.matches || []).forEach(o => {
+    const t = get(o.num);
+    t.round = o.round;                                     // ★ 唯一权威 round 来源
+    if (!t.home) { t.home = o.home; t.away = o.away; }
+    if (!t.time) t.time = (o.date ? o.date.slice(5) + " " : "") + o.time; // "MM-DD HH:MM"
+    t.had = o.had; t.hhad = o.hhad; t.crs = o.crs;
+    if (t.status !== "finished") t._oddsStatus = o.status; // 已结算不被赔率盘覆盖
+  });
+
+  // 4) 收尾:补 round(没进 odds 的老场次从 num 解析)、排序键、phase(先只判 finished)
+  for (const t of map.values()) {
+    if (!t.round) t.round = t.num.slice(0, 2);            // "周日"…(odds 缺时回退)
+    t.seq = parseInt(t.num.replace(/\D/g, ""), 10);        // 排序键 9/13/17…
+    t.phase = t.status === "finished" ? "finished" : "scheduled";
+  }
+  return [...map.values()].sort((a, b) => a.seq - b.seq);
+}
+const ALL = buildAllMatches();
+// 实时比分统一在合并视图上应用(覆盖三源,含只在 odds 里的进行中场次);ticker 权威
+// 未结束且 ticker 有数据 → phase=live;LLM 误写的 live 一律以 ticker 为准
+ALL.forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.num].live : null; });
+ALL.forEach(m => { if (m.status !== "finished") m.phase = m.live ? "live" : "scheduled"; });
+
+/* ===== 比赛日分组 + 当前/下一/过往(纯前端,数据更新即自动轮转) ===== */
+// 按 round 分组,seqMin(该组最小序号)用于 round 间排序;字面"周X"只做显示
+function groupByRound(list) {
+  const g = new Map();
+  list.forEach(m => {
+    if (!g.has(m.round)) g.set(m.round, { round: m.round, matches: [], seqMin: Infinity });
+    const grp = g.get(m.round);
+    grp.matches.push(m);
+    grp.seqMin = Math.min(grp.seqMin, m.seq);
+  });
+  const groups = [...g.values()].sort((a, b) => a.seqMin - b.seqMin); // 组间按 seqMin 升序
+  groups.forEach(grp => grp.matches.sort((a, b) => a.seq - b.seq));    // 组内按 seq 升序
+  return groups;
+}
+const ROUNDS = groupByRound(ALL);
+// 当前 = 最小 seqMin 的、还有未结束(status!=finished)比赛的 round
+const curRound  = ROUNDS.find(g => g.matches.some(m => m.status !== "finished")) || ROUNDS[ROUNDS.length - 1];
+const curIdx    = ROUNDS.indexOf(curRound);
+const nextRound = ROUNDS[curIdx + 1] || null;               // 下一比赛日(可能没有)
+const pastRounds = ROUNDS.slice(0, curIdx);                 // 过往(必然全 finished)
 
 /* ---------- flags ---------- */
 const FLAG_MAP = {
@@ -775,31 +846,77 @@ window.openReport = i => {
     { label: "情报(中英)", html: newsListHtml(m.home, m.away) }
   ]);
 };
-const repWrap = document.getElementById("report-list");
-D.todayMatches.forEach((m, i) => {
-  const e = m.ensemble;
+/* ===== 统一 mini 卡(三态:finished/live/scheduled),复用现成 .mini HTML/CSS ===== */
+// 比分位:完赛=最终比分 / 进行中=实时比分 / 未开赛=vs
+function miniScore(m) {
+  if (m.actual) return m.actual;
+  if (m.live) return m.live.split(" ")[0];
+  return "vs";
+}
+// 时间/状态位(右上):完赛留空 / 进行中红色含分钟 / 未开赛金色开赛时间(time="MM-DD HH:MM"→slice(6))
+function miniStateHtml(m) {
+  if (m.phase === "finished") return "";
+  if (m.phase === "live")
+    return `<span class="mini-time" style="color:var(--red)">● 进行中 ${m.live.includes("(") ? m.live.slice(m.live.indexOf("(") + 1, -1) : ""}</span>`;
+  return `<span class="mini-time" style="color:var(--gold)">${(m.time || "").slice(6)}</span>`;
+}
+// 持仓标签:完赛口径走 holdings(命中=绿/未中=红/进行中=黄);原战报段逻辑原样搬
+function holdTixHtml(m) {
+  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}` || (t.match.includes("×") && t.match.startsWith(m.home)));
+  if (!matchTickets.length) return "";
+  return `<div class="mini-tix">${matchTickets.map(t => {
+    const tcls = { win: "tx-green", lose: "tx-red", pending: "tx-yellow" }[t.status] || "tx-red";
+    const name = t.match.includes("×") ? "2串1" : t.pick.replace(/^(胜平负|比分)·/, "");
+    return `<span class="tix ${tcls}">${name} <b>${t.stake}元</b></span>`;
+  }).join("")}</div>`;
+}
+// 持仓标签:未结算口径走 slip(全黄=待结);原明日段逻辑原样搬
+function slipTixHtml(m) {
+  const myItems = D.slip.items.filter(it => it.num === m.num || (it.num === "串关" && it.match.includes(m.home)));
+  if (!myItems.length) return "";
+  return `<div class="mini-tix">${myItems.map(it => {
+    const name = it.match.includes("×") ? "2串1" : it.pick.replace(/^(胜平负|比分)·/, "");
+    return `<span class="tix tx-yellow">${name} <b>${it.stake}元</b></span>`;
+  }).join("")}</div>`;
+}
+// 完赛右上角的盈亏/在场摘要(原战报段逻辑原样搬)
+function holdPnlHtml(m) {
   const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}` || (t.match.includes("×") && t.match.startsWith(m.home)));
   const settled = matchTickets.filter(t => t.status !== "pending");
   const pendSum = matchTickets.filter(t => t.status === "pending").reduce((s, t) => s + t.stake, 0);
   const tPnl = settled.reduce((s, t) => s + (t.payout || 0) - t.stake, 0);
-  repWrap.insertAdjacentHTML("beforeend", `
-    <div class="mini" onclick="openReport(${i})">
+  if (pendSum > 0) return `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">在场 </span><span class="num" style="color:var(--steel);font-weight:700">${pendSum}元</span></span>`;
+  if (settled.length) return `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">本场盈亏 </span><span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span></span>`;
+  return "";
+}
+function renderMiniCard(m) {
+  const finished = m.phase === "finished";
+  // 概率条:完赛用 ensemble{h,d,a};未结算用 models.ens[0..2];都没有给 0
+  const e = m.ensemble ? [m.ensemble.h, m.ensemble.d, m.ensemble.a]
+          : (m.models && m.models.ens) ? m.models.ens : [0, 0, 0];
+  // 点击:完赛→openReport(战况+复盘+票据+预测对照);明日有预测→openTmr;只在 odds→openMatch 兜底
+  const onclick = finished ? `openReport(${m._tmIdx})`
+                : (m._focusIdx != null ? `openTmr(${m._focusIdx})` : `openMatch('${m.num}')`);
+  const border = finished ? "" : ' style="border-color:rgba(233,180,76,.3)"';
+  const intl = (typeof I !== "undefined" && I) ? I[m.num] : null;
+  const meta = finished
+    ? `<span class="num">${m.num}</span><span style="color:var(--gold)">🕐 ${m.time} 北京 · 完赛</span>`
+      + `<span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span>`
+      + `<span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span>`
+    : `<span class="num">${m.num}</span><span style="color:var(--gold)">🕐 ${m.time} 北京</span>`
+      + ((m.models && m.models.ens) ? `<span>集成 ${e[0]}/${e[1]}/${e[2]}</span>` : "")
+      + (intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : "");
+  return `
+    <div class="mini" onclick="${onclick}"${border}>
       <div class="mini-top">
-        <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${m.actual ? m.actual : (m.live ? m.live.split(" ")[0] : "vs")}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
-        <span style="white-space:nowrap;display:flex;gap:10px;align-items:baseline">
-        ${m.status !== "finished" ? (m.live ? `<span class="mini-time" style="color:var(--red)">● 进行中 ${m.live.includes("(") ? m.live.slice(m.live.indexOf("(") + 1, -1) : ""}</span>` : `<span class="mini-time" style="color:var(--gold)">${m.time.slice(6)}</span>`) : ""}
-        ${pendSum > 0 ? `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">在场 </span><span class="num" style="color:var(--steel);font-weight:700">${pendSum}元</span></span>` : (settled.length ? `<span style="white-space:nowrap"><span style="color:var(--faint);font-size:11px">本场盈亏 </span><span class="num ${tPnl >= 0 ? "pos" : "neg"}" style="font-weight:700">${fmt(tPnl)}</span></span>` : "")}
-        </span>
+        <span class="mini-teams">${flag(m.home, "flag-sm")} ${m.home} <span class="mini-score">${miniScore(m)}</span> ${m.away} ${flag(m.away, "flag-sm")}</span>
+        <span style="white-space:nowrap;display:flex;gap:10px;align-items:baseline">${miniStateHtml(m)}${finished ? holdPnlHtml(m) : ""}</span>
       </div>
-      <div class="probbar"><i class="ph" style="width:${e.h}%"></i><i class="pd" style="width:${e.d}%"></i><i class="pa" style="width:${e.a}%"></i></div>
-      ${matchTickets.length ? `<div class="mini-tix">${matchTickets.map(t => {
-        const tcls = { win: "tx-green", lose: "tx-red", pending: "tx-yellow" }[t.status] || "tx-red";
-        const name = t.match.includes("×") ? "2串1" : t.pick.replace(/^(胜平负|比分)·/, "");
-        return `<span class="tix ${tcls}">${name} <b>${t.stake}元</b></span>`;
-      }).join("")}</div>` : ""}
-      <div class="mini-meta"><span class="num">${m.num}</span><span style="color:var(--gold)">🕐 ${m.time} 北京${m.status === "finished" ? " · 完赛" : ""}</span><span>手工 ${m.predManual}${m.actual === m.predManual ? "✓" : ""}</span><span>模型 ${m.predModel}${m.actual === m.predModel ? "✓" : ""}</span></div>
-    </div>`);
-});
+      <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
+      ${finished ? holdTixHtml(m) : slipTixHtml(m)}
+      <div class="mini-meta">${meta}</div>
+    </div>`;
+}
 
 /* ---------- 明日作战 minis + 下钻 ---------- */
 window.openTmr = idx => {
@@ -851,27 +968,58 @@ window.openWhy = (idx, kind) => {
   }
 };
 
-const tmrWrap = document.getElementById("tmr-list");
-D.focus.forEach((f, idx) => {
-  const e = f.models.ens;
-  const intl = I[f.num];
-  const myItems = D.slip.items.filter(it => it.num === f.num || (it.num === "串关" && it.match.includes(f.home)));
-  const stake = myItems.reduce((s, it) => s + it.stake, 0);
-  const tipTags = myItems.map(it => {
-    const name = it.match.includes("×") ? "2串1" : it.pick.replace(/^(胜平负|比分)·/, "");
-    return `<span class="tix tx-yellow">${name} <b>${it.stake}元</b></span>`;
-  }).join("");
-  tmrWrap.insertAdjacentHTML("beforeend", `
-    <div class="mini" onclick="openTmr(${idx})" style="border-color:rgba(233,180,76,.3)">
-      <div class="mini-top">
-        <span class="mini-teams">${flag(f.home, "flag-sm")} ${f.home} <span class="mini-score">${f.live ? f.live.split(" ")[0] : "vs"}</span> ${f.away} ${flag(f.away, "flag-sm")}</span>
-        ${f.live ? `<span class="mini-time" style="color:var(--red)">● 进行中 ${f.live.includes("(") ? f.live.slice(f.live.indexOf("(") + 1, -1) : ""}</span>` : `<span class="mini-time" style="color:var(--gold)">${f.time.slice(6)}</span>`}
-      </div>
+/* ===== openMatch:只在 odds 里(无 _tmIdx/_focusIdx)的场次的最小下钻兜底 ===== */
+window.openMatch = num => {
+  const m = ALL.find(x => x.num === num); if (!m) return;
+  const e = (m.models && m.models.ens) ? m.models.ens
+          : (m.ensemble ? [m.ensemble.h, m.ensemble.d, m.ensemble.a] : [0, 0, 0]);
+  const score = m.actual || (m.live ? m.live.split(" ")[0] : "vs");
+  const tabs = [
+    { label: "概况", html: `
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
-      ${myItems.length ? `<div class="mini-tix">${tipTags}</div>` : ""}
-      <div class="mini-meta"><span class="num">${f.num}</span><span style="color:var(--gold)">🕐 ${f.time} 北京</span><span>集成 ${e[0]}/${e[1]}/${e[2]}</span>${intl ? `<span style="color:var(--steel)">国际 ${(intl.probs[0]*100).toFixed(0)}/${(intl.probs[1]*100).toFixed(0)}/${(intl.probs[2]*100).toFixed(0)}</span>` : ""}${stake > 0 ? `<span class="pos2">持票 ${stake}元</span>` : ""}</div>
-    </div>`);
-});
+      <div class="problabel"><span>主胜 ${e[0]}%</span><span>平 ${e[1]}%</span><span>客胜 ${e[2]}%</span></div>
+      ${m.had ? `<div class="src-line">竞彩胜平负:主 ${m.had.h} / 平 ${m.had.d} / 客 ${m.had.a}</div>` : ""}
+      ${m.verdict ? `<div class="bi-block" style="margin-top:14px"><div class="bi-lang">结论</div>${m.verdict}</div>` : ""}
+      ${m.live ? `<div class="src-line">实时:${m.live}</div>` : ""}` },
+    { label: "情报(中英)", html: newsListHtml(m.home, m.away) }
+  ];
+  openModal(`${flag(m.home, "flag-sm")} ${m.home} ${score} ${m.away} ${flag(m.away, "flag-sm")} · ${m.num} · ${m.time}`, tabs);
+};
+
+/* ===== 按 round 组渲染:左列=当前比赛日,右列=下一比赛日 ===== */
+const repWrap = document.getElementById("report-list");
+const tmrWrap = document.getElementById("tmr-list");
+document.getElementById("cur-title").textContent  = `当前比赛日 · ${curRound.round}`;
+document.getElementById("next-title").textContent = nextRound ? `下一比赛日 · ${nextRound.round}` : "下一比赛日 · 待排";
+curRound.matches.forEach(m => repWrap.insertAdjacentHTML("beforeend", renderMiniCard(m)));
+if (nextRound) nextRound.matches.forEach(m => tmrWrap.insertAdjacentHTML("beforeend", renderMiniCard(m)));
+else tmrWrap.innerHTML = `<div class="src-line">赛程已到最后一个比赛日,暂无下一组。</div>`;
+
+/* ===== 过往战绩入口 + modal(每个过往比赛日一个 tab,点行进 openReport) ===== */
+(function renderPastEntry() {
+  const wrap = document.getElementById("past-entry");
+  if (!pastRounds.length) { wrap.innerHTML = ""; return; }
+  const total = pastRounds.reduce((s, g) => s + g.matches.length, 0);
+  wrap.innerHTML = `<button class="mini" style="width:100%;text-align:left;cursor:pointer;border:none;font-family:inherit" onclick="openPast()">
+      <span style="color:var(--gold);font-weight:700">📚 过往战绩</span>
+      <span style="color:var(--faint);margin-left:10px">${pastRounds.map(g => g.round).join(" · ")} · 共 ${total} 场 · 点击下钻</span>
+    </button>`;
+})();
+window.openPast = () => {
+  const tabs = pastRounds.map(g => ({
+    label: g.round,
+    html: `<table><thead><tr><th>场次</th><th>对阵</th><th class="r">比分</th><th class="r">手工</th><th class="r">模型</th></tr></thead><tbody>` +
+      g.matches.map(m => {
+        const click = m._tmIdx != null ? ` onclick="closeModal();openReport(${m._tmIdx})" style="cursor:pointer"` : "";
+        return `<tr${click}><td class="num">${m.num}</td>
+          <td>${flag(m.home, "flag-sm")} ${m.home} - ${m.away} ${flag(m.away, "flag-sm")}</td>
+          <td class="r num" style="color:var(--gold)">${m.actual || "-"}</td>
+          <td class="r">${m.predManual || "-"}${m.actual === m.predManual ? "✓" : ""}</td>
+          <td class="r">${m.predModel || "-"}${m.actual === m.predModel ? "✓" : ""}</td></tr>`;
+      }).join("") + `</tbody></table><div class="src-line">点任意一行查看该场战况·复盘·票据·预测对照(复用战报详情)。</div>`
+  }));
+  openModal(`过往战绩 · ${pastRounds.length} 个比赛日`, tabs);
+};
 const SM0 = D.slip.summary;
 document.getElementById("tmr-plan").innerHTML = D.slip.items.length === 0 ? `
   <div class="blk" style="flex:1"><span class="k">下一轮计划</span><span class="v" style="font-size:15px;color:var(--gold)">空仓 · 无符合纪律的票(value≥1.10)</span></div>
