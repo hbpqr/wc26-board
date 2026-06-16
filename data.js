@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 05:10",
+  "updated": "2026-06-17 06:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -660,6 +660,21 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-17",
+   "match": "奥地利 vs 约旦",
+   "impact": "鲍姆加特纳伤缺",
+   "tone": "away",
+   "text": "奥地利中场核心鲍姆加特纳(莱比锡AMF)因右大腿肌肉撕裂确认缺席,伤于6/1友谊赛热身;格里利奇/维默同列存疑,阿拉巴预计首发(ESPN·Sports Mole·RotoWire)",
+   "en": "Austria AMF Christoph Baumgartner (RB Leipzig) confirmed out with right thigh tear suffered in June 1 friendly warm-up; Grillitsch/Wimmer also doubts, Alaba expected to start (ESPN/Sports Mole/RotoWire)",
+   "full": "ESPN、Sports Mole与RotoWire三方赛前情报均确认:奥地利进攻中场核心克里斯托夫·鲍姆加特纳(莱比锡)在6月1日与突尼斯热身赛前热身时撕裂右大腿肌肉,确认缺席本届世界杯全程。此外帕特里克·维默与弗洛里安·格里利奇同列存疑,大卫·阿拉巴尽管有伤在身但预计仍将首发出战。萨比策将后移填补中场调度职能,阿纳托维奇仍锁定锋线核心位置。总体而言,鲍姆加特纳的缺席使奥地利进攻端创造力有所下降,但奥地利整体实力仍明显优于约旦(约旦双前锋尽缺),空仓决策不变(HHAD value 0.94<1.10安全边际)。",
+   "enFull": "ESPN, Sports Mole, and RotoWire all confirm Austria AMF Christoph Baumgartner (RB Leipzig) is ruled out of the 2026 World Cup — he suffered a right thigh muscle tear during the warm-up of a friendly against Tunisia on June 1. Additional doubts: Patrick Wimmer and Florian Grillitsch are both listed as questionable; David Alaba, despite carrying an injury concern, is expected to start. Sabitzer likely shifts to a deeper role to cover Baumgartner's playmaking function; Arnautovic remains the striker target. Overall impact: reduced attacking creativity, but Austria are still clear favorites against a Jordan side missing both senior strikers (Al-Naimat + Sabra). No-bet stance unchanged (HHAD value 0.94 < 1.10 threshold).",
+   "links": [
+    {"name": "ESPN: Austria vs Jordan World Cup 2026 preview", "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"},
+    {"name": "Sports Mole: Austria vs Jordan team news", "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/preview/austria-vs-jordan-prediction-team-news-lineups_599171.html"},
+    {"name": "RotoWire: Austria vs Jordan preview", "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"}
+   ]
+  },
   {
    "date": "06-17",
    "match": "伊拉克 vs 挪威",
