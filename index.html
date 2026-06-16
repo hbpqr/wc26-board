@@ -1350,7 +1350,7 @@ document.getElementById("slip-status").innerHTML = (D.slip.status || "")
 const isEmpty = D.slip.items.length === 0;
 document.getElementById("slip-banner").className = "slip-banner " + (isEmpty ? "empty" : "bet");
 document.getElementById("slip-banner").innerHTML = isEmpty
-  ? `🛑 本轮空仓 <span class="bsub">· 四场无一张达买入门槛 value≥1.10,按纪律不出手</span>`
+  ? `🟢 真钱 0 元 · 影子book 学习中 <span class="bsub">· 空仓≠熄火:无硬信息差→赚钱引擎合法空仓,四场全盘口预测已记入影子book免费产校准样本</span>`
   : `✓ 本轮出 ${D.slip.items.length} 注 · 共 ${D.slip.summary.stake} 元 <span class="bsub">· 期望 ${D.slip.summary.evHigh >= 0 ? "+" : ""}${D.slip.summary.evHigh}</span>`;
 // 候选评估卡:空仓时展示下一轮四场的最佳买点+裁决(可视化"为什么不买");有票时展示下注卡
 document.getElementById("slip-cards").className = "cand-grid";
