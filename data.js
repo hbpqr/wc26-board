@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 01:10",
+  "updated": "2026-06-17 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -629,6 +629,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-17",
+   "match": "法国 vs 塞内加尔",
+   "impact": "萨尔状态矛盾",
+   "tone": "away",
+   "text": "⚠️情报矛盾:ESPN与Al Jazeera赛前报道均将萨尔(马赛右翼)列入塞内加尔首发进攻三叉戟(马内+萨尔+杰克逊),与此前'萨尔确认缺席'条目直接矛盾;开球(03:00)前核查官方XI(ESPN·Al Jazeera)",
+   "en": "⚠️Intel conflict: ESPN and Al Jazeera both list Ismaila Sarr (Marseille) in Senegal's predicted starting attack (Mane-Sarr-Jackson), contradicting the earlier 'Sarr confirmed absent' entry — verify official XI at kickoff 03:00 BJT (ESPN·Al Jazeera)",
+   "full": "ESPN(France vs Senegal World Cup 2026 preview)与Al Jazeera赛前最新均明确将伊斯玛拉·萨尔(Marseille右翼)列入塞内加尔预测首发进攻线:马内+萨尔+尼古拉斯·杰克逊三叉戟组合。这与当前data.js新闻条目'萨尔/萨巴利确认缺席'(来源:Sports Mole)形成直接矛盾。可能是Sports Mole伤停汇总文章与预测XI文章给出了不同结论,或情况在近12小时内发生变化。对价值闸影响:若萨尔首发,塞内加尔进攻威胁明显高于'萨尔缺席'假设,但法国胜平负value及让球value仍低于1.10——空仓决策不变。⚠️ 唯一可靠确认方法:开球前60分钟官方首发XI公布后核查。",
+   "enFull": "ESPN's France vs Senegal preview and Al Jazeera's pre-match report (June 15-16) both list Ismaila Sarr (Marseille, right wing) in Senegal's predicted starting attack alongside Sadio Mane and Nicolas Jackson. This directly contradicts the existing data.js entry 'Sarr/Sabaly confirmed unavailable (Sports Mole)'. The discrepancy cannot be resolved from available information — it may reflect different conclusions from Sports Mole's injury-list article vs predicted-XI article, or a status change in the past 12 hours. Value impact: if Sarr starts, Senegal's attacking output is meaningfully higher than the 'Sarr absent' base case used in the 68%→73% probability estimate. However, all France HAD and HHAD values remain below the ≥1.10 threshold — no-bet stance unchanged. ⚠️ Only reliable confirmation: official XI announced ~60 min before 03:00 BJT kickoff.",
+   "links": [
+    {"name": "ESPN: France vs Senegal World Cup 2026 preview", "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"},
+    {"name": "Al Jazeera: France vs Senegal – teams, lineups", "url": "https://www.aljazeera.com/sports/2026/6/15/france-vs-senegal-world-cup-2026-mbappe-teams-lineups-start-dembele"}
+   ]
+  },
   {
    "date": "06-16",
    "match": "阿根廷 vs 阿尔及利",
