@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 11:10",
+  "updated": "2026-06-16 12:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -622,6 +622,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-17",
+   "match": "法国 vs 塞内加尔",
+   "impact": "塞内加尔三球员存疑",
+   "tone": "away",
+   "text": "迪亚奥(挫伤)、恩迪亚耶(原因不明)、格耶(预防性未完成训练)赛前存疑，但均无大碍；萨迪奥·马内确认首发出战(Sports Mole·Yahoo Sports)",
+   "en": "Assane Diao (contusion), Cherif Ndiaye (unexplained absence Sat) and Gueye (didn't complete full session) carry doubts but no major concern; Sadio Mane confirmed fit to start (Sports Mole·Yahoo Sports)",
+   "full": "Sports Mole与Yahoo Sports赛前最新(06-16):塞内加尔队内出现三个小伤情担忧:①阿桑·迪亚奥因挫伤本周缺席训练;②谢里夫·恩迪亚耶周六无故缺席完整训练,原因不明;③老将伊德里萨·格耶(埃弗顿)未完成周六完整训练课,属预防性措施。但塞内加尔队工作人员表示三人均无大碍,不影响参赛。核心球星萨迪奥·马内(未来俱乐部)确认百分百状态，将首发出战。综合评估:伤情总体轻微，对法国-塞内加尔集成预测(主67%/平21%/客12%)无显著影响，纪律空仓(HAD value全低于1.10)不变。⚠️ 三人出场状态请于开球前60分钟查阅官方XI确认。",
+   "enFull": "Sports Mole and Yahoo Sports (June 16): Senegal have three minor fitness concerns ahead of their Group I opener vs France. ① Assane Diao missed training earlier this week due to a contusion; ② Cherif Ndiaye was absent from Saturday's session for unexplained reasons; ③ veteran Idrissa Gueye (Everton) did not complete the full training session as a precautionary measure. However, the Senegal coaching staff confirmed no major concern over any of the trio. Star forward Sadio Mane (Future FC) is fully fit and confirmed to start. Assessment: these are minor bumps that do not materially alter the match-probability outlook (France 67%/Draw 21%/Senegal 12%). HAD values remain below the ≥1.10 buy threshold — no-bet unchanged. ⚠️ Check official lineups 60 minutes before kick-off to confirm all three players' status.",
+   "links": [
+    {"name": "Sports Mole: France vs Senegal injury list", "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-senegal-injury-suspension-list-predicted-xis_599161.html"},
+    {"name": "Yahoo Sports: World Cup 2026 live injury updates", "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-news-live-updates-injuries-storylines-as-the-tournament-kicks-off-200000921.html"}
+   ]
+  },
   {
    "date": "06-17",
    "match": "法国 vs 塞内加尔",
