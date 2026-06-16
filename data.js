@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 13:10",
+  "updated": "2026-06-16 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -626,8 +626,22 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "06-17",
+   "match": "奥地利 vs 约旦",
+   "impact": "约旦双锋尽缺",
+   "tone": "home",
+   "text": "约旦前锋萨布拉(Ibrahim Sabra)因伤退出23人名单，由穆罕默德·塔哈替补——继Al-Naimat(十字韧带)后约旦主力前锋双双缺席，进攻深度大幅削弱(Sports Mole·RotoWire)",
+   "en": "Jordan forward Ibrahim Sabra ruled out and replaced by Mohammad Taha — alongside Al-Naimat (ACL), Jordan lose both senior strikers, severely depleting attacking options (Sports Mole·RotoWire)",
+   "full": "Sports Mole与RotoWire双源确认(06-16):约旦首要前锋亚赞·Al-Naimat(预选赛8球)因去年12月十字韧带断裂早已缺席，现再确认前锋伊布拉欣·萨布拉(Ibrahim Sabra)亦因伤退出23人名单，由穆罕默德·塔哈(Mohammad Taha)顶替入队。两名主力射手同时缺席对约旦进攻端打击显著——上届非洲区预选赛中萨布拉曾是得分重要补充。综合评估:约旦进攻端严重失血，防反体系(三中卫/低位紧压)仍是主要战术依托，但缺乏终结点将进一步压低约旦威胁上限。此前focus判断「奥地利净胜2+不确定性」受约旦防守韧性影响，并非约旦进攻，所以空仓决策不变(HHAD value 0.94<1.10)；但若赔率因此出现大幅迁移需重扫edge。",
+   "enFull": "Sports Mole and RotoWire (June 16): Jordan's second senior striker Ibrahim Sabra has been ruled out of the 2026 FIFA World Cup squad due to injury, replaced by Mohammad Taha. This comes on top of the earlier confirmed absence of talismanic forward Yazan Al-Naimat (ACL, sidelined since December 2025, 8 WC qualifying goals). Jordan now enter Group J without both their first-choice forwards. Tactical context: Jordan's low-block defensive structure (three-CB shape) remains intact, so their defensive resilience is unchanged. However, reduced offensive threat limits Jordan's ability to punish Austria on the counter-attack. Verdict impact: Austria's no-bet stance holds (HHAD value 0.94 still below the ≥1.10 buy threshold); however, monitor if odds shift materially and re-scan edge.",
+   "links": [
+    {"name": "Sports Mole: Austria vs Jordan team news", "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/team-news/austria-vs-jordan-injury-suspension-list-predicted-xis_599179.html"},
+    {"name": "RotoWire: Austria vs Jordan preview", "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"}
+   ]
+  },
+  {
+   "date": "06-17",
    "match": "法国 vs 塞内加尔",
-   "impact": "塞内加尔三球员存疑",
+   "impact": "三球员存疑",
    "tone": "away",
    "text": "迪亚奥(挫伤)、恩迪亚耶(原因不明)、格耶(预防性未完成训练)赛前存疑，但均无大碍；萨迪奥·马内确认首发出战(Sports Mole·Yahoo Sports)",
    "en": "Assane Diao (contusion), Cherif Ndiaye (unexplained absence Sat) and Gueye (didn't complete full session) carry doubts but no major concern; Sadio Mane confirmed fit to start (Sports Mole·Yahoo Sports)",
@@ -743,7 +757,7 @@ window.DASH_DATA = {
   {
    "date": "06-16",
    "match": "伊朗 vs 新西兰",
-   "impact": "热身强势5-0收官",
+   "impact": "热身三连胜",
    "tone": "home",
    "text": "伊朗热身赛强势:击败马里2-0、冈比亚3-1、哥斯达黎加5-0,三场全胜进球10,带着高昂士气进入揭幕战;新西兰热身赛先0-4负海地后1-0负英格兰(RotoWire·Yahoo Sports)",
    "en": "Iran swept warm-ups: beat Mali 2-0, Gambia 3-1, Costa Rica 5-0 (10 goals, 3 wins); NZ lost 0-4 to Haiti, then 1-0 to England in pre-tournament friendlies (RotoWire·Yahoo Sports)",
@@ -823,7 +837,7 @@ window.DASH_DATA = {
   {
    "date": "06-16",
    "match": "沙特 vs 乌拉圭",
-   "impact": "卡塞雷斯比尼亚预测首发",
+   "impact": "卡塞比尼首发",
    "tone": "away",
    "text": "Sports Mole/ESPN最新预测XI:卡塞雷斯与奥利维拉(紧急顶入CB)出任双中卫、比尼亚打左后卫——两人此前均列「存疑」,但多家媒体仍将其排入首发;希门尼斯/阿劳霍/德阿拉斯卡耶塔/皮克雷斯确认缺席。乌拉圭后防线虽重组但并非全线崩溃,沙特tilt幅度较悲观估算略降。(来源:Sports Mole/ESPN)",
    "en": "Sports Mole/ESPN predicted Uruguay XI: Rochet; Varela, Caceres, Olivera (emergency CB), Vina; Valverde, Ugarte, Bentancur; Canobbio, Nunez, M.Araújo — Caceres and Vina both listed as 'doubts' yet still predicted to start; Gimenez/Araujo/De Arrascaeta/Piquerez confirmed out. Defence reshuffled but not fully depleted; Saudi tilt value lower than worst-case scenario. (per Sports Mole / ESPN)",
