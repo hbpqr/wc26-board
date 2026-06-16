@@ -709,6 +709,10 @@ const curRound  = ROUNDS.find(g => g.matches.some(m => m.status !== "finished"))
 const curIdx    = ROUNDS.indexOf(curRound);
 const nextRound = ROUNDS[curIdx + 1] || null;               // 下一比赛日(可能没有)
 const pastRounds = ROUNDS.slice(0, curIdx);                 // 过往(必然全 finished)
+// 下单计划/候选区锚定 = 最早一个"整轮未开打"(无任何 finished/live)的比赛日 = 下一个可下注轮次。
+// 一旦该轮首场开赛(出现 finished 或 live),计划自动滚到再下一轮 —— 永远指向"还没打、还能买"的那一轮,
+// 绝不停留在已开打/已结算的上一轮(对应黄斌 2026-06-16 反馈:下单计划必须随比赛日同步前滚)。
+const betRound = ROUNDS.find(g => g.matches.every(m => m.status !== "finished" && m.phase !== "live")) || curRound;
 
 /* ---------- flags ---------- */
 const FLAG_MAP = {
@@ -1351,7 +1355,7 @@ document.getElementById("slip-banner").innerHTML = isEmpty
 // 候选评估卡:空仓时展示下一轮四场的最佳买点+裁决(可视化"为什么不买");有票时展示下注卡
 document.getElementById("slip-cards").className = "cand-grid";
 document.getElementById("slip-cards").innerHTML = isEmpty
-  ? curRound.matches.map(f => {
+  ? betRound.matches.map(f => {
       const best = (f.wdlValue && f.wdlValue.length) ? f.wdlValue.reduce((a, b) => b.value > a.value ? b : a) : null;
       let vcls, verdict, valStr;
       if (f.status === "finished") { vcls = "vbad"; verdict = `已完赛 ${f.actual || ""}`; valStr = "—"; }
