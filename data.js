@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 09:10",
+  "updated": "2026-06-16 10:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -661,6 +661,19 @@ window.DASH_DATA = {
    "links": [
     {"name": "Sports Mole: Austria vs Jordan predicted lineup", "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted-lineups/will-alaba-start-predicted-austria-lineup-vs-jordan_599177.html"},
     {"name": "ESPN: Austria vs Jordan preview", "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"}
+   ]
+  },
+  {
+   "date": "06-17",
+   "match": "伊拉克 vs 挪威",
+   "impact": "双核确认出战",
+   "tone": "away",
+   "text": "挪威主帅确认哈兰德状态锐利、厄德高(去年10月左膝MCL伤)已于热身赛对阵摩洛哥首发进球,驳斥赛前伤势质疑;挪威全队无出场限制伤员(Flashscore·ESPN)",
+   "en": "Norway coach confirms Haaland sharp and fit; Odegaard (left-knee MCL Oct 2025) dismissed injury concerns after starting/scoring vs Morocco warm-up; Norway report no absences (Flashscore·ESPN)",
+   "full": "挪威主帅索尔巴肯赛前确认：①哈兰德备战状态出色，无伤病顾虑；②厄德高去年10月因左膝内侧副韧带（MCL）损伤缺席多场关键资格赛，此后在热身赛对阵摩洛哥中首发并完成进球，随后向媒体表示膝盖「感觉良好」并驳斥了外界伤势质疑；③截至6月16日，挪威全队无伤病豁免，整体首发阵容完整。伊拉克方面，贾拉勒·哈桑（之前在玻利维亚附加赛缺席）归队，尤素福·阿明与阿里·阿勒哈马迪此前的伤势担忧亦已消除，全队同样健康出征。双方均无重大伤缺，挪威核心双核齐整出战，与市场定价中哈兰德+厄德高领衔的强度一致。",
+   "enFull": "Norway head coach Stale Solbakken confirmed pre-match that both Erling Haaland and Martin Odegaard are fully fit for the World Cup opener vs Iraq. Odegaard suffered a left-knee MCL injury in October 2025, missing key qualifiers, but returned in a warm-up vs Morocco where he started and scored. He told Norwegian media his knee 'felt good' and dismissed pre-match injury concerns. Haaland is described as sharp in training. Norway report no injury absences and expect to field their strongest XI. Iraq welcomed back Jalal Hassan (absent during Bolivia play-off win) with Al-Hamadi and Amyn also available — full squad confirmed. No major absences on either side; Norway's star duo intact, consistent with their heavy market-favorite status.",
+   "links": [
+    {"name": "Flashscore: Odegaard dismisses injury concerns", "url": "https://www.flashscore.com/news/captain-martin-odegaard-shrugs-off-injury-concerns-as-norway-prepare-for-iraq-opener/hI9Ao5rm/"}
    ]
   },
   {
