@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 10:52",
+  "updated": "2026-06-16 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -404,7 +404,8 @@ window.DASH_DATA = {
    "home": "伊朗",
    "away": "新西兰",
    "time": "06-16 09:00",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "2:2",
    "predManual": "未出票",
    "predModel": "主胜58.5%",
    "ensemble": {
@@ -412,7 +413,7 @@ window.DASH_DATA = {
     "d": 25.3,
     "a": 16.2
    },
-   "note": "伊朗vs新西兰(09:00)待开赛。集成58.5%看伊朗主胜。按纪律全盘口value均<1.10(HAD主胜0.91/让球-1让胜0.97),情报反向(联赛停摆3月体能断档+切什米缺),无票空仓。"
+   "note": "终场：伊朗 2:2 新西兰。模型看伊朗主胜58.5%落空，平局。无票，影子book已记样本。Brier ens=0.926，RPS ens=0.184。"
   }
  ],
  "holdings": {
