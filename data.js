@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 20:10",
+  "updated": "2026-06-16 20:32",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -456,9 +456,9 @@ window.DASH_DATA = {
    "time": "06-17 03:00",
    "models": {
     "A": [
-     67.6,
-     20.9,
-     11.5
+     67.0,
+     21.1,
+     11.9
     ],
     "B": [
      77.3,
@@ -466,38 +466,38 @@ window.DASH_DATA = {
      6.1
     ],
     "C": [
-     68.6,
-     20.9,
-     10.5
+     68.7,
+     20.5,
+     10.8
     ],
     "ens": [
-     68.6,
-     20.5,
-     10.9
+     68.1,
+     20.6,
+     11.3
     ]
    },
    "wdlValue": [
     {
      "pick": "主胜",
-     "odds": 1.31,
-     "prob": 68.6,
+     "odds": 1.32,
+     "prob": 68.1,
      "value": 0.9
     },
     {
      "pick": "平局",
-     "odds": 4.23,
-     "prob": 20.5,
+     "odds": 4.20,
+     "prob": 20.6,
      "value": 0.87
     },
     {
      "pick": "客胜",
-     "odds": 7.7,
-     "prob": 10.9,
+     "odds": 7.45,
+     "prob": 11.3,
      "value": 0.84
     }
    ],
    "scores": [],
-   "verdict": "★四场最接近之一但空仓(法国-1让胜0.94/edge+2.6pp)。情报核破:『姆巴佩带伤首发』是伪信息差(4月腘绳肌已痊愈、零伤停标注);而塞内加尔刚夺2026非洲杯、预选10场仅丢3球、防线坚如磐石→『法国轻松净胜2』被模型高估,典型镜像陷阱,信市场不信模型。空仓。"
+   "verdict": "空仓(法国-1让胜value0.93/edge+2.2pp,低于≥1.10闸)。终盘情报更新:Ismaila Sarr(马赛右翼)Sports Mole确认缺席+Sabaly/Jakobs同列不可用——但Sarr缺席对法国胜率贡献有限(68%→~73%,value0.90→0.96),仍远不及1.10闸。姆巴佩无伤、萨利巴背伤已愈确认首发。空仓。"
   },
   {
    "num": "周二018",
@@ -533,44 +533,44 @@ window.DASH_DATA = {
    "time": "06-17 09:00",
    "models": {
     "A": [
-     70.3,
-     20.1,
-     9.6
+     69.7,
+     20.4,
+     9.8
     ],
     "B": [],
     "C": [
-     71.7,
+     71.6,
      19.7,
-     8.6
+     8.8
     ],
     "ens": [
-     70.4,
-     20.1,
-     9.5
+     69.7,
+     20.4,
+     9.9
     ]
    },
    "wdlValue": [
     {
      "pick": "主胜",
-     "odds": 1.26,
-     "prob": 70.4,
+     "odds": 1.27,
+     "prob": 69.7,
      "value": 0.89
     },
     {
      "pick": "平局",
-     "odds": 4.4,
-     "prob": 20.1,
+     "odds": 4.33,
+     "prob": 20.4,
      "value": 0.88
     },
     {
      "pick": "客胜",
-     "odds": 9.2,
-     "prob": 9.5,
-     "value": 0.88
+     "odds": 9.00,
+     "prob": 9.9,
+     "value": 0.89
     }
    ],
    "scores": [],
-   "verdict": "情报反指(阿根廷-1让胜0.90/edge+1.4pp)。挖到真软信号但方向对出手不利:Scaloni明确『管理梅西出场时间』+演练5后卫收缩→阿根廷无追大胜动机;本塞巴尼伤缺是公开旧闻、市场已price-in。空仓。"
+   "verdict": "情报反指(阿根廷-1让胜value0.97/edge+4.0pp,最接近门槛但仍<1.10)。终盘确认:梅西ESPN双源证实完全康复首发(与早间'分钟管理'担忧对比为明确升级);Scaloni演练5后卫软信号方向仍利空热门大胜动机;Bensebaini伤缺公开已price-in。无独家信息差,空仓。"
   },
   {
    "num": "周二020",
@@ -579,9 +579,9 @@ window.DASH_DATA = {
    "time": "06-17 12:00",
    "models": {
     "A": [
-     73.2,
-     17.2,
-     9.6
+     70.2,
+     19.0,
+     10.7
     ],
     "B": [
      81.5,
@@ -589,38 +589,43 @@ window.DASH_DATA = {
      3.9
     ],
     "C": [
-     74.2,
-     17.0,
-     8.7
+     72.2,
+     18.3,
+     9.6
+    ],
+    "D": [
+     71.9,
+     18.0,
+     10.1
     ],
     "ens": [
-     74.1,
-     16.9,
-     9.0
+     71.6,
+     18.5,
+     10.0
     ]
    },
    "wdlValue": [
     {
      "pick": "主胜",
-     "odds": 1.21,
-     "prob": 74.1,
+     "odds": 1.26,
+     "prob": 71.6,
      "value": 0.9
     },
     {
      "pick": "平局",
-     "odds": 5.15,
-     "prob": 16.9,
-     "value": 0.87
+     "odds": 4.65,
+     "prob": 18.5,
+     "value": 0.86
     },
     {
      "pick": "客胜",
-     "odds": 9.2,
-     "prob": 9.0,
-     "value": 0.83
+     "odds": 8.25,
+     "prob": 10.0,
+     "value": 0.82
     }
    ],
    "scores": [],
-   "verdict": "★四场最接近(奥地利-1让胜0.94/edge+3.3pp)但仍未过闸。约旦头号射手Alnemat十字韧带赛季报销(利好但公开已price-in);约旦亚洲杯亚军+三中卫防守纪律→『净胜2+』非高确定性。无独家信息差,空仓。"
+   "verdict": "空仓(终盘奥地利赔率从1.21→1.26,HHAD让胜value0.91/edge+1.2pp,均低于≥1.10闸)。约旦双锋Naimat+Sabra均缺席(两源确认)但已price-in;三中卫低块防守韧性完好→净胜2+仍非高确定性事件。Baumgartner因大腿伤缺席奥地利。无独家信息差,空仓。"
   }
  ],
  "news": [
@@ -655,10 +660,10 @@ window.DASH_DATA = {
   {
    "date": "06-17",
    "match": "法国 vs 塞内加尔",
-   "impact": "三球员存疑",
+   "impact": "萨尔/萨巴利确认缺席+3人存疑",
    "tone": "away",
-   "text": "迪亚奥(挫伤)、恩迪亚耶(原因不明)、格耶(预防性未完成训练)赛前存疑，但均无大碍；萨迪奥·马内确认首发出战(Sports Mole·Yahoo Sports)",
-   "en": "Assane Diao (contusion), Cherif Ndiaye (unexplained absence Sat) and Gueye (didn't complete full session) carry doubts but no major concern; Sadio Mane confirmed fit to start (Sports Mole·Yahoo Sports)",
+   "text": "终盘更新:伊斯玛拉·萨尔(马赛右翼)、萨巴利、雅各布斯Sports Mole确认缺席;迪亚奥/恩迪亚耶/格耶存疑;马内首发。量化:法国胜率68%→~73%,value=0.96,仍低于≥1.10闸,空仓不变(Sports Mole·ESPN)",
+   "en": "Final check: Ismaila Sarr (Marseille RW), Sabaly, Jakobs confirmed unavailable per Sports Mole; Diao/Ndiaye/Gueye doubtful; Mane starts. Quantified: France win prob 68%→~73%, value 0.96 vs 1.10 threshold — no-bet unchanged (Sports Mole·ESPN)",
    "full": "Sports Mole与Yahoo Sports赛前最新(06-16):塞内加尔队内出现三个小伤情担忧:①阿桑·迪亚奥因挫伤本周缺席训练;②谢里夫·恩迪亚耶周六无故缺席完整训练,原因不明;③老将伊德里萨·格耶(埃弗顿)未完成周六完整训练课,属预防性措施。但塞内加尔队工作人员表示三人均无大碍,不影响参赛。核心球星萨迪奥·马内(未来俱乐部)确认百分百状态，将首发出战。综合评估:伤情总体轻微，对法国-塞内加尔集成预测(主67%/平21%/客12%)无显著影响，纪律空仓(HAD value全低于1.10)不变。⚠️ 三人出场状态请于开球前60分钟查阅官方XI确认。",
    "enFull": "Sports Mole and Yahoo Sports (June 16): Senegal have three minor fitness concerns ahead of their Group I opener vs France. ① Assane Diao missed training earlier this week due to a contusion; ② Cherif Ndiaye was absent from Saturday's session for unexplained reasons; ③ veteran Idrissa Gueye (Everton) did not complete the full training session as a precautionary measure. However, the Senegal coaching staff confirmed no major concern over any of the trio. Star forward Sadio Mane (Future FC) is fully fit and confirmed to start. Assessment: these are minor bumps that do not materially alter the match-probability outlook (France 67%/Draw 21%/Senegal 12%). HAD values remain below the ≥1.10 buy threshold — no-bet unchanged. ⚠️ Check official lineups 60 minutes before kick-off to confirm all three players' status.",
    "links": [
@@ -1124,7 +1129,7 @@ window.DASH_DATA = {
   },
   "matrix": [],
   "copyText": "周二(6/17)不下注,谢谢!(影子book已记四场预测,赛后免费校准)",
-  "reviewNote": "三视角压力测试裁决:真钱0元。学习≠下注(校准样本不含'钱'变量),昨晚3注EV-1.74买0增量bit=删。赚钱引擎签工单合法空仓(四场-EV、无硬信息差)+影子book记满全盘口预测。空仓≠退化(样本数在涨)。"
+  "reviewNote": "✓ 已独立复核 20:42 ｜ 草稿合规,无删改 · 空仓版本(items=[]) · 四场全覆盖(017-020):HAD value全在0.82-0.93区间,均<1.10;挪威场胜平负未开盘§6深让镜像=空仓。§13.5合法空仓三条齐签:(a)全盘口扫完edge全<安全边际(b)五路情报交叉无硬信息差(c)影子book已记满四场全盘口预测。放行。"
  },
  "calibration": {
   "stats": {
