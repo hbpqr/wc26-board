@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 03:10",
+  "updated": "2026-06-17 04:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -629,6 +629,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-17",
+   "match": "伊拉克 vs 挪威",
+   "impact": "拉森因伤缺席",
+   "tone": "away",
+   "text": "挪威中锋约根·斯特兰德·拉森确认因伤缺席对阵伊拉克;伊拉克主帅阿诺德确认26人全员可用无伤缺(Sports Mole·Goal)",
+   "en": "Norway striker Jørgen Strand Larsen ruled out injured vs Iraq; Iraq coach Graham Arnold confirms full 26-man squad available, no injury concerns (Sports Mole/Goal)",
+   "full": "Sports Mole与Goal赛前情报均确认:挪威前锋约根·斯特兰德·拉森(赫罗纳)因伤缺席本场,是挪威阵容中唯一确认缺席球员。哈兰德与厄德高已提前确认健康首发,斯特兰德·拉森的缺席不影响挪威核心双星组合。伊拉克方面,主帅格雷厄姆·阿诺德(前澳大利亚主帅)确认26人全员无伤缺,场地状态良好。从影子book角度:拉森缺席略降低挪威进攻深度,但哈兰德+厄德高双核健康使影响边际化;伊拉克防反策略(Arnold铁桶阵)仍是核心变量。⚠️ 现有分析已将挪威算作全员可用,拉森缺席微调偏向伊拉克,但幅度有限(拉森非首发主力)。",
+   "enFull": "Sports Mole's Iraq vs Norway injury/suspension article and Goal's match preview confirm: Jørgen Strand Larsen (Girona, Norway striker) is ruled out of the match through injury — the only confirmed Norway absentee. Haaland and Ødegaard are both confirmed fit and available. For Iraq, coach Graham Arnold (former Australia national team manager) states the full 26-man roster is available with no injury concerns. Shadow-book impact: Larsen's absence marginally reduces Norway's attacking depth, but Haaland–Ødegaard dual core remains intact, keeping the net effect small. Iraq's defensive counter-attacking setup (Arnold's organized low block) remains the primary tactical variable. ⚠️ Existing model treated Norway as fully available; Larsen out provides a slight micro-tilt toward Iraq, but given Larsen's squad role (rotation rather than guaranteed starter), magnitude is limited.",
+   "links": [
+    {"name": "Sports Mole: Iraq vs Norway team news", "url": "https://www.sportsmole.co.uk/football/iraq/world-cup-2026/team-news/iraq-vs-norway-injury-suspension-list-predicted-xis_599240.html"},
+    {"name": "Goal: Iraq vs Norway World Cup preview", "url": "https://www.goal.com/en/news/iraq-norway-world-cup-preview/blt35615d31b35c17b2"}
+   ]
+  },
   {
    "date": "06-17",
    "match": "法国 vs 塞内加尔",
