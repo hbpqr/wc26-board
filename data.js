@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-16 20:32",
+  "updated": "2026-06-16 21:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -629,6 +629,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-16",
+   "match": "阿根廷 vs 阿尔及利",
+   "impact": "塔利亚菲科缺席",
+   "tone": "away",
+   "text": "阿根廷主力左后卫塔利亚菲科确认比目鱼肌撕裂,缺席对阵阿尔及利及第二场奥地利,梅迪纳补位首发(Mundo Albiceleste·OneFootball 06-11确认)",
+   "en": "Argentina LB Nicolás Tagliafico ruled out vs Algeria and Austria (soleus tear); Facundo Medina to start at left back (Mundo Albiceleste/OneFootball confirmed)",
+   "full": "Mundo Albiceleste(06-11)与OneFootball多篇报道确认:阿根廷主力左后卫尼古拉斯·塔利亚菲科(Lyon)在赛前约一周确诊比目鱼肌撕裂,医疗检测确认缺席阿尔及利及第二场奥地利。斯卡洛尼决定保留其在26人名单内(他是最有经验的左后卫,等待赛后恢复期望淘汰赛回归)。补位:法昆多·梅迪纳(RC朗斯)预计出发首发——攻守能力均弱于塔利亚菲科。影响评估:阿根廷防守端有一定削弱,但阿尔及利进攻亦残缺(本塞巴尼缺席),净影响有限。价值判断不变:集成概率约88%,HHAD value≈0.97<1.10安全边际——仍空仓。⚠️ 如塔利亚菲科赛前突然伤愈复出需重扫。",
+   "enFull": "Mundo Albiceleste (June 11) and OneFootball (June 11-16) confirmed: Argentina first-choice left back Nicolás Tagliafico sustained a soleus muscle tear roughly one week before the tournament, ruling him out for matches vs Algeria (Group J opener) and Austria (Match 2). Scaloni retains Tagliafico on the 26-man roster — he is Argentina's most experienced LB, with hopes of a recovery race for the knockout stages. Replacement: Facundo Medina (RC Lens) to start at left back — a more defensive-minded option with lower attacking output. Impact: Argentina's defensive vulnerability is slightly elevated, but Algeria are also depleted (Bensebaini absent) and lack elite attacking depth. Net effect is limited. ⚠️ Value unchanged: Argentina integrated probability ~88%, HHAD value ≈0.97 — below the ≥1.10 buy threshold. No-bet stance holds. Monitor for last-minute Tagliafico recovery.",
+   "links": [
+    {"name": "Mundo Albiceleste: Tagliafico to miss two World Cup matches", "url": "https://mundoalbiceleste.com/2026/06/11/nicolas-tagliafico-set-to-miss-two-matches-for-argentina-national-team-at-world-cup/"},
+    {"name": "OneFootball: Why Tagliafico stays in squad despite injury", "url": "https://onefootball.com/es/noticias/why-nicolas-tagliafico-stays-in-the-world-cup-squad-despite-injury-43004515"}
+   ]
+  },
   {
    "date": "06-16",
    "match": "阿根廷 vs 阿尔及利",
