@@ -1351,14 +1351,15 @@ document.getElementById("slip-banner").innerHTML = isEmpty
 // 候选评估卡:空仓时展示下一轮四场的最佳买点+裁决(可视化"为什么不买");有票时展示下注卡
 document.getElementById("slip-cards").className = "cand-grid";
 document.getElementById("slip-cards").innerHTML = isEmpty
-  ? D.focus.map(f => {
+  ? curRound.matches.map(f => {
       const best = (f.wdlValue && f.wdlValue.length) ? f.wdlValue.reduce((a, b) => b.value > a.value ? b : a) : null;
       let vcls, verdict, valStr;
-      if (f.presale || !best) { vcls = "vbad"; verdict = "竞彩未开盘"; valStr = "—"; }
+      if (f.status === "finished") { vcls = "vbad"; verdict = `已完赛 ${f.actual || ""}`; valStr = "—"; }
+      else if (!best) { vcls = "vbad"; verdict = "竞彩未开盘"; valStr = "—"; }
       else if (best.value >= 1.10) { vcls = "vgood"; verdict = `✓ 可买 @${best.odds}`; valStr = best.value.toFixed(2); }
       else { vcls = "vbad"; verdict = "✗ 贴水跳过"; valStr = best.value.toFixed(2); }
       return `<div class="cand-card">
-        <div class="cc-teams">${flag(f.home, "flag-sm")} ${f.home} <span style="color:var(--faint);font-weight:400">vs</span> ${f.away}</div>
+        <div class="cc-teams">${flag(f.home, "flag-sm")} ${f.home} <span style="color:var(--faint);font-weight:400">${f.actual || "vs"}</span> ${f.away}</div>
         <div class="cc-row"><span>最佳:${best ? best.pick : "—"}</span><span class="cc-val ${vcls}">价值 ${valStr}</span></div>
         <div class="cc-verdict ${vcls}">${verdict}</div></div>`;
     }).join("")
