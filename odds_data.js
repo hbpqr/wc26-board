@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-16 21:10:05",
+ "fetched_at": "2026-06-16 22:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -174,8 +174,8 @@ window.ODDS_DATA = {
     "updated": "2026-06-16 19:34:53"
    },
    "hhad": {
-    "h": "1.82",
-    "d": "3.80",
+    "h": "1.80",
+    "d": "3.88",
     "a": "3.16",
     "line": "-1",
     "tier": "shallow",
@@ -186,14 +186,14 @@ window.ODDS_DATA = {
      0.27
     ],
     "mkt": [
-     0.487,
-     0.233,
+     0.492,
+     0.228,
      0.28
     ],
-    "val_top": 0.91,
-    "edge_top": 0.011,
+    "val_top": 0.9,
+    "edge_top": 0.004,
     "mirage": false,
-    "top_label": "让胜",
+    "top_label": "让平",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
