@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 15:30",
+  "updated": "2026-06-17 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -714,6 +714,34 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-18",
+   "match": "加纳 vs 巴拿马",
+   "impact": "双核缺阵",
+   "tone": "away",
+   "text": "加纳帕泰(签证/英国司法案件)确认缺席本届世界杯;库杜斯(伤病)亦缺;队长约旦·阿耶乌领衔锋线,努阿马+塞梅尼约搭档(Sports Mole·Goal)",
+   "en": "Ghana lose Thomas Partey (visa/UK legal case) and Mohammed Kudus (injury) for the WC; captain Jordan Ayew to lead attack alongside Nuamah and Semenyo (Sports Mole·Goal)",
+   "full": "Sports Mole与Goal赛前最新双源确认:加纳中场核心托马斯·帕泰因英国未决司法案件签证问题确认缺席本届世界杯;另一核心球星穆罕默德·库杜斯(埃弗顿)因伤亦缺。两人是加纳中前场最重要的两块拼图——帕泰是中场组织核心,库杜斯是最具突破能力的攻击手。应急阵容:队长约旦·阿耶乌将领衔锋线,与欧内斯特·努阿马及安托万·塞梅尼约搭档。巴拿马方面:卡拉斯基利亚、戈多伊与门将梅希亚-卡哈尔均列存疑,但三人均已在训练中亮相,卡拉斯基利亚或以替补形式出场。综合:加纳双核缺阵使双方实力对比较赛前预期更加接近,竞彩HAD主胜2.07/平3.00/客3.20,边际偏向巴拿马;需主会话重扫edge。",
+   "enFull": "Sports Mole and Goal.com both confirm: Thomas Partey is ruled out of the 2026 World Cup due to visa complications from an ongoing legal case in the UK; Mohammed Kudus (Everton) is also absent with injury. Together they represent Ghana's two most influential players. Captain Jordan Ayew leads the attack flanked by Ernest Nuamah and Antoine Semenyo. For Panama: Adalberto Carrasquilla, Anibal Godoy, and goalkeeper Luis Mejia Cajar are all doubts but were spotted in training; Carrasquilla could feature as a sub. Assessment: Ghana's dual absences substantially level the playing field; HAD odds (Ghana 2.07/Draw 3.00/Panama 3.20) now reflect a near-even contest — main session should re-scan edge.",
+   "links": [
+    {"name": "Sports Mole: Ghana vs Panama team news", "url": "https://www.sportsmole.co.uk/football/ghana/injury-news/team-news/ghana-vs-panama-injury-suspension-list-predicted-xis_599289.html"},
+    {"name": "Goal.com: Ghana vs Panama World Cup preview", "url": "https://www.goal.com/en-us/news/ghana-panama-world-cup-preview/bltc57f7610ee6813ff"}
+   ]
+  },
+  {
+   "date": "06-18",
+   "match": "乌兹别克 vs 哥伦比亚",
+   "impact": "乌兹双主力缺",
+   "tone": "away",
+   "text": "乌兹别克马沙里波夫(背伤)与阿利库洛夫(膝手术)确认缺席;阿利乔诺夫(小腿)受监控;哥伦比亚全员无伤——豪梅/迪亚斯/阿里亚斯/苏亚雷斯全主力(Sports Mole·RotoWire)",
+   "en": "Uzbekistan lose Masharipov (back) and Aliqulov (knee surgery) confirmed out; Alijonov (calf) monitored; Colombia at full strength — James, Diaz, Arias, Suarez all fit (Sports Mole·RotoWire)",
+   "full": "Sports Mole与RotoWire双源赛前确认:乌兹别克中场马沙里波夫因顽固背伤缺席热身赛,正式退出世界杯名单;防守球员阿利库洛夫膝关节手术完全出局;后卫阿利乔诺夫(小腿)与中场加尼耶夫(轻伤)受监控。哥伦比亚对比鲜明:全员无伤,豪梅·罗德里格斯、路易斯·迪亚斯、霍恩·阿里亚斯、路易斯·苏亚雷斯全主力首发无虞。价值判断:乌兹别克多人伤缺加剧本就悬殊的实力差距,竞彩HAD 9.65:4.85:1.22,让球+1 value=0.93<1.10,空仓候选,主会话可确认是否有隐蔽edge。",
+   "enFull": "Sports Mole and RotoWire confirm: Uzbekistan midfielder Jaloliddin Masharipov ruled out (back injury, missed warm-up friendlies; replaced by Jiyanov). Husniddin Aliqulov also out (knee surgery). Khojiakbar Alijonov (calf) and Aziz Ganiev (minor knock) both monitored. Colombia enter at full strength: James Rodriguez (captain), Luis Diaz, Jhon Arias, and Luis Suarez all fully fit. Assessment: Uzbekistan's injury situation worsens an already lopsided matchup; HHAD (+1) value 0.93 below the ≥1.10 buy threshold — main session should confirm no hidden edge.",
+   "links": [
+    {"name": "Sports Mole: Uzbekistan vs Colombia team news", "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/team-news/uzbekistan-vs-colombia-injury-suspension-list-predicted-xis_599305.html"},
+    {"name": "RotoWire: Uzbekistan vs Colombia preview", "url": "https://www.rotowire.com/soccer/article/uzbekistan-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118365"}
+   ]
+  },
   {
    "date": "06-18",
    "match": "英格兰 vs 克罗地亚",
