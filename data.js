@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 16:10",
+  "updated": "2026-06-17 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -714,6 +714,21 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-18",
+   "match": "葡萄牙 vs 刚果金",
+   "impact": "迪亚斯缺阵",
+   "tone": "away",
+   "text": "葡萄牙中卫迪亚斯(曼城)因热身赛伤未愈确认缺席周三揭幕战;马丁内斯:'未完全康复,不冒险';因纳西奥(体育CP)顶替搭档席尔瓦出任CB组合(Yahoo Sports·Athlonsports·OneFootball)",
+   "en": "Portugal CB Ruben Dias (Man City) confirmed OUT for Wednesday opener vs DR Congo — coach Martinez: 'not fully fit, won't take any risks'; Goncalo Inacio (Sporting CP) to partner Antonio Silva at CB (Yahoo Sports/Athlonsports/OneFootball)",
+   "full": "Yahoo Sports、Athlonsports与OneFootball 06-17多源确认:葡萄牙主力中卫鲁本·迪亚斯(曼城)因热身赛碰撞伤未能完全康复,正式缺席周三(北京时间06-18 01:00)对阵刚果金的世界杯揭幕战。主帅马丁内斯表示:'他尚未完全康复,我们不会冒任何风险。'替补:贡萨洛·因纳西奥(体育CP,21岁)搭档安东尼奥·席尔瓦出任CB。⚠️此前新闻条目提及迪亚斯'热身赛完全复出'已被最新确认推翻——以本条为准。迪亚斯缺阵对葡萄牙防守质量有一定影响,但刚果金进攻端有限(维萨领衔),葡萄牙仍是大热门;HAD/HHAD value需主会话重扫。",
+   "enFull": "Multiple sources (Yahoo Sports, Athlonsports, OneFootball, AOL Sports — all June 17) confirm: Rúben Dias (Man City) is ruled out of Portugal's 2026 World Cup opener vs DR Congo after failing to recover from a knock in a warm-up fixture. Manager Roberto Martínez stated: 'He's not fully fit and we won't take any risks.' Replacement: Gonçalo Inácio (Sporting CP, 21) set to partner António Silva at CB. Inácio is technically gifted but carries significantly less major-tournament experience. ⚠️ Previous news entry stated Dias had 'fully recovered in warm-up matches' — this is superseded by the confirmed absence. Meaningfully downgrade to Portugal's defensive unit. Portugal remain heavy favorites vs DR Congo; main session should re-scan HAD/HHAD value to confirm no threshold breach from Dias absence.",
+   "links": [
+    {"name": "Yahoo Sports: Ruben Dias ruled out vs DR Congo", "url": "https://sports.yahoo.com/articles/ruben-dias-injured-miss-portugals-010340402.html"},
+    {"name": "Athlonsports: Portugal dealt major blow", "url": "https://athlonsports.com/soccer/portugal-ruben-dias-out-injury-dr-congo-world-cup"},
+    {"name": "OneFootball: Ruben Dias injury concern", "url": "https://onefootball.com/en/news/ruben-dias-sparks-portugal-injury-concern-ahead-of-fifa-world-cup-opener-against-dr-congo-43019674"}
+   ]
+  },
   {
    "date": "06-18",
    "match": "加纳 vs 巴拿马",
