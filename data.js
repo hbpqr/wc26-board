@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 19:10",
+  "updated": "2026-06-17 20:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -714,6 +714,20 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-18",
+   "match": "英格兰 vs 克罗地亚",
+   "impact": "穆萨领衔首发",
+   "tone": "away",
+   "text": "克罗地亚达利奇倾向起用达拉斯FC锋将穆萨(2026赛季13场12球)取代老将布迪米尔(34岁)首发,穆萨更具速度与冲击力(CBS Sports·Sky Sports)",
+   "en": "Croatia coach Dalic set to prefer in-form Petar Musa (FC Dallas, 12 goals in 13 MLS 2026 games) over veteran Ante Budimir (34) as starting striker vs England (CBS Sports/Sky Sports)",
+   "full": "CBS Sports与Sky Sports赛前报道均指出:克罗地亚主帅达利奇倾向在英格兰揭幕战中起用年轻前锋彼塔尔·穆萨(FC达拉斯)而非老将安特·布迪米尔(34岁)担任首发中锋。穆萨在2026年MLS赛季13场轰入12球、状态极佳,且身处主场城市达拉斯具备本土氛围加成。布迪米尔虽经验丰富,但年龄与速度上处于下风,历史上更多以替补出场。达利奇的这一战术选择为克罗地亚前线注入冲击力与不确定性,但也带来MLS vs 顶级国际赛事的适应性风险。⚠️ 本信息为赛前预测,达利奇最终选择须候开球前官方首发XI确认。英格兰HAD仍为大热门,此变化不改变当前无合格value盘口的判断。",
+   "enFull": "CBS Sports and Sky Sports both report ahead of the England vs Croatia opener (Wednesday 04:00 BJT) that Croatia head coach Zlatko Dalic is leaning toward starting FC Dallas striker Petar Musa rather than veteran Ante Budimir (34) as the number nine. Musa is in exceptional form — 12 goals in 13 MLS appearances in 2026 — and the match takes place in Musa's home city of Arlington, Texas, adding a potential psychological edge. Budimir, while experienced, has historically been a second-half impact substitute at international level. Tactically, Musa offers greater pace on the shoulder of the last defender; however, Budimir brings more big-game experience and aerial presence. ⚠️ This is pre-match reporting — official XI confirmation needed at kick-off minus 60 minutes. England remain clear favorites (HAD ~42% implied win); no qualifying value bet identified.",
+   "links": [
+    {"name": "CBS Sports: England vs Croatia World Cup preview", "url": "https://www.cbssports.com/soccer/news/england-croatia-world-cup-2026-preview-predictions-watch/"},
+    {"name": "Sky Sports: World Cup 2026 Group L guide", "url": "https://www.skysports.com/football/news/12098/13543108/world-cup-2026-group-l-guide-fixtures-schedule-standings-and-odds-for-england-croatia-ghana-and-panama"}
+   ]
+  },
   {
    "date": "06-18",
    "match": "葡萄牙 vs 刚果金",
