@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 08:10",
+  "updated": "2026-06-17 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -706,6 +706,50 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-18",
+   "match": "英格兰 vs 克罗地亚",
+   "impact": "利夫拉门托缺席WC",
+   "tone": "away",
+   "text": "英格兰右后卫利夫拉门托(纽卡斯尔)赛前训练撕裂小腿,确认缺席整届世界杯;查洛巴斯(切尔西)紧急补召,赖斯/萨卡接受评估但预计出战(Goal·Sports Mole·RotoWire)",
+   "en": "England RB Tino Livramento (Newcastle) tears calf in training eve of Croatia clash, ruled out of tournament; Trevoh Chalobah (Chelsea) called up as replacement; Rice/Saka assessed but expected to play (Goal/Sports Mole/RotoWire)",
+   "full": "Goal.com与Sports Mole双方赛前确认:英格兰右后卫蒂诺·利夫拉门托(纽卡斯尔)在克罗地亚揭幕战前一天训练中撕裂小腿肌肉,已确认退出整届2026世界杯。图赫尔主帅紧急召入切尔西中卫特雷沃·查洛巴斯顶替其27人名额。此外,德克兰·赖斯与布卡约·萨卡均已接受英格兰医疗团队评估,但两人均预计不会受到实质威胁,预计正常出战周三(当地周二)克罗地亚一役。英格兰右路防线配置将因此调整,可能由里斯·詹姆斯改任右后卫,防线整体覆盖能力略降。克罗地亚坐拥莫德里奇/科瓦契奇/佩里西奇全员可用,右路突击机会或有所上升。⚠️ 利夫拉门托缺席属赛前临时变化,对英格兰右路防守有边际负面影响。",
+   "enFull": "Goal.com and Sports Mole both confirm: England right-back Tino Livramento (Newcastle United) has been ruled out of the entire 2026 World Cup after suffering a calf injury in training on the eve of England's opener against Croatia. Thomas Tuchel has called up Trevoh Chalobah (Chelsea) as his replacement in the 27-man squad. Additionally, Declan Rice and Bukayo Saka are being assessed by the England medical team, but neither's availability for the Wednesday clash is believed to be under threat — both are expected to start. England's right-flank defensive cover is now reduced; Reece James is likely to be shifted to right-back. Croatia arrive with full availability including Modric, Kovacic, and Perisic — they may target England's adjusted right channel. ⚠️ This is a last-minute personnel change with marginal negative impact on England's right-side defense; Croatia's value vs England remains under the ≥1.10 threshold based on current HAD pricing.",
+   "links": [
+    {"name": "Goal: England star ruled out of 2026 World Cup", "url": "https://www.goal.com/en-us/lists/england-star-ruled-out-of-2026-world-cup-on-eve-of-croatia-opener-in-huge-injury-blow-for-thomas-tuchel/blt21765740b9f469bb"},
+    {"name": "Sports Mole: England vs Croatia injury suspension list", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-saka-latest-england-vs-croatia-injury-suspension-list-and-return-dates_599165.html"},
+    {"name": "RotoWire: England vs Croatia preview", "url": "https://www.rotowire.com/soccer/article/england-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-l-118361"}
+   ]
+  },
+  {
+   "date": "06-18",
+   "match": "葡萄牙 vs 刚果金",
+   "impact": "莱昂红牌不禁赛",
+   "tone": "home",
+   "text": "葡萄牙莱昂(AC米兰)在热身赛对智利中领红,但FIFA规定友谊赛红牌不转世界杯正赛——确认可首发出战(Athlonsports·Yahoo Sports·SundayGuardian)",
+   "en": "Portugal winger Leao (AC Milan) received red card in Chile friendly, but FIFA rules confirm no carryover to World Cup — Leao cleared for DR Congo opener (Athlonsports/Yahoo Sports/SundayGuardian)",
+   "full": "Athlonsports、Yahoo Sports与Sunday Guardian Live三方均确认:葡萄牙边锋拉斐尔·莱昂(AC米兰)在6月6日世界杯热身赛对阵智利时以暴力行为被直接红牌罚出,但根据FIFA纪律守则第69条,友谊赛中积累的停赛不转入世界杯正式赛事——莱昂确认可上场出战周三(北京时间01:00)对阵刚果金的揭幕战。葡萄牙首发阵容预计为:科斯塔GK、坎塞洛-R·迪亚斯-阿劳霍-N·门德斯四后卫、若昂·内维斯-维蒂尼亚中轴、B·费尔南德斯-B·席尔瓦-若昂·菲利克斯攻线,C罗锋线牵引。鲁本·迪亚斯虽赛季末腿筋伤停,但已在热身赛中完全复出。⚠️ 莱昂此前疑似出战风险已消除,葡萄牙进攻端火力全开;刚果金防守资源相当有限,葡萄牙依然是重量级大热门。",
+   "enFull": "Athlonsports, Yahoo Sports, and Sunday Guardian Live all confirm: Rafael Leao (AC Milan) was shown a straight red card for violent conduct in Portugal's World Cup warm-up friendly against Chile on June 6. However, under FIFA Disciplinary Code Article 69, suspensions from exhibition/friendly matches do not carry over into official World Cup competition — Leao is cleared to play in Portugal's tournament opener vs DR Congo (Wednesday, 01:00 BJT). Portugal's predicted XI includes Diogo Costa; Cancelo, Araujo, Ruben Dias, Nuno Mendes; Joao Neves, Vitinha; Bruno Fernandes, Bernardo Silva, Joao Felix; Cristiano Ronaldo. Ruben Dias returned from a late-season hamstring injury in pre-tournament friendlies and is fully fit. ⚠️ The earlier Leao red card suspension risk has been eliminated — Portugal attack is at full strength; DR Congo's defensive resources are limited in this mismatch.",
+   "links": [
+    {"name": "Athlonsports: Leao red card Portugal World Cup", "url": "https://athlonsports.com/soccer/will-rafael-leao-miss-portugal-world-cup-opening-game-red-card"},
+    {"name": "Yahoo Sports: Leao red card Portugal", "url": "https://sports.yahoo.com/articles/rafael-leao-miss-portugals-world-190050498.html"},
+    {"name": "SundayGuardian: Leao suspension rules explained", "url": "https://sundayguardianlive.com/sports/will-rafael-leao-miss-fifa-world-cup-2026-matches-after-punching-chiles-ivan-roman-fifa-suspension-rules-explained-202870/"}
+   ]
+  },
+  {
+   "date": "06-18",
+   "match": "英格兰 vs 克罗地亚",
+   "impact": "赖斯萨卡无碍",
+   "tone": "home",
+   "text": "英格兰赖斯(兵工厂)与萨卡(兵工厂)均接受医疗团队评估,但出战状态预计不受威胁;克罗地亚卡莱塔-卡尔恢复训练、全员可用(Sports Mole·ESPN)",
+   "en": "England's Declan Rice and Bukayo Saka assessed by medical staff but both expected to play vs Croatia; Croatia's Caleta-Car back in training, full squad available including Modric and Perisic (Sports Mole/ESPN)",
+   "full": "Sports Mole伤停汇总与ESPN预测首发XI均确认:德克兰·赖斯与布卡约·萨卡虽处于评估状态但预计正常出战克罗地亚。克罗地亚方面,此前两场热身赛缺席的中卫杜耶·卡莱塔-卡尔已恢复全量训练并有望入队,莫德里奇、科瓦契奇与佩里西奇全员可用。英格兰核心双星不受利夫拉门托缺席影响,但右路防守配置须重新调整(可能詹姆斯改任右后卫)。从赔率角度:英格兰仍为大热门(HAD主胜约42%,平局29%),克罗地亚作为历届黑马在1:2局面下整合调整能力出色,有平局预期。⚠️ 此匹配无达标value盘口,空仓候选。",
+   "enFull": "Sports Mole's pre-match injury/suspension list and ESPN's predicted line-up for England vs Croatia both confirm: Declan Rice (Arsenal) and Bukayo Saka (Arsenal) are under medical assessment but neither's availability for the Wednesday opener is believed to be under threat — both are expected to start. For Croatia: Duje Caleta-Car, who missed both warm-up friendlies, has returned to full training and is expected to be included in the squad; Luka Modric, Mateo Kovacic, and Ivan Perisic are all confirmed fit. England's core midfield-attack axis is intact; right-back reshuffling due to Livramento's absence remains the primary tactical variable. Market context: England ~42% implied win probability at current HAD odds; Croatia are underdog with 29% draw and 29% win odds. ⚠️ No qualifying value bet identified across HAD or HHAD markets — no-bet candidate.",
+   "links": [
+    {"name": "Sports Mole: England vs Croatia injury list", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-saka-latest-england-vs-croatia-injury-suspension-list-and-return-dates_599165.html"},
+    {"name": "ESPN: England vs Croatia World Cup 2026", "url": "https://www.espn.com/soccer/story/_/id/49047660/fifa-world-cup-2026-england-vs-croatia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"}
+   ]
+  },
   {
    "date": "06-17",
    "match": "奥地利 vs 约旦",
