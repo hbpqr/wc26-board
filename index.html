@@ -1358,8 +1358,10 @@ document.getElementById("slip-cards").innerHTML = isEmpty
   ? betRound.matches.map(f => {
       const best = (f.wdlValue && f.wdlValue.length) ? f.wdlValue.reduce((a, b) => b.value > a.value ? b : a) : null;
       let vcls, verdict, valStr;
+      // 竞彩是否已开售(有任一盘口赔率/官方 Selling)→ 区分"真未开盘"和"在售但本会话还没跑终盘评估"(后者绝不能写"未开盘",否则误导成竞彩没开)
+      const onSale = (f.had && f.had.h) || (f.hhad && (f.hhad.h || f.hhad.line)) || f._oddsStatus === "Selling" || (f.crs && Object.keys(f.crs).length);
       if (f.status === "finished") { vcls = "vbad"; verdict = `已完赛 ${f.actual || ""}`; valStr = "—"; }
-      else if (!best) { vcls = "vbad"; verdict = "竞彩未开盘"; valStr = "—"; }
+      else if (!best) { vcls = "vbad"; verdict = onSale ? "在售 · 待终盘评估" : "竞彩未开盘"; valStr = "—"; }
       else if (best.value >= 1.10) { vcls = "vgood"; verdict = `✓ 可买 @${best.odds}`; valStr = best.value.toFixed(2); }
       else { vcls = "vbad"; verdict = "✗ 贴水跳过"; valStr = best.value.toFixed(2); }
       return `<div class="cand-card">
