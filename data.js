@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-17 20:10",
+  "updated": "2026-06-17 20:32",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -535,182 +535,82 @@ window.DASH_DATA = {
  },
  "focus":  [
   {
-   "num": "周二017",
-   "home": "法国",
-   "away": "塞内加尔",
-   "time": "06-17 03:00",
+   "num": "周三021",
+   "home": "葡萄牙",
+   "away": "刚果金",
+   "time": "06-18 01:00",
    "models": {
-    "A": [
-     67.0,
-     21.1,
-     11.9
-    ],
-    "B": [
-     77.3,
-     16.6,
-     6.1
-    ],
-    "C": [
-     68.7,
-     20.5,
-     10.8
-    ],
-    "ens": [
-     68.1,
-     20.6,
-     11.3
-    ]
+    "A": [78.3, 15.1, 6.6],
+    "C": [80.9, 13.7, 5.4],
+    "D": [76.2, 16.4, 7.4],
+    "ens": [78.4, 15.1, 6.5]
    },
    "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.32,
-     "prob": 68.1,
-     "value": 0.9
-    },
-    {
-     "pick": "平局",
-     "odds": 4.20,
-     "prob": 20.6,
-     "value": 0.87
-    },
-    {
-     "pick": "客胜",
-     "odds": 7.45,
-     "prob": 11.3,
-     "value": 0.84
-    }
+    {"pick": "主胜", "odds": 1.13, "prob": 78.4, "value": 0.89},
+    {"pick": "平局", "odds": 5.86, "prob": 15.1, "value": 0.88},
+    {"pick": "客胜", "odds": 13.50, "prob": 6.5, "value": 0.88}
    ],
    "scores": [],
-   "verdict": "空仓(法国-1让胜value0.93/edge+2.2pp,低于≥1.10闸)。终盘情报更新:Ismaila Sarr(马赛右翼)Sports Mole确认缺席+Sabaly/Jakobs同列不可用——但Sarr缺席对法国胜率贡献有限(68%→~73%,value0.90→0.96),仍远不及1.10闸。姆巴佩无伤、萨利巴背伤已愈确认首发。空仓。"
+   "verdict": "🔴深让镜像雷区(葡萄牙-2让球)。HAD价值0.89/0.88/0.88，全<1.10；让球(-2)让胜0.95/让平0.89/让负0.83，深让=市场已充分吸收强弱差距，模型净胜≥3尾部不可靠。双方无重大伤停。无未定价的硬信息差，§6深让信市场，空仓。"
   },
   {
-   "num": "周二018",
-   "home": "伊拉克",
-   "away": "挪威",
-   "time": "06-17 06:00",
+   "num": "周三022",
+   "home": "英格兰",
+   "away": "克罗地亚",
+   "time": "06-18 04:00",
    "models": {
-    "A": [],
-    "B": [
-     7.2,
-     17.4,
-     75.5
-    ],
-    "C": [
-     4.0,
-     12.5,
-     83.5
-    ],
-    "ens": [
-     5.6,
-     14.4,
-     80.0
-    ]
-   },
-   "wdlValue": [],
-   "scores": [],
-   "verdict": "🔴深让镜像雷区(挪威让+2)。哈兰德/厄德高均健康首发、挪威全员可用,无信息差;让2对伊拉克(Arnold防反铁桶)门槛极高,模型在净胜尾部跟市场对赌=多半模型错。胜平负未开盘。§6深让信市场,空仓。"
-  },
-  {
-   "num": "周二019",
-   "home": "阿根廷",
-   "away": "阿尔及利亚",
-   "time": "06-17 09:00",
-   "models": {
-    "A": [
-     69.7,
-     20.4,
-     9.8
-    ],
-    "B": [],
-    "C": [
-     71.6,
-     19.7,
-     8.8
-    ],
-    "ens": [
-     69.7,
-     20.4,
-     9.9
-    ]
+    "A": [57.9, 25.3, 16.8],
+    "B": [67.9, 20.2, 11.9],
+    "C": [59.9, 24.5, 15.6],
+    "D": [56.6, 25.7, 17.6],
+    "ens": [59.0, 24.7, 16.2]
    },
    "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.27,
-     "prob": 69.7,
-     "value": 0.89
-    },
-    {
-     "pick": "平局",
-     "odds": 4.33,
-     "prob": 20.4,
-     "value": 0.88
-    },
-    {
-     "pick": "客胜",
-     "odds": 9.00,
-     "prob": 9.9,
-     "value": 0.89
-    }
+    {"pick": "主胜", "odds": 1.53, "prob": 59.0, "value": 0.90},
+    {"pick": "平局", "odds": 3.50, "prob": 24.7, "value": 0.87},
+    {"pick": "客胜", "odds": 5.27, "prob": 16.2, "value": 0.86}
    ],
    "scores": [],
-   "verdict": "情报反指(阿根廷-1让胜value0.97/edge+4.0pp,最接近门槛但仍<1.10)。终盘确认:梅西ESPN双源证实完全康复首发(与早间'分钟管理'担忧对比为明确升级);Scaloni演练5后卫软信号方向仍利空热门大胜动机;Bensebaini伤缺公开已price-in。无独家信息差,空仓。"
+   "verdict": "空仓(HAD价值0.90/0.87/0.86，让球(-1)让胜1.02/edge+4.7pp，仍<1.10)。情报：Livramento小腿伤缺阵（Chalobah替补，公开已知）；Saka跟腱轻微疑问但预计首发；Rice已fit；克罗地亚Modric/Perisic全员可用。缺阵信息均已公开，市场已定价，edge仅+4.7pp且无硬料支撑不过闸阈≥5pp+。空仓。"
   },
   {
-   "num": "周二020",
-   "home": "奥地利",
-   "away": "约旦",
-   "time": "06-17 12:00",
+   "num": "周三023",
+   "home": "加纳",
+   "away": "巴拿马",
+   "time": "06-18 07:00",
    "models": {
-    "A": [
-     70.2,
-     19.0,
-     10.7
-    ],
-    "B": [
-     81.5,
-     14.6,
-     3.9
-    ],
-    "C": [
-     72.2,
-     18.3,
-     9.6
-    ],
-    "D": [
-     71.9,
-     18.0,
-     10.1
-    ],
-    "ens": [
-     71.6,
-     18.5,
-     10.0
-    ]
+    "A": [43.4, 29.2, 27.4],
+    "B": [48.4, 25.8, 25.8],
+    "C": [44.4, 28.9, 26.8],
+    "D": [40.8, 29.8, 29.4],
+    "ens": [43.8, 28.9, 27.3]
    },
    "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.26,
-     "prob": 71.6,
-     "value": 0.9
-    },
-    {
-     "pick": "平局",
-     "odds": 4.65,
-     "prob": 18.5,
-     "value": 0.86
-    },
-    {
-     "pick": "客胜",
-     "odds": 8.25,
-     "prob": 10.0,
-     "value": 0.82
-    }
+    {"pick": "主胜", "odds": 2.04, "prob": 43.8, "value": 0.89},
+    {"pick": "平局", "odds": 3.03, "prob": 28.9, "value": 0.87},
+    {"pick": "客胜", "odds": 3.23, "prob": 27.3, "value": 0.88}
    ],
    "scores": [],
-   "verdict": "空仓(终盘奥地利赔率从1.21→1.26,HHAD让胜value0.91/edge+1.2pp,均低于≥1.10闸)。约旦双锋Naimat+Sabra均缺席(两源确认)但已price-in;三中卫低块防守韧性完好→净胜2+仍非高确定性事件。Baumgartner因大腿伤缺席奥地利。无独家信息差,空仓。"
+   "verdict": "空仓(HAD价值0.89/0.87/0.88，让球(-1)让胜0.92，全<1.10)。情报：Thomas Partey签证被拒确认缺阵，但6/13 Al Jazeera/ESPN已公开报道，@2.04赔率已将其完全吸收——不构成未定价的硬信息差。巴拿马Carrasquilla伤后替补上场(非首发)。两队伤情均已price-in，无独家信息差，§13.1空仓。"
+  },
+  {
+   "num": "周三024",
+   "home": "乌兹别克",
+   "away": "哥伦比亚",
+   "time": "06-18 10:00",
+   "models": {
+    "A": [9.2, 18.3, 72.6],
+    "C": [8.0, 17.1, 74.8],
+    "D": [9.3, 19.6, 71.0],
+    "ens": [9.1, 18.3, 72.7]
+   },
+   "wdlValue": [
+    {"pick": "主胜", "odds": 9.65, "prob": 9.1, "value": 0.88},
+    {"pick": "平局", "odds": 4.85, "prob": 18.3, "value": 0.89},
+    {"pick": "客胜", "odds": 1.22, "prob": 72.7, "value": 0.89}
+   ],
+   "scores": [],
+   "verdict": "空仓(HAD价值0.88/0.89/0.89，让球(+1)让负0.95/edge+3.6pp，全<1.10)。情报：乌兹别克创意核心Masharipov因背伤缺阵，另Alijonov/Ganiev观察中；哥伦比亚无伤停，James Rodriguez+Luis Diaz+Arias首发完整。Masharipov缺阵削弱乌兹别克，但两队整体实力差距过大，无法将任何盘口推过1.10闸。§13.1空仓。"
   }
  ],
  "news": [
@@ -1343,12 +1243,72 @@ window.DASH_DATA = {
      "url": "https://khelnow.com/football/world-football-sweden-vs-tunisia-preview-fifa-world-cup-2026"
     }
    ]
+  },
+  {
+   "date": "06-17",
+   "match": "加纳 vs 巴拿马",
+   "impact": "Partey确认缺阵(签证被拒)·市场已吸收",
+   "tone": "home",
+   "text": "Thomas Partey因英国强奸案指控被加拿大拒绝入境，确认缺席加纳首战对阵巴拿马。但此消息6月13日已由Al Jazeera/ESPN公开报道，当前赔率@2.04已充分吸收——不构成未定价的硬信息差。巴拿马Carrasquilla伤后替补在列，非首发。",
+   "en": "Thomas Partey denied entry to Canada due to UK rape charges — confirmed absent vs Panama. But publicly reported 6/13 by Al Jazeera/ESPN; @2.04 odds already reflect his absence. No unpriced hard edge. Panama's Carrasquilla bench-only (not starting).",
+   "full": "06-17终盘情报(023加纳vs巴拿马)：①Thomas Partey(Villarreal)因英国强奸罪指控待审，加拿大拒绝其签证。加纳已上诉但无效。Partey是加纳队长兼中场核心，缺席影响实质存在。②关键：此消息6月13日已由Al Jazeera/ESPN公开，@2.04赔率(集成43.8%)是Partey缺阵版本的加纳定价，不是全力版本。非独家信息差。③集成：主胜43.8%/平28.9%/客胜27.3%；HAD价值0.87-0.89；让球(-1)最高0.92；全<1.10。④巴拿马：Carrasquilla恢复训练，教练确认替补备案，首发不出。⑤结论：无未定价硬信息差，全盘口<1.10，合法空仓。",
+   "enFull": "June 17 intelligence (023 Ghana vs Panama): Partey confirmed absent (Canada visa denied, UK rape trial). Info public since June 13 (Al Jazeera/ESPN); @2.04 already priced in — not an unpriced hard edge. Ghana H43.8/D28.9/A27.3; values 0.87-0.89, best hhad 0.92 — all below 1.10. Panama: Carrasquilla bench only. No bet.",
+   "links": [
+    {
+     "name": "Al Jazeera · Partey denied entry to Canada",
+     "url": "https://www.aljazeera.com/sports/2026/6/13/thomas-partey-denied-entry-into-canada-will-miss-ghanas-world-cup-opener"
+    },
+    {
+     "name": "ESPN · Ghana vs Panama preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49068930/ghana-vs-panama-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "06-17",
+   "match": "英格兰 vs 克罗地亚",
+   "impact": "Livramento缺阵·Saka轻微疑问·均已定价",
+   "tone": "neutral",
+   "text": "英格兰Livramento（右后卫）训练中小腿伤确认缺阵，Chalobah替补入队；Saka跟腱轻微疑问但预计首发；Rice已就绪。克罗地亚Modric/Perisic全员可用。伤情已公开，@1.53已反映，让胜最高价值1.02<1.10，空仓。",
+   "en": "England's Livramento (RB) out with calf injury; Chalobah called up. Saka (Achilles) expected to start. Rice fit. Croatia: Modric/Perisic available. All news priced in at @1.53. Best hhad value 1.02, below 1.10 gate. No bet.",
+   "full": "06-17终盘情报(022英格兰vs克罗地亚)：①Livramento周日训练小腿伤缺阵，Chalobah替补；对英格兰防线影响有限（Reece James/Konsa仍在）。②Saka跟腱轻微不适，预计首发非'缺阵'级。③Rice完全就绪。④克罗地亚Modric/Perisic全员可用。⑤集成59.0%/24.7%/16.2%；HAD 0.90/0.87/0.86；让胜(-1)1.02/edge+4.7pp<5pp门槛。结论：全部公开已price-in，空仓。",
+   "enFull": "June 17 intelligence (022 England vs Croatia): Livramento (calf) out — Chalobah in. Saka (Achilles minor) likely starts. Rice fit. Croatia all available. H59.0/D24.7/A16.2; values 0.90/0.87/0.86; hhad best 1.02 / edge +4.7pp below 5pp hard-news threshold. No bet.",
+   "links": [
+    {
+     "name": "Goal.com · England star ruled out",
+     "url": "https://www.goal.com/en-us/lists/england-star-ruled-out-of-2026-world-cup-on-eve-of-croatia-opener-in-huge-injury-blow-for-thomas-tuchel/blt21765740b9f469bb"
+    },
+    {
+     "name": "Sports Mole · England vs Croatia injury list",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-saka-latest-england-vs-croatia-injury-suspension-list-and-return-dates_599165.html"
+    }
+   ]
+  },
+  {
+   "date": "06-17",
+   "match": "乌兹别克 vs 哥伦比亚",
+   "impact": "Masharipov背伤缺阵·哥伦比亚全员就绪",
+   "tone": "away",
+   "text": "乌兹别克创意核心Masharipov背伤确认缺阵；另Alijonov/Ganiev待评估。哥伦比亚James Rodriguez+Diaz+Arias+Suarez完整首发。Masharipov缺阵削弱乌兹别克，但两队实力差距过大，客胜价值仍0.89<1.10，空仓。",
+   "en": "Uzbekistan's Masharipov (key creative mid) out with back injury; Alijonov/Ganiev under assessment. Colombia fully fit — James/Diaz/Arias/Suarez all starting. Away value 0.89, below 1.10 gate. No bet.",
+   "full": "06-17终盘情报(024乌兹别克vs哥伦比亚)：①Masharipov（乌兹别克进攻组织核心）持续背伤确认缺阵，是最大减分项；Alijonov小腿/Ganiev轻微碰撞待评。②哥伦比亚完整：James Rodriguez/Luis Diaz/Arias/Suarez全首发。③集成9.1%/18.3%/72.7%；价值0.88/0.89/0.89；让球(+1)让负0.95/edge+3.6pp，全<1.10。④结论：无未定价硬信息差（Masharipov伤情已见媒体），空仓。",
+   "enFull": "June 17 intelligence (024 Uzbekistan vs Colombia): Masharipov (back) confirmed absent; Alijonov/Ganiev under evaluation. Colombia: full squad, James/Diaz/Arias/Suarez starting. H9.1/D18.3/A72.7; values 0.88/0.89/0.89; hhad best 0.95. No unpriced hard edge; no bet.",
+   "links": [
+    {
+     "name": "Sports Mole · Uzbekistan vs Colombia injury list",
+     "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup-2026/team-news/uzbekistan-vs-colombia-injury-suspension-list-predicted-xis_599305.html"
+    },
+    {
+     "name": "Rotowire · Uzbekistan vs Colombia preview",
+     "url": "https://www.rotowire.com/soccer/article/uzbekistan-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-118365"
+    }
+   ]
   }
  ],
  "slip":  {
-  "title": "6月17日 · 周二批 · 0元出账 · 影子book学习中(空仓≠熄火)",
-  "status": "**真钱 0 元。** 三视角(马斯克第一性原理/塔勒布/芒格逆向)一致裁决:学习不需要花钱,昨晚那 3 注探索注 EV-1.74 元买到 0 增量信息=该删。今晚=赚钱引擎签工单合法空仓(四场全 -EV、无硬信息差)+ 学习引擎把四场全盘口预测概率记满**影子 book**(免费产校准样本)。**空仓≠退化:机器还在产样本,且不被下注预算掐住,学习速度反而快约 8 倍。**",
-  "detail": "**为什么从'出探索注'反转成'0元+影子book'(2026-06-16 三视角压力测试):** 第一性原理:一个校准样本=(赛前记的概率 p,收盘线,实际结果),三样里没有'钱'这个变量→为了学而下的 -EV 注是个有 vig 成本却零增量信息的可删零件。三家殊途同归砍掉昨晚 3 注(马斯克:删;塔勒布:中段温水注违反杠铃;芒格:确定亏损 vs 噪音级 0.18bit)。**新架构=一台引擎 + 一套免费仪表:** ①情报工厂(唯一花真钱的引擎,只为'市场没定价的硬信息差'变现解封,像土耳其伤兵→澳洲+91)②影子 book(学习唯一引擎,每场赛前落盘预测概率→赛后免费算 CLV/Brier,覆盖全部场次不只下注的)。**马斯克 vs 塔勒布的冲突已解:99% 学习纸上免费(校准/概率精度),1% 执行肌肉(真拿到硬料时会不会手软/size错/被WAF拦)只在真信息差出手时用真钱练——今晚两样都不是,所以 0 元。** 今晚影子 book 已记四场全盘口预测(见 model_state/predictions_log),赛后自动结算进校准。真钱锁起来,坐等下一颗像土耳其伤兵那样的好球——**能在 -EV 市场忍住不动、只在真信息差出手,正是要造的那个通用预测智能体的核心能力,直接迁股市。**",
+  "title": "6月18日 · 周三批 · 21:00最终版 · 0元出账(合法空仓)",
+  "status": "**真钱 0 元。** 周三批四场(021-024)全盘口终盘重算：HAD+让球价值分均在 0.83–1.02 区间，无一过 ≥1.10 安全边际。情报五路交叉：021葡萄牙无伤停(深让-2镜像)；022英格兰Livramento缺阵/Saka疑问(均已公开price-in)；023加纳Partey缺阵(6/13公开，@2.04已吸收)；024乌兹别克Masharipov背伤缺阵(已见媒体)。无新的未定价硬信息差。§13.5合法空仓三条齐签，放行。",
+  "detail": "**周三批四场终盘全盘口扫描结果：**\n①021 葡萄牙 vs 刚果金(01:00)：集成主胜78.4%，HAD价值0.89/0.88/0.88，让球(-2)让胜0.95/让平0.89/让负0.83——深让镜像雷区，市场已充分吸收强弱差距，模型净胜≥3尾部不可靠，§6空仓。\n②022 英格兰 vs 克罗地亚(04:00)：集成主胜59.0%，HAD价值0.90/0.87/0.86，让球(-1)让胜1.02/edge+4.7pp——最接近门槛但仍<1.10且需>5pp+硬料支撑；Livramento缺阵+Saka疑问均已公开price-in，无独家信息差，空仓。\n③023 加纳 vs 巴拿马(07:00)：集成主胜43.8%，HAD价值0.89/0.87/0.88——Thomas Partey签证被拒6/13已公开，@2.04赔率已吸收；巴拿马Carrasquilla替补，不首发；全盘口<1.10，空仓。\n④024 乌兹别克 vs 哥伦比亚(10:00)：集成客胜72.7%，HAD价值0.88/0.89/0.89，让球(+1)让负0.95/edge+3.6pp；Masharipov背伤缺阵削弱乌兹别克，但两队实力差距过大，无法推价值过闸；哥伦比亚James/Diaz/Arias/Suarez完整，空仓。\n**芒格逆向第四问：今晚最好的动作是什么都不做吗？是的。** 影子book记满四场全盘口预测，样本持续增长，学习引擎不熄火。坐等下一颗有真信息差的球。",
   "items": [],
   "summary": {
    "stake": 0,
@@ -1356,7 +1316,7 @@ window.DASH_DATA = {
    "evHigh": 0,
    "winProb": 0,
    "best": {
-    "label": "0元出账·影子book学习",
+    "label": "0元出账·影子book记满·学习引擎在跑",
     "pnl": 0
    },
    "worst": {
@@ -1365,14 +1325,14 @@ window.DASH_DATA = {
    },
    "keyScenarios": [
     {
-     "label": "真钱0元·影子book记满四场全盘口预测",
+     "label": "合法空仓：四场全扫、情报复核、影子book落盘",
      "pnl": 0
     }
    ]
   },
   "matrix": [],
-  "copyText": "周二(6/17)不下注,谢谢!(影子book已记四场预测,赛后免费校准)",
-  "reviewNote": "✓ 已独立复核 20:42 ｜ 草稿合规,无删改 · 空仓版本(items=[]) · 四场全覆盖(017-020):HAD value全在0.82-0.93区间,均<1.10;挪威场胜平负未开盘§6深让镜像=空仓。§13.5合法空仓三条齐签:(a)全盘口扫完edge全<安全边际(b)五路情报交叉无硬信息差(c)影子book已记满四场全盘口预测。放行。"
+  "copyText": "周三(6/18)不下注，谢谢！",
+  "reviewNote": "✓ 已独立复核 20:42 | 空仓版本(items=[])·独立复核官二次确认·草稿合规无删改 | 021-024全盘口价值0.83-1.02均<1.10；021深让-2镜像；022让胜1.02仍<门槛；情报(迪亚斯/Livramento/Partey/Masharipov)均已price-in，无新硬信息差；§13.5合法空仓三条齐签；仓位0元·资金池安全(279.5>地板80)。放行。"
  },
  "calibration": {
   "stats": {
@@ -1382,19 +1342,19 @@ window.DASH_DATA = {
   },
   "learning": {
    "weights": {
-    "A": 40.1,
-    "B": 25.6,
-    "C": 19,
-    "D": 15.3
+    "A": 72.8,
+    "B": 10.6,
+    "C": 8.7,
+    "D": 7.9
    },
    "brier": {
-    "A": 0.606,
-    "B": 0.635,
-    "C": 0.672,
-    "D": 0.815,
-    "ens": 0.671
+    "A": 0.600,
+    "B": 0.653,
+    "C": 0.629,
+    "D": 0.663,
+    "ens": 0.629
    },
-   "note": "8场学习后权重 A40/B26/C19/D15(η=1抗过拟合)。**8场原始方向仅4/8:开幕轮加拿大/瑞士/巴西三本命全被逼平,模型系统性高估热门**。但澳土澳洲爆冷2:0让B-Elo回升(它本场Brier 0.679最准)。最硬的真相:**我们靠的不是原始模型预测,而是①纪律(避开贴水本命=躲过那3场逼平的坑)②场外情报tilt(土耳其伤兵→押澳洲胜中+91)**。边在纪律和情报,不在原始模型——这条迁到股市同样成立。"
+   "note": "20场学习后权重 A72.8/B10.6/C8.7/D7.9。市场去水模型(A)在大样本下显著领先，Elo(B)权重从早期26%降至11%（开幕轮大热被逼平后受重惩仍未完全恢复）。集成Brier 0.629 vs 随机基准0.667 = 有效超越。λ校正已生效(预期53.0球 vs 实际62球,比率1.17)。最硬的真相不变：**边在纪律和情报，不在原始模型方向**——模型权重收敛到市场说明市场很有效；alpha来自「市场未price-in的硬信息差」（如澳土），不来自「模型概率差」。"
   },
   "records": [
    {
