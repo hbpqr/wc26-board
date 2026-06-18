@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-18 10:10",
+  "updated": "2026-06-18 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -694,6 +694,48 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-19",
+   "match": "加拿大 vs 卡塔尔",
+   "impact": "戴维斯伤缺首发",
+   "tone": "home",
+   "text": "加拿大队长兼左后卫阿方索·戴维斯(拜仁慕尼黑)因腘绳肌伤仍未完全康复,预计不会首发;里奇·拉里亚(Toronto FC)将顶替出战;蒙比托亦因胫骨伤缺席(ESPN·RotoWire)",
+   "en": "Canada captain Alphonso Davies (Bayern Munich) unlikely to start due to ongoing hamstring injury — Richie Laryea expected at LB; Moise Bombito also out with tibia problem (ESPN/RotoWire)",
+   "full": "ESPN与RotoWire赛前确认:加拿大队长左后卫阿方索·戴维斯因在拜仁慕尼黑联赛(vs PSG 1-1)中撕裂腘绳肌,正处于返场康复协议中,周一训练中仍受限。多源预测其不会首发,里奇·拉里亚(Toronto FC)将代替左后卫位置出战。此外中卫蒙比托(蒙特利尔)因胫骨问题同样缺席,加拿大守备线整体削弱。卡塔尔在首轮对阵瑞士获平局(vs Swiss 0-0或点球),无新伤情。戴维斯是加拿大最具威胁的攻守两端球员,其缺席对本队影响显著;理论上缩窄加拿大对卡塔尔的优势,但市场赔率已部分反映(intl共识主胜76.6%)。⚠️首发XI需开球前官方确认。",
+   "enFull": "ESPN and RotoWire confirm (pre-match): Canada captain and LB Alphonso Davies (Bayern Munich) suffered a hamstring tear in a Bundesliga draw with PSG and remains in return-to-play protocol, still limited in Monday training. He is not expected to start; Richie Laryea is projected to fill the LB role. CB Moise Bombito (CF Montreal) is also sidelined with a tibia problem — Canada's backline is meaningfully weakened. Qatar have no fresh injury concerns after their opener draw and may field an unchanged side. Davies is Canada's best attacking and defensive outlet; his absence meaningfully reduces Canada's expected threat. Market consensus (76.6% implied win for Canada) may already partially account for this; main session should verify edge. ⚠️ Official XI confirmation required at kick-off minus 60 min.",
+   "links": [
+    {"name": "ESPN: Alphonso Davies injury update", "url": "https://www.espn.com/soccer/story/_/id/49076456/alphonso-davies-injury-canada-world-cup-qatar"},
+    {"name": "RotoWire: Canada vs Qatar preview", "url": "https://www.rotowire.com/soccer/article/canada-vs-qatar-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-118506"}
+   ]
+  },
+  {
+   "date": "06-19",
+   "match": "捷克 vs 南非",
+   "impact": "南非双将停赛",
+   "tone": "away",
+   "text": "南非西托尔(Sithole)与茨瓦内(Zwane)因首轮对阵墨西哥双双累积红牌停赛,被迫双核缺席;胡戈·布罗斯须全面重排阵容应战捷克(Sports Mole·RotoWire)",
+   "en": "South Africa's Sphephelo Sithole and Themba Zwane both suspended after red cards vs Mexico — coach Broos faces major reshuffle for Czech Republic clash (Sports Mole/RotoWire)",
+   "full": "Sports Mole与RotoWire赛前双源确认:南非在首轮2:0不敌墨西哥时两人均被罚下——中场斯弗费洛·西托尔(Sithole)与进攻型中场滕巴·茨瓦内(Zwane)均吃红牌,必须停赛缺席周四对阵捷克的关键生死战。主帅胡戈·布罗斯被迫全面重排阵型与首发名单,中场创造力和终结端均受到严重削弱。捷克方面无伤停悬念,施利克领衔攻线,苏切克·索伊卡坐阵中场,阵容稳定。综合:南非降档明显,捷克主胜优势进一步扩大;intl共识捷克52.9%主胜、20.7%客胜,市场赔率需结合停赛利空重评。",
+   "enFull": "Sports Mole and RotoWire both confirm (pre-match): South Africa suffered back-to-back red cards in their 2-0 opening loss to Mexico. Sphephelo Sithole and Themba Zwane are both automatically suspended for Thursday's must-win match vs Czech Republic. Coach Hugo Broos faces a major tactical reshuffle; South Africa's midfield creativity and attacking threat are both significantly depleted. Czech Republic have no injury or suspension concerns — Patrik Schick leads the attack backed by Thomas Soucek and David Sojka in midfield. Assessment: South Africa's suspensions meaningfully narrow any remaining competitive gap; Czech Republic's advantage expands. Market consensus (Czechia 52.9% implied win) may not fully reflect both absences — main session should re-scan edge.",
+   "links": [
+    {"name": "Sports Mole: Czech vs South Africa team news", "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/team-news/czech-republic-vs-south-africa-injury-suspension-list_599414.html"},
+    {"name": "RotoWire: Czechia vs South Africa preview", "url": "https://www.rotowire.com/soccer/article/czechia-vs-south-africa-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-118513"}
+   ]
+  },
+  {
+   "date": "06-19",
+   "match": "墨西哥 vs 韩国",
+   "impact": "蒙特斯停赛缺",
+   "tone": "home",
+   "text": "墨西哥CB塞萨尔·蒙特斯因首轮对南非红牌停赛;左翼金塔内斯(Quinones)受伤存疑;韩国首轮2-1逆转捷克后全员无伤,孙兴慜领衔完整阵容(Sports Mole·RotoWire)",
+   "en": "Mexico CB Cesar Montes suspended (red card vs South Africa), LW Julian Quinones doubtful with injury; South Korea fully fit after 2-1 comeback win over Czechia with Son Heung-min leading attack (Sports Mole/RotoWire)",
+   "full": "Sports Mole与RotoWire赛前双源确认:墨西哥中卫塞萨尔·蒙特斯因首轮对南非累积红牌停赛,防守轴心被迫重组;左翼球员胡利安·金塔内斯(Quinones)在首轮中途申请替换,伤情仍受监控,状态存疑。墨西哥其余球员无新伤情,拉乌尔·希门内斯领衔锋线。韩国方面:首轮2-1逆转捷克后无新伤情,金泰铉与裴俊浩在伤后恢复训练、或入替补名单;孙兴慜+李康仁+李在诚核心阵容完整。综合:墨西哥两项人员利空(停赛+伤情)、韩国全员可用;市场共识墨西哥47.2%主胜/韩国23.5%客胜,实际战力差距可能较前缩窄。",
+   "enFull": "Sports Mole and RotoWire confirm: Mexico CB César Montes is suspended for the South Korea clash after his red card vs South Africa, forcing a CB reshuffle — Johan Vásquez or Edson Álvarez expected to step in. LW Julián Quiñones asked to be subbed off early in the opener and his status remains uncertain. Mexico have no other fresh concerns, with Raúl Jiménez leading the attack. South Korea: after their 2-1 comeback over Czechia, they report a fully fit squad. Kim Tae-Hyeon and Bae Jun-Ho have both returned to training and may feature as substitutes. Son Heung-Min, Lee Kang-In, and Lee Jae-Sung form an intact attacking core. Assessment: Mexico's twin setbacks (suspension + injury doubt) combined with South Korea's clean bill of health modestly close the pre-match gap; main session should re-scan HAD/HHAD value.",
+   "links": [
+    {"name": "Sports Mole: Mexico lineup vs South Korea", "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/predicted-lineups/who-replaces-montes-after-red-card-predicted-mexico-xi-for-world-cup-2026-clash_599404.html"},
+    {"name": "RotoWire: Mexico vs South Korea preview", "url": "https://www.rotowire.com/soccer/article/mexico-vs-south-korea-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-118510"}
+   ]
+  },
   {
    "date": "06-18",
    "match": "英格兰 vs 克罗地亚",
