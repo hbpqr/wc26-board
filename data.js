@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-18 12:10",
+  "updated": "2026-06-18 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -698,6 +698,34 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-19",
+   "match": "墨西哥 vs 韩国",
+   "impact": "韩国伤员归队",
+   "tone": "neutral",
+   "text": "韩国金泰铉(Kim Tae-Hyeon)与裵俊浩(Bae Jun-Ho)首轮对阵捷克后出现伤情,已归队训练,有望对阵墨西哥出场;韩国阵容基本完整(ESPN·RotoWire双源)",
+   "en": "South Korea's Kim Tae-Hyeon and Bae Jun-Ho both resumed team training after minor concerns following the Czechia win — both could feature vs Mexico (ESPN/RotoWire)",
+   "full": "ESPN与RotoWire双源确认:韩国金泰铉与裵俊浩在首轮逆转捷克后出现在世界杯伤情监控名单,但两人均已于赛后24-48小时内恢复队内训练。报道显示两人\"could be options\"对阵墨西哥,预计首发XI不受影响;孙兴慜/李康仁/黄仁范/金民哉核心阵容完整。墨西哥方面:蒙特斯(红牌)停赛由金英塞斯顶替CB;金塔内斯(Quinones)轻伤\"应仍首发\"。综合:韩国伤员警报解除,利好对阵墨西哥整体实力评估;但赔率未必因此漂移(首轮出色表现已有所反映)。⚠️ 正式首发XI赛前60分钟确认。",
+   "enFull": "ESPN and RotoWire both confirmed that South Korea's Kim Tae-Hyeon and Bae Jun-Ho appeared on the World Cup injury table after their dramatic 2-1 comeback win over Czechia, but both players have since returned to full team training within 48 hours. Both are considered available options for the Mexico clash. South Korea's core starting XI — Son Heung-min, Lee Kang-in, Hwang In-beom, Kim Min-jae — remains intact. On Mexico's side, César Montes is suspended (red card vs South Africa), replaced by Vasquez/Reyes in CB; Julián Quiñones, withdrawn early vs South Africa with an injury, is described as a 'slight doubt' but expected to start. Net assessment: South Korea's injury scare is resolved, marginally positive for their squad depth heading into this must-win match. Market impact: likely already priced in given their strong opener performance. ⚠️ Confirm both lineups at official XI 60 min pre-kick.",
+   "links": [
+    {"name": "ESPN: Mexico vs South Korea preview", "url": "https://www.espn.com/soccer/story/_/id/49079638/mexico-vs-south-korea-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"},
+    {"name": "RotoWire: Mexico vs South Korea team news", "url": "https://www.rotowire.com/soccer/article/mexico-vs-south-korea-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-a-118510"}
+   ]
+  },
+  {
+   "date": "06-19",
+   "match": "瑞士 vs 波黑",
+   "impact": "科拉西纳茨缺席确认",
+   "tone": "away",
+   "text": "Sports Mole预测XI确认:科拉西纳茨(跛行)不首发对阵瑞士,泽科亦未在波黑预测首发XI(Demirović+Lukić出击);波黑双核缺席,锋线大幅削弱(Sports Mole·beIN Sports双源)",
+   "en": "Sports Mole predicted XI confirms Kolasinac will miss out vs Switzerland; Džeko also absent from predicted starting lineup (Demirović+Lukić as forwards). Bosnia's attack significantly weakened (Sports Mole/beIN Sports)",
+   "full": "Sports Mole(06-18)标题\"Kolasinac to miss out\"确认:CB塞阿德·科拉西纳茨因对阵加拿大末段跛行退场,预计不出战瑞士;beIN Sports(06-18)波黑预测XI为:Vasilj; Muharemović, Katić, Dedić; Memić, Tahirović, Bašić, Bajraktarević; Demirović, Lukić——无泽科、无科拉西纳茨。此前情报\"泽科touch-and-go\"已更新:泽科可能完全缺席首发(预测XI含Demirović+Lukić双前锋替代)。波黑已先折塞利克(整届缺席),若科拉西纳茨+泽科均不首发,防线与锋线双双承压。瑞士阵容稳定:Kobel/Akanji/Xhaka/Embolo/Rodriguez齐整,场面优势预期扩大。⚠️ 市场赔率已相对充分定价波黑弱势(主胜1.38,HAD value<1.10),竞彩edge仍未过闸;正式首发XI赛前60分钟确认。",
+   "enFull": "Sports Mole (06-18) headline 'Kolasinac to miss out' confirms Sead Kolasinac (limped off vs Canada) will not start against Switzerland. beIN Sports (06-18) Bosnia predicted XI (4-4-2): Vasilj; Muharemović, Katić, Dedić; Memić, Tahirović, Bašić, Bajraktarević; Demirović, Lukić — Džeko and Kolasinac both absent. This updates/upgrades the prior 'touch-and-go' intel on Džeko: his absence is now predicted by two independent sources. Bosnia context: Celik (entire tournament), Kolasinac (vs Switzerland), and Džeko (predicted absent) — three key players unavailable. Switzerland: Kobel, Akanji, Xhaka, Embolo, Vargas, Okafor all available. Assessment: Bosnia are significantly weakened, but market already prices them as heavy underdogs (HAD 1.38/3.95/6.60). All HAD/HHAD values remain below ≥1.10 threshold — no-bet. Main session should confirm whether Džeko absence creates any hidden value on Swiss handicap markets. ⚠️ Official starting XI confirmation 60 min before kickoff.",
+   "links": [
+    {"name": "Sports Mole: Bosnia predicted XI (Kolasinac miss)", "url": "https://www.sportsmole.co.uk/football/bosnia-herzegovina/world-cup-2026/predicted-lineups/kolasinac-to-miss-out-predicted-bosnia-herzegovina-xi-vs-switzerland_599385.html"},
+    {"name": "beIN Sports: Bosnia predicted lineup vs Switzerland", "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/bosnia-and-herzegovina-s-predicted-lineup-vs-switzerland-at-the-2026-fifa-world-cup-2026-06-18"}
+   ]
+  },
   {
    "date": "06-19",
    "match": "瑞士 vs 波黑",
