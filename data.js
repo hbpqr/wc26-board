@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-18 15:10",
+  "updated": "2026-06-18 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -698,6 +698,17 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-19",
+   "match": "加拿大 vs 卡塔尔",
+   "impact": "戴维斯复出可出场",
+   "tone": "home",
+   "text": "加拿大队长阿方索·戴维斯(腘绳肌)已重返完整训练,主帅马尔什确认周四对阵卡塔尔可上场;之前预测\"不首发\"已过时(ESPN 06-18)",
+   "en": "Canada captain Alphonso Davies (hamstring) has returned to full training — coach Jesse Marsch confirms he is available vs Qatar on Thursday; previous 'unlikely to start' reports are outdated (ESPN Jun 18)",
+   "full": "ESPN 06-18独家:加拿大主帅杰西·马尔什赛前新闻发布会明确表示阿方索·戴维斯(腘绳肌)\"available to play\"——他本周已全程参与训练。首发或替补仍由马尔什赛时决定,但\"可出场\"推翻了之前多个信源的\"不首发\"预测。这是对加拿大进攻体系(左路+过人+定位球)的显著加成。卡塔尔无伤情变化,维持原阵。⚠️ 正式首发XI开球前60分钟公布,关注戴维斯是否打满90分钟。",
+   "enFull": "ESPN Jun 18 exclusive: Canada coach Jesse Marsch confirmed in pre-match presser that captain Alphonso Davies (hamstring) is 'available to play' for Thursday's Group B clash vs Qatar after returning to full training this week. Whether he starts or comes off the bench is match-day decision, but his availability meaningfully upgrades Canada's attacking threat. Qatar unchanged, no new injury concerns. ⚠️ Official XIs 60 min before kick-off.",
+   "links": [{"name":"ESPN: Davies fit and available vs Qatar","url":"https://www.espn.com/soccer/story/_/id/49103614/alphonso-davies-fit-available-play-canada-world-cup-qatar"}]
+  },
   {
    "date": "06-19",
    "match": "墨西哥 vs 韩国",
