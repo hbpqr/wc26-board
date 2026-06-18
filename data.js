@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-18 11:52",
+  "updated": "2026-06-18 12:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -283,8 +283,9 @@ window.DASH_DATA = {
      "　集成59.0%主胜方向正确(Brier ens=0.255,优);Elo英格兰→1993 | 无持仓,无资金影响",
      "🏆 加纳 1:0 巴拿马(07:00 完赛)",
      "　集成43.8%主胜方向正确(Brier ens=0.474);Elo加纳→1636 | 无持仓,无资金影响",
-     "⏳ 乌兹别克 vs 哥伦比亚(10:00 进行中,待结算)",
-     "📊 当日3场已结算,1场进行中:无持仓,池 279.5 不变"
+     "🏆 乌兹别克 1:3 哥伦比亚(10:00 完赛)",
+     "　集成72.7%客胜方向正确(Brier ens≈0.116,极优) | 哈梅斯+路易斯·迪亚斯领衔大胜 | 无持仓,无资金影响",
+     "📊 当日4场全终:无持仓,池 279.5 不变"
     ]
    }
   ],
@@ -574,13 +575,16 @@ window.DASH_DATA = {
    "home": "乌兹别克",
    "away": "哥伦比亚",
    "time": "06-18 10:00",
+   "status": "finished",
+   "actual": "1:3",
    "predManual": "未出票",
    "predModel": "客胜72.7%",
    "ensemble": {
     "h": 9.1,
     "d": 18.3,
     "a": 72.7
-   }
+   },
+   "note": "终场:乌兹别克1:3哥伦比亚。集成72.7%客胜方向正确(Brier ens≈0.116,极优,远好于随机0.667)。哈梅斯·罗德里格斯+路易斯·迪亚斯领衔哥伦比亚大胜,印证乌兹别克双核(马沙里波夫/阿利库洛夫)缺阵影响。无持仓,资金不变。"
   }
  ],
  "holdings": {
@@ -694,6 +698,21 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-19",
+   "match": "瑞士 vs 波黑",
+   "impact": "泽科伤缺存疑",
+   "tone": "away",
+   "text": "波黑队长泽科(40岁,AS罗马)肩伤持续困扰,对阵加拿大首场迟到缺席首发,周四对瑞士出场仍存疑;中后卫科拉西纳茨对阵加拿大跛行提前换下;前锋塞利克(兰斯)因训练伤确认缺席整届世界杯(Sports Mole·RotoWire)",
+   "en": "Bosnia captain Edin Džeko (40, AS Roma) was a late scratch for Canada opener with shoulder injury — availability for Thursday vs Switzerland remains touch-and-go; CB Sead Kolasinac limped off late vs Canada; Nidal Celik (RC Lens) confirmed out for entire tournament (Sports Mole/RotoWire)",
+   "full": "Sports Mole与RotoWire赛前情报双源确认:①波黑队长埃丁·泽科(40岁,AS罗马)因肩伤在对阵加拿大首战迟到缺席首发,虽然赛中有所上场,但其周四对阵瑞士的首发资格仍是「touch-and-go」——若泽科无法首发,波黑锋线进攻深度大幅削弱;②中后卫塞阿德·科拉西纳茨在对阵加拿大比赛末段跛行提前换下,骨盆/腿部情况受监控,是否出战存疑;③中后卫尼达尔·塞利克(朗斯)因训练伤确认缺席整届世界杯,波黑防线已先折一将。瑞士方面:主力阵容稳定(科贝尔/阿坎吉/沙奇利/恩博洛),仅穆海姆轻微肌肉疑问。综合:波黑本已实力偏弱,泽科+科拉西纳茨双核不确定性进一步降低其竞争力;但市场赔率已充分反映波黑弱势(主胜1.38,客胜6.60),竞彩HAD/HHAD value经重算仍<1.10,无合格edge。⚠️ 泽科/科拉西纳茨首发需赛前60分钟官方XI确认。",
+   "enFull": "Sports Mole and RotoWire both confirm ahead of the Switzerland vs Bosnia-Herzegovina Group B clash (Thursday 03:00 BJT): ① Bosnia captain Edin Džeko (40, AS Roma) was a late omission from the starting lineup against Canada in the opener due to a persistent shoulder injury. His availability to start against Switzerland is described as 'touch-and-go'. If Džeko is ruled out or limited to a bench role, Bosnia's attacking threat is substantially reduced — he remains their primary target man and set-piece focal point despite his age. ② CB Sead Kolasinac limped off late in the Canada fixture with a leg/hip complaint and is being monitored. His participation against Switzerland is uncertain. ③ Nidal Celik (RC Lens) is confirmed absent for the entire tournament due to a training injury sustained before the group stage. Switzerland injury concern: Miro Muheim (minor muscle problem) is a doubt but not considered significant. The Swiss core — Kobel, Akanji, Xhaka, Embolo — is fully available. Assessment: Bosnia's twin fitness concerns further widen the strength gap, but market pricing already reflects Bosnia's underdog status (HAD 1.38/3.95/6.60). All HHAD/HAD values remain below the ≥1.10 buy threshold — no-bet stance, but main session should confirm no hidden edge from these absences. ⚠️ Confirm Džeko and Kolasinac status at official XI (60 min pre-kick).",
+   "links": [
+    {"name": "Sports Mole: Switzerland vs Bosnia team news", "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-bosnia-herzegovina-injury-suspension-list-predicted-xis_599361.html"},
+    {"name": "RotoWire: Switzerland vs Bosnia preview", "url": "https://www.rotowire.com/soccer/article/switzerland-vs-bosnia-and-herzegovina-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-b-118514"},
+    {"name": "Sports Mole: Bosnia predicted XI (Kolasinac miss)", "url": "https://www.sportsmole.co.uk/football/bosnia-herzegovina/world-cup-2026/predicted-lineups/kolasinac-to-miss-out-predicted-bosnia-herzegovina-xi-vs-switzerland_599385.html"}
+   ]
+  },
   {
    "date": "06-19",
    "match": "加拿大 vs 卡塔尔",
