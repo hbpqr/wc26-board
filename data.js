@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 12:10",
+  "updated": "2026-06-19 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -903,6 +903,26 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "06-19",
+   "match": "巴西 vs 海地",
+   "impact": "巴西七将群缺",
+   "tone": "home",
+   "text": "ESPN·Yahoo Sports 06-19确认:巴西对阵海地共7名主力缺阵——内马尔+古马良斯+达尼洛+米利唐+若昂·维克托+帕克塔+里查利森因伤全缺;⚠️旧条目将帕克塔列\"可用\"系误报(ESPN·Yahoo Sports)",
+   "en": "ESPN/Yahoo Sports Jun 19: Brazil face Haiti missing 7 key players — Neymar, Bruno Guimaraes, Danilo, Militao, John Victor, Paqueta and Richarlison all injured. ⚠️ Prior news item incorrectly listed Paqueta as available — corrected here (ESPN/Yahoo)",
+   "full": "ESPN与Yahoo Sports(06-19)双源确认:巴西对阵海地阵容损伤远超首轮预估,共7名核心球员因伤缺阵:①内马尔(小腿,不随队出行)②古马良斯(Bruno Guimarães,肌肉,中场枢纽)③达尼洛(Danilo,右后卫)④米利唐(Éder Militão,中卫)⑤若昂·维克托(John Victor,备用门将)⑥帕克塔(Lucas Paquetá,攻击中场)⑦里查利森(Richarlison,前锋)。⚠️更正:此前条目(内马尔伤缺)将帕克塔列为\"有望出战\"系误报,以本条为准。影响评估:尽管7名主力缺阵,Polymarket仍显示巴西88.2%胜率——市场已充分定价(维尼修斯/拉斐尼亚/孔塞桑/马奎尼奥斯/卡塞米罗/阿利松均可出战)。让球-2盘口verdict=信市场让线(mirage=true),不构成下注理由;§13.5合法空仓不变。",
+   "enFull": "ESPN and Yahoo Sports (Jun 19) confirm Brazil face Haiti with 7 confirmed absences: Neymar (calf, not traveling), Bruno Guimarães (muscle), Danilo (RB), Éder Militão (CB), John Victor (backup GK), Lucas Paquetá (attacking mid), Richarlison (striker). ⚠️ Correction: previous news entry listed Paquetá as potentially available — ESPN/Yahoo confirm he is ruled out. Despite 7 absences, Polymarket still prices Brazil at 88.2% (market has absorbed all injuries). Still available: Vinicius Jr, Raphinha, Conceiçao, Marquinhos, Casemiro, Alisson. HHAD -2 verdict: 'trust market line' (mirage=true) — no-bet stance per §13.5 unchanged.",
+   "links": [
+    {
+     "name": "ESPN: Neymar won't play vs Haiti",
+     "url": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
+    },
+    {
+     "name": "Yahoo Sports: Brazil XI vs Haiti confirmed",
+     "url": "https://uk.sports.yahoo.com/news/brazil-xi-vs-haiti-confirmed-220618458.html"
+    }
+   ]
+  },
+  {
+   "date": "06-19",
    "match": "美国 vs 澳大利亚",
    "impact": "普利西奇决断今晚",
    "tone": "away",
@@ -958,26 +978,6 @@ window.DASH_DATA = {
     {
      "name": "ESPN: Brazil vs Haiti World Cup 2026 preview",
      "url": "https://www.espn.com/soccer/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "苏格兰 vs 摩洛哥",
-   "impact": "Bounou臂伤存疑",
-   "tone": "away",
-   "text": "摩洛哥主力GK布努(Bounou)对巴西首战后肩臂受伤存疑；CB阿格尔德(Aguerd)亦携挪威热身旧伤；苏格兰麦肯纳(McKenna)小腿伤已重返训练，预计可用(The Scotsman·Sports Mole双源)",
-   "en": "Morocco GK Yassine Bounou doubtful with arm/shoulder injury sustained vs Brazil; CB Nayef Aguerd also carrying knock from Norway warm-up; Scotland's Scott McKenna (calf) returned to training and expected to be fit (The Scotsman/Sports Mole)",
-   "full": "The Scotsman与Sports Mole(06-19)均确认：摩洛哥首发门将亚辛·布努（Bounou，Al-Qadsiah）在首轮对阵巴西时肩臂受伤，出战苏格兰的状态标记为存疑（doubtful）。若布努无法出战，摩洛哥将被迫起用经验相对不足的备用GK——对苏格兰定位球和射门端是一定利好。此外，后卫纳赛夫·阿格尔德（前西汉姆）带挪威热身赛旧伤出征，出战状况受监控。苏格兰方面：麦肯纳（McKenna，小腿）已重返训练，史蒂夫·克拉克预计他将可出战；首轮1:0胜海地后无新伤缺，阵容相对完整。综合：摩洛哥双重伤情（GK+CB）略微收窄双方差距；但摩洛哥首轮1:1平巴西进攻仍强，苏格兰胜value=1.00（<1.10安全边际），focus空仓判断不变。⚠️ 布努/阿格尔德首发状态须赛前60分钟官方XI确认。",
-   "enFull": "The Scotsman and Sports Mole (June 19) both report: Morocco's starting GK Yassine Bounou suffered an arm/shoulder injury during the Brazil opener and is listed as doubtful for Saturday's clash with Scotland. If Bounou is ruled out, Morocco would use a backup GK with considerably less international pedigree — a positive for Scotland's set-piece and shooting threat. CB Nayef Aguerd (ex-West Ham, now Rennes) is carrying a knock from the Norway warm-up and is being monitored. Scotland: Scott McKenna (calf) has returned to training and is expected to be available per Steve Clarke; no new injuries following the 1-0 win over Haiti. Net: Morocco's twin injury concerns (GK + CB) marginally close the gap with Scotland; however, Morocco showed strong attacking quality in the 1-1 draw vs Brazil. Scotland win value 1.00 remains below the ≥1.10 buy threshold — no-bet unchanged. ⚠️ Confirm Bounou/Aguerd status at official XI 60 min before kick-off.",
-   "links": [
-    {
-     "name": "The Scotsman: Scotland handed injury boost vs Morocco",
-     "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"
-    },
-    {
-     "name": "Sports Mole: Scotland vs Morocco preview",
-     "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-morocco-prediction-team-news-lineups_599454.html"
     }
    ]
   },
@@ -1290,186 +1290,6 @@ window.DASH_DATA = {
     {
      "name": "ESPN: England vs Croatia World Cup 2026",
      "url": "https://www.espn.com/soccer/story/_/id/49047660/fifa-world-cup-2026-england-vs-croatia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "奥地利 vs 约旦",
-   "impact": "鲍姆加特纳伤缺",
-   "tone": "away",
-   "text": "奥地利中场核心鲍姆加特纳(莱比锡AMF)因右大腿肌肉撕裂确认缺席,伤于6/1友谊赛热身;格里利奇/维默同列存疑,阿拉巴预计首发(ESPN·Sports Mole·RotoWire)",
-   "en": "Austria AMF Christoph Baumgartner (RB Leipzig) confirmed out with right thigh tear suffered in June 1 friendly warm-up; Grillitsch/Wimmer also doubts, Alaba expected to start (ESPN/Sports Mole/RotoWire)",
-   "full": "ESPN、Sports Mole与RotoWire三方赛前情报均确认:奥地利进攻中场核心克里斯托夫·鲍姆加特纳(莱比锡)在6月1日与突尼斯热身赛前热身时撕裂右大腿肌肉,确认缺席本届世界杯全程。此外帕特里克·维默与弗洛里安·格里利奇同列存疑,大卫·阿拉巴尽管有伤在身但预计仍将首发出战。萨比策将后移填补中场调度职能,阿纳托维奇仍锁定锋线核心位置。总体而言,鲍姆加特纳的缺席使奥地利进攻端创造力有所下降,但奥地利整体实力仍明显优于约旦(约旦双前锋尽缺),空仓决策不变(HHAD value 0.94<1.10安全边际)。",
-   "enFull": "ESPN, Sports Mole, and RotoWire all confirm Austria AMF Christoph Baumgartner (RB Leipzig) is ruled out of the 2026 World Cup — he suffered a right thigh muscle tear during the warm-up of a friendly against Tunisia on June 1. Additional doubts: Patrick Wimmer and Florian Grillitsch are both listed as questionable; David Alaba, despite carrying an injury concern, is expected to start. Sabitzer likely shifts to a deeper role to cover Baumgartner's playmaking function; Arnautovic remains the striker target. Overall impact: reduced attacking creativity, but Austria are still clear favorites against a Jordan side missing both senior strikers (Al-Naimat + Sabra). No-bet stance unchanged (HHAD value 0.94 < 1.10 threshold).",
-   "links": [
-    {
-     "name": "ESPN: Austria vs Jordan World Cup 2026 preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
-    },
-    {
-     "name": "Sports Mole: Austria vs Jordan team news",
-     "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/preview/austria-vs-jordan-prediction-team-news-lineups_599171.html"
-    },
-    {
-     "name": "RotoWire: Austria vs Jordan preview",
-     "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "伊拉克 vs 挪威",
-   "impact": "拉森因伤缺席",
-   "tone": "away",
-   "text": "挪威中锋约根·斯特兰德·拉森确认因伤缺席对阵伊拉克;伊拉克主帅阿诺德确认26人全员可用无伤缺(Sports Mole·Goal)",
-   "en": "Norway striker Jørgen Strand Larsen ruled out injured vs Iraq; Iraq coach Graham Arnold confirms full 26-man squad available, no injury concerns (Sports Mole/Goal)",
-   "full": "Sports Mole与Goal赛前情报均确认:挪威前锋约根·斯特兰德·拉森(赫罗纳)因伤缺席本场,是挪威阵容中唯一确认缺席球员。哈兰德与厄德高已提前确认健康首发,斯特兰德·拉森的缺席不影响挪威核心双星组合。伊拉克方面,主帅格雷厄姆·阿诺德(前澳大利亚主帅)确认26人全员无伤缺,场地状态良好。从影子book角度:拉森缺席略降低挪威进攻深度,但哈兰德+厄德高双核健康使影响边际化;伊拉克防反策略(Arnold铁桶阵)仍是核心变量。⚠️ 现有分析已将挪威算作全员可用,拉森缺席微调偏向伊拉克,但幅度有限(拉森非首发主力)。",
-   "enFull": "Sports Mole's Iraq vs Norway injury/suspension article and Goal's match preview confirm: Jørgen Strand Larsen (Girona, Norway striker) is ruled out of the match through injury — the only confirmed Norway absentee. Haaland and Ødegaard are both confirmed fit and available. For Iraq, coach Graham Arnold (former Australia national team manager) states the full 26-man roster is available with no injury concerns. Shadow-book impact: Larsen's absence marginally reduces Norway's attacking depth, but Haaland–Ødegaard dual core remains intact, keeping the net effect small. Iraq's defensive counter-attacking setup (Arnold's organized low block) remains the primary tactical variable. ⚠️ Existing model treated Norway as fully available; Larsen out provides a slight micro-tilt toward Iraq, but given Larsen's squad role (rotation rather than guaranteed starter), magnitude is limited.",
-   "links": [
-    {
-     "name": "Sports Mole: Iraq vs Norway team news",
-     "url": "https://www.sportsmole.co.uk/football/iraq/world-cup-2026/team-news/iraq-vs-norway-injury-suspension-list-predicted-xis_599240.html"
-    },
-    {
-     "name": "Goal: Iraq vs Norway World Cup preview",
-     "url": "https://www.goal.com/en/news/iraq-norway-world-cup-preview/blt35615d31b35c17b2"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "法国 vs 塞内加尔",
-   "impact": "萨尔状态矛盾",
-   "tone": "away",
-   "text": "⚠️情报矛盾:ESPN与Al Jazeera赛前报道均将萨尔(马赛右翼)列入塞内加尔首发进攻三叉戟(马内+萨尔+杰克逊),与此前'萨尔确认缺席'条目直接矛盾;开球(03:00)前核查官方XI(ESPN·Al Jazeera)",
-   "en": "⚠️Intel conflict: ESPN and Al Jazeera both list Ismaila Sarr (Marseille) in Senegal's predicted starting attack (Mane-Sarr-Jackson), contradicting the earlier 'Sarr confirmed absent' entry — verify official XI at kickoff 03:00 BJT (ESPN·Al Jazeera)",
-   "full": "ESPN(France vs Senegal World Cup 2026 preview)与Al Jazeera赛前最新均明确将伊斯玛拉·萨尔(Marseille右翼)列入塞内加尔预测首发进攻线:马内+萨尔+尼古拉斯·杰克逊三叉戟组合。这与当前data.js新闻条目'萨尔/萨巴利确认缺席'(来源:Sports Mole)形成直接矛盾。可能是Sports Mole伤停汇总文章与预测XI文章给出了不同结论,或情况在近12小时内发生变化。对价值闸影响:若萨尔首发,塞内加尔进攻威胁明显高于'萨尔缺席'假设,但法国胜平负value及让球value仍低于1.10——空仓决策不变。⚠️ 唯一可靠确认方法:开球前60分钟官方首发XI公布后核查。",
-   "enFull": "ESPN's France vs Senegal preview and Al Jazeera's pre-match report (June 15-16) both list Ismaila Sarr (Marseille, right wing) in Senegal's predicted starting attack alongside Sadio Mane and Nicolas Jackson. This directly contradicts the existing data.js entry 'Sarr/Sabaly confirmed unavailable (Sports Mole)'. The discrepancy cannot be resolved from available information — it may reflect different conclusions from Sports Mole's injury-list article vs predicted-XI article, or a status change in the past 12 hours. Value impact: if Sarr starts, Senegal's attacking output is meaningfully higher than the 'Sarr absent' base case used in the 68%→73% probability estimate. However, all France HAD and HHAD values remain below the ≥1.10 threshold — no-bet stance unchanged. ⚠️ Only reliable confirmation: official XI announced ~60 min before 03:00 BJT kickoff.",
-   "links": [
-    {
-     "name": "ESPN: France vs Senegal World Cup 2026 preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "Al Jazeera: France vs Senegal – teams, lineups",
-     "url": "https://www.aljazeera.com/sports/2026/6/15/france-vs-senegal-world-cup-2026-mbappe-teams-lineups-start-dembele"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "奥地利 vs 约旦",
-   "impact": "约旦双锋尽缺",
-   "tone": "home",
-   "text": "约旦前锋萨布拉(Ibrahim Sabra)因伤退出23人名单，由穆罕默德·塔哈替补——继Al-Naimat(十字韧带)后约旦主力前锋双双缺席，进攻深度大幅削弱(Sports Mole·RotoWire)",
-   "en": "Jordan forward Ibrahim Sabra ruled out and replaced by Mohammad Taha — alongside Al-Naimat (ACL), Jordan lose both senior strikers, severely depleting attacking options (Sports Mole·RotoWire)",
-   "full": "Sports Mole与RotoWire双源确认(06-16):约旦首要前锋亚赞·Al-Naimat(预选赛8球)因去年12月十字韧带断裂早已缺席，现再确认前锋伊布拉欣·萨布拉(Ibrahim Sabra)亦因伤退出23人名单，由穆罕默德·塔哈(Mohammad Taha)顶替入队。两名主力射手同时缺席对约旦进攻端打击显著——上届非洲区预选赛中萨布拉曾是得分重要补充。综合评估:约旦进攻端严重失血，防反体系(三中卫/低位紧压)仍是主要战术依托，但缺乏终结点将进一步压低约旦威胁上限。此前focus判断「奥地利净胜2+不确定性」受约旦防守韧性影响，并非约旦进攻，所以空仓决策不变(HHAD value 0.94<1.10)；但若赔率因此出现大幅迁移需重扫edge。",
-   "enFull": "Sports Mole and RotoWire (June 16): Jordan's second senior striker Ibrahim Sabra has been ruled out of the 2026 FIFA World Cup squad due to injury, replaced by Mohammad Taha. This comes on top of the earlier confirmed absence of talismanic forward Yazan Al-Naimat (ACL, sidelined since December 2025, 8 WC qualifying goals). Jordan now enter Group J without both their first-choice forwards. Tactical context: Jordan's low-block defensive structure (three-CB shape) remains intact, so their defensive resilience is unchanged. However, reduced offensive threat limits Jordan's ability to punish Austria on the counter-attack. Verdict impact: Austria's no-bet stance holds (HHAD value 0.94 still below the ≥1.10 buy threshold); however, monitor if odds shift materially and re-scan edge.",
-   "links": [
-    {
-     "name": "Sports Mole: Austria vs Jordan team news",
-     "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/team-news/austria-vs-jordan-injury-suspension-list-predicted-xis_599179.html"
-    },
-    {
-     "name": "RotoWire: Austria vs Jordan preview",
-     "url": "https://www.rotowire.com/soccer/article/austria-vs-jordan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-118225"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "法国 vs 塞内加尔",
-   "impact": "萨尔/萨巴利确认缺席+3人存疑",
-   "tone": "away",
-   "text": "终盘更新:伊斯玛拉·萨尔(马赛右翼)、萨巴利、雅各布斯Sports Mole确认缺席;迪亚奥/恩迪亚耶/格耶存疑;马内首发。量化:法国胜率68%→~73%,value=0.96,仍低于≥1.10闸,空仓不变(Sports Mole·ESPN)",
-   "en": "Final check: Ismaila Sarr (Marseille RW), Sabaly, Jakobs confirmed unavailable per Sports Mole; Diao/Ndiaye/Gueye doubtful; Mane starts. Quantified: France win prob 68%→~73%, value 0.96 vs 1.10 threshold — no-bet unchanged (Sports Mole·ESPN)",
-   "full": "Sports Mole与Yahoo Sports赛前最新(06-16):塞内加尔队内出现三个小伤情担忧:①阿桑·迪亚奥因挫伤本周缺席训练;②谢里夫·恩迪亚耶周六无故缺席完整训练,原因不明;③老将伊德里萨·格耶(埃弗顿)未完成周六完整训练课,属预防性措施。但塞内加尔队工作人员表示三人均无大碍,不影响参赛。核心球星萨迪奥·马内(未来俱乐部)确认百分百状态，将首发出战。综合评估:伤情总体轻微，对法国-塞内加尔集成预测(主67%/平21%/客12%)无显著影响，纪律空仓(HAD value全低于1.10)不变。⚠️ 三人出场状态请于开球前60分钟查阅官方XI确认。",
-   "enFull": "Sports Mole and Yahoo Sports (June 16): Senegal have three minor fitness concerns ahead of their Group I opener vs France. ① Assane Diao missed training earlier this week due to a contusion; ② Cherif Ndiaye was absent from Saturday's session for unexplained reasons; ③ veteran Idrissa Gueye (Everton) did not complete the full training session as a precautionary measure. However, the Senegal coaching staff confirmed no major concern over any of the trio. Star forward Sadio Mane (Future FC) is fully fit and confirmed to start. Assessment: these are minor bumps that do not materially alter the match-probability outlook (France 67%/Draw 21%/Senegal 12%). HAD values remain below the ≥1.10 buy threshold — no-bet unchanged. ⚠️ Check official lineups 60 minutes before kick-off to confirm all three players' status.",
-   "links": [
-    {
-     "name": "Sports Mole: France vs Senegal injury list",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-senegal-injury-suspension-list-predicted-xis_599161.html"
-    },
-    {
-     "name": "Yahoo Sports: World Cup 2026 live injury updates",
-     "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-news-live-updates-injuries-storylines-as-the-tournament-kicks-off-200000921.html"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "法国 vs 塞内加尔",
-   "impact": "萨利巴孔代双确认",
-   "tone": "home",
-   "text": "萨利巴(背伤)已完成全量训练确认首发;孔代从肌肉拉伤中恢复亦确认首发右后卫;麦格南负荷管理非大碍——法国后防线完整无伤病(Sports Mole·ESPN)",
-   "en": "Saliba (back) confirmed fully fit and expected to start; Kounde recovered from muscle scare to start at RB; Maignan in load management but no serious concern — France back line intact (Sports Mole·ESPN)",
-   "full": "Sports Mole与ESPN赛前最新:①威廉·萨利巴(阿森纳)上赛季欧冠决赛后曾被报告背伤复发,但其随后完成45分钟热身(3-1胜北爱尔兰),目前已全量训练,预计首发中后卫;②儒勒斯·孔代从肌肉拉伤中完全恢复,确认首发右后卫,无出场限制;③门将米克·麦格南周六仅做负荷管理缺席完整训练,但伤情并不严重,仍是首发门将。综合评估:法国后卫线此前「萨利巴存疑」的风险已消除,首发防线接近满员最强阵容。预测XI:麦格南;孔代、萨利巴、于帕梅卡诺、迪涅;拉比奥、楚阿梅尼;杜埃、登贝莱、奥利斯;姆巴佩。对focus中「法国-1让胜/胜平负 edge」的价值判断——法国防线稳固进一步压缩塞内加尔反扑空间,但value依然<1.10,纪律空仓不变。",
-   "enFull": "Sports Mole and ESPN (latest pre-match): ① William Saliba (Arsenal) had reported a recurring back issue post-UCL final but completed 45 minutes in the 3-1 friendly win over Northern Ireland and is now training fully — expected to start at CB; ② Jules Kounde has fully recovered from a muscular scare and is confirmed to start at RB with no restrictions; ③ GK Mike Maignan skipped full training Saturday for load management only — not a serious injury concern, still the projected starter. Takeaway: France's backline concern ('Saliba doubtful') is resolved; they enter with a near-full-strength defensive unit. Predicted XI: Maignan; Kounde, Saliba, Upamecano, Digne; Rabiot, Tchouameni; Doue, Dembele, Olise; Mbappe. Impact on value assessment: France's defensive stability further limits Senegal's counter-attack chances, but HAD/HHAD values remain below the ≥1.10 buy threshold — no-bet unchanged.",
-   "links": [
-    {
-     "name": "Sports Mole: France vs Senegal predicted lineup",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/saliba-status-doue-decision-predicted-france-xi-vs-senegal_599158.html"
-    },
-    {
-     "name": "ESPN: France vs Senegal preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "阿根廷 vs 阿尔及利",
-   "impact": "梅西200帽首发",
-   "tone": "home",
-   "text": "梅西确认首发将迎200帽里程碑;埃米利亚诺·马丁内斯赛前手指骨折已伤愈入选首发门将;塔利亚菲科(小腿)确认缺阵(Sports Mole·World Soccer Talk)",
-   "en": "Messi confirmed to start for his milestone 200th cap; Emi Martinez (broken finger pre-tournament) passed fit and expected to start in goal; Tagliafico (calf) ruled out (Sports Mole·World Soccer Talk)",
-   "full": "Sports Mole与World Soccer Talk赛前最新:①梅西(迈阿密国际)将出战阿根廷世界杯揭幕战,迎来国家队第200场里程碑出场,多家媒体确认首发;②埃米利亚诺·马丁内斯赛前曾被曝欧罗巴联赛决赛前手指骨折,但已通过体检,确认首发门将;③左后卫尼古拉斯·塔利亚菲科(小腿)确认缺阵。预测XI(4-3-3/4-2-3-1):埃米·马丁内斯;莫利纳、奥塔门迪、L·马丁内斯、梅迪纳;德保罗、费尔南德斯、麦卡利斯特;阿尔马达;梅西、L·马丁内斯。注:此前focus提到「Scaloni演练5后卫收缩」,但多家媒体预测XI均为4后卫阵型——开球前关注官方首发确认。纪律层面:阿根廷-1让胜value=0.90(<1.10),空仓不变。",
-   "enFull": "Sports Mole and World Soccer Talk (pre-match): ① Lionel Messi will start Argentina's opener vs Algeria, marking his 200th international cap — a milestone confirmed by multiple outlets; ② Emiliano Martinez (Man United) suffered a broken finger before the Europa League final but has been cleared fit and is expected to start in goal; ③ Nicolas Tagliafico (calf) is confirmed absent. Predicted XI (4-3-3): E. Martinez; Molina, Otamendi, L. Martinez, Medina; De Paul, Fernandez, Mac Allister, Almada; Messi, L. Martinez. Note: earlier focus report mentioned Scaloni 'rehearsing 5-back defensive shape' but multiple media predict a 4-back system — check official XI closer to kick-off. Disciplinary takeaway: Argentina HHAD value 0.90 (<1.10 buy threshold) — no-bet unchanged.",
-   "links": [
-    {
-     "name": "Sports Mole: Argentina vs Algeria predicted lineup",
-     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-makes-more-history-emi-returns-predicted-argentina-lineup-vs-algeria_599169.html"
-    },
-    {
-     "name": "World Soccer Talk: Messi included in Scaloni lineup",
-     "url": "https://worldsoccertalk.com/world-cup/report-messi-included-in-scalonis-unprecedented-lineup-for-argentinas-world-cup-opener-vs-algeria/"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "奥地利 vs 约旦",
-   "impact": "阿拉巴带伤首发",
-   "tone": "home",
-   "text": "阿拉巴有伤在身但预计首发;鲍姆加特纳(肌肉伤)已被驱逐出名单,由柳比契奇替补;维默/格里利奇亦有伤势担忧(Sports Mole·ESPN)",
-   "en": "Alaba expected to start despite injury concern; Baumgartner (muscle) ruled out of squad replaced by Ljubicic; Wimmer and Grillitsch also carrying knocks (Sports Mole·ESPN)",
-   "full": "Sports Mole与ESPN赛前最新:①大卫·阿拉巴(皇马)有伤在身,但兰格尼克教练组仍预计他首发出战;②克里斯托夫·鲍姆加特纳因肌肉伤势被完全踢出23人名单,由德扬·柳比契奇顶替——鲍姆加特纳是奥地利技术中枢,其缺席一定程度上削弱了中场组织质量;③帕特里克·维默与弗洛里安·格里利奇亦带伤出战,存在不确定性。预测XI:施拉格;孔拉德·莱默、菲利普·利恩哈特、阿拉巴、菲利普·姆韦内;X·施拉格、塞瓦尔德;施密德、萨比策、格雷戈里奇;阿尔诺托维奇。约旦方面:Al-Naimat(预选赛8球首席射手)十字韧带伤缺(已price-in)。综合:奥地利主力名单受伤影响大于预期,但focus判断的「净胜2+不确定性」进一步被验证——空仓正确。",
-   "enFull": "Sports Mole and ESPN (pre-match): ① David Alaba (Real Madrid) is carrying an injury but is still expected to be named in Rangnick's starting XI; ② Christoph Baumgartner has been withdrawn from the squad entirely due to a muscle injury, replaced by Dejan Ljubicic — Baumgartner's absence weakens Austria's technical midfield creativity; ③ Patrick Wimmer and Florian Grillitsch are also doubtful. Predicted XI: Schlager; Laimer, Lienhart, Alaba, Mwene; X. Schlager, Seiwald; Schmid, Sabitzer, Gregoritsch; Arnautovic. Jordan note: Al-Naimat (8 WC qualifying goals) is out since December with ACL (already market-priced). Takeaway: Austria's injury list is wider than initially anticipated, validating the focus assessment that 'Austria winning by 2+' is not high-confidence. No-bet stance correct — HHAD value 0.94 below ≥1.10 threshold.",
-   "links": [
-    {
-     "name": "Sports Mole: Austria vs Jordan predicted lineup",
-     "url": "https://www.sportsmole.co.uk/football/austria/world-cup-2026/predicted-lineups/will-alaba-start-predicted-austria-lineup-vs-jordan_599177.html"
-    },
-    {
-     "name": "ESPN: Austria vs Jordan preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49058237/fifa-world-cup-2026-austria-vs-jordan-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "06-17",
-   "match": "伊拉克 vs 挪威",
-   "impact": "双核确认出战",
-   "tone": "away",
-   "text": "挪威主帅确认哈兰德状态锐利、厄德高(去年10月左膝MCL伤)已于热身赛对阵摩洛哥首发进球,驳斥赛前伤势质疑;挪威全队无出场限制伤员(Flashscore·ESPN)",
-   "en": "Norway coach confirms Haaland sharp and fit; Odegaard (left-knee MCL Oct 2025) dismissed injury concerns after starting/scoring vs Morocco warm-up; Norway report no absences (Flashscore·ESPN)",
-   "full": "挪威主帅索尔巴肯赛前确认：①哈兰德备战状态出色，无伤病顾虑；②厄德高去年10月因左膝内侧副韧带（MCL）损伤缺席多场关键资格赛，此后在热身赛对阵摩洛哥中首发并完成进球，随后向媒体表示膝盖「感觉良好」并驳斥了外界伤势质疑；③截至6月16日，挪威全队无伤病豁免，整体首发阵容完整。伊拉克方面，贾拉勒·哈桑（之前在玻利维亚附加赛缺席）归队，尤素福·阿明与阿里·阿勒哈马迪此前的伤势担忧亦已消除，全队同样健康出征。双方均无重大伤缺，挪威核心双核齐整出战，与市场定价中哈兰德+厄德高领衔的强度一致。",
-   "enFull": "Norway head coach Stale Solbakken confirmed pre-match that both Erling Haaland and Martin Odegaard are fully fit for the World Cup opener vs Iraq. Odegaard suffered a left-knee MCL injury in October 2025, missing key qualifiers, but returned in a warm-up vs Morocco where he started and scored. He told Norwegian media his knee 'felt good' and dismissed pre-match injury concerns. Haaland is described as sharp in training. Norway report no injury absences and expect to field their strongest XI. Iraq welcomed back Jalal Hassan (absent during Bolivia play-off win) with Al-Hamadi and Amyn also available — full squad confirmed. No major absences on either side; Norway's star duo intact, consistent with their heavy market-favorite status.",
-   "links": [
-    {
-     "name": "Flashscore: Odegaard dismisses injury concerns",
-     "url": "https://www.flashscore.com/news/captain-martin-odegaard-shrugs-off-injury-concerns-as-norway-prepare-for-iraq-opener/hI9Ao5rm/"
     }
    ]
   },
