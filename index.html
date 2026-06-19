@@ -399,6 +399,15 @@
   .copybtn:hover { opacity: .92; }
   .copybtn:active { transform: scale(.985); }
   .copybtn.copied { background: #2a3140; color: var(--gold); }
+  /* 给老板的话:放本轮投放下面,结构化分行说人话(黄斌 2026-06-19) */
+  .slip-copy-box { margin-top: 16px; border: 1px solid var(--line-strong); border-radius: 4px; overflow: hidden; }
+  .slip-copy-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 14px; background: var(--gold-dim); font-size: 13px; color: var(--gold); font-weight: 600; }
+  .slip-copy-head .copybtn { margin-top: 0; width: auto; padding: 7px 16px; font-size: 13px; letter-spacing: 0; flex: none; }
+  .slip-copy-text { padding: 14px 16px; font-size: 14.5px; line-height: 1.85; color: var(--txt); white-space: normal; word-break: break-word; }
+  /* 数学期望折叠头 */
+  .slip-fold-head { margin-top: 16px; padding: 11px 14px; border: 1px solid var(--line); border-radius: 4px; font-size: 13px; color: var(--dim); cursor: pointer; user-select: none; display: flex; align-items: center; gap: 8px; transition: color .15s ease; }
+  .slip-fold-head:hover { color: var(--gold); border-color: var(--line-strong); }
+  .slip-fold-head #slip-math-arrow { color: var(--faint); font-size: 11px; }
   .vgood { color: var(--gold); font-weight: 600; }
   .vbad { color: var(--faint); }
 
@@ -526,31 +535,31 @@
     <div class="stitle"><h2>下单计划</h2><span class="sub" id="slip-title"></span></div>
     <div id="slip-banner"></div>
     <div id="slip-cards"></div>
+    <!-- 给老板的下单文案:直接放在本轮投放下面(黄斌2026-06-19第1点),结构化分行说人话 -->
+    <div id="slip-copy-box" class="slip-copy-box">
+      <div class="slip-copy-head"><span>📋 发给老板的话(直接复制微信发)</span><button class="copybtn" id="copy-btn">一键复制</button></div>
+      <div id="slip-copy-text" class="slip-copy-text"></div>
+    </div>
     <div class="slip-note" id="slip-status" style="margin-top:14px"></div>
-    <div class="slip-grid" id="slip-bet-grid">
-      <div>
-        <table id="slip-table">
-          <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
+    <!-- 数学期望/详细分析:折叠,默认收起,点一下展开/收起(黄斌2026-06-19第3点) -->
+    <div class="slip-fold-head" id="slip-math-toggle">📐 数学期望 · 详细分析 <span id="slip-math-arrow">▸</span></div>
+    <div id="slip-math" style="display:none">
+      <div class="slip-grid" id="slip-bet-grid">
+        <div>
+          <table id="slip-table">
+            <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+          <div class="slip-sum" id="slip-sum"></div>
+        </div>
+      </div>
+      <div class="matrix-wrap">
+        <div class="charthead" style="margin:24px 0 10px">全结局矩阵 · 各结局组合从最优到最劣,概率合计 100%</div>
+        <table id="matrix-table">
+          <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
           <tbody></tbody>
         </table>
-        <div class="slip-sum" id="slip-sum"></div>
       </div>
-      <div>
-        <div class="ticket">
-          <div class="t-head"><span>竞彩足球 · 单关投注单</span><span class="num">2026-06-13</span></div>
-          <div class="t-body" id="slip-paper"></div>
-          <div class="t-perf"></div>
-          <div class="t-foot"><span>合计 <b>110 元</b> · 4 单关 + 1 个 2串1</span><span>理性购彩 · 量力而行</span></div>
-        </div>
-        <button class="copybtn" id="copy-btn">复制下单文案 · 发给老板</button>
-      </div>
-    </div>
-    <div class="matrix-wrap">
-      <div class="charthead" style="margin:34px 0 10px">全结局矩阵 · 8 种组合从最优到最劣,概率合计 100%</div>
-      <table id="matrix-table">
-        <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
-        <tbody></tbody>
-      </table>
     </div>
   </section>
 
@@ -1467,30 +1476,36 @@ document.getElementById("slip-sum").innerHTML = `
   <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
   <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
   <div class="blk"><span class="k">最可能剧本</span><span class="v num">${SM.keyScenarios[0].label} ${fmt(SM.keyScenarios[0].pnl)}</span></div>`;
-// 空仓态:隐藏空的表格/期望/票据/复制,只留标题+说明(status note 已解释为何空仓)
+// 空仓态:隐藏数学折叠区与给老板的话,只留标题+说明
 if (D.slip.items.length === 0) {
-  ["slip-table", "slip-sum", "copy-btn"].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = "none"; });
-  document.querySelectorAll("#sec-slip .matrix-wrap, #sec-slip .ticket").forEach(el => el.style.display = "none");
-} else {
-  const foot = document.querySelector("#sec-slip .t-foot span");
-  if (foot) foot.innerHTML = `合计 <b>${SM.stake} 元</b> · ${D.slip.items.length} 注`;
+  ["slip-math-toggle", "slip-math", "slip-copy-box"].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = "none"; });
 }
-// 文案里的 \n 是"换行"占位,显示和复制前都还原成真换行(否则满屏 n)
+// 文案里的 \n 是"换行"占位,显示(转<br>)和复制(转真换行)前都还原
 const pasteText = D.slip.copyText.replace(/\\n/g, "\n");
-document.getElementById("slip-paper").textContent = pasteText;
+document.getElementById("slip-copy-text").innerHTML = pasteText.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/\n/g, "<br>");
 const btn = document.getElementById("copy-btn");
-btn.addEventListener("click", async () => {
+btn.addEventListener("click", async (e) => {
+  e.stopPropagation();
   try {
     await navigator.clipboard.writeText(pasteText);
-  } catch (e) {
+  } catch (err) {
     const ta = document.createElement("textarea");
     ta.value = pasteText; document.body.appendChild(ta);
     ta.select(); document.execCommand("copy"); ta.remove();
   }
-  btn.textContent = "✓ 已复制,微信粘贴发给老板即可";
+  btn.textContent = "✓ 已复制";
   btn.classList.add("copied");
-  setTimeout(() => { btn.textContent = "复制下单文案 · 发给老板"; btn.classList.remove("copied"); }, 2600);
+  setTimeout(() => { btn.textContent = "一键复制"; btn.classList.remove("copied"); }, 2200);
 });
+// 数学期望/详细分析:默认收起,点击展开/收起(黄斌2026-06-19第3点)
+(function () {
+  const tg = document.getElementById("slip-math-toggle"), box = document.getElementById("slip-math"), arr = document.getElementById("slip-math-arrow");
+  if (tg) tg.addEventListener("click", () => {
+    const open = box.style.display !== "none";
+    box.style.display = open ? "none" : "";
+    if (arr) arr.textContent = open ? "▸" : "▾";
+  });
+})();
 
 /* ---------- calibration ---------- */
 const cs = D.calibration.stats;
