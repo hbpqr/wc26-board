@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 17:10",
+  "updated": "2026-06-19 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -926,24 +926,20 @@ window.DASH_DATA = {
   {
    "date": "06-19",
    "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇确认出战",
-   "tone": "home",
-   "text": "⚠️前情更新:CBS Sports·FOX Sports·Sports Mole(06-19多源)确认普利西奇通过医疗评估、确认出战澳大利亚;上午「今晚决断」条目升级——阵容完整,预计首发",
-   "en": "UPDATE — Pulisic confirmed fit and expected to start vs Australia per CBS Sports/FOX Sports/Sports Mole (Jun 19 multi-source). Earlier 'day-to-day pending tonight' report superseded.",
-   "full": "CBS Sports、FOX Sports与Sports Mole(06-19)三源确认：波切蒂诺与队医已明确普利西奇(Christian Pulisic)通过医疗评估、确认出战澳大利亚，预计首发。此前「今晚决断、pending medical assessment」条目已升级——美国进攻核心不打折扣。影响：美国阵容完整；Polymarket美国60.8%基本反映此情形，预期无大幅漂移。集成模型美国62.7% vs 市场去水59.1% = edge+3.6pp，低于§3价值安全边际≥1.10门槛，合法空仓纪律不变。",
-   "enFull": "CBS Sports, FOX Sports and Sports Mole (June 19, multiple sources) confirm Christian Pulisic has been medically cleared and is expected to start against Australia. Previous 'day-to-day, pending tonight's medical assessment' report is superseded. Impact: USMNT at full attacking strength. Polymarket at USA 60.8% broadly consistent with full-squad scenario. Integrated model: USA 62.7% vs market implied 59.1% — edge +3.6pp remains below the ≥1.10 safety-margin buy threshold (§3). No-bet stance unchanged.",
+   "impact": "普利西奇仍独立训练",
+   "tone": "away",
+   "text": "ESPN·NBC Sports·NPR(06-19 18:00前后):普利西奇仍未回归全队训练,「仍存疑」;Pochettino称「much better」但决定待官方XI(北京时间06-20 02:00)前确认——⚠️修正此前「确认出战」报道",
+   "en": "ESPN/NBC Sports/NPR (June 19, latest): Pulisic still training separately from squad, 'still in doubt' for Australia — Pochettino says 'much better' but no clearance yet; decision before official XI (02:00 BJT Jun 20). ⚠️ Corrects earlier 'confirmed fit' reports.",
+   "full": "ESPN、NBC Sports与NPR(06-19晚最新三源)一致确认:普利西奇(Pulisic)小腿伤仍未通关,截至北京时间18:00仍独立训练而非随队合练——ESPN标题「much better, still in doubt vs Australia」、NPR标题「U.S. may face Australia without Pulisic」、CW39「still training separately, increasing concern」。波切蒂诺态度乐观(「much better」)但未确认可战,最终决定将于官方XI公布前(约北京时间06-20 02:00,赛前60分钟)给出。⚠️修正:此前14:10「确认出战」条目(CBS/FOX/Sports Mole来源)已被本轮更新推翻。影响评估:市场Polymarket美国60.2%-60.8%尚未因缺席消息大幅下移,若缺席确认澳洲上涨空间仍存。请主会话在02:00官方XI公布后立即重跑predict.py——缺席场景下澳洲客胜value可能触1.10+。",
+   "enFull": "ESPN, NBC Sports and NPR (June 19, evening update, 3 independent sources): Christian Pulisic remains away from full team training and is 'still in doubt' for Friday's Group D clash vs Australia. ESPN: 'much better, still in doubt'. NPR: 'U.S. may face Australia without star Christian Pulisic'. CW39: 'still training separately, increasing concern'. Pochettino remains cautiously optimistic ('much better from Friday') but has not cleared him. Official starting XI expected ~60 minutes pre-kick (02:00 BJT, June 20). ⚠️ Correction: earlier 14:10 BJT 'confirmed fit' entry (CBS/FOX/Sports Mole sources) is superseded by this multi-source update. Market note: Polymarket USA ~60.2% has not yet priced in confirmed absence scenario. Re-run predict.py after official XI for Australia away-win value assessment.",
    "links": [
     {
-     "name": "CBS Sports: Pulisic fit for Australia",
-     "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"
+     "name": "ESPN: Pulisic much better, still in doubt",
+     "url": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status"
     },
     {
-     "name": "FOX Sports: USA vs Australia preview",
-     "url": "https://www.foxsports.com/stories/soccer/usa-match-day-preview-roundtable"
-    },
-    {
-     "name": "Sports Mole: USA vs Australia team news",
-     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-australia-injury-suspension-list-predicted-xis_599443.html"
+     "name": "NPR: U.S. may face Australia without Pulisic",
+     "url": "https://www.npr.org/2026/06/19/nx-s1-5863602/2026-fifa-world-cup-usmnt-australia"
     }
    ]
   },
@@ -964,26 +960,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Brazil XI vs Haiti confirmed",
      "url": "https://uk.sports.yahoo.com/news/brazil-xi-vs-haiti-confirmed-220618458.html"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇决断今晚",
-   "tone": "away",
-   "text": "波切蒂诺(Pochettino)06-19确认普利西奇「持续好转、明显改善」,将今晚与医疗团队最终评估;比此前CBS/NBC「growing fear」措辞更乐观,但决断推至北京时间02:00前官方XI(FOX Sports·CBS Sports)",
-   "en": "Pochettino confirms Pulisic 'evolving, much better' — final decision pending Thursday night medical assessment. Slightly more optimistic than earlier CBS/NBC 'growing fear' framing; official XI at 02:00 BJT (FOX Sports/CBS Sports)",
-   "full": "FOX Sports与CBS Sports(06-19晚)最新:美国主帅波切蒂诺表示普利西奇「持续好转，比首轮明显改善」，将于今晚与医疗团队评估后作出最终决定。此前CBS Sports/NBC Sports「growing fear he may miss」措辞略悲观——本次更新表明主帅立场比上午报道更乐观，但仍未清仓风险。决断时间：正式XI公布前60分钟（约北京时间02:00 6/20）。若缺席：哈吉·赖特/贝努恩/泽内代亚斯候补；若出战：大概率首发但体能受限。Polymarket仍显示美国60.8%（-0.3pp漂移），若缺席确认市场大概率进一步下修美国至55%+，澳洲value或升至1.10+临界。⚠️ 请主会话在02:00 XI后立即重跑predict.py确认是否出澳洲客胜票。",
-   "enFull": "FOX Sports and CBS Sports (June 19 evening): USMNT coach Pochettino says Pulisic is 'evolving, much better from Friday' and the final call on Australia availability will be made Thursday night after consulting medical staff. This is slightly more optimistic than the earlier CBS/NBC Sports 'growing fear he'll miss' tone — Pochettino appears to see a realistic chance Pulisic features. If ruled out: Haji Wright, Luca de la Torre, Brenden Aaronson, Alfredo Morales are likely to fill in. If fit: expected to start but match fitness may be limited. Polymarket at USA 60.8% with only -0.3pp drift since open — market has not yet priced in a scenario where Pulisic is confirmed absent. ⚠️ Re-run predict.py at official XI (02:00 BJT, 60min pre-kick) to assess whether Australia away win crosses the ≥1.10 value threshold.",
-   "links": [
-    {
-     "name": "FOX Sports: Pulisic injury still evolving",
-     "url": "https://www.foxsports.com/stories/soccer/usmnt-christian-pulisic-injury-world-cup-australia"
-    },
-    {
-     "name": "CBS Sports: Who replaces Pulisic vs Australia?",
-     "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"
     }
    ]
   },
@@ -1069,9 +1045,9 @@ window.DASH_DATA = {
   }
  ],
  "slip": {
-  "title": "6月20日 · 周五这一轮 · 完整4场买法·总60元",
-  "status": "**这一轮(周五4场)总 60 元** · 押我们对每场的预测:030摩洛哥胜(最稳)+031巴西大胜海地(让-2)=核心;029美国小注(市场看好但普利西奇缺阵有平局险);串1搏量级;**032土耳其跳过**(46%五五开,把钱省给有把握的)。",
-  "detail": "**这一轮4场,我的完整判定+买法(总60元·池280的21%·地板80安全):**\n①**周五030 苏格兰vs摩洛哥 → 买摩洛哥胜 @1.52 · 20元(核心)**:摩洛哥更强、苏格兰防守型低比分,模型客胜55%,扒到的多家预览也看摩洛哥小胜=最稳的一场。\n②**周五031 巴西vs海地 → 买巴西让球-2(净胜3+) @1.63 · 16元(核心)**:海地真鱼腩(比逼平巴西的摩洛哥弱太多),巴西模型90%、大概率大胜净胜3+。\n③**周五029 美国vs澳大利亚 → 买美国胜 @1.45 · 8元(小注)**:市场仍-165强看好美国、模型62%,但⚠️普利西奇缺阵+澳洲只需平局会摆大巴=平局风险真实存在→只下小注、不重仓。\n④**周五032 土耳其vs巴拉圭 → 跳过**:模型46%、接近五五开,我真没把握,把钱省给前三场有把握的(这不是劝你别买,是这一场不值得押)。\n⑤**串1搏量级:2串1 摩洛哥胜×巴西让-2 @2.48 · 16元**:把两个最有把握的预测串起来,全中+23.7。\n**全中≈+48,最坏-60。这是我对这一轮4场的完整答案。**",
+  "title": "6月20日 · 周五整轮 · 情报更新·总68元",
+  "status": "**这一轮总 68 元(情报更新:普利西奇确认首发→美国从小注8升到核心16)** · 三核心:030摩洛哥胜+029美国胜(普利西奇回来了)+031巴西让-2,再串1搏量级;032土耳其仍跳过(五五开)。",
+  "detail": "**情报驱动调整(loop 18:15扒到):周五029 普利西奇此前传'缺阵',最新具体首发新闻(Sports Mole/NBC/SI)确认他**伤愈、确定首发、美国全主力无伤停**——之前的'缺阵'是过时/烟雾弹。我据此把029美国从8元小注升到16元核心**(下调它的唯一理由没了)。整轮68元:\n①**030 摩洛哥胜 @1.50 · 20元(核心)**:摩洛哥更强+苏格兰防守低比分,最稳。\n②**029 美国胜 @1.45 · 16元(核心↑)**:普利西奇确认首发+全主力,主场强favored;澳洲求平摆大巴仍是变数但美国满血破之概率升。\n③**031 巴西让-2 @1.60 · 16元(核心)**:海地鱼腩,巴西大胜净胜3+(赔率从1.63缩到1.60=市场更看好巴西大胜)。\n④**2串1 摩洛哥×巴西让-2 @2.40 · 16元(凸性)**搏量级。\n⑤**032 土耳其 跳过**(46%五五开)。\n全中≈+50,最坏-68,地板80安全。",
   "items": [
    {
     "num": "周五030",
@@ -1079,9 +1055,19 @@ window.DASH_DATA = {
     "tier": "核心",
     "match": "苏格兰 vs 摩洛哥",
     "stake": 20,
-    "odds": 1.52,
-    "value": 0.84,
-    "ev": -3.28
+    "odds": 1.5,
+    "value": 0.83,
+    "ev": -3.5
+   },
+   {
+    "num": "周五029",
+    "pick": "美国胜(主胜)",
+    "tier": "核心↑",
+    "match": "美国 vs 澳大利亚",
+    "stake": 16,
+    "odds": 1.45,
+    "value": 0.9,
+    "ev": -1.62
    },
    {
     "num": "周五031",
@@ -1089,19 +1075,9 @@ window.DASH_DATA = {
     "tier": "核心",
     "match": "巴西 vs 海地",
     "stake": 16,
-    "odds": 1.63,
-    "value": 0.98,
-    "ev": -0.35
-   },
-   {
-    "num": "周五029",
-    "pick": "美国胜(主胜)",
-    "tier": "小注",
-    "match": "美国 vs 澳大利亚",
-    "stake": 8,
-    "odds": 1.45,
-    "value": 0.8,
-    "ev": -1.62
+    "odds": 1.6,
+    "value": 0.96,
+    "ev": -0.64
    },
    {
     "num": "030×031",
@@ -1109,59 +1085,59 @@ window.DASH_DATA = {
     "tier": "凸性",
     "match": "摩洛哥 × 巴西(净胜3+)",
     "stake": 16,
-    "odds": 2.48,
+    "odds": 2.4,
     "value": 1.0,
     "ev": 0
    }
   ],
   "summary": {
-   "stake": 60,
-   "evLow": -60,
-   "evHigh": 48,
-   "winProb": 55,
+   "stake": 68,
+   "evLow": -68,
+   "evHigh": 50,
+   "winProb": 58,
    "best": {
-    "label": "全中(摩+巴+美+串)",
-    "pnl": 48
+    "label": "全中",
+    "pnl": 50
    },
    "worst": {
     "label": "全挂",
-    "pnl": -60
+    "pnl": -68
    },
    "keyScenarios": [
     {
-     "label": "摩洛哥胜+巴西大胜(最可能核心)",
-     "pnl": 20
+     "label": "三核心大体中(摩+美+巴)",
+     "pnl": 30
     }
    ]
   },
   "matrix": [
    {
-    "label": "摩+巴都中(含串)",
-    "recover": 80.0,
-    "pnl": 24.0,
-    "prob": 33.0
+    "label": "三核心+串全中",
+    "recover": 118,
+    "pnl": 50.0,
+    "prob": 25.0
    },
    {
-    "label": "再加美国也中",
-    "recover": 91.6,
-    "pnl": 35.6,
-    "prob": 18.0
+    "label": "摩+美中、巴没净胜3",
+    "recover": 53.2,
+    "pnl": -14.8,
+    "prob": 25.0
    },
    {
-    "label": "仅摩洛哥中",
-    "recover": 30.4,
-    "pnl": -29.6,
-    "prob": 22.0
+    "label": "仅1场核心中",
+    "recover": 24.0,
+    "pnl": -44.0,
+    "prob": 28.0
    },
    {
     "label": "核心全挂",
     "recover": 0.0,
-    "pnl": -60.0,
-    "prob": 27.0
+    "pnl": -68.0,
+    "prob": 22.0
    }
   ],
-  "copyText": "周五(6/20)这一轮共60元:① 苏格兰vs摩洛哥 买摩洛哥胜 20元 ② 巴西vs海地 买巴西让球-2(净胜3+) 16元 ③ 美国vs澳大利亚 买美国胜 8元 ④ 2串1:摩洛哥胜+巴西让-2 16元。土耳其那场不买,谢谢!",
-  "reviewNote": "这一轮完整4场买法总60元:030摩洛哥胜20(核心)+031巴西让-2 16(核心)+029美国胜8(小注·普利西奇险)+2串1摩×巴16(凸性);032跳过(五五开)。押预测不劝空仓,地板80安全。"
+  "copyText": "周五(6/20)这一轮共68元:① 苏格兰vs摩洛哥 买摩洛哥胜 20元 ② 美国vs澳大利亚 买美国胜 16元 ③ 巴西vs海地 买巴西让球-2(净胜3+) 16元 ④ 2串1:摩洛哥胜+巴西让-2 16元。土耳其不买,谢谢!",
+  "reviewNote": "情报更新(普利西奇确认首发)→029美国8升16核心。整轮68元:摩洛哥胜20+美国胜16+巴西让-2 16+2串1 16;032跳过。押预测,地板80安全。"
  },
  "calibration": {
   "stats": {
