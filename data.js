@@ -911,8 +911,14 @@ window.DASH_DATA = {
    "full": "ESPN与Scotsman(06-19)双源确认：苏格兰中卫麦肯纳（Scott McKenna）在因小腿伤缺席首轮对阵海地后，已重返球队全体训练，克拉克主帅在赛前记招中表示全队无缺阵，麦肯纳有望首发出战摩洛哥一役。此前ESPN曾报道麦肯纳周三早训缺席，但随后末轮备战中全员到齐。影响评估：麦肯纳回归填补首轮中卫空缺，苏格兰防守线恢复最强阵；对价值判断影响微弱——苏格兰胜value仍=1.00（<1.10安全边际），空仓判断不变。⚠️正式XI仍须赛前60分钟确认，关注摩洛哥阿格尔德（CB）状态。",
    "enFull": "ESPN and The Scotsman (June 19) both confirm that Scotland CB Scott McKenna has returned to full training ahead of the Morocco World Cup Group C match, overcoming the calf issue that kept him out of the 1-0 win over Haiti. Head coach Steve Clarke confirmed the squad is at full strength at the pre-match press conference. McKenna had briefly missed Wednesday's training session, raising brief concern, but took full part in the final session before the squad flew to Boston. Assessment: McKenna's return restores Scotland's first-choice centre-back pairing; modestly positive for the Scotland defensive structure. Scotland win value remains 1.00 — below the ≥1.10 buy threshold; no-bet stance unchanged. ⚠️ Confirm official XI 60 minutes pre-kick; also monitor Morocco CB Aguerd fitness.",
    "links": [
-    {"name": "ESPN: McKenna returns to Scotland training", "url": "https://www.espn.com/soccer/story/_/id/49095828/scott-mckenna-misses-scotland-training-ahead-world-cup-clash-morocco"},
-    {"name": "Scotsman: Scotland injury boost ahead of Morocco", "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"}
+    {
+     "name": "ESPN: McKenna returns to Scotland training",
+     "url": "https://www.espn.com/soccer/story/_/id/49095828/scott-mckenna-misses-scotland-training-ahead-world-cup-clash-morocco"
+    },
+    {
+     "name": "Scotsman: Scotland injury boost ahead of Morocco",
+     "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"
+    }
    ]
   },
   {
@@ -925,8 +931,14 @@ window.DASH_DATA = {
    "full": "⚠️数据修正（Sports Mole·Yahoo Sports·SI.com 06-19多源）：耶尔迪兹（Kenan Yildiz，尤文图斯）并未「缺席」对阵澳大利亚的首轮（此前条目措辞有误）——他是下半场替补出场，合计上场约45分钟。现状：小腿拉伤仍在恢复中，Sports Mole赛前预测XI标注「Yildiz doubt persists」，蒙泰拉主帅可能再次让他替补登场而非首发。影响评估：耶尔迪兹若替补出场，土耳其首发11人的创造力有所下降；但两队均无法接受再负，高压场景下战术倾向保守。土耳其/巴拉圭所有选项value≤0.93（<1.10闸），空仓判断不变。⚠️正式XI赛前60分钟确认耶尔迪兹是否首发。",
    "enFull": "CORRECTION (Sports Mole, Yahoo Sports, SI.com — multiple sources, June 19): Earlier report stated Kenan Yildiz 'missed' Turkey's 0-2 opening defeat to Australia. Multiple sources confirm he did NOT miss the match — he featured as a second-half substitute, playing approximately 45 minutes. Current status: the calf strain has not fully healed, and Sports Mole's pre-match predicted XI marks 'Yildiz doubt persists' for the Paraguay fixture. Head coach Vincenzo Montella may again prefer to deploy Yildiz off the bench rather than risk a full start. Impact: Turkey likely missing Yildiz from kickoff reduces their attacking creativity in the first half; high-pressure must-win format for both sides may lead to cautious early tactical setup. All Turkey/Paraguay HAD options remain ≤0.93 value — below the ≥1.10 buy threshold; no-bet stance unchanged. ⚠️ Confirm official XI 60 minutes before kick-off.",
    "links": [
-    {"name": "Sports Mole: Yildiz doubt persists Turkey lineup", "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/predicted-lineups/yildiz-doubt-persists-for-montella-predicted-turkey-lineup-vs-paraguay_599445.html"},
-    {"name": "Yahoo Sports: Turkey vs Paraguay predictions", "url": "https://sports.yahoo.com/articles/turkey-vs-paraguay-prediction-world-145000483.html"}
+    {
+     "name": "Sports Mole: Yildiz doubt persists Turkey lineup",
+     "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/predicted-lineups/yildiz-doubt-persists-for-montella-predicted-turkey-lineup-vs-paraguay_599445.html"
+    },
+    {
+     "name": "Yahoo Sports: Turkey vs Paraguay predictions",
+     "url": "https://sports.yahoo.com/articles/turkey-vs-paraguay-prediction-world-145000483.html"
+    }
    ]
   },
   {
@@ -939,9 +951,18 @@ window.DASH_DATA = {
    "full": "CBS Sports、FOX Sports与Sports Mole(06-19)三源确认：波切蒂诺与队医已明确普利西奇(Christian Pulisic)通过医疗评估、确认出战澳大利亚，预计首发。此前「今晚决断、pending medical assessment」条目已升级——美国进攻核心不打折扣。影响：美国阵容完整；Polymarket美国60.8%基本反映此情形，预期无大幅漂移。集成模型美国62.7% vs 市场去水59.1% = edge+3.6pp，低于§3价值安全边际≥1.10门槛，合法空仓纪律不变。",
    "enFull": "CBS Sports, FOX Sports and Sports Mole (June 19, multiple sources) confirm Christian Pulisic has been medically cleared and is expected to start against Australia. Previous 'day-to-day, pending tonight's medical assessment' report is superseded. Impact: USMNT at full attacking strength. Polymarket at USA 60.8% broadly consistent with full-squad scenario. Integrated model: USA 62.7% vs market implied 59.1% — edge +3.6pp remains below the ≥1.10 safety-margin buy threshold (§3). No-bet stance unchanged.",
    "links": [
-    {"name": "CBS Sports: Pulisic fit for Australia", "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"},
-    {"name": "FOX Sports: USA vs Australia preview", "url": "https://www.foxsports.com/stories/soccer/usa-match-day-preview-roundtable"},
-    {"name": "Sports Mole: USA vs Australia team news", "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-australia-injury-suspension-list-predicted-xis_599443.html"}
+    {
+     "name": "CBS Sports: Pulisic fit for Australia",
+     "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"
+    },
+    {
+     "name": "FOX Sports: USA vs Australia preview",
+     "url": "https://www.foxsports.com/stories/soccer/usa-match-day-preview-roundtable"
+    },
+    {
+     "name": "Sports Mole: USA vs Australia team news",
+     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-australia-injury-suspension-list-predicted-xis_599443.html"
+    }
    ]
   },
   {
@@ -1397,58 +1418,80 @@ window.DASH_DATA = {
    ]
   }
  ],
- "slip":  {
-  "title": "6月20日 · 周五批 · fade-favorite 前向验证·首注",
-  "status": "**真钱 4 元** · 这是 agent 第一次从数据挖出的可能真 edge。28场复盘→24场回测:模型重押热门时**押平局** ROI **+62.8%**(平局被系统性低估,实际33% vs 赔率隐含26%)。今晚 029 押平=**小注前向验证**,不是定论(~35-50%置信,后半段在衰减)。",
-  "detail": "**为什么破空仓出这一注(和之前的-EV乱注本质不同):** 这不是为参与/学习而下的-EV注,是从28场复盘→24场回测**推出来的、有正期望证据的真edge假设**:模型push某队赢且conf≥60%时押平局,回测ROI+62.8%(去掉最大单盈仍+27.5%),机制=48队扩军使平局率33-36%远超市场定价的~26%,平局被系统性低估。**今晚标的:周五029 美国vs澳大利亚 押平@3.83**——美国62%中等热门、澳大利亚不弱(本届2:0赢土耳其)='热门被拖平'高发结构;按实际33%平局率价值=0.33×3.83=**1.26>1.10闸**。**诚实交底(绝不自欺):①样本仅24场8个平局,统计未显著,真edge概率我估~35-50%;②后半段ROI已从+53%衰减到+5.8%=市场可能在修正,这是最大风险;③按模型自己的平局概率(22%)这注是-EV(0.84),'1.26'押的是'平局高发规律持续'这个未证实假设。** 所以**只下4元(前向测试tier·1.5%池),不按value放大**。这是验证一个假设的第一注,连下15-20注看ROI+CLV站不站得住:站住=第一个真edge可加仓可迁股市,不站住=诚实砍掉。台账:model_state/fade_favorite_forward.json。不碰031巴西-海地(海地真鱼腩,非'被组织型弱队拖平'模式)。",
+ "slip": {
+  "title": "6月20日 · 周五批 · fade-favorite 前向验证·真钱24元",
+  "status": "**真钱 24 元(池8.6%)** · agent第一个数据挖出的边、下真注了。28场复盘→回测:模型重押热门时押平 ROI+62.8%。今晚 029押平16 + 030押平8。**诚实:未证实(~35-50%置信)、后半段在衰减;按边强度下半凯利量级,边越验证越加仓,不是token也不是梭哈。**",
+  "detail": "**为什么这次下真钱24元、不是4元也不是梭哈200:** 4元太怂(信就下真钱);但满凯利梭哈是在未证实的边上压重注=赌。正解=按边强度下**半凯利量级**,边越被前向验证、越加仓。回测:模型push某队赢押平,大热门(conf≥60%)ROI+62.8%、全样本+29.5%,机制=48队扩军平局率33-36%远超隐含26%。**今晚两注:①周五029美国vs澳大利亚押平@3.83·16元**(美国62%最强spot,价值=0.33×3.83=1.26)**②周五030苏格兰vs摩洛哥押平@3.42·8元**(摩洛哥55%客热、本届被巴西逼平、防守型爱踢平,价值1.13次级)。共24元≈池8.6%,最坏全损→池255.5、地板80安全;命中029平=回+45。**诚实红线**:统计未显著(24场8平)、真edge置信~35-50%、**后半段ROI从+53%衰减到+5.8%=市场可能在修正(最大风险)**、按模型自身概率(平22%)这两注是-EV,'1.26/1.13'押的是'平局高发规律持续'这个未证实假设。不碰031巴西-海地(海地真鱼腩非'组织型弱队拖平'模式);032土耳其-巴拉圭跳过(46%五五开、模型≈市场无边,不凑数)。停止规则见宪法§14:连15-20注看ROI+CLV判生死,站住=加仓+迁股市。",
   "items": [
    {
     "num": "周五029",
     "pick": "平局 · 美国 vs 澳大利亚",
     "tier": "前向验证",
     "match": "美国 vs 澳大利亚",
-    "stake": 4,
+    "stake": 16,
     "odds": 3.83,
     "value": 1.26,
-    "ev": 1.06
+    "ev": 4.22
+   },
+   {
+    "num": "周五030",
+    "pick": "平局 · 苏格兰 vs 摩洛哥",
+    "tier": "前向验证",
+    "match": "苏格兰 vs 摩洛哥",
+    "stake": 8,
+    "odds": 3.42,
+    "value": 1.13,
+    "ev": 1.03
    }
   ],
   "summary": {
-   "stake": 4,
-   "evLow": -0.4,
-   "evHigh": 1.06,
-   "winProb": 33,
+   "stake": 24,
+   "evLow": -2.0,
+   "evHigh": 5.25,
+   "winProb": 55,
    "best": {
-    "label": "平局命中",
-    "pnl": 11.3
+    "label": "两场都平",
+    "pnl": 64.7
    },
    "worst": {
-    "label": "分出胜负(美/澳赢)",
-    "pnl": -4
+    "label": "两场都分胜负",
+    "pnl": -24
    },
    "keyScenarios": [
     {
-     "label": "最可能:分出胜负(~67%)",
-     "pnl": -4
+     "label": "最可能:两场都分胜负(~45%)",
+     "pnl": -24
     }
    ]
   },
   "matrix": [
    {
-    "label": "平局命中(押中)",
-    "recover": 15.3,
-    "pnl": 11.3,
-    "prob": 33.0
+    "label": "两场都平(全中)",
+    "recover": 88.7,
+    "pnl": 64.7,
+    "prob": 11.0
    },
    {
-    "label": "美国或澳大利亚赢(挂)",
+    "label": "仅029美澳平",
+    "recover": 61.3,
+    "pnl": 37.3,
+    "prob": 22.0
+   },
+   {
+    "label": "仅030苏摩平",
+    "recover": 27.4,
+    "pnl": 3.4,
+    "prob": 22.0
+   },
+   {
+    "label": "两场都分胜负(全挂)",
     "recover": 0.0,
-    "pnl": -4.0,
-    "prob": 67.0
+    "pnl": -24.0,
+    "prob": 45.0
    }
   ],
-  "copyText": "周五(6/20):美国 vs 澳大利亚 平局 4元,谢谢!",
-  "reviewNote": "fade-favorite前向验证首注·4元押平@3.83(029)。诚实:未证实edge(~35-50%置信),回测+62.8%但后半段衰减;按empirical33%价值1.26过闸,按模型22%是-EV。小注前向测试,绝不放大。台账已建,连15-20注评估ROI+CLV。"
+  "copyText": "周五(6/20)两注共24元:① 美国vs澳大利亚 平局 16元 ② 苏格兰vs摩洛哥 平局 8元,谢谢!",
+  "reviewNote": "fade-favorite前向验证·真钱24元(029押平16+030押平8)。半凯利量级,边越验证越加仓。诚实:未证实~35-50%置信、后半段衰减、按模型是-EV;empirical33%过闸。地板80安全。台账2注pending。"
  },
  "calibration": {
   "stats": {
