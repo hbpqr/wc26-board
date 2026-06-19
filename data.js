@@ -678,34 +678,14 @@ window.DASH_DATA = {
   }
  ],
  "holdings": {
-  "invested": 22,
-  "returned": 113.3,
+  "invested": 0,
+  "returned": 0,
   "pendingStake": 0,
-  "condEV": 3.4,
-  "condWinProb": 22.5,
-  "tickets": [
-   {
-    "match": "澳大利亚 vs 土耳其",
-    "pick": "胜平负·澳大利亚胜",
-    "stake": 22,
-    "odds": 5.15,
-    "status": "win",
-    "payout": 113.3
-   }
-  ],
-  "scenariosTitle": "澳土终局推演 · 本轮22元在场盈亏(柱上为概率)",
-  "scenarios": [
-   {
-    "label": "澳大利亚胜",
-    "pnl": 91,
-    "prob": 22.5
-   },
-   {
-    "label": "澳不胜",
-    "pnl": -22,
-    "prob": 77.5
-   }
-  ]
+  "condEV": 0,
+  "condWinProb": 0,
+  "tickets": [],
+  "scenariosTitle": "当前无在场持仓(真钱等真edge/已下注后在此显示)",
+  "scenarios": []
  },
  "focus": [
   {
