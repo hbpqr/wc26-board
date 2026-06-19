@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 04:50",
+  "updated": "2026-06-20 05:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -147,6 +147,10 @@ window.DASH_DATA = {
    },
    {
     "d": "06-19",
+    "v": 279.5
+   },
+   {
+    "d": "06-20",
     "v": 279.5
    }
   ],
@@ -308,6 +312,16 @@ window.DASH_DATA = {
      "🏆 墨西哥 1:0 韩国(09:00 完赛)",
      "　集成47.1%主胜方向正确(Brier ens≈0.422) | 无持仓，无资金影响",
      "📊 当日4场全终：无持仓，池 279.5 不变"
+    ]
+   },
+   {
+    "d": "06-20",
+    "pool": 279.5,
+    "pnl": 0,
+    "records": [
+     "🏆 美国 2:0 澳大利亚(03:00 完赛)",
+     "　集成62.7%主胜方向正确(Brier≈0.21，优) | 普利西奇缺席·佩皮首发 | §14 fade-平未触发(负CLV-16%) | 无持仓，无资金影响",
+     "📊 当日小计：本轮其余3场待踢(030/031/032)，无持仓，池 279.5 不变"
     ]
    }
   ],
@@ -681,7 +695,8 @@ window.DASH_DATA = {
    "home": "美国",
    "away": "澳大利亚",
    "time": "06-20 03:00",
-   "status": "pending",
+   "status": "finished",
+   "actual": "2:0",
    "predManual": "见slip(美国胜16元@1.45)",
    "predModel": "主胜60.2%",
    "ensemble": {
@@ -689,7 +704,7 @@ window.DASH_DATA = {
     "d": 22.4,
     "a": 17.4
    },
-   "note": ""
+   "note": "终场：美国2:0澳大利亚。集成62.7%主胜方向正确(Brier≈0.21，优)。普利西奇赛前确认缺席(小腿伤，佩皮首发)，美国仍以2:0完胜。§14 fade-favorite平局未触发(竞彩平3.90 vs Polymarket公平4.63，负CLV-16%)。无持仓，资金不变。"
   },
   {
    "num": "周五030",
@@ -748,56 +763,6 @@ window.DASH_DATA = {
   "scenarios": []
  },
  "focus": [
-  {
-   "num": "周五029",
-   "home": "美国",
-   "away": "澳大利亚",
-   "time": "06-20 03:00",
-   "models": {
-    "A": [
-     61.1,
-     23.1,
-     15.8
-    ],
-    "B": [
-     65.7,
-     20.9,
-     13.4
-    ],
-    "C": [
-     63.2,
-     22.2,
-     14.6
-    ],
-    "ens": [
-     62.7,
-     22.4,
-     15.0
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.45,
-     "prob": 62.7,
-     "value": 0.91
-    },
-    {
-     "pick": "平局",
-     "odds": 3.83,
-     "prob": 22.4,
-     "value": 0.86
-    },
-    {
-     "pick": "客胜",
-     "odds": 5.6,
-     "prob": 15.0,
-     "value": 0.84
-    }
-   ],
-   "scores": [],
-   "verdict": "空仓(HAD价值0.91/0.86/0.84，HHAD(-1)让胜1.00/edge+4.4pp，全<1.10)。情报：普利西奇（Pulisic）小腿轻伤大概率出战；澳大利亚图雷（Toure）腿部抽筋大概率出战——两队伤情均已公开，市场已price-in。无新的未定价硬信息差。§13.1空仓。"
-  },
   {
    "num": "周五030",
    "home": "苏格兰",
@@ -945,26 +910,6 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "06-20",
-   "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇官方缺阵",
-   "tone": "away",
-   "text": "官方确认：普利西奇(Pulisic)左小腿伤缺席对澳大利亚·里卡多·佩皮(Pepi)顶替首发；波切蒂诺赛前60分钟官方宣告(Yahoo Sports·NPR·Fox Sports 06-20 02:00前)",
-   "en": "OFFICIAL: Pulisic (left calf) ruled out vs Australia — Ricardo Pepi starts in attack. Pochettino confirmed at pre-match presser. (Yahoo Sports/NPR/Fox Sports, June 20, pre-kick)",
-   "full": "Yahoo Sports赛前直播页、NPR(06-20)、Fox Sports(06-20)多源一致确认：普利西奇(Christian Pulisic)因首轮对阵巴拉圭受伤加重的左小腿伤正式缺席对阵澳大利亚一役，波切蒂诺在赛前发布会确认他不在首发名单并将不上场。里卡多·佩皮(Ricardo Pepi)顶替首发锋线。这推翻了此前「大概率出战」的所有估计（ESPN「much better」、CBS/FOX确认等均被最终官方发布覆盖）。⚠️影响：普利西奇是美国最强攻击核心(首轮4:1对巴拉圭的4球助攻+进攻组织均来自他)，缺席场景下美国进攻威胁显著下降，澳大利亚客胜概率上升。market当前美国主胜@1.44，原focus写空仓(value0.91)——Pulisic出战vs缺席在predict.py中有两套概率，主会话须重跑核查缺席场景下澳洲客胜value是否触1.10+。§14 fade-favorite协议提示：美国conf≥60%→押平@3.83 4元（如条件仍满足）。",
-   "enFull": "Yahoo Sports live updates, NPR and Fox Sports (June 20, pre-match) all confirm: Christian Pulisic has been officially ruled OUT of USA vs Australia due to an aggravated left calf injury sustained in the USA's 4-1 win over Paraguay. Pochettino confirmed at the pre-match press conference with Ricardo Pepi named as his replacement in attack. This supersedes all earlier 'likely out' and 'much better' reports. Impact: Pulisic orchestrated all attacking play vs Paraguay (assists + pressing); without him USA's creative output drops markedly, raising Australia's probability. Existing focus says no-bet (value 0.91 — below 1.10) based on pre-injury context. Main session must re-run predict.py with Pulisic-out scenario to check if Australia away win value reaches 1.10+. §14 fade-favorite check: if USA confidence still ≥60% in model → flat bet on Draw @3.83 / 4 yuan applies.",
-   "links": [
-    {
-     "name": "Yahoo Sports: USMNT vs Australia live updates – Pulisic ruled out",
-     "url": "https://sports.yahoo.com/soccer/live/usmnt-vs-australia-score-live-updates-where-to-watch-world-cup-2026-christian-pulisic-injury-news-lineups-170000908.html"
-    },
-    {
-     "name": "NPR: Christian Pulisic will not play vs Australia",
-     "url": "https://www.npr.org/2026/06/19/nx-s1-5863602/2026-fifa-world-code-usmnt-australia"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
    "match": "土耳其 vs 巴拉圭",
    "impact": "阿尔米龙确认首发",
    "tone": "away",
@@ -1020,26 +965,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Turkey vs Paraguay predictions",
      "url": "https://sports.yahoo.com/articles/turkey-vs-paraguay-prediction-world-145000483.html"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇仍独立训练",
-   "tone": "away",
-   "text": "ESPN·NBC Sports·NPR(06-19 18:00前后):普利西奇仍未回归全队训练,「仍存疑」;Pochettino称「much better」但决定待官方XI(北京时间06-20 02:00)前确认——⚠️修正此前「确认出战」报道",
-   "en": "ESPN/NBC Sports/NPR (June 19, latest): Pulisic still training separately from squad, 'still in doubt' for Australia — Pochettino says 'much better' but no clearance yet; decision before official XI (02:00 BJT Jun 20). ⚠️ Corrects earlier 'confirmed fit' reports.",
-   "full": "ESPN、NBC Sports与NPR(06-19晚最新三源)一致确认:普利西奇(Pulisic)小腿伤仍未通关,截至北京时间18:00仍独立训练而非随队合练——ESPN标题「much better, still in doubt vs Australia」、NPR标题「U.S. may face Australia without Pulisic」、CW39「still training separately, increasing concern」。波切蒂诺态度乐观(「much better」)但未确认可战,最终决定将于官方XI公布前(约北京时间06-20 02:00,赛前60分钟)给出。⚠️修正:此前14:10「确认出战」条目(CBS/FOX/Sports Mole来源)已被本轮更新推翻。影响评估:市场Polymarket美国60.2%-60.8%尚未因缺席消息大幅下移,若缺席确认澳洲上涨空间仍存。请主会话在02:00官方XI公布后立即重跑predict.py——缺席场景下澳洲客胜value可能触1.10+。",
-   "enFull": "ESPN, NBC Sports and NPR (June 19, evening update, 3 independent sources): Christian Pulisic remains away from full team training and is 'still in doubt' for Friday's Group D clash vs Australia. ESPN: 'much better, still in doubt'. NPR: 'U.S. may face Australia without star Christian Pulisic'. CW39: 'still training separately, increasing concern'. Pochettino remains cautiously optimistic ('much better from Friday') but has not cleared him. Official starting XI expected ~60 minutes pre-kick (02:00 BJT, June 20). ⚠️ Correction: earlier 14:10 BJT 'confirmed fit' entry (CBS/FOX/Sports Mole sources) is superseded by this multi-source update. Market note: Polymarket USA ~60.2% has not yet priced in confirmed absence scenario. Re-run predict.py after official XI for Australia away-win value assessment.",
-   "links": [
-    {
-     "name": "ESPN: Pulisic much better, still in doubt",
-     "url": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status"
-    },
-    {
-     "name": "NPR: U.S. may face Australia without Pulisic",
-     "url": "https://www.npr.org/2026/06/19/nx-s1-5863602/2026-fifa-world-cup-usmnt-australia"
     }
    ]
   },
@@ -1123,26 +1048,6 @@ window.DASH_DATA = {
     }
    ]
   },
-  {
-   "date": "06-20",
-   "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇大概缺阵",
-   "tone": "away",
-   "text": "FanDuel·Sports Mole(06-20 00:10 BJT)双源升级:普利西奇仍独立训练·「大概率缺席首发」·Weah预计替补左翼位——官方XI约02:00 BJT(赛前60分钟)发布",
-   "en": "FanDuel/Sports Mole (Jun 20 00:10 BJT, dual-source upgrade): Pulisic 'likely OUT', still training alone — Weah expected to start LW; official XI ~02:00 BJT (60 min pre-kick)",
-   "full": "FanDuel与Sports Mole(北京时间06-20 00:10双源升级):普利西奇截至午夜前仍单独训练，未通关随队合练，两源均判断\"likely OUT for USA vs Australia\"。FanDuel文章题目含\"pulisic-out\"，预测首发以蒂莫西·韦阿(Timothy Weah)替代普利西奇担任左翼；Sports Mole：\"hard to see him starting against Australia\"。此前ESPN/NBC/NPR(06-19 18:00)「still in doubt·much better」为最新官方表态，但零点后无新出站消息，多家预测媒体已将其定位为缺席。⚠️slip冲突警告：当前slip写明「临场名单确认:普利西奇首发(美国全主力)」——与本条证据相悖。官方XI约02:00 BJT发布，请主会话届时：①确认XI→更新slip缺席场景论据；②重跑predict.py评估澳洲客胜value（缺席场景概率或升至20-25%，value或触1.10+临界；Polymarket美国60.2%目前未price-in完整缺席）。",
-   "enFull": "FanDuel and Sports Mole (Jun 20, 00:10 BJT dual-source upgrade): Christian Pulisic still training alone ahead of USA vs Australia — multiple pre-kickoff outlets now calling him 'likely OUT'. FanDuel article titled 'pulisic-out' projects Weah to start at LW. Sports Mole: 'hard to see him starting against Australia'. Prior ESPN/NBC/NPR triple-source (Jun 19, 18:00 BJT) remains the latest official read ('still in doubt, much better'). Official starting XI expected ~02:00 BJT (60 min pre-kick). ⚠️ Slip conflict: current slip states 'Pulisic confirmed starter (USA full strength)' — contradicts this evidence. Main session must: ① confirm XI at 02:00; ② re-run predict.py for Pulisic-out scenario (Australia away win value may reach 1.10+ threshold; Polymarket USA 60.2% has not fully priced in confirmed absence).",
-   "links": [
-    {
-     "name": "FanDuel: Pulisic out, USA vs Australia lineups",
-     "url": "https://www.fanduel.com/research/us-vs-australia-confirmed-lineups-predictions-projections-availability-world-cup-2026-pulisic-out"
-    },
-    {
-     "name": "Sports Mole: USA predicted lineup vs Australia",
-     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/predicted-lineups/will-pulisic-be-fit-to-start-predicted-usa-lineup-vs-australia_599438.html"
-    }
-   ]
-  }
  ],
  "slip": {
   "title": "6月20日 · 周五整轮 · 21:00最终单·总52元",
