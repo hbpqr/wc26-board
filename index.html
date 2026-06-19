@@ -1082,8 +1082,10 @@ document.getElementById("bank-now").innerHTML = `
   <div class="blk"><span class="k">本金</span><span class="v num" style="color:var(--dim)">${B.start}</span></div>
   <div class="blk"><span class="k">安全垫(高方差预算)</span><span class="v num pos">${cushion.toFixed(1)}</span></div>
   <div class="blk"><span class="k">保本线 / 绝对地板</span><span class="v num neg">${B.start} / ${B.floor}</span></div>`;
-document.getElementById("ms-strip").innerHTML = B.milestones.map(m => `
-  <div class="ms"><div class="t">${m.target}</div><div class="l">${m.date} ${m.label}</div></div>`).join("");
+document.getElementById("ms-strip").innerHTML = B.milestones.map(m => {
+  const missed = m.status === "missed";
+  return `<div class="ms"${missed ? ' style="opacity:.5"' : ''}><div class="t"${missed ? ' style="text-decoration:line-through;color:var(--faint)"' : ''}>${m.target}</div><div class="l">${m.date} ${m.label}${missed ? ` · 未达(实${m.actual})` : ''}</div></div>`;
+}).join("");
 // 铁律收进下钻(参考性内容,不占主界面);数字动态,免得加了规则对不上
 document.getElementById("rules-btn").textContent = `作战纪律 · ${B.rules.length} 条铁律(点击展开) ▸`;
 document.getElementById("rules-btn").onclick = () => openModal(`资金作战纪律 · ${B.rules.length} 条铁律`, [{ label: "纪律", html:
