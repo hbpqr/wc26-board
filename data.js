@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 23:10",
+  "updated": "2026-06-20 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1084,22 +1084,22 @@ window.DASH_DATA = {
    ]
   },
   {
-   "date": "06-19",
+   "date": "06-20",
    "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇疑缺席",
+   "impact": "普利西奇大概缺阵",
    "tone": "away",
-   "text": "普利西奇(Pulisic)对巴拉圭后小腿伤：CBS Sports·NBC Sports 06-19最新——未参加完整训练，疑缺席澳洲战；\"确认出战\"报道已过时；澳洲图雷(Toure)可用",
-   "en": "Pulisic (calf vs Paraguay) has not returned to full training as of June 19 — 'growing fear he may miss' Australia per CBS/NBC Sports; earlier 'confirmed fit' reports superseded; Toure available for Australia",
-   "full": "CBS Sports与NBC Sports(06-19最新)：普利西奇首轮对阵巴拉圭(4:1)伤退后，截至06-19尚未参与美国队完整训练，仅进行个人康复，距澳洲战不足48小时，\"growing fear he'll be unavailable\"(CBS Sports语)。CBS Sports专文《If Pulisic can't go, who replaces USA Soccer's star?》，候补：Reyna/Zendejas/Weah/Aaronson。此前\"will be fit to feature\"早期报道已被本更新取代。澳大利亚图雷(Mohamed Toure)小腿轻微，已确认可用。⚠️市场提醒：Polymarket(06-19实时拉取)仍显示美国60.8%、开盘以来仅漂移-0.3pp——若普利西奇确实缺席，该幅度严重低估澳洲上涨空间；澳洲胜@5.60当前value=0.84(model15%)，缺席场景概率或升至20-25%、value或触1.10+临界。**请主会话在正式XI公布后(赛前60分钟)重跑predict.py评估是否出澳洲客胜票。**",
-   "enFull": "CBS Sports and NBC Sports (June 19, updated): Christian Pulisic (calf, USA vs Paraguay 4-1) has not returned to full team training as of June 19 — with under 48 hours before the Australia Group D clash, 'growing fear he will be unavailable' per CBS Sports, who published 'If Pulisic can't go, who replaces him?' citing Reyna, Zendejas, Weah and Aaronson. Earlier 'confirmed fit to feature' reports are superseded. Australia's Toure (calf cramp, Turkey opener) confirmed available. Market signal: Polymarket (live pull June 19) shows USA still at 60.8% with only -0.3pp drift since June 17 open — if Pulisic is genuinely absent, this appears to underestimate Australia's upside. Australia win @5.60 currently valued at 0.84 (model 15%); Pulisic-out scenario likely raises true probability to 20-25%, potentially pushing value above the 1.10 threshold. Main session: re-run predict.py after official XI confirmed (60 min pre-kick) to assess Australia away win as potential bet trigger.",
+   "text": "FanDuel·Sports Mole(06-20 00:10 BJT)双源升级:普利西奇仍独立训练·「大概率缺席首发」·Weah预计替补左翼位——官方XI约02:00 BJT(赛前60分钟)发布",
+   "en": "FanDuel/Sports Mole (Jun 20 00:10 BJT, dual-source upgrade): Pulisic 'likely OUT', still training alone — Weah expected to start LW; official XI ~02:00 BJT (60 min pre-kick)",
+   "full": "FanDuel与Sports Mole(北京时间06-20 00:10双源升级):普利西奇截至午夜前仍单独训练，未通关随队合练，两源均判断\"likely OUT for USA vs Australia\"。FanDuel文章题目含\"pulisic-out\"，预测首发以蒂莫西·韦阿(Timothy Weah)替代普利西奇担任左翼；Sports Mole：\"hard to see him starting against Australia\"。此前ESPN/NBC/NPR(06-19 18:00)「still in doubt·much better」为最新官方表态，但零点后无新出站消息，多家预测媒体已将其定位为缺席。⚠️slip冲突警告：当前slip写明「临场名单确认:普利西奇首发(美国全主力)」——与本条证据相悖。官方XI约02:00 BJT发布，请主会话届时：①确认XI→更新slip缺席场景论据；②重跑predict.py评估澳洲客胜value（缺席场景概率或升至20-25%，value或触1.10+临界；Polymarket美国60.2%目前未price-in完整缺席）。",
+   "enFull": "FanDuel and Sports Mole (Jun 20, 00:10 BJT dual-source upgrade): Christian Pulisic still training alone ahead of USA vs Australia — multiple pre-kickoff outlets now calling him 'likely OUT'. FanDuel article titled 'pulisic-out' projects Weah to start at LW. Sports Mole: 'hard to see him starting against Australia'. Prior ESPN/NBC/NPR triple-source (Jun 19, 18:00 BJT) remains the latest official read ('still in doubt, much better'). Official starting XI expected ~02:00 BJT (60 min pre-kick). ⚠️ Slip conflict: current slip states 'Pulisic confirmed starter (USA full strength)' — contradicts this evidence. Main session must: ① confirm XI at 02:00; ② re-run predict.py for Pulisic-out scenario (Australia away win value may reach 1.10+ threshold; Polymarket USA 60.2% has not fully priced in confirmed absence).",
    "links": [
     {
-     "name": "NBC Sports: Pulisic injury update vs Australia",
-     "url": "https://www.nbcsports.com/soccer/news/christian-pulisic-injury-news-latest-update-on-usmnt-star-ahead-of-key-australia-clash"
+     "name": "FanDuel: Pulisic out, USA vs Australia lineups",
+     "url": "https://www.fanduel.com/research/us-vs-australia-confirmed-lineups-predictions-projections-availability-world-cup-2026-pulisic-out"
     },
     {
-     "name": "CBS Sports: Who replaces Pulisic vs Australia?",
-     "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"
+     "name": "Sports Mole: USA predicted lineup vs Australia",
+     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/predicted-lineups/will-pulisic-be-fit-to-start-predicted-usa-lineup-vs-australia_599438.html"
     }
    ]
   }
