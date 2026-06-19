@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-19 09:10",
+  "updated": "2026-06-19 10:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -784,6 +784,20 @@ window.DASH_DATA = {
  "news": [
 {
    "date": "06-19",
+   "match": "巴西 vs 海地",
+   "impact": "内马尔伤缺",
+   "tone": "home",
+   "text": "内马尔(Neymar)小腿伤缺席对阵海地，巴西将无缘其世界杯首场；海地中场莱维顿·皮埃尔(肌肉)整届告别，海地首战1:0负苏格兰，积分垫底(RotoWire·ESPN·Sports Mole)",
+   "en": "Neymar (calf) ruled out vs Haiti; Brazil's star absent for WC opener. Haiti's Leverton Pierre (muscle) out for tournament. Haiti bottom of Group C after 1-0 loss to Scotland (RotoWire·ESPN·Sports Mole)",
+   "full": "RotoWire、ESPN与Sports Mole三源确认(06-19)：内马尔因小腿伤缺席巴西首场对阵海地，甚至不会随队出行。巴西首战以1:1平摩洛哥，目前积1分排小组第二，落后苏格兰(3分)。即便无内马尔，巴西阵中拥有维尼修斯、拉斐尼亚、帕克塔、居纳(Cunha)等进攻选手，仍为绝对主队。Polymarket市场：巴西胜88.1%/平8.3%/海地3.6%；让球-2盘口价值闸评估：让胜val=1，但verdict=信市场让线(mirage=true)，模型镜像，不构成下注理由。海地方面：莱维顿·皮埃尔(中场)肌肉伤确认整届缺阵，首战1:0负苏格兰，进攻资源极度匮乏。综合：内马尔缺席和海地残阵均为市场定价已纳入的信息，无新增硬信息差，合法空仓不变。⚠️ 内马尔伤势是否影响下一场需赛后更新。",
+   "enFull": "RotoWire, ESPN and Sports Mole (June 19) all confirm: Neymar is ruled out of Brazil's second group match vs Haiti due to a calf injury and will not even travel with the squad. Brazil drew 1-1 with Morocco in their opener and sit 2nd in Group C with 1 point, trailing Scotland (3 points). Despite Neymar's absence, Brazil field Vinicius Jr, Raphinha, Paquetá and Matheus Cunha in attack — still the overwhelming favourite. Polymarket: Brazil 88.1% / Draw 8.3% / Haiti 3.6%. HHAD -2 market check: val=1, edge=6.5% but mirage=true (deep handicap, model mirrors market), verdict 'trust market line' — not a bet trigger. Haiti: Leverton Pierre (muscle) out for the entire tournament; lost 1-0 to Scotland in Group C opener. No unpriced hard edge on either side — no-bet stance unchanged.",
+   "links": [
+    {"name": "RotoWire: Brazil vs Haiti preview", "url": "https://www.rotowire.com/soccer/article/brazil-vs-haiti-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-118660"},
+    {"name": "ESPN: Brazil vs Haiti World Cup 2026 preview", "url": "https://www.espn.com/soccer/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"}
+   ]
+  },
+{
+   "date": "06-19",
    "match": "苏格兰 vs 摩洛哥",
    "impact": "Bounou臂伤存疑",
    "tone": "away",
@@ -1051,34 +1065,6 @@ window.DASH_DATA = {
    ]
   },
 {
-   "date": "06-16",
-   "match": "阿根廷 vs 阿尔及利",
-   "impact": "塔利亚菲科缺席",
-   "tone": "away",
-   "text": "阿根廷主力左后卫塔利亚菲科确认比目鱼肌撕裂,缺席对阵阿尔及利及第二场奥地利,梅迪纳补位首发(Mundo Albiceleste·OneFootball 06-11确认)",
-   "en": "Argentina LB Nicolás Tagliafico ruled out vs Algeria and Austria (soleus tear); Facundo Medina to start at left back (Mundo Albiceleste/OneFootball confirmed)",
-   "full": "Mundo Albiceleste(06-11)与OneFootball多篇报道确认:阿根廷主力左后卫尼古拉斯·塔利亚菲科(Lyon)在赛前约一周确诊比目鱼肌撕裂,医疗检测确认缺席阿尔及利及第二场奥地利。斯卡洛尼决定保留其在26人名单内(他是最有经验的左后卫,等待赛后恢复期望淘汰赛回归)。补位:法昆多·梅迪纳(RC朗斯)预计出发首发——攻守能力均弱于塔利亚菲科。影响评估:阿根廷防守端有一定削弱,但阿尔及利进攻亦残缺(本塞巴尼缺席),净影响有限。价值判断不变:集成概率约88%,HHAD value≈0.97<1.10安全边际——仍空仓。⚠️ 如塔利亚菲科赛前突然伤愈复出需重扫。",
-   "enFull": "Mundo Albiceleste (June 11) and OneFootball (June 11-16) confirmed: Argentina first-choice left back Nicolás Tagliafico sustained a soleus muscle tear roughly one week before the tournament, ruling him out for matches vs Algeria (Group J opener) and Austria (Match 2). Scaloni retains Tagliafico on the 26-man roster — he is Argentina's most experienced LB, with hopes of a recovery race for the knockout stages. Replacement: Facundo Medina (RC Lens) to start at left back — a more defensive-minded option with lower attacking output. Impact: Argentina's defensive vulnerability is slightly elevated, but Algeria are also depleted (Bensebaini absent) and lack elite attacking depth. Net effect is limited. ⚠️ Value unchanged: Argentina integrated probability ~88%, HHAD value ≈0.97 — below the ≥1.10 buy threshold. No-bet stance holds. Monitor for last-minute Tagliafico recovery.",
-   "links": [
-    {"name": "Mundo Albiceleste: Tagliafico to miss two World Cup matches", "url": "https://mundoalbiceleste.com/2026/06/11/nicolas-tagliafico-set-to-miss-two-matches-for-argentina-national-team-at-world-cup/"},
-    {"name": "OneFootball: Why Tagliafico stays in squad despite injury", "url": "https://onefootball.com/es/noticias/why-nicolas-tagliafico-stays-in-the-world-cup-squad-despite-injury-43004515"}
-   ]
-  },
-{
-   "date": "06-16",
-   "match": "阿根廷 vs 阿尔及利",
-   "impact": "梅西腿伤全愈三核就绪",
-   "tone": "home",
-   "text": "斯卡洛尼赛前确认梅西大腿疲劳伤已完全康复、将按计划首发200帽；ESPN证实阿根廷'三核无虞'——梅西、E.马丁内斯与胡利安·阿尔瓦雷斯均已就绪，阵容可控平静(ESPN·Business Standard)",
-   "en": "Scaloni confirms Messi's hamstring 'totally recovered' — no more minute-management caveat; ESPN: 'Argentina calm' with Messi, Emi Martinez AND Julián Álvarez all fit ahead of Algeria opener (ESPN·Business Standard)",
-   "full": "ESPN（06-16）及Business Standard赛前最新确认:①梅西大腿疲劳伤已完全康复——与此前「斯卡洛尼将管控分钟数(large腿担忧)」的表述相比，这是一次明确升级。斯卡洛尼表示球队「对阵容状况平静自信」，无需出于保护目的限制梅西出场时间。②胡利安·阿尔瓦雷斯（曼城）亦获独立确认健康就绪——此前仅提到「训练返回」，现已升级为完全可战。③埃米利亚诺·马丁内斯（手指骨折赛前）在此前消息基础上再次获确认首发门将位置。综合三重确认：阿根廷核心竞争力高于「梅西受限保护」的悲观场景。但价值层面不变：阿根廷集成概率约88%，-1让胜 value≈0.90，胜平负最优值≈0.80，仍均低于≥1.10价值闸——空仓决定不变。",
-   "enFull": "ESPN (June 16) and Business Standard pre-match update: ① Lionel Messi's hamstring ailment is 'totally recovered' per Scaloni — a clear upgrade from earlier 'minute management due to ongoing concern' status; no protective substitution planned. Scaloni described the squad as 'calm' ahead of Algeria. ② Julián Álvarez (Man City) is independently confirmed fully fit — upgraded from 'returned to training' to 'available to play'. ③ Emiliano Martínez (broken finger pre-tournament) confirmed fit again as starter. Three-pronged fitness confirmation means Argentina's attacking depth is at expected capacity, not the protected scenario. Value unchanged: Argentina integrated probability ~88%; HHAD value ≈0.90; HAD best value ≈0.80 — all below the ≥1.10 buy threshold. No-bet stance holds.",
-   "links": [
-    {"name": "ESPN: Argentina calm with Messi, Martinez, Álvarez fit", "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria"},
-    {"name": "Business Standard: Scaloni issues fitness update", "url": "https://www.business-standard.com/sports/fifa-world-cup/argentina-vs-algeria-messi-prepared-for-his-for-his-6th-world-cup-scaloni-126061600157_1.html"}
-   ]
-  },
-{
    "date": "06-17",
    "match": "奥地利 vs 约旦",
    "impact": "约旦双锋尽缺",
@@ -1159,46 +1145,6 @@ window.DASH_DATA = {
    "enFull": "Norway head coach Stale Solbakken confirmed pre-match that both Erling Haaland and Martin Odegaard are fully fit for the World Cup opener vs Iraq. Odegaard suffered a left-knee MCL injury in October 2025, missing key qualifiers, but returned in a warm-up vs Morocco where he started and scored. He told Norwegian media his knee 'felt good' and dismissed pre-match injury concerns. Haaland is described as sharp in training. Norway report no injury absences and expect to field their strongest XI. Iraq welcomed back Jalal Hassan (absent during Bolivia play-off win) with Al-Hamadi and Amyn also available — full squad confirmed. No major absences on either side; Norway's star duo intact, consistent with their heavy market-favorite status.",
    "links": [
     {"name": "Flashscore: Odegaard dismisses injury concerns", "url": "https://www.flashscore.com/news/captain-martin-odegaard-shrugs-off-injury-concerns-as-norway-prepare-for-iraq-opener/hI9Ao5rm/"}
-   ]
-  },
-{
-   "date": "06-16",
-   "match": "法国 vs 塞内加尔",
-   "impact": "姆巴佩带伤首发",
-   "tone": "neutral",
-   "text": "姆巴佩确认首发但大腿管控中；萨利巴和孔德均已通过训练关卡(Sports Mole·ESPN)",
-   "en": "Mbappé confirmed to start despite managing a thigh injury; Saliba and Koundé both fit after minor scares (Sports Mole·ESPN)",
-   "full": "姆巴佩将从首发出场，但本赛季末持续承受大腿伤患，体能管控为整届赛事主线。中卫萨利巴（欧冠决赛后背伤加剧）已完整训练，预计首发；右后卫孔德亦克服肌肉隐患就绪。预计阵容(4-2-3-1)：迈尼昂；孔德、萨利巴、乌帕梅卡诺、西奥·埃尔南德斯；丘阿梅尼、拉比奥；科曼、格里兹曼；德姆贝莱；姆巴佩。塞内加尔：迪亚奥因挫伤缺席训练，格耶未完整训练（预防），整体无大伤。",
-   "enFull": "Kylian Mbappé is set to lead France's attack from kickoff despite carefully managing a thigh problem from the tail end of La Liga. William Saliba, who aggravated a back injury in the Champions League final, has completed full training and is expected to start alongside Upamecano. Jules Koundé also cleared a muscular scare at right-back. Predicted France XI (4-2-3-1): Maignan; Koundé, Saliba, Upamecano, T.Hernández; Tchouaméni, Rabiot; Coman, Griezmann; Dembélé; Mbappé. For Senegal, Assane Diao is missing training with a contusion and Idrissa Gueye is listed precautionary, but no major injury concerns.",
-   "links": [
-    {
-     "name": "Sports Mole: France vs Senegal preview",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-senegal-prediction-team-news-lineups_599156.html"
-    },
-    {
-     "name": "ESPN: France vs Senegal match preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49059260/france-vs-senegal-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-{
-   "date": "06-16",
-   "match": "阿根廷 vs 阿尔及利",
-   "impact": "本塞巴尼伤缺",
-   "tone": "home",
-   "text": "阿尔及利左后卫本塞巴尼脚伤缺席；梅西确认首发但大腿管控中；塔利亚菲科因伤亦缺(Sports Mole·ESPN)",
-   "en": "Algeria LB Bensebaini out with foot injury; Messi confirmed to start but managing hamstring; Tagliafico also ruled out (Sports Mole·ESPN)",
-   "full": "阿尔及利亚主力左后卫拉米·本塞巴尼因脚伤缺阵，谢尔吉或贝拉伊德争夺首发。阿根廷：马丁内斯(GK)通过体测确认出战；梅西将首发——这是其国家队第200场里程碑——但主帅斯卡洛尼将管控其分钟数，大腿隐患持续关注。左后卫塔利亚菲科因小腿伤缺阵，梅迪纳预计顶替。预计首发：E.马丁内斯；莫利纳、奥塔门迪、L.马丁内斯、梅迪纳；德保罗、费尔南德斯、麦卡利斯特、阿尔马达；梅西、劳塔罗·马丁内斯。⚠️梅西实际上场分钟数关键。",
-   "enFull": "Algeria's key left-back Ramy Bensebaini is sidelined with a foot injury; Samir Chergui and Zineddine Belaid are competing for his starting spot. For Argentina, goalkeeper Emiliano Martinez (injured ahead of the Europa League final) has been passed fit. Lionel Messi will start — his 200th international appearance — but Scaloni will manage his minutes due to an ongoing hamstring concern. Nicolas Tagliafico is also ruled out (calf); Facundo Medina expected to deputise at left-back. Most other injury returnees (Julian, Paredes, Romero, Molina, Montiel) are training fully. Predicted XI: E.Martinez; Molina, Otamendi, L.Martinez, Medina; De Paul, Fernandez, Mac Allister, Almada; Messi, Lautaro Martinez. ⚠️Watch Messi's actual minutes closely.",
-   "links": [
-    {
-     "name": "Sports Mole: Argentina lineup vs Algeria",
-     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-makes-more-history-emi-returns-predicted-argentina-lineup-vs-algeria_599169.html"
-    },
-    {
-     "name": "ESPN: Argentina vs Algeria match preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49059251/argentina-vs-algeria-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
-    }
    ]
   },
 {
