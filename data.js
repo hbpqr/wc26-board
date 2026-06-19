@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 13:10",
+  "updated": "2026-06-19 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -903,6 +903,21 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "06-19",
+   "match": "美国 vs 澳大利亚",
+   "impact": "普利西奇确认出战",
+   "tone": "home",
+   "text": "⚠️前情更新:CBS Sports·FOX Sports·Sports Mole(06-19多源)确认普利西奇通过医疗评估、确认出战澳大利亚;上午「今晚决断」条目升级——阵容完整,预计首发",
+   "en": "UPDATE — Pulisic confirmed fit and expected to start vs Australia per CBS Sports/FOX Sports/Sports Mole (Jun 19 multi-source). Earlier 'day-to-day pending tonight' report superseded.",
+   "full": "CBS Sports、FOX Sports与Sports Mole(06-19)三源确认：波切蒂诺与队医已明确普利西奇(Christian Pulisic)通过医疗评估、确认出战澳大利亚，预计首发。此前「今晚决断、pending medical assessment」条目已升级——美国进攻核心不打折扣。影响：美国阵容完整；Polymarket美国60.8%基本反映此情形，预期无大幅漂移。集成模型美国62.7% vs 市场去水59.1% = edge+3.6pp，低于§3价值安全边际≥1.10门槛，合法空仓纪律不变。",
+   "enFull": "CBS Sports, FOX Sports and Sports Mole (June 19, multiple sources) confirm Christian Pulisic has been medically cleared and is expected to start against Australia. Previous 'day-to-day, pending tonight's medical assessment' report is superseded. Impact: USMNT at full attacking strength. Polymarket at USA 60.8% broadly consistent with full-squad scenario. Integrated model: USA 62.7% vs market implied 59.1% — edge +3.6pp remains below the ≥1.10 safety-margin buy threshold (§3). No-bet stance unchanged.",
+   "links": [
+    {"name": "CBS Sports: Pulisic fit for Australia", "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"},
+    {"name": "FOX Sports: USA vs Australia preview", "url": "https://www.foxsports.com/stories/soccer/usa-match-day-preview-roundtable"},
+    {"name": "Sports Mole: USA vs Australia team news", "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-australia-injury-suspension-list-predicted-xis_599443.html"}
+   ]
+  },
+  {
+   "date": "06-19",
    "match": "巴西 vs 海地",
    "impact": "巴西七将群缺",
    "tone": "home",
@@ -944,7 +959,7 @@ window.DASH_DATA = {
   {
    "date": "06-19",
    "match": "苏格兰 vs 摩洛哥",
-   "impact": "Bounou伤情轻微预计出战",
+   "impact": "布努确认可战",
    "tone": "neutral",
    "text": "⚠️ 前情更新:摩洛哥主帅奥哈比(Ouahbi)06-19记招发布会确认布努(Bounou)肩碰轻微「他告诉我没事」,预计正常出战苏格兰;此前「存疑」报道已过时(MoroccoWorldNews·ESPN双源)",
    "en": "UPDATE — Morocco coach Ouahbi (June 19 presser) confirms Bounou: 'minor collision on the shoulder, he told me he was fine' — expected to start vs Scotland. Previous 'doubtful' reports superseded (MoroccoWorldNews/ESPN)",
@@ -1060,7 +1075,7 @@ window.DASH_DATA = {
   {
    "date": "06-19",
    "match": "瑞士 vs 波黑",
-   "impact": "科拉西纳茨缺席确认",
+   "impact": "波黑双核缺席",
    "tone": "away",
    "text": "Sports Mole预测XI确认:科拉西纳茨(跛行)不首发对阵瑞士,泽科亦未在波黑预测首发XI(Demirović+Lukić出击);波黑双核缺席,锋线大幅削弱(Sports Mole·beIN Sports双源)",
    "en": "Sports Mole predicted XI confirms Kolasinac will miss out vs Switzerland; Džeko also absent from predicted starting lineup (Demirović+Lukić as forwards). Bosnia's attack significantly weakened (Sports Mole/beIN Sports)",
@@ -1228,7 +1243,7 @@ window.DASH_DATA = {
   {
    "date": "06-18",
    "match": "英格兰 vs 克罗地亚",
-   "impact": "利夫拉门托缺席WC",
+   "impact": "利夫拉缺席",
    "tone": "away",
    "text": "英格兰右后卫利夫拉门托(纽卡斯尔)赛前训练撕裂小腿,确认缺席整届世界杯;查洛巴斯(切尔西)紧急补召,赖斯/萨卡接受评估但预计出战(Goal·Sports Mole·RotoWire)",
    "en": "England RB Tino Livramento (Newcastle) tears calf in training eve of Croatia clash, ruled out of tournament; Trevoh Chalobah (Chelsea) called up as replacement; Rice/Saka assessed but expected to play (Goal/Sports Mole/RotoWire)",
@@ -1296,7 +1311,7 @@ window.DASH_DATA = {
   {
    "date": "06-17",
    "match": "加纳 vs 巴拿马",
-   "impact": "Partey确认缺阵(签证被拒)·市场已吸收",
+   "impact": "Partey缺阵",
    "tone": "home",
    "text": "Thomas Partey因英国强奸案指控被加拿大拒绝入境，确认缺席加纳首战对阵巴拿马。但此消息6月13日已由Al Jazeera/ESPN公开报道，当前赔率@2.04已充分吸收——不构成未定价的硬信息差。巴拿马Carrasquilla伤后替补在列，非首发。",
    "en": "Thomas Partey denied entry to Canada due to UK rape charges — confirmed absent vs Panama. But publicly reported 6/13 by Al Jazeera/ESPN; @2.04 odds already reflect his absence. No unpriced hard edge. Panama's Carrasquilla bench-only (not starting).",
@@ -1316,7 +1331,7 @@ window.DASH_DATA = {
   {
    "date": "06-17",
    "match": "英格兰 vs 克罗地亚",
-   "impact": "Livramento缺阵·Saka轻微疑问·均已定价",
+   "impact": "英右卫缺席",
    "tone": "neutral",
    "text": "英格兰Livramento（右后卫）训练中小腿伤确认缺阵，Chalobah替补入队；Saka跟腱轻微疑问但预计首发；Rice已就绪。克罗地亚Modric/Perisic全员可用。伤情已公开，@1.53已反映，让胜最高价值1.02<1.10，空仓。",
    "en": "England's Livramento (RB) out with calf injury; Chalobah called up. Saka (Achilles) expected to start. Rice fit. Croatia: Modric/Perisic available. All news priced in at @1.53. Best hhad value 1.02, below 1.10 gate. No bet.",
@@ -1336,7 +1351,7 @@ window.DASH_DATA = {
   {
    "date": "06-17",
    "match": "乌兹别克 vs 哥伦比亚",
-   "impact": "Masharipov背伤缺阵·哥伦比亚全员就绪",
+   "impact": "马沙里波夫缺",
    "tone": "away",
    "text": "乌兹别克创意核心Masharipov背伤确认缺阵；另Alijonov/Ganiev待评估。哥伦比亚James Rodriguez+Diaz+Arias+Suarez完整首发。Masharipov缺阵削弱乌兹别克，但两队实力差距过大，客胜价值仍0.89<1.10，空仓。",
    "en": "Uzbekistan's Masharipov (key creative mid) out with back injury; Alijonov/Ganiev under assessment. Colombia fully fit — James/Diaz/Arias/Suarez all starting. Away value 0.89, below 1.10 gate. No bet.",
@@ -1356,7 +1371,7 @@ window.DASH_DATA = {
  ],
  "slip": {
   "title": "6月19日 · 周四批 · 08:53复核 · 0元出账(合法空仓·终盘管家20:36被Watchdog强杀)",
-  "status": "**真钱 0 元。** 终盘管家 2026-06-18 20:36 被15分钟 watchdog 强杀，周四批(025-028)草稿未能生成，.final_review_passed 未写入。复核官 08:53 接管：①025捷克vs南非(00:00 已完场1:1)、②026瑞士vs波黑(03:00 已完场4:1)、③027加拿大vs卡塔尔(06:00 已完场6:0)三场均已完场，无法出票；④028墨西哥vs韩国(09:00)：全盘口已扫 HAD主胜0.91/平0.83/客胜0.91、HHAD(-1)全<1.10，无合格edge，蒙特斯停赛+金塔内斯疑问已market price-in。§13.5合法空仓三条齐签。",
+  "status": "**真钱 0 元。** 周四批已收官·复核官08:53代扫：全盘口<1.10·合法空仓§13.5三条齐签。",
   "detail": "**周四批(025-028)全盘口扫描(终盘管家20:36 Watchdog强杀后，复核官08:53接管代扫)：**\n①025 捷克 vs 南非(06-19 00:00)：已完场1:1，无法出票。\n②026 瑞士 vs 波黑(06-19 03:00)：已完场4:1，无法出票。\n③027 加拿大 vs 卡塔尔(06-19 06:00)：已完场6:0，无法出票。\n④028 墨西哥 vs 韩国(06-19 09:00，即将开球)：HAD主胜0.91/平0.83/客胜0.91，HHAD(-1)全<1.10，无合格edge；蒙特斯停赛+金塔内斯存疑(单源未确认)均已市场price-in；韩国全员可用——实力差距已充分定价。**§3价值闸未过，§13.5合法空仓签字：(a)全盘口已扫，全<1.10；(b)无新的未定价硬信息差；(c)影子book已记样本。**",
   "items": [],
   "summary": {
