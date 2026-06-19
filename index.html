@@ -893,12 +893,15 @@ function holdTixHtml(m) {
 }
 // 持仓标签:未结算口径走 slip(全黄=待结);原明日段逻辑原样搬
 function slipTixHtml(m) {
-  const myItems = D.slip.items.filter(it => it.num === m.num || (it.num === "串关" && it.match.includes(m.home)));
-  if (!myItems.length) return "";
-  return `<div class="mini-tix">${myItems.map(it => {
-    const name = it.match.includes("×") ? "2串1" : it.pick.replace(/^(胜平负|比分)·/, "");
-    return `<span class="tix tx-yellow">${name} <b>${it.stake}元</b></span>`;
-  }).join("")}</div>`;
+  // 卡片上用最简洁直接的语言告诉黄斌"本场买什么"(2026-06-19 黄斌要求):单关→✅买X N元;串关腿→🎟;不买→本场不买
+  // ★只在"本轮(betRound=正在购买的这一组)"的卡片上显示买卖决策;下一轮/其他轮的卡片不显示——投放只挂在本轮购买组下,不放在所有卡片下(黄斌2026-06-19第2点)
+  if (typeof betRound === "undefined" || !betRound.matches.some(x => x.num === m.num)) return "";
+  const singles = D.slip.items.filter(it => it.num === m.num && !/串/.test(it.pick));
+  const inParlay = D.slip.items.some(it => /串/.test(it.pick) && (it.pick.includes(m.home) || (it.match || "").includes(m.home)));
+  if (!singles.length && !inParlay) return `<div class="mini-tix"><span class="tix" style="color:var(--faint);background:rgba(255,255,255,.03)">本场不买</span></div>`;
+  let chips = singles.map(it => `<span class="tix tx-yellow">✅ 买 ${it.pick.replace(/\s*[·(（].*/, "")} <b>${it.stake}元</b></span>`).join("");
+  if (inParlay) chips += `<span class="tix" style="color:var(--steel);background:rgba(125,156,187,.14)">🎟 在串关里</span>`;
+  return `<div class="mini-tix">${chips}</div>`;
 }
 // 完赛右上角的盈亏/在场摘要(原战报段逻辑原样搬)
 function holdPnlHtml(m) {
