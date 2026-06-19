@@ -408,6 +408,41 @@
   .slip-fold-head { margin-top: 16px; padding: 11px 14px; border: 1px solid var(--line); border-radius: 4px; font-size: 13px; color: var(--dim); cursor: pointer; user-select: none; display: flex; align-items: center; gap: 8px; transition: color .15s ease; }
   .slip-fold-head:hover { color: var(--gold); border-color: var(--line-strong); }
   .slip-fold-head #slip-math-arrow { color: var(--faint); font-size: 11px; }
+  /* 剧本表(黄斌2026-06-19:数学期望=按"能赢多少钱"从多到少排的表) */
+  .scen-summary { display: flex; gap: 10px; margin-bottom: 16px; }
+  .scen-summary .ss-item { flex: 1; background: var(--panel-2); border: 1px solid var(--line); border-radius: 4px; padding: 11px 13px; min-width: 0; }
+  .ss-k { display: block; font-size: 11.5px; color: var(--faint); margin-bottom: 6px; white-space: nowrap; }
+  .ss-v { font-size: 21px; font-weight: 700; letter-spacing: -.02em; }
+  .ss-u { font-size: 12px; font-weight: 400; color: var(--faint); margin-left: 2px; }
+  .scen-table { width: 100%; border-collapse: collapse; }
+  .scen-table thead th { font-size: 11.5px; font-weight: 500; color: var(--faint); text-align: left; padding: 0 8px 9px; border-bottom: 1px solid var(--line-strong); }
+  .scen-table thead th.r { text-align: right; }
+  .scen-table tbody tr { border-bottom: 1px solid var(--line); }
+  .scen-table tbody tr.scen-top { background: var(--gold-dim); }
+  .scen-table td { padding: 14px 8px; vertical-align: middle; }
+  .scen-table td.r { text-align: right; }
+  .scen-lbl { font-size: 13.5px; line-height: 1.5; color: var(--txt); }
+  .scen-hit { display: inline-block; font-size: 11px; font-weight: 700; color: var(--dim); background: var(--line); border-radius: 3px; padding: 2px 7px; margin-right: 8px; white-space: nowrap; vertical-align: 1px; }
+  .scen-hit.w { color: var(--gold); background: var(--gold-dim); }
+  .scen-amt { white-space: nowrap; font-size: 18px; font-weight: 700; line-height: 1.15; }
+  .scen-u { font-size: 11px; font-weight: 400; color: var(--faint); margin-left: 1px; }
+  .scen-rec { display: block; font-size: 10.5px; font-weight: 400; color: var(--faint); margin-top: 3px; }
+  .scen-prob { white-space: nowrap; }
+  .scen-pct { display: block; font-size: 14px; font-weight: 600; color: var(--dim); margin-bottom: 5px; }
+  .scen-bar { display: block; width: 50px; height: 4px; background: var(--line-strong); border-radius: 2px; margin-left: auto; overflow: hidden; }
+  .scen-bar i { display: block; height: 100%; background: var(--faint); }
+  .scen-bar i.w { background: var(--gold); }
+  .scen-foot { margin-top: 14px; font-size: 12px; line-height: 1.65; color: var(--faint); }
+  @media (max-width: 560px) {
+    .scen-summary { gap: 7px; }
+    .scen-summary .ss-item { padding: 9px 9px; }
+    .ss-v { font-size: 17px; }
+    .ss-k { font-size: 10px; }
+    .scen-table td { padding: 12px 5px; }
+    .scen-lbl { font-size: 12.5px; }
+    .scen-amt { font-size: 16px; }
+    .scen-bar { width: 40px; }
+  }
   .vgood { color: var(--gold); font-weight: 600; }
   .vbad { color: var(--faint); }
 
@@ -544,22 +579,13 @@
     <!-- 数学期望/详细分析:折叠,默认收起,点一下展开/收起(黄斌2026-06-19第3点) -->
     <div class="slip-fold-head" id="slip-math-toggle">📐 数学期望 · 详细分析 <span id="slip-math-arrow">▸</span></div>
     <div id="slip-math" style="display:none">
-      <div class="slip-grid" id="slip-bet-grid">
-        <div>
-          <table id="slip-table">
-            <thead><tr><th>场次</th><th>投注项</th><th>仓位</th><th class="r">金额</th><th class="r">赔率</th><th class="r">价值分</th><th class="r">EV(元)</th></tr></thead>
-            <tbody></tbody>
-          </table>
-          <div class="slip-sum" id="slip-sum"></div>
-        </div>
-      </div>
-      <div class="matrix-wrap">
-        <div class="charthead" style="margin:24px 0 10px">全结局矩阵 · 各结局组合从最优到最劣,概率合计 100%</div>
-        <table id="matrix-table">
-          <thead><tr><th>#</th><th>结局组合</th><th class="r">回收(元)</th><th class="r">盈亏(元)</th><th class="r">概率</th><th>概率条</th></tr></thead>
-          <tbody></tbody>
-        </table>
-      </div>
+      <!-- 剧本表:从"能赢最多"往下排,什么情况赢多少钱、概率多少(黄斌2026-06-19) -->
+      <div class="scen-summary" id="scen-summary"></div>
+      <table class="scen-table" id="scen-table">
+        <thead><tr><th>什么情况</th><th class="r">这种情况能赢</th><th class="r">概率</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="scen-foot" id="scen-foot"></div>
     </div>
   </section>
 
@@ -1441,41 +1467,33 @@ document.getElementById("slip-cards").innerHTML = isEmpty
       <div class="cc-teams">${it.pick} <span class="tier ${({ "核心": "core", "倍数": "multi" })[it.tier] || ""}">${it.tier}</span></div>
       <div class="cc-row"><span>${it.match}</span><span class="cc-val">${it.stake}元 @${it.odds}</span></div>
       <div class="cc-verdict vgood">价值 ${it.value} · EV ${it.ev >= 0 ? "+" : ""}${it.ev}</div></div>`).join("");
-// 空仓时下半部(下注表/票据/矩阵)整体隐藏
-document.getElementById("slip-bet-grid").style.display = isEmpty ? "none" : "";
-const sBody = document.querySelector("#slip-table tbody");
-const tierCls = { "核心": "core", "倍数": "multi", "价值": "" };
-D.slip.items.forEach(it => {
-  sBody.insertAdjacentHTML("beforeend", `
-    <tr><td class="num">${it.num}</td><td>${it.pick}</td>
-    <td><span class="tier ${tierCls[it.tier] || ""}">${it.tier}</span></td>
-    <td class="r num">${it.stake}</td><td class="r num">${it.odds.toFixed(2)}</td>
-    <td class="r num ${it.value >= 1.10 ? "vgood" : "vbad"}">${it.value.toFixed(2)}</td>
-    <td class="r num ${it.ev >= 0 ? "pos" : ""}" style="${it.ev >= 0 ? "" : "color:var(--faint)"}">${it.ev >= 0 ? "+" : ""}${it.ev.toFixed(1)}</td></tr>`);
-});
-/* ---------- outcome matrix ---------- */
-const mBody = document.querySelector("#matrix-table tbody");
-const maxProb = Math.max(...D.slip.matrix.map(m => m.prob));
-D.slip.matrix.forEach((m, i) => {
-  mBody.insertAdjacentHTML("beforeend", `
-    <tr>
-      <td class="num" style="color:var(--faint)">${i + 1}</td>
-      <td>${m.label}</td>
-      <td class="r num">${m.recover.toFixed(1)}</td>
-      <td class="r num ${m.pnl >= 0 ? "pos" : "neg"}" style="font-weight:600">${fmt(m.pnl)}</td>
-      <td class="r num">${m.prob.toFixed(1)}%</td>
-      <td><span class="pbar ${m.pnl >= 0 ? "win" : ""}" style="width:${Math.round(m.prob / maxProb * 120)}px"></span></td>
-    </tr>`);
-});
-
-const SM = D.slip.summary;
-document.getElementById("slip-sum").innerHTML = `
-  <div class="blk"><span class="k">总投入</span><span class="v num">${SM.stake}</span></div>
-  <div class="blk"><span class="k">数学期望</span><span class="v num ${SM.evHigh >= 0 ? "pos" : "neg"}">${SM.evHigh >= 0 ? "+" : ""}${SM.evHigh.toFixed(1)}${SM.evHigh === SM.evLow ? "" : " ~ " + SM.evLow.toFixed(1)}</span></div>
-  <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM.winProb}%</span></div>
-  <div class="blk"><span class="k">头奖剧本</span><span class="v num pos">+${SM.best.pnl.toFixed(0)}<span style="font-size:11px;color:var(--faint)"> ${SM.best.label}</span></span></div>
-  <div class="blk"><span class="k">最差剧本</span><span class="v num neg">${SM.worst.pnl.toFixed(0)}</span></div>
-  <div class="blk"><span class="k">最可能剧本</span><span class="v num">${SM.keyScenarios[0].label} ${fmt(SM.keyScenarios[0].pnl)}</span></div>`;
+/* ---------- 剧本表:每种情况能赢多少钱(金额从下注腿+赔率现算,防数据漂移),按能赢从多到少排 ---------- */
+const legs = D.slip.items;
+const totalStake = legs.reduce((s, l) => s + l.stake, 0);
+const scenF = v => { const r = Math.round(v * 10) / 10; return (r % 1 === 0 ? r.toFixed(0) : r.toFixed(1)); };
+const scen = (D.slip.scenarios || []).map(s => {
+  const recover = (s.win || []).reduce((a, i) => a + (legs[i] ? legs[i].stake * legs[i].odds : 0), 0);
+  return { label: s.label, hit: s.hit, prob: s.prob, recover, pnl: recover - totalStake };
+}).sort((a, b) => b.pnl - a.pnl);
+if (!isEmpty && scen.length) {
+  const winProb = scen.filter(s => s.pnl > 0).reduce((a, s) => a + s.prob, 0);
+  document.getElementById("scen-summary").innerHTML = `
+    <div class="ss-item"><span class="ss-k">这轮投入</span><span class="ss-v num">${totalStake}<span class="ss-u">元</span></span></div>
+    <div class="ss-item"><span class="ss-k">这轮赚钱概率</span><span class="ss-v num pos">${winProb}%</span></div>
+    <div class="ss-item"><span class="ss-k">最好能赢</span><span class="ss-v num pos">+${scenF(scen[0].pnl)}<span class="ss-u">元</span></span></div>`;
+  const maxP = Math.max(...scen.map(s => s.prob), 1);
+  const scBody = document.querySelector("#scen-table tbody");
+  scen.forEach((s, i) => {
+    const win = s.pnl >= 0;
+    scBody.insertAdjacentHTML("beforeend", `
+      <tr class="${i === 0 ? "scen-top" : ""}">
+        <td class="scen-lbl">${s.hit ? `<span class="scen-hit ${win ? "w" : ""}">${s.hit}</span>` : ""}${s.label}</td>
+        <td class="r scen-amt ${win ? "pos" : "neg"}">${win ? "+" : "−"}${scenF(Math.abs(s.pnl))}<span class="scen-u">元</span><span class="scen-rec">拿回 ${scenF(s.recover)}</span></td>
+        <td class="r scen-prob"><span class="scen-pct">${s.prob}%</span><span class="scen-bar"><i class="${win ? "w" : ""}" style="width:${Math.round(s.prob / maxP * 100)}%"></i></span></td>
+      </tr>`);
+  });
+  document.getElementById("scen-foot").innerHTML = "概率为模型估算,合计 100%。<b>为什么没有「中 2 注」?</b>因为 2串1(摩×美)一旦中,就代表摩洛哥和美国都赢了——那两个单关也必中,直接变成「中 3 注」;所以这套买法<b>不可能恰好中 2 注</b>。同理「中 3 注」也只有『摩美都赢、但巴西没赢够 3 球』这一种。";
+}
 // 空仓态:隐藏数学折叠区与给老板的话,只留标题+说明
 if (D.slip.items.length === 0) {
   ["slip-math-toggle", "slip-math", "slip-copy-box"].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = "none"; });
