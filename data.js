@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 11:10",
+  "updated": "2026-06-19 12:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -783,6 +783,34 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+{
+   "date": "06-19",
+   "match": "美国 vs 澳大利亚",
+   "impact": "普利西奇决断今晚",
+   "tone": "away",
+   "text": "波切蒂诺(Pochettino)06-19确认普利西奇「持续好转、明显改善」,将今晚与医疗团队最终评估;比此前CBS/NBC「growing fear」措辞更乐观,但决断推至北京时间02:00前官方XI(FOX Sports·CBS Sports)",
+   "en": "Pochettino confirms Pulisic 'evolving, much better' — final decision pending Thursday night medical assessment. Slightly more optimistic than earlier CBS/NBC 'growing fear' framing; official XI at 02:00 BJT (FOX Sports/CBS Sports)",
+   "full": "FOX Sports与CBS Sports(06-19晚)最新:美国主帅波切蒂诺表示普利西奇「持续好转，比首轮明显改善」，将于今晚与医疗团队评估后作出最终决定。此前CBS Sports/NBC Sports「growing fear he may miss」措辞略悲观——本次更新表明主帅立场比上午报道更乐观，但仍未清仓风险。决断时间：正式XI公布前60分钟（约北京时间02:00 6/20）。若缺席：哈吉·赖特/贝努恩/泽内代亚斯候补；若出战：大概率首发但体能受限。Polymarket仍显示美国60.8%（-0.3pp漂移），若缺席确认市场大概率进一步下修美国至55%+，澳洲value或升至1.10+临界。⚠️ 请主会话在02:00 XI后立即重跑predict.py确认是否出澳洲客胜票。",
+   "enFull": "FOX Sports and CBS Sports (June 19 evening): USMNT coach Pochettino says Pulisic is 'evolving, much better from Friday' and the final call on Australia availability will be made Thursday night after consulting medical staff. This is slightly more optimistic than the earlier CBS/NBC Sports 'growing fear he'll miss' tone — Pochettino appears to see a realistic chance Pulisic features. If ruled out: Haji Wright, Luca de la Torre, Brenden Aaronson, Alfredo Morales are likely to fill in. If fit: expected to start but match fitness may be limited. Polymarket at USA 60.8% with only -0.3pp drift since open — market has not yet priced in a scenario where Pulisic is confirmed absent. ⚠️ Re-run predict.py at official XI (02:00 BJT, 60min pre-kick) to assess whether Australia away win crosses the ≥1.10 value threshold.",
+   "links": [
+    {"name": "FOX Sports: Pulisic injury still evolving", "url": "https://www.foxsports.com/stories/soccer/usmnt-christian-pulisic-injury-world-cup-australia"},
+    {"name": "CBS Sports: Who replaces Pulisic vs Australia?", "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"}
+   ]
+  },
+{
+   "date": "06-19",
+   "match": "苏格兰 vs 摩洛哥",
+   "impact": "Bounou伤情轻微预计出战",
+   "tone": "neutral",
+   "text": "⚠️ 前情更新:摩洛哥主帅奥哈比(Ouahbi)06-19记招发布会确认布努(Bounou)肩碰轻微「他告诉我没事」,预计正常出战苏格兰;此前「存疑」报道已过时(MoroccoWorldNews·ESPN双源)",
+   "en": "UPDATE — Morocco coach Ouahbi (June 19 presser) confirms Bounou: 'minor collision on the shoulder, he told me he was fine' — expected to start vs Scotland. Previous 'doubtful' reports superseded (MoroccoWorldNews/ESPN)",
+   "full": "MoroccoWorldNews与ESPN(06-19)均报道：摩洛哥主帅穆罕默德·奥哈比在赛前记招发布会明确表示，布努（Bounou）在对阵巴西84'仅受轻微肩部撞击，「他亲口告诉我没事」，预计正常出战周六苏格兰一役。此前Sports Mole「doubtful」标签系第一时间赛后评估，在Ouahbi确认后已过时并应忽略。评估更新：布努确认可战→摩洛哥门将位置恢复正常→此前苏格兰「定位球/射门因备用GK获利」逻辑不再适用。CB纳赛夫·阿格尔德（旧伤携赛）仍受监控，但对结果影响相对次要。苏格兰胜value仍=1.00（<1.10安全边际），空仓判断不变。⚠️ 正式XI仍须赛前60分钟确认，关注阿格尔德（CB）状态。",
+   "enFull": "MoroccoWorldNews and ESPN (June 19): Morocco head coach Mohamed Ouahbi addressed Yassine Bounou's injury concern in his pre-match press conference, confirming the contact in the 84th minute vs Brazil was only 'a minor collision on the shoulder.' Ouahbi added: 'I spoke to Bounou and he assured me he was fine' — Bounou is expected to start vs Scotland. This supersedes the earlier Sports Mole 'doubtful' tag (initial post-match assessment). Assessment update: Morocco's first-choice GK returns to normal readiness — the conditional Scotland benefit from a backup GK no longer applies. CB Nayef Aguerd (minor knock from Norway warm-up) still monitored but secondary concern. Scotland win value remains 1.00 (<1.10 buy threshold) — no-bet stance unchanged. ⚠️ Confirm official XI 60 min before kick-off; watch Aguerd.",
+   "links": [
+    {"name": "MoroccoWorldNews: Bounou injury not serious - Ouahbi confirms", "url": "https://www.moroccoworldnews.com/2026/06/319622/bounou-injury-not-serious-ouahbi-confirms-before-scotland-game/"},
+    {"name": "ESPN: Morocco not alarmed by Bounou injury concern", "url": "https://www.espn.com/espn/story/_/id/49055732/morocco-not-alarmed-yassine-bounou-injury-concern-further-tests-required"}
+   ]
+  },
 {
    "date": "06-19",
    "match": "巴西 vs 海地",
