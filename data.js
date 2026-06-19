@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 14:10",
+  "updated": "2026-06-19 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -901,6 +901,34 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-19",
+   "match": "苏格兰 vs 摩洛哥",
+   "impact": "麦肯纳伤愈归队",
+   "tone": "home",
+   "text": "ESPN·Scotsman(06-19)双源确认:麦肯纳(Scott McKenna)小腿伤愈重返全体训练,克拉克(Clarke)最终备战可征召全队——苏格兰首轮因伤缺席的中卫或首发出场对阵摩洛哥",
+   "en": "ESPN and Scotsman (Jun 19) confirm Scott McKenna has returned to full training ahead of Morocco clash; Clarke has a full squad available. McKenna missed opener vs Haiti with a calf issue — now fit and likely to start.",
+   "full": "ESPN与Scotsman(06-19)双源确认：苏格兰中卫麦肯纳（Scott McKenna）在因小腿伤缺席首轮对阵海地后，已重返球队全体训练，克拉克主帅在赛前记招中表示全队无缺阵，麦肯纳有望首发出战摩洛哥一役。此前ESPN曾报道麦肯纳周三早训缺席，但随后末轮备战中全员到齐。影响评估：麦肯纳回归填补首轮中卫空缺，苏格兰防守线恢复最强阵；对价值判断影响微弱——苏格兰胜value仍=1.00（<1.10安全边际），空仓判断不变。⚠️正式XI仍须赛前60分钟确认，关注摩洛哥阿格尔德（CB）状态。",
+   "enFull": "ESPN and The Scotsman (June 19) both confirm that Scotland CB Scott McKenna has returned to full training ahead of the Morocco World Cup Group C match, overcoming the calf issue that kept him out of the 1-0 win over Haiti. Head coach Steve Clarke confirmed the squad is at full strength at the pre-match press conference. McKenna had briefly missed Wednesday's training session, raising brief concern, but took full part in the final session before the squad flew to Boston. Assessment: McKenna's return restores Scotland's first-choice centre-back pairing; modestly positive for the Scotland defensive structure. Scotland win value remains 1.00 — below the ≥1.10 buy threshold; no-bet stance unchanged. ⚠️ Confirm official XI 60 minutes pre-kick; also monitor Morocco CB Aguerd fitness.",
+   "links": [
+    {"name": "ESPN: McKenna returns to Scotland training", "url": "https://www.espn.com/soccer/story/_/id/49095828/scott-mckenna-misses-scotland-training-ahead-world-cup-clash-morocco"},
+    {"name": "Scotsman: Scotland injury boost ahead of Morocco", "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"}
+   ]
+  },
+  {
+   "date": "06-19",
+   "match": "土耳其 vs 巴拉圭",
+   "impact": "耶尔迪兹曾替补出场",
+   "tone": "neutral",
+   "text": "⚠️数据修正:耶尔迪兹(Yildiz)并非缺席首轮——他是下半场替补出场对阵澳大利亚;Sports Mole·Yahoo Sports(06-19)确认首发存疑·或再次替补(小腿仍未全愈)",
+   "en": "CORRECTION — Yildiz did NOT miss Turkey's opener vs Australia; he came on as a second-half substitute. Sports Mole/Yahoo Sports (Jun 19): his start vs Paraguay remains in doubt — another cameo is likely.",
+   "full": "⚠️数据修正（Sports Mole·Yahoo Sports·SI.com 06-19多源）：耶尔迪兹（Kenan Yildiz，尤文图斯）并未「缺席」对阵澳大利亚的首轮（此前条目措辞有误）——他是下半场替补出场，合计上场约45分钟。现状：小腿拉伤仍在恢复中，Sports Mole赛前预测XI标注「Yildiz doubt persists」，蒙泰拉主帅可能再次让他替补登场而非首发。影响评估：耶尔迪兹若替补出场，土耳其首发11人的创造力有所下降；但两队均无法接受再负，高压场景下战术倾向保守。土耳其/巴拉圭所有选项value≤0.93（<1.10闸），空仓判断不变。⚠️正式XI赛前60分钟确认耶尔迪兹是否首发。",
+   "enFull": "CORRECTION (Sports Mole, Yahoo Sports, SI.com — multiple sources, June 19): Earlier report stated Kenan Yildiz 'missed' Turkey's 0-2 opening defeat to Australia. Multiple sources confirm he did NOT miss the match — he featured as a second-half substitute, playing approximately 45 minutes. Current status: the calf strain has not fully healed, and Sports Mole's pre-match predicted XI marks 'Yildiz doubt persists' for the Paraguay fixture. Head coach Vincenzo Montella may again prefer to deploy Yildiz off the bench rather than risk a full start. Impact: Turkey likely missing Yildiz from kickoff reduces their attacking creativity in the first half; high-pressure must-win format for both sides may lead to cautious early tactical setup. All Turkey/Paraguay HAD options remain ≤0.93 value — below the ≥1.10 buy threshold; no-bet stance unchanged. ⚠️ Confirm official XI 60 minutes before kick-off.",
+   "links": [
+    {"name": "Sports Mole: Yildiz doubt persists Turkey lineup", "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/predicted-lineups/yildiz-doubt-persists-for-montella-predicted-turkey-lineup-vs-paraguay_599445.html"},
+    {"name": "Yahoo Sports: Turkey vs Paraguay predictions", "url": "https://sports.yahoo.com/articles/turkey-vs-paraguay-prediction-world-145000483.html"}
+   ]
+  },
   {
    "date": "06-19",
    "match": "美国 vs 澳大利亚",
