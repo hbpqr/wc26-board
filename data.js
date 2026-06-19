@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
-  "round": "小组赛第 1 轮",
-  "updated": "2026-06-19 10:55",
+  "round": "小组赛第 2 轮",
+  "updated": "2026-06-19 21:05",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -828,15 +828,15 @@ window.DASH_DATA = {
 {
    "date": "06-19",
    "match": "美国 vs 澳大利亚",
-   "impact": "普利西奇伤确认出战",
-   "tone": "home",
-   "text": "普利西奇(Pulisic)首战提前下场，最新确认将出战澳大利亚，但或以替补上阵保体能；澳洲图雷(Toure)小腿抽筋已确认可用(NBC Sports·ESPN双源)",
-   "en": "Pulisic limped off vs Paraguay but confirmed fit to feature vs Australia, potentially from bench; Australia's Toure (calf cramp) also confirmed available (NBC Sports/ESPN)",
-   "full": "NBC Sports与ESPN(06-19)确认：美国队长普利西奇(AC米兰)首轮4:1大胜巴拉圭时提前离场，小腿不适，但最新报道显示他「will be fit to feature」出战澳大利亚。主帅或让他替补出场保护体能。澳大利亚前锋图雷(Mohamed Toure)首轮对土耳其腿部抽筋提前退场，已确认伤势轻微可参战。双方无新增伤缺——本场焦点在普利西奇是否首发而非是否参战。Group D组双雄相遇：美国4:1、澳大利亚2:0，两队各积3分同顶分组，胜者出线主动权大占。综合：普利西奇确认出战对美国price-in程度无大影响；现有HAD value仍<1.10（美国胜0.91），focus空仓判断不变。⚠️ 普利西奇具体角色（首发/替补）需赛前60分钟官方XI确认。",
-   "enFull": "NBC Sports and ESPN (June 19) confirm: Christian Pulisic (AC Milan) limped off during the USA's 4-1 win over Paraguay with a calf concern, but is confirmed fit to play vs Australia in the Group D top-of-table clash. Pochettino may opt to start him from the bench to manage his workload. Australia's Mohamed Toure (calf cramp, vs Turkey) is also confirmed available. No new injuries from either camp. Context: USA (4-1 Paraguay) and Australia (2-0 Turkey) both sit on 3 points atop Group D — winner takes a commanding grip on qualification. Net: Pulisic's fitness is largely expected and already priced in; USA win HAD value 0.91 remains below the ≥1.10 threshold. No-bet stance unchanged. ⚠️ Pulisic starting vs. bench role confirmed at official XI 60 min before kick-off.",
+   "impact": "普利西奇疑缺席",
+   "tone": "away",
+   "text": "普利西奇(Pulisic)对巴拉圭后小腿伤：CBS Sports·NBC Sports 06-19最新——未参加完整训练，疑缺席澳洲战；\"确认出战\"报道已过时；澳洲图雷(Toure)可用",
+   "en": "Pulisic (calf vs Paraguay) has not returned to full training as of June 19 — 'growing fear he may miss' Australia per CBS/NBC Sports; earlier 'confirmed fit' reports superseded; Toure available for Australia",
+   "full": "CBS Sports与NBC Sports(06-19最新)：普利西奇首轮对阵巴拉圭(4:1)伤退后，截至06-19尚未参与美国队完整训练，仅进行个人康复，距澳洲战不足48小时，\"growing fear he'll be unavailable\"(CBS Sports语)。CBS Sports专文《If Pulisic can't go, who replaces USA Soccer's star?》，候补：Reyna/Zendejas/Weah/Aaronson。此前\"will be fit to feature\"早期报道已被本更新取代。澳大利亚图雷(Mohamed Toure)小腿轻微，已确认可用。⚠️市场提醒：Polymarket(06-19实时拉取)仍显示美国60.8%、开盘以来仅漂移-0.3pp——若普利西奇确实缺席，该幅度严重低估澳洲上涨空间；澳洲胜@5.60当前value=0.84(model15%)，缺席场景概率或升至20-25%、value或触1.10+临界。**请主会话在正式XI公布后(赛前60分钟)重跑predict.py评估是否出澳洲客胜票。**",
+   "enFull": "CBS Sports and NBC Sports (June 19, updated): Christian Pulisic (calf, USA vs Paraguay 4-1) has not returned to full team training as of June 19 — with under 48 hours before the Australia Group D clash, 'growing fear he will be unavailable' per CBS Sports, who published 'If Pulisic can't go, who replaces him?' citing Reyna, Zendejas, Weah and Aaronson. Earlier 'confirmed fit to feature' reports are superseded. Australia's Toure (calf cramp, Turkey opener) confirmed available. Market signal: Polymarket (live pull June 19) shows USA still at 60.8% with only -0.3pp drift since June 17 open — if Pulisic is genuinely absent, this appears to underestimate Australia's upside. Australia win @5.60 currently valued at 0.84 (model 15%); Pulisic-out scenario likely raises true probability to 20-25%, potentially pushing value above the 1.10 threshold. Main session: re-run predict.py after official XI confirmed (60 min pre-kick) to assess Australia away win as potential bet trigger.",
    "links": [
     {"name": "NBC Sports: Pulisic injury update vs Australia", "url": "https://www.nbcsports.com/soccer/news/christian-pulisic-injury-news-latest-update-on-usmnt-star-ahead-of-key-australia-clash"},
-    {"name": "ESPN: USA vs Australia World Cup 2026 preview", "url": "https://www.espn.com/soccer/story/_/id/49093966/fifa-world-cup-2026-usmnt-vs-australia-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"}
+    {"name": "CBS Sports: Who replaces Pulisic vs Australia?", "url": "https://www.cbssports.com/soccer/news/usmnt-projected-world-cup-lineup-australia-christian-pulisic-injury-usa-soccer/"}
    ]
   },
 {
@@ -1237,6 +1237,238 @@ window.DASH_DATA = {
   "matrix": [],
   "copyText": "周四(6/19)不下注，谢谢！",
   "reviewNote": "✓ 已独立复核 08:53 | 终盘管家20:36 Watchdog强杀·复核官接管 | 025-027已完场无法出票；028 HAD全值0.83-0.91均<1.10；§13.5合法空仓三条齐签；仓位0元·资金池安全(279.5>地板80)。放行。"
+ },
+ "training":  {
+  "sampleCount": 28,
+  "threshold": 50,
+  "pct": 56,
+  "ensBrier": 0.59,
+  "ensBrierMedian": 0.448,
+  "marketBase": 0.667,
+  "beatRandom": 16,
+  "dirHit": 15,
+  "weightsFirst": {
+   "A": 33,
+   "B": 34,
+   "C": 33
+  },
+  "weightsLast": {
+   "A": 53,
+   "B": 20,
+   "C": 7,
+   "D": 20
+  },
+  "dots": [
+   {
+    "num": "周四001",
+    "m": "墨西哥·2:0",
+    "b": 0.17,
+    "win": true
+   },
+   {
+    "num": "周四002",
+    "m": "韩国·2:1",
+    "b": 0.52,
+    "win": true
+   },
+   {
+    "num": "周五003",
+    "m": "加拿大·1:1",
+    "b": 0.93,
+    "win": false
+   },
+   {
+    "num": "周五004",
+    "m": "美国·4:1",
+    "b": 0.37,
+    "win": true
+   },
+   {
+    "num": "周六005",
+    "m": "卡塔尔·1:1",
+    "b": 1.33,
+    "win": false
+   },
+   {
+    "num": "周六006",
+    "m": "巴西·1:1",
+    "b": 0.96,
+    "win": false
+   },
+   {
+    "num": "周六007",
+    "m": "海地·0:1",
+    "b": 0.17,
+    "win": true
+   },
+   {
+    "num": "周六008",
+    "m": "澳大利亚·2:0",
+    "b": 0.93,
+    "win": false
+   },
+   {
+    "num": "周日009",
+    "m": "德国·7:1",
+    "b": 0.02,
+    "win": true
+   },
+   {
+    "num": "周日010",
+    "m": "荷兰·2:2",
+    "b": 0.84,
+    "win": false
+   },
+   {
+    "num": "周日011",
+    "m": "科特迪瓦·1:0",
+    "b": 0.76,
+    "win": false
+   },
+   {
+    "num": "周日012",
+    "m": "瑞典·5:1",
+    "b": 0.33,
+    "win": true
+   },
+   {
+    "num": "周一013",
+    "m": "西班牙·0:0",
+    "b": 1.67,
+    "win": false
+   },
+   {
+    "num": "周一014",
+    "m": "比利时·1:1",
+    "b": 1.06,
+    "win": false
+   },
+   {
+    "num": "周一015",
+    "m": "沙特·1:1",
+    "b": 1.1,
+    "win": false
+   },
+   {
+    "num": "周一016",
+    "m": "伊朗·2:2",
+    "b": 0.93,
+    "win": false
+   },
+   {
+    "num": "周二017",
+    "m": "法国·3:1",
+    "b": 0.16,
+    "win": true
+   },
+   {
+    "num": "周二018",
+    "m": "伊拉克·1:4",
+    "b": 0.07,
+    "win": true
+   },
+   {
+    "num": "周二019",
+    "m": "阿根廷·3:0",
+    "b": 0.14,
+    "win": true
+   },
+   {
+    "num": "周二020",
+    "m": "奥地利·3:1",
+    "b": 0.12,
+    "win": true
+   },
+   {
+    "num": "周三021",
+    "m": "葡萄牙·1:1",
+    "b": 1.34,
+    "win": false
+   },
+   {
+    "num": "周三022",
+    "m": "英格兰·4:2",
+    "b": 0.26,
+    "win": true
+   },
+   {
+    "num": "周三023",
+    "m": "加纳·1:0",
+    "b": 0.47,
+    "win": true
+   },
+   {
+    "num": "周三024",
+    "m": "乌兹别克·1:3",
+    "b": 0.12,
+    "win": true
+   },
+   {
+    "num": "周四025",
+    "m": "捷克·1:1",
+    "b": 1.02,
+    "win": false
+   },
+   {
+    "num": "周四026",
+    "m": "瑞士·4:1",
+    "b": 0.22,
+    "win": true
+   },
+   {
+    "num": "周四027",
+    "m": "加拿大·6:0",
+    "b": 0.08,
+    "win": true
+   },
+   {
+    "num": "周四028",
+    "m": "墨西哥·1:0",
+    "b": 0.42,
+    "win": true
+   }
+  ],
+  "disasters": [
+   {
+    "num": "周六005",
+    "m": "卡塔尔",
+    "s": "1:1",
+    "b": 1.33
+   },
+   {
+    "num": "周一013",
+    "m": "西班牙",
+    "s": "0:0",
+    "b": 1.67
+   },
+   {
+    "num": "周一014",
+    "m": "比利时",
+    "s": "1:1",
+    "b": 1.06
+   },
+   {
+    "num": "周一015",
+    "m": "沙特",
+    "s": "1:1",
+    "b": 1.1
+   },
+   {
+    "num": "周三021",
+    "m": "葡萄牙",
+    "s": "1:1",
+    "b": 1.34
+   },
+   {
+    "num": "周四025",
+    "m": "捷克",
+    "s": "1:1",
+    "b": 1.02
+   }
+  ],
+  "headline": "已喂 28 场预测 · 集成 Brier 0.59 < 随机 0.667(16/28 场跑赢,57%)",
+  "lesson": "模型撞到的真相:它赢不了市场(权重已自学到重仓市场去水 A 33%→53%、弃 Elo C 33%→7%),但学会了「大热门被系统性高估」——28 场里 6 场大热被逼平(卡塔尔/西班牙/比利时/沙特/葡萄牙/捷克)。**边在纪律和情报、不在模型方向**,这正是我们避开让球镜像、押中澳洲冷门的原因。这条规律可直接迁股市。",
+  "graduation": "完成训练 = 喂满 50 场 + Brier 稳定 < 市场 + 权重收敛。当前 28/50(56%),权重已基本收敛(A 重仓),还差 22 场达毕业线 → 然后引擎迁股市。"
  },
  "calibration": {
   "stats": {

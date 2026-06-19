@@ -495,7 +495,7 @@
   <div class="hbar">
     <div class="brand">WC26 <b>竞彩作战板</b></div>
     <nav class="topnav">
-      <a href="#sec-report">战报</a><a href="#sec-tomorrow">明日</a><a href="#sec-bank">资金池</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
+      <a href="#sec-report">战报</a><a href="#sec-training">训练</a><a href="#sec-bank">资金池</a><a href="#sec-odds">赔率</a><a href="#sec-news">情报</a><a href="#sec-slip">下单</a><a href="#sec-cal">校准</a>
     </nav>
     <div class="hmeta" id="hmeta"></div>
   </div>
@@ -517,6 +517,10 @@
     </div>
     <div class="tmr-plan" id="tmr-plan" style="margin-top:6px"></div>
     <div id="past-entry" style="margin-top:18px"></div>
+  </section>
+  <section id="sec-training">
+    <div class="stitle"><h2>训练进度道场</h2><span class="sub">模型在练什么、练到哪了 · 真实战绩,不美化</span></div>
+    <div id="training-body"></div>
   </section>
   <section id="sec-slip">
     <div class="stitle"><h2>下单计划</h2><span class="sub" id="slip-title"></span></div>
@@ -749,8 +753,8 @@ const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axis
     ["资金池", Bk.cashNow.toFixed(1), ""],
     ["累计盈亏", fmt(cum), sgn(cum)],
     ["在场", D.holdings.pendingStake + " 元", D.holdings.pendingStake > 0 ? "st-pending" : ""],
-    ["本轮投入", D.holdings.invested + " 元", ""],
-    ["本轮已结", fmt(settledPnl), sgn(settledPnl)],
+    ["训练进度", (D.training ? D.training.sampleCount + "/" + D.training.threshold + " 场" : "—"), ""],
+    ["集成Brier", (D.training ? D.training.ensBrier + " < 随机" + D.training.marketBase : "—"), "pos"],
     ["安全垫", cushion.toFixed(1), cushion > 0 ? "pos" : "neg"],
     ["轮次", D.meta.round, ""],
     ["快照(北京)", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
@@ -1341,6 +1345,43 @@ window.openNews = ni => {
 };
 
 /* ---------- slip ---------- */
+/* ---------- 训练进度道场(真实战绩,不美化) ---------- */
+(function(){
+  const T = D.training; if(!T){ const s=document.getElementById('sec-training'); if(s)s.style.display='none'; return; }
+  const bar = (pct,color)=>`<div style="height:10px;background:var(--line);border-radius:6px;overflow:hidden"><div style="height:100%;width:${pct}%;background:${color};border-radius:6px"></div></div>`;
+  const dots = T.dots.map(d=>`<span title="${d.m} Brier ${d.b}" style="display:inline-block;width:9px;height:9px;border-radius:2px;margin:2px;background:${d.win?'var(--gold)':'var(--faint)'}"></span>`).join('');
+  const names={A:'市场去水',B:'Elo',C:'Poisson',D:'国际共识'};
+  const wEvo = ['A','B','C','D'].map(k=>{
+    const f=T.weightsFirst[k]||0, l=T.weightsLast[k]||0;
+    return `<div style="display:flex;align-items:center;gap:8px;font-size:12.5px;margin:4px 0"><span style="width:90px;color:var(--faint)">${k}·${names[k]}</span><span class="num" style="width:36px;text-align:right">${f}%</span><span style="color:var(--faint)">→</span><span class="num" style="width:36px;text-align:right;color:var(--gold)">${l}%</span><span style="color:var(--faint);font-size:11px">${l>f?'↑重仓':l<f?'↓减仓':'—'}</span></div>`;
+  }).join('');
+  document.getElementById('training-body').innerHTML = `
+    <div style="border:1px solid var(--line-strong);border-radius:12px;padding:18px 20px;margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px">
+        <div><span style="font-size:13px;color:var(--faint)">训练进度</span> <span class="num" style="font-size:26px;color:var(--gold);font-weight:700">${T.sampleCount}</span><span class="num" style="font-size:16px;color:var(--faint)"> / ${T.threshold} 场</span></div>
+        <div style="font-size:12.5px;color:var(--faint)">${T.headline}</div>
+      </div>
+      <div style="margin:12px 0 8px">${bar(T.pct,'var(--gold)')}</div>
+      <div style="font-size:12px;color:var(--faint);line-height:1.6">${T.graduation}</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px">
+      <div class="blk"><span class="k">集成 Brier</span><span class="v num">${T.ensBrier}<span style="font-size:11px;color:var(--faint)"> vs 随机 ${T.marketBase}</span></span></div>
+      <div class="blk"><span class="k">跑赢随机</span><span class="v num">${T.beatRandom}/${T.sampleCount}<span style="font-size:11px;color:var(--faint)"> (${Math.round(100*T.beatRandom/T.sampleCount)}%)</span></span></div>
+      <div class="blk"><span class="k">方向命中(近似)</span><span class="v num">${T.dirHit}/${T.sampleCount}</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-bottom:14px">
+      <div>
+        <div style="font-size:12.5px;color:var(--faint);margin-bottom:6px">权重自学演化(首场 → 最新,模型自己学会重仓谁)</div>
+        ${wEvo}
+      </div>
+      <div>
+        <div style="font-size:12.5px;color:var(--faint);margin-bottom:6px">28 场战绩 · 金=跑赢随机,灰=差于随机(诚实锯齿,不画平滑线)</div>
+        <div style="line-height:0">${dots}</div>
+      </div>
+    </div>
+    <div style="border-left:3px solid var(--gold);padding:11px 15px;background:var(--gold-dim);border-radius:6px;font-size:13px;line-height:1.75">${T.lesson.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}</div>
+  `;
+})();
 document.getElementById("slip-title").textContent = D.slip.title;
 // 说明渲染 Markdown(**粗** + 换行),不再露生符号
 document.getElementById("slip-status").innerHTML = (D.slip.status || "")
