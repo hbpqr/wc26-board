@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 1 轮",
-  "updated": "2026-06-19 08:45",
+  "updated": "2026-06-19 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -141,6 +141,10 @@ window.DASH_DATA = {
    },
    {
     "d": "06-18",
+    "v": 279.5
+   },
+   {
+    "d": "06-19",
     "v": 279.5
    }
   ],
@@ -286,6 +290,21 @@ window.DASH_DATA = {
      "🏆 乌兹别克 1:3 哥伦比亚(10:00 完赛)",
      "　集成72.7%客胜方向正确(Brier ens≈0.116,极优) | 哈梅斯+路易斯·迪亚斯领衔大胜 | 无持仓,无资金影响",
      "📊 当日4场全终:无持仓,池 279.5 不变"
+    ]
+   },
+   {
+    "d": "06-19",
+    "pool": 279.5,
+    "pnl": 0,
+    "records": [
+     "🏆 捷克 1:1 南非(00:00 完赛)",
+     "　集成52.8%主胜方向错(平局兑现，Brier ens=1.018，差于随机0.667) | 无持仓，无资金影响",
+     "🏆 瑞士 4:1 波黑(03:00 完赛)",
+     "　集成62.1%主胜方向正确(Brier ens=0.217，优) | 无持仓，无资金影响",
+     "🏆 加拿大 6:0 卡塔尔(06:00 完赛)",
+     "　集成76.3%主胜方向正确(Brier ens=0.079，极优) | 无持仓，无资金影响",
+     "⏳ 墨西哥 vs 韩国(09:00，进行中)",
+     "📊 当日已结算3场：无持仓，池 279.5 不变(待028结算)"
     ]
    }
   ],
@@ -763,6 +782,48 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+{
+   "date": "06-19",
+   "match": "苏格兰 vs 摩洛哥",
+   "impact": "Bounou臂伤存疑",
+   "tone": "away",
+   "text": "摩洛哥主力GK布努(Bounou)对巴西首战后肩臂受伤存疑；CB阿格尔德(Aguerd)亦携挪威热身旧伤；苏格兰麦肯纳(McKenna)小腿伤已重返训练，预计可用(The Scotsman·Sports Mole双源)",
+   "en": "Morocco GK Yassine Bounou doubtful with arm/shoulder injury sustained vs Brazil; CB Nayef Aguerd also carrying knock from Norway warm-up; Scotland's Scott McKenna (calf) returned to training and expected to be fit (The Scotsman/Sports Mole)",
+   "full": "The Scotsman与Sports Mole(06-19)均确认：摩洛哥首发门将亚辛·布努（Bounou，Al-Qadsiah）在首轮对阵巴西时肩臂受伤，出战苏格兰的状态标记为存疑（doubtful）。若布努无法出战，摩洛哥将被迫起用经验相对不足的备用GK——对苏格兰定位球和射门端是一定利好。此外，后卫纳赛夫·阿格尔德（前西汉姆）带挪威热身赛旧伤出征，出战状况受监控。苏格兰方面：麦肯纳（McKenna，小腿）已重返训练，史蒂夫·克拉克预计他将可出战；首轮1:0胜海地后无新伤缺，阵容相对完整。综合：摩洛哥双重伤情（GK+CB）略微收窄双方差距；但摩洛哥首轮1:1平巴西进攻仍强，苏格兰胜value=1.00（<1.10安全边际），focus空仓判断不变。⚠️ 布努/阿格尔德首发状态须赛前60分钟官方XI确认。",
+   "enFull": "The Scotsman and Sports Mole (June 19) both report: Morocco's starting GK Yassine Bounou suffered an arm/shoulder injury during the Brazil opener and is listed as doubtful for Saturday's clash with Scotland. If Bounou is ruled out, Morocco would use a backup GK with considerably less international pedigree — a positive for Scotland's set-piece and shooting threat. CB Nayef Aguerd (ex-West Ham, now Rennes) is carrying a knock from the Norway warm-up and is being monitored. Scotland: Scott McKenna (calf) has returned to training and is expected to be available per Steve Clarke; no new injuries following the 1-0 win over Haiti. Net: Morocco's twin injury concerns (GK + CB) marginally close the gap with Scotland; however, Morocco showed strong attacking quality in the 1-1 draw vs Brazil. Scotland win value 1.00 remains below the ≥1.10 buy threshold — no-bet unchanged. ⚠️ Confirm Bounou/Aguerd status at official XI 60 min before kick-off.",
+   "links": [
+    {"name": "The Scotsman: Scotland handed injury boost vs Morocco", "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"},
+    {"name": "Sports Mole: Scotland vs Morocco preview", "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-morocco-prediction-team-news-lineups_599454.html"}
+   ]
+  },
+{
+   "date": "06-19",
+   "match": "土耳其 vs 巴拉圭",
+   "impact": "巴拉圭三将伤缺",
+   "tone": "away",
+   "text": "巴拉圭卡巴耶罗(Caballero,肌肉)与索萨(Sosa,踝)确认缺席；阿尔米龙(Almiron)带伤「乐观」；土耳其耶尔迪兹(Yildiz)首轮仍未出战、状态仍疑(Squawka·RotoWire双源)",
+   "en": "Paraguay: Caballero (muscle) and Sosa (ankle) confirmed out; Almiron injury doubt but camp 'optimistic'; Turkey's Yildiz missed opener vs Australia and remains questionable (Squawka/RotoWire)",
+   "full": "Squawka与RotoWire(06-19)赛前确认：巴拉圭中场卡巴耶罗（Gustavo Caballero，肌肉伤）与拉蒙·索萨（Ramon Sosa，踝关节）均确认缺席对土耳其一役。争议焦点在阿尔米龙（Miguel Almirón，纽卡斯尔）：带小腿伤出征，营地称「乐观」，可能首发或替补，临阵确认。土耳其方面：科南·耶尔迪兹（Juventus）在首轮2:0不敌澳大利亚时缺席，状态仍存疑——若耶尔迪兹无法首发，土耳其进攻创造力显著削弱。双队生死局：均需首胜保出线资格（土耳其0分/巴拉圭0分）。综合：巴拉圭三将伤缺（两确认+阿尔米龙疑）轻度利好土耳其，但耶尔迪兹悬念构成抵消；巴拉圭胜value=0.93（<1.10），空仓不变。⚠️ 赛前60分钟核查双方XI：重点确认阿尔米龙和耶尔迪兹状态。",
+   "enFull": "Squawka and RotoWire (June 19) confirm: Paraguay's Gustavo Caballero (muscle) and Ramón Sosa (ankle) are both ruled out for the Turkey clash — two confirmed midfield absences for a side already beaten 4-1 by USA. Key uncertainty: Miguel Almirón (Newcastle) is carrying a knock but camp is 'optimistic'; could start or sub, final decision on match day. Turkey: Kenan Yildiz (Juventus) missed the opening 2-0 defeat to Australia and his status for Paraguay remains in doubt — if Yildiz cannot start, Turkey's attacking creativity is significantly reduced. Context: both sit on 0 points and face must-win pressure. Net: Paraguay's triple injury concern (two confirmed + Almirón doubt) mildly favors Turkey, but Yildiz's own uncertainty offsets part of the gap. Paraguay win value 0.93 remains below the ≥1.10 threshold — no-bet stance unchanged. ⚠️ Confirm Almirón and Yildiz status at official XI 60 min before kick-off.",
+   "links": [
+    {"name": "Squawka: Turkey vs Paraguay team news predicted lineups", "url": "https://www.squawka.com/en/news/world-cup/turkey-vs-paraguay-team-news-predicted-lineups/"},
+    {"name": "RotoWire: Turkey vs Paraguay preview", "url": "https://www.rotowire.com/soccer/article/turkey-vs-paraguay-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-118661"}
+   ]
+  },
+{
+   "date": "06-19",
+   "match": "美国 vs 澳大利亚",
+   "impact": "普利西奇伤确认出战",
+   "tone": "home",
+   "text": "普利西奇(Pulisic)首战提前下场，最新确认将出战澳大利亚，但或以替补上阵保体能；澳洲图雷(Toure)小腿抽筋已确认可用(NBC Sports·ESPN双源)",
+   "en": "Pulisic limped off vs Paraguay but confirmed fit to feature vs Australia, potentially from bench; Australia's Toure (calf cramp) also confirmed available (NBC Sports/ESPN)",
+   "full": "NBC Sports与ESPN(06-19)确认：美国队长普利西奇(AC米兰)首轮4:1大胜巴拉圭时提前离场，小腿不适，但最新报道显示他「will be fit to feature」出战澳大利亚。主帅或让他替补出场保护体能。澳大利亚前锋图雷(Mohamed Toure)首轮对土耳其腿部抽筋提前退场，已确认伤势轻微可参战。双方无新增伤缺——本场焦点在普利西奇是否首发而非是否参战。Group D组双雄相遇：美国4:1、澳大利亚2:0，两队各积3分同顶分组，胜者出线主动权大占。综合：普利西奇确认出战对美国price-in程度无大影响；现有HAD value仍<1.10（美国胜0.91），focus空仓判断不变。⚠️ 普利西奇具体角色（首发/替补）需赛前60分钟官方XI确认。",
+   "enFull": "NBC Sports and ESPN (June 19) confirm: Christian Pulisic (AC Milan) limped off during the USA's 4-1 win over Paraguay with a calf concern, but is confirmed fit to play vs Australia in the Group D top-of-table clash. Pochettino may opt to start him from the bench to manage his workload. Australia's Mohamed Toure (calf cramp, vs Turkey) is also confirmed available. No new injuries from either camp. Context: USA (4-1 Paraguay) and Australia (2-0 Turkey) both sit on 3 points atop Group D — winner takes a commanding grip on qualification. Net: Pulisic's fitness is largely expected and already priced in; USA win HAD value 0.91 remains below the ≥1.10 threshold. No-bet stance unchanged. ⚠️ Pulisic starting vs. bench role confirmed at official XI 60 min before kick-off.",
+   "links": [
+    {"name": "NBC Sports: Pulisic injury update vs Australia", "url": "https://www.nbcsports.com/soccer/news/christian-pulisic-injury-news-latest-update-on-usmnt-star-ahead-of-key-australia-clash"},
+    {"name": "ESPN: USA vs Australia World Cup 2026 preview", "url": "https://www.espn.com/soccer/story/_/id/49093966/fifa-world-cup-2026-usmnt-vs-australia-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"}
+   ]
+  },
 {
    "date": "06-19",
    "match": "加拿大 vs 卡塔尔",
