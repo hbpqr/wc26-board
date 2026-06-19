@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-19 18:10",
+  "updated": "2026-06-19 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -675,6 +675,66 @@ window.DASH_DATA = {
     "a": 23.3
    },
    "note": "终场:墨西哥1:0韩国。集成47.1%主胜方向正确(Brier ens≈0.422,优于随机基线0.667)。金塔内斯首球锁定胜局,韩国全队可用未能翻盘。无持仓,资金不变。合法空仓通过事后验证(HAD全<1.10,无edge)。"
+  },
+  {
+   "num": "周五029",
+   "home": "美国",
+   "away": "澳大利亚",
+   "time": "06-20 03:00",
+   "status": "pending",
+   "predManual": "见slip(美国胜16元@1.45)",
+   "predModel": "主胜60.2%",
+   "ensemble": {
+    "h": 60.2,
+    "d": 22.4,
+    "a": 17.4
+   },
+   "note": ""
+  },
+  {
+   "num": "周五030",
+   "home": "苏格兰",
+   "away": "摩洛哥",
+   "time": "06-20 06:00",
+   "status": "pending",
+   "predManual": "见slip(摩洛哥胜16元@1.50)",
+   "predModel": "客胜56.8%",
+   "ensemble": {
+    "h": 16.6,
+    "d": 26.6,
+    "a": 56.8
+   },
+   "note": ""
+  },
+  {
+   "num": "周五031",
+   "home": "巴西",
+   "away": "海地",
+   "time": "06-20 08:30",
+   "status": "pending",
+   "predManual": "见slip(3串1腿·巴西让-2·8元)",
+   "predModel": "主胜88.5%",
+   "ensemble": {
+    "h": 88.5,
+    "d": 8.0,
+    "a": 3.5
+   },
+   "note": ""
+  },
+  {
+   "num": "周五032",
+   "home": "土耳其",
+   "away": "巴拉圭",
+   "time": "06-20 11:00",
+   "status": "pending",
+   "predManual": "未出票(跳过)",
+   "predModel": "主胜46.7%",
+   "ensemble": {
+    "h": 46.7,
+    "d": 28.6,
+    "a": 24.6
+   },
+   "note": ""
   }
  ],
  "holdings": {
