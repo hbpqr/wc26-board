@@ -767,7 +767,7 @@ const AXIS = { axisLine: { lineStyle: { color: "rgba(255,255,255,.14)" } }, axis
     ["累计盈亏", fmt(cum), sgn(cum)],
     ["在场", D.holdings.pendingStake + " 元", D.holdings.pendingStake > 0 ? "st-pending" : ""],
     ["训练进度", (D.training ? D.training.sampleCount + "/" + D.training.threshold + " 场" : "—"), ""],
-    ["集成Brier", (D.training ? D.training.ensBrier + " < 随机" + D.training.marketBase : "—"), "pos"],
+    ["集成Brier", (D.training ? D.training.ensBrier + " vs 市场" + D.training.marketBase + (D.training.beatsMarket ? "✓" : "·未跑赢") : "—"), (D.training && D.training.beatsMarket ? "pos" : "")],
     ["安全垫", cushion.toFixed(1), cushion > 0 ? "pos" : "neg"],
     ["轮次", D.meta.round, ""],
     ["快照(北京)", (O ? O.fetched_at.slice(5, 16) : "未加载"), "updated"],
