@@ -694,18 +694,31 @@ ALL.forEach(m => { m.live = (m.status !== "finished" && LIVE[m.num]) ? LIVE[m.nu
 ALL.forEach(m => { if (m.status !== "finished") m.phase = m.live ? "live" : "scheduled"; });
 
 /* ===== 比赛日分组 + 当前/下一/过往(纯前端,数据更新即自动轮转) ===== */
-// 按 round 分组,seqMin(该组最小序号)用于 round 间排序;字面"周X"只做显示
+// ★按"连续编号段"分组,不是按"周X"字面(2026-06-19 修):世界杯跨周后同名 weekday 会重现
+// (周日009-012 和 下周 周日037-040 都叫"周日"),按字面分组会把两批合并成一组8场=黄斌看到的重复卡片。
+// 正解:按 seq 排序后顺序扫描,round 标签变了 或 编号断档(>4)即开新组——两批同名周X因中间隔着别的weekday/大gap而自然分开。
 function groupByRound(list) {
-  const g = new Map();
-  list.forEach(m => {
-    if (!g.has(m.round)) g.set(m.round, { round: m.round, matches: [], seqMin: Infinity });
-    const grp = g.get(m.round);
-    grp.matches.push(m);
-    grp.seqMin = Math.min(grp.seqMin, m.seq);
+  const sorted = [...list].sort((a, b) => a.seq - b.seq);
+  const groups = [];
+  let cur = null;
+  sorted.forEach(m => {
+    if (!cur || m.round !== cur.round || (m.seq - cur._lastSeq) > 4) {
+      cur = { round: m.round, matches: [], seqMin: m.seq, _lastSeq: m.seq };
+      groups.push(cur);
+    }
+    cur.matches.push(m);
+    cur._lastSeq = m.seq;
   });
-  const groups = [...g.values()].sort((a, b) => a.seqMin - b.seqMin); // 组间按 seqMin 升序
-  groups.forEach(grp => grp.matches.sort((a, b) => a.seq - b.seq));    // 组内按 seq 升序
-  return groups;
+  // 同名 weekday 出现多组时,给非首组的 round 标签补日期(MM-DD)以便区分显示
+  const seen = {};
+  groups.forEach(grp => {
+    seen[grp.round] = (seen[grp.round] || 0) + 1;
+    if (seen[grp.round] > 1) {
+      const d = (grp.matches[0].time || "").slice(0, 5);   // "MM-DD"
+      grp.round = d ? `${grp.round}(${d})` : grp.round;
+    }
+  });
+  return groups;   // 顺序构建即已按 seq 升序
 }
 const ROUNDS = groupByRound(ALL);
 // 当前 = 最小 seqMin 的、还有未结束(status!=finished)比赛的 round
