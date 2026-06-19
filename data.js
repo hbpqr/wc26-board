@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 01:10",
+  "updated": "2026-06-20 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -943,6 +943,46 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-20",
+   "match": "美国 vs 澳大利亚",
+   "impact": "普利西奇官方缺阵",
+   "tone": "away",
+   "text": "官方确认：普利西奇(Pulisic)左小腿伤缺席对澳大利亚·里卡多·佩皮(Pepi)顶替首发；波切蒂诺赛前60分钟官方宣告(Yahoo Sports·NPR·Fox Sports 06-20 02:00前)",
+   "en": "OFFICIAL: Pulisic (left calf) ruled out vs Australia — Ricardo Pepi starts in attack. Pochettino confirmed at pre-match presser. (Yahoo Sports/NPR/Fox Sports, June 20, pre-kick)",
+   "full": "Yahoo Sports赛前直播页、NPR(06-20)、Fox Sports(06-20)多源一致确认：普利西奇(Christian Pulisic)因首轮对阵巴拉圭受伤加重的左小腿伤正式缺席对阵澳大利亚一役，波切蒂诺在赛前发布会确认他不在首发名单并将不上场。里卡多·佩皮(Ricardo Pepi)顶替首发锋线。这推翻了此前「大概率出战」的所有估计（ESPN「much better」、CBS/FOX确认等均被最终官方发布覆盖）。⚠️影响：普利西奇是美国最强攻击核心(首轮4:1对巴拉圭的4球助攻+进攻组织均来自他)，缺席场景下美国进攻威胁显著下降，澳大利亚客胜概率上升。market当前美国主胜@1.44，原focus写空仓(value0.91)——Pulisic出战vs缺席在predict.py中有两套概率，主会话须重跑核查缺席场景下澳洲客胜value是否触1.10+。§14 fade-favorite协议提示：美国conf≥60%→押平@3.83 4元（如条件仍满足）。",
+   "enFull": "Yahoo Sports live updates, NPR and Fox Sports (June 20, pre-match) all confirm: Christian Pulisic has been officially ruled OUT of USA vs Australia due to an aggravated left calf injury sustained in the USA's 4-1 win over Paraguay. Pochettino confirmed at the pre-match press conference with Ricardo Pepi named as his replacement in attack. This supersedes all earlier 'likely out' and 'much better' reports. Impact: Pulisic orchestrated all attacking play vs Paraguay (assists + pressing); without him USA's creative output drops markedly, raising Australia's probability. Existing focus says no-bet (value 0.91 — below 1.10) based on pre-injury context. Main session must re-run predict.py with Pulisic-out scenario to check if Australia away win value reaches 1.10+. §14 fade-favorite check: if USA confidence still ≥60% in model → flat bet on Draw @3.83 / 4 yuan applies.",
+   "links": [
+    {
+     "name": "Yahoo Sports: USMNT vs Australia live updates – Pulisic ruled out",
+     "url": "https://sports.yahoo.com/soccer/live/usmnt-vs-australia-score-live-updates-where-to-watch-world-cup-2026-christian-pulisic-injury-news-lineups-170000908.html"
+    },
+    {
+     "name": "NPR: Christian Pulisic will not play vs Australia",
+     "url": "https://www.npr.org/2026/06/19/nx-s1-5863602/2026-fifa-world-code-usmnt-australia"
+    }
+   ]
+  },
+  {
+   "date": "06-20",
+   "match": "土耳其 vs 巴拉圭",
+   "impact": "阿尔米龙确认首发",
+   "tone": "away",
+   "text": "Yahoo Sports·Sports Mole(06-20)双源预测XI:阿尔米龙(Almirón)确认首发出战土耳其·「带伤疑问」已解除；土耳其预测XI耶尔迪兹仍不在首发(替补登场预期)",
+   "en": "Yahoo Sports/Sports Mole (June 20): Almirón confirmed to start for Paraguay vs Turkey — previous injury doubt cleared. Yildiz still NOT in Turkey's predicted starting XI; expected to come on as sub.",
+   "full": "Yahoo Sports与Sports Mole(06-20赛前)双源确认：阿尔米龙（Miguel Almirón，纽卡斯尔）将首发出战土耳其，此前「小腿带伤疑问」已解除，巴拉圭在首轮惨负美国4:1后按最强阵出战。土耳其预测XI仍无耶尔迪兹（Kenan Yildiz）在首发序列——蒙泰拉（Montella）延续第一轮策略让他替补登场。综合：与旧情报方向一致，无价值判断方向性改变——土耳其/巴拉圭所有选项value≤0.93（<1.10安全边际），空仓判断不变。双队生死局，耶尔迪兹替补出场时间有望更长（可能60分钟）。⚠️正式XI赛前60分钟再核。",
+   "enFull": "Yahoo Sports and Sports Mole (June 20, pre-match): Miguel Almirón confirmed to start for Paraguay against Turkey — the earlier injury doubt/optimistic camp read has resolved to a clear starter. Paraguay line up at full attacking strength after the 4-1 hammering from USA in Game 1. Turkey predicted XI still excludes Kenan Yildiz from the starting lineup; Montella expected to deploy him as a substitute again, though likely for more minutes than the opener (possibly 60+ min). Net assessment: direction unchanged — all Turkey/Paraguay HAD options remain ≤0.93 value (below ≥1.10 buy threshold); no-bet stance unchanged. Both teams face must-win pressure. ⚠️ Confirm official XIs 60 min before kick-off.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Turkey vs Paraguay preview",
+     "url": "https://sports.yahoo.com/articles/preview-turkey-vs-paraguay-team-030500855.html"
+    },
+    {
+     "name": "Sports Mole: Paraguay lineup vs Turkey",
+     "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/predicted-lineups/almiron-and-enciso-lead-la-albirroja-lineup-predicted-paraguay-xi-vs-turkey_599450.html"
+    }
+   ]
+  },
   {
    "date": "06-19",
    "match": "苏格兰 vs 摩洛哥",
