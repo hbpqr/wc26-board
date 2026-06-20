@@ -1023,7 +1023,7 @@ window.DASH_DATA = {
     "tier": "彩票",
     "match": "摩×美×巴(净胜3+)",
     "stake": 8,
-    "odds": 3.46,
+    "odds": 3.455,
     "value": 1.0,
     "ev": 0
    }
