@@ -952,6 +952,11 @@ function matchScore(m) {
 // 无则回退启发式:有单关用单关方向(净胜1);无单关时胜平负开盘=直接赢(净胜1),只开让球=净胜3+。
 function legResult(lm, parlayPick, legMeta) {
   const sc = matchScore(lm);
+  if (legMeta && legMeta.ttg != null) {  // 总进球数腿:中=该场总进球恰好等于 ttg
+    const need = `${lm.home}${lm.away}共进${legMeta.ttg}球`;
+    const won = sc ? (sc[0] + sc[1] === legMeta.ttg) : null;
+    return { need, won, finished: !!lm.actual, sc, favTeam: `总进${legMeta.ttg}球` };
+  }
   let isAway, favTeam, margin;
   if (legMeta) {
     isAway = legMeta.dir === "A";
