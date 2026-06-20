@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 13:30",
+  "updated": "2026-06-20 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -965,6 +965,46 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-20",
+   "match": "厄瓜多尔 vs 库拉索",
+   "impact": "厄败绩必须赢",
+   "tone": "home",
+   "text": "厄瓜多尔首轮0:1负于科特迪瓦,与库拉索同积0分;无伤停、动机明确必须赢——输者几乎出局(Rotowire·Sports Mole 06-20)",
+   "en": "Ecuador lost 1-0 to Ivory Coast in opener, now level on zero points with Curaçao; no injuries/suspensions, must-win pressure squarely on Ecuador — loser almost certainly eliminated. (Rotowire, Sports Mole — June 20)",
+   "full": "厄瓜多尔在本届世界杯首轮以0:1负于科特迪瓦（阿马德·迪亚洛83'制胜），导致小组局面严峻：德国+科特迪瓦各取3分并列前两，厄瓜多尔与库拉索均积0分，输者几乎确定出局。Rotowire与Sports Mole（06-20）确认厄瓜多尔首发阵容无重大伤停：卡伊塞多、瓦连西亚（Enner Valencia）、帕乔、普拉塔等核心均可出战。库拉索首轮1:7惨败德国，元气大伤；两队动机不对等——厄瓜多尔死战求生，库拉索已基本宣告出局。竞彩HAD暂未开盘，HHAD开出-2深让（厄净胜3+），模型集成87.3%主胜；待HAD开盘后主会话用predict.py确认是否过价值闸1.10。",
+   "enFull": "Ecuador fell 1-0 to Ivory Coast in their World Cup opener (Amad Diallo 83') and now sit on zero points alongside Curaçao — with Germany and Ivory Coast each on 3 points, the loser here is almost certainly eliminated. Ecuador have their full squad available with no suspensions or injury concerns: Caicedo, Valencia, Pacho, Plata all confirmed (Rotowire, Sports Mole — Jun 20). Curaçao were destroyed 7-1 by Germany in their opener; the must-win pressure asymmetry heavily favours Ecuador's intensity. Chinese bookmaker has not yet opened the HAD (胜平负) market; only HHAD (-2 line) available at 1.85/4.00/2.95 — model consensus 87.3% Ecuador win. Monitor for HAD opening and run predict.py before 08:00 BJT kick-off.",
+   "links": [
+    {
+     "name": "Rotowire: Ecuador vs Curacao preview",
+     "url": "https://www.rotowire.com/soccer/article/ecuador-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-118799"
+    },
+    {
+     "name": "Sports Mole: Ecuador vs Curacao preview",
+     "url": "https://www.sportsmole.co.uk/football/ecuador/world-cup-2026/preview/ecuador-vs-curacao-prediction-team-news-lineups_599563.html"
+    }
+   ]
+  },
+  {
+   "date": "06-20",
+   "match": "荷兰 vs 瑞典",
+   "impact": "伊萨克带伤首发",
+   "tone": "away_neg",
+   "text": "瑞典前锋伊萨克(利物浦)本周曾单独训练,教练组管理其上场时间,确认首发但体能打折风险存在;若非满状态瑞典进攻效率存疑(ESPN·Sports Mole 06-20)",
+   "en": "Sweden striker Alexander Isak (Liverpool) spotted training alone this week; coaching staff managing his minutes after injury — still expected to start vs Netherlands but performance level may be impacted. (ESPN, Sports Mole — June 20)",
+   "full": "瑞典头号前锋亚历山大·伊萨克（Alexander Isak，利物浦）在备战荷兰的训练营中被发现单独训练，教练组格雷厄姆·波特（Graham Potter）正在管理其上场时间（minute management），背景是一处未公开的轻伤在康复中。ESPN与Sports Mole（06-20）均确认伊萨克预计首发出战，但不排除视体能情况提前替换。伊萨克是瑞典最重要的进攻支柱，若体能打折将大幅削减瑞典正面冲击力。荷兰首轮2:2平日本（蒂姆伯赛前退出已price-in），科曼预计保持主力阵容：范戴克、加克波、马莱、赖尼德斯均无伤停报告。综合：伊萨克状态是本场最大变量，未满状态利好荷兰主胜。⚠️竞彩荷兰主胜赔率1.52，value=0.92<1.10，按纪律单关不出；评估让球/串关腿适配性。",
+   "enFull": "Sweden's key striker Alexander Isak (Liverpool) was spotted training alone at the Swedish camp, with head coach Graham Potter managing his minutes due to an undisclosed minor injury. Both ESPN and Sports Mole (June 20) confirm he is expected to start vs Netherlands but could be substituted early depending on his physical condition. Isak is Sweden's offensive engine — if below full sharpness, Sweden's attacking threat is significantly reduced. Netherlands drew 2:2 with Japan in Game 1 (Timber's pre-tournament withdrawal already priced in); coach Koeman expected to name an unchanged XI with Van Dijk, Gakpo, Malen, and Gravenberch all fit. Net: Isak's injury management is the primary variable — even a partially-fit Isak still poses danger, but a 70-80% Isak tips the balance further toward the Dutch. ⚠️ Chinese竹 odds: Netherlands 1.52 (value=0.92 <1.10 threshold — single bet not justified by §3; evaluate as serial leg only).",
+   "links": [
+    {
+     "name": "Sports Mole: Netherlands vs Sweden team news",
+     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup/team-news/netherlands-vs-sweden-injury-suspension-list-predicted-xis_599531.html"
+    },
+    {
+     "name": "ESPN: World Cup 2026 injury tracker",
+     "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    }
+   ]
+  },
   {
    "date": "06-20",
    "match": "德国 vs 科特迪瓦",
