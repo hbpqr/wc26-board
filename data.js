@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 08:10",
+  "updated": "2026-06-20 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -861,6 +861,26 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-20",
+   "match": "突尼斯 vs 日本",
+   "impact": "久保左膝伤缺",
+   "tone": "away",
+   "text": "久保建英(Real Sociedad)左膝MRI确认伤缺对阵突尼斯；日本媒体称出战「几乎无望」；已离开训练场专注治疗(Nippon.com·Sports Mole·OneFootball 06-19/20三源)",
+   "en": "Kubo (Real Sociedad) ruled out vs Tunisia: MRI confirms left knee injury from 75' clash with Dumfries vs Netherlands. Japanese media report chances 'virtually hopeless.' Not at training ground, undergoing treatment. (Nippon.com, Sports Mole, OneFootball Jun 19-20)",
+   "full": "日本头号创造力球员久保建英（Kubo Takefusa，Real Sociedad）在对荷兰首轮第75分钟与Dumfries膝对膝碰撞后受伤离场，MRI扫描确认左膝伤势。日本媒体多家一致报道：出战对突尼斯第二场「几乎无望」；日本足协确认久保缺席第二轮、已离开训练场专注治疗，未提供时间线。Nippon.com、Sports Mole、OneFootball（06-19/20）三源独立确认。影响评估：Polymarket已将日本定价为63.2%大热门（突尼斯13.4%/平23.4%），市场定价大概率已吸收久保缺席（伤情06-18公开）。⚠️建议主会话在赛前6-12小时用predict.py核算周六036竞彩价值，若日本赔率被低估则评估是否过1.10闸。",
+   "enFull": "Japan's key creative force Takefusa Kubo (Real Sociedad) suffered a left knee injury in the 75th minute vs Netherlands — knee-to-knee collision with Denzel Dumfries — and left the stadium in a wheelchair. MRI confirmed the injury. Multiple Japanese media outlets report his chances of playing vs Tunisia are 'virtually hopeless.' Japan FA confirmed Kubo will not feature in Matchday 2; he is focusing on treatment at his accommodation with no recovery timeline given. Three independent sources: Nippon.com, Sports Mole, OneFootball (Jun 19-20). Market impact: Polymarket already prices Japan at 63.2% favourite (Tunisia 13.4%, draw 23.4%) — injury was public since Jun 18, market has very likely absorbed it. ⚠️ Recommend running predict.py for 周六036 6-12 hours before kick-off to check if Chinese bookmaker odds still represent value vs 63.2% implied.",
+   "links": [
+    {
+     "name": "Nippon.com: Kubo to miss Tunisia match",
+     "url": "https://www.nippon.com/en/news/yjj2026061900204/"
+    },
+    {
+     "name": "Sports Mole: Japan lineup vs Tunisia",
+     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/kubo-injury-blow-sugawara-doan-decisions-predicted-japan-lineup-vs-tunisia_599496.html"
+    }
+   ]
+  },
   {
    "date": "06-20",
    "match": "土耳其 vs 巴拉圭",
