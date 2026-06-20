@@ -1703,6 +1703,43 @@ function labelize(root) {
 }
 labelize();
 
+/* ===== ★客户端无感实时刷新(黄斌2026-06-20入基因:看板必须自动更新,绝不让我看到停在加载那刻的死比分)=====
+   根因=原来 document.write 一次性加载数据、永不重拉。现在:每30s重拉 live_data.js 无感重渲染卡片;
+   有场刚完赛 或 每5分 → 整页刷新拿最终结果+结算(存滚动位还原);拉取连续失败 → 显式红条报警,绝不静默装新鲜。 */
+(function liveAutoRefresh() {
+  try { const sy = sessionStorage.getItem("wc_scroll"); if (sy !== null) { sessionStorage.removeItem("wc_scroll"); window.scrollTo(0, +sy); } } catch (e) {}
+  function fullReload() { try { sessionStorage.setItem("wc_scroll", window.scrollY); } catch (e) {} location.reload(); }
+  function liveSet() { return new Set((typeof ROUNDS !== "undefined" ? ROUNDS : []).flatMap(g => g.matches).filter(m => m.live).map(m => m.num)); }
+  function warn(on) {
+    let b = document.getElementById("live-stale-warn");
+    if (on && !b) { b = document.createElement("div"); b.id = "live-stale-warn"; b.style.cssText = "position:fixed;left:50%;top:8px;transform:translateX(-50%);z-index:99999;background:var(--red);color:#fff;font-size:12.5px;padding:6px 14px;border-radius:4px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.4)"; b.textContent = "⚠ 实时更新中断,比分可能不是最新 · 请手动刷新"; document.body.appendChild(b); }
+    else if (!on && b) b.remove();
+  }
+  let fails = 0, ticks = 0, prev = liveSet();
+  async function tick() {
+    ticks++;
+    try {
+      const r = await fetch("live_data.js?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) throw new Error("http " + r.status);
+      const txt = await r.text();
+      const newLive = JSON.parse(txt.slice(txt.indexOf("{"), txt.lastIndexOf("}") + 1));
+      fails = 0; warn(false);
+      Object.keys(LIVE).forEach(k => delete LIVE[k]); Object.assign(LIVE, newLive);
+      ROUNDS.forEach(g => g.matches.forEach(m => { if (m.status !== "finished") { m.live = LIVE[m.num] ? LIVE[m.num].live : null; m.phase = m.live ? "live" : "scheduled"; } }));
+      const now = liveSet();
+      const justEnded = [...prev].some(n => !now.has(n));   // 原来在踢的场没了 = 刚完赛
+      prev = now;
+      if (justEnded || ticks % 10 === 0) { fullReload(); return; }   // 完赛/每5分 → 整页刷新拿最终结果+结算
+      repWrap.innerHTML = ""; curRound.matches.forEach(m => { try { repWrap.insertAdjacentHTML("beforeend", renderMiniCard(m)); } catch (e) {} });
+      if (nextRound) { tmrWrap.innerHTML = ""; nextRound.matches.forEach(m => { try { tmrWrap.insertAdjacentHTML("beforeend", renderMiniCard(m)); } catch (e) {} }); }
+    } catch (e) {
+      if (++fails >= 2) warn(true);   // 连续2次失败 = 显式报警,绝不静默装新鲜
+    }
+    setTimeout(tick, 30000);
+  }
+  setTimeout(tick, 30000);
+})();
+
 /* resize all charts */
 window.addEventListener("resize", () => {
   document.querySelectorAll(".chartbox").forEach(el => {
