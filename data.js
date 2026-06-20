@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 07:52",
+  "updated": "2026-06-20 08:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -321,7 +321,9 @@ window.DASH_DATA = {
     "records": [
      "🏆 美国 2:0 澳大利亚(03:00 完赛)",
      "　集成62.7%主胜方向正确(Brier≈0.21，优) | 普利西奇缺席·佩皮首发 | §14 fade-平未触发(负CLV-16%) | 无持仓，无资金影响",
-     "📊 当日小计：本轮其余3场待踢(030/031/032)，无持仓，池 279.5 不变"
+     "🏆 苏格兰 0:1 摩洛哥(06:00 完赛)",
+     "　集成56.8%客胜方向正确(Brier≈0.285) | 摩洛哥黄金一代完胜苏格兰 | §14 fade-favorite未触发(conf<60%) | 无持仓，无资金影响",
+     "📊 当日小计：030已终，031/032待踢，无持仓，池 279.5 不变"
     ]
    }
   ],
@@ -711,7 +713,8 @@ window.DASH_DATA = {
    "home": "苏格兰",
    "away": "摩洛哥",
    "time": "06-20 06:00",
-   "status": "pending",
+   "status": "finished",
+   "actual": "0:1",
    "predManual": "见slip(摩洛哥胜16元@1.50)",
    "predModel": "客胜56.8%",
    "ensemble": {
@@ -719,7 +722,7 @@ window.DASH_DATA = {
     "d": 26.6,
     "a": 56.8
    },
-   "note": ""
+   "note": "终场：摩洛哥1:0苏格兰(第90'+7'结束)。集成56.8%客胜方向正确(Brier≈0.285)。§14 fade-favorite未触发(conf<60%)。无持仓，资金不变。"
   },
   {
    "num": "周五031",
@@ -763,56 +766,6 @@ window.DASH_DATA = {
   "scenarios": []
  },
  "focus": [
-  {
-   "num": "周五030",
-   "home": "苏格兰",
-   "away": "摩洛哥",
-   "time": "06-20 06:00",
-   "models": {
-    "A": [
-     17.4,
-     27.0,
-     55.7
-    ],
-    "B": [
-     24.5,
-     25.4,
-     50.1
-    ],
-    "C": [
-     16.6,
-     26.1,
-     57.2
-    ],
-    "ens": [
-     19.5,
-     26.4,
-     54.0
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 5.1,
-     "prob": 19.5,
-     "value": 1.0
-    },
-    {
-     "pick": "平局",
-     "odds": 3.28,
-     "prob": 26.4,
-     "value": 0.87
-    },
-    {
-     "pick": "客胜",
-     "odds": 1.59,
-     "prob": 54.0,
-     "value": 0.86
-    }
-   ],
-   "scores": [],
-   "verdict": "空仓(最高价值1.00=苏格兰胜@5.10，仍<1.10安全边际)。苏格兰胜edge仅+2.1pp，HHAD(+1)让负0.96/edge+2.6pp，均不达标。情报：McKenna腿筋疑问已公开，摩洛哥1:1平巴西，苏格兰1:0赢海地——双方首轮结果均已price-in；无新未定价硬信息差。§13.1空仓。"
-  },
   {
    "num": "周五031",
    "home": "巴西",
@@ -930,26 +883,6 @@ window.DASH_DATA = {
   },
   {
    "date": "06-19",
-   "match": "苏格兰 vs 摩洛哥",
-   "impact": "麦肯纳伤愈归队",
-   "tone": "home",
-   "text": "ESPN·Scotsman(06-19)双源确认:麦肯纳(Scott McKenna)小腿伤愈重返全体训练,克拉克(Clarke)最终备战可征召全队——苏格兰首轮因伤缺席的中卫或首发出场对阵摩洛哥",
-   "en": "ESPN and Scotsman (Jun 19) confirm Scott McKenna has returned to full training ahead of Morocco clash; Clarke has a full squad available. McKenna missed opener vs Haiti with a calf issue — now fit and likely to start.",
-   "full": "ESPN与Scotsman(06-19)双源确认：苏格兰中卫麦肯纳（Scott McKenna）在因小腿伤缺席首轮对阵海地后，已重返球队全体训练，克拉克主帅在赛前记招中表示全队无缺阵，麦肯纳有望首发出战摩洛哥一役。此前ESPN曾报道麦肯纳周三早训缺席，但随后末轮备战中全员到齐。影响评估：麦肯纳回归填补首轮中卫空缺，苏格兰防守线恢复最强阵；对价值判断影响微弱——苏格兰胜value仍=1.00（<1.10安全边际），空仓判断不变。⚠️正式XI仍须赛前60分钟确认，关注摩洛哥阿格尔德（CB）状态。",
-   "enFull": "ESPN and The Scotsman (June 19) both confirm that Scotland CB Scott McKenna has returned to full training ahead of the Morocco World Cup Group C match, overcoming the calf issue that kept him out of the 1-0 win over Haiti. Head coach Steve Clarke confirmed the squad is at full strength at the pre-match press conference. McKenna had briefly missed Wednesday's training session, raising brief concern, but took full part in the final session before the squad flew to Boston. Assessment: McKenna's return restores Scotland's first-choice centre-back pairing; modestly positive for the Scotland defensive structure. Scotland win value remains 1.00 — below the ≥1.10 buy threshold; no-bet stance unchanged. ⚠️ Confirm official XI 60 minutes pre-kick; also monitor Morocco CB Aguerd fitness.",
-   "links": [
-    {
-     "name": "ESPN: McKenna returns to Scotland training",
-     "url": "https://www.espn.com/soccer/story/_/id/49095828/scott-mckenna-misses-scotland-training-ahead-world-cup-clash-morocco"
-    },
-    {
-     "name": "Scotsman: Scotland injury boost ahead of Morocco",
-     "url": "https://www.scotsman.com/sport/football/international/scotland-handed-major-injury-boost-ahead-of-morocco-world-cup-match-8744374"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
    "match": "土耳其 vs 巴拉圭",
    "impact": "耶尔迪兹曾替补出场",
    "tone": "neutral",
@@ -985,26 +918,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Brazil XI vs Haiti confirmed",
      "url": "https://uk.sports.yahoo.com/news/brazil-xi-vs-haiti-confirmed-220618458.html"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "苏格兰 vs 摩洛哥",
-   "impact": "布努确认可战",
-   "tone": "neutral",
-   "text": "⚠️ 前情更新:摩洛哥主帅奥哈比(Ouahbi)06-19记招发布会确认布努(Bounou)肩碰轻微「他告诉我没事」,预计正常出战苏格兰;此前「存疑」报道已过时(MoroccoWorldNews·ESPN双源)",
-   "en": "UPDATE — Morocco coach Ouahbi (June 19 presser) confirms Bounou: 'minor collision on the shoulder, he told me he was fine' — expected to start vs Scotland. Previous 'doubtful' reports superseded (MoroccoWorldNews/ESPN)",
-   "full": "MoroccoWorldNews与ESPN(06-19)均报道：摩洛哥主帅穆罕默德·奥哈比在赛前记招发布会明确表示，布努（Bounou）在对阵巴西84'仅受轻微肩部撞击，「他亲口告诉我没事」，预计正常出战周六苏格兰一役。此前Sports Mole「doubtful」标签系第一时间赛后评估，在Ouahbi确认后已过时并应忽略。评估更新：布努确认可战→摩洛哥门将位置恢复正常→此前苏格兰「定位球/射门因备用GK获利」逻辑不再适用。CB纳赛夫·阿格尔德（旧伤携赛）仍受监控，但对结果影响相对次要。苏格兰胜value仍=1.00（<1.10安全边际），空仓判断不变。⚠️ 正式XI仍须赛前60分钟确认，关注阿格尔德（CB）状态。",
-   "enFull": "MoroccoWorldNews and ESPN (June 19): Morocco head coach Mohamed Ouahbi addressed Yassine Bounou's injury concern in his pre-match press conference, confirming the contact in the 84th minute vs Brazil was only 'a minor collision on the shoulder.' Ouahbi added: 'I spoke to Bounou and he assured me he was fine' — Bounou is expected to start vs Scotland. This supersedes the earlier Sports Mole 'doubtful' tag (initial post-match assessment). Assessment update: Morocco's first-choice GK returns to normal readiness — the conditional Scotland benefit from a backup GK no longer applies. CB Nayef Aguerd (minor knock from Norway warm-up) still monitored but secondary concern. Scotland win value remains 1.00 (<1.10 buy threshold) — no-bet stance unchanged. ⚠️ Confirm official XI 60 min before kick-off; watch Aguerd.",
-   "links": [
-    {
-     "name": "MoroccoWorldNews: Bounou injury not serious - Ouahbi confirms",
-     "url": "https://www.moroccoworldnews.com/2026/06/319622/bounou-injury-not-serious-ouahbi-confirms-before-scotland-game/"
-    },
-    {
-     "name": "ESPN: Morocco not alarmed by Bounou injury concern",
-     "url": "https://www.espn.com/espn/story/_/id/49055732/morocco-not-alarmed-yassine-bounou-injury-concern-further-tests-required"
     }
    ]
   },
