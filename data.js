@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 14:10",
+  "updated": "2026-06-20 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1081,6 +1081,26 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: Japan lineup vs Tunisia",
      "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/kubo-injury-blow-sugawara-doan-decisions-predicted-japan-lineup-vs-tunisia_599496.html"
+    }
+   ]
+  },
+  {
+   "date": "06-20",
+   "match": "突尼斯 vs 日本",
+   "impact": "突尼斯换帅",
+   "tone": "home",
+   "text": "突尼斯首轮1:5惨败瑞典后立即解雇主帅拉莫什，紧急引入法国名帅埃尔韦·雷纳尔（曾率沙特2022世界杯击败阿根廷），对阵日本临阵换帅阵型待定(Sports Mole·Rotowire·SI.com 06-20三源)",
+   "en": "Tunisia sacked Sabri Lamouchi immediately after their 1-5 opening loss to Sweden, replacing him with Hervé Renard (57, French), who famously led Saudi Arabia to a 2-2 shock vs Argentina at WC2022. Renard takes charge with limited preparation time vs Japan. (Sports Mole, Rotowire, SI.com — Jun 20)",
+   "full": "突尼斯在本届世界杯首轮以1:5惨败于瑞典（主帅拉莫什·萨布里1月上任、仅执教5场），震惊当局，比赛结束后立即宣布解雇。突尼斯足协旋即任命57岁法国名帅埃尔韦·雷纳尔（Hervé Renard），后者以率领非洲球队在世界舞台创造奇迹著称——2022世界杯带领沙特阿拉伯2:1击败阿根廷（梅西首秀）。雷纳尔接手突尼斯时仅剩有限备战时间，对阵日本的战术体系、首发阵容均需快速重整。Sports Mole、Rotowire、SI.com（06-20）三源独立确认换帅。⚠️ 评估：换帅通常在短期内造成阵型混乱（首发未定），但雷纳尔善于快速调动士气；市场已将日本定为大热门（Polymarket 61.8%），突尼斯换帅不确定性尚未被完全定价——赛前12小时建议再次核查竞彩赔率，关注突尼斯赔率是否因换帅消息微幅缩水。",
+   "enFull": "Tunisia immediately sacked head coach Sabri Lamouchi after their humiliating 1-5 opening loss to Sweden — Lamouchi was only appointed in January and had managed just 5 games. The Tunisian FA moved swiftly to appoint 57-year-old Frenchman Hervé Renard, who is famous for engineering World Cup shocks with African nations — most notably leading Saudi Arabia to a 2-1 upset over Lionel Messi's Argentina in 2022. Renard now takes charge with minimal preparation time ahead of the Japan clash. Three independent sources confirm: Sports Mole, Rotowire, SI.com (Jun 20). ⚠️ Assessment: mid-tournament coaching changes typically cause short-term lineup uncertainty, but Renard excels at rapid motivation. Polymarket prices Japan at 61.8% — Tunisia's coaching disruption may not be fully priced in by Chinese bookmakers. Recommend checking 周六036 odds 12h before kickoff.",
+   "links": [
+    {
+     "name": "Sports Mole: Tunisia vs Japan preview",
+     "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/preview/tunisia-vs-japan-prediction-team-news-lineups_599494.html"
+    },
+    {
+     "name": "Rotowire: Tunisia vs Japan preview",
+     "url": "https://www.rotowire.com/soccer/article/tunisia-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-118802"
     }
    ]
   }
