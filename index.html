@@ -195,6 +195,9 @@
   .sim-board-note { font-size: 12.5px; color: var(--faint); }
   .sim-dots { line-height: 0; margin: 12px 0 8px; }
   .sim-board-foot { font-size: 12px; color: var(--faint); line-height: 1.6; }
+  /* 下注金额条可能较长(串关全中赢多少+本场需什么)→ 允许换行、flex项按阅读顺序流式折行,别被卡片宽度截断(黄斌2026-06-20) */
+  .mini-tix .tix { white-space: normal; line-height: 1.45; flex-wrap: wrap; align-items: baseline; gap: 3px 6px; }
+  .mini-tix .tix b { align-self: baseline; }
   .mini-meta .pos2 { color: var(--gold); font-weight: 600; }
   .mini .probbar { margin: 9px 0 0; height: 4px; }
   .mini-hint { font-size: 10.5px; color: var(--faint); text-align: right; margin-top: 6px; }
@@ -934,63 +937,72 @@ function miniStateHtml(m) {
     return `<span class="mini-time" style="color:var(--red)">● 进行中 ${m.live.includes("(") ? m.live.slice(m.live.indexOf("(") + 1, -1) : ""}</span>`;
   return `<span class="mini-time" style="color:var(--gold)">${(m.time || "").slice(6)}</span>`;
 }
-// 持仓标签:完赛口径走 holdings(命中=绿/未中=红/进行中=黄);原战报段逻辑原样搬
-function holdTixHtml(m) {
-  const matchTickets = D.holdings.tickets.filter(t => t.match === `${m.home} vs ${m.away}` || (t.match.includes("×") && t.match.startsWith(m.home)));
-  if (!matchTickets.length) return slipResultHtml(m);  // 管家还没结算到holdings → 从slip+比分现算(黄斌:中奖卡片变色+写明赢多少)
-  return `<div class="mini-tix">${matchTickets.map(t => {
-    const tcls = { win: "tx-green", lose: "tx-red", pending: "tx-yellow" }[t.status] || "tx-red";
-    const name = t.match.includes("×") ? "2串1" : t.pick.replace(/^(胜平负|比分)·/, "");
-    return `<span class="tix ${tcls}">${name} <b>${t.stake}元</b></span>`;
-  }).join("")}</div>`;
+// 比分位:完赛=最终比分 / 进行中=实时比分 / 未开赛=vs(原 miniScore 已在上)
+// ---- 卡片下注显示:每注(单关+每条串关)都显示"押什么 + 赢了/可赢多少钱"(黄斌2026-06-20:过了加多少钱?正在踢的我投了什么、赢了加多少?都要在卡片里) ----
+// 取本场可用比分(完赛 actual / 进行中 live),返回 [主,客] 或 null
+function matchScore(m) {
+  // 进行中比分:m.live(渲染对象有)兜底到 LIVE 全局(按 num,parlayInfo 经 todayMatches 找腿时 m.live 不一定挂着)
+  const liveStr = m.live || (typeof LIVE !== "undefined" && LIVE[m.num] ? LIVE[m.num].live : null);
+  const s = m.actual || (liveStr && /\d+\s*[:：]\s*\d+/.test(liveStr) ? liveStr.split(" ")[0] : null);
+  if (!s) return null;
+  const a = s.split(/[:：]/).map(Number);
+  return (a.length === 2 && !a.some(isNaN)) ? a : null;
 }
-// 本轮完赛场:从 slip + 实际比分现算单关"中没中"(黄斌2026-06-20:买中了要变色高亮+在卡片里写明赢多少钱;整点管家结算前的兜底)
-function slipSingle(m) {
-  if (!m.actual) return null;  // 按"是否在本轮slip里下过注"判定,不依赖betRound(完赛后betRound会前移到下一轮)
-  const sc = String(m.actual).split(":").map(Number);
-  if (sc.length < 2 || sc.some(isNaN)) return null;
-  const it = D.slip.items.find(x => x.num === m.num && !/串/.test(x.pick));
-  if (!it) return null;
-  const outcome = sc[0] > sc[1] ? "主胜" : sc[0] < sc[1] ? "客胜" : "平";
-  const side = /主/.test(it.pick) ? "主胜" : /客/.test(it.pick) ? "客胜" : "平";
-  const team = side === "主胜" ? m.home : side === "客胜" ? m.away : "平局";
-  const won = side === outcome;
-  return { won, team, stake: it.stake, payout: it.stake * it.odds, profit: it.stake * it.odds - it.stake };
+// 某场在某串里"押的方向赢没赢":有单关用单关方向;无单关=让球腿(让-2=该队净胜3+)
+function legResult(lm, parlayPick) {
+  const single = D.slip.items.find(x => x.num.slice(-3) === lm.num.slice(-3) && !/串/.test(x.pick));
+  const favTeam = single ? (/主/.test(single.pick) ? lm.home : /客/.test(single.pick) ? lm.away : "平局")
+                         : (parlayPick.includes(lm.away) ? lm.away : lm.home);
+  const need = single ? `${favTeam}赢` : `${favTeam}赢3球+`;
+  const sc = matchScore(lm);
+  let won = null;
+  if (sc) won = single ? ((sc[0] > sc[1] ? 0 : sc[0] < sc[1] ? 2 : 1) === (/主/.test(single.pick) ? 0 : /客/.test(single.pick) ? 2 : 1))
+                       : ((parlayPick.includes(lm.away) ? sc[1] - sc[0] : sc[0] - sc[1]) >= 3);
+  const finished = !!lm.actual;  // actual 只在完赛时有(进行中走 m.live),是最可靠的"完赛"信号(phase 在 todayMatches 上不一定设)
+  return { need, won, finished, sc, favTeam };
 }
-function slipResultHtml(m) {
-  if (!m.actual) return "";
+// 整条串关的状态 + 本场这一关需要什么
+function parlayInfo(p, thisNum) {
+  const legNums = String(p.num).split("×");
+  let dead = false, pend = 0, thisNeed = "";
+  legNums.forEach(ln => {
+    const lm = (D.todayMatches || []).find(x => x.num.slice(-3) === ln);
+    if (!lm) { pend++; return; }
+    const r = legResult(lm, p.pick);
+    if (r.finished) { if (!r.won) dead = true; }
+    else { pend++; if (ln === thisNum) thisNeed = `${r.need}${r.sc ? `(现${r.sc[0]}:${r.sc[1]}${r.won ? "✓" : "未达"})` : ""}`; }
+  });
+  const payout = p.stake * p.odds;
+  return { state: dead ? "dead" : (pend === 0 ? "won" : "live"), payout, profit: payout - p.stake, thisNeed };
+}
+function betChips(m) {
   const mNum = m.num.slice(-3);
-  // 只在本轮 slip 真下过注(单关 num 命中 或 串关 num 含本场)的完赛场上显示结果
-  if (!D.slip.items.some(it => it.num === m.num || String(it.num || "").split("×").includes(mNum))) return "";
+  if (!D.slip.items.some(it => it.num.slice(-3) === mNum || String(it.num || "").split("×").includes(mNum))) return "";
   const chips = [];
-  const s = slipSingle(m);
-  // 单买结果:说人话写清"买多少→拿回多少→净赚多少"(黄斌2026-06-20:别只写+7,要让我看懂16块怎么变的)
-  if (s) chips.push(s.won
-    ? `<span class="tix tx-green">✅ ${s.team}赢了 · 单买 <b>${s.stake}→${s.payout.toFixed(0)}</b> 净赚${s.profit.toFixed(0)}</span>`
-    : `<span class="tix tx-red">✗ ${s.team}没赢 · 单买这 ${s.stake} 块没了</span>`);
-  // 连串(串关)这关:本场是哪些连串的一关、这关过没过(整串要全赢才给钱,总账在"下单计划")
-  const parlays = D.slip.items.filter(it => /串/.test(it.pick) && String(it.num || "").split("×").includes(mNum));
-  if (parlays.length) {
-    const sc = String(m.actual).split(":").map(Number);
-    const legWon = s ? s.won : (Math.abs(sc[0] - sc[1]) >= 3);  // 有单关用单关结果;让球腿(无单关)按净胜3+
-    const tags = parlays.map(p => /3串1/.test(p.pick) ? "3场连买" : /2串1/.test(p.pick) ? "2场连买" : "连买").join("·");
-    chips.push(`<span class="tix ${legWon ? "tx-green" : "tx-red"}">🎟 ${tags} 这关${legWon ? "过了✓" : "没过✗"}</span>`);
+  // 单关:完赛=赢了/没赢+净赚;进行中/未开赛=押什么+赢了拿回多少+现在领没领
+  const single = D.slip.items.find(it => it.num.slice(-3) === mNum && !/串/.test(it.pick));
+  if (single) {
+    const team = /主/.test(single.pick) ? m.home : /客/.test(single.pick) ? m.away : "平局";
+    const payout = single.stake * single.odds, profit = payout - single.stake, sc = matchScore(m);
+    if (m.actual) {
+      const won = (sc[0] > sc[1] ? m.home : sc[0] < sc[1] ? m.away : "平局") === team;
+      chips.push(won
+        ? `<span class="tix tx-green">✅ ${team}赢了 · 单买 <b>${single.stake}→${payout.toFixed(0)}</b> 净赚${profit.toFixed(0)}</span>`
+        : `<span class="tix tx-red">✗ ${team}没赢 · 单买这 ${single.stake} 块没了</span>`);
+    } else {
+      const lead = sc ? ((sc[0] > sc[1] ? m.home : sc[0] < sc[1] ? m.away : "平局") === team ? " · 现在赢着✓" : " · 暂落后") : "";
+      chips.push(`<span class="tix tx-yellow">押 ${team}赢 <b>${single.stake}元</b> · 赢了拿回${payout.toFixed(0)}(净赚${profit.toFixed(0)})${lead}</span>`);
+    }
   }
+  // 串关:全中=赢多少 / 还在跑=全中可赢多少+本场需要什么 / 挂了=没中
+  D.slip.items.filter(it => /串/.test(it.pick) && String(it.num || "").split("×").includes(mNum)).forEach(p => {
+    const tag = /3串1/.test(p.pick) ? "3场连买" : /2串1/.test(p.pick) ? "2场连买" : "连买";
+    const info = parlayInfo(p, mNum);
+    if (info.state === "won") chips.push(`<span class="tix tx-green">🎟 ${tag} 全中! 赢 <b>+${info.profit.toFixed(0)}</b>(${p.stake}→${info.payout.toFixed(0)})</span>`);
+    else if (info.state === "dead") chips.push(`<span class="tix tx-red">🎟 ${tag} 没中(这串挂了)</span>`);
+    else chips.push(`<span class="tix tx-yellow">🎟 ${tag} 进行中 · ${p.stake}元全中赢<b>+${info.profit.toFixed(0)}</b>${info.thisNeed ? " · 本场需" + info.thisNeed : ""}</span>`);
+  });
   return chips.length ? `<div class="mini-tix">${chips.join("")}</div>` : "";
-}
-// 持仓标签:未结算口径走 slip(全黄=待结);原明日段逻辑原样搬
-function slipTixHtml(m) {
-  // 卡片上用最简洁直接的语言告诉黄斌"本场买什么"(2026-06-19 黄斌要求):单关→✅买X N元;串关腿→🎟;不买→本场不买
-  // ★在"本轮购买组(betRound)"或"已下注的slip场次(num命中,含串关腿)"的卡片上显示买卖决策;其他轮不显示(黄斌2026-06-19第2点)
-  const mNum = m.num.slice(-3);
-  const inSlip = D.slip.items.some(it => it.num === m.num || String(it.num || "").split("×").includes(mNum));
-  if ((typeof betRound === "undefined" || !betRound.matches.some(x => x.num === m.num)) && !inSlip) return "";
-  const singles = D.slip.items.filter(it => it.num === m.num && !/串/.test(it.pick));
-  const inParlay = D.slip.items.some(it => /串/.test(it.pick) && String(it.num || "").split("×").includes(mNum));
-  if (!singles.length && !inParlay) return `<div class="mini-tix"><span class="tix" style="color:var(--faint);background:rgba(255,255,255,.03)">本场不买</span></div>`;
-  let chips = singles.map(it => `<span class="tix tx-yellow">✅ 买 ${it.pick.replace(/\s*[·(（].*/, "")} <b>${it.stake}元</b></span>`).join("");
-  if (inParlay) chips += `<span class="tix" style="color:var(--steel);background:rgba(125,156,187,.14)">🎟 也在连买里</span>`;
-  return `<div class="mini-tix">${chips}</div>`;
 }
 // 模拟预判:每场(含不买的)都给预测Agent的预判(谁赢%+预测比分);完赛场显示预判vs实际·猜中没(黄斌2026-06-20批准:模拟比赛能力)
 function simLine(m) {
@@ -1072,7 +1084,7 @@ function renderMiniCard(m) {
       </div>
       <div class="probbar"><i class="ph" style="width:${e[0]}%"></i><i class="pd" style="width:${e[1]}%"></i><i class="pa" style="width:${e[2]}%"></i></div>
       ${simLine(m)}
-      ${finished ? holdTixHtml(m) : slipTixHtml(m)}
+      ${betChips(m)}
       <div class="mini-meta">${meta}</div>
     </div>`;
 }
