@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-20 20:33:09",
+ "fetched_at": "2026-06-20 21:15:10",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -35,6 +35,16 @@ window.ODDS_DATA = {
     "0:2": "28.00",
     "0:3": "80.00",
     "1:2": "15.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -70,6 +80,16 @@ window.ODDS_DATA = {
     "0:2": "45.00",
     "0:3": "125.0",
     "1:2": "20.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   },
   {
@@ -105,6 +125,12 @@ window.ODDS_DATA = {
     "0:2": "150.0",
     "0:3": "600.0",
     "1:2": "60.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   },
   {
@@ -140,6 +166,16 @@ window.ODDS_DATA = {
     "0:2": "4.95",
     "0:3": "9.50",
     "1:2": "5.50"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -158,9 +194,9 @@ window.ODDS_DATA = {
     "updated": ""
    },
    "hhad": {
-    "h": "1.80",
+    "h": "1.77",
     "d": "4.05",
-    "a": "3.06",
+    "a": "3.15",
     "line": "-2"
    },
    "crs": {
@@ -175,6 +211,12 @@ window.ODDS_DATA = {
     "0:2": "150.0",
     "0:3": "500.0",
     "1:2": "50.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -210,6 +252,16 @@ window.ODDS_DATA = {
     "0:2": "45.00",
     "0:3": "150.0",
     "1:2": "20.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   },
   {
@@ -245,6 +297,16 @@ window.ODDS_DATA = {
     "0:2": "50.00",
     "0:3": "300.0",
     "1:2": "26.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -280,6 +342,16 @@ window.ODDS_DATA = {
     "0:2": "5.80",
     "0:3": "9.50",
     "1:2": "6.75"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   },
   {
@@ -315,6 +387,16 @@ window.ODDS_DATA = {
     "0:2": "30.00",
     "0:3": "100.0",
     "1:2": "14.50"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -350,6 +432,12 @@ window.ODDS_DATA = {
     "0:2": "200.0",
     "0:3": "600.0",
     "1:2": "65.00"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   },
   {
@@ -385,6 +473,16 @@ window.ODDS_DATA = {
     "0:2": "16.00",
     "0:3": "40.00",
     "1:2": "9.50"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 1,
+     "allUp": 1
+    }
    }
   },
   {
@@ -420,6 +518,16 @@ window.ODDS_DATA = {
     "0:2": "6.20",
     "0:3": "10.00",
     "1:2": "6.50"
+   },
+   "elig": {
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    },
+    "had": {
+     "single": 0,
+     "allUp": 1
+    }
    }
   }
  ]
