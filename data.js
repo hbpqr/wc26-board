@@ -1,14 +1,14 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 05:50",
+  "updated": "2026-06-21 06:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 334.46,
-  "pending": 88,
+  "cashNow": 353.09,
+  "pending": 70,
   "goal": 20000,
   "floor": 80,
   "milestones": [
@@ -152,6 +152,10 @@ window.DASH_DATA = {
    {
     "d": "06-20",
     "v": 328.1
+   },
+   {
+    "d": "06-21",
+    "v": 353.09
    }
   ],
   "evCurve": [
@@ -332,12 +336,15 @@ window.DASH_DATA = {
    },
    {
     "d": "06-21",
-    "pool": 334.46,
-    "pnl": 6.36,
+    "pool": 353.09,
+    "pnl": 24.99,
     "records": [
      "🏆 荷兰 5:1 瑞典(01:00 完赛)",
-     "　✓ 荷兰胜 12@1.53 → 18.36",
-     "📊 首结：荷单中 投12 回18.36 净+6.36 | 池328.1→334.46 | 5张票待结(德034·厄035·日036·德×日·德×荷·德×厄共5张·04:00/08:00/12:00)"
+     "　✓ 荷单 12@1.53 → 18.36 | 集成56.2%主胜方向正确(Brier≈0.237)",
+     "🏆 德国 2:1 科特迪瓦(04:00 完赛)",
+     "　集成67.1%主胜方向正确(Brier≈0.229，优) | 瓦伊禁赛+恩迪卡伤缺情报事前已price-in | Elo:德国+7.3→1910.2,科特迪瓦→1695.0",
+     "　✓ 2串1 德国胜×荷兰胜 18@2.035 → 36.63(双腿全中)",
+     "📊 已结算2票:荷单+德×荷串 共回收54.99 净+24.99 | 池 328.1→353.09(含待结70元) | 厄035(08:00)/日036(12:00)待开"
     ]
    }
   ],
@@ -791,8 +798,16 @@ window.DASH_DATA = {
    "home": "德国",
    "away": "科特迪瓦",
    "time": "06-21 04:00",
+   "status": "finished",
+   "actual": "2:1",
    "predManual": "德串关×4(仅串·04:00开球)",
-   "predModel": "待更新"
+   "predModel": "主胜67.1%",
+   "ensemble": {
+    "h": 67.1,
+    "d": 19.3,
+    "a": 13.6
+   },
+   "note": "终场：德国2:1科特迪瓦。集成67.1%主胜方向正确(Brier≈0.229，优)。阿马德·迪亚洛首发并进球，但科特迪瓦瓦伊禁赛+恩迪卡伤缺情报已price-in；德国顽强取胜。Elo:德国+7.3→1910.2,科特迪瓦→1695.0。串关德国腿全部兑现：德×荷2串1已结算中(36.63)，德×日/德×日×厄/德×厄三条待036/035收官。"
   },
   {
    "num": "周六035",
@@ -823,8 +838,8 @@ window.DASH_DATA = {
  ],
  "holdings": {
   "invested": 100,
-  "returned": 18.36,
-  "pendingStake": 88,
+  "returned": 54.99,
+  "pendingStake": 70,
   "condEV": -18.3,
   "condWinProb": 42,
   "tickets": [
@@ -865,8 +880,8 @@ window.DASH_DATA = {
     "pick": "2串1 德国胜×荷兰胜",
     "stake": 18,
     "odds": 2.035,
-    "status": "pending",
-    "payout": null
+    "status": "win",
+    "payout": 36.63
    },
    {
     "match": "德国×厄瓜多尔",
@@ -976,56 +991,6 @@ window.DASH_DATA = {
   ]
  },
  "focus": [
-  {
-   "num": "周六034",
-   "home": "德国",
-   "away": "科特迪瓦",
-   "time": "06-21 04:00",
-   "models": {
-    "A": [
-     65.1,
-     19.5,
-     15.4
-    ],
-    "B": [
-     72.5,
-     18.6,
-     9
-    ],
-    "C": [
-     65.7,
-     19.8,
-     14.4
-    ],
-    "ens": [
-     67.1,
-     19.3,
-     13.6
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.36,
-     "prob": 67.1,
-     "value": 0.91
-    },
-    {
-     "pick": "平局",
-     "odds": 4.55,
-     "prob": 19.3,
-     "value": 0.88
-    },
-    {
-     "pick": "客胜",
-     "odds": 5.75,
-     "prob": 13.6,
-     "value": 0.78
-    }
-   ],
-   "scores": [],
-   "verdict": "✅德国7-1血洗库拉索·状态火爆(Havertz+Wirtz)·无伤停。科特迪瓦也首胜(1-0厄瓜多尔)、MD2定小组,但德国成色+状态明显占优,核心稳。"
-  },
   {
    "num": "周六035",
    "home": "厄瓜多尔",
@@ -1190,46 +1155,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: Ecuador vs Curacao preview",
      "url": "https://www.sportsmole.co.uk/football/ecuador/world-cup-2026/preview/ecuador-vs-curacao-prediction-team-news-lineups_599563.html"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "德国 vs 科特迪瓦",
-   "impact": "瓦伊禁行缺阵",
-   "tone": "away",
-   "text": "科特迪瓦前锋瓦伊(Elye Wahi)因在法国涉嫌假球调查未获准出行,确认缺席整届世界杯(Yahoo Sports·covers.com双源);利好德国主场(Yahoo Sports·Covers.com 06-20)",
-   "en": "Ivory Coast striker Elye Wahi absent from entire World Cup: not granted permission to travel to Canada amid French match-fixing investigation. Amad Diallo (scored opening winner) expected to start. Boosts Germany's attacking advantage. (Yahoo Sports, Covers.com — June 20)",
-   "full": "科特迪瓦重要前锋埃利耶·瓦伊（Elye Wahi，马赛）因陷入法国境内的假球调查（match-fixing investigation）而未获准前往加拿大参赛，确认缺席整届2026世界杯。Yahoo Sports与covers.com（06-20）双源确认。尽管如此，科特迪瓦在首轮1:0小胜厄瓜多尔时，替补出场的阿马德·迪亚洛（Amad Diallo，曼联）打进制胜球，主帅有望给他机会首发。德国方面：首轮7:1大胜库拉索，无重大伤停，完整阵容出战科特迪瓦。综合评估：瓦伊缺阵削弱科特迪瓦进攻选择，配合恩迪卡伤情，德国主场优势进一步强化。竞彩赔率/价值仍需主会话运行predict.py后确认是否过1.10闸。",
-   "enFull": "Ivory Coast forward Elye Wahi (Marseille) has been barred from travelling to Canada due to an ongoing French match-fixing investigation, effectively ruling him out of the entire 2026 World Cup. Confirmed by Yahoo Sports and Covers.com (June 20). Despite the absence, Ivory Coast were efficient in Game 1, winning 1-0 vs Ecuador thanks to a second-half winner from substitute Amad Diallo (Man Utd), who is now expected to start. Germany: no reported injury concerns, full squad available after the 7-1 opening demolition of Curaçao. Net: Wahi's ban reduces Ivory Coast's attacking depth and variety; combined with the Ndicka fitness doubt, Germany's structural advantage grows. Verify value via predict.py before the 04:00 BJT kick-off.",
-   "links": [
-    {
-     "name": "Yahoo Sports: Germany vs Ivory Coast preview",
-     "url": "https://uk.sports.yahoo.com/news/germany-vs-ivory-coast-world-205313156.html"
-    },
-    {
-     "name": "Covers.com: Germany vs Ivory Coast odds & picks",
-     "url": "https://www.covers.com/world-cup/germany-vs-ivory-coast-prediction-picks-odds-saturday-6-20-2026"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "德国 vs 科特迪瓦",
-   "impact": "恩迪卡伤情存疑",
-   "tone": "away",
-   "text": "科特迪瓦中卫恩迪卡(Evan Ndicka,罗马)腿筋伤未愈,错过首轮对厄瓜多尔,出战德国仍存疑；阿马德·迪亚洛因首轮进球料获首发机会(Sports Mole·Yahoo Sports 06-20双源)",
-   "en": "Ivory Coast CB Evan Ndicka (Roma) still doubt vs Germany due to hamstring injury that ruled him out of opener vs Ecuador. Amad Diallo expected to start after scoring the Game 1 winner. (Sports Mole, Yahoo Sports — June 20)",
-   "full": "科特迪瓦主力中卫埃文·恩迪卡（Evan Ndicka，罗马）在首轮对阵厄瓜多尔时因腿筋伤（hamstring）缺席，目前出战德国仍属疑问。Sports Mole及Yahoo Sports（06-20赛前）双源确认其状态未定，主帅将根据赛前热身判断是否出战。替补中卫深度偏薄，若恩迪卡再次缺席，科特迪瓦后防对德国高压进攻的抵抗力将明显下降。阿马德·迪亚洛（Amad Diallo）因在首轮第83分钟打进制胜球，预计从首发位置出发；戈迪-福苏（Jean-Philippe Gbamin 已转让阵容）或其他中场补位。综合：恩迪卡伤情叠加瓦伊缺阵，科特迪瓦双线受损，德国取胜概率市场已高估，但赔率是否过闸需predict.py校准。",
-   "enFull": "Evan Ndicka (Roma), Ivory Coast's key centre-back, was sidelined for the Group D opener vs Ecuador with a hamstring injury and remains a doubt for the Germany fixture. Sports Mole and Yahoo Sports (June 20) both list him as uncertain; the coaching staff will assess him in the pre-match warm-up. If Ndicka misses again, Ivory Coast's defensive solidity against Germany's clinical attack is significantly weakened — their backup CB cover is limited in quality. On the positive side, Amad Diallo scored the 83rd-minute winner in Game 1 and is expected to reward that performance with a start vs Germany. Combined impact with Wahi's absence (see related news): Ivory Coast are stretched on both attacking and defensive ends heading into a tough group-stage fixture against a Germany side that crushed Curaçao 7-1. Run predict.py before 04:00 BJT to confirm whether any market inefficiency exists.",
-   "links": [
-    {
-     "name": "Sports Mole: Germany vs Ivory Coast team news",
-     "url": "https://www.sportsmole.co.uk/football/germany/injury-news/team-news/germany-vs-ivory-coast-injury-suspension-list-predicted-xis_599492.html"
-    },
-    {
-     "name": "Yahoo Sports: Germany vs Ivory Coast preview",
-     "url": "https://uk.sports.yahoo.com/news/germany-vs-ivory-coast-world-205313156.html"
     }
    ]
   },
@@ -1571,26 +1496,26 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 33,
+  "sampleCount": 34,
   "threshold": 50,
-  "pct": 66,
-  "ensBrier": 0.549,
-  "ensBrierMedian": 0.374,
+  "pct": 68,
+  "ensBrier": 0.54,
+  "ensBrierMedian": 0.354,
   "marketBase": 0.5506,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 20,
-  "dirHit": 19,
+  "beatRandom": 21,
+  "dirHit": 20,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 50,
-   "B": 23,
-   "C": 7,
-   "D": 19
+   "A": 51,
+   "B": 25,
+   "C": 2,
+   "D": 22
   },
   "dots": [
    {
@@ -1790,10 +1715,16 @@ window.DASH_DATA = {
     "m": "荷兰·5:1",
     "b": 0.24,
     "win": true
+   },
+   {
+    "num": "周六034",
+    "m": "德国·2:1",
+    "b": 0.23,
+    "win": true
    }
   ],
-  "headline": "已喂 33 场预测 · 集成 Brier 0.549 vs 市场去水 0.5506（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.549 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 33/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 34 场预测 · 集成 Brier 0.54 vs 市场去水 0.5506（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.54 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 34/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
