@@ -1236,7 +1236,8 @@ document.getElementById("tmr-plan").innerHTML = D.slip.items.length === 0 ? `
 const hasPending = D.holdings.tickets.some(t => t.status === "pending");
 if (!hasPending) document.getElementById("sec-holdings").style.display = "none";
 const tbody = document.querySelector("#ticket-table tbody");
-D.holdings.tickets.forEach(t => {
+// 持仓账本面板=当前在场,只列待结(pending)票;已结算的历史票(如周五已中奖)只在对应比赛下钻里显示,不在此混轮
+D.holdings.tickets.filter(t => t.status === "pending").forEach(t => {
   const [label, cls] = stMap[t.status];
   tbody.insertAdjacentHTML("beforeend", `
     <tr><td>${t.match.split(" vs ").map(x => flag(x, "flag-sm") + " " + x).join(" vs ")}</td><td>${t.pick}</td>
