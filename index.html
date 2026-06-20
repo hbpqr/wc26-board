@@ -1200,6 +1200,25 @@ document.getElementById("tmr-plan").innerHTML = D.slip.items.length === 0 ? `
   <div class="blk"><span class="k">盈利概率</span><span class="v num pos">${SM0.winProb}%</span></div>
   <div class="blk"><span class="k">头奖</span><span class="v num pos">+${SM0.best.pnl.toFixed(0)}</span></div>
   <div class="blk"><span class="k">下单</span><span class="v" style="font-size:13px"><a href="#sec-slip" style="color:var(--gold)">文案 ↓</a></span></div>`;
+// ★下单计划摘要放到它"对应那轮比赛"的后面,不是甩到下一轮后(黄斌2026-06-20:周五的单就跟在周五比赛后,放周六后逻辑不通)
+(function () {
+  const plan = document.getElementById("tmr-plan");
+  if (!plan) return;
+  let targetRound;
+  if (D.slip.items.length) {            // 已下注:跟着 slip 那一轮(如周五)
+    const si = D.slip.items.find(it => /^周/.test(it.num || ""));
+    targetRound = si ? si.num.slice(0, 2) : null;
+  } else if (typeof betRound !== "undefined" && betRound) {  // 空仓:跟着下一可下注轮
+    targetRound = betRound.round;
+  }
+  if (!targetRound) return;
+  plan.style.marginTop = "16px";
+  if (targetRound === curRound.round) {
+    document.getElementById("report-list").parentNode.appendChild(plan);        // 当前比赛日列末尾
+  } else if (typeof nextRound !== "undefined" && nextRound && targetRound === nextRound.round) {
+    document.getElementById("sec-tomorrow").appendChild(plan);                  // 下一比赛日列末尾
+  }
+})();
 
 /* ---------- ledger ---------- */
 // 持仓账本只在"有在场未结算的票"时上主界面;整轮已结算=历史(盈亏已进收益曲线),收起不占地方
