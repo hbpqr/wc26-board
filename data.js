@@ -1,14 +1,14 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 02:50",
+  "updated": "2026-06-21 03:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 328.1,
-  "pending": 100,
+  "cashNow": 334.46,
+  "pending": 88,
   "goal": 20000,
   "floor": 80,
   "milestones": [
@@ -328,6 +328,16 @@ window.DASH_DATA = {
      "📊 本轮52元4注全中(事前模型给15%头奖剧本)：回收100.6 净+48.6(ROI+93.5%) | 池 279.5→328.1 | 土耳其未出票(纪律跳过)方向错但零损失",
      "🏆 土耳其 0:1 巴拉圭(11:00 完赛)",
      "　模型46.7%主胜方向错；按纪律未出票(五五开跳过)→零损失，池328.1不变"
+    ]
+   },
+   {
+    "d": "06-21",
+    "pool": 334.46,
+    "pnl": 6.36,
+    "records": [
+     "🏆 荷兰 5:1 瑞典(01:00 完赛)",
+     "　✓ 荷兰胜 12@1.53 → 18.36",
+     "📊 首结：荷单中 投12 回18.36 净+6.36 | 池328.1→334.46 | 5张票待结(德034·厄035·日036·德×日·德×荷·德×厄共5张·04:00/08:00/12:00)"
     ]
    }
   ],
@@ -765,13 +775,16 @@ window.DASH_DATA = {
    "home": "荷兰",
    "away": "瑞典",
    "time": "06-21 01:00",
+   "status": "finished",
+   "actual": "5:1",
    "predManual": "荷单12@1.53(已下注)",
    "predModel": "主胜56.2%",
    "ensemble": {
     "h": 56.2,
     "d": 23.4,
     "a": 20.4
-   }
+   },
+   "note": "荷兰5:1大胜瑞典。集成56.2%主胜方向正确(Brier=0.237,远优于随机0.667)。德普罗伊/费内霍德领衔进攻,伊萨克虽满状态首发但瑞典防线失守5球。荷单12@1.53中,回收18.36,净+6.36。Elo:荷兰+15.5→1927.9,瑞典→1709.2。"
   },
   {
    "num": "周六034",
@@ -810,8 +823,8 @@ window.DASH_DATA = {
  ],
  "holdings": {
   "invested": 100,
-  "returned": 0,
-  "pendingStake": 100,
+  "returned": 18.36,
+  "pendingStake": 88,
   "condEV": -18.3,
   "condWinProb": 42,
   "tickets": [
@@ -820,8 +833,8 @@ window.DASH_DATA = {
     "pick": "荷兰胜(主胜)·单关",
     "stake": 12,
     "odds": 1.53,
-    "status": "pending",
-    "payout": null
+    "status": "win",
+    "payout": 18.36
    },
    {
     "match": "突尼斯 vs 日本",
@@ -963,61 +976,6 @@ window.DASH_DATA = {
   ]
  },
  "focus": [
-  {
-   "num": "周六033",
-   "home": "荷兰",
-   "away": "瑞典",
-   "time": "06-21 01:00",
-   "models": {
-    "A": [
-     58.3,
-     22.7,
-     19
-    ],
-    "B": [
-     71.1,
-     19.1,
-     9.8
-    ],
-    "C": [
-     58.5,
-     23.3,
-     18.3
-    ],
-    "D": [
-     57.2,
-     23.4,
-     19.4
-    ],
-    "ens": [
-     60.8,
-     22.1,
-     17.1
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 1.52,
-     "prob": 60.8,
-     "value": 0.92
-    },
-    {
-     "pick": "平局",
-     "odds": 3.9,
-     "prob": 22.1,
-     "value": 0.86
-    },
-    {
-     "pick": "客胜",
-     "odds": 4.65,
-     "prob": 17.1,
-     "value": 0.8
-    }
-   ],
-   "scores": [],
-   "verdict": "荷兰主场迎瑞典,整体成色(范戴克·德容·加克波·赖恩德斯)+主场仍占上风,胜率60.8%居前——保留,搏主场拿下。瑞典首战5-1状态正盛是本场最大变量,但不改荷兰获胜方向,带着这条情报盯首发即可,不因对手在状态就缩注。"
-  },
   {
    "num": "周六034",
    "home": "德国",
@@ -1232,26 +1190,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: Ecuador vs Curacao preview",
      "url": "https://www.sportsmole.co.uk/football/ecuador/world-cup-2026/preview/ecuador-vs-curacao-prediction-team-news-lineups_599563.html"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "荷兰 vs 瑞典",
-   "impact": "伊萨克无伤首发",
-   "tone": "away",
-   "text": "✅更新:瑞典FA澄清伊萨克(利物浦)只是「额外恢复日」非伤情，确认满状态首发；揭幕战1球2助攻，瑞典攻击力无折损(thisisanfield·AnfieldIndex 06-20双源)",
-   "en": "UPDATE CLEARED: Sweden confirm Isak is fully fit — solo training session was simply an 'extra recovery day', no injury. Scored 1G+2A vs Tunisia in opener, confirmed to start vs Netherlands at full fitness. (thisisanfield.com, Anfield Index — Jun 20)",
-   "full": "【更新·推翻旧条目】此前担忧伊萨克单独训练暗示伤情，现已由瑞典国家队新闻官Petra Thoren正式澄清：属「额外恢复日」(extra recovery day)，是个人计划正常安排，非伤情处理。伊萨克在揭幕战对阵突尼斯时状态极佳(1球2助攻，5:1大胜)，将以满状态首发出战荷兰。thisisanfield.com与AnfieldIndex（06-20）双源独立确认。综合评估：瑞典攻击力完整——前期「带伤首发」担忧已消除，荷兰Polymarket优势从~58%小幅收敛至56.7%（+0.3pp动量）。⚠️竞彩荷兰主胜赔率1.52，value=0.92<1.10，按纪律单关不出；串关腿适配性由主会话最终确认。",
-   "enFull": "[UPDATED — supersedes injury concern entry] Swedish FA press officer Petra Thoren has officially clarified: Isak's separate training was a routine 'extra recovery day' under his individual plan — there is no injury whatsoever. He delivered a superb performance vs Tunisia (1 goal, 2 assists in the 5-1 win) and is confirmed fully fit to start vs Netherlands. Confirmed by thisisanfield.com and Anfield Index (Jun 20). Net assessment: Sweden's attack is at full strength; the prior 'injury management' narrative is debunked. Netherlands remain Polymarket favourites at 56.7% (+0.3pp momentum) but Sweden's attacking threat with a healthy Isak is undiminished. ⚠️ Dutch odds at 1.52 (value 0.92 <1.10) — single bet not justified; evaluate as serial leg only.",
-   "links": [
-    {
-     "name": "thisisanfield: Alexander Isak Sweden Calm Injury Fears",
-     "url": "https://www.thisisanfield.com/2026/06/alexander-isak-sweden-injury-update-world-cup-2026/"
-    },
-    {
-     "name": "Anfield Index: Sweden provide Isak injury update",
-     "url": "https://anfieldindex.com/95091/sweden-provide-alexander-isak-injury-update-ahead-of-world-cup-clash.html"
     }
    ]
   },
@@ -1633,26 +1571,26 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 32,
+  "sampleCount": 33,
   "threshold": 50,
-  "pct": 64,
-  "ensBrier": 0.559,
-  "ensBrierMedian": 0.398,
+  "pct": 66,
+  "ensBrier": 0.549,
+  "ensBrierMedian": 0.374,
   "marketBase": 0.5506,
   "marketBaseLabel": "市场去水(子模型A)",
-  "beatsMarket": false,
-  "beatRandom": 19,
-  "dirHit": 18,
+  "beatsMarket": true,
+  "beatRandom": 20,
+  "dirHit": 19,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 51,
-   "B": 21,
-   "C": 8,
-   "D": 20
+   "A": 50,
+   "B": 23,
+   "C": 7,
+   "D": 19
   },
   "dots": [
    {
@@ -1846,10 +1784,16 @@ window.DASH_DATA = {
     "m": "土耳其·0:1",
     "b": 0.88,
     "win": false
+   },
+   {
+    "num": "周六033",
+    "m": "荷兰·5:1",
+    "b": 0.24,
+    "win": true
    }
   ],
-  "headline": "已喂 32 场预测 · 集成 Brier 0.559 vs 市场去水 0.5506（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.559 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 32/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 33 场预测 · 集成 Brier 0.549 vs 市场去水 0.5506（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.549 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 33/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
