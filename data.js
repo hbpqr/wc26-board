@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 10:10",
+  "updated": "2026-06-20 10:30",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -323,7 +323,9 @@ window.DASH_DATA = {
      "　集成62.7%主胜方向正确(Brier≈0.21，优) | 普利西奇缺席·佩皮首发 | §14 fade-平未触发(负CLV-16%) | 无持仓，无资金影响",
      "🏆 苏格兰 0:1 摩洛哥(06:00 完赛)",
      "　集成56.8%客胜方向正确(Brier≈0.285) | 摩洛哥黄金一代完胜苏格兰 | §14 fade-favorite未触发(conf<60%) | 无持仓，无资金影响",
-     "📊 当日小计：030已终，031/032待踢，无持仓，池 279.5 不变"
+     "🏆 巴西 3:0 海地(08:30 完赛，90'+5')",
+     "　集成88.5%主胜方向正确(Brier≈0.021，极优) | §14 fade-favorite未触发(§14.3鱼腩错配排除) | 无持仓，无资金影响",
+     "📊 当日小计：029/030/031已终，032(土耳其vs巴拉圭11:00)待踢，无持仓，池 279.5 不变"
     ]
    }
   ],
@@ -729,7 +731,8 @@ window.DASH_DATA = {
    "home": "巴西",
    "away": "海地",
    "time": "06-20 08:30",
-   "status": "pending",
+   "status": "finished",
+   "actual": "3:0",
    "predManual": "见slip(3串1腿·巴西让-2·8元)",
    "predModel": "主胜88.5%",
    "ensemble": {
@@ -737,7 +740,7 @@ window.DASH_DATA = {
     "d": 8.0,
     "a": 3.5
    },
-   "note": ""
+   "note": "终场：巴西3:0海地(90'+5'结束)。集成88.5%主胜方向正确(Brier≈0.021，极优)。§14 fade-favorite未触发(§14.3明显鱼腩错配，巴-海排除)。无持仓，资金不变。"
   },
   {
    "num": "周五032",
@@ -766,44 +769,6 @@ window.DASH_DATA = {
   "scenarios": []
  },
  "focus": [
-  {
-   "num": "周五031",
-   "home": "巴西",
-   "away": "海地",
-   "time": "06-20 08:30",
-   "models": {
-    "B": [
-     91.1,
-     12.0,
-     -3.1
-    ],
-    "C": [
-     90.5,
-     7.5,
-     2.0
-    ],
-    "D": [
-     88.1,
-     8.1,
-     3.8
-    ],
-    "ens": [
-     90.6,
-     10.7,
-     -1.3
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "⚠️竞彩未开盘",
-     "odds": null,
-     "prob": 90.6,
-     "value": null
-    }
-   ],
-   "scores": [],
-   "verdict": "竞彩未开盘·预研模式。HHAD(-2)预研让胜@1.73·模型57.8%·价值1.00(标准预研值)——深让-2镜像雷区，即便开盘后数字微变，也需严格按§6核查：除非出现大轮换/划水硬新闻，否则深让信市场、空仓。内马尔小腿伤缺阵已公开(Ancelotti确认，不补招)，虽属重要球星缺席，但对让-2盘的影响已被深让线吸收。开盘后必须重跑predict.py。"
-  },
   {
    "num": "周五032",
    "home": "土耳其",
@@ -918,46 +883,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Turkey vs Paraguay predictions",
      "url": "https://sports.yahoo.com/articles/turkey-vs-paraguay-prediction-world-145000483.html"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "巴西 vs 海地",
-   "impact": "巴西七将群缺",
-   "tone": "home",
-   "text": "ESPN·Yahoo Sports 06-19确认:巴西对阵海地共7名主力缺阵——内马尔+古马良斯+达尼洛+米利唐+若昂·维克托+帕克塔+里查利森因伤全缺;⚠️旧条目将帕克塔列\"可用\"系误报(ESPN·Yahoo Sports)",
-   "en": "ESPN/Yahoo Sports Jun 19: Brazil face Haiti missing 7 key players — Neymar, Bruno Guimaraes, Danilo, Militao, John Victor, Paqueta and Richarlison all injured. ⚠️ Prior news item incorrectly listed Paqueta as available — corrected here (ESPN/Yahoo)",
-   "full": "ESPN与Yahoo Sports(06-19)双源确认:巴西对阵海地阵容损伤远超首轮预估,共7名核心球员因伤缺阵:①内马尔(小腿,不随队出行)②古马良斯(Bruno Guimarães,肌肉,中场枢纽)③达尼洛(Danilo,右后卫)④米利唐(Éder Militão,中卫)⑤若昂·维克托(John Victor,备用门将)⑥帕克塔(Lucas Paquetá,攻击中场)⑦里查利森(Richarlison,前锋)。⚠️更正:此前条目(内马尔伤缺)将帕克塔列为\"有望出战\"系误报,以本条为准。影响评估:尽管7名主力缺阵,Polymarket仍显示巴西88.2%胜率——市场已充分定价(维尼修斯/拉斐尼亚/孔塞桑/马奎尼奥斯/卡塞米罗/阿利松均可出战)。让球-2盘口verdict=信市场让线(mirage=true),不构成下注理由;§13.5合法空仓不变。",
-   "enFull": "ESPN and Yahoo Sports (Jun 19) confirm Brazil face Haiti with 7 confirmed absences: Neymar (calf, not traveling), Bruno Guimarães (muscle), Danilo (RB), Éder Militão (CB), John Victor (backup GK), Lucas Paquetá (attacking mid), Richarlison (striker). ⚠️ Correction: previous news entry listed Paquetá as potentially available — ESPN/Yahoo confirm he is ruled out. Despite 7 absences, Polymarket still prices Brazil at 88.2% (market has absorbed all injuries). Still available: Vinicius Jr, Raphinha, Conceiçao, Marquinhos, Casemiro, Alisson. HHAD -2 verdict: 'trust market line' (mirage=true) — no-bet stance per §13.5 unchanged.",
-   "links": [
-    {
-     "name": "ESPN: Neymar won't play vs Haiti",
-     "url": "https://www.espn.com/soccer/story/_/id/49107492/neymar-play-brazil-vs-haiti-race-fit-world-cup-knockout-stages"
-    },
-    {
-     "name": "Yahoo Sports: Brazil XI vs Haiti confirmed",
-     "url": "https://uk.sports.yahoo.com/news/brazil-xi-vs-haiti-confirmed-220618458.html"
-    }
-   ]
-  },
-  {
-   "date": "06-19",
-   "match": "巴西 vs 海地",
-   "impact": "内马尔伤缺",
-   "tone": "home",
-   "text": "内马尔(Neymar)小腿伤缺席对阵海地，巴西将无缘其世界杯首场；海地中场莱维顿·皮埃尔(肌肉)整届告别，海地首战1:0负苏格兰，积分垫底(RotoWire·ESPN·Sports Mole)",
-   "en": "Neymar (calf) ruled out vs Haiti; Brazil's star absent for WC opener. Haiti's Leverton Pierre (muscle) out for tournament. Haiti bottom of Group C after 1-0 loss to Scotland (RotoWire·ESPN·Sports Mole)",
-   "full": "RotoWire、ESPN与Sports Mole三源确认(06-19)：内马尔因小腿伤缺席巴西首场对阵海地，甚至不会随队出行。巴西首战以1:1平摩洛哥，目前积1分排小组第二，落后苏格兰(3分)。即便无内马尔，巴西阵中拥有维尼修斯、拉斐尼亚、帕克塔、居纳(Cunha)等进攻选手，仍为绝对主队。Polymarket市场：巴西胜88.1%/平8.3%/海地3.6%；让球-2盘口价值闸评估：让胜val=1，但verdict=信市场让线(mirage=true)，模型镜像，不构成下注理由。海地方面：莱维顿·皮埃尔(中场)肌肉伤确认整届缺阵，首战1:0负苏格兰，进攻资源极度匮乏。综合：内马尔缺席和海地残阵均为市场定价已纳入的信息，无新增硬信息差，合法空仓不变。⚠️ 内马尔伤势是否影响下一场需赛后更新。",
-   "enFull": "RotoWire, ESPN and Sports Mole (June 19) all confirm: Neymar is ruled out of Brazil's second group match vs Haiti due to a calf injury and will not even travel with the squad. Brazil drew 1-1 with Morocco in their opener and sit 2nd in Group C with 1 point, trailing Scotland (3 points). Despite Neymar's absence, Brazil field Vinicius Jr, Raphinha, Paquetá and Matheus Cunha in attack — still the overwhelming favourite. Polymarket: Brazil 88.1% / Draw 8.3% / Haiti 3.6%. HHAD -2 market check: val=1, edge=6.5% but mirage=true (deep handicap, model mirrors market), verdict 'trust market line' — not a bet trigger. Haiti: Leverton Pierre (muscle) out for the entire tournament; lost 1-0 to Scotland in Group C opener. No unpriced hard edge on either side — no-bet stance unchanged.",
-   "links": [
-    {
-     "name": "RotoWire: Brazil vs Haiti preview",
-     "url": "https://www.rotowire.com/soccer/article/brazil-vs-haiti-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-c-118660"
-    },
-    {
-     "name": "ESPN: Brazil vs Haiti World Cup 2026 preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49097937/brazil-haiti-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
     }
    ]
   },
