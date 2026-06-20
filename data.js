@@ -1127,7 +1127,7 @@ window.DASH_DATA = {
   },
   "scenarios": [],
   "copyText": "周六(6/21)这一轮不买，谢谢！",
-  "reviewNote": "20:31最终版：四场全价值<1.10，fade-favorite全负CLV，纪律空仓。"
+  "reviewNote": "✓ 已独立复核 20:39 ｜ 草稿合规,无删改。四场全 value<1.10(最高~0.96),fade-favorite全负CLV,空仓结论正确。"
  },
  "calibration": {
   "stats": {
