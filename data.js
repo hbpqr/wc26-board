@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 18:10",
+  "updated": "2026-06-20 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1007,20 +1007,20 @@ window.DASH_DATA = {
   {
    "date": "06-20",
    "match": "荷兰 vs 瑞典",
-   "impact": "伊萨克带伤首发",
-   "tone": "away_neg",
-   "text": "瑞典前锋伊萨克(利物浦)本周曾单独训练,教练组管理其上场时间,确认首发但体能打折风险存在;若非满状态瑞典进攻效率存疑(ESPN·Sports Mole 06-20)",
-   "en": "Sweden striker Alexander Isak (Liverpool) spotted training alone this week; coaching staff managing his minutes after injury — still expected to start vs Netherlands but performance level may be impacted. (ESPN, Sports Mole — June 20)",
-   "full": "瑞典头号前锋亚历山大·伊萨克（Alexander Isak，利物浦）在备战荷兰的训练营中被发现单独训练，教练组格雷厄姆·波特（Graham Potter）正在管理其上场时间（minute management），背景是一处未公开的轻伤在康复中。ESPN与Sports Mole（06-20）均确认伊萨克预计首发出战，但不排除视体能情况提前替换。伊萨克是瑞典最重要的进攻支柱，若体能打折将大幅削减瑞典正面冲击力。荷兰首轮2:2平日本（蒂姆伯赛前退出已price-in），科曼预计保持主力阵容：范戴克、加克波、马莱、赖尼德斯均无伤停报告。综合：伊萨克状态是本场最大变量，未满状态利好荷兰主胜。⚠️竞彩荷兰主胜赔率1.52，value=0.92<1.10，按纪律单关不出；评估让球/串关腿适配性。",
-   "enFull": "Sweden's key striker Alexander Isak (Liverpool) was spotted training alone at the Swedish camp, with head coach Graham Potter managing his minutes due to an undisclosed minor injury. Both ESPN and Sports Mole (June 20) confirm he is expected to start vs Netherlands but could be substituted early depending on his physical condition. Isak is Sweden's offensive engine — if below full sharpness, Sweden's attacking threat is significantly reduced. Netherlands drew 2:2 with Japan in Game 1 (Timber's pre-tournament withdrawal already priced in); coach Koeman expected to name an unchanged XI with Van Dijk, Gakpo, Malen, and Gravenberch all fit. Net: Isak's injury management is the primary variable — even a partially-fit Isak still poses danger, but a 70-80% Isak tips the balance further toward the Dutch. ⚠️ Chinese竹 odds: Netherlands 1.52 (value=0.92 <1.10 threshold — single bet not justified by §3; evaluate as serial leg only).",
+   "impact": "伊萨克无伤首发",
+   "tone": "away",
+   "text": "✅更新:瑞典FA澄清伊萨克(利物浦)只是「额外恢复日」非伤情，确认满状态首发；揭幕战1球2助攻，瑞典攻击力无折损(thisisanfield·AnfieldIndex 06-20双源)",
+   "en": "UPDATE CLEARED: Sweden confirm Isak is fully fit — solo training session was simply an 'extra recovery day', no injury. Scored 1G+2A vs Tunisia in opener, confirmed to start vs Netherlands at full fitness. (thisisanfield.com, Anfield Index — Jun 20)",
+   "full": "【更新·推翻旧条目】此前担忧伊萨克单独训练暗示伤情，现已由瑞典国家队新闻官Petra Thoren正式澄清：属「额外恢复日」(extra recovery day)，是个人计划正常安排，非伤情处理。伊萨克在揭幕战对阵突尼斯时状态极佳(1球2助攻，5:1大胜)，将以满状态首发出战荷兰。thisisanfield.com与AnfieldIndex（06-20）双源独立确认。综合评估：瑞典攻击力完整——前期「带伤首发」担忧已消除，荷兰Polymarket优势从~58%小幅收敛至56.7%（+0.3pp动量）。⚠️竞彩荷兰主胜赔率1.52，value=0.92<1.10，按纪律单关不出；串关腿适配性由主会话最终确认。",
+   "enFull": "[UPDATED — supersedes injury concern entry] Swedish FA press officer Petra Thoren has officially clarified: Isak's separate training was a routine 'extra recovery day' under his individual plan — there is no injury whatsoever. He delivered a superb performance vs Tunisia (1 goal, 2 assists in the 5-1 win) and is confirmed fully fit to start vs Netherlands. Confirmed by thisisanfield.com and Anfield Index (Jun 20). Net assessment: Sweden's attack is at full strength; the prior 'injury management' narrative is debunked. Netherlands remain Polymarket favourites at 56.7% (+0.3pp momentum) but Sweden's attacking threat with a healthy Isak is undiminished. ⚠️ Dutch odds at 1.52 (value 0.92 <1.10) — single bet not justified; evaluate as serial leg only.",
    "links": [
     {
-     "name": "Sports Mole: Netherlands vs Sweden team news",
-     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup/team-news/netherlands-vs-sweden-injury-suspension-list-predicted-xis_599531.html"
+     "name": "thisisanfield: Alexander Isak Sweden Calm Injury Fears",
+     "url": "https://www.thisisanfield.com/2026/06/alexander-isak-sweden-injury-update-world-cup-2026/"
     },
     {
-     "name": "ESPN: World Cup 2026 injury tracker",
-     "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+     "name": "Anfield Index: Sweden provide Isak injury update",
+     "url": "https://anfieldindex.com/95091/sweden-provide-alexander-isak-injury-update-ahead-of-world-cup-clash.html"
     }
    ]
   },
