@@ -948,16 +948,27 @@ function matchScore(m) {
   const a = s.split(/[:：]/).map(Number);
   return (a.length === 2 && !a.some(isNaN)) ? a : null;
 }
-// 某场在某串里"押的方向赢没赢":有单关用单关方向;无单关=让球腿(让-2=该队净胜3+)
-function legResult(lm, parlayPick) {
-  const single = D.slip.items.find(x => x.num.slice(-3) === lm.num.slice(-3) && !/串/.test(x.pick));
-  const favTeam = single ? (/主/.test(single.pick) ? lm.home : /客/.test(single.pick) ? lm.away : "平局")
-                         : (parlayPick.includes(lm.away) ? lm.away : lm.home);
-  const need = single ? `${favTeam}赢` : `${favTeam}赢3球+`;
+// 某场在某串里"押的方向赢没赢"。优先用串关 item 的显式 legs 元数据({n,dir:"H"/"A",margin}),
+// 无则回退启发式:有单关用单关方向(净胜1);无单关时胜平负开盘=直接赢(净胜1),只开让球=净胜3+。
+function legResult(lm, parlayPick, legMeta) {
   const sc = matchScore(lm);
+  let isAway, favTeam, margin;
+  if (legMeta) {
+    isAway = legMeta.dir === "A";
+    favTeam = isAway ? lm.away : lm.home;
+    margin = legMeta.margin || 1;
+  } else {
+    const single = D.slip.items.find(x => x.num.slice(-3) === lm.num.slice(-3) && !/串/.test(x.pick));
+    if (single && /主|客/.test(single.pick)) {
+      isAway = /客/.test(single.pick); favTeam = isAway ? lm.away : lm.home; margin = 1;
+    } else {
+      isAway = parlayPick.includes(lm.away); favTeam = isAway ? lm.away : lm.home;
+      margin = (lm.had && lm.had.h) ? 1 : 3;  // 胜平负开盘=直接赢;只开让球=净胜3+
+    }
+  }
+  const need = margin > 1 ? `${favTeam}赢${margin}球+` : `${favTeam}赢`;
   let won = null;
-  if (sc) won = single ? ((sc[0] > sc[1] ? 0 : sc[0] < sc[1] ? 2 : 1) === (/主/.test(single.pick) ? 0 : /客/.test(single.pick) ? 2 : 1))
-                       : ((parlayPick.includes(lm.away) ? sc[1] - sc[0] : sc[0] - sc[1]) >= 3);
+  if (sc) { const net = isAway ? sc[1] - sc[0] : sc[0] - sc[1]; won = net >= margin; }
   const finished = !!lm.actual;  // actual 只在完赛时有(进行中走 m.live),是最可靠的"完赛"信号(phase 在 todayMatches 上不一定设)
   return { need, won, finished, sc, favTeam };
 }
@@ -968,7 +979,7 @@ function parlayInfo(p, thisNum) {
   legNums.forEach(ln => {
     const lm = (D.todayMatches || []).find(x => x.num.slice(-3) === ln);
     if (!lm) { pend++; return; }
-    const r = legResult(lm, p.pick);
+    const r = legResult(lm, p.pick, (p.legs || []).find(L => L.n === ln));
     if (r.finished) { if (!r.won) dead = true; }
     else { pend++; if (ln === thisNum) thisNeed = `${r.need}${r.sc ? `(现${r.sc[0]}:${r.sc[1]}${r.won ? "✓" : "未达"})` : ""}`; }
   });

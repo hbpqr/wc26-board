@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 23:10",
+  "updated": "2026-06-21 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -769,83 +769,36 @@ window.DASH_DATA = {
   "condWinProb": 31,
   "tickets": [
    {
-    "id": "荷单",
-    "type": "单关",
-    "legs": [
-     {
-      "num": "周六033",
-      "sel": "荷兰胜(主胜)",
-      "odds": 1.53
-     }
-    ],
+    "match": "荷兰 vs 瑞典",
+    "pick": "荷兰胜(主胜)·单关",
     "stake": 12,
-    "comboOdds": 1.53,
-    "maxPayout": 18.36,
+    "odds": 1.53,
     "status": "pending",
-    "payout": 0
+    "payout": null
    },
    {
-    "id": "日单",
-    "type": "单关",
-    "legs": [
-     {
-      "num": "周六036",
-      "sel": "日本胜(客胜)",
-      "odds": 1.37
-     }
-    ],
+    "match": "突尼斯 vs 日本",
+    "pick": "日本胜(客胜)·单关",
     "stake": 20,
-    "comboOdds": 1.37,
-    "maxPayout": 27.4,
+    "odds": 1.37,
     "status": "pending",
-    "payout": 0
+    "payout": null
    },
    {
-    "id": "2串1",
-    "type": "2串1",
-    "legs": [
-     {
-      "num": "周六034",
-      "sel": "德国胜",
-      "odds": 1.34
-     },
-     {
-      "num": "周六036",
-      "sel": "日本胜(客胜)",
-      "odds": 1.37
-     }
-    ],
+    "match": "德国×日本",
+    "pick": "2串1 德国胜×日本胜",
     "stake": 24,
-    "comboOdds": 1.836,
-    "maxPayout": 44.04,
+    "odds": 1.836,
     "status": "pending",
-    "payout": 0
+    "payout": null
    },
    {
-    "id": "3串1",
-    "type": "3串1",
-    "legs": [
-     {
-      "num": "周六034",
-      "sel": "德国胜",
-      "odds": 1.34
-     },
-     {
-      "num": "周六036",
-      "sel": "日本胜(客胜)",
-      "odds": 1.37
-     },
-     {
-      "num": "周六035",
-      "sel": "厄瓜多尔让球净胜4+(让-3)",
-      "odds": 3.4
-     }
-    ],
+    "match": "德国×日本×厄瓜多尔",
+    "pick": "3串1 德×日×厄净胜4+",
     "stake": 16,
-    "comboOdds": 6.24,
-    "maxPayout": 99.84,
+    "odds": 6.24,
     "status": "pending",
-    "payout": 0
+    "payout": null
    }
   ],
   "scenariosTitle": "周六整轮·已下注72元(4票·票面为准·厄腿=净胜4+)",
@@ -1295,35 +1248,68 @@ window.DASH_DATA = {
   "items": [
    {
     "num": "周六033",
-    "pick": "荷兰胜·单关【已出票】",
+    "pick": "荷兰胜(主胜)",
     "tier": "已下注",
     "match": "荷兰 vs 瑞典",
     "stake": 12,
-    "odds": 1.53
+    "odds": 1.53,
+    "value": 0.92,
+    "ev": -0.8
    },
    {
     "num": "周六036",
-    "pick": "日本胜·单关【已出票】",
+    "pick": "日本胜(客胜)",
     "tier": "已下注",
     "match": "突尼斯 vs 日本",
     "stake": 20,
-    "odds": 1.37
+    "odds": 1.37,
+    "value": 0.87,
+    "ev": -2.6
    },
    {
     "num": "034×036",
-    "pick": "2串1 德国胜×日本胜【已出票】",
+    "pick": "2串1 德国胜×日本胜",
+    "legs": [
+     {
+      "n": "034",
+      "dir": "H"
+     },
+     {
+      "n": "036",
+      "dir": "A"
+     }
+    ],
     "tier": "已下注",
     "match": "德×日",
     "stake": 24,
-    "odds": 1.836
+    "odds": 1.836,
+    "value": 0.79,
+    "ev": -8.2
    },
    {
     "num": "034×036×035",
-    "pick": "3串1 德×日×厄让球【已出票】",
+    "pick": "3串1 德×日×厄净胜4+",
+    "legs": [
+     {
+      "n": "034",
+      "dir": "H"
+     },
+     {
+      "n": "036",
+      "dir": "A"
+     },
+     {
+      "n": "035",
+      "dir": "H",
+      "margin": 4
+     }
+    ],
     "tier": "已下注",
-    "match": "德×日×厄(净胜4+·票面6.24)",
+    "match": "德×日×厄(净胜4+)",
     "stake": 16,
-    "odds": 6.24
+    "odds": 6.24,
+    "value": 0.76,
+    "ev": -3.8
    }
   ],
   "summary": {
