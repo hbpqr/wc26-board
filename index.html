@@ -1723,7 +1723,12 @@ labelize();
       if (!r.ok) throw new Error("http " + r.status);
       const txt = await r.text();
       const newLive = JSON.parse(txt.slice(txt.indexOf("{"), txt.lastIndexOf("}") + 1));
-      fails = 0; warn(false);
+      fails = 0;
+      // ★时间戳老化哨兵:文件能拉到但 ts 太旧(>3分)且仍有场在踢 = live_ticker 卡死/挂了(进程没死但不更新),显式报警别静默装新鲜
+      const tss = Object.values(newLive).map(v => +new Date(v.ts)).filter(t => t > 0);
+      const freshest = tss.length ? Math.max(...tss) : 0;
+      const stuck = Object.keys(newLive).length > 0 && freshest > 0 && (Date.now() - freshest) > 180000;
+      warn(stuck);
       Object.keys(LIVE).forEach(k => delete LIVE[k]); Object.assign(LIVE, newLive);
       ROUNDS.forEach(g => g.matches.forEach(m => { if (m.status !== "finished") { m.live = LIVE[m.num] ? LIVE[m.num].live : null; m.phase = m.live ? "live" : "scheduled"; } }));
       const now = liveSet();

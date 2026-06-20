@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-20 10:30",
+  "updated": "2026-06-20 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -826,6 +826,46 @@ window.DASH_DATA = {
   }
  ],
  "news": [
+  {
+   "date": "06-20",
+   "match": "德国 vs 科特迪瓦",
+   "impact": "瓦伊禁行缺阵",
+   "tone": "away",
+   "text": "科特迪瓦前锋瓦伊(Elye Wahi)因在法国涉嫌假球调查未获准出行,确认缺席整届世界杯(Yahoo Sports·covers.com双源);利好德国主场(Yahoo Sports·Covers.com 06-20)",
+   "en": "Ivory Coast striker Elye Wahi absent from entire World Cup: not granted permission to travel to Canada amid French match-fixing investigation. Amad Diallo (scored opening winner) expected to start. Boosts Germany's attacking advantage. (Yahoo Sports, Covers.com — June 20)",
+   "full": "科特迪瓦重要前锋埃利耶·瓦伊（Elye Wahi，马赛）因陷入法国境内的假球调查（match-fixing investigation）而未获准前往加拿大参赛，确认缺席整届2026世界杯。Yahoo Sports与covers.com（06-20）双源确认。尽管如此，科特迪瓦在首轮1:0小胜厄瓜多尔时，替补出场的阿马德·迪亚洛（Amad Diallo，曼联）打进制胜球，主帅有望给他机会首发。德国方面：首轮7:1大胜库拉索，无重大伤停，完整阵容出战科特迪瓦。综合评估：瓦伊缺阵削弱科特迪瓦进攻选择，配合恩迪卡伤情，德国主场优势进一步强化。竞彩赔率/价值仍需主会话运行predict.py后确认是否过1.10闸。",
+   "enFull": "Ivory Coast forward Elye Wahi (Marseille) has been barred from travelling to Canada due to an ongoing French match-fixing investigation, effectively ruling him out of the entire 2026 World Cup. Confirmed by Yahoo Sports and Covers.com (June 20). Despite the absence, Ivory Coast were efficient in Game 1, winning 1-0 vs Ecuador thanks to a second-half winner from substitute Amad Diallo (Man Utd), who is now expected to start. Germany: no reported injury concerns, full squad available after the 7-1 opening demolition of Curaçao. Net: Wahi's ban reduces Ivory Coast's attacking depth and variety; combined with the Ndicka fitness doubt, Germany's structural advantage grows. Verify value via predict.py before the 04:00 BJT kick-off.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Germany vs Ivory Coast preview",
+     "url": "https://uk.sports.yahoo.com/news/germany-vs-ivory-coast-world-205313156.html"
+    },
+    {
+     "name": "Covers.com: Germany vs Ivory Coast odds & picks",
+     "url": "https://www.covers.com/world-cup/germany-vs-ivory-coast-prediction-picks-odds-saturday-6-20-2026"
+    }
+   ]
+  },
+  {
+   "date": "06-20",
+   "match": "德国 vs 科特迪瓦",
+   "impact": "恩迪卡伤情存疑",
+   "tone": "away",
+   "text": "科特迪瓦中卫恩迪卡(Evan Ndicka,罗马)腿筋伤未愈,错过首轮对厄瓜多尔,出战德国仍存疑；阿马德·迪亚洛因首轮进球料获首发机会(Sports Mole·Yahoo Sports 06-20双源)",
+   "en": "Ivory Coast CB Evan Ndicka (Roma) still doubt vs Germany due to hamstring injury that ruled him out of opener vs Ecuador. Amad Diallo expected to start after scoring the Game 1 winner. (Sports Mole, Yahoo Sports — June 20)",
+   "full": "科特迪瓦主力中卫埃文·恩迪卡（Evan Ndicka，罗马）在首轮对阵厄瓜多尔时因腿筋伤（hamstring）缺席，目前出战德国仍属疑问。Sports Mole及Yahoo Sports（06-20赛前）双源确认其状态未定，主帅将根据赛前热身判断是否出战。替补中卫深度偏薄，若恩迪卡再次缺席，科特迪瓦后防对德国高压进攻的抵抗力将明显下降。阿马德·迪亚洛（Amad Diallo）因在首轮第83分钟打进制胜球，预计从首发位置出发；戈迪-福苏（Jean-Philippe Gbamin 已转让阵容）或其他中场补位。综合：恩迪卡伤情叠加瓦伊缺阵，科特迪瓦双线受损，德国取胜概率市场已高估，但赔率是否过闸需predict.py校准。",
+   "enFull": "Evan Ndicka (Roma), Ivory Coast's key centre-back, was sidelined for the Group D opener vs Ecuador with a hamstring injury and remains a doubt for the Germany fixture. Sports Mole and Yahoo Sports (June 20) both list him as uncertain; the coaching staff will assess him in the pre-match warm-up. If Ndicka misses again, Ivory Coast's defensive solidity against Germany's clinical attack is significantly weakened — their backup CB cover is limited in quality. On the positive side, Amad Diallo scored the 83rd-minute winner in Game 1 and is expected to reward that performance with a start vs Germany. Combined impact with Wahi's absence (see related news): Ivory Coast are stretched on both attacking and defensive ends heading into a tough group-stage fixture against a Germany side that crushed Curaçao 7-1. Run predict.py before 04:00 BJT to confirm whether any market inefficiency exists.",
+   "links": [
+    {
+     "name": "Sports Mole: Germany vs Ivory Coast team news",
+     "url": "https://www.sportsmole.co.uk/football/germany/injury-news/team-news/germany-vs-ivory-coast-injury-suspension-list-predicted-xis_599492.html"
+    },
+    {
+     "name": "Yahoo Sports: Germany vs Ivory Coast preview",
+     "url": "https://uk.sports.yahoo.com/news/germany-vs-ivory-coast-world-205313156.html"
+    }
+   ]
+  },
   {
    "date": "06-20",
    "match": "突尼斯 vs 日本",
