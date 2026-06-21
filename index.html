@@ -948,6 +948,18 @@ function matchScore(m) {
   const a = s.split(/[:：]/).map(Number);
   return (a.length === 2 && !a.some(isNaN)) ? a : null;
 }
+// 稳健判定"押哪边"(0主胜/1平/2客胜):★先按队名匹配(pick里永远含"荷兰/日本"等队名,最可靠),
+// 再按"主/客"字样,最后"平";绝不静默默认平局——2026-06-21根因:pick丢了"(主胜)"标记→旧逻辑默认平局
+// →荷兰5:1赢却显示"平局没中"、德荷串荷腿被当平局算死→黄斌看到"全猜错"。队名匹配后丢标记也不再误判。
+function sideIdx(pick, m) {
+  pick = pick || "";
+  if (m.home && pick.includes(m.home)) return 0;
+  if (m.away && pick.includes(m.away)) return 2;
+  if (/主/.test(pick)) return 0;
+  if (/客/.test(pick)) return 2;
+  if (/平/.test(pick)) return 1;
+  return 0;  // 兜底按主胜,绝不默认平局(平局是最坏的错误猜测)
+}
 // 某场在某串里"押的方向赢没赢"。优先用串关 item 的显式 legs 元数据({n,dir:"H"/"A",margin}),
 // 无则回退启发式:有单关用单关方向(净胜1);无单关时胜平负开盘=直接赢(净胜1),只开让球=净胜3+。
 function legResult(lm, parlayPick, legMeta) {
@@ -964,8 +976,8 @@ function legResult(lm, parlayPick, legMeta) {
     margin = legMeta.margin || 1;
   } else {
     const single = D.slip.items.find(x => x.num.slice(-3) === lm.num.slice(-3) && !/串/.test(x.pick));
-    if (single && /主|客/.test(single.pick)) {
-      isAway = /客/.test(single.pick); favTeam = isAway ? lm.away : lm.home; margin = 1;
+    if (single) {
+      const si = sideIdx(single.pick, lm); isAway = si === 2; favTeam = si === 1 ? "平局" : (isAway ? lm.away : lm.home); margin = 1;
     } else {
       isAway = parlayPick.includes(lm.away); favTeam = isAway ? lm.away : lm.home;
       margin = (lm.had && lm.had.h) ? 1 : 3;  // 胜平负开盘=直接赢;只开让球=净胜3+
@@ -998,15 +1010,16 @@ function betChips(m) {
   // 单关:完赛=赢了/没赢+净赚;进行中/未开赛=押什么+赢了拿回多少+现在领没领
   const single = D.slip.items.find(it => it.num.slice(-3) === mNum && !/串/.test(it.pick));
   if (single) {
-    const team = /主/.test(single.pick) ? m.home : /客/.test(single.pick) ? m.away : "平局";
+    const sIdx = sideIdx(single.pick, m), team = [m.home, "平局", m.away][sIdx];
     const payout = single.stake * single.odds, profit = payout - single.stake, sc = matchScore(m);
+    const scIdx = sc ? (sc[0] > sc[1] ? 0 : sc[0] < sc[1] ? 2 : 1) : null;
     if (m.actual) {
-      const won = (sc[0] > sc[1] ? m.home : sc[0] < sc[1] ? m.away : "平局") === team;
+      const won = sIdx === scIdx;
       chips.push(won
         ? `<span class="tix tx-green">✅ ${team}赢了 · 单买 <b>${single.stake}→${payout.toFixed(0)}</b> 净赚${profit.toFixed(0)}</span>`
         : `<span class="tix tx-red">✗ ${team}没赢 · 单买这 ${single.stake} 块没了</span>`);
     } else {
-      const lead = sc ? ((sc[0] > sc[1] ? m.home : sc[0] < sc[1] ? m.away : "平局") === team ? " · 现在赢着✓" : " · 暂落后") : "";
+      const lead = sc ? (sIdx === scIdx ? " · 现在赢着✓" : " · 暂落后") : "";
       chips.push(`<span class="tix tx-yellow">押 ${team}赢 <b>${single.stake}元</b> · 赢了拿回${payout.toFixed(0)}(净赚${profit.toFixed(0)})${lead}</span>`);
     }
   }
