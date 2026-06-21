@@ -1042,7 +1042,8 @@ function betStatus(it) {
     const info = parlayInfo(it, "");
     if (info.state === "won") return { txt: `✅ 已中 +${profit.toFixed(0)}(拿回${payout.toFixed(0)})`, cls: "st-win" };
     if (info.state === "dead") return { txt: `✗ 已挂 −${it.stake}`, cls: "st-lose" };
-    return { txt: `⏳ 进行中 · 全中赢+${profit.toFixed(0)}`, cls: "st-pending" };
+    const anyStarted = String(it.num).split("×").some(ln => { const lm = (D.todayMatches || []).find(x => x.num.slice(-3) === ln); return lm && (matchScore(lm) || lm.actual); });
+    return { txt: `⏳ ${anyStarted ? "进行中" : "待开赛"} · 全中赢+${profit.toFixed(0)}`, cls: "st-pending" };
   }
   const m = (D.todayMatches || []).find(x => x.num.slice(-3) === String(it.num).slice(-3));
   if (!m) return { txt: `⏳ 待开赛 · 赢了拿回${payout.toFixed(0)}`, cls: "st-pending" };
