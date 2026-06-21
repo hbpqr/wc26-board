@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 14:10",
+  "updated": "2026-06-21 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1007,6 +1007,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-21",
+   "match": "乌拉圭 vs 佛得角",
+   "impact": "双核缺阵",
+   "tone": "away",
+   "text": "阿劳霍(巴萨·中卫)和德阿拉斯卡埃塔(腿筋)均确认缺阵;佛得角久加什(Vozinha)40岁门将首轮顶住西班牙27次射门;双方同积1分H组生死战(Sports Mole·RotoWire 06-21双源)",
+   "en": "Ronald Araújo (Barça CB) and De Arrascaeta both ruled out; Cape Verde's 40-yr-old GK Vozinha heroically held Spain to 0-0; both teams on 1pt in Group H (Sports Mole, RotoWire — Jun 21)",
+   "full": "乌拉圭迎战佛得角前情况严峻：主力中卫罗纳尔多·阿劳霍（Ronald Araújo，巴塞罗那）赛前受伤确认缺阵，核心中场德阿拉斯卡埃塔（Federico Valverde搭档受损）也因伤缺席。尽管比安基（Bianchi）和奥利韦拉（Olivera）可能补位，但乌拉圭防线与中场协调均面临挑战。佛得角方面，40岁老将门将沃兹尼亚（Vozinha）首轮凭借个人英雄表现顶住了西班牙27次射门、创历史性0:0；主攻手约瓦内·卡布拉尔（Jovane Cabral）赛前接受体能测试，目前尚未确认出战。背景：双方同积1分，本场是H组最重要节点——赢者大幅提升出线主动权，失分则几乎提前出局。(Sports Mole·RotoWire 06-21双源)",
+   "enFull": "Uruguay go into Sunday's clash with significant absences: first-choice centre-back Ronald Araújo (Barcelona) is confirmed out pre-tournament with injury, and playmaker De Arrascaeta is also sidelined. Bianchi and Olivera may step in, but Uruguay's defensive and midfield cohesion is weakened. For Cape Verde, 40-year-old goalkeeper Vozinha delivered a heroic performance to keep Spain scoreless in Matchday 1; forward Jovane Cabral is undergoing a fitness test and is a game-time call. Context: both teams are on 1 point in Group H, making this fixture a de facto knockout game for both. (Sports Mole, RotoWire — Jun 21)",
+   "links": [
+    {
+     "name": "Sports Mole: Uruguay vs Cape Verde team news",
+     "url": "https://www.sportsmole.co.uk/football/uruguay/world-cup-2026/team-news/uruguay-vs-cape-verde-injury-suspension-list-predicted-xis_599646.html"
+    },
+    {
+     "name": "RotoWire: Uruguay vs Cape Verde preview",
+     "url": "https://www.rotowire.com/soccer/article/uruguay-vs-cape-verde-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118935"
+    }
+   ]
+  },
   {
    "date": "06-21",
    "match": "比利时 vs 伊朗",
