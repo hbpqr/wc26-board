@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 16:10",
+  "updated": "2026-06-21 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1007,6 +1007,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-21",
+   "match": "新西兰 vs 埃及",
+   "impact": "萨拉赫首发确认",
+   "tone": "away",
+   "text": "萨拉赫(穆罕默德)确认首发;新西兰贾斯特(Elijah Just)首轮双响对伊朗预计继续首发;双方均无新伤停(加贝特赛前腿筋缺席整届已知)(Sports Mole·RotoWire 06-21双源)",
+   "en": "Mohamed Salah confirmed to start; New Zealand's Elijah Just (brace vs Iran, 11 intl goals) expected in XI again; both sides fully fit, no new injuries. (Sports Mole, RotoWire — Jun 21)",
+   "full": "新西兰对阵埃及赛前双方均健康无伤：新西兰唯一已知缺阵为中场马修·加贝特（Matthew Garbett，赛前腿筋受伤缺席整届，由洛根·罗格森取代）；埃及方面萨拉赫（Mohamed Salah）确认以常规边翼方式首发，马尔穆什（Marmoush）及阿提亚（Ateya）搭档中路。新西兰最大看点为贾斯特（Elijah Just），首轮对伊朗双响、个人国际进球累计11球，预计继续首发右翼位置。背景：G组全部四队均积1分（比利时/伊朗/新西兰/埃及），本场胜者大幅占据出线主动。Polymarket客胜(埃及)60.2%。(Sports Mole·RotoWire 06-21双源)",
+   "enFull": "New Zealand vs Egypt Matchday 2 team news: New Zealand have no fresh injury concerns — their only known absentee is midfielder Matthew Garbett (hamstring, sidelined for the entire tournament; replaced by Logan Rogerson). Egypt also carry no new fitness worries; Mohamed Salah is confirmed to start in his usual wide attacking role alongside Marmoush. For New Zealand, Elijah Just is expected to retain his starting place after his brace against Iran pushed his international tally to 11 goals. Context: All four Group G teams (Belgium, Iran, New Zealand, Egypt) are level on 1 point — this is effectively a must-win for both sides. Polymarket: Egypt (away) at 60.2%. (Sports Mole, RotoWire — Jun 21)",
+   "links": [
+    {
+     "name": "Sports Mole: New Zealand vs Egypt predicted XI",
+     "url": "https://www.sportsmole.co.uk/football/new-zealand/world-cup-2026/predicted-lineups/just-decision-wood-influence-predicted-new-zealand-xi-vs-egypt_599607.html"
+    },
+    {
+     "name": "RotoWire: New Zealand vs Egypt preview",
+     "url": "https://www.rotowire.com/soccer/article/new-zealand-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118938"
+    }
+   ]
+  },
   {
    "date": "06-21",
    "match": "乌拉圭 vs 佛得角",
