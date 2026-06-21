@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 04:10",
+  "updated": "2026-06-22 06:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1034,6 +1034,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-22",
+   "match": "法国 vs 伊拉克",
+   "impact": "法国换阵左路",
+   "tone": "neutral",
+   "text": "巴尔科拉替换杜埃出任左翼首发、迪涅替换特奥·埃尔南德斯出任左后卫；萨利巴(阿森纳)带痛上阵；法国胜率88.5%、Mbappé上轮双响(Sports Mole·Yahoo Sports 06-22双源)",
+   "en": "Barcola to replace Doue on left wing; Digne in for T. Hernandez at left back; Saliba playing through pain; France 88.5% win prob, Mbappe brace last game (Sports Mole, Yahoo — Jun 22)",
+   "full": "法国战伊拉克赛前换阵信号：左翼巴尔科拉（Barcola）大概率取代杜埃（Doue）首发；左后卫迪涅（Digne）取代特奥·埃尔南德斯（T.Hernandez）；科内（Kone）或与拉比奥（Rabiot）搭档中场。后卫萨利巴（William Saliba，阿森纳）赛前承认带痛上阵才能参加本届世界杯。伊拉克由格雷厄姆·阿诺德执教，凭险胜玻利维亚2:1获得附加赛门票(1986年以来首次出现WC)；以整体防守为主，进攻资源有限。法国上轮3:1胜塞内加尔，姆巴佩双响，本场Polymarket胜率89.6%，为本轮最强热门之一。(Sports Mole·Yahoo Sports 06-22双源)",
+   "enFull": "France vs Iraq pre-match: Expected lineup changes for France include Barcola replacing Doue on the left wing and Digne coming in for Theo Hernandez at left back; Manu Kone may pair with Rabiot in midfield. Arsenal CB William Saliba admitted to playing through pain to participate in this tournament. Iraq, coached by Graham Arnold, qualified via a 2-1 playoff win over Bolivia — their first World Cup appearance since 1986 — and will rely on defensive organisation. France won their opener 3-1 over Senegal with Mbappe scoring twice; Polymarket has them at 89.6% to win. (Sports Mole, Yahoo Sports — Jun 22)",
+   "links": [
+    {
+     "name": "Sports Mole: France vs Iraq preview",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-iraq-prediction-team-news-lineups_599660.html"
+    },
+    {
+     "name": "Yahoo Sports: France vs Iraq team news",
+     "url": "https://sports.yahoo.com/articles/france-xi-vs-iraq-confirmed-103715150.html"
+    }
+   ]
+  },
+  {
+   "date": "06-22",
+   "match": "阿根廷 vs 奥地利",
+   "impact": "蒙铁尔伤退",
+   "tone": "neutral",
+   "text": "蒙铁尔(对阿尔及利亚受肌肉伤)确认不首发、阿尔瓦雷斯争夺前锋位置；阿根廷Polymarket胜率64.2%；奥地利缺萨比策尔等主力(Sports Mole·ESPN 06-22双源)",
+   "en": "Montiel (muscle vs Algeria) ruled out of starting XI; Julian Alvarez pushing to start over Lautaro; Argentina 64.2% win prob (Polymarket); Austria also missing key men (Sports Mole, ESPN — Jun 22)",
+   "full": "阿根廷战奥地利赛前动态：右后卫冈萨洛·蒙铁尔（Gonzalo Montiel）对阵阿尔及利亚时遭受肌肉问题，确认不首发（已返回集训但状态未完全恢复）。中锋位置上，朱利安·阿尔瓦雷斯（Julian Alvarez）积极争夺首发，与劳塔罗·马丁内斯（Lautaro Martinez）竞争。阿根廷上轮大胜阿尔及利亚3:0，整体表现稳健，Polymarket当前胜率64.2%（+2.0pp较开盘）。奥地利方面，ESPN预测阵容含施拉格尔（X.Schlager）、卡拉伊奇奇（Kalajdzic）等；奥地利作为传统欧洲强队本届被看低，赔率偏高，需警惕爆冷可能性。(Sports Mole·ESPN 06-22双源)",
+   "enFull": "Argentina vs Austria pre-match: Right-back Gonzalo Montiel suffered a muscular problem against Algeria and will not start against Austria, despite returning to group training. In attack, Julian Alvarez is pushing hard to start ahead of Lautaro Martinez. Argentina's Polymarket win probability sits at 64.2% (+2.0pp since open). For Austria, ESPN's predicted XI features X.Schlager, Kalajdzic, and Sabitzer — Austria are a live dark-horse candidate despite being heavy underdogs. Argentina won their opener 3-0 vs Algeria with an assured display. (Sports Mole, ESPN — Jun 22)",
+   "links": [
+    {
+     "name": "Sports Mole: Argentina lineup dilemma",
+     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/news/argentina--scaloni-facing-lineup-dilemma-despite-world-cup-win-over-algeria_599752.html"
+    },
+    {
+     "name": "ESPN: Argentina vs Austria predicted XIs",
+     "url": "https://www.espn.com/soccer/story/_/id/49120325/fifa-world-cup-2026-argentina-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "06-21",
    "match": "新西兰 vs 埃及",
