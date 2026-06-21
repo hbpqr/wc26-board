@@ -1,14 +1,14 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 10:10",
+  "updated": "2026-06-21 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
   "cashNow": 327.09,
-  "pending": 70,
+  "pending": 44,
   "goal": 20000,
   "floor": 80,
   "milestones": [
