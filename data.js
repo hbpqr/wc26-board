@@ -1,13 +1,13 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 09:51",
+  "updated": "2026-06-21 10:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 353.09,
+  "cashNow": 327.09,
   "pending": 70,
   "goal": 20000,
   "floor": 80,
@@ -155,7 +155,7 @@ window.DASH_DATA = {
    },
    {
     "d": "06-21",
-    "v": 353.09
+    "v": 327.09
    }
   ],
   "evCurve": [
@@ -336,15 +336,19 @@ window.DASH_DATA = {
    },
    {
     "d": "06-21",
-    "pool": 353.09,
-    "pnl": 24.99,
+    "pool": 327.09,
+    "pnl": -1.01,
     "records": [
      "🏆 荷兰 5:1 瑞典(01:00 完赛)",
      "　✓ 荷单 12@1.53 → 18.36 | 集成56.2%主胜方向正确(Brier≈0.237)",
      "🏆 德国 2:1 科特迪瓦(04:00 完赛)",
      "　集成67.1%主胜方向正确(Brier≈0.229，优) | 瓦伊禁赛+恩迪卡伤缺情报事前已price-in | Elo:德国+7.3→1910.2,科特迪瓦→1695.0",
      "　✓ 2串1 德国胜×荷兰胜 18@2.035 → 36.63(双腿全中)",
-     "📊 已结算2票:荷单+德×荷串 共回收54.99 净+24.99 | 池 328.1→353.09(含待结70元) | 厄035(08:00)/日036(12:00)待开"
+     "🏆 厄瓜多尔 0:0 库拉索(08:00 完赛)",
+     "　平局爆冷；模型86.5%主胜大错(Brier ens=1.562，远超随机)；Elo:厄-17.5→1740.2",
+     "　✗ 2串1 德×厄让2球 10@2.46 → 0(厄瓜多尔未赢，让球腿挂)",
+     "　✗ 3串1 德×日×厄总进球3 16@6.24 → 0(厄腿挂，不待日本结果)",
+     "📊 已结算4票 回收54.99 净-1.01 | 池 328.1→327.09(含待结44元·日036(12:00)待开)"
     ]
    }
   ],
@@ -814,13 +818,16 @@ window.DASH_DATA = {
    "home": "厄瓜多尔",
    "away": "库拉索",
    "time": "06-21 08:00",
+   "status": "finished",
+   "actual": "0:0",
    "predManual": "厄让2球串10@2.46(已下注)",
    "predModel": "主胜86.5%",
    "ensemble": {
     "h": 86.5,
     "d": 9.5,
     "a": 4.1
-   }
+   },
+   "note": "厄瓜多尔 0:0 库拉索。平局爆冷，厄瓜多尔首战已负今场又平，出局基本确定。集成86.5%主胜方向严重偏差(Brier ens=1.562，远超随机0.667)。让-2腿挂：2串1德×厄(10元)→✗；3串1德×日×厄总进球3(16元)→✗(厄腿已死，不待日本)。Elo:厄瓜多尔-17.5→1740.2,库拉索→1364.6。"
   },
   {
    "num": "周六036",
@@ -839,7 +846,7 @@ window.DASH_DATA = {
  "holdings": {
   "invested": 100,
   "returned": 54.99,
-  "pendingStake": 70,
+  "pendingStake": 44,
   "condEV": -18.3,
   "condWinProb": 42,
   "tickets": [
@@ -872,8 +879,8 @@ window.DASH_DATA = {
     "pick": "3串1 德×日×厄总进球3",
     "stake": 16,
     "odds": 6.24,
-    "status": "pending",
-    "payout": null
+    "status": "lose",
+    "payout": 0
    },
    {
     "match": "德国×荷兰",
@@ -888,8 +895,8 @@ window.DASH_DATA = {
     "pick": "2串1 德国胜×厄瓜多尔让2球(净胜3+)",
     "stake": 10,
     "odds": 2.46,
-    "status": "pending",
-    "payout": null
+    "status": "lose",
+    "payout": 0
    },
    {
     "match": "美国 vs 澳大利亚",
@@ -991,56 +998,6 @@ window.DASH_DATA = {
   ]
  },
  "focus": [
-  {
-   "num": "周六035",
-   "home": "厄瓜多尔",
-   "away": "库拉索",
-   "time": "06-21 08:00",
-   "models": {
-    "B": [
-     87.8,
-     12,
-     0.2
-    ],
-    "C": [
-     87.9,
-     9.3,
-     2.9
-    ],
-    "D": [
-     86.5,
-     9.4,
-     4.1
-    ],
-    "ens": [
-     87.3,
-     10.5,
-     2.2
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "让胜(净胜3+)",
-     "odds": 1.85,
-     "prob": 51.8,
-     "value": 0.96
-    },
-    {
-     "pick": "让平",
-     "odds": 4,
-     "prob": 20.9,
-     "value": 0.83
-    },
-    {
-     "pick": "让负",
-     "odds": 2.95,
-     "prob": 27.3,
-     "value": 0.81
-    }
-   ],
-   "scores": [],
-   "verdict": "厄瓜多尔首战0-1负科特迪瓦(0分·必须大胜库拉索保命)→动机极强搏大比分,利好让-2(净胜3+)。让-2@1.85彩票腿保留。"
-  },
   {
    "num": "周六036",
    "home": "突尼斯",
@@ -1175,26 +1132,6 @@ window.DASH_DATA = {
     {
      "name": "SI.com: Tunisia vs Japan preview",
      "url": "https://www.si.com/soccer/tunisia-vs-japan-world-cup-preview-predictions-lineups-6-20-26"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "厄瓜多尔 vs 库拉索",
-   "impact": "厄败绩必须赢",
-   "tone": "home",
-   "text": "厄瓜多尔首轮0:1负于科特迪瓦,与库拉索同积0分;无伤停、动机明确必须赢——输者几乎出局(Rotowire·Sports Mole 06-20)",
-   "en": "Ecuador lost 1-0 to Ivory Coast in opener, now level on zero points with Curaçao; no injuries/suspensions, must-win pressure squarely on Ecuador — loser almost certainly eliminated. (Rotowire, Sports Mole — June 20)",
-   "full": "厄瓜多尔在本届世界杯首轮以0:1负于科特迪瓦（阿马德·迪亚洛83'制胜），导致小组局面严峻：德国+科特迪瓦各取3分并列前两，厄瓜多尔与库拉索均积0分，输者几乎确定出局。Rotowire与Sports Mole（06-20）确认厄瓜多尔首发阵容无重大伤停：卡伊塞多、瓦连西亚（Enner Valencia）、帕乔、普拉塔等核心均可出战。库拉索首轮1:7惨败德国，元气大伤；两队动机不对等——厄瓜多尔死战求生，库拉索已基本宣告出局。竞彩HAD暂未开盘，HHAD开出-2深让（厄净胜3+），模型集成87.3%主胜；待HAD开盘后主会话用predict.py确认是否过价值闸1.10。",
-   "enFull": "Ecuador fell 1-0 to Ivory Coast in their World Cup opener (Amad Diallo 83') and now sit on zero points alongside Curaçao — with Germany and Ivory Coast each on 3 points, the loser here is almost certainly eliminated. Ecuador have their full squad available with no suspensions or injury concerns: Caicedo, Valencia, Pacho, Plata all confirmed (Rotowire, Sports Mole — Jun 20). Curaçao were destroyed 7-1 by Germany in their opener; the must-win pressure asymmetry heavily favours Ecuador's intensity. Chinese bookmaker has not yet opened the HAD (胜平负) market; only HHAD (-2 line) available at 1.85/4.00/2.95 — model consensus 87.3% Ecuador win. Monitor for HAD opening and run predict.py before 08:00 BJT kick-off.",
-   "links": [
-    {
-     "name": "Rotowire: Ecuador vs Curacao preview",
-     "url": "https://www.rotowire.com/soccer/article/ecuador-vs-curacao-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-118799"
-    },
-    {
-     "name": "Sports Mole: Ecuador vs Curacao preview",
-     "url": "https://www.sportsmole.co.uk/football/ecuador/world-cup-2026/preview/ecuador-vs-curacao-prediction-team-news-lineups_599563.html"
     }
    ]
   },
@@ -1536,14 +1473,14 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 34,
+  "sampleCount": 35,
   "threshold": 50,
-  "pct": 68,
-  "ensBrier": 0.54,
-  "ensBrierMedian": 0.354,
+  "pct": 70,
+  "ensBrier": 0.569,
+  "ensBrierMedian": 0.374,
   "marketBase": 0.5506,
   "marketBaseLabel": "市场去水(子模型A)",
-  "beatsMarket": true,
+  "beatsMarket": false,
   "beatRandom": 21,
   "dirHit": 20,
   "weightsFirst": {
@@ -1552,10 +1489,10 @@ window.DASH_DATA = {
    "C": 33
   },
   "weightsLast": {
-   "A": 51,
-   "B": 25,
-   "C": 2,
-   "D": 22
+   "A": 77,
+   "B": 12,
+   "C": 1,
+   "D": 11
   },
   "dots": [
    {
@@ -1761,10 +1698,16 @@ window.DASH_DATA = {
     "m": "德国·2:1",
     "b": 0.23,
     "win": true
+   },
+   {
+    "num": "周六035",
+    "m": "厄瓜多尔·0:0",
+    "b": 1.56,
+    "win": false
    }
   ],
-  "headline": "已喂 34 场预测 · 集成 Brier 0.54 vs 市场去水 0.5506（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.54 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 34/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 35 场预测 · 集成 Brier 0.569 vs 市场去水 0.5506（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.569 **仍没跑赢市场去水(0.5506)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 35/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
