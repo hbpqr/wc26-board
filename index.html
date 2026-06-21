@@ -1033,6 +1033,29 @@ function betChips(m) {
   });
   return chips.length ? `<div class="mini-tix">${chips.join("")}</div>` : "";
 }
+// 下单台账每注的实时战况(黄斌2026-06-21:下单计划也要标已中多少/进行中/已挂,跟上面卡片一致)。
+// 复用 parlayInfo/sideIdx/matchScore 同一套 live 判定,口径与卡片完全一致。
+function betStatus(it) {
+  const payout = it.stake * it.odds, profit = payout - it.stake;
+  const isParlay = /串/.test(it.pick) || String(it.num || "").includes("×");
+  if (isParlay) {
+    const info = parlayInfo(it, "");
+    if (info.state === "won") return { txt: `✅ 已中 +${profit.toFixed(0)}(拿回${payout.toFixed(0)})`, cls: "st-win" };
+    if (info.state === "dead") return { txt: `✗ 已挂 −${it.stake}`, cls: "st-lose" };
+    return { txt: `⏳ 进行中 · 全中赢+${profit.toFixed(0)}`, cls: "st-pending" };
+  }
+  const m = (D.todayMatches || []).find(x => x.num.slice(-3) === String(it.num).slice(-3));
+  if (!m) return { txt: `⏳ 待开赛 · 赢了拿回${payout.toFixed(0)}`, cls: "st-pending" };
+  const sIdx = sideIdx(it.pick, m), sc = matchScore(m);
+  const scIdx = sc ? (sc[0] > sc[1] ? 0 : sc[0] < sc[1] ? 2 : 1) : null;
+  if (m.actual) return sIdx === scIdx
+    ? { txt: `✅ 已中 +${profit.toFixed(0)}(拿回${payout.toFixed(0)})`, cls: "st-win" }
+    : { txt: `✗ 已挂 −${it.stake}`, cls: "st-lose" };
+  if (sc) return sIdx === scIdx
+    ? { txt: `⏳ 进行中 · 暂领先✓ 赢了拿回${payout.toFixed(0)}`, cls: "st-pending" }
+    : { txt: `⏳ 进行中 · 暂落后 赢了拿回${payout.toFixed(0)}`, cls: "st-pending" };
+  return { txt: `⏳ 待开赛 · 赢了拿回${payout.toFixed(0)}`, cls: "st-pending" };
+}
 // 模拟预判:每场(含不买的)都给预测Agent的预判(谁赢%+预测比分);完赛场显示预判vs实际·猜中没(黄斌2026-06-20批准:模拟比赛能力)
 function simLine(m) {
   const e = m.ensemble ? [m.ensemble.h, m.ensemble.d, m.ensemble.a]
@@ -1624,10 +1647,10 @@ document.getElementById("slip-cards").innerHTML = isEmpty
         <div class="cc-row"><span>最佳:${best ? best.pick : "—"}</span><span class="cc-val ${vcls}">价值 ${valStr}</span></div>
         <div class="cc-verdict ${vcls}">${verdict}</div></div>`;
     }).join("")
-  : D.slip.items.map(it => `<div class="cand-card">
+  : D.slip.items.map(it => { const st = betStatus(it); return `<div class="cand-card">
       <div class="cc-teams">${it.pick} <span class="tier ${({ "核心": "core", "倍数": "multi" })[it.tier] || ""}">${it.tier}</span></div>
       <div class="cc-row"><span>${it.match}</span><span class="cc-val">${it.stake}元 @${it.odds}</span></div>
-      <div class="cc-verdict vgood">价值 ${it.value} · EV ${it.ev >= 0 ? "+" : ""}${it.ev}</div></div>`).join("");
+      <div class="cc-verdict ${st.cls}">${st.txt}</div></div>`; }).join("");
 /* ---------- 剧本表:每种情况能赢多少钱(金额从下注腿+赔率现算,防数据漂移),按能赢从多到少排 ---------- */
 const legs = D.slip.items;
 const totalStake = legs.reduce((s, l) => s + l.stake, 0);
