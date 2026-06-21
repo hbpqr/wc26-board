@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 02:10",
+  "updated": "2026-06-22 03:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -859,6 +859,23 @@ window.DASH_DATA = {
     "a": 63.2
    },
    "note": "日本4:0大胜突尼斯。集成63.2%客胜方向正确(方向命中)。久保健英缺阵但小川航基等替补出色，突尼斯换帅(雷纳尔)组织混乱，日本全场压制完胜。✓日単20@1.37→27.40 ✓德日串24@1.836→44.06 | 周六批6票全结，净+26.45，池354.55。"
+  },
+  {
+   "num": "周日037",
+   "group": "H组",
+   "home": "西班牙",
+   "away": "沙特",
+   "time": "06-22 00:00",
+   "status": "finished",
+   "actual": "4:0",
+   "predManual": "3串1彩票腿·西班牙让2球净胜3+(终版slip·详见ALERTS)",
+   "predModel": "主胜88.8%",
+   "ensemble": {
+    "h": 88.8,
+    "d": 7.5,
+    "a": 3.7
+   },
+   "note": "西班牙4:0大胜沙特。亚马尔+尼科-威廉斯双翼首发兑现情报，西班牙首战0:0平佛得角后全力反弹。集成88.8%主胜方向正确(Brier ens=0.022，极优；RPS ens=0.006)。净胜4球>让球线(让2球净胜3+)，3串1西班牙腿命中，但038比利时/039乌拉圭仍待结算。Elo:西班牙+4.0→2034.9，沙特→1577.2。"
   }
  ],
  "holdings": {
@@ -1074,26 +1091,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: Belgium vs Iran team news",
      "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-iran-injury-suspension-list-predicted-xis--world-cup-2026_599612.html"
-    }
-   ]
-  },
-  {
-   "date": "06-21",
-   "match": "西班牙 vs 沙特",
-   "impact": "亚马尔改列首发",
-   "tone": "home",
-   "text": "情报更新(06-21晚间):ESPN/Sports Mole/SI.com/RotoWire等多家媒体预测阵容均将亚马尔列入首发右翼,与尼科-威廉姆斯搭档前场双翼;早前亚马尔本人'没必要'声明及主帅'45分钟方案'已被最新预测阵容覆盖;沙特无伤停。⚠️首发未经官方确认,仍有可能替补。",
-   "en": "Updated (Jun 21 late): ESPN, Sports Mole, SI.com, RotoWire all predict Yamal in Spain's starting XI alongside Nico Williams; earlier 'unnecessary' quote and '45-min blueprint' appear superseded by latest team news. Saudi Arabia no injuries. ⚠️ Not yet officially confirmed.",
-   "full": "情报演化(06-21晚):早间亚马尔本人接受采访称上首发'没必要'、仍在恢复4月22日大腿肌肉伤；主帅德拉富恩特也透露'45分钟方案'（替补出场）。但随后ESPN、Sports Mole、SI.com、RotoWire等多家权威媒体的比赛预测阵容均将亚马尔（Lamine Yamal）列为首发右翼，与尼科-威廉姆斯（Nico Williams）组成双翼首发配置。西班牙首战0-0平佛得角（双星均替补），赛后舆论和市场普遍认为本场西班牙将全力出击、亚马尔状态足以首发至少半场。Polymarket西班牙胜率88.8%（平7.5%、沙特3.7%），市场已price-in双翼首发预期。沙特方面无伤停。⚠️注：官方首发名单在开球前约45分钟公布，本情报截至23:10仍为多源预测而非官方确认，建议在00:00前关注官方名单。让球盘赔率已降至1.57（去水净胜3+约58%）。(ESPN·Sports Mole·SI.com·RotoWire 06-21晚多源)",
-   "enFull": "Intel evolution (Jun 21): Earlier in the day Yamal said starting was 'unnecessary' and De la Fuente hinted at a '45-minute blueprint' (sub appearance). However, by late evening ESPN, Sports Mole, SI.com, and RotoWire all list Yamal as the starting right winger alongside Nico Williams. Post-match sentiment after Spain's 0-0 draw vs Cape Verde (both stars came off the bench) points to Spain going full-strength in this must-improve game. Polymarket: Spain 88.8% / Draw 7.5% / Saudi 3.7% — market has priced in the double-wing start expectation. Saudi Arabia report no injuries. ⚠️ Official starting XI drops ~45 min before kick-off (≈23:15 BJT); this intel is based on multi-source predictions, not the official announcement. Handicap -2 dropped to 1.57 (implied net win 3+ ~58%). (ESPN, Sports Mole, SI.com, RotoWire — Jun 21 late)",
-   "links": [
-    {
-     "name": "Sports Mole: Spain predicted lineup vs Saudi Arabia",
-     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/will-yamal-start-how-spain-could-line-up-against-saudi-arabia_599591.html"
-    },
-    {
-     "name": "SI.com: Spain vs Saudi Arabia preview & lineups",
-     "url": "https://www.si.com/soccer/spain-vs-saudi-arabia-world-cup-preview-predictions-lineups-6-21-26"
     }
    ]
   }
