@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 13:57",
+  "updated": "2026-06-21 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1005,63 +1005,7 @@ window.DASH_DATA = {
    }
   ]
  },
- "focus": [
-  {
-   "num": "周六036",
-   "home": "突尼斯",
-   "away": "日本",
-   "time": "06-21 12:00",
-   "models": {
-    "A": [
-     13.9,
-     22.4,
-     63.7
-    ],
-    "B": [
-     14.2,
-     21.3,
-     64.5
-    ],
-    "C": [
-     13,
-     22.6,
-     64.4
-    ],
-    "D": [
-     14.4,
-     23.4,
-     62.2
-    ],
-    "ens": [
-     14,
-     22.4,
-     63.6
-    ]
-   },
-   "wdlValue": [
-    {
-     "pick": "主胜",
-     "odds": 6.36,
-     "prob": 14,
-     "value": 0.89
-    },
-    {
-     "pick": "平局",
-     "odds": 3.95,
-     "prob": 22.4,
-     "value": 0.88
-    },
-    {
-     "pick": "客胜",
-     "odds": 1.39,
-     "prob": 63.6,
-     "value": 0.88
-    }
-   ],
-   "scores": [],
-   "verdict": "⚠️久保建英膝伤确认缺阵(对荷兰那场轮椅离场),日本小降;但日本2-2平荷兰、突尼斯0分(5-1惨败换帅Renard)。日本胜仍favored,核心保留。"
-  }
- ],
+ "focus": [],
  "news": [
   {
    "date": "06-21",
@@ -1100,86 +1044,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: Spain vs Saudi Arabia team news",
      "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/team-news/spain-vs-saudi-arabia-injury-suspension-list-predicted-xis_599590.html"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "突尼斯 vs 日本",
-   "impact": "突尼斯换四后卫",
-   "tone": "away",
-   "text": "新帅雷纳尔弃用前任3-4-3换回四后卫阵型迎战日本:瓦勒里/雷基克/塔尔比/阿布迪;梅赫布里出任10号游曳;战术重组增加突尼斯协调性风险,利好日本(Sports Mole·SI.com 06-20双源)",
-   "en": "New boss Renard switches Tunisia to 4-back system vs Japan — ditching predecessor's 3-4-3. Expected backline: Valery, Rekik, Talbi, Abdi; Mejbri as No.10 free-role. Tactical overhaul adds coordination risk for Tunisia, benefiting Japan. (Sports Mole, SI.com — Jun 20)",
-   "full": "埃尔韦·雷纳尔接手突尼斯后，Sports Mole与SI.com（06-20）双源均指出他将弃用前任萨布里·拉莫什的3-4-3阵型，切换至四后卫体系出战日本：右后卫瓦勒里(Yan Valery)、中卫奥马尔·雷基克(Omar Rekik)与蒙塔萨尔·塔尔比(Montassar Talbi)、左后卫阿里·阿布迪(Ali Abdi)，斯赫里(Skhiri)与海迪拉(Rani Khedira)搭档中路，汉尼拔·梅赫布里(Hannibal Mejbri，伯恩利)出任10号自由游曳。⚠️ 临阵换帅叠加阵型重整，突尼斯协调性存在不确定性；对已形成战术惯性的日本（2-2平荷兰）来说是明显利好。竞彩日本客胜赔率1.39，主会话赛前用predict.py确认是否有价值窗口。",
-   "enFull": "Hervé Renard will overhaul Tunisia's system for the Japan clash: switching from Lamouchi's 3-4-3 to a four-at-the-back shape. Predicted backline: Yan Valery (RB), Omar Rekik & Montassar Talbi (CBs), Ali Abdi (LB); Skhiri and Khedira hold in midfield; Mejbri roams as a creative No.10. Both Sports Mole and SI.com (Jun 20) confirm this tactical reset. ⚠️ Mid-tournament coaching change + system overhaul = disjointed coordination risk for Tunisia — a clear advantage for Japan, who showed cohesion in the 2-2 draw vs Netherlands. Chinese bookmaker offers Japan (客胜) at 1.39; run predict.py before the 12:00 BJT kickoff to verify value.",
-   "links": [
-    {
-     "name": "Sports Mole: Tunisia predicted lineup vs Japan",
-     "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/predicted-lineups/new-boss-renard-to-make-changes-predicted-tunisia-lineup-vs-japan_599495.html"
-    },
-    {
-     "name": "SI.com: Tunisia vs Japan preview",
-     "url": "https://www.si.com/soccer/tunisia-vs-japan-world-cup-preview-predictions-lineups-6-20-26"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "突尼斯 vs 日本",
-   "impact": "小川接替久保首发",
-   "tone": "away",
-   "text": "日本森保一维持首战10人换唯一伤缺——久保(膝伤)由小川航基(RC朗斯)替代;日本进攻重组但主力框架不变,仍为大热门(Sports Mole·SI.com 06-20双源)",
-   "en": "Japan make one forced change vs Tunisia: Koki Ogawa (RC Lens) starts for injured Kubo (knee). Remaining 10 starters unchanged. Japan still heavy favourites with core intact. (Sports Mole, SI.com — Jun 20)",
-   "full": "日本主帅森保一（Hajime Moriyasu）计划维持对阵荷兰绝大部分阵容，Sports Mole与SI.com（06-20）双源预测：唯一强制改动是用前锋小川航基(Koki Ogawa，现效力RC朗斯)取代膝伤缺阵的久保建英，其余10人不变。综合评估：小川航基是可靠的接替人选，日本在前场仍具实力优势；Polymarket盘面日本63.2%，与主会话集成63.6%高度吻合，说明久保伤情已被市场充分定价。⚠️ 竞彩日本客胜赔率1.39 × 63.6% = value 0.88，低于价值闸1.10；但突尼斯战术重整带来不确定性，赛前6小时建议再核一次盘口。",
-   "enFull": "Japan head coach Moriyasu is expected to make exactly one change from their 2-2 draw vs Netherlands: Koki Ogawa (RC Lens) replaces the injured Takefusa Kubo (left knee). Sports Mole and SI.com (Jun 20) both confirm this is the only forced change, with all other 10 starters retained. Ogawa is a proven international striker and a competent positional replacement. Polymarket prices Japan at 63.2%, closely aligned with our ensemble (63.6%) — Kubo's injury appears fully priced in. ⚠️ Chinese bookmaker offers Japan (客胜) at 1.39, implying value = 0.88 (below the 1.10 gate); however, Tunisia's tactical uncertainty under Renard could present a mispricing — re-check odds 6h before 12:00 BJT.",
-   "links": [
-    {
-     "name": "Sports Mole: Japan predicted lineup vs Tunisia",
-     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/kubo-injury-blow-sugawara-doan-decisions-predicted-japan-lineup-vs-tunisia_599496.html"
-    },
-    {
-     "name": "SI.com: Tunisia vs Japan preview",
-     "url": "https://www.si.com/soccer/tunisia-vs-japan-world-cup-preview-predictions-lineups-6-20-26"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "突尼斯 vs 日本",
-   "impact": "久保左膝伤缺",
-   "tone": "away",
-   "text": "久保建英(Real Sociedad)左膝MRI确认伤缺对阵突尼斯；日本媒体称出战「几乎无望」；已离开训练场专注治疗(Nippon.com·Sports Mole·OneFootball 06-19/20三源)",
-   "en": "Kubo (Real Sociedad) ruled out vs Tunisia: MRI confirms left knee injury from 75' clash with Dumfries vs Netherlands. Japanese media report chances 'virtually hopeless.' Not at training ground, undergoing treatment. (Nippon.com, Sports Mole, OneFootball Jun 19-20)",
-   "full": "日本头号创造力球员久保建英（Kubo Takefusa，Real Sociedad）在对荷兰首轮第75分钟与Dumfries膝对膝碰撞后受伤离场，MRI扫描确认左膝伤势。日本媒体多家一致报道：出战对突尼斯第二场「几乎无望」；日本足协确认久保缺席第二轮、已离开训练场专注治疗，未提供时间线。Nippon.com、Sports Mole、OneFootball（06-19/20）三源独立确认。影响评估：Polymarket已将日本定价为63.2%大热门（突尼斯13.4%/平23.4%），市场定价大概率已吸收久保缺席（伤情06-18公开）。⚠️建议主会话在赛前6-12小时用predict.py核算周六036竞彩价值，若日本赔率被低估则评估是否过1.10闸。",
-   "enFull": "Japan's key creative force Takefusa Kubo (Real Sociedad) suffered a left knee injury in the 75th minute vs Netherlands — knee-to-knee collision with Denzel Dumfries — and left the stadium in a wheelchair. MRI confirmed the injury. Multiple Japanese media outlets report his chances of playing vs Tunisia are 'virtually hopeless.' Japan FA confirmed Kubo will not feature in Matchday 2; he is focusing on treatment at his accommodation with no recovery timeline given. Three independent sources: Nippon.com, Sports Mole, OneFootball (Jun 19-20). Market impact: Polymarket already prices Japan at 63.2% favourite (Tunisia 13.4%, draw 23.4%) — injury was public since Jun 18, market has very likely absorbed it. ⚠️ Recommend running predict.py for 周六036 6-12 hours before kick-off to check if Chinese bookmaker odds still represent value vs 63.2% implied.",
-   "links": [
-    {
-     "name": "Nippon.com: Kubo to miss Tunisia match",
-     "url": "https://www.nippon.com/en/news/yjj2026061900204/"
-    },
-    {
-     "name": "Sports Mole: Japan lineup vs Tunisia",
-     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/kubo-injury-blow-sugawara-doan-decisions-predicted-japan-lineup-vs-tunisia_599496.html"
-    }
-   ]
-  },
-  {
-   "date": "06-20",
-   "match": "突尼斯 vs 日本",
-   "impact": "突尼斯换帅",
-   "tone": "home",
-   "text": "突尼斯首轮1:5惨败瑞典后立即解雇主帅拉莫什，紧急引入法国名帅埃尔韦·雷纳尔（曾率沙特2022世界杯击败阿根廷），对阵日本临阵换帅阵型待定(Sports Mole·Rotowire·SI.com 06-20三源)",
-   "en": "Tunisia sacked Sabri Lamouchi immediately after their 1-5 opening loss to Sweden, replacing him with Hervé Renard (57, French), who famously led Saudi Arabia to a 2-2 shock vs Argentina at WC2022. Renard takes charge with limited preparation time vs Japan. (Sports Mole, Rotowire, SI.com — Jun 20)",
-   "full": "突尼斯在本届世界杯首轮以1:5惨败于瑞典（主帅拉莫什·萨布里1月上任、仅执教5场），震惊当局，比赛结束后立即宣布解雇。突尼斯足协旋即任命57岁法国名帅埃尔韦·雷纳尔（Hervé Renard），后者以率领非洲球队在世界舞台创造奇迹著称——2022世界杯带领沙特阿拉伯2:1击败阿根廷（梅西首秀）。雷纳尔接手突尼斯时仅剩有限备战时间，对阵日本的战术体系、首发阵容均需快速重整。Sports Mole、Rotowire、SI.com（06-20）三源独立确认换帅。⚠️ 评估：换帅通常在短期内造成阵型混乱（首发未定），但雷纳尔善于快速调动士气；市场已将日本定为大热门（Polymarket 61.8%），突尼斯换帅不确定性尚未被完全定价——赛前12小时建议再次核查竞彩赔率，关注突尼斯赔率是否因换帅消息微幅缩水。",
-   "enFull": "Tunisia immediately sacked head coach Sabri Lamouchi after their humiliating 1-5 opening loss to Sweden — Lamouchi was only appointed in January and had managed just 5 games. The Tunisian FA moved swiftly to appoint 57-year-old Frenchman Hervé Renard, who is famous for engineering World Cup shocks with African nations — most notably leading Saudi Arabia to a 2-1 upset over Lionel Messi's Argentina in 2022. Renard now takes charge with minimal preparation time ahead of the Japan clash. Three independent sources confirm: Sports Mole, Rotowire, SI.com (Jun 20). ⚠️ Assessment: mid-tournament coaching changes typically cause short-term lineup uncertainty, but Renard excels at rapid motivation. Polymarket prices Japan at 61.8% — Tunisia's coaching disruption may not be fully priced in by Chinese bookmakers. Recommend checking 周六036 odds 12h before kickoff.",
-   "links": [
-    {
-     "name": "Sports Mole: Tunisia vs Japan preview",
-     "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/preview/tunisia-vs-japan-prediction-team-news-lineups_599494.html"
-    },
-    {
-     "name": "Rotowire: Tunisia vs Japan preview",
-     "url": "https://www.rotowire.com/soccer/article/tunisia-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-118802"
     }
    ]
   }
