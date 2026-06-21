@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-21 22:10",
+  "updated": "2026-06-21 23:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1080,20 +1080,20 @@ window.DASH_DATA = {
   {
    "date": "06-21",
    "match": "西班牙 vs 沙特",
-   "impact": "亚马尔不首发",
-   "tone": "away",
-   "text": "确认:亚马尔本人称上首发'没必要'仍在恢复中;主帅德拉富恩特透露'45分钟方案'=亚马尔替补出场约半场;尼科-威廉姆斯/费兰托雷斯预计首发右/中;沙特无伤停(Emirates247·beIN Sports·everythingbarca 06-21多源)",
-   "en": "Confirmed: Yamal says starting is 'unnecessary', still recovering from hamstring (Apr 22); De la Fuente reveals a '45-minute blueprint' — Yamal to come on as sub; Nico Williams + Ferran Torres expected in starting XI; Saudi Arabia no injuries. (Emirates247, beIN Sports, everythingbarca — Jun 21)",
-   "full": "核心更新(06-21晚):亚马尔（Lamine Yamal）本人接受西班牙国家电视台采访明确表态——上首发'没必要'、'还不到时机'，仍在恢复4月22日汉斯膝伤/大腿肌肉伤；同时西班牙主帅德拉富恩特（De la Fuente）透露将为亚马尔执行'45分钟方案'，即从替补席出发、约在45-60分钟区间登场。因此首发阵容将以尼科-威廉姆斯（Nico Williams）和费兰·托雷斯（Ferran Torres）领衔前场，亚马尔下半场入替。这实际上比首轮佛得角场（亚马尔和尼科均替补晚出场）前场阵容略强但弱于双翼全首发阵容。Polymarket更新西班牙胜率88.7%（客胜3.8%，平7.4%），市场基本已price-in；沙特方面无任何伤停报告。⚠️注：西班牙让-2让球盘赔率1.61（去水后净胜3+约52%），亚马尔替补出场对进球预期有一定影响但不足以显著改变大盘结构。(Emirates247·beIN Sports·everythingbarca 06-21多源)",
-   "enFull": "Key update (Jun 21 evening): Lamine Yamal has personally stated on Spanish national TV that starting is 'unnecessary' and 'it's not the right time' as he continues his recovery from the hamstring/muscle injury suffered April 22. Spain manager De la Fuente has publicly revealed a '45-minute blueprint' — Yamal will enter as a substitute, likely around the 45-60 minute mark. The starting XI will therefore feature Nico Williams and Ferran Torres in the attack rather than the full Yamal + Nico Williams combo. This is slightly weaker than the 'both wings start from the first whistle' scenario. Polymarket updated to Spain win 88.7% (draw 7.4%, Saudi win 3.8%) — market has largely priced this in. Saudi Arabia carry no injury concerns. ⚠️ Spain's handicap -2 at odds 1.61 (net win 3+ ~52%); Yamal as sub limits early-game goal threat but Spain are still overwhelming favorites. (Emirates247, beIN Sports, everythingbarca — Jun 21)",
+   "impact": "亚马尔改列首发",
+   "tone": "home",
+   "text": "情报更新(06-21晚间):ESPN/Sports Mole/SI.com/RotoWire等多家媒体预测阵容均将亚马尔列入首发右翼,与尼科-威廉姆斯搭档前场双翼;早前亚马尔本人'没必要'声明及主帅'45分钟方案'已被最新预测阵容覆盖;沙特无伤停。⚠️首发未经官方确认,仍有可能替补。",
+   "en": "Updated (Jun 21 late): ESPN, Sports Mole, SI.com, RotoWire all predict Yamal in Spain's starting XI alongside Nico Williams; earlier 'unnecessary' quote and '45-min blueprint' appear superseded by latest team news. Saudi Arabia no injuries. ⚠️ Not yet officially confirmed.",
+   "full": "情报演化(06-21晚):早间亚马尔本人接受采访称上首发'没必要'、仍在恢复4月22日大腿肌肉伤；主帅德拉富恩特也透露'45分钟方案'（替补出场）。但随后ESPN、Sports Mole、SI.com、RotoWire等多家权威媒体的比赛预测阵容均将亚马尔（Lamine Yamal）列为首发右翼，与尼科-威廉姆斯（Nico Williams）组成双翼首发配置。西班牙首战0-0平佛得角（双星均替补），赛后舆论和市场普遍认为本场西班牙将全力出击、亚马尔状态足以首发至少半场。Polymarket西班牙胜率88.8%（平7.5%、沙特3.7%），市场已price-in双翼首发预期。沙特方面无伤停。⚠️注：官方首发名单在开球前约45分钟公布，本情报截至23:10仍为多源预测而非官方确认，建议在00:00前关注官方名单。让球盘赔率已降至1.57（去水净胜3+约58%）。(ESPN·Sports Mole·SI.com·RotoWire 06-21晚多源)",
+   "enFull": "Intel evolution (Jun 21): Earlier in the day Yamal said starting was 'unnecessary' and De la Fuente hinted at a '45-minute blueprint' (sub appearance). However, by late evening ESPN, Sports Mole, SI.com, and RotoWire all list Yamal as the starting right winger alongside Nico Williams. Post-match sentiment after Spain's 0-0 draw vs Cape Verde (both stars came off the bench) points to Spain going full-strength in this must-improve game. Polymarket: Spain 88.8% / Draw 7.5% / Saudi 3.7% — market has priced in the double-wing start expectation. Saudi Arabia report no injuries. ⚠️ Official starting XI drops ~45 min before kick-off (≈23:15 BJT); this intel is based on multi-source predictions, not the official announcement. Handicap -2 dropped to 1.57 (implied net win 3+ ~58%). (ESPN, Sports Mole, SI.com, RotoWire — Jun 21 late)",
    "links": [
     {
-     "name": "Emirates247: Yamal unlikely to start vs Saudi Arabia",
-     "url": "https://www.emirates247.com/sports/lamine-yamal-says-hes-not-fully-fit-and-is-unlikely-to-start-in-spains-second-world-cup-game/2788"
+     "name": "Sports Mole: Spain predicted lineup vs Saudi Arabia",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/will-yamal-start-how-spain-could-line-up-against-saudi-arabia_599591.html"
     },
     {
-     "name": "beIN Sports: Yamal unlikely to play full 90 min vs Saudi",
-     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/spain-s-lamine-yamal-unlikely-to-play-the-full-90-minutes-against-saudi-arabia-at-the-fifa-world-cup-2026-2026-06-19"
+     "name": "SI.com: Spain vs Saudi Arabia preview & lineups",
+     "url": "https://www.si.com/soccer/spain-vs-saudi-arabia-world-cup-preview-predictions-lineups-6-21-26"
     }
    ]
   }
