@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 06:10",
+  "updated": "2026-06-22 07:14",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -875,7 +875,24 @@ window.DASH_DATA = {
     "d": 7.5,
     "a": 3.7
    },
-   "note": "西班牙4:0大胜沙特。亚马尔+尼科-威廉斯双翼首发兑现情报，西班牙首战0:0平佛得角后全力反弹。集成88.8%主胜方向正确(Brier ens=0.022，极优；RPS ens=0.006)。净胜4球>让球线(让2球净胜3+)，3串1西班牙腿命中，但038比利时/039乌拉圭仍待结算。Elo:西班牙+4.0→2034.9，沙特→1577.2。"
+   "note": "西班牙4:0大胜沙特。亚马尔+尼科-威廉斯双翼首发兑现情报，西班牙首战0:0平佛得角后全力反弹。集成88.8%主胜方向正确(Brier ens=0.022，极优；RPS ens=0.006)。净胜4球>让球线(让2球净胜3+)，3串1西班牙腿命中，038比利时/039乌拉圭已结算见后续条目。Elo:西班牙+4.0→2034.9，沙特→1577.2。"
+  },
+  {
+   "num": "周日038",
+   "group": "G组",
+   "home": "比利时",
+   "away": "伊朗",
+   "time": "06-22 03:00",
+   "status": "finished",
+   "actual": "0:0",
+   "predManual": "串关腿(2串1+3串1)·比利时胜",
+   "predModel": "主胜70.0%",
+   "ensemble": {
+    "h": 70.0,
+    "d": 18.9,
+    "a": 11.1
+   },
+   "note": "比利时0:0伊朗。多库/德巴斯特缺阵+卢卡库替补，进攻钝化；伊朗顽强铁桶阵守住平局。集成70.0%看比利时主胜方向错，平局兑现(Brier ens=1.160，差于随机0.667)。slip中比利时胜作为串关腿：0:0平局导致2串1(比×乌)和3串1(比×乌×西让2)均死，仅乌拉圭单关039仍活。Elo:比利时-12.2→约1824，伊朗+12.2。"
   }
  ],
  "holdings": {
@@ -1111,26 +1128,6 @@ window.DASH_DATA = {
     {
      "name": "RotoWire: Uruguay vs Cape Verde preview",
      "url": "https://www.rotowire.com/soccer/article/uruguay-vs-cape-verde-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118935"
-    }
-   ]
-  },
-  {
-   "date": "06-21",
-   "match": "比利时 vs 伊朗",
-   "impact": "多库病缺阵",
-   "tone": "away",
-   "text": "多库(曼城)因病被紧急排除出战伊朗;德布劳内可出战但左翼进攻锐度受损;德巴斯特(腿伤)整届缺阵、卢卡库仍未到全场状态(ESPN·Sports Mole 06-21双源)",
-   "en": "Doku (Man City) ruled out vs Iran due to illness; De Bruyne available but left-wing thrust weakened; Debast out for group stage (leg), Lukaku unfit for 90 min. (ESPN, Sports Mole — Jun 21)",
-   "full": "比利时主帅周六（06-21）宣布，曼城边锋热雷米·多库（Jérémy Doku）因病无缘周日对伊朗之战。多库是比利时进攻中最具爆发力的快马，缺阵令左翼锐度明显下降。叠加中卫泽诺·德巴斯特（Debast）腿伤已确定缺席整个小组赛（梅克勒+恩古瓦搭档中卫），以及卢卡库未达全场出战状态，比利时进攻链承压明显。伊朗方面，队长贾汉巴赫什（Jahanbakhsh）首轮缺阵，伊朗仍以整体防守为主；中场戈多斯（Ghoddos，踝关节）处于赛前临场决定状态。G组四队均积1分，本场是关键节点。⚠️多库属临赛突发因素，赛前检查竞彩03:00 BJT赔率是否已更新。(ESPN·Sports Mole 06-21双源)",
-   "enFull": "Belgium head coach confirmed Saturday (Jun 21) that Jérémy Doku (Manchester City) is ruled out of Sunday's match vs Iran due to illness. Doku is their most dangerous wide attacker; his absence cuts left-flank dynamism sharply. Further: Zeno Debast (leg) is sidelined for the whole group stage (Mechele–Ngoy CB pair confirmed), and Romelu Lukaku is not fit enough for a full 90 minutes. For Iran, captain Jahanbakhsh was absent in Matchday 1; midfield starter Ghoddos (ankle) is a game-time call. All four Group G teams sit on one point, making this result critical. ⚠️ Doku's late illness is material new team news — verify Chinese bookmaker 03:00 BJT odds before kick-off. (ESPN, Sports Mole — Jun 21)",
-   "links": [
-    {
-     "name": "ESPN: Doku ruled out vs Iran",
-     "url": "https://www.espn.com/soccer/story/_/id/49128265/jeremy-doku-belgium-world-cup-game-iran"
-    },
-    {
-     "name": "Sports Mole: Belgium vs Iran team news",
-     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-iran-injury-suspension-list-predicted-xis--world-cup-2026_599612.html"
     }
    ]
   }
