@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 12:10",
+  "updated": "2026-06-22 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1105,6 +1105,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-22",
+   "match": "挪威 vs 塞内加尔",
+   "impact": "塞内加尔欠薪内讧",
+   "tone": "negative",
+   "text": "塞内加尔赛前爆发欠薪风波+球员体能透支·内讧干扰备战；挪威哈兰德/索尔洛斯/努萨三叉戟全员上阵；两队防守均无新增伤缺(Sports Mole·SI.com 06-22双源)",
+   "en": "Senegal hit by unpaid wages dispute and fatigue cloud ahead of Norway decider; Haaland/Sorloth/Nusa all fit; no new defensive injuries on either side (Sports Mole, SI.com — Jun 22)",
+   "full": "塞内加尔内部动荡：多名球员反映奖金和工资迟迟未发，赛前已有不满情绪蔓延；部分球员在首战(3:1负法国)后反映体能透支，赛前准备受到波及。⚠️消息仅Sports Mole报道，AFCON/FIFA层面未官方确认，不排定量影响但属负面扰动因子。挪威方面，利松(Ryerson)和沃尔夫(Wolfe)此前有小伤，已确认全面恢复训练，哈兰德(2球)+索尔洛斯+努萨预计首发。挪威首战4:1大胜伊拉克，气势上风。(Sports Mole·SI.com 06-22双源)",
+   "enFull": "Senegal are facing internal turmoil ahead of their crucial clash with Norway: players have reportedly raised concerns over unpaid wages and bonus arrears, while a number of squad members showed signs of fatigue following the 3-1 loss to France in matchday one. ⚠️ The wages report is from Sports Mole only and has not been confirmed by AFCON or FIFA — treat as a distraction factor rather than a confirmed impact. On the Norway side, Julian Ryerson and David Moller Wolfe — who picked up minor issues vs Iraq — have both fully recovered and are expected to start. Haaland scored twice in the 4-1 win over Iraq and partners Sorloth and Nusa upfront. (Sports Mole, SI.com — Jun 22)",
+   "links": [
+    {
+     "name": "Sports Mole: Senegal internal turmoil",
+     "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/news/senegal-face-norway-with-unpaid-wages-and-fatigue-at-world-cup-2026_599755.html"
+    },
+    {
+     "name": "SI.com: Norway vs Senegal preview",
+     "url": "https://www.si.com/soccer/norway-vs-senegal-world-cup-preview-predictions-lineups-6-22-26"
+    }
+   ]
+  },
+  {
+   "date": "06-22",
+   "match": "约旦 vs 阿尔及利亚",
+   "impact": "约旦Nasib伤疑",
+   "tone": "neutral",
+   "text": "约旦Nasib(中后卫)对奥地利下场时受伤·待评估、或强迫三后卫变阵；奥卢万首战破门确定首发；阿尔及利亚无新增伤缺(Sports Mole·RotoWire 06-22双源)",
+   "en": "Jordan CB Nasib uncertain (injury vs Austria); if out forces change in 3-man backline; Olwan (scored vs Austria) certain to start; Algeria no new injury concerns (Sports Mole, RotoWire — Jun 22)",
+   "full": "约旦vs阿尔及利亚赛前情况：约旦中卫阿卜杜拉·纳西布（Abdallah Nasib）在首战3:1负奥地利时因伤提前离场，目前仍待评估——若缺席，将迫使约旦调整三中卫阵型，萨伊德·鲁桑（Saed Al Rousan）或顶替进入首发中后卫位置。亮点：阿里·奥卢万（Ali Olwan）首战破门，成为约旦史上第一个世界杯进球者，确定留在首发。约旦目前1分积分落后，本场必须出线。阿尔及利亚方面：对阿根廷0:3未见新增伤情，佩特科维奇预计以战术调整为主，球员体能完好。(Sports Mole·RotoWire 06-22双源)",
+   "enFull": "Jordan vs Algeria pre-match: Jordan centre-back Abdallah Nasib went off injured during the 3-1 loss to Austria and must be assessed — his potential absence could force a change in the three-man backline, with Saed Al Rousan the likely replacement. On the bright side, Ali Olwan — who scored Jordan's historic first-ever World Cup goal against Austria — is certain to retain his place in the XI. Jordan need a result to stay in contention. For Algeria, Petkovic's side came through the 3-0 loss to Argentina without any new injury concerns; any changes are expected to be tactical. (Sports Mole, RotoWire — Jun 22)",
+   "links": [
+    {
+     "name": "Sports Mole: Jordan vs Algeria team news",
+     "url": "https://www.sportsmole.co.uk/football/jordan/world-cup-2026/team-news/jordan-vs-algeria-injury-suspension-list-predicted-xis--world-cup-2026_599711.html"
+    },
+    {
+     "name": "RotoWire: Jordan vs Algeria preview",
+     "url": "https://www.rotowire.com/soccer/article/jordan-vs-algeria-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-j-119061"
+    }
+   ]
+  },
   {
    "date": "06-22",
    "match": "法国 vs 伊拉克",
