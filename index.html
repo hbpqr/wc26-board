@@ -953,6 +953,7 @@ function matchScore(m) {
 // →荷兰5:1赢却显示"平局没中"、德荷串荷腿被当平局算死→黄斌看到"全猜错"。队名匹配后丢标记也不再误判。
 function sideIdx(pick, m) {
   pick = pick || "";
+  if (/打平|押平|平局|和局|踢平/.test(pick)) return 1;  // ★押平局优先判(防"阿根廷vs奥地利打平"被队名匹配成押阿根廷赢·2026-06-22押平局打法入场)
   if (m.home && pick.includes(m.home)) return 0;
   if (m.away && pick.includes(m.away)) return 2;
   if (/主/.test(pick)) return 0;
@@ -968,6 +969,10 @@ function legResult(lm, parlayPick, legMeta) {
     const need = `${lm.home}${lm.away}共进${legMeta.ttg}球`;
     const won = sc ? (sc[0] + sc[1] === legMeta.ttg) : null;
     return { need, won, finished: !!lm.actual, sc, favTeam: `总进${legMeta.ttg}球` };
+  }
+  if (legMeta && legMeta.draw) {  // 平局腿(押平局打法):中=该场打平
+    const won = sc ? (sc[0] === sc[1]) : null;
+    return { need: `${lm.home}对${lm.away}打平`, won, finished: !!lm.actual, sc, favTeam: "打平" };
   }
   let isAway, favTeam, margin;
   if (legMeta) {
