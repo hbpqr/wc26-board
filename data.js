@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 00:10",
+  "updated": "2026-06-23 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1185,6 +1185,37 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-23",
+   "match": "阿根廷 vs 奥地利",
+   "impact": "梅西不首发",
+   "tone": "neutral",
+   "text": "★确认首发：梅西未入选首发阵容，阿尔瓦雷斯中锋；尼科·帕斯右翼+阿尔马达左翼；奥地利卡拉贾克齐首发中锋·阿拉巴左后卫(ESPN·PrizePicks·FIFA.com 06-23三源)",
+   "en": "★CONFIRMED XI: Messi NOT in starting XI; Álvarez starts CF; Nico Paz RW + Almada LW; Austria: Kalajdzic CF, Alaba LB (ESPN, PrizePicks, FIFA.com — Jun 23)",
+   "full": "★ 周一041阿根廷vs奥地利确认首发阵容：阿根廷——门将：埃米利亚诺·马丁内斯；右后卫：莫利纳；中后卫：C.罗梅罗+L.马丁内斯；左后卫：塔利亚菲科；中场：德保罗+麦卡利斯特+恩佐·费尔南德斯；右翼：尼科·帕斯；中锋：朱利安·阿尔瓦雷斯；左翼：蒂亚戈·阿尔马达。**梅西未入首发阵容**（预计替补出场管理体能），这使阿根廷进攻威胁相对下降，平局概率较「梅西全力版」有所上升。奥地利：施拉格（GK）、阿拉巴（LB）、利恩哈特、丹索（CB）、莱默尔（RB）、赛瓦尔德、X.施拉格（CM）、萨比策（LM）、维默尔（CAM）、施密德（RM）、卡拉贾克齐（ST）。⚠️波施（颌骨骨折）确认不在奥地利首发阵容中。比赛进行中（北京01:00开球）。(ESPN·PrizePicks·FIFA.com 06-23三源)",
+   "enFull": "★ Confirmed starting XIs for Match 041 Argentina vs Austria: Argentina — GK: E. Martínez; RB: Molina; CB: C. Romero + L. Martínez; LB: Tagliafico; CM: De Paul, Mac Allister, Enzo Fernández; RW: Nico Paz; CF: Julián Álvarez; LW: Thiago Almada. Lionel Messi is NOT in the starting lineup — expected as a substitute (load management), which meaningfully reduces Argentina's attacking ceiling and nudges draw probability higher relative to a full-strength XI. Austria — Schlager; Alaba (LB), Lienhart, Danso (CB), Laimer (RB); Seiwald, X. Schlager; Sabitzer, Wimmer, Schmid; Kalajdzic (ST). ⚠️ Posch (broken jaw) confirmed absent from Austria starting XI. Match kicked off 01:00 BJ. (ESPN, PrizePicks, FIFA.com — Jun 23)",
+   "links": [
+    {
+     "name": "ESPN: Argentina vs Austria Live Score",
+     "url": "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina"
+    },
+    {
+     "name": "FIFA: Match Centre Argentina vs Austria",
+     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494"
+    }
+   ]
+  },
+  {
+   "date": "06-23",
+   "match": "约旦 vs 阿尔及利亚",
+   "impact": "纳西布确认出战",
+   "tone": "neutral",
+   "text": "约旦中卫纳西布（Nasib）确认能首发出战·之前受伤担忧解除；阿尔及利亚无伤缺全员可用；约旦奥卢万确定首发（史上首球）(Sports Mole·RotoWire 06-23双源)",
+   "en": "Jordan CB Nasib confirmed fit to start, injury concern cleared; Algeria no injury concerns, full squad available; Olwan (historic WC goal scorer) to start (Sports Mole, RotoWire — Jun 23)",
+   "full": "约旦vs阿尔及利亚（044，北京11:00）最新伤情：①约旦中后卫阿卜杜拉·纳西布（Abdallah Nasib）首战对奥地利伤退，此前被标注为「待评估」——最新确认伤势不严重，可以首发出场，三后卫阵型保持不变。②阿里·奥卢万（Ali Olwan）确认首发，他在首战进了约旦世界杯史上第一球。③约旦两场必须出线，主动进攻意图强烈，可能产生更多攻守转换+开放比赛=有利于进球/平局场景。阿尔及利亚：对阿根廷0:3后无新增伤缺，全员可用；佩特科维奇预计战术调整为主。⚠️两队均急需积分出线，这场可能比较激烈，非保守对决。(Sports Mole·RotoWire 06-23双源)",
+   "enFull": "Jordan vs Algeria (Match 044, 11:00 BJ) latest: ① Jordan CB Abdallah Nasib was substituted with an apparent injury against Austria and was listed as doubtful — latest reports confirm he is fit to start and the three-man backline remains intact. ② Ali Olwan (scorer of Jordan's historic first-ever World Cup goal) is confirmed to start. ③ Jordan must win to have any realistic hope of qualifying; their attacking intent will likely produce an open, high-tempo game — a scenario that slightly favours draw/high-scoring outcomes. Algeria: No new injuries after the 0-3 loss to Argentina; Petkovic expected to make tactical adjustments with full squad available. ⚠️ Both teams need points, meaning this will likely be a competitive clash, not a conservative game. (Sports Mole, RotoWire — Jun 23)",
+   "links": []
+  },
   {
    "date": "06-22",
    "match": "法国 vs 伊拉克",
