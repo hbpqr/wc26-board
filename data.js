@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 06:10",
+  "updated": "2026-06-23 06:50",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1187,6 +1187,22 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-23",
+   "match": "约旦 vs 阿尔及利亚",
+   "impact": "马雷兹复出首发",
+   "tone": "negative",
+   "text": "阿尔及利亚马雷兹（Mahrez）大概率复出首发·首战对阿根廷坐板凳后重新首发；穆罕默德·阿穆拉（Amoura）训练伤状态存疑；阿尔及利亚攻击线有望升级·对044平局bet构成压力(Sports Mole·ESPN 06-23双源)",
+   "en": "Algeria's Mahrez likely to return to starting XI vs Jordan after benching vs Argentina; Mohamed Amoura has a training injury doubt; Algeria's attack expected to upgrade — pressure on 044 draw bet (Sports Mole, ESPN — Jun 23)",
+   "full": "约旦vs阿尔及利亚（044，北京11:00）阵容最新：①里亚德·马雷兹（Riyad Mahrez）首战对阿根廷坐了板凳，现已向教练佩特科维奇请命首发，Sports Mole预测他将替代阿尼斯·哈吉-穆萨出任右翼首发——这是阿尔及利亚最危险的攻击选项。②穆罕默德·阿穆拉（Amoura）首战也替补，但赛前遭遇训练伤，状态存疑；能否参赛尚未确认，若缺阵阿尔及利亚左路攻势受限。③阿尔及利亚今场背水一战（对阿根廷0:3后积分垫底），若马雷兹复出则攻击力大幅提升，对手约旦同样需要积分（首战1:3负奥地利），预计开放型对局。⚠️ 马雷兹首发为Sports Mole预测（非官方宣布），阿穆拉伤情无第二官方来源·加⚠️标注。两队都急需积分，若阿尔及利亚获得强力攻击配置，本场平局概率略降。(Sports Mole·ESPN 06-23双源)",
+   "enFull": "Jordan vs Algeria (Match 044, BJ 11:00) squad update: ① Riyad Mahrez was benched for Algeria's opener against Argentina and has reportedly pushed for a starting role vs Jordan; Sports Mole predicts he replaces Anis Hadj Moussa on the right wing — Mahrez is Algeria's most dangerous attacking option. ② Mohamed Amoura was also unused vs Argentina and reportedly picked up a training injury; his availability is uncertain and if absent, Algeria's left flank threat is reduced. ③ Algeria need to bounce back from the 0-3 Messi hammering — with Mahrez fit, their attack improves significantly. Jordan also need points after losing 1-3 vs Austria, so an open, high-tempo game is expected. ⚠️ Mahrez's start is Sports Mole's prediction, not an official confirmed lineup; Amoura injury has no second source — treat with caution. Algeria's upgraded attack slightly reduces draw probability for our 044 draw leg. (Sports Mole, ESPN — Jun 23)",
+   "links": [
+    {
+     "name": "Sports Mole: Algeria predicted XI vs Jordan",
+     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/predicted-lineups/amoura-status-zidane-decision-mahrez-to-return-predicted-algeria-xi-vs-jordan_599710.html"
+    }
+   ]
+  },
   {
    "date": "06-23",
    "match": "约旦 vs 阿尔及利亚",
