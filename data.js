@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 21:10",
+  "updated": "2026-06-22 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -364,10 +364,11 @@ window.DASH_DATA = {
     "pool": 282.55,
     "pnl": -72,
     "records": [
-     "🏆 周日:西班牙4:0/比利时0:0平/乌拉圭2:2平",
+     "🏆 周日:西班牙4:0/比利时0:0平/乌拉圭2:2平/新西兰1:3埃及",
      "　✗ 乌拉圭单24@1.29 → 0",
      "　✗ 2串1比×乌32@1.63 → 0",
      "　✗ 3串1比×乌×西让2 16@2.55 → 0(西让2中但比/乌挂)",
+     "🏆 新西兰 1:3 埃及(09:00 完赛·无持仓·竞彩停售)",
      "📊 周日全挂 -72"
     ]
    }
@@ -1184,6 +1185,17 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "06-22",
+   "match": "法国 vs 伊拉克",
+   "impact": "伊拉克双伤疑",
+   "tone": "negative",
+   "text": "伊拉克贾西姆(Ali Jasim)颈伤临场待定；沙马里(Al Shammari)训练中受伤存疑；法国无伤缺(Yahoo Sports·Al Jazeera 06-22双源)",
+   "en": "Iraq's Ali Jasim is a game-time decision with a neck issue; Al Shammari picked up a training injury and is a doubt; France have no fitness concerns (Yahoo Sports, Al Jazeera — Jun 22)",
+   "full": "伊拉克赛前两名球员存疑：①阿里·贾西姆（Ali Jasim）颈部伤势仍在评估，比赛当天待定，但他并非首发考量（深度替补问题）。②穆哈纳德·沙马里（Mohanad Al Shammari）训练中受伤，状态存疑。⚠️两人均非伊拉克首发核心，对整体防守阵型影响有限，但表明伊拉克阵容厚度薄。法国方面：马洛·古斯托（Malo Gusto）脚踝问题确认为小伤，本场上阵无碍。整体法国阵容状态良好，无实质性伤缺。(Yahoo Sports·Al Jazeera 06-22双源)",
+   "enFull": "Iraq face a couple of fitness doubts ahead of their clash with France: ① Ali Jasim (neck issue) is a game-time decision but is not projected as a starter, making this more of a depth question. ② Mohanad Al Shammari sustained an injury in training and is also a doubt. ⚠️ Neither is a key first-team starter for Iraq, so the impact on their defensive shape is limited — but it underlines Iraq's thin squad depth. France: Malo Gusto's ankle issue is confirmed as very minor and he will be fit; France have no material injury concerns. (Yahoo Sports, Al Jazeera — Jun 22)",
+   "links": []
+  },
   {
    "date": "06-22",
    "match": "挪威 vs 塞内加尔",
