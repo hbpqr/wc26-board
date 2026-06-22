@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 10:10",
+  "updated": "2026-06-22 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -155,6 +155,10 @@ window.DASH_DATA = {
    },
    {
     "d": "06-21",
+    "v": 354.55
+   },
+   {
+    "d": "06-22",
     "v": 354.55
    }
   ],
@@ -354,6 +358,23 @@ window.DASH_DATA = {
      "　✓ 2串1 德国胜×日本胜 24@1.836 → 44.06(净+20.06)",
      "📊 周六批6票全结 投100 回126.45 净+26.45 | 池 328.1→354.55"
     ]
+   },
+   {
+    "d": "06-22",
+    "pool": 354.55,
+    "pnl": 0,
+    "records": [
+     "🏆 西班牙 4:0 沙特(00:00 完赛)",
+     "　3串1西班牙让2球腿命中(净胜4>让线3+) | 集成88.8%主胜方向正确(Brier≈0.022) | Elo:西班牙+4.0→2034.9，沙特→1577.2",
+     "🏆 比利时 0:0 伊朗(03:00 完赛)",
+     "　集成70.0%主胜方向错(平局) | slip比利时胜串关腿→死 | Elo:比利时-12.2→1824.1，伊朗+12.2",
+     "🏆 乌拉圭 2:2 佛得角(06:00 完赛)",
+     "　集成70.5%主胜方向错(平局爆冷) | Araujo+De Arrascaeta缺阵攻击哑火 | Elo:乌拉圭-16.9→1821.9",
+     "　⚠️039 had.single=0无法出单关+038比利时平局→串关双死，slip 3注72元全部无法出票，实际空仓",
+     "🏆 新西兰 1:3 埃及(09:00 完赛)",
+     "　集成61.2%客胜方向正确(Brier ens=0.267，优) | 70'时NZ 1:0领先·埃及末段连进3球逆转 | 无票(elig=0·竞彩停售) | Elo:埃及→1658.4，新西兰→1486.5",
+     "📊 周日整轮：slip无法出票(039 elig=0+038平局)，实际空仓，池 354.55 不变"
+    ]
    }
   ],
   "evLedger": [
@@ -393,9 +414,9 @@ window.DASH_DATA = {
     "stake": 72,
     "evPnl": -10,
     "winProb": 48,
-    "actualPnl": null,
-    "status": "待结算",
-    "note": "池354.55,72元=20.3%仓位(≤25%守则)。核心:乌拉圭74.4%/比利时70%双favorite串联;西让2作为彩票腿。全中+51.8,比乌赢+11.0,仅乌单-41,全挂-72。EV≈-10(vig导致,价值在方向准+串关凸性+参与)。"
+    "actualPnl": 0,
+    "status": "已结算",
+    "note": "池354.55，实际空仓：039 had.single=0无法出单关+038比利时平局→串关双死，slip 3注72元全部无法出票，0元下注，池不变。038平(0:0)+039平(2:2)双热门爆冷，周日整轮最终确认空仓。"
    }
   ]
  },
@@ -916,14 +937,16 @@ window.DASH_DATA = {
    "home": "新西兰",
    "away": "埃及",
    "time": "06-22 09:00",
-   "status": "pending",
+   "status": "finished",
+   "actual": "1:3",
    "ensemble": {
     "h": 15.4,
     "d": 23.4,
     "a": 61.2
    },
    "predManual": "无票(elig=0·竞彩停售)",
-   "predModel": "客胜61.2%"
+   "predModel": "客胜61.2%",
+   "note": "埃及3:1逆转新西兰(70'时NZ领先1:0·埃及末段连进3球)。集成61.2%客胜方向正确(Brier ens=0.267，优于随机0.667)。萨拉赫+马尔穆什领衔后半段爆发，G组埃及独占头名。竞彩停售无持仓，池354.55不变。Elo:新西兰-24.7→1486.5，埃及→1658.4。"
   }
  ],
  "holdings": {
@@ -1119,26 +1142,6 @@ window.DASH_DATA = {
     {
      "name": "ESPN: Argentina vs Austria predicted XIs",
      "url": "https://www.espn.com/soccer/story/_/id/49120325/fifa-world-cup-2026-argentina-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "06-21",
-   "match": "新西兰 vs 埃及",
-   "impact": "萨拉赫首发确认",
-   "tone": "away",
-   "text": "萨拉赫(穆罕默德)确认首发;新西兰贾斯特(Elijah Just)首轮双响对伊朗预计继续首发;双方均无新伤停(加贝特赛前腿筋缺席整届已知)(Sports Mole·RotoWire 06-21双源)",
-   "en": "Mohamed Salah confirmed to start; New Zealand's Elijah Just (brace vs Iran, 11 intl goals) expected in XI again; both sides fully fit, no new injuries. (Sports Mole, RotoWire — Jun 21)",
-   "full": "新西兰对阵埃及赛前双方均健康无伤：新西兰唯一已知缺阵为中场马修·加贝特（Matthew Garbett，赛前腿筋受伤缺席整届，由洛根·罗格森取代）；埃及方面萨拉赫（Mohamed Salah）确认以常规边翼方式首发，马尔穆什（Marmoush）及阿提亚（Ateya）搭档中路。新西兰最大看点为贾斯特（Elijah Just），首轮对伊朗双响、个人国际进球累计11球，预计继续首发右翼位置。背景：G组全部四队均积1分（比利时/伊朗/新西兰/埃及），本场胜者大幅占据出线主动。Polymarket客胜(埃及)60.2%。(Sports Mole·RotoWire 06-21双源)",
-   "enFull": "New Zealand vs Egypt Matchday 2 team news: New Zealand have no fresh injury concerns — their only known absentee is midfielder Matthew Garbett (hamstring, sidelined for the entire tournament; replaced by Logan Rogerson). Egypt also carry no new fitness worries; Mohamed Salah is confirmed to start in his usual wide attacking role alongside Marmoush. For New Zealand, Elijah Just is expected to retain his starting place after his brace against Iran pushed his international tally to 11 goals. Context: All four Group G teams (Belgium, Iran, New Zealand, Egypt) are level on 1 point — this is effectively a must-win for both sides. Polymarket: Egypt (away) at 60.2%. (Sports Mole, RotoWire — Jun 21)",
-   "links": [
-    {
-     "name": "Sports Mole: New Zealand vs Egypt predicted XI",
-     "url": "https://www.sportsmole.co.uk/football/new-zealand/world-cup-2026/predicted-lineups/just-decision-wood-influence-predicted-new-zealand-xi-vs-egypt_599607.html"
-    },
-    {
-     "name": "RotoWire: New Zealand vs Egypt preview",
-     "url": "https://www.rotowire.com/soccer/article/new-zealand-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-g-118938"
     }
    ]
   }
@@ -1356,26 +1359,26 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 39,
+  "sampleCount": 40,
   "threshold": 50,
-  "pct": 78,
-  "ensBrier": 0.579,
-  "ensBrierMedian": 0.374,
+  "pct": 80,
+  "ensBrier": 0.571,
+  "ensBrierMedian": 0.354,
   "marketBase": 0.5278,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": false,
-  "beatRandom": 23,
-  "dirHit": 22,
+  "beatRandom": 24,
+  "dirHit": 23,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 43,
-   "B": 15,
-   "C": 0,
-   "D": 42
+   "A": 44,
+   "B": 12,
+   "C": 1,
+   "D": 43
   },
   "dots": [
    {
@@ -1611,10 +1614,16 @@ window.DASH_DATA = {
     "m": "乌拉圭·2:2",
     "b": 1.23,
     "win": false
+   },
+   {
+    "num": "周日040",
+    "m": "新西兰·1:3",
+    "b": 0.27,
+    "win": true
    }
   ],
-  "headline": "已喂 39 场预测 · 集成 Brier 0.579 vs 市场去水 0.5278（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.579 **仍没跑赢市场去水(0.5278)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 39/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 40 场预测 · 集成 Brier 0.571 vs 市场去水 0.5278（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.571 **仍没跑赢市场去水(0.5278)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 40/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
