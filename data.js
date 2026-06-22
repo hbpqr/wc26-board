@@ -1189,26 +1189,6 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "06-23",
-   "match": "阿根廷 vs 奥地利",
-   "impact": "梅西不首发",
-   "tone": "neutral",
-   "text": "★确认首发：梅西未入选首发阵容，阿尔瓦雷斯中锋；尼科·帕斯右翼+阿尔马达左翼；奥地利卡拉贾克齐首发中锋·阿拉巴左后卫(ESPN·PrizePicks·FIFA.com 06-23三源)",
-   "en": "★CONFIRMED XI: Messi NOT in starting XI; Álvarez starts CF; Nico Paz RW + Almada LW; Austria: Kalajdzic CF, Alaba LB (ESPN, PrizePicks, FIFA.com — Jun 23)",
-   "full": "★ 周一041阿根廷vs奥地利确认首发阵容：阿根廷——门将：埃米利亚诺·马丁内斯；右后卫：莫利纳；中后卫：C.罗梅罗+L.马丁内斯；左后卫：塔利亚菲科；中场：德保罗+麦卡利斯特+恩佐·费尔南德斯；右翼：尼科·帕斯；中锋：朱利安·阿尔瓦雷斯；左翼：蒂亚戈·阿尔马达。**梅西未入首发阵容**（预计替补出场管理体能），这使阿根廷进攻威胁相对下降，平局概率较「梅西全力版」有所上升。奥地利：施拉格（GK）、阿拉巴（LB）、利恩哈特、丹索（CB）、莱默尔（RB）、赛瓦尔德、X.施拉格（CM）、萨比策（LM）、维默尔（CAM）、施密德（RM）、卡拉贾克齐（ST）。⚠️波施（颌骨骨折）确认不在奥地利首发阵容中。比赛进行中（北京01:00开球）。(ESPN·PrizePicks·FIFA.com 06-23三源)",
-   "enFull": "★ Confirmed starting XIs for Match 041 Argentina vs Austria: Argentina — GK: E. Martínez; RB: Molina; CB: C. Romero + L. Martínez; LB: Tagliafico; CM: De Paul, Mac Allister, Enzo Fernández; RW: Nico Paz; CF: Julián Álvarez; LW: Thiago Almada. Lionel Messi is NOT in the starting lineup — expected as a substitute (load management), which meaningfully reduces Argentina's attacking ceiling and nudges draw probability higher relative to a full-strength XI. Austria — Schlager; Alaba (LB), Lienhart, Danso (CB), Laimer (RB); Seiwald, X. Schlager; Sabitzer, Wimmer, Schmid; Kalajdzic (ST). ⚠️ Posch (broken jaw) confirmed absent from Austria starting XI. Match kicked off 01:00 BJ. (ESPN, PrizePicks, FIFA.com — Jun 23)",
-   "links": [
-    {
-     "name": "ESPN: Argentina vs Austria Live Score",
-     "url": "https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina"
-    },
-    {
-     "name": "FIFA: Match Centre Argentina vs Austria",
-     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494"
-    }
-   ]
-  },
-  {
-   "date": "06-23",
    "match": "约旦 vs 阿尔及利亚",
    "impact": "纳西布确认出战",
    "tone": "neutral",
@@ -1286,26 +1266,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: France vs Iraq team news",
      "url": "https://sports.yahoo.com/articles/france-xi-vs-iraq-confirmed-103715150.html"
-    }
-   ]
-  },
-  {
-   "date": "06-22",
-   "match": "阿根廷 vs 奥地利",
-   "impact": "蒙铁尔伤+波施骨折",
-   "tone": "neutral",
-   "text": "蒙铁尔确认不首发·莫利纳顶替；⚠️奥地利后卫波施（Posch）颌骨骨折，能否出战待定；塔利亚菲科已全员训练复出；阿尔瓦雷斯争夺中锋首发；阿根廷Polymarket胜率66.6%(Sports Mole·SI.com 06-22双源)",
-   "en": "Montiel out, Molina to start at RB; ⚠️ Posch (Austria CB) broken jaw — doubtful; Tagliafico back in full training; Alvarez pushing for CF start; Argentina consensus 66.6% (Sports Mole, SI.com — Jun 22)",
-   "full": "阿根廷战奥地利赛前动态：①蒙铁尔（Gonzalo Montiel）确认因腿筋伤不首发，纳乌尔·莫利纳（Nahuel Molina）顶替右后卫；②左后卫塔利亚菲科（Tagliafico）本届首战后返回全员训练，26人名单首次齐聚合练。③中锋位置上，朱利安·阿尔瓦雷斯（Julian Alvarez）积极争夺首发，与劳塔罗·马丁内斯（Lautaro Martinez）竞争。阿根廷上轮大胜阿尔及利亚3:0（梅西帽子戏法），本轮国际共识胜率66.6%。奥地利方面：⚠️后卫施特凡·波施（Stephan Posch）遭受颌骨骨折，能否出战仍存疑问——若缺席将削弱奥地利右路防线。奥地利上轮3:1逆转约旦，爆冷能力已被证明；当前赔率7.85（客胜），需警惕波施确认缺阵后影响市场重新定价。(Sports Mole·SI.com 06-22双源)",
-   "enFull": "Argentina vs Austria latest: (1) Gonzalo Montiel confirmed out with hamstring issue — Nahuel Molina to start at right-back. (2) Nicolas Tagliafico returned to full group training, meaning all 26 squad members are fit for the first time this tournament. (3) Julián Álvarez is pushing hard to displace Lautaro Martínez as the starting centre-forward. Argentina's international consensus win probability sits at 66.6%. For Austria: ⚠️ CB Stephan Posch has suffered a broken jaw and his involvement remains in serious doubt — his absence would weaken the right side of Austria's backline. Austria showed their upset potential with a 3-1 win over Jordan. Watch for market reaction if Posch is officially ruled out. (Sports Mole, SI.com — Jun 22)",
-   "links": [
-    {
-     "name": "Sports Mole: Argentina lineup dilemma",
-     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/news/argentina--scaloni-facing-lineup-dilemma-despite-world-cup-win-over-algeria_599752.html"
-    },
-    {
-     "name": "ESPN: Argentina vs Austria predicted XIs",
-     "url": "https://www.espn.com/soccer/story/_/id/49120325/fifa-world-cup-2026-argentina-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
     }
    ]
   }
