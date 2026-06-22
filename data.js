@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-22 16:10",
+  "updated": "2026-06-22 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1187,12 +1187,12 @@ window.DASH_DATA = {
   {
    "date": "06-22",
    "match": "阿根廷 vs 奥地利",
-   "impact": "蒙铁尔伤退",
+   "impact": "蒙铁尔伤+波施骨折",
    "tone": "neutral",
-   "text": "蒙铁尔(对阿尔及利亚受肌肉伤)确认不首发、阿尔瓦雷斯争夺前锋位置；阿根廷Polymarket胜率64.2%；奥地利缺萨比策尔等主力(Sports Mole·ESPN 06-22双源)",
-   "en": "Montiel (muscle vs Algeria) ruled out of starting XI; Julian Alvarez pushing to start over Lautaro; Argentina 64.2% win prob (Polymarket); Austria also missing key men (Sports Mole, ESPN — Jun 22)",
-   "full": "阿根廷战奥地利赛前动态：右后卫冈萨洛·蒙铁尔（Gonzalo Montiel）对阵阿尔及利亚时遭受肌肉问题，确认不首发（已返回集训但状态未完全恢复）。中锋位置上，朱利安·阿尔瓦雷斯（Julian Alvarez）积极争夺首发，与劳塔罗·马丁内斯（Lautaro Martinez）竞争。阿根廷上轮大胜阿尔及利亚3:0，整体表现稳健，Polymarket当前胜率64.2%（+2.0pp较开盘）。奥地利方面，ESPN预测阵容含施拉格尔（X.Schlager）、卡拉伊奇奇（Kalajdzic）等；奥地利作为传统欧洲强队本届被看低，赔率偏高，需警惕爆冷可能性。(Sports Mole·ESPN 06-22双源)",
-   "enFull": "Argentina vs Austria pre-match: Right-back Gonzalo Montiel suffered a muscular problem against Algeria and will not start against Austria, despite returning to group training. In attack, Julian Alvarez is pushing hard to start ahead of Lautaro Martinez. Argentina's Polymarket win probability sits at 64.2% (+2.0pp since open). For Austria, ESPN's predicted XI features X.Schlager, Kalajdzic, and Sabitzer — Austria are a live dark-horse candidate despite being heavy underdogs. Argentina won their opener 3-0 vs Algeria with an assured display. (Sports Mole, ESPN — Jun 22)",
+   "text": "蒙铁尔确认不首发·莫利纳顶替；⚠️奥地利后卫波施（Posch）颌骨骨折，能否出战待定；塔利亚菲科已全员训练复出；阿尔瓦雷斯争夺中锋首发；阿根廷Polymarket胜率66.6%(Sports Mole·SI.com 06-22双源)",
+   "en": "Montiel out, Molina to start at RB; ⚠️ Posch (Austria CB) broken jaw — doubtful; Tagliafico back in full training; Alvarez pushing for CF start; Argentina consensus 66.6% (Sports Mole, SI.com — Jun 22)",
+   "full": "阿根廷战奥地利赛前动态：①蒙铁尔（Gonzalo Montiel）确认因腿筋伤不首发，纳乌尔·莫利纳（Nahuel Molina）顶替右后卫；②左后卫塔利亚菲科（Tagliafico）本届首战后返回全员训练，26人名单首次齐聚合练。③中锋位置上，朱利安·阿尔瓦雷斯（Julian Alvarez）积极争夺首发，与劳塔罗·马丁内斯（Lautaro Martinez）竞争。阿根廷上轮大胜阿尔及利亚3:0（梅西帽子戏法），本轮国际共识胜率66.6%。奥地利方面：⚠️后卫施特凡·波施（Stephan Posch）遭受颌骨骨折，能否出战仍存疑问——若缺席将削弱奥地利右路防线。奥地利上轮3:1逆转约旦，爆冷能力已被证明；当前赔率7.85（客胜），需警惕波施确认缺阵后影响市场重新定价。(Sports Mole·SI.com 06-22双源)",
+   "enFull": "Argentina vs Austria latest: (1) Gonzalo Montiel confirmed out with hamstring issue — Nahuel Molina to start at right-back. (2) Nicolas Tagliafico returned to full group training, meaning all 26 squad members are fit for the first time this tournament. (3) Julián Álvarez is pushing hard to displace Lautaro Martínez as the starting centre-forward. Argentina's international consensus win probability sits at 66.6%. For Austria: ⚠️ CB Stephan Posch has suffered a broken jaw and his involvement remains in serious doubt — his absence would weaken the right side of Austria's backline. Austria showed their upset potential with a 3-1 win over Jordan. Watch for market reaction if Posch is officially ruled out. (Sports Mole, SI.com — Jun 22)",
    "links": [
     {
      "name": "Sports Mole: Argentina lineup dilemma",
