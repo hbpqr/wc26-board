@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-24 01:10",
+  "updated": "2026-06-24 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1263,6 +1263,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-24",
+   "match": "周二046 英格兰 vs 加纳",
+   "impact": "帕蒂签证复出",
+   "tone": "negative",
+   "text": "加纳核心中场托马斯·帕蒂(Thomas Partey)首战因签证问题缺阵，本场已获美国入境许可确认出战英格兰；加纳中场实力大幅提升。(来源: Al Jazeera/ESPN)",
+   "en": "Thomas Partey is cleared to play against England after missing Ghana's opening match vs Panama due to visa issues — a significant midfield upgrade for Ghana. (Al Jazeera/ESPN)",
+   "full": "加纳队长托马斯·帕蒂在首战巴拿马时因签证问题无缘出场，使加纳中场严重失衡；但美国当局已于本周确认其入境资格，帕蒂将正式出战英格兰。其回归令加纳中场控制力大增，直接威胁英格兰的防守线。此外加纳门将阿蒂-孜吉(Ati-Zigi)首战下半场受伤，能否出战为临场决定。英格兰方面萨卡/拉什福德/莱斯三将均参加周一训练，预计全员可用(消息来源: Al Jazeera/ESPN)。",
+   "enFull": "Ghana captain Thomas Partey missed the opener against Panama due to visa issues but has been cleared to enter the United States and will face England. His return dramatically strengthens Ghana's midfield — he is arguably their most important player. GK Ati-Zigi remains a doubt after coming off injured versus Panama. For England, Saka, Rashford, and Rice all trained Monday and are expected to be available. (Sources: Al Jazeera, ESPN)",
+   "links": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/49125237/england-vs-ghana-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "2026-06-23",
    "match": "周二047 巴拿马 vs 克罗地亚",
