@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-24 04:10",
+  "updated": "2026-06-24 05:11",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1265,6 +1265,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-24",
+   "match": "周二047 巴拿马 vs 克罗地亚",
+   "impact": "卡拉斯基亚复出",
+   "tone": "positive",
+   "text": "巴拿马核心中场卡拉斯基亚(Carrasquilla)腹股沟伤愈，已恢复训练并预计首发出战克罗地亚；首战缺阵疑团解除，巴拿马中场核心回归。(来源: SportsMole/Rotowire)",
+   "en": "Panama midfielder Adalberto Carrasquilla has recovered from his groin injury and is expected to start against Croatia after missing the opening match. (SportsMole/Rotowire)",
+   "full": "巴拿马「发动机」卡拉斯基亚(Adalberto Carrasquilla)在首战负加纳前因腹股沟伤势缺阵，赛前被列为疑阵。赛后更新显示他已逐步恢复训练，最新消息确认预计首发出战克罗地亚。他是巴拿马中场最重要的组织核心，其复出令球队推进与链接能力大幅提升。此前「阿维班悬」消息仍有效：另一中场阿维(Carlos Harvey)若本场领牌将触发停赛。克罗地亚全员可用无伤停，双方首战均败，均为绝境必胜局。(来源: SportsMole/Rotowire)",
+   "enFull": "Panama's engine Adalberto Carrasquilla, who missed the opening defeat to Ghana with a groin problem, has recovered and is expected to start against Croatia. His return is a major boost to Panama's midfield build-up. Note: fellow midfielder Carlos Harvey remains on a yellow card warning and risks suspension if booked. Croatia have no injury concerns — all players available. Both sides are in a must-win situation after first-round defeats, making this a high-stakes clash. (Sources: SportsMole, Rotowire)",
+   "links": [
+    {
+     "name": "SportsMole",
+     "url": "https://www.sportsmole.co.uk/football/panama/world-cup-2026/team-news/panama-vs-croatia-injury-suspension-list-predicted-xis_599789.html"
+    },
+    {
+     "name": "Rotowire",
+     "url": "https://www.rotowire.com/soccer/article/panama-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-l-119188"
+    }
+   ]
+  },
   {
    "date": "2026-06-24",
    "match": "周二046 英格兰 vs 加纳",
