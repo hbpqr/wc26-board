@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 20:35",
+  "updated": "2026-06-23 21:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1203,6 +1203,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-23",
+   "match": "周二047 巴拿马 vs 克罗地亚",
+   "impact": "阿维班悬",
+   "tone": "negative",
+   "text": "巴拿马中场卡洛斯·阿维(Carlos Harvey)累计黄牌达警戒线，若本场领牌将停赛；首战负加纳已少一分，如今首发中场再悬。(来源: SportsMole/Rotowire)",
+   "en": "Panama's Carlos Harvey is at risk of a suspension if he picks up a booking against Croatia — a significant blow to their midfield as they seek their first win. (SportsMole/Rotowire)",
+   "full": "巴拿马中场卡洛斯·阿维(Carlos Harvey)在本届赛事已积累警告，本场若再领黄牌将触发停赛，届时首战负加纳的巴拿马面临主力中场缺阵风险。主帅金特罗必须在比赛侵略性与纪律之间做选择。阿维是巴拿马中场组织核心，其缺席将严重削弱球队推进能力。此外卡拉斯基亚腹股沟伤势疑阵(未出首战)，中场轮廓不明朗。克罗地亚首战0:4崩盘，防线漏洞同样需警惕，双方均背水一战。",
+   "enFull": "Panama's key midfielder Carlos Harvey faces a yellow card suspension if booked against Croatia, adding further midfield uncertainty alongside the fitness doubt over Carrasquilla (groin). Harvey is central to Panama's build-up play and his potential absence could significantly hamper their attacking output. For Croatia, after conceding four against England, Dalic may make defensive changes. Both teams are eliminated if they lose, making this a must-win clash with high stakes.",
+   "links": [
+    {
+     "name": "SportsMole",
+     "url": "https://www.sportsmole.co.uk/football/panama/world-cup-2026/predicted-lineups/carlos-harvey-ban-predicted-panama-xi-vs-croatia_599759.html"
+    },
+    {
+     "name": "Rotowire",
+     "url": "https://www.rotowire.com/soccer/article/panama-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-l-119188"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-23",
+   "match": "周二045 葡萄牙 vs 乌兹别克",
+   "impact": "乌后卫疑阵",
+   "tone": "positive",
+   "text": "乌兹别克后卫阿舒尔马托夫(Ashurmatov)首战受伤下场，本场疑阵；葡萄牙迪亚斯复出、阵容近乎完整。(来源: ESPN/SportsMole)",
+   "en": "Uzbekistan defender Ashurmatov is a doubt after being substituted in the defeat to Colombia; Portugal are near full-strength with Ruben Dias back. (ESPN/SportsMole)",
+   "full": "乌兹别克首战1:3负哥伦比亚，后卫鲁斯塔姆·阿舒尔马托夫(Rustamjon Ashurmatov)中途下场，本场能否出场存疑，乌兹别克后防深度堪忧。葡萄牙方面，首战因轻伤缺阵的主力中卫鲁本·迪亚斯(Ruben Dias)已恢复训练，预计出战；葡方除托马斯·阿劳霍仍有轻微关注外，其余队员全员可用。葡萄牙首战1:1平刚果金(补时被Wissa绝平)，本场需大胜以保留积分优势。罗纳尔多+费尔南德斯+贝纳尔多·席尔瓦三叉戟对阵防线残缺的乌兹别克，主场优势明显。",
+   "enFull": "Uzbekistan's Rustamjon Ashurmatov is a doubt after coming off in their 3-1 defeat to Colombia, weakening their defensive options for the Portugal clash. Portugal are near full strength with Ruben Dias returning from the knock that kept him out of their opener — only Tomas Araujo has a minor concern. Portugal drew 1-1 with Congo DR after conceding a late equalizer and need a big win to reassert themselves in the group. The Ronaldo-Bruno Fernandes-Bernardo Silva attack against a weakened Uzbekistan backline makes Portugal heavy favorites.",
+   "links": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/49135037/fifa-world-cup-2026-portugal-vs-uzbekistan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+     "name": "SportsMole",
+     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup/team-news/portugal-vs-uzbekistan-injury-suspension-list-predicted-xis_599766.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-23",
    "match": "周二048 哥伦比亚 vs 刚果金",
