@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 16:10",
+  "updated": "2026-06-23 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1193,6 +1193,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-23",
+   "match": "周二048 哥伦比亚 vs 刚果金",
+   "impact": "哥不轮换",
+   "tone": "positive",
+   "text": "哥伦比亚首战3:1大胜乌兹别克后无伤停报告，阵容不变；刚果金首战1:1平葡萄牙(Wissa中框绝平)无新伤缺，Wan-Bissaka/Wissa等继续上阵。(来源: SportsMole/Rotowire)",
+   "en": "Colombia unchanged from 3-1 win over Uzbekistan with no injury concerns; Congo DR also report no fresh setbacks after 1-1 draw with Portugal — Wan-Bissaka, Wissa and Tuanzebe all expected to start. (SportsMole/Rotowire)",
+   "full": "哥伦比亚首战3:1击败乌兹别克，詹姆斯·罗德里格斯+路易斯·迪亚斯体系运转顺畅，主帅帕切科不计划轮换，预计首发维持4-2-3-1不变。胜利后若本场再胜即提前晋级16强。刚果金首战1:1平葡萄牙(上届欧洲杯亚军)，小卡诺Wissa在补时凭反击独进绝平，是刚果金历史首个世界杯积分。本场续用5-3-2防守体系，Wan-Bissaka、Tuanzebe等英超球员继续担纲。两队均无新伤停消息。哥伦比亚明显技战术优势，但刚果金低位反击能力不可小觑。",
+   "enFull": "Colombia are expected to be unchanged from their impressive 3-1 win over Uzbekistan, with James Rodriguez and Luis Diaz in fine form. A win here books their place in the round of 16. Congo DR performed admirably in a 1-1 draw with Portugal, with Yoane Wissa scoring a stoppage-time equalizer — the country's first-ever World Cup point. They will set up in a 5-3-2 defensive shape with Aaron Wan-Bissaka, Axel Tuanzebe, and Wissa all available. No fresh injury concerns for either side. Colombia are strong favorites but Congo DR's counter-attacking threat is real.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/preview/colombia-vs-congo-dr-prediction-team-news-lineups_599761.html"
+    },
+    {
+     "name": "Rotowire Preview",
+     "url": "https://www.rotowire.com/soccer/article/colombia-vs-dr-congo-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-k-119191"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-23",
+   "match": "周二047 巴拿马 vs 克罗地亚",
+   "impact": "卡拉斯基亚疑阵",
+   "tone": "negative",
+   "text": "巴拿马核心中场卡拉斯基亚腹股沟伤势疑阵(首战未出场)；克罗地亚无伤停，两队首战均败必须赢。(来源: SportsMole/Goal.com)",
+   "en": "Panama midfielder Carrasquilla is a doubt with a groin injury sustained before the Ghana loss; Croatia have no injury concerns — both sides must win after opening defeats. (SportsMole/Goal.com)",
+   "full": "巴拿马核心中场阿达尔贝托·卡拉斯基亚因腹股沟伤势缺席首战对加纳(0:1负)，本场出战仍存疑。若缺席将严重削弱巴拿马中路组织能力。另外中场卡洛斯·哈维和边翼卫布莱克曼本场须避免黄牌，否则将停赛第三轮。克罗地亚首战2:4大负英格兰，莫德里奇/科瓦契奇/格瓦迪奥尔等主力无伤停，预计阵容不变。双方首战皆负，本场小组赛生死战，败者几乎出局。克罗地亚技战术更成熟，但巴拿马主动求变。",
+   "enFull": "Panama's Adalberto Carrasquilla missed the 0-1 loss to Ghana with a groin injury and remains a doubt for this fixture — his absence significantly weakens Panama's midfield creativity. Carlos Harvey and Cesar Blackman must also avoid yellow cards or face suspension in the next round. Croatia lost 2-4 to England but report no injury setbacks; Modric, Kovacic, and Gvardiol are all expected to start. Both sides are under elimination pressure after opening defeats, making this an effectively must-win match for both.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/panama/world-cup-2026/preview/panama-vs-croatia-prediction-team-news-lineups_599736.html"
+    },
+    {
+     "name": "Goal.com Preview",
+     "url": "https://www.goal.com/en/news/panama-croatia-world-cup-preview/blt39aad5317bdcdba7"
+    }
+   ]
+  },
   {
    "date": "2026-06-23",
    "match": "周二045 葡萄牙 vs 乌兹别克",
