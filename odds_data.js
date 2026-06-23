@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-23 21:10:02",
+ "fetched_at": "2026-06-23 22:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -42,7 +42,7 @@ window.ODDS_DATA = {
    },
    "crs": {
     "1:0": "8.00",
-    "2:0": "4.90",
+    "2:0": "5.05",
     "3:0": "4.60",
     "2:1": "9.75",
     "0:0": "24.00",
@@ -55,8 +55,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -99,12 +99,12 @@ window.ODDS_DATA = {
     "verdict": "信市场让线"
    },
    "crs": {
-    "1:0": "7.00",
+    "1:0": "7.30",
     "2:0": "5.50",
     "3:0": "5.50",
     "2:1": "7.80",
     "0:0": "20.00",
-    "1:1": "13.50",
+    "1:1": "14.00",
     "2:2": "32.00",
     "0:1": "45.00",
     "0:2": "150.0",
@@ -114,7 +114,7 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -172,11 +172,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -234,11 +234,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -296,11 +296,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -358,11 +358,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -420,11 +420,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -467,8 +467,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -482,27 +482,27 @@ window.ODDS_DATA = {
    "time": "09:00",
    "status": "Selling",
    "had": {
-    "h": "4.85",
-    "d": "3.35",
-    "a": "1.60",
-    "updated": "2026-06-23 14:02:36"
+    "h": "5.05",
+    "d": "3.40",
+    "a": "1.57",
+    "updated": "2026-06-23 21:47:34"
    },
    "hhad": {
-    "h": "2.05",
+    "h": "2.10",
     "d": "3.35",
-    "a": "2.92",
+    "a": "2.82",
     "line": "+1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
     "model": [
-     0.451,
+     0.441,
      0.268,
-     0.28
+     0.291
     ],
     "mkt": [
-     0.432,
+     0.422,
      0.264,
-     0.303
+     0.314
     ],
     "val_top": 0.93,
     "edge_top": 0.019,
@@ -526,11 +526,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -588,11 +588,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -650,11 +650,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -697,8 +697,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -718,9 +718,9 @@ window.ODDS_DATA = {
     "updated": ""
    },
    "hhad": {
-    "h": "2.42",
+    "h": "2.52",
     "d": "3.90",
-    "a": "2.18",
+    "a": "2.10",
     "line": "+2",
     "tier": "deep",
     "tier_label": "深让·镜像雷区",
@@ -741,8 +741,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -800,11 +800,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -862,11 +862,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -924,11 +924,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   }
