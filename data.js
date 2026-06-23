@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 23:10",
+  "updated": "2026-06-24 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1021,6 +1021,66 @@ window.DASH_DATA = {
    },
    "actual": "1:2",
    "note": "约旦1:2阿尔及利亚,阿尔及利亚客胜(我们押的平局没出·①挂)。集成客胜方向正确。"
+  },
+  {
+   "num": "周二045",
+   "round": "周二",
+   "home": "葡萄牙",
+   "away": "乌兹别克",
+   "time": "06-24 01:00",
+   "status": "pending",
+   "predManual": "无票(hhad深让-2·镜像雷区·elig all-0)",
+   "predModel": "主胜83.1%",
+   "ensemble": {
+    "h": 83.1,
+    "d": 12.4,
+    "a": 4.5
+   }
+  },
+  {
+   "num": "周二046",
+   "round": "周二",
+   "home": "英格兰",
+   "away": "加纳",
+   "time": "06-24 04:00",
+   "status": "pending",
+   "predManual": "无票(hhad深让-2·镜像雷区·elig all-0)",
+   "predModel": "主胜80.4%",
+   "ensemble": {
+    "h": 80.4,
+    "d": 13.6,
+    "a": 6.0
+   }
+  },
+  {
+   "num": "周二047",
+   "round": "周二",
+   "home": "巴拿马",
+   "away": "克罗地亚",
+   "time": "06-24 07:00",
+   "status": "pending",
+   "predManual": "①押平@4.30·4元(§14/§16凸性) + ②2串1腿·巴拿马平×哥伦比亚平",
+   "predModel": "客胜65.2%",
+   "ensemble": {
+    "h": 12.4,
+    "d": 22.4,
+    "a": 65.2
+   }
+  },
+  {
+   "num": "周二048",
+   "round": "周二",
+   "home": "哥伦比亚",
+   "away": "刚果金",
+   "time": "06-24 10:00",
+   "status": "pending",
+   "predManual": "2串1腿·哥伦比亚平@3.90(elig only-allUp)",
+   "predModel": "主胜63.2%",
+   "ensemble": {
+    "h": 63.2,
+    "d": 23.4,
+    "a": 13.4
+   }
   }
  ],
  "holdings": {
