@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 13:10",
+  "updated": "2026-06-23 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1192,7 +1192,48 @@ window.DASH_DATA = {
   ]
  },
  "focus": [],
- "news": [],
+ "news": [
+  {
+   "date": "2026-06-23",
+   "match": "周二045 葡萄牙 vs 乌兹别克",
+   "impact": "迪亚斯复出",
+   "tone": "positive",
+   "text": "鲁本·迪亚斯首战伤缺后重返训练，预计出战乌兹别克，葡萄牙后防完整。(来源: SportsMole/Goal.com)",
+   "en": "Rúben Dias returns from injury to start vs Uzbekistan after missing the Congo draw; Portugal's defense expected to be fully fit. (SportsMole/Goal.com)",
+   "full": "葡萄牙中卫鲁本·迪亚斯因伤缺席首战刚果金(1:1平),赛后回归训练且状态良好,预计首发出战周二乌兹别克。主帅罗伯托·马丁内斯的防线已无明显伤缺顾虑,全员可战。乌兹别克首战3:1负于哥伦比亚,本场积分榜压力巨大。葡萄牙凭借迪亚斯领衔后防,防线完整度优于首战,整体战力提升明显。",
+   "enFull": "Portugal defender Rúben Dias missed the opening 1-1 draw with DR Congo through injury but has returned to training and is expected to start against Uzbekistan. Manager Roberto Martinez has a fully fit squad available for the second group-stage fixture. Uzbekistan suffered a 3-1 defeat to Colombia in their opener and must win here to stay alive in the tournament. With Dias back, Portugal's defense is at full strength — an upgrade from the game against Congo.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup/team-news/portugal-vs-uzbekistan-injury-suspension-list-predicted-xis_599766.html"
+    },
+    {
+     "name": "Goal.com Preview",
+     "url": "https://www.goal.com/en-us/news/portugal-uzbekistan-world-cup-preview/bltf65b8be15166aad7"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-23",
+   "match": "周二046 英格兰 vs 加纳",
+   "impact": "三将盼复出",
+   "tone": "positive",
+   "text": "萨卡/拉什福德/莱斯周一参加训练，有望出战加纳；加纳首发门将上场半场受伤存疑。(来源: SportsMole/ESPN)",
+   "en": "Saka, Rashford and Rice all trained Monday and are expected to be available vs Ghana; Ghana GK Ati-Zigi suffered an injury vs Panama. (SportsMole/ESPN)",
+   "full": "英格兰首战4:2大胜克罗地亚后,萨卡(阿跟腱)、拉什福德(腿筋)、莱斯(腿筋)三将伤情引发关注,但三人均于周一参加训练,预计全员可战。主帅图赫尔倾向右翼继续起用马杜埃克,萨卡可能以替补出场。加纳首场1:0击败巴拿马,托马斯·帕泰从伤病复出回归首发。加纳门将劳伦斯·阿提-兹吉在首战半场受伤提前退场,是否能出战本场存疑。英格兰若赢球将提前确定出线。",
+   "enFull": "England's Bukayo Saka (Achilles), Marcus Rashford (hamstring), and Declan Rice (hamstring) all trained on Monday and are expected to start or be available against Ghana, easing fears after their opening 4-2 win over Croatia. Thomas Tuchel is expected to again start Noni Madueke on the right ahead of Saka. Ghana bring back Thomas Partey from injury after he missed the 1-0 win over Panama, while GK Lawrence Ati-Zigi, who came off at half-time against Panama with an injury, is a potential doubt. A win puts England into the last 16 with one game to spare.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-ghana-prediction-team-news-lineups_599721.html"
+    },
+    {
+     "name": "ESPN Predicted XIs",
+     "url": "https://www.espn.com/soccer/story/_/id/49142614/england-vs-ghana-predicted-line-ups-world-cup-2026"
+    }
+   ]
+  }
+ ],
  "slip": {
   "title": "6月23日 · 周一终版 · 押平局凸性版 24元",
   "status": "**§16杠铃押被低估的平局·终版。** 核心翻到044:阿尔及利亚1.34短赔但首战0-3被梅西血洗状态崩+约旦主场=这轮最好的平局边(只能串,配大概率的阿根廷赢)。阿根廷平降为小彩票(梅西火爆·平局~25%)。挪威无§14边不押·约旦掀翻不碰。小注守地板80(池282.55)。",
