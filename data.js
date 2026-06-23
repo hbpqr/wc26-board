@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 08:30",
+  "updated": "2026-06-23 08:50",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -967,14 +967,16 @@ window.DASH_DATA = {
    "home": "法国",
    "away": "伊拉克",
    "time": "06-23 05:00",
-   "status": "upcoming",
+   "status": "finished",
    "predManual": "无票(法国深让-3·镜像雷区·hhad only)",
    "predModel": "主胜90.5%",
    "ensemble": {
     "h": 90.5,
     "d": 7.1,
     "a": 2.4
-   }
+   },
+   "actual": "3:0",
+   "note": "法国3:0伊拉克(天气延误·二半场延至07:50恢复)。姆巴佩双响(14'·54')·德姆贝莱66'。集成90.5%主胜方向正确。无票(法国hhad only·深让镜像区)。无资金影响。"
   },
   {
    "num": "周一043",
@@ -1216,17 +1218,6 @@ window.DASH_DATA = {
   },
   {
    "date": "06-22",
-   "match": "法国 vs 伊拉克",
-   "impact": "伊拉克双伤疑",
-   "tone": "negative",
-   "text": "伊拉克贾西姆(Ali Jasim)颈伤临场待定；沙马里(Al Shammari)训练中受伤存疑；法国无伤缺(Yahoo Sports·Al Jazeera 06-22双源)",
-   "en": "Iraq's Ali Jasim is a game-time decision with a neck issue; Al Shammari picked up a training injury and is a doubt; France have no fitness concerns (Yahoo Sports, Al Jazeera — Jun 22)",
-   "full": "伊拉克赛前两名球员存疑：①阿里·贾西姆（Ali Jasim）颈部伤势仍在评估，比赛当天待定，但他并非首发考量（深度替补问题）。②穆哈纳德·沙马里（Mohanad Al Shammari）训练中受伤，状态存疑。⚠️两人均非伊拉克首发核心，对整体防守阵型影响有限，但表明伊拉克阵容厚度薄。法国方面：马洛·古斯托（Malo Gusto）脚踝问题确认为小伤，本场上阵无碍。整体法国阵容状态良好，无实质性伤缺。(Yahoo Sports·Al Jazeera 06-22双源)",
-   "enFull": "Iraq face a couple of fitness doubts ahead of their clash with France: ① Ali Jasim (neck issue) is a game-time decision but is not projected as a starter, making this more of a depth question. ② Mohanad Al Shammari sustained an injury in training and is also a doubt. ⚠️ Neither is a key first-team starter for Iraq, so the impact on their defensive shape is limited — but it underlines Iraq's thin squad depth. France: Malo Gusto's ankle issue is confirmed as very minor and he will be fit; France have no material injury concerns. (Yahoo Sports, Al Jazeera — Jun 22)",
-   "links": []
-  },
-  {
-   "date": "06-22",
    "match": "挪威 vs 塞内加尔",
    "impact": "塞内加尔欠薪内讧",
    "tone": "negative",
@@ -1242,26 +1233,6 @@ window.DASH_DATA = {
     {
      "name": "SI.com: Norway vs Senegal preview",
      "url": "https://www.si.com/soccer/norway-vs-senegal-world-cup-preview-predictions-lineups-6-22-26"
-    }
-   ]
-  },
-  {
-   "date": "06-22",
-   "match": "法国 vs 伊拉克",
-   "impact": "法国换阵左路",
-   "tone": "neutral",
-   "text": "巴尔科拉替换杜埃出任左翼首发、迪涅替换特奥·埃尔南德斯出任左后卫；萨利巴(阿森纳)带痛上阵；法国胜率88.5%、Mbappé上轮双响(Sports Mole·Yahoo Sports 06-22双源)",
-   "en": "Barcola to replace Doue on left wing; Digne in for T. Hernandez at left back; Saliba playing through pain; France 88.5% win prob, Mbappe brace last game (Sports Mole, Yahoo — Jun 22)",
-   "full": "法国战伊拉克赛前换阵信号：左翼巴尔科拉（Barcola）大概率取代杜埃（Doue）首发；左后卫迪涅（Digne）取代特奥·埃尔南德斯（T.Hernandez）；科内（Kone）或与拉比奥（Rabiot）搭档中场。后卫萨利巴（William Saliba，阿森纳）赛前承认带痛上阵才能参加本届世界杯。伊拉克由格雷厄姆·阿诺德执教，凭险胜玻利维亚2:1获得附加赛门票(1986年以来首次出现WC)；以整体防守为主，进攻资源有限。法国上轮3:1胜塞内加尔，姆巴佩双响，本场Polymarket胜率89.6%，为本轮最强热门之一。(Sports Mole·Yahoo Sports 06-22双源)",
-   "enFull": "France vs Iraq pre-match: Expected lineup changes for France include Barcola replacing Doue on the left wing and Digne coming in for Theo Hernandez at left back; Manu Kone may pair with Rabiot in midfield. Arsenal CB William Saliba admitted to playing through pain to participate in this tournament. Iraq, coached by Graham Arnold, qualified via a 2-1 playoff win over Bolivia — their first World Cup appearance since 1986 — and will rely on defensive organisation. France won their opener 3-1 over Senegal with Mbappe scoring twice; Polymarket has them at 89.6% to win. (Sports Mole, Yahoo Sports — Jun 22)",
-   "links": [
-    {
-     "name": "Sports Mole: France vs Iraq preview",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-iraq-prediction-team-news-lineups_599660.html"
-    },
-    {
-     "name": "Yahoo Sports: France vs Iraq team news",
-     "url": "https://sports.yahoo.com/articles/france-xi-vs-iraq-confirmed-103715150.html"
     }
    ]
   }
@@ -1443,16 +1414,16 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 41,
+  "sampleCount": 42,
   "threshold": 50,
-  "pct": 82,
-  "ensBrier": 0.561,
-  "ensBrierMedian": 0.334,
+  "pct": 84,
+  "ensBrier": 0.548,
+  "ensBrierMedian": 0.3,
   "marketBase": 0.5452,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": false,
-  "beatRandom": 25,
-  "dirHit": 24,
+  "beatRandom": 26,
+  "dirHit": 25,
   "weightsFirst": {
    "A": 33,
    "B": 34,
@@ -1460,7 +1431,7 @@ window.DASH_DATA = {
   },
   "weightsLast": {
    "A": 61,
-   "B": 15,
+   "B": 14,
    "C": 1,
    "D": 24
   },
@@ -1710,10 +1681,16 @@ window.DASH_DATA = {
     "m": "阿根廷·2:0",
     "b": 0.15,
     "win": true
+   },
+   {
+    "num": "周一042",
+    "m": "法国·3:0",
+    "b": 0.02,
+    "win": true
    }
   ],
-  "headline": "已喂 41 场预测 · 集成 Brier 0.561 vs 市场去水 0.5452（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.561 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 41/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 42 场预测 · 集成 Brier 0.548 vs 市场去水 0.5452（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.548 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 42/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
