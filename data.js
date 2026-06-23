@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 09:50",
+  "updated": "2026-06-23 10:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -984,14 +984,16 @@ window.DASH_DATA = {
    "home": "挪威",
    "away": "塞内加尔",
    "time": "06-23 08:00",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "3:2",
    "predManual": "待定(首发未定·塞欠薪情报需确认)",
    "predModel": "主胜44.8%",
    "ensemble": {
     "h": 44.8,
     "d": 27.2,
     "a": 28
-   }
+   },
+   "note": "挪威3:2塞内加尔(主胜)。集成44.8%主胜方向正确。模型Brier=0.209为本批次最佳(市场0.436)。"
   },
   {
    "num": "周一044",
@@ -1215,26 +1217,6 @@ window.DASH_DATA = {
    "full": "约旦vs阿尔及利亚（044，北京11:00）最新伤情：①约旦中后卫阿卜杜拉·纳西布（Abdallah Nasib）首战对奥地利伤退，此前被标注为「待评估」——最新确认伤势不严重，可以首发出场，三后卫阵型保持不变。②阿里·奥卢万（Ali Olwan）确认首发，他在首战进了约旦世界杯史上第一球。③约旦两场必须出线，主动进攻意图强烈，可能产生更多攻守转换+开放比赛=有利于进球/平局场景。阿尔及利亚：对阿根廷0:3后无新增伤缺，全员可用；佩特科维奇预计战术调整为主。⚠️两队均急需积分出线，这场可能比较激烈，非保守对决。(Sports Mole·RotoWire 06-23双源)",
    "enFull": "Jordan vs Algeria (Match 044, 11:00 BJ) latest: ① Jordan CB Abdallah Nasib was substituted with an apparent injury against Austria and was listed as doubtful — latest reports confirm he is fit to start and the three-man backline remains intact. ② Ali Olwan (scorer of Jordan's historic first-ever World Cup goal) is confirmed to start. ③ Jordan must win to have any realistic hope of qualifying; their attacking intent will likely produce an open, high-tempo game — a scenario that slightly favours draw/high-scoring outcomes. Algeria: No new injuries after the 0-3 loss to Argentina; Petkovic expected to make tactical adjustments with full squad available. ⚠️ Both teams need points, meaning this will likely be a competitive clash, not a conservative game. (Sports Mole, RotoWire — Jun 23)",
    "links": []
-  },
-  {
-   "date": "06-22",
-   "match": "挪威 vs 塞内加尔",
-   "impact": "塞内加尔欠薪内讧",
-   "tone": "negative",
-   "text": "塞内加尔赛前爆发欠薪风波+球员体能透支·内讧干扰备战；挪威哈兰德/索尔洛斯/努萨三叉戟全员上阵；两队防守均无新增伤缺(Sports Mole·SI.com 06-22双源)",
-   "en": "Senegal hit by unpaid wages dispute and fatigue cloud ahead of Norway decider; Haaland/Sorloth/Nusa all fit; no new defensive injuries on either side (Sports Mole, SI.com — Jun 22)",
-   "full": "塞内加尔内部动荡：多名球员反映奖金和工资迟迟未发，赛前已有不满情绪蔓延；部分球员在首战(3:1负法国)后反映体能透支，赛前准备受到波及。⚠️消息仅Sports Mole报道，AFCON/FIFA层面未官方确认，不排定量影响但属负面扰动因子。挪威方面，利松(Ryerson)和沃尔夫(Wolfe)此前有小伤，已确认全面恢复训练，哈兰德(2球)+索尔洛斯+努萨预计首发。挪威首战4:1大胜伊拉克，气势上风。(Sports Mole·SI.com 06-22双源)",
-   "enFull": "Senegal are facing internal turmoil ahead of their crucial clash with Norway: players have reportedly raised concerns over unpaid wages and bonus arrears, while a number of squad members showed signs of fatigue following the 3-1 loss to France in matchday one. ⚠️ The wages report is from Sports Mole only and has not been confirmed by AFCON or FIFA — treat as a distraction factor rather than a confirmed impact. On the Norway side, Julian Ryerson and David Moller Wolfe — who picked up minor issues vs Iraq — have both fully recovered and are expected to start. Haaland scored twice in the 4-1 win over Iraq and partners Sorloth and Nusa upfront. (Sports Mole, SI.com — Jun 22)",
-   "links": [
-    {
-     "name": "Sports Mole: Senegal internal turmoil",
-     "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/news/senegal-face-norway-with-unpaid-wages-and-fatigue-at-world-cup-2026_599755.html"
-    },
-    {
-     "name": "SI.com: Norway vs Senegal preview",
-     "url": "https://www.si.com/soccer/norway-vs-senegal-world-cup-preview-predictions-lineups-6-22-26"
-    }
-   ]
   }
  ],
  "slip": {
@@ -1414,26 +1396,26 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 42,
+  "sampleCount": 43,
   "threshold": 50,
-  "pct": 84,
-  "ensBrier": 0.548,
-  "ensBrierMedian": 0.3,
+  "pct": 86,
+  "ensBrier": 0.545,
+  "ensBrierMedian": 0.334,
   "marketBase": 0.5452,
   "marketBaseLabel": "市场去水(子模型A)",
-  "beatsMarket": false,
-  "beatRandom": 26,
-  "dirHit": 25,
+  "beatsMarket": true,
+  "beatRandom": 27,
+  "dirHit": 26,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 61,
-   "B": 14,
+   "A": 59,
+   "B": 17,
    "C": 1,
-   "D": 24
+   "D": 22
   },
   "dots": [
    {
@@ -1687,10 +1669,16 @@ window.DASH_DATA = {
     "m": "法国·3:0",
     "b": 0.02,
     "win": true
+   },
+   {
+    "num": "周一043",
+    "m": "挪威·3:2",
+    "b": 0.41,
+    "win": true
    }
   ],
-  "headline": "已喂 42 场预测 · 集成 Brier 0.548 vs 市场去水 0.5452（仍未跑赢）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.548 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 42/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 43 场预测 · 集成 Brier 0.545 vs 市场去水 0.5452（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.545 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 43/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
