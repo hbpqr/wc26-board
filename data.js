@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-23 12:58",
+  "updated": "2026-06-23 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -959,7 +959,7 @@ window.DASH_DATA = {
     "a": 11.4
    },
    "actual": "2:0",
-   "note": "阿根廷2:0奥地利,梅西火力延续。集成主胜66.8%方向正确;我们按§14押平局=阿根廷太强没打平(②小彩票挂)。①需阿根廷胜(✓已过)+约旦阿尔及利亚打平(待13:00)。"
+   "note": "阿根廷2:0奥地利,梅西火力延续。集成主胜67.2%方向正确(Brier ens=0.192)。我们按§14押平局=阿根廷太强没打平(②小彩票8@4.30挂)。①2串1(044平×041胜)阿根廷胜腿✓·但044约旦1:2阿尔及利亚(非平)·串关腿挂=全挂。"
   },
   {
    "num": "周一042",
@@ -1001,14 +1001,16 @@ window.DASH_DATA = {
    "home": "约旦",
    "away": "阿尔及利亚",
    "time": "06-23 11:00",
-   "status": "upcoming",
+   "status": "finished",
    "predManual": "2串1彩票腿·约旦平@4.10×阿根廷平@4.30",
    "predModel": "客胜62.2%",
    "ensemble": {
     "h": 15.4,
     "d": 22.4,
     "a": 62.2
-   }
+   },
+   "actual": "1:2",
+   "note": "约旦1:2阿尔及利亚(客胜)。集成62.2%客胜方向正确(Brier ens=0.192·极优·远胜随机0.667)。马雷兹复出首发·阿尔及利亚中后段连进两球逆转。slip①2串1(044平×041胜16@5.67)腿044要求平局=挂(非平)·②041平单8@4.30已挂；本轮slip 24元全挂。无实际holdings·cashNow=282.55不变。Elo已更新(新权重A59.8%/B17.5%/C0.7%/D22.0%)。"
   }
  ],
  "holdings": {
@@ -1190,35 +1192,7 @@ window.DASH_DATA = {
   ]
  },
  "focus": [],
- "news": [
-  {
-   "date": "06-23",
-   "match": "约旦 vs 阿尔及利亚",
-   "impact": "马雷兹复出首发",
-   "tone": "negative",
-   "text": "阿尔及利亚马雷兹（Mahrez）大概率复出首发·首战对阿根廷坐板凳后重新首发；穆罕默德·阿穆拉（Amoura）训练伤状态存疑；阿尔及利亚攻击线有望升级·对044平局bet构成压力(Sports Mole·ESPN 06-23双源)",
-   "en": "Algeria's Mahrez likely to return to starting XI vs Jordan after benching vs Argentina; Mohamed Amoura has a training injury doubt; Algeria's attack expected to upgrade — pressure on 044 draw bet (Sports Mole, ESPN — Jun 23)",
-   "full": "约旦vs阿尔及利亚（044，北京11:00）阵容最新：①里亚德·马雷兹（Riyad Mahrez）首战对阿根廷坐了板凳，现已向教练佩特科维奇请命首发，Sports Mole预测他将替代阿尼斯·哈吉-穆萨出任右翼首发——这是阿尔及利亚最危险的攻击选项。②穆罕默德·阿穆拉（Amoura）首战也替补，但赛前遭遇训练伤，状态存疑；能否参赛尚未确认，若缺阵阿尔及利亚左路攻势受限。③阿尔及利亚今场背水一战（对阿根廷0:3后积分垫底），若马雷兹复出则攻击力大幅提升，对手约旦同样需要积分（首战1:3负奥地利），预计开放型对局。⚠️ 马雷兹首发为Sports Mole预测（非官方宣布），阿穆拉伤情无第二官方来源·加⚠️标注。两队都急需积分，若阿尔及利亚获得强力攻击配置，本场平局概率略降。(Sports Mole·ESPN 06-23双源)",
-   "enFull": "Jordan vs Algeria (Match 044, BJ 11:00) squad update: ① Riyad Mahrez was benched for Algeria's opener against Argentina and has reportedly pushed for a starting role vs Jordan; Sports Mole predicts he replaces Anis Hadj Moussa on the right wing — Mahrez is Algeria's most dangerous attacking option. ② Mohamed Amoura was also unused vs Argentina and reportedly picked up a training injury; his availability is uncertain and if absent, Algeria's left flank threat is reduced. ③ Algeria need to bounce back from the 0-3 Messi hammering — with Mahrez fit, their attack improves significantly. Jordan also need points after losing 1-3 vs Austria, so an open, high-tempo game is expected. ⚠️ Mahrez's start is Sports Mole's prediction, not an official confirmed lineup; Amoura injury has no second source — treat with caution. Algeria's upgraded attack slightly reduces draw probability for our 044 draw leg. (Sports Mole, ESPN — Jun 23)",
-   "links": [
-    {
-     "name": "Sports Mole: Algeria predicted XI vs Jordan",
-     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/predicted-lineups/amoura-status-zidane-decision-mahrez-to-return-predicted-algeria-xi-vs-jordan_599710.html"
-    }
-   ]
-  },
-  {
-   "date": "06-23",
-   "match": "约旦 vs 阿尔及利亚",
-   "impact": "纳西布确认出战",
-   "tone": "neutral",
-   "text": "约旦中卫纳西布（Nasib）确认能首发出战·之前受伤担忧解除；阿尔及利亚无伤缺全员可用；约旦奥卢万确定首发（史上首球）(Sports Mole·RotoWire 06-23双源)",
-   "en": "Jordan CB Nasib confirmed fit to start, injury concern cleared; Algeria no injury concerns, full squad available; Olwan (historic WC goal scorer) to start (Sports Mole, RotoWire — Jun 23)",
-   "full": "约旦vs阿尔及利亚（044，北京11:00）最新伤情：①约旦中后卫阿卜杜拉·纳西布（Abdallah Nasib）首战对奥地利伤退，此前被标注为「待评估」——最新确认伤势不严重，可以首发出场，三后卫阵型保持不变。②阿里·奥卢万（Ali Olwan）确认首发，他在首战进了约旦世界杯史上第一球。③约旦两场必须出线，主动进攻意图强烈，可能产生更多攻守转换+开放比赛=有利于进球/平局场景。阿尔及利亚：对阿根廷0:3后无新增伤缺，全员可用；佩特科维奇预计战术调整为主。⚠️两队均急需积分出线，这场可能比较激烈，非保守对决。(Sports Mole·RotoWire 06-23双源)",
-   "enFull": "Jordan vs Algeria (Match 044, 11:00 BJ) latest: ① Jordan CB Abdallah Nasib was substituted with an apparent injury against Austria and was listed as doubtful — latest reports confirm he is fit to start and the three-man backline remains intact. ② Ali Olwan (scorer of Jordan's historic first-ever World Cup goal) is confirmed to start. ③ Jordan must win to have any realistic hope of qualifying; their attacking intent will likely produce an open, high-tempo game — a scenario that slightly favours draw/high-scoring outcomes. Algeria: No new injuries after the 0-3 loss to Argentina; Petkovic expected to make tactical adjustments with full squad available. ⚠️ Both teams need points, meaning this will likely be a competitive clash, not a conservative game. (Sports Mole, RotoWire — Jun 23)",
-   "links": []
-  }
- ],
+ "news": [],
  "slip": {
   "title": "6月23日 · 周一终版 · 押平局凸性版 24元",
   "status": "**§16杠铃押被低估的平局·终版。** 核心翻到044:阿尔及利亚1.34短赔但首战0-3被梅西血洗状态崩+约旦主场=这轮最好的平局边(只能串,配大概率的阿根廷赢)。阿根廷平降为小彩票(梅西火爆·平局~25%)。挪威无§14边不押·约旦掀翻不碰。小注守地板80(池282.55)。",
@@ -1396,23 +1370,23 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 43,
+  "sampleCount": 44,
   "threshold": 50,
-  "pct": 86,
-  "ensBrier": 0.545,
-  "ensBrierMedian": 0.334,
+  "pct": 88,
+  "ensBrier": 0.537,
+  "ensBrierMedian": 0.3,
   "marketBase": 0.5452,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 27,
-  "dirHit": 26,
+  "beatRandom": 28,
+  "dirHit": 27,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 59,
+   "A": 60,
    "B": 17,
    "C": 1,
    "D": 22
@@ -1675,10 +1649,16 @@ window.DASH_DATA = {
     "m": "挪威·3:2",
     "b": 0.41,
     "win": true
+   },
+   {
+    "num": "周一044",
+    "m": "约旦·1:2",
+    "b": 0.19,
+    "win": true
    }
   ],
-  "headline": "已喂 43 场预测 · 集成 Brier 0.545 vs 市场去水 0.5452（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.545 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 43/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 44 场预测 · 集成 Brier 0.537 vs 市场去水 0.5452（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.537 **仍没跑赢市场去水(0.5452)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 44/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
