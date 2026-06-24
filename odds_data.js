@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-24 11:50:06",
+ "fetched_at": "2026-06-24 12:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -18,9 +18,9 @@ window.ODDS_DATA = {
     "updated": "2026-06-24 11:14:23"
    },
    "hhad": {
-    "h": "4.80",
+    "h": "4.70",
     "d": "4.00",
-    "a": "1.49",
+    "a": "1.50",
     "line": "-1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -30,9 +30,9 @@ window.ODDS_DATA = {
      0.607
     ],
     "mkt": [
-     0.184,
+     0.188,
      0.221,
-     0.594
+     0.59
     ],
     "val_top": 0.98,
     "edge_top": 0.024,
@@ -80,9 +80,9 @@ window.ODDS_DATA = {
     "updated": "2026-06-24 11:37:57"
    },
    "hhad": {
-    "h": "2.00",
+    "h": "1.98",
     "d": "3.60",
-    "a": "2.85",
+    "a": "2.89",
     "line": "-1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -92,14 +92,14 @@ window.ODDS_DATA = {
      0.316
     ],
     "mkt": [
-     0.443,
+     0.447,
      0.246,
-     0.311
+     0.307
     ],
     "val_top": 0.91,
-    "edge_top": 0.01,
+    "edge_top": 0.009,
     "mirage": false,
-    "top_label": "让胜",
+    "top_label": "让负",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
@@ -242,30 +242,30 @@ window.ODDS_DATA = {
    "time": "09:00",
    "status": "Selling",
    "had": {
-    "h": "5.40",
-    "d": "3.60",
-    "a": "1.50",
-    "updated": "2026-06-24 11:27:11"
+    "h": "5.45",
+    "d": "3.70",
+    "a": "1.48",
+    "updated": "2026-06-24 12:07:18"
    },
    "hhad": {
-    "h": "2.22",
-    "d": "3.24",
-    "a": "2.70",
+    "h": "2.28",
+    "d": "3.20",
+    "a": "2.64",
     "line": "+1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
     "model": [
-     0.41,
-     0.267,
-     0.323
+     0.402,
+     0.262,
+     0.337
     ],
     "mkt": [
-     0.399,
-     0.273,
-     0.328
+     0.388,
+     0.277,
+     0.335
     ],
-    "val_top": 0.91,
-    "edge_top": 0.011,
+    "val_top": 0.92,
+    "edge_top": 0.013,
     "mirage": false,
     "top_label": "让胜",
     "verdict": "市场≈模型·无边"
