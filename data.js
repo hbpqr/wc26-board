@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-24 22:10",
+  "updated": "2026-06-24 23:16",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1119,6 +1119,96 @@ window.DASH_DATA = {
     "h": 63.2,
     "d": 23.4,
     "a": 13.4
+   }
+  },
+  {
+   "num": "周三049",
+   "round": "周三",
+   "home": "瑞士",
+   "away": "加拿大",
+   "time": "06-25 03:00",
+   "status": "upcoming",
+   "predManual": "2串1腿·加拿大客胜@3.40(had.allUp)",
+   "predModel": "客胜28.8%",
+   "ensemble": {
+    "h": 39.9,
+    "d": 31.3,
+    "a": 28.8
+   }
+  },
+  {
+   "num": "周三050",
+   "round": "周三",
+   "home": "波黑",
+   "away": "卡塔尔",
+   "time": "06-25 03:00",
+   "status": "upcoming",
+   "predManual": "—",
+   "predModel": "主胜71.3%",
+   "ensemble": {
+    "h": 71.3,
+    "d": 17.6,
+    "a": 11.1
+   }
+  },
+  {
+   "num": "周三051",
+   "round": "周三",
+   "home": "苏格兰",
+   "away": "巴西",
+   "time": "06-25 06:00",
+   "status": "upcoming",
+   "predManual": "—",
+   "predModel": "客胜74.5%",
+   "ensemble": {
+    "h": 9.1,
+    "d": 16.4,
+    "a": 74.5
+   }
+  },
+  {
+   "num": "周三052",
+   "round": "周三",
+   "home": "摩洛哥",
+   "away": "海地",
+   "time": "06-25 06:00",
+   "status": "upcoming",
+   "predManual": "—",
+   "predModel": "主胜83.1%",
+   "ensemble": {
+    "h": 83.1,
+    "d": 12.3,
+    "a": 4.6
+   }
+  },
+  {
+   "num": "周三053",
+   "round": "周三",
+   "home": "南非",
+   "away": "韩国",
+   "time": "06-25 09:00",
+   "status": "upcoming",
+   "predManual": "—",
+   "predModel": "客胜60.1%",
+   "ensemble": {
+    "h": 15.9,
+    "d": 23.9,
+    "a": 60.1
+   }
+  },
+  {
+   "num": "周三054",
+   "round": "周三",
+   "home": "捷克",
+   "away": "墨西哥",
+   "time": "06-25 09:00",
+   "status": "upcoming",
+   "predManual": "核心单20@3.55(捷克主胜·墨西哥轮换硬信息)",
+   "predModel": "主胜25.3%·调整≈35%",
+   "ensemble": {
+    "h": 25.3,
+    "d": 24.6,
+    "a": 50.1
    }
   }
  ],
