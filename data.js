@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-25 00:10",
+  "updated": "2026-06-25 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1471,7 +1471,7 @@ window.DASH_DATA = {
   {
    "date": "2026-06-24",
    "match": "周三054 捷克 vs 墨西哥",
-   "impact": "high",
+   "impact": "墨西哥大轮换",
    "tone": "positive_czech",
    "text": "墨西哥6分锁定第一名，主帅Aguirre确认轮换：哈伦·希门尼斯休息，青少年球员Mora首发；捷克满员出击（Schick/Souček/Coufal/Kovář）以必须赢才能出线的心态全力冲击。",
    "en": "Mexico (6pts, group winner) confirmed heavy rotation by Aguirre. Jimenez rested, teenage Mora starts. Czech full strength (Schick/Soucek) must win to qualify.",
