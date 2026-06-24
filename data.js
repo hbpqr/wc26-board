@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-24 23:16",
+  "updated": "2026-06-25 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1408,6 +1408,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-25",
+   "match": "周三049 瑞士 vs 加拿大",
+   "impact": "科内报销缺阵",
+   "tone": "negative_canada",
+   "text": "加拿大中场科内(Koné)腿部双骨折(胫骨+腓骨)已确认出局本届剩余赛事；戴维斯(Davies)尚未完全恢复，预计替补登场。瑞士全员可战，阵容完整争B组第一。(来源: SportsMole/ESPN)",
+   "en": "Canada's Ismael Koné ruled out for the tournament with broken tibia and fibula; Alphonso Davies not fully fit, expected on bench. Switzerland have no fresh injuries — full strength for Group B top-spot fight. (SportsMole/ESPN)",
+   "full": "加拿大中场伊斯梅尔·科内(Ismael Koné)首战被担架抬离，确认腿部骨折(胫骨+腓骨)，已无缘本届剩余赛事。其缺席使加拿大中场枢纽空洞，纳坦·萨利巴或阿里·艾哈迈德将搭档尤斯塔基奥(Eustáquio)顶位。拜仁慕尼黑球星阿方索·戴维斯仍处于长期伤停后恢复阶段，本场预计替补出场而非首发。瑞士方面，夏卡/恩博洛/奥卡福/阿卡尼全员可用，阵容近乎完整。双方均积4分、净胜球相当，胜者直接锁定B组第一；若平局两队均需靠第三轮争晋级。科内缺阵对我们slip中[加拿大客胜]腿有利空影响。",
+   "enFull": "Canada's Ismael Koné was stretchered off in their opener and is officially ruled out for the rest of the tournament with a broken tibia and fibula. His absence creates a significant midfield void — Nathan Saliba or Ali Ahmed will partner Eustáquio in his place. Bayern Munich star Alphonso Davies is still recovering from a long layoff and is expected to come off the bench rather than start. Switzerland have no injury or suspension concerns — Granit Xhaka, Embolo and the full squad are available. Both teams are level on 4 points; the winner claims Group B top spot. Koné's absence is a negative signal for Canada's chances against a full-strength Switzerland.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-canada-prediction-team-news-lineups_599751.html"
+    },
+    {
+     "name": "SportsMole Team News",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-canada-injury-suspension-list-predicted-xis_599748.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周三051 苏格兰 vs 巴西",
+   "impact": "拉斐尼缺阵",
+   "tone": "mixed_brazil",
+   "text": "巴西主力右翼拉斐尼(Raphinha)腿筋伤情缺席，19岁拉扬(Rayan·伯恩茅斯)预计首发补位；内马尔已伤愈但预计不首发。苏格兰麦肯纳/希基/弗格森三将训练缺席，存疑但望复出。(来源: SportsMole/Al Jazeera)",
+   "en": "Brazil's Raphinha ruled out with hamstring injury; 19-year-old Rayan (Bournemouth) expected to start right wing. Neymar available but not starting. Scotland's McKenna/Hickey/Ferguson doubts after missing training. (SportsMole/Al Jazeera)",
+   "full": "巴西主力右翼拉斐尼(Raphinha)首战上半场腿筋伤情发作退场，已确认出局本场对苏格兰。替位由19岁伯恩茅斯球星拉扬(Rayan)接任，预计首发右翼。内马尔(历史最佳射手)已从伤病恢复，主帅安切洛蒂确认其可用，但卢卡斯·帕克塔继续担任10号首发，内马尔替补待命。苏格兰方面，麦肯纳(小腿)、希基(未知)、弗格森(疲劳)均未参加周末训练，存在疑阵；但主帅克拉克表示有望在某种程度上复出。麦吉恩/麦克托米奈预计继续中场首发，切·亚当斯担任中锋。巴西整体阵容仍强，拉斐尼缺阵在右翼略有削弱但不影响热门地位。",
+   "enFull": "Brazil's key right winger Raphinha has been ruled out for the Scotland match after suffering a hamstring injury in the first half of the 3-0 win over Haiti. Nineteen-year-old Rayan from Bournemouth is expected to start on the right flank — his first World Cup start. Neymar is confirmed available after returning from injury but Carlo Ancelotti has indicated Lucas Paqueta will continue at no.10 with Neymar on the bench. For Scotland, Scott McKenna (calf), Aaron Hickey and Lewis Ferguson were all absent from training over the weekend; head coach Steve Clarke says all could be available in some capacity. McGinn and McTominay are set to start in advanced midfield with Che Adams up front.",
+   "links": [
+    {
+     "name": "SportsMole Preview",
+     "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html"
+    },
+    {
+     "name": "Al Jazeera Preview",
+     "url": "https://www.aljazeera.com/sports/2026/6/24/brazil-vs-scotland-world-cup-2026-preview-prediction-team-news-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周三050 波黑 vs 卡塔尔",
+   "impact": "双队停赛减员",
+   "tone": "neutral",
+   "text": "波黑中卫穆哈雷莫维奇(Muharemovic)红牌停赛缺阵；卡塔尔霍马姆·阿哈迈德+马迪博双双停赛(首战领红)，双方均需大幅调阵，本场实为生死战(平局双双出局)。(来源: ESPN/Goal.com)",
+   "en": "Bosnia miss Muharemovic (red card suspension) in defence; Qatar lose both Homam Ahmed and Madibo to suspension after red cards vs Canada — a must-win match for both; a draw eliminates both. (ESPN/Goal.com)",
+   "full": "波黑首战4:1大负瑞士，中后卫塔里克·穆哈雷莫维奇(Muharemovic)领红停赛，哈季卡杜尼奇与卡蒂奇将重组中卫搭档。热英·哲科(Edin Dzeko)领衔进攻，阵容4-4-2。卡塔尔首战0:6惨负加拿大，霍马姆·阿哈迈德(Homam Ahmed，后卫)与阿西姆·马迪博(Assim Madibo，中场)均在首战领红停赛，双线大幅调阵。双方各积1分垫底B组，平局即双双淘汰，本场为真正的生死战。波黑主场开球理论占优，但卡塔尔无任何优势。⚠️ 竞彩本场 had.single 状态需验证，建议主会话在出票前再确认elig字段。",
+   "enFull": "Bosnia and Herzegovina will miss suspended defender Tarik Muharemovic (red card vs Switzerland), with Hadzikadunic expected to partner Katic at centre-back. Edin Dzeko leads a 4-4-2 attack. Qatar suffered their own double red card problem against Canada — Homam Ahmed (defence) and Assim Madibo (midfield) are both suspended, forcing significant reshuffling. Both teams sit on one point at the bottom of Group B; a draw eliminates both, making this an effective knockout match. Bosnia are slight favorites on home advantage but Qatar have nothing to lose.",
+   "links": [
+    {
+     "name": "ESPN Preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49138188/bosnia-herzegovina-qatar-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+     "name": "Goal.com Preview",
+     "url": "https://www.goal.com/en/news/bosnia-herzegovina-qatar-world-cup-preview/blt5e8717e6a4265b16"
+    }
+   ]
+  },
   {
    "date": "2026-06-24",
    "match": "周三054 捷克 vs 墨西哥",
