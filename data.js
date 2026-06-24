@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 2 轮",
-  "updated": "2026-06-24 12:10",
+  "updated": "2026-06-24 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1299,6 +1299,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-24",
+   "match": "周三051 苏格兰 vs 巴西",
+   "impact": "内马尔复出",
+   "tone": "positive",
+   "text": "巴西内马尔(Neymar)小腿伤愈确认可出战苏格兰，前两场均缺席，预计以替补身份入阵；Raphinha确认缺席，19岁新星Rayan候选顶替右路。(来源: SportsMole/Yahoo Sports)",
+   "en": "Neymar is available for Brazil against Scotland after recovering from a calf injury that kept him out of the first two games — expected as a bench option. Raphinha out, teenage winger Rayan likely to start on the right. (SportsMole/Yahoo Sports)",
+   "full": "巴西前场近况获双向更新：积极面——内马尔(Neymar)在前两场缺阵后宣布已从小腿伤势中恢复，可参加苏格兰一战；他不太可能首发，卢卡斯·帕奎塔(Lucas Paqueta)将继续担任10号，支援维尼修斯和马修斯·库尼亚(Cunha)。消极面——拉菲尼亚(Raphinha)在赢球海地时受大腿肌肉损伤，已被确认出局⚠️；主教练安切洛蒂将以19岁新星雷扬(Rayan)候选顶替右路。巴西仍凭整体实力维持大热门地位，但右路进攻深度较有所削减。(来源: SportsMole/Yahoo Sports)",
+   "enFull": "Brazil receive mixed injury news ahead of the Scotland clash. On the positive side, Neymar has recovered from the calf problem that ruled him out of both previous games and is available — though he is expected to come off the bench, with Lucas Paqueta continuing in the No.10 role. On the negative side, Raphinha has been officially ruled out with a right thigh muscle injury sustained in the Haiti win ⚠️; 19-year-old Rayan is the leading candidate to replace him on the right flank. Despite the absences, Brazil remain heavy favourites given their overall quality. (Sources: SportsMole, Yahoo Sports)",
+   "links": [
+    {
+     "name": "SportsMole",
+     "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html"
+    },
+    {
+     "name": "Bolavip",
+     "url": "https://bolavip.com/en/world-cup/brazil-provide-injury-update-on-raphinha-will-miss-game-vs-scotland-at-2026-world-cup"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-24",
+   "match": "周三049 瑞士 vs 加拿大",
+   "impact": "利空加拿大",
+   "tone": "negative",
+   "text": "加拿大中场科内(Ismaël Koné)确认伤缺；核心球星戴维斯(Alphonso Davies)腹股沟/腘绳肌仍为疑阵，首战伤愈上场但状态受影响；此役决定B组首位。(来源: SportsMole/ESPN)",
+   "en": "Canada midfielder Ismaël Koné is injured and out; star captain Alphonso Davies is doubtful with a hamstring issue. This is a must-win group decider versus Switzerland. (SportsMole/ESPN)",
+   "full": "加拿大在关键的B组积分首位之争(加拿大vs瑞士各积4分)前遭遇伤情打击。中场科内(Ismaël Koné)因伤确认无缘本场⚠️，纳桑·萨利巴(Nathan Saliba)将接档；另一核心全能球员戴维斯(Alphonso Davies)虽首战出场，但此前有腘绳肌伤势纪录，训练状态仍存隐忧。⚠️若戴维斯不在最佳状态或缺阵，加拿大左路进攻与防守衔接均会大幅降级。瑞士方面阵容整齐，夏奇里(Xherdan Shaqiri)替补待命，格拉尼特·扎卡(Granit Xhaka)首发中场。国际市场当前看法：主瑞士40.8%/平31.0%/客加拿大28.2%(Smarkets+Polymarket加权)。(来源: SportsMole/ESPN)",
+   "enFull": "Canada face a significant injury concern ahead of their Group B top-of-the-table clash with Switzerland (both on 4 points). Ismaël Koné is confirmed injured and unavailable ⚠️, with Nathan Saliba set to fill in. Captain Alphonso Davies — already nursing a hamstring issue — remains a doubt; his condition will be a key game-time decision. If Davies is absent or limited, Canada's left-flank creativity and defensive cover are materially weakened. Switzerland are fully fit with Xhaka anchoring midfield and Shaqiri available from the bench. International market consensus: Switzerland 40.8% / Draw 31.0% / Canada 28.2% (Smarkets + Polymarket weighted). (Sources: SportsMole, ESPN)",
+   "links": [
+    {
+     "name": "SportsMole",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-canada-injury-suspension-list-predicted-xis_599748.html"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/49141389/fifa-world-cup-2026-switzerland-vs-canada-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "2026-06-24",
    "match": "周二047 巴拿马 vs 克罗地亚",
