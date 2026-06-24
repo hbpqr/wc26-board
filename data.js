@@ -1,14 +1,14 @@
 window.DASH_DATA = {
  "meta": {
-  "round": "小组赛第 2 轮",
-  "updated": "2026-06-24 13:10",
+  "round": "小组赛第 3 轮",
+  "updated": "2026-06-24 20:45",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 258.55,
-  "pending": 0,
+  "cashNow": 282.55,
+  "pending": 24,
   "goal": 20000,
   "floor": 80,
   "milestones": [
@@ -163,6 +163,10 @@ window.DASH_DATA = {
    },
    {
     "d": "06-23",
+    "v": 282.55
+   },
+   {
+    "d": "06-24",
     "v": 282.55
    }
   ],
@@ -1316,83 +1320,14 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "2026-06-24",
-   "match": "周三051 苏格兰 vs 巴西",
-   "impact": "内马尔复出",
-   "tone": "positive",
-   "text": "巴西内马尔(Neymar)小腿伤愈确认可出战苏格兰，前两场均缺席，预计以替补身份入阵；Raphinha确认缺席，19岁新星Rayan候选顶替右路。(来源: SportsMole/Yahoo Sports)",
-   "en": "Neymar is available for Brazil against Scotland after recovering from a calf injury that kept him out of the first two games — expected as a bench option. Raphinha out, teenage winger Rayan likely to start on the right. (SportsMole/Yahoo Sports)",
-   "full": "巴西前场近况获双向更新：积极面——内马尔(Neymar)在前两场缺阵后宣布已从小腿伤势中恢复，可参加苏格兰一战；他不太可能首发，卢卡斯·帕奎塔(Lucas Paqueta)将继续担任10号，支援维尼修斯和马修斯·库尼亚(Cunha)。消极面——拉菲尼亚(Raphinha)在赢球海地时受大腿肌肉损伤，已被确认出局⚠️；主教练安切洛蒂将以19岁新星雷扬(Rayan)候选顶替右路。巴西仍凭整体实力维持大热门地位，但右路进攻深度较有所削减。(来源: SportsMole/Yahoo Sports)",
-   "enFull": "Brazil receive mixed injury news ahead of the Scotland clash. On the positive side, Neymar has recovered from the calf problem that ruled him out of both previous games and is available — though he is expected to come off the bench, with Lucas Paqueta continuing in the No.10 role. On the negative side, Raphinha has been officially ruled out with a right thigh muscle injury sustained in the Haiti win ⚠️; 19-year-old Rayan is the leading candidate to replace him on the right flank. Despite the absences, Brazil remain heavy favourites given their overall quality. (Sources: SportsMole, Yahoo Sports)",
-   "links": [
-    {
-     "name": "SportsMole",
-     "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html"
-    },
-    {
-     "name": "Bolavip",
-     "url": "https://bolavip.com/en/world-cup/brazil-provide-injury-update-on-raphinha-will-miss-game-vs-scotland-at-2026-world-cup"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-24",
-   "match": "周三049 瑞士 vs 加拿大",
-   "impact": "利空加拿大",
-   "tone": "negative",
-   "text": "加拿大中场科内(Ismaël Koné)确认伤缺；核心球星戴维斯(Alphonso Davies)腹股沟/腘绳肌仍为疑阵，首战伤愈上场但状态受影响；此役决定B组首位。(来源: SportsMole/ESPN)",
-   "en": "Canada midfielder Ismaël Koné is injured and out; star captain Alphonso Davies is doubtful with a hamstring issue. This is a must-win group decider versus Switzerland. (SportsMole/ESPN)",
-   "full": "加拿大在关键的B组积分首位之争(加拿大vs瑞士各积4分)前遭遇伤情打击。中场科内(Ismaël Koné)因伤确认无缘本场⚠️，纳桑·萨利巴(Nathan Saliba)将接档；另一核心全能球员戴维斯(Alphonso Davies)虽首战出场，但此前有腘绳肌伤势纪录，训练状态仍存隐忧。⚠️若戴维斯不在最佳状态或缺阵，加拿大左路进攻与防守衔接均会大幅降级。瑞士方面阵容整齐，夏奇里(Xherdan Shaqiri)替补待命，格拉尼特·扎卡(Granit Xhaka)首发中场。国际市场当前看法：主瑞士40.8%/平31.0%/客加拿大28.2%(Smarkets+Polymarket加权)。(来源: SportsMole/ESPN)",
-   "enFull": "Canada face a significant injury concern ahead of their Group B top-of-the-table clash with Switzerland (both on 4 points). Ismaël Koné is confirmed injured and unavailable ⚠️, with Nathan Saliba set to fill in. Captain Alphonso Davies — already nursing a hamstring issue — remains a doubt; his condition will be a key game-time decision. If Davies is absent or limited, Canada's left-flank creativity and defensive cover are materially weakened. Switzerland are fully fit with Xhaka anchoring midfield and Shaqiri available from the bench. International market consensus: Switzerland 40.8% / Draw 31.0% / Canada 28.2% (Smarkets + Polymarket weighted). (Sources: SportsMole, ESPN)",
-   "links": [
-    {
-     "name": "SportsMole",
-     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-canada-injury-suspension-list-predicted-xis_599748.html"
-    },
-    {
-     "name": "ESPN",
-     "url": "https://www.espn.com/soccer/story/_/id/49141389/fifa-world-cup-2026-switzerland-vs-canada-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-24",
-   "match": "周二047 巴拿马 vs 克罗地亚",
-   "impact": "卡拉斯基亚复出",
-   "tone": "positive",
-   "text": "巴拿马核心中场卡拉斯基亚(Carrasquilla)腹股沟伤愈，已恢复训练并预计首发出战克罗地亚；首战缺阵疑团解除，巴拿马中场核心回归。(来源: SportsMole/Rotowire)",
-   "en": "Panama midfielder Adalberto Carrasquilla has recovered from his groin injury and is expected to start against Croatia after missing the opening match. (SportsMole/Rotowire)",
-   "full": "巴拿马「发动机」卡拉斯基亚(Adalberto Carrasquilla)在首战负加纳前因腹股沟伤势缺阵，赛前被列为疑阵。赛后更新显示他已逐步恢复训练，最新消息确认预计首发出战克罗地亚。他是巴拿马中场最重要的组织核心，其复出令球队推进与链接能力大幅提升。此前「阿维班悬」消息仍有效：另一中场阿维(Carlos Harvey)若本场领牌将触发停赛。克罗地亚全员可用无伤停，双方首战均败，均为绝境必胜局。(来源: SportsMole/Rotowire)",
-   "enFull": "Panama's engine Adalberto Carrasquilla, who missed the opening defeat to Ghana with a groin problem, has recovered and is expected to start against Croatia. His return is a major boost to Panama's midfield build-up. Note: fellow midfielder Carlos Harvey remains on a yellow card warning and risks suspension if booked. Croatia have no injury concerns — all players available. Both sides are in a must-win situation after first-round defeats, making this a high-stakes clash. (Sources: SportsMole, Rotowire)",
-   "links": [
-    {
-     "name": "SportsMole",
-     "url": "https://www.sportsmole.co.uk/football/panama/world-cup-2026/team-news/panama-vs-croatia-injury-suspension-list-predicted-xis_599789.html"
-    },
-    {
-     "name": "Rotowire",
-     "url": "https://www.rotowire.com/soccer/article/panama-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-l-119188"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-24",
-   "match": "周二046 英格兰 vs 加纳",
-   "impact": "帕蒂签证复出",
-   "tone": "negative",
-   "text": "加纳核心中场托马斯·帕蒂(Thomas Partey)首战因签证问题缺阵，本场已获美国入境许可确认出战英格兰；加纳中场实力大幅提升。(来源: Al Jazeera/ESPN)",
-   "en": "Thomas Partey is cleared to play against England after missing Ghana's opening match vs Panama due to visa issues — a significant midfield upgrade for Ghana. (Al Jazeera/ESPN)",
-   "full": "加纳队长托马斯·帕蒂在首战巴拿马时因签证问题无缘出场，使加纳中场严重失衡；但美国当局已于本周确认其入境资格，帕蒂将正式出战英格兰。其回归令加纳中场控制力大增，直接威胁英格兰的防守线。此外加纳门将阿蒂-孜吉(Ati-Zigi)首战下半场受伤，能否出战为临场决定。英格兰方面萨卡/拉什福德/莱斯三将均参加周一训练，预计全员可用(消息来源: Al Jazeera/ESPN)。",
-   "enFull": "Ghana captain Thomas Partey missed the opener against Panama due to visa issues but has been cleared to enter the United States and will face England. His return dramatically strengthens Ghana's midfield — he is arguably their most important player. GK Ati-Zigi remains a doubt after coming off injured versus Panama. For England, Saka, Rashford, and Rice all trained Monday and are expected to be available. (Sources: Al Jazeera, ESPN)",
-   "links": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/sports/2026/6/23/england-ghana-prediction-fifa-world-cup-2026-kickoff-channel-kane-partey"
-    },
-    {
-     "name": "ESPN",
-     "url": "https://www.espn.com/soccer/story/_/id/49125237/england-vs-ghana-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
+   "match": "周三054 捷克 vs 墨西哥",
+   "impact": "high",
+   "tone": "positive_czech",
+   "text": "墨西哥6分锁定第一名，主帅Aguirre确认轮换：哈伦·希门尼斯休息，青少年球员Mora首发；捷克满员出击（Schick/Souček/Coufal/Kovář）以必须赢才能出线的心态全力冲击。",
+   "en": "Mexico (6pts, group winner) confirmed heavy rotation by Aguirre. Jimenez rested, teenage Mora starts. Czech full strength (Schick/Soucek) must win to qualify.",
+   "full": "Mexico v Czechia: Mexico already through as group winners. Javier Aguirre confirms rotation - Raúl Jiménez rested, teenage star Gilberto Mora starts. Goalkeeper Ochoa (40) gets a run-out. Czech Republic need a win to qualify - playing full strength with Schick, Souček, Coufal, Kovář.",
+   "enFull": "Mexico v Czechia: Mexico already through as group winners with 6 points. Javier Aguirre confirms rotation - Raúl Jiménez rested, teenage star Gilberto Mora starts. Goalkeeper Ochoa (40) gets a run-out. Czech Republic need a win to qualify - playing full strength with Schick, Souček, Coufal, Kovář.",
+   "links": []
   },
   {
    "date": "2026-06-23",
@@ -1516,88 +1451,91 @@ window.DASH_DATA = {
   }
  ],
  "slip": {
-  "title": "6月25日 · 周三预研 · 押平局凸性版 16元(边偏薄·小注)",
-  "status": "**§16押被低估的平局·过§17四层验证·边薄小注。** 今晚最好的平局边=053南非vs韩国(韩国1.44客场短赔+南非主场拼·经典逼平·可单)。波黑vs卡塔尔平当彩票腿。苏格兰vs巴西(巴西1.19太强)/瑞士加拿大(五五开公平价)不押·摩洛哥让球是搏大胜的坑不碰。**押平局现0中2(周日押热门-72/周一押平局-24·第1负)·不whipsaw·小注稳住·§17.6连3亏才停审**。池258.55守地板80。",
-  "detail": "周三2注16元(押被低估的平局):①南非对韩国打平 单10@3.87(韩国客场短赔+南非主场拼·§17过:事件90min同口径/扣vig value~1.1/可单) ②2串1波黑卡塔尔平×南非韩国平 6@20.0(双平彩票)。最好+118,最差-16。防伪正确:有理由的客场短赔逼平·非纯爱上平局·但边薄故小注。",
+  "title": "6月25日 · 周三 · 最终版 · 21:00下单",
+  "status": "**硬信息差出手(§13.1情报工厂)：墨西哥6分排名锁定第一，Aguirre确认轮换(哈伦·希门尼斯休息，青少年Mora首发)。捷克满员上阵(Schick+Souček+Coufal)，必须赢才能出线。集成25.7%→调整后~35%，竞彩3.55×0.35=价值~1.24(核心级)。§17四层验证:①事件=胜平负90min口径一致 ②价格可得 ③3.55×0.35-1=24.25%正扣vig后仍正 ④无相关约束。** 2串1加拿大×捷克做凸性:两队都是4分争第一，加拿大GD+6领先，拼高。池282.55，总注24元，最坏-24→池258.55>地板80。",
+  "detail": "周三2注共24元：①捷克主胜 单20@3.55(墨西哥轮换已确认硬信息·调整price~1.24·had.single=1)；②2串1 加拿大胜×捷克胜 4元@12.07(049allUp×054allUp·凸性·加拿大争第一打·捷克全力出·若两中回48.3)。最好场景：捷克赢+加拿大赢→回119.28净+95.28；捷克赢+加拿大不赢→净+47；全挂-24。总EV按调整概率测算约+5.6元。fade-favorite协议：050/051/053平CLV全负(-8.6%/-11.3%/-6.6%)→不触发。",
   "items": [
    {
-    "num": "周三053",
-    "pick": "南非对韩国 打平",
-    "tier": "核心凸性",
-    "match": "南非 vs 韩国",
-    "stake": 10,
-    "odds": 3.87,
-    "value": 1.1,
-    "ev": 1
+    "num": "周三054",
+    "pick": "捷克 赢(主胜)",
+    "tier": "核心(硬信息·墨西哥轮换)",
+    "match": "捷克 vs 墨西哥",
+    "stake": 20,
+    "odds": 3.55,
+    "value": 0.91,
+    "valueAdj": 1.24,
+    "ev": 4.85,
+    "note": "墨西哥6分锁第一→Aguirre确认轮换(哈伦休息/Mora上)；捷克全主力(Schick+Souček)必须赢；调整后~35%胜率→价值~1.24"
    },
    {
-    "num": "050×053",
-    "pick": "2串1 波黑卡塔尔平×南非韩国平",
+    "num": "049×054",
+    "pick": "2串1 加拿大客胜×捷克主胜",
     "legs": [
      {
-      "n": "050",
-      "draw": true
+      "n": "周三049",
+      "pick": "客胜(加拿大赢)",
+      "odds": 3.4
      },
      {
-      "n": "053",
-      "draw": true
+      "n": "周三054",
+      "pick": "主胜(捷克赢)",
+      "odds": 3.55
      }
     ],
-    "tier": "双平彩票",
-    "match": "波黑平×南非平",
-    "stake": 6,
-    "odds": 20,
-    "value": 1.05,
-    "ev": 0.3
+    "tier": "凸性串关",
+    "match": "加拿大×捷克",
+    "stake": 4,
+    "odds": 12.07,
+    "value": 0.97,
+    "ev": 0.78
    }
   ],
   "summary": {
-   "stake": 16,
-   "evLow": -16,
-   "evHigh": 118,
-   "winProb": 25,
+   "stake": 24,
+   "evLow": -24,
+   "evHigh": 95,
+   "winProb": 35,
    "best": {
-    "label": "双平全中",
-    "pnl": 118
+    "label": "捷克赢+加拿大赢(双中)",
+    "pnl": 95
    },
    "worst": {
-    "label": "两注全挂",
-    "pnl": -16
+    "label": "捷克不赢(全挂)",
+    "pnl": -24
    },
    "keyScenarios": [
     {
-     "label": "只南非韩国打平",
-     "pnl": 22.7
+     "label": "捷克赢·加拿大不赢",
+     "pnl": 47
+    },
+    {
+     "label": "捷克不赢",
+     "pnl": -24
     }
    ]
   },
-  "scenarios": [
+  "matrix": [
    {
-    "label": "南非韩国打平+波黑卡塔尔打平(双平全中)",
-    "hit": "中2注",
-    "prob": 5,
-    "win": [
-     0,
-     1
-    ]
+    "scenario": "捷克赢+加拿大赢",
+    "prob": 10,
+    "returnTotal": 119,
+    "pnl": 95
    },
    {
-    "label": "南非韩国打平·波黑那场没平",
-    "hit": "中1注",
-    "prob": 20,
-    "win": [
-     0
-    ]
+    "scenario": "捷克赢+加拿大不赢",
+    "prob": 25,
+    "returnTotal": 71,
+    "pnl": 47
    },
    {
-    "label": "南非韩国没打平(全挂)",
-    "hit": "全挂",
-    "prob": 75,
-    "win": []
+    "scenario": "捷克不赢(全挂)",
+    "prob": 65,
+    "returnTotal": 0,
+    "pnl": -24
    }
   ],
-  "copyText": "周三这轮,小注买2注:\\n① 南非vs韩国 打平,10块\\n② 波黑vs卡塔尔 打平 + 南非vs韩国 打平,串一起买,6块\\n谢谢!",
-  "reviewNote": "✓ §16押平局+§17四层验证·防伪正确(客场短赔逼平有理由)·边薄小注16守地板·押平局现0中2不whipsaw继续小注。053可单/050可单。"
+  "copyText": "周三这轮，下2注：\n① 场次：周三054 捷克 vs 墨西哥\n   买：捷克赢\n   方式：单关（只买这场）\n   金额：20元\n\n② 2串1（下面两场全对才中，4元）：\n   · 周三049 瑞士vs加拿大 → 买加拿大赢\n   · 周三054 捷克vs墨西哥 → 买捷克赢\n\n一共24元，谢谢！",
+  "reviewNote": "✓ 已独立复核 20:52 ｜ 草稿合规，无删改 ｜ 054 had.single=1可单 ✓ · 049 had.single=0仅串关腿 ✓ · 调整value=35%×3.55=1.2425≥1.20核心 · 串关adj联合~1.10踩线·4元凸性小注§0优先 · 总注24/282.55=8.5%≤25% · 最坏258.55>>地板80 · 无比分票/同场反向/纯热门串"
  },
  "calibration": {
   "stats": {
