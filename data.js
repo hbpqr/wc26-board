@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-25 23:10",
+  "updated": "2026-06-26 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1543,6 +1543,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-26",
+   "match": "周四059",
+   "impact": "戈麦斯伤愈复出",
+   "tone": "neutral",
+   "text": "巴拉圭Diego Gomez伤愈确认可出战；澳大利亚Leckie或轮换保留体能，Volpato预计顶替。两队格局平局概率不变。(SportsMole/Rotowire双源)",
+   "en": "Paraguay: Diego Gomez fit after coming off vs Turkey; Australia: Leckie may rest for R32, Volpato tipped to start.",
+   "full": "巴拉圭：Diego Gomez在对土耳其一战中途被换下，赛后伤情令人担忧，但SportsMole/Rotowire双源均确认他已克服不适、有望出战；他是Almirón(停赛)缺阵后巴拉圭中场最重要的组织核心，复出能提升球队创造力。澳大利亚：Leckie未被正式排除，但SportsMole分析认为澳大利亚大概率晋级，主帅可能让Leckie休息为淘汰赛保存体能，Cristian Volpato或从左路接替出战。净效果：巴拉圭中场略回血，澳大利亚前锋线可能出现轮换——§14平局42.2%共识不变。",
+   "enFull": "Paraguay: Diego Gomez was subbed off vs Turkey amid fitness concerns but both SportsMole and Rotowire confirm he has overcome his discomfort and is expected to feature vs Australia. He is Paraguay's chief creative force with Almiron suspended. Australia: Mathew Leckie has not been officially ruled out, but is widely expected to be rested with qualification likely, with Cristian Volpato potentially starting on the left wing. Net: Paraguay's midfield partially restores, Australia's attack may be slightly weaker. Draw probability (42.2% intl consensus) unchanged.",
+   "links": [
+    {
+     "name": "SportsMole Paraguay vs Australia team news",
+     "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/team-news/paraguay-vs-australia-injury-suspension-list-predicted-xis_599941.html"
+    },
+    {
+     "name": "Rotowire Paraguay vs Australia preview",
+     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-australia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-119488"
+    }
+   ]
+  },
   {
    "date": "2026-06-25",
    "match": "周四055",
