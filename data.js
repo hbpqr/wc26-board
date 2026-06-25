@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-25 14:10",
+  "updated": "2026-06-25 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1446,7 +1446,68 @@ window.DASH_DATA = {
   ]
  },
  "focus": [],
- "news": [],
+ "news": [
+  {
+   "date": "2026-06-25",
+   "match": "周四059",
+   "impact": "巴拉圭缺主力",
+   "tone": "neutral",
+   "text": "巴拉圭 Almirón 停赛(红牌)；澳大利亚 Leckie 肌肉伤问题、Italiano 伤缺。两队同积3分，平局澳大利亚晋级。(SportsMole/FIFA.com双源)",
+   "en": "Paraguay: Almirón suspended; Australia: Leckie muscle issue, Italiano injured. Both on 3pts — draw sends Australia through.",
+   "full": "周四059实际为巴拉圭vs澳大利亚(D组末轮，非巴西)。⚠️ odds_data.js 主队标注疑为'巴西'但实际应为'巴拉圭'，请主会话核实。关键情报：巴拉圭头号球星 Almirón 因红牌停赛(本届赛事领先射手10球)，Gustavo Caballero 可能替补；澳大利亚 Leckie 有肌肉伤、Italiano 受伤，预计 Geria 顶替。积分形势：两队均积3分，巴拉圭必须赢球出线，平局澳大利亚凭净球差晋级。§14平局edge潜在触发(intl平局42.2%)。",
+   "enFull": "Match 059 is Paraguay vs Australia (Group D decider), not Brazil vs Australia as labeled — please verify odds_data.js home-team tag. Key: Almiron suspended for Paraguay (10 WC goals), Leckie doubtful for Australia. Both on 3pts; a draw sends Australia through on goal difference. Intl draw probability 42.2% (Smarkets/Polymarket) — potential §14 fade-favorite trigger if 竞彩 is significantly below that.",
+   "links": [
+    {
+     "name": "SportsMole Paraguay vs Australia preview",
+     "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/preview/paraguay-vs-australia-prediction-team-news-lineups_599899.html"
+    },
+    {
+     "name": "FIFA match centre",
+     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周四058",
+   "impact": "日本三伤停",
+   "tone": "negative",
+   "text": "日本队长远藤航缺阵，久保建英膝伤，マキノ病号；瑞典无伤缺。日本积4分平局即可出线，瑞典积3分必须赢。(SportsMole/SI.com双源)",
+   "en": "Japan: Endo (captain) out, Kubo knee injury, Machino ill. Sweden: no injury concerns. Japan needs draw (4pts), Sweden must win (3pts).",
+   "full": "日本 vs 瑞典是F组关键对决。日本伤缺严峻：队长远藤航(Liverpool)缺席整届；久保建英(Real Sociedad)在对荷兰平局中膝盖受伤仍未完全恢复；マキノ因病尚未登场。瑞典(Graham Potter执教)无任何伤缺停赛，预计首发 Gyökeres + Isak 的双锋锋线。积分：日本4分只需平局，瑞典3分必须赢球才能晋级。日本可以拖时间、瑞典必须主动进攻——这给日本守反带来空间。",
+   "enFull": "Japan vs Sweden is the decisive Group F clash. Japan are significantly weakened: captain Wataru Endo is absent for the tournament; Takefusa Kubo carries a knee injury from the Netherlands draw; Machino is ill and has not yet featured. Sweden (Graham Potter) have a clean bill of health, with Gyökeres and Isak expected to lead the line. Standings: Japan 4pts need only a draw, Sweden 3pts must win. Japan's injury absences may be offset by their tactical discipline defending deep.",
+   "links": [
+    {
+     "name": "SportsMole Japan vs Sweden team news",
+     "url": "https://www.sportsmole.co.uk/football/japan/injury-news/team-news/japan-vs-sweden-injury-suspension-list-predicted-xis_599891.html"
+    },
+    {
+     "name": "SI.com preview",
+     "url": "https://www.si.com/soccer/japan-vs-sweden-world-cup-preview-predictions-lineups-6-25-26"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周四060",
+   "impact": "美国轮换",
+   "tone": "neutral",
+   "text": "美国已锁D组第一大概率轮换；土耳其连败出局动机全无。Pulisic预计出战，Tyler Adams等4人黄牌危险。(ESPN/SportsMole双源)",
+   "en": "USA clinched Group D top spot, likely to rotate; Turkey eliminated (0pts). Pulisic expected fit despite calf. Adams/Balogun/Richards/Robinson on yellow card risk.",
+   "full": "土耳其 vs 美国：美国已锁定D组第一，Pochettino 面临是否主力全上的抉择——已有Pulisic(小腿)伤过但预计康复出战；Tyler Adams、Balogun、Chris Richards、Antonee Robinson 共4人积黄，有停赛风险若此轮领牌。土耳其连输两场已出局，Yildiz 小腿伤缓解预计可上场，但全队动机几乎为零。这场预计是美国保主力稳出线 vs 土耳其空场应付的格局——hhad让球盘value需慎判(美国可能保守放水)。",
+   "enFull": "USA vs Turkey: USA have sealed top spot in Group D and are weighing rotation. Pulisic (calf) expected fit; Tyler Adams, Balogun, Richards, and Robinson face yellow card suspension risk. Turkey are already eliminated (0pts, 2 losses); Kenan Yildiz available despite earlier calf issue. Motivation gap is extreme — USA may prioritize fitness for R32 over full effort, affecting hhad/Asian handicap lines. Key risk for bettors: USA's rotation could undermine any handicap play.",
+   "links": [
+    {
+     "name": "ESPN USMNT Turkey lineup dilemma",
+     "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi"
+    },
+    {
+     "name": "SportsMole Turkey vs USA team news",
+     "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/team-news/turkey-vs-usa-injury-suspension-list-predicted-xis_599851.html"
+    }
+   ]
+  }
+ ],
  "slip": {
   "title": "6月25日 · 周三 · 最终版 · 21:00下单",
   "status": "**硬信息差出手(§13.1情报工厂)：墨西哥6分排名锁定第一，Aguirre确认轮换(哈伦·希门尼斯休息，青少年Mora首发)。捷克满员上阵(Schick+Souček+Coufal)，必须赢才能出线。集成25.7%→调整后~35%，竞彩3.55×0.35=价值~1.24(核心级)。§17四层验证:①事件=胜平负90min口径一致 ②价格可得 ③3.55×0.35-1=24.25%正扣vig后仍正 ④无相关约束。** 2串1加拿大×捷克做凸性:两队都是4分争第一，加拿大GD+6领先，拼高。池282.55，总注24元，最坏-24→池258.55>地板80。",
