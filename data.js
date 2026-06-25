@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-25 18:10",
+  "updated": "2026-06-25 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1240,6 +1240,102 @@ window.DASH_DATA = {
     "h": 25.3,
     "d": 24.6,
     "a": 50.1
+   }
+  },
+  {
+   "num": "周四055",
+   "round": "周四",
+   "group": "E组",
+   "home": "厄瓜多尔",
+   "away": "德国",
+   "time": "06-26 04:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "客胜63.4%",
+   "ensemble": {
+    "h": 17.7,
+    "d": 18.9,
+    "a": 63.4
+   }
+  },
+  {
+   "num": "周四056",
+   "round": "周四",
+   "group": "E组",
+   "home": "库拉索",
+   "away": "科特迪瓦",
+   "time": "06-26 04:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "客胜80.7%",
+   "ensemble": {
+    "h": 6.0,
+    "d": 13.3,
+    "a": 80.7
+   }
+  },
+  {
+   "num": "周四057",
+   "round": "周四",
+   "group": "F组",
+   "home": "突尼斯",
+   "away": "荷兰",
+   "time": "06-26 07:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "客胜84.9%",
+   "ensemble": {
+    "h": 4.1,
+    "d": 11.1,
+    "a": 84.9
+   }
+  },
+  {
+   "num": "周四058",
+   "round": "周四",
+   "group": "F组",
+   "home": "日本",
+   "away": "瑞典",
+   "time": "06-26 07:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "主胜55.4%",
+   "ensemble": {
+    "h": 55.4,
+    "d": 25.1,
+    "a": 19.6
+   }
+  },
+  {
+   "num": "周四059",
+   "round": "周四",
+   "group": "D组",
+   "home": "巴拉圭",
+   "away": "澳大利亚",
+   "time": "06-26 10:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "主胜36.5%",
+   "ensemble": {
+    "h": 36.5,
+    "d": 39.5,
+    "a": 24.0
+   }
+  },
+  {
+   "num": "周四060",
+   "round": "周四",
+   "group": "D组",
+   "home": "土耳其",
+   "away": "美国",
+   "time": "06-26 10:00",
+   "status": "pending",
+   "predManual": "—",
+   "predModel": "客胜52.3%",
+   "ensemble": {
+    "h": 24.5,
+    "d": 23.3,
+    "a": 52.3
    }
   }
  ],
