@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-26 00:10:02",
+ "fetched_at": "2026-06-26 01:10:48",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -21,24 +21,7 @@ window.ODDS_DATA = {
     "h": "2.48",
     "d": "3.75",
     "a": "2.18",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.339,
-     0.206,
-     0.455
-    ],
-    "mkt": [
-     0.357,
-     0.236,
-     0.406
-    ],
-    "val_top": 0.99,
-    "edge_top": 0.048,
-    "mirage": false,
-    "top_label": "让负",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "17.00",
@@ -83,24 +66,7 @@ window.ODDS_DATA = {
     "h": "2.66",
     "d": "3.60",
     "a": "2.10",
-    "line": "+2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "model": [
-     0.356,
-     0.232,
-     0.412
-    ],
-    "mkt": [
-     0.333,
-     0.246,
-     0.421
-    ],
-    "val_top": 0.95,
-    "edge_top": 0.023,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "信市场让线"
+    "line": "+2"
    },
    "crs": {
     "1:0": "42.00",
@@ -141,24 +107,7 @@ window.ODDS_DATA = {
     "h": "3.55",
     "d": "4.20",
     "a": "1.64",
-    "line": "+2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "model": [
-     0.356,
-     0.232,
-     0.412
-    ],
-    "mkt": [
-     0.249,
-     0.211,
-     0.54
-    ],
-    "val_top": 1.26,
-    "edge_top": 0.106,
-    "mirage": true,
-    "top_label": "让胜",
-    "verdict": "镜像假金矿,不买"
+    "line": "+2"
    },
    "crs": {
     "1:0": "55.00",
@@ -199,24 +148,7 @@ window.ODDS_DATA = {
     "h": "2.95",
     "d": "3.50",
     "a": "1.98",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.311,
-     0.249,
-     0.44
-    ],
-    "mkt": [
-     0.3,
-     0.253,
-     0.447
-    ],
-    "val_top": 0.92,
-    "edge_top": 0.011,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "8.50",
@@ -261,24 +193,7 @@ window.ODDS_DATA = {
     "h": "6.20",
     "d": "4.10",
     "a": "1.38",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.106,
-     0.242,
-     0.652
-    ],
-    "mkt": [
-     0.143,
-     0.216,
-     0.641
-    ],
-    "val_top": 0.99,
-    "edge_top": 0.026,
-    "mirage": false,
-    "top_label": "让平",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "6.70",
@@ -323,24 +238,7 @@ window.ODDS_DATA = {
     "h": "1.94",
     "d": "3.93",
     "a": "2.78",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.461,
-     0.225,
-     0.314
-    ],
-    "mkt": [
-     0.456,
-     0.225,
-     0.318
-    ],
-    "val_top": 0.89,
-    "edge_top": 0.005,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "14.50",
@@ -385,24 +283,7 @@ window.ODDS_DATA = {
     "h": "2.18",
     "d": "3.45",
     "a": "2.63",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.415,
-     0.244,
-     0.341
-    ],
-    "mkt": [
-     0.406,
-     0.257,
-     0.337
-    ],
-    "val_top": 0.91,
-    "edge_top": 0.009,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "16.00",
@@ -447,10 +328,7 @@ window.ODDS_DATA = {
     "h": "2.54",
     "d": "3.96",
     "a": "2.07",
-    "line": "-2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "verdict": "未评估(待模型)"
+    "line": "-2"
    },
    "crs": {
     "1:0": "7.75",
@@ -491,24 +369,7 @@ window.ODDS_DATA = {
     "h": "5.55",
     "d": "4.00",
     "a": "1.43",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.151,
-     0.218,
-     0.631
-    ],
-    "mkt": [
-     0.16,
-     0.221,
-     0.619
-    ],
-    "val_top": 0.9,
-    "edge_top": 0.012,
-    "mirage": false,
-    "top_label": "让负",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "7.60",
@@ -553,24 +414,7 @@ window.ODDS_DATA = {
     "h": "2.70",
     "d": "3.40",
     "a": "2.15",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.336,
-     0.259,
-     0.405
-    ],
-    "mkt": [
-     0.328,
-     0.26,
-     0.412
-    ],
-    "val_top": 0.91,
-    "edge_top": 0.008,
-    "mirage": false,
-    "top_label": "让胜",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "16.00",
@@ -615,24 +459,7 @@ window.ODDS_DATA = {
     "h": "5.50",
     "d": "3.80",
     "a": "1.46",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.136,
-     0.249,
-     0.615
-    ],
-    "mkt": [
-     0.161,
-     0.233,
-     0.606
-    ],
-    "val_top": 0.95,
-    "edge_top": 0.016,
-    "mirage": false,
-    "top_label": "让平",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "6.50",
@@ -677,10 +504,7 @@ window.ODDS_DATA = {
     "h": "2.39",
     "d": "3.90",
     "a": "2.20",
-    "line": "+2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "verdict": "未评估(待模型)"
+    "line": "+2"
    },
    "crs": {
     "1:0": "30.00",
@@ -721,24 +545,7 @@ window.ODDS_DATA = {
     "h": "2.82",
     "d": "3.35",
     "a": "2.10",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.272,
-     0.288,
-     0.44
-    ],
-    "mkt": [
-     0.314,
-     0.264,
-     0.422
-    ],
-    "val_top": 0.96,
-    "edge_top": 0.024,
-    "mirage": false,
-    "top_label": "让平",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "5.50",
@@ -783,10 +590,7 @@ window.ODDS_DATA = {
     "h": "2.43",
     "d": "3.90",
     "a": "2.17",
-    "line": "+2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "verdict": "未评估(待模型)"
+    "line": "+2"
    },
    "crs": {
     "1:0": "35.00",
@@ -827,24 +631,7 @@ window.ODDS_DATA = {
     "h": "1.85",
     "d": "3.50",
     "a": "3.30",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.483,
-     0.26,
-     0.257
-    ],
-    "mkt": [
-     0.479,
-     0.253,
-     0.268
-    ],
-    "val_top": 0.91,
-    "edge_top": 0.007,
-    "mirage": false,
-    "top_label": "让平",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "10.00",
@@ -889,24 +676,7 @@ window.ODDS_DATA = {
     "h": "3.15",
     "d": "3.50",
     "a": "1.90",
-    "line": "-1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.286,
-     0.232,
-     0.481
-    ],
-    "mkt": [
-     0.281,
-     0.253,
-     0.466
-    ],
-    "val_top": 0.91,
-    "edge_top": 0.015,
-    "mirage": false,
-    "top_label": "让负",
-    "verdict": "市场≈模型·无边"
+    "line": "-1"
    },
    "crs": {
     "1:0": "7.00",
@@ -951,24 +721,7 @@ window.ODDS_DATA = {
     "h": "1.31",
     "d": "4.35",
     "a": "7.35",
-    "line": "+1",
-    "tier": "shallow",
-    "tier_label": "浅让·主战场",
-    "model": [
-     0.676,
-     0.233,
-     0.091
-    ],
-    "mkt": [
-     0.676,
-     0.204,
-     0.12
-    ],
-    "val_top": 1.01,
-    "edge_top": 0.03,
-    "mirage": false,
-    "top_label": "让平",
-    "verdict": "市场≈模型·无边"
+    "line": "+1"
    },
    "crs": {
     "1:0": "7.90",
@@ -1013,10 +766,7 @@ window.ODDS_DATA = {
     "h": "2.22",
     "d": "3.85",
     "a": "2.39",
-    "line": "+2",
-    "tier": "deep",
-    "tier_label": "深让·镜像雷区",
-    "verdict": "未评估(待模型)"
+    "line": "+2"
    },
    "crs": {
     "1:0": "35.00",
