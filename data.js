@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-25 16:10",
+  "updated": "2026-06-25 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1447,6 +1447,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-25",
+   "match": "周四055",
+   "impact": "德国保主力出战",
+   "tone": "neutral",
+   "text": "Nagelsmann确认不大轮换：已两战同一阵容，继续保持节奏；Schlotterbeck伤缺，Undav可能取代Havertz；厄瓜多尔积1分必须赢。(Bundesliga.com/BavarianFootballWorks双源)",
+   "en": "Nagelsmann confirms minimal rotation — same XI to maintain rhythm; Schlotterbeck (injured) out; Undav may start over Havertz. Ecuador (1pt) must win to advance.",
+   "full": "德国已6分锁定E组第一，但Nagelsmann明确表示不会大规模轮换——赛前特别强调队伍需要保持节奏、继续磨合，两战用同一首发XI。唯一确认缺席：Nico Schlotterbeck 因伤出局。进攻可能微调：Undav有望顶替Havertz首发，Leweling/Beier或上替换Sane/Wirtz，但核心不变。厄瓜多尔积1分必须赢球，将全力出击；但面对七战全胜态势的德国，逆转难度极高。",
+   "enFull": "Germany (6pts, Group E winners) are NOT rotating heavily per Nagelsmann's confirmation — he emphasized maintaining the team's rhythm and cohesion ahead of the knockout stage, fielding the same XI for a third game. Only confirmed absence: Nico Schlotterbeck (injury). Minor attacking tweaks possible: Undav over Havertz, Leweling/Beier replacing Sane/Wirtz. Ecuador (1pt) need a win to advance and will attack, but face a Germany side in excellent form and playing for seeding.",
+   "links": [
+    {
+     "name": "Bundesliga.com Germany rotation options",
+     "url": "https://www.bundesliga.com/en/bundesliga/news/germany-options-rotate-against-ecuador-world-cup-2026-37935"
+    },
+    {
+     "name": "BavarianFootballWorks Germany won't rotate",
+     "url": "https://www.bavarianfootballworks.com/germany-international-soccer/221000/germany-ecuador-world-cup-lineups-rotation-julian-nagelsmann-deniz-undav"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周四056",
+   "impact": "科特出线战",
+   "tone": "neutral",
+   "text": "科特迪瓦积3分必须赢球锁定出线；库拉索积1分需赢+德国爆冷才能出线；Room门神上场15扑救创纪录。(SportsMole/Goal.com双源)",
+   "en": "Ivory Coast (3pts) must win to secure top-2 finish. Curacao (1pt) need a win + Germany upset. Goalkeeper Room made 15 saves vs Ecuador.",
+   "full": "科特迪瓦积3分排名E组第二，但胜负差与库拉索相同，赢球方能锁定出线；若输球，需等德国vs厄瓜多尔结果确认。库拉索积1分，理论上仍有出线可能但须自赢且德国爆冷——概率极低。两队均无重大伤缺确认。特别关注：库拉索门将Eloy Room在0:0平厄瓜多尔战中创纪录15扑救，是本届最佳门将表现之一；科特迪瓦锋线Haller+Pepe面对这道城墙将是硬仗。两队动机悬殊(科特必须赢vs库拉索需奇迹)，预计科特迪瓦更主动。",
+   "enFull": "Ivory Coast (3pts) sit second in Group E but must win to mathematically guarantee a top-2 finish; a defeat could still see them eliminated depending on the Germany-Ecuador scoreline. Curacao (1pt) technically still alive — need a win and Germany to lose — but the probability is minimal. No significant injuries confirmed for either side. Notable: Curacao keeper Eloy Room made a record-setting 15 saves in the 0:0 draw with Ecuador; Ivory Coast's Haller-led attack faces a tough test against him. Motivation gap strongly favors Ivory Coast.",
+   "links": [
+    {
+     "name": "SportsMole Curacao vs Ivory Coast preview",
+     "url": "https://www.sportsmole.co.uk/football/curacao/world-cup-2026/preview/curacao-vs-ivory-coast-prediction-team-news-lineups_599885.html"
+    },
+    {
+     "name": "Goal.com Curacao vs Ivory Coast preview",
+     "url": "https://www.goal.com/en/news/curacao-ivory-coast-world-cup-preview/bltaf6ced75ec6c319b"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "match": "周四057",
+   "impact": "Timber伤缺",
+   "tone": "neutral",
+   "text": "荷兰Timber确认伤缺；突尼斯已出局新帅Renard接任(原帅赛后下课)，仅剩面子球。荷兰稳坐F组第一可能轮换。(ESPN伤缺跟踪/SportsMole双源)",
+   "en": "Netherlands: Timber confirmed out (injury tracker). Ivory Coast sacked coach Lamouchi after MD2 loss; legendary Herve Renard named emergency manager. Tunisia eliminated, playing for pride.",
+   "full": "突尼斯经历两连败(0:5负瑞典、0:4负日本)，于第二场后宣布解雇主教练Sabri Lamouchi，紧急聘请法国传奇教头Herve Renard接手——Renard此前曾率摩洛哥和赞比亚夺非洲杯，本届世界杯临危受命。突尼斯已数学出局，仅剩荣誉之战，预计轮换测试球员。荷兰：Timber(Arsenal)确认伤缺；大概率小幅轮换以备淘汰赛(Gakpo/Dumfries存在养伤考量)，但核心(De Jong/Depay/Reijnders)大概率出战。本场荷兰动机稳固(争组第一最佳签位)，两队实力差距悬殊。",
+   "enFull": "Tunisia (already eliminated) fired manager Sabri Lamouchi after their 0-4 loss to Japan on MD2, with legendary Herve Renard — who has won the Africa Cup of Nations with Morocco and Zambia — appointed as emergency replacement. Tunisia field a pride-only XI with expected rotation. Netherlands: Jurrien Timber (Arsenal) is confirmed absent per ESPN's official injury tracker; limited rotation expected (Gakpo/Dumfries may be rested), but Koeman's core of De Jong, Depay, and Reijnders likely to start. Netherlands motivation remains high — securing top spot and favorable knockout bracket seeding.",
+   "links": [
+    {
+     "name": "ESPN World Cup injuries tracker",
+     "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
+    },
+    {
+     "name": "SportsMole Tunisia vs Netherlands team news",
+     "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/team-news/tunisia-vs-netherlands-injury-suspension-lists-predicted-xis--world-cup-2026_599926.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-25",
    "match": "周四059",
