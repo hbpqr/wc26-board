@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-26 17:10",
+  "updated": "2026-06-26 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1573,6 +1573,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-26",
+   "match": "周六069",
+   "impact": "葡萄牙必须赢",
+   "tone": "neutral",
+   "text": "哥伦比亚6分领头K组·Luis Suarez肩伤确认可出战；葡萄牙Tomas Araujo膝伤存疑·需赢球才能以组首晋级·C罗vs乌兹别克贡献进球。(SportsMole/ESPN双源)",
+   "en": "Colombia top Group K with 6pts; Suarez clears shoulder injury test. Portugal's Tomas Araujo is a fitness doubt — they must win to top the group; Ronaldo scored vs Uzbekistan. (SportsMole/ESPN)",
+   "full": "哥伦比亚前两场全胜积6分稳居K组首位，Diego Suarez肩伤赛前曾存疑，但最新消息确认可以出战本场，预计维持首发；后卫Lucumí·中场Lerma体能充沛。葡萄牙积4分位列次席，若输球有可能被哥伦比亚或另一组结果影响，因此Roberto Martinez一方必须赢球以锁定组首。后卫Tomas Araujo在首场对阵刚果金时受伤，仍是疑问·其余球员无重大伤停。C罗在上轮对阵乌兹别克斯坦时打入一球·状态回勇·预计首发。本场为双强对决，哥伦比亚主动力在于出线已定有空间压制；葡萄牙背水赢球动机更强。",
+   "enFull": "Colombia lead Group K with a perfect 6 points after two wins. Luis Suarez cleared a shoulder injury scare and is expected to start alongside Luiz Díaz. Portugal sit second with 4 points — a win is essential to top the group and avoid a potentially tougher Round of 32 path. Defender Tomas Araujo sustained an injury in the opening win over Congo DR and is rated as a doubt, though no other significant absences are expected. Cristiano Ronaldo scored against Uzbekistan last match and is expected to feature from the start. The match is a high-stakes clash with Portugal needing the win while Colombia can afford to defend.",
+   "links": [
+    {
+     "name": "SportsMole – Colombia vs Portugal preview",
+     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/colombia-vs-portugal-prediction-team-news-lineups_600099.html"
+    },
+    {
+     "name": "ESPN – Colombia vs Portugal preview",
+     "url": "https://www.espn.in/football/story/_/id/49172923/fifa-world-cup-2026-colombia-vs-portugal-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周六068",
+   "impact": "英格兰多将伤疑",
+   "tone": "negative",
+   "text": "英格兰Declan Rice新伤小腿存疑·Saka跟腱炎·Spence踝伤；Mainoo候补入场；巴拿马Carrasquilla全程缺席·已被淘汰。(SportsMole双源确认)",
+   "en": "England hit by injury doubts: Declan Rice fresh calf concern is major worry; Saka Achilles tendinitis; Spence ankle doubt. Mainoo on standby. Panama's Carrasquilla absent all tournament; Panama already eliminated. (SportsMole)",
+   "full": "英格兰在对阵加纳0:0平局后迎来多伤困扰：Declan Rice赛后出现小腿新伤，成为对巴拿马一战最大疑云，Kobbie Mainoo随时备战顶替中场核心；Bukayo Saka整个赛事期间受跟腱炎困扰，上场发挥受限；右后卫Djed Spence对加纳赛后出现踝伤也存疑。Reece James此前已有腿后肌问题需持续监测。Marcus Rashford虽有腿后肌不适但仍替补出场。巴拿马方面核心中场Adalberto Carrasquilla全程因大腿内收肌伤缺阵；队长Anibal Godoy本届几乎未上场；巴拿马两连败已被淘汰，动机有限。",
+   "enFull": "England face multiple injury concerns ahead of the Panama clash. Declan Rice emerged from the Ghana draw with a fresh calf problem and is listed as a major doubt — Kobbie Mainoo is on standby to partner Elliot Anderson. Bukayo Saka has been managing Achilles tendinitis throughout the tournament. Djed Spence also picked up an ankle knock against Ghana and is uncertain. Reece James continues to be monitored for a hamstring issue. Panama, already eliminated with back-to-back defeats, are without Adalberto Carrasquilla (adductor, all tournament) and skipper Anibal Godoy has barely featured due to fitness concerns. ⚠️Injury situation may affect England lineup significantly.",
+   "links": [
+    {
+     "name": "SportsMole – England injury list vs Panama",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/saka-rashford-latest-england-injury-suspension-list-vs-panama_599953.html"
+    },
+    {
+     "name": "SportsMole – Panama vs England preview",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/panama-vs-england-prediction-team-news-lineups_600066.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周六067",
+   "impact": "加纳门将伤缺",
+   "tone": "negative",
+   "text": "加纳正选门将Ati-Zigi对巴拿马时受伤出局·替补Asare对英格兰(0:0)3次扑救表现出色；克罗地亚Budimir替补打进制胜球大概率首发。(ESPN/SportsMole双源)",
+   "en": "Ghana's first-choice GK Lawrence Ati-Zigi is out injured (hurt vs Panama); backup Asare kept a clean sheet vs England. Croatia's Budimir likely starts after scoring the winner vs Panama. (ESPN/SportsMole)",
+   "full": "加纳正选门将Lawrence Ati-Zigi在首场对阵巴拿马时受伤倒下，之后对英格兰0:0战中由Hearts of Oak替补门将Benjamin Asare出阵，共完成3次扑救表现亮眼。目前仍无Ati-Zigi伤情恢复的官方消息，对克罗地亚一战大概率由Asare继续把关。克罗地亚方面，前锋Ante Budimir替补登场打进1:0制胜球，预计在本场获得首发机会。加纳目前积4分，平局即晋级；克罗地亚积3分必须赢球才有机会出线，动机更强。Modric等老将面临世界杯最后一战压力。",
+   "enFull": "Ghana's first-choice goalkeeper Lawrence Ati-Zigi sustained an injury against Panama and has not played since. His replacement, Hearts of Oak stopper Benjamin Asare, impressed in the 0-0 draw with England, recording three saves. Ati-Zigi's status for the Croatia clash remains unclear with no official return timeline. For Croatia, striker Ante Budimir came off the bench to score the only goal in the 1-0 win over Panama, and is expected to start this must-win fixture. Ghana need only a point to advance from Group L; Croatia must win and hope results go their way. This is likely Luka Modric's final World Cup match, adding extra motivation for the Croatians.",
+   "links": [
+    {
+     "name": "ESPN – Croatia vs Ghana preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49172894/fifa-world-cup-2026-croatia-vs-ghana-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
+    },
+    {
+     "name": "SportsMole – Ghana lineup vs Croatia",
+     "url": "https://www.sportsmole.co.uk/football/ghana/world-cup-2026/predicted-lineups/stick-or-twist-in-the-sticks-predicted-ghana-xi-vs-croatia_600077.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-26",
    "match": "周五065",
