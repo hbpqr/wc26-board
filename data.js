@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-26 08:59",
+  "updated": "2026-06-26 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1565,6 +1565,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-26",
+   "match": "周四060",
+   "impact": "美国4主力弃赛",
+   "tone": "negative",
+   "text": "美国确认轮换：Robinson/Richards/Adams/Balogun因黄牌保留未上，Pulisic替补。土耳其出局但动机优于美国保守阵。(NPR/FoxSports双源核实)",
+   "en": "USA confirmed heavy rotation: Robinson, Richards, Adams, Balogun all sat out to protect yellow cards; Pulisic on bench. Turkey (eliminated) still more motivated than a rotated USA.",
+   "full": "美国已锁定D组第一，Pochettino大幅轮换迎战土耳其：Antonee Robinson、Chris Richards、Tyler Adams、Folarin Balogun四人均因持黄牌坐板凳保留；Christian Pulisic因小腿伤休战对澳大利亚后，本场替补出发。Weston McKennie是原首发XI中唯一保留的球员。土耳其虽已连败出局，但面对美国大量轮换阵容，实际战斗力对比缩窄。国际共识土耳其客胜概率达49.1%(Smarkets/Polymarket)，高于竞彩去水水平，有潜在edge方向。",
+   "enFull": "USA are heavily rotating for their final group match against Turkey having sealed top spot in Group D. Robinson, Richards, Adams, and Balogun all sat out to avoid accumulating a second yellow card ahead of the knockout stage; Pulisic (returning from calf injury) started on the bench. McKennie was the only original starter retained. Turkey are already eliminated (0pts) but face a significantly weakened USA, narrowing the expected capability gap. International consensus gives Turkey a 49.1% win probability (Smarkets/Polymarket) — significantly above their implied odds in 竞彩 markets, suggesting potential edge for Turkey.",
+   "links": [
+    {
+     "name": "NPR USMNT rotation vs Turkey",
+     "url": "https://www.npr.org/2026/06/25/nx-s1-5869807/2026-world-cup-fifa-usmnt-turkey"
+    },
+    {
+     "name": "FoxSports USA vs Turkey storylines",
+     "url": "https://www.foxsports.com/stories/soccer/usa-turkiye-world-cup-storylines-projected-lineup-predictions"
+    }
+   ]
+  },
   {
    "date": "2026-06-26",
    "match": "周四059",
