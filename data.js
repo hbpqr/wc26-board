@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-27 00:10",
+  "updated": "2026-06-27 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -171,6 +171,10 @@ window.DASH_DATA = {
    },
    {
     "d": "06-25",
+    "v": 278.55
+   },
+   {
+    "d": "06-26",
     "v": 278.55
    }
   ],
@@ -1694,22 +1698,22 @@ window.DASH_DATA = {
    ]
   },
   {
-   "date": "2026-06-26",
+   "date": "2026-06-27",
    "match": "周五063",
-   "impact": "沙特背水一战",
+   "impact": "佛停赛·沙必赢",
    "tone": "neutral",
-   "text": "佛得角平局即晋级（H组黑马首届WC·积2分）；沙特积1分负差-4必须赢且等他球·Opta给佛胜40.8%/沙胜33.9%均衡偏佛。(SportsMole/ESPN双源)",
-   "en": "Cape Verde need only a draw to advance on their World Cup debut (Group H, 2pts); Saudi Arabia (1pt, -4 GD) must win and need other results. Opta gives Cape Verde 40.8% win probability vs Saudi Arabia 33.9%. (SportsMole/ESPN)",
-   "full": "佛得角凭借与西班牙0:0和与乌拉圭2:2两平积2分，H组第三，平局可大概率以最佳第三身份出线，是本届最大黑马故事之一。沙特则以0:4惨败西班牙+积1分垫底，本场必须赢球，且需等待西/乌结果配合，压力极大。Opta超算给佛得角胜率40.8%，沙特33.9%，两队间略偏佛得角，平局概率约26%。佛得角风格稳守反击，核心是压制沙特Salem Al-Dawsari的个人能力。",
-   "enFull": "Cape Verde have drawn both previous matches (0-0 vs Spain, 2-2 vs Uruguay) to sit third in Group H on two points; a draw would likely send them through as one of the best third-placed teams in a remarkable World Cup debut. Saudi Arabia need a win after their 4-0 defeat to Spain, sitting bottom on 1 point with -4 goal difference. Opta gives Cape Verde a 40.8% win probability against Saudi Arabia's 33.9%. Cape Verde's compact defending against Al-Dawsari's creativity is the key tactical battle.",
+   "text": "佛得角Sidny Lopes Cabral两黄停赛·Jovane Cabral体能存疑；沙特无伤停；佛得角平局即晋级·沙特积1分负差-4必须赢且等他球·Opta佛胜40.8%/沙胜33.9%均衡偏佛。(SportsMole/Yahoo Sports双源)",
+   "en": "Cape Verde: Sidny Lopes Cabral suspended (two yellows); Jovane Cabral fitness doubt. Saudi Arabia: no injury concerns. Cape Verde need only a draw; Saudi Arabia must win. Opta: CVE 40.8%, KSA 33.9%. (SportsMole/Yahoo Sports)",
+   "full": "佛得角凭借与西班牙0:0和与乌拉圭2:2两平积2分，H组第三，平局可大概率以最佳第三身份出线，是本届最大黑马故事之一。⚠️最新：核心中场Sidny Lopes Cabral因小组赛累积两张黄牌停赛缺席本场，削弱佛得角中场组织和压迫能力；Jovane Cabral体能存疑须接受赛前评估。沙特则以0:4惨败西班牙+积1分垫底，本场必须赢球，且需等待西/乌结果配合，压力极大；Hassan Al-Tambakti脚伤确认康复可出战。Opta超算给佛得角胜率40.8%，沙特33.9%，两队间略偏佛得角，平局概率约26%。佛得角虽缺中场但防守体系仍在，核心仍是压制沙特Salem Al-Dawsari的个人能力。",
+   "enFull": "Cape Verde have drawn both previous matches (0-0 vs Spain, 2-2 vs Uruguay) to sit third in Group H on two points; a draw would likely send them through as one of the best third-placed teams in a remarkable World Cup debut. ⚠️Updated: midfielder Sidny Lopes Cabral is suspended after accumulating two yellow cards — a notable absence in Cape Verde's compact pressing structure. Jovane Cabral is also listed as a fitness doubt. Saudi Arabia need a win after their 4-0 defeat to Spain, sitting bottom with 1 point and -4 goal difference; Hassan Al-Tambakti (foot) is cleared fit. Opta gives Cape Verde 40.8% win probability vs Saudi Arabia 33.9%. Despite the suspension, Cape Verde's defensive block remains intact; the key battle is containing Al-Dawsari.",
    "links": [
     {
-     "name": "SportsMole – Cape Verde vs Saudi Arabia",
+     "name": "SportsMole – Cape Verde vs Saudi Arabia team news",
      "url": "https://www.sportsmole.co.uk/football/cape-verde/world-cup-2026/preview/cape-verde-vs-saudi-arabia-prediction-team-news-lineups_599983.html"
     },
     {
-     "name": "ESPN – Cape Verde vs Saudi Arabia",
-     "url": "https://www.espn.com/soccer/story/_/id/49141810/fifa-world-cup-2026-cape-verde-vs-saudi-arabia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+     "name": "Yahoo Sports – Saudi Arabia XI vs Cape Verde",
+     "url": "https://sports.yahoo.com/articles/saudi-arabia-xi-vs-cape-060000478.html"
     }
    ]
   },
