@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-26 13:10",
+  "updated": "2026-06-26 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1575,6 +1575,66 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "2026-06-26",
+   "match": "周五065",
+   "impact": "埃及主力伤缺",
+   "tone": "negative",
+   "text": "埃及Hamdi Fathi肌肉伤缺阵·Abdel-Meguid头伤观察·Rabia顶替后卫；伊朗Cheshmi伤缺全程缺席；埃及4分领头积平即晋级。(Ahram Online/SportsMole双源)",
+   "en": "Egypt's Hamdi Fathi out with muscle injury; Abdel-Meguid in head injury protocol; Iran's Cheshmi still absent. Egypt need only a draw to advance as group winners. (Ahram Online/SportsMole)",
+   "full": "埃及在1:3负新西兰(周日040)后、Hamdi Fathi因肌肉伤出局，Abdel-Meguid受头伤规程保护至少静养5天，Ramy Rabia预计搭档Yasser Ibrahim出任中卫。伊朗方面Roozbeh Cheshmi全程伤缺，但前两场均保持无失球状态(与比利时/新西兰各0:0/2:2)，整体阵容相对稳定。埃及以4分领先G组，平局即以组首身份晋级；伊朗积4分，需赢球或平局配合比利时输球方能出线。两队形势相近，预计正面较量。",
+   "enFull": "Egypt's Hamdi Fathi is ruled out due to a muscle injury sustained against New Zealand, while Abdel-Meguid remains under the FIFA head injury protocol for five days. Ramy Rabia is expected to partner Yasser Ibrahim in central defence. Iran's Roozbeh Cheshmi has missed both prior matches and is again a doubt. Egypt lead Group G on 4 points — a draw is enough to advance as group winners. Iran sit on 4 points as well and need a result to keep their qualification hopes alive.",
+   "links": [
+    {
+     "name": "Ahram Online – Egypt injury update",
+     "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=571512"
+    },
+    {
+     "name": "SportsMole – Egypt vs Iran preview",
+     "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/preview/egypt-vs-iran-prediction-team-news-lineups_599975.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周五063",
+   "impact": "沙特背水一战",
+   "tone": "neutral",
+   "text": "佛得角平局即晋级（H组黑马首届WC·积2分）；沙特积1分负差-4必须赢且等他球·Opta给佛胜40.8%/沙胜33.9%均衡偏佛。(SportsMole/ESPN双源)",
+   "en": "Cape Verde need only a draw to advance on their World Cup debut (Group H, 2pts); Saudi Arabia (1pt, -4 GD) must win and need other results. Opta gives Cape Verde 40.8% win probability vs Saudi Arabia 33.9%. (SportsMole/ESPN)",
+   "full": "佛得角凭借与西班牙0:0和与乌拉圭2:2两平积2分，H组第三，平局可大概率以最佳第三身份出线，是本届最大黑马故事之一。沙特则以0:4惨败西班牙+积1分垫底，本场必须赢球，且需等待西/乌结果配合，压力极大。Opta超算给佛得角胜率40.8%，沙特33.9%，两队间略偏佛得角，平局概率约26%。佛得角风格稳守反击，核心是压制沙特Salem Al-Dawsari的个人能力。",
+   "enFull": "Cape Verde have drawn both previous matches (0-0 vs Spain, 2-2 vs Uruguay) to sit third in Group H on two points; a draw would likely send them through as one of the best third-placed teams in a remarkable World Cup debut. Saudi Arabia need a win after their 4-0 defeat to Spain, sitting bottom on 1 point with -4 goal difference. Opta gives Cape Verde a 40.8% win probability against Saudi Arabia's 33.9%. Cape Verde's compact defending against Al-Dawsari's creativity is the key tactical battle.",
+   "links": [
+    {
+     "name": "SportsMole – Cape Verde vs Saudi Arabia",
+     "url": "https://www.sportsmole.co.uk/football/cape-verde/world-cup-2026/preview/cape-verde-vs-saudi-arabia-prediction-team-news-lineups_599983.html"
+    },
+    {
+     "name": "ESPN – Cape Verde vs Saudi Arabia",
+     "url": "https://www.espn.com/soccer/story/_/id/49141810/fifa-world-cup-2026-cape-verde-vs-saudi-arabia-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周五062",
+   "impact": "两队主力伤缺",
+   "tone": "negative",
+   "text": "伊拉克Hussein(本届唯一进球+8球资历)伤缺大概率；塞内加尔门将Mendy韧带伤出局·Mory Diaw替首发；两队均必须赢出线。(SportsMole/ESPN双源)",
+   "en": "Iraq's Aymen Hussein (8 qualifying goals, only WC goal) doubt after early exit vs Norway; Senegal GK Mendy out with ligament injury, Mory Diaw to start. Both sides need a win to advance. (SportsMole/ESPN)",
+   "full": "伊拉克前锋Aymen Hussein在与挪威一战不足30分钟因伤退场，他是伊拉克本届唯一进球者且资历丰富(预选赛8球)，若缺席对塞内加尔影响极大，Ali Al-Hamadi或首发。塞内加尔门将Mendy因与挪威一战韧带损伤确认出局，Mory Diaw接替首发把关。两队目前均积3分(塞内加尔胜挪威3:2·伊拉克胜约旦1:0)，但塞内加尔净胜球领先；塞内加尔需赢球以最佳第三身份出线，伊拉克需赢才有出线希望。",
+   "enFull": "Iraq forward Aymen Hussein is a significant doubt after leaving the Norway match before 30 minutes, having scored all of Iraq's goals in the tournament and eight during qualifying. Ali Al-Hamadi is expected to lead the line. Senegal goalkeeper Edouard Mendy is ruled out with a ligament problem suffered against Norway, with Mory Diaw set to deputise. Both teams are on 3 points but Senegal lead on goal difference; Senegal need a win to advance as a best third-placed team, while Iraq also need victory to stay in contention.",
+   "links": [
+    {
+     "name": "SportsMole – Senegal vs Iraq preview",
+     "url": "https://www.sportsmole.co.uk/football/senegal/world-cup-2026/preview/senegal-vs-iraq-prediction-team-news-lineups_599956.html"
+    },
+    {
+     "name": "ESPN – Senegal vs Iraq",
+     "url": "https://www.espn.com/soccer/story/_/id/49165930/fifa-world-cup-2026-senegal-vs-iraq-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
    "match": "周五061",
    "impact": "法国临时主帅",
    "tone": "neutral",
@@ -1596,7 +1656,7 @@ window.DASH_DATA = {
   {
    "date": "2026-06-26",
    "match": "周五066",
-   "impact": "比利时Doku复出",
+   "impact": "Doku复出",
    "tone": "positive",
    "text": "比利时Doku因父亲假返队复出备战新西兰；Ngoy停赛·Debast仍疑；新西兰无伤缺·双方均未赢球·需胜才稳出线。(SportsMole/ESPN双源)",
    "en": "Belgium: Doku returns after paternity leave; Ngoy suspended, Debast doubtful. New Zealand: no injuries. Both must win to safely secure knockout qualification.",
@@ -1630,166 +1690,6 @@ window.DASH_DATA = {
     {
      "name": "ESPN Uruguay vs Spain preview & lineups",
      "url": "https://www.espn.com/soccer/story/_/id/49167172/fifa-world-cup-2026-uruguay-vs-spain-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周四060",
-   "impact": "美国4主力弃赛",
-   "tone": "negative",
-   "text": "美国确认轮换：Robinson/Richards/Adams/Balogun因黄牌保留未上，Pulisic替补。土耳其出局但动机优于美国保守阵。(NPR/FoxSports双源核实)",
-   "en": "USA confirmed heavy rotation: Robinson, Richards, Adams, Balogun all sat out to protect yellow cards; Pulisic on bench. Turkey (eliminated) still more motivated than a rotated USA.",
-   "full": "美国已锁定D组第一，Pochettino大幅轮换迎战土耳其：Antonee Robinson、Chris Richards、Tyler Adams、Folarin Balogun四人均因持黄牌坐板凳保留；Christian Pulisic因小腿伤休战对澳大利亚后，本场替补出发。Weston McKennie是原首发XI中唯一保留的球员。土耳其虽已连败出局，但面对美国大量轮换阵容，实际战斗力对比缩窄。国际共识土耳其客胜概率达49.1%(Smarkets/Polymarket)，高于竞彩去水水平，有潜在edge方向。",
-   "enFull": "USA are heavily rotating for their final group match against Turkey having sealed top spot in Group D. Robinson, Richards, Adams, and Balogun all sat out to avoid accumulating a second yellow card ahead of the knockout stage; Pulisic (returning from calf injury) started on the bench. McKennie was the only original starter retained. Turkey are already eliminated (0pts) but face a significantly weakened USA, narrowing the expected capability gap. International consensus gives Turkey a 49.1% win probability (Smarkets/Polymarket) — significantly above their implied odds in 竞彩 markets, suggesting potential edge for Turkey.",
-   "links": [
-    {
-     "name": "NPR USMNT rotation vs Turkey",
-     "url": "https://www.npr.org/2026/06/25/nx-s1-5869807/2026-world-cup-fifa-usmnt-turkey"
-    },
-    {
-     "name": "FoxSports USA vs Turkey storylines",
-     "url": "https://www.foxsports.com/stories/soccer/usa-turkiye-world-cup-storylines-projected-lineup-predictions"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周四059",
-   "impact": "戈麦斯伤愈复出",
-   "tone": "neutral",
-   "text": "巴拉圭Diego Gomez伤愈确认可出战；澳大利亚Leckie或轮换保留体能，Volpato预计顶替。两队格局平局概率不变。(SportsMole/Rotowire双源)",
-   "en": "Paraguay: Diego Gomez fit after coming off vs Turkey; Australia: Leckie may rest for R32, Volpato tipped to start.",
-   "full": "巴拉圭：Diego Gomez在对土耳其一战中途被换下，赛后伤情令人担忧，但SportsMole/Rotowire双源均确认他已克服不适、有望出战；他是Almirón(停赛)缺阵后巴拉圭中场最重要的组织核心，复出能提升球队创造力。澳大利亚：Leckie未被正式排除，但SportsMole分析认为澳大利亚大概率晋级，主帅可能让Leckie休息为淘汰赛保存体能，Cristian Volpato或从左路接替出战。净效果：巴拉圭中场略回血，澳大利亚前锋线可能出现轮换——§14平局42.2%共识不变。",
-   "enFull": "Paraguay: Diego Gomez was subbed off vs Turkey amid fitness concerns but both SportsMole and Rotowire confirm he has overcome his discomfort and is expected to feature vs Australia. He is Paraguay's chief creative force with Almiron suspended. Australia: Mathew Leckie has not been officially ruled out, but is widely expected to be rested with qualification likely, with Cristian Volpato potentially starting on the left wing. Net: Paraguay's midfield partially restores, Australia's attack may be slightly weaker. Draw probability (42.2% intl consensus) unchanged.",
-   "links": [
-    {
-     "name": "SportsMole Paraguay vs Australia team news",
-     "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/team-news/paraguay-vs-australia-injury-suspension-list-predicted-xis_599941.html"
-    },
-    {
-     "name": "Rotowire Paraguay vs Australia preview",
-     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-australia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-d-119488"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四055",
-   "impact": "德国保主力出战",
-   "tone": "neutral",
-   "text": "Nagelsmann确认不大轮换：已两战同一阵容，继续保持节奏；Schlotterbeck伤缺，Undav可能取代Havertz；厄瓜多尔积1分必须赢。(Bundesliga.com/BavarianFootballWorks双源)",
-   "en": "Nagelsmann confirms minimal rotation — same XI to maintain rhythm; Schlotterbeck (injured) out; Undav may start over Havertz. Ecuador (1pt) must win to advance.",
-   "full": "德国已6分锁定E组第一，但Nagelsmann明确表示不会大规模轮换——赛前特别强调队伍需要保持节奏、继续磨合，两战用同一首发XI。唯一确认缺席：Nico Schlotterbeck 因伤出局。进攻可能微调：Undav有望顶替Havertz首发，Leweling/Beier或上替换Sane/Wirtz，但核心不变。厄瓜多尔积1分必须赢球，将全力出击；但面对七战全胜态势的德国，逆转难度极高。",
-   "enFull": "Germany (6pts, Group E winners) are NOT rotating heavily per Nagelsmann's confirmation — he emphasized maintaining the team's rhythm and cohesion ahead of the knockout stage, fielding the same XI for a third game. Only confirmed absence: Nico Schlotterbeck (injury). Minor attacking tweaks possible: Undav over Havertz, Leweling/Beier replacing Sane/Wirtz. Ecuador (1pt) need a win to advance and will attack, but face a Germany side in excellent form and playing for seeding.",
-   "links": [
-    {
-     "name": "Bundesliga.com Germany rotation options",
-     "url": "https://www.bundesliga.com/en/bundesliga/news/germany-options-rotate-against-ecuador-world-cup-2026-37935"
-    },
-    {
-     "name": "BavarianFootballWorks Germany won't rotate",
-     "url": "https://www.bavarianfootballworks.com/germany-international-soccer/221000/germany-ecuador-world-cup-lineups-rotation-julian-nagelsmann-deniz-undav"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四056",
-   "impact": "科特出线战",
-   "tone": "neutral",
-   "text": "科特迪瓦积3分必须赢球锁定出线；库拉索积1分需赢+德国爆冷才能出线；Room门神上场15扑救创纪录。(SportsMole/Goal.com双源)",
-   "en": "Ivory Coast (3pts) must win to secure top-2 finish. Curacao (1pt) need a win + Germany upset. Goalkeeper Room made 15 saves vs Ecuador.",
-   "full": "科特迪瓦积3分排名E组第二，但胜负差与库拉索相同，赢球方能锁定出线；若输球，需等德国vs厄瓜多尔结果确认。库拉索积1分，理论上仍有出线可能但须自赢且德国爆冷——概率极低。两队均无重大伤缺确认。特别关注：库拉索门将Eloy Room在0:0平厄瓜多尔战中创纪录15扑救，是本届最佳门将表现之一；科特迪瓦锋线Haller+Pepe面对这道城墙将是硬仗。两队动机悬殊(科特必须赢vs库拉索需奇迹)，预计科特迪瓦更主动。",
-   "enFull": "Ivory Coast (3pts) sit second in Group E but must win to mathematically guarantee a top-2 finish; a defeat could still see them eliminated depending on the Germany-Ecuador scoreline. Curacao (1pt) technically still alive — need a win and Germany to lose — but the probability is minimal. No significant injuries confirmed for either side. Notable: Curacao keeper Eloy Room made a record-setting 15 saves in the 0:0 draw with Ecuador; Ivory Coast's Haller-led attack faces a tough test against him. Motivation gap strongly favors Ivory Coast.",
-   "links": [
-    {
-     "name": "SportsMole Curacao vs Ivory Coast preview",
-     "url": "https://www.sportsmole.co.uk/football/curacao/world-cup-2026/preview/curacao-vs-ivory-coast-prediction-team-news-lineups_599885.html"
-    },
-    {
-     "name": "Goal.com Curacao vs Ivory Coast preview",
-     "url": "https://www.goal.com/en/news/curacao-ivory-coast-world-cup-preview/bltaf6ced75ec6c319b"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四057",
-   "impact": "Timber伤缺",
-   "tone": "neutral",
-   "text": "荷兰Timber确认伤缺；突尼斯已出局新帅Renard接任(原帅赛后下课)，仅剩面子球。荷兰稳坐F组第一可能轮换。(ESPN伤缺跟踪/SportsMole双源)",
-   "en": "Netherlands: Timber confirmed out (injury tracker). Ivory Coast sacked coach Lamouchi after MD2 loss; legendary Herve Renard named emergency manager. Tunisia eliminated, playing for pride.",
-   "full": "突尼斯经历两连败(0:5负瑞典、0:4负日本)，于第二场后宣布解雇主教练Sabri Lamouchi，紧急聘请法国传奇教头Herve Renard接手——Renard此前曾率摩洛哥和赞比亚夺非洲杯，本届世界杯临危受命。突尼斯已数学出局，仅剩荣誉之战，预计轮换测试球员。荷兰：Timber(Arsenal)确认伤缺；大概率小幅轮换以备淘汰赛(Gakpo/Dumfries存在养伤考量)，但核心(De Jong/Depay/Reijnders)大概率出战。本场荷兰动机稳固(争组第一最佳签位)，两队实力差距悬殊。",
-   "enFull": "Tunisia (already eliminated) fired manager Sabri Lamouchi after their 0-4 loss to Japan on MD2, with legendary Herve Renard — who has won the Africa Cup of Nations with Morocco and Zambia — appointed as emergency replacement. Tunisia field a pride-only XI with expected rotation. Netherlands: Jurrien Timber (Arsenal) is confirmed absent per ESPN's official injury tracker; limited rotation expected (Gakpo/Dumfries may be rested), but Koeman's core of De Jong, Depay, and Reijnders likely to start. Netherlands motivation remains high — securing top spot and favorable knockout bracket seeding.",
-   "links": [
-    {
-     "name": "ESPN World Cup injuries tracker",
-     "url": "https://www.espn.com/soccer/story/_/id/48572979/2026-fifa-world-cup-injuries-tracker-which-stars-miss-latest-info"
-    },
-    {
-     "name": "SportsMole Tunisia vs Netherlands team news",
-     "url": "https://www.sportsmole.co.uk/football/tunisia/world-cup-2026/team-news/tunisia-vs-netherlands-injury-suspension-lists-predicted-xis--world-cup-2026_599926.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四059",
-   "impact": "巴拉圭缺主力",
-   "tone": "neutral",
-   "text": "巴拉圭 Almirón 停赛(红牌)；澳大利亚 Leckie 肌肉伤问题、Italiano 伤缺。两队同积3分，平局澳大利亚晋级。(SportsMole/FIFA.com双源)",
-   "en": "Paraguay: Almirón suspended; Australia: Leckie muscle issue, Italiano injured. Both on 3pts — draw sends Australia through.",
-   "full": "周四059实际为巴拉圭vs澳大利亚(D组末轮，非巴西)。⚠️ odds_data.js 主队标注疑为'巴西'但实际应为'巴拉圭'，请主会话核实。关键情报：巴拉圭头号球星 Almirón 因红牌停赛(本届赛事领先射手10球)，Gustavo Caballero 可能替补；澳大利亚 Leckie 有肌肉伤、Italiano 受伤，预计 Geria 顶替。积分形势：两队均积3分，巴拉圭必须赢球出线，平局澳大利亚凭净球差晋级。§14平局edge潜在触发(intl平局42.2%)。",
-   "enFull": "Match 059 is Paraguay vs Australia (Group D decider), not Brazil vs Australia as labeled — please verify odds_data.js home-team tag. Key: Almiron suspended for Paraguay (10 WC goals), Leckie doubtful for Australia. Both on 3pts; a draw sends Australia through on goal difference. Intl draw probability 42.2% (Smarkets/Polymarket) — potential §14 fade-favorite trigger if 竞彩 is significantly below that.",
-   "links": [
-    {
-     "name": "SportsMole Paraguay vs Australia preview",
-     "url": "https://www.sportsmole.co.uk/football/paraguay/world-cup-2026/preview/paraguay-vs-australia-prediction-team-news-lineups_599899.html"
-    },
-    {
-     "name": "FIFA match centre",
-     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四058",
-   "impact": "日本三伤停",
-   "tone": "negative",
-   "text": "日本队长远藤航缺阵，久保建英膝伤，マキノ病号；瑞典无伤缺。日本积4分平局即可出线，瑞典积3分必须赢。(SportsMole/SI.com双源)",
-   "en": "Japan: Endo (captain) out, Kubo knee injury, Machino ill. Sweden: no injury concerns. Japan needs draw (4pts), Sweden must win (3pts).",
-   "full": "日本 vs 瑞典是F组关键对决。日本伤缺严峻：队长远藤航(Liverpool)缺席整届；久保建英(Real Sociedad)在对荷兰平局中膝盖受伤仍未完全恢复；マキノ因病尚未登场。瑞典(Graham Potter执教)无任何伤缺停赛，预计首发 Gyökeres + Isak 的双锋锋线。积分：日本4分只需平局，瑞典3分必须赢球才能晋级。日本可以拖时间、瑞典必须主动进攻——这给日本守反带来空间。",
-   "enFull": "Japan vs Sweden is the decisive Group F clash. Japan are significantly weakened: captain Wataru Endo is absent for the tournament; Takefusa Kubo carries a knee injury from the Netherlands draw; Machino is ill and has not yet featured. Sweden (Graham Potter) have a clean bill of health, with Gyökeres and Isak expected to lead the line. Standings: Japan 4pts need only a draw, Sweden 3pts must win. Japan's injury absences may be offset by their tactical discipline defending deep.",
-   "links": [
-    {
-     "name": "SportsMole Japan vs Sweden team news",
-     "url": "https://www.sportsmole.co.uk/football/japan/injury-news/team-news/japan-vs-sweden-injury-suspension-list-predicted-xis_599891.html"
-    },
-    {
-     "name": "SI.com preview",
-     "url": "https://www.si.com/soccer/japan-vs-sweden-world-cup-preview-predictions-lineups-6-25-26"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-25",
-   "match": "周四060",
-   "impact": "美国轮换",
-   "tone": "neutral",
-   "text": "美国已锁D组第一大概率轮换；土耳其连败出局动机全无。Pulisic预计出战，Tyler Adams等4人黄牌危险。(ESPN/SportsMole双源)",
-   "en": "USA clinched Group D top spot, likely to rotate; Turkey eliminated (0pts). Pulisic expected fit despite calf. Adams/Balogun/Richards/Robinson on yellow card risk.",
-   "full": "土耳其 vs 美国：美国已锁定D组第一，Pochettino 面临是否主力全上的抉择——已有Pulisic(小腿)伤过但预计康复出战；Tyler Adams、Balogun、Chris Richards、Antonee Robinson 共4人积黄，有停赛风险若此轮领牌。土耳其连输两场已出局，Yildiz 小腿伤缓解预计可上场，但全队动机几乎为零。这场预计是美国保主力稳出线 vs 土耳其空场应付的格局——hhad让球盘value需慎判(美国可能保守放水)。",
-   "enFull": "USA vs Turkey: USA have sealed top spot in Group D and are weighing rotation. Pulisic (calf) expected fit; Tyler Adams, Balogun, Richards, and Robinson face yellow card suspension risk. Turkey are already eliminated (0pts, 2 losses); Kenan Yildiz available despite earlier calf issue. Motivation gap is extreme — USA may prioritize fitness for R32 over full effort, affecting hhad/Asian handicap lines. Key risk for bettors: USA's rotation could undermine any handicap play.",
-   "links": [
-    {
-     "name": "ESPN USMNT Turkey lineup dilemma",
-     "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi"
-    },
-    {
-     "name": "SportsMole Turkey vs USA team news",
-     "url": "https://www.sportsmole.co.uk/football/turkey/world-cup-2026/team-news/turkey-vs-usa-injury-suspension-list-predicted-xis_599851.html"
     }
    ]
   }
