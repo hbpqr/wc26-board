@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-26 21:10",
+  "updated": "2026-06-26 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1573,6 +1573,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-26",
+   "match": "周日073",
+   "impact": "加拿大多主力伤",
+   "tone": "negative",
+   "text": "加拿大Alphonso Davies(腿筋伤)全程未出战·Ismaël Koné骨折退出赛事·Eustaquio肌肉伤有疑问；南非无重大伤情(淘汰赛·32强)。(Goal.com/ESPN双源)",
+   "en": "Canada: Alphonso Davies (hamstring) yet to play all tournament; Ismaël Koné (broken leg) out for the tournament; Eustaquio muscle tightness doubt. South Africa: no significant injury concerns. (Round of 32, Goal.com/ESPN)",
+   "full": "加拿大进入32强后面临多重伤患困扰：左后卫Alphonso Davies腿筋伤在赛前已缺席所有小组赛·确定不上阵；中场Ismaël Koné在对卡塔尔一战骨折·退出本届赛事。Stephen Eustaquio对瑞士一战未首发(肌肉紧绷)虽非大伤但需观察。整体而言加拿大后场和中场核心明显缺阵，对比南非无重大伤情的完整阵容，实力评估中南非略占优势。两队均为历史首次进入淘汰赛，比赛于06-29 03:00(北京时间)在洛杉矶进行。⚠️本场为淘汰赛(32强)·无平局出路·若90分钟平局进入加时赛。",
+   "enFull": "Canada face this Round of 32 clash with notable absences. Left-back Alphonso Davies (hamstring) has not played a single minute in the tournament. Midfielder Ismaël Koné broke his leg against Qatar and is out for the tournament. Stephen Eustaquio sat out the Switzerland match with muscle tightness, though this is considered a minor concern. South Africa, meanwhile, have no significant injury issues — Hugo Broos has a full squad to choose from. This is a historic knockout debut for Bafana Bafana. Match is June 29 at 03:00 BJT in Los Angeles. ⚠️This is a knockout match (Round of 32) — no draws; extra time applies if 90 minutes level.",
+   "links": [
+    {
+     "name": "Goal.com – South Africa vs Canada preview",
+     "url": "https://www.goal.com/en/news/south-africa-canada-world-cup-preview/blt7b092fc81d7fdc79"
+    },
+    {
+     "name": "ESPN – South Africa vs Canada R32",
+     "url": "https://www.espn.com/espn/story/_/id/49185469/kick-team-news-how-watch-world-cup-round-32-clash"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周六072",
+   "impact": "阿根廷主力伤轮",
+   "tone": "negative",
+   "text": "阿根廷Cristian Romero对奥地利膝伤退场·大概率缺席约旦一战·Scaloni料轮换多人(已锁J组第一)；约旦无伤缺。(Bolavip/SportsMole双源)",
+   "en": "Argentina: Cristian Romero (knee, off vs Austria) likely out vs Jordan; Scaloni expected to rotate with Group J already secured. Jordan: no injury concerns. (Bolavip/SportsMole)",
+   "full": "阿根廷后卫Cristian Romero在对奥地利的比赛中因膝伤提前退场，目前大概率缺席对约旦的末轮小组赛(06-28 09:00北京时间)。Scaloni料以Otamendi(38岁)和Marcos Senesi搭档中卫；鉴于J组第一名已锁定6分·多名主力(含Messi)或轮换休息保留体力。约旦方面无任何伤停报告，全队齐整。Messi是否首发是最大焦点，若休息则阿根廷进攻锋芒大幅下降·约旦冷门空间扩大。⚠️国际共识约旦vs阿根廷:主5.4%·平10.8%·客83.9%(市场给约旦赢=重度冷门·HHAD 约旦+2让线)。",
+   "enFull": "Argentina defender Cristian Romero came off with a knee injury against Austria and is expected to miss the Jordan group closer. Scaloni is likely to rotate multiple starters having already secured top spot in Group J with 6 points. Otamendi (38) and Marcos Senesi are expected to partner in central defence. Messi's participation is uncertain — if rested, Argentina's attacking edge diminishes significantly, widening Jordan's upset window. Jordan report no injury concerns and have a full squad available. International consensus: Jordan 5.4% / draw 10.8% / Argentina 83.9% — Jordan win is a heavy underdog proposition; HHAD line is +2 for Jordan. ⚠️Market prices in Argentina rotation; actual lineup announcement is the key variable before kick-off.",
+   "links": [
+    {
+     "name": "Bolavip – Argentina lose Romero vs Jordan",
+     "url": "https://bolavip.com/en/world-cup/lionel-messi-argentina-lose-cristian-romero-vs-jordan-but-avoid-major-world-cup-scare"
+    },
+    {
+     "name": "SportsMole – Argentina predicted lineup vs Jordan",
+     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/will-messi-survive-scaloni-rotation-predicted-argentina-lineup-vs-jordan_600041.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-26",
    "match": "周六069",

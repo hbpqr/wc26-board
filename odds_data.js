@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-26 21:10:05",
+ "fetched_at": "2026-06-26 22:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -13,14 +13,14 @@ window.ODDS_DATA = {
    "status": "Selling",
    "had": {
     "h": "4.50",
-    "d": "4.15",
-    "a": "1.50",
-    "updated": "2026-06-26 19:27:06"
+    "d": "4.08",
+    "a": "1.51",
+    "updated": "2026-06-26 21:50:56"
    },
    "hhad": {
-    "h": "2.25",
+    "h": "2.23",
     "d": "3.19",
-    "a": "2.69",
+    "a": "2.72",
     "line": "+1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -30,12 +30,12 @@ window.ODDS_DATA = {
      0.371
     ],
     "mkt": [
-     0.393,
-     0.277,
-     0.329
+     0.397,
+     0.278,
+     0.325
     ],
-    "val_top": 1.0,
-    "edge_top": 0.042,
+    "val_top": 1.01,
+    "edge_top": 0.045,
     "mirage": false,
     "top_label": "让负",
     "verdict": "市场≈模型·无边"
@@ -44,23 +44,23 @@ window.ODDS_DATA = {
     "1:0": "21.00",
     "2:0": "33.00",
     "3:0": "80.00",
-    "2:1": "15.00",
+    "2:1": "16.00",
     "0:0": "22.00",
     "1:1": "8.75",
-    "2:2": "11.00",
+    "2:2": "10.00",
     "0:1": "10.50",
     "0:2": "9.75",
-    "0:3": "12.50",
+    "0:3": "13.00",
     "1:2": "6.80"
    },
    "elig": {
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -80,9 +80,9 @@ window.ODDS_DATA = {
     "updated": ""
    },
    "hhad": {
-    "h": "2.35",
-    "d": "3.70",
-    "a": "2.31",
+    "h": "2.37",
+    "d": "3.75",
+    "a": "2.27",
     "line": "-2",
     "tier": "deep",
     "tier_label": "深让·镜像雷区",
@@ -92,12 +92,12 @@ window.ODDS_DATA = {
      0.389
     ],
     "mkt": [
-     0.377,
-     0.239,
-     0.384
+     0.374,
+     0.236,
+     0.39
     ],
-    "val_top": 0.92,
-    "edge_top": 0.015,
+    "val_top": 0.93,
+    "edge_top": 0.019,
     "mirage": false,
     "top_label": "让胜",
     "verdict": "信市场让线"
@@ -117,8 +117,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -132,10 +132,10 @@ window.ODDS_DATA = {
    "time": "08:00",
    "status": "Selling",
    "had": {
-    "h": "2.28",
-    "d": "3.23",
+    "h": "2.25",
+    "d": "3.30",
     "a": "2.62",
-    "updated": "2026-06-26 15:52:45"
+    "updated": "2026-06-26 21:18:31"
    },
    "hhad": {
     "h": "5.25",
@@ -175,12 +175,12 @@ window.ODDS_DATA = {
    },
    "elig": {
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -237,12 +237,12 @@ window.ODDS_DATA = {
    },
    "elig": {
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -300,11 +300,11 @@ window.ODDS_DATA = {
    "elig": {
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -352,17 +352,17 @@ window.ODDS_DATA = {
     "3:0": "400.0",
     "2:1": "35.00",
     "0:0": "34.00",
-    "1:1": "15.50",
+    "1:1": "16.00",
     "2:2": "26.00",
-    "0:1": "11.50",
-    "0:2": "6.00",
-    "0:3": "6.75",
-    "1:2": "8.90"
+    "0:1": "12.50",
+    "0:2": "5.80",
+    "0:3": "6.50",
+    "1:2": "8.70"
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -420,11 +420,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -481,8 +481,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -540,11 +540,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -602,11 +602,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -664,11 +664,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -725,8 +725,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -784,11 +784,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   }
