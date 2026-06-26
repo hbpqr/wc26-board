@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-26 12:10",
+  "updated": "2026-06-26 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1573,6 +1573,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-26",
+   "match": "周五061",
+   "impact": "法国临时主帅",
+   "tone": "neutral",
+   "text": "法国主帅德尚因母亲去世暂离球队·缺席挪威一战·临时由助理居伊·斯特凡执教；挪威Ryerson伤情疑出局。(Yahoo Sports/ESPN双源核实)",
+   "en": "France manager Deschamps misses Norway game (mother's funeral); assistant Guy Stephan takes charge. Norway: Ryerson doubtful.",
+   "full": "重大人事变动：法国主帅迪迪埃·德尚因家人噩耗已返回法国参加葬礼，无法在现场指挥对挪威的末轮小组赛(2026-06-27 03:00)。临时由长期助理教练居伊·斯特凡接手执教，战术延续性有保障但临场应变能力或有弱化。两队均已积6分提前出线，双方低动机；挪威右后卫Julian Ryerson在前场因伤中途退场，Marcus Pedersen预计顶替。法国仍是竞彩大热门(@客1.48)，但德尚缺席+双方均已出线的双低动机组合，平局和挪威冷门逆转的空间均比定价更大。",
+   "enFull": "Major news: France manager Didier Deschamps has left the squad to attend his mother's funeral and will not be in the dugout for the Group I closer vs Norway (June 27, 03:00 BJT). Assistant Guy Stephan takes caretaker charge; tactical continuity is maintained but in-game adjustments may be weaker. Both nations are already qualified on 6 points, reducing motivation for both. Norway: Julian Ryerson came off injured vs Senegal; Marcus Pedersen expected to deputise at right-back. Despite France's quality, the absent-manager + mutual group-stage security combination meaningfully widens the probability window for a draw or Norwegian upset beyond what the market implies.",
+   "links": [
+    {
+     "name": "Yahoo Sports - Deschamps misses Norway match",
+     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-france-manager-didier-deschamps-will-miss-match-vs-norway-to-attend-mothers-funeral-201309200.html"
+    },
+    {
+     "name": "ESPN Norway vs France preview & lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49162941/norway-vs-france-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周五066",
+   "impact": "比利时Doku复出",
+   "tone": "positive",
+   "text": "比利时Doku因父亲假返队复出备战新西兰；Ngoy停赛·Debast仍疑；新西兰无伤缺·双方均未赢球·需胜才稳出线。(SportsMole/ESPN双源)",
+   "en": "Belgium: Doku returns after paternity leave; Ngoy suspended, Debast doubtful. New Zealand: no injuries. Both must win to safely secure knockout qualification.",
+   "full": "比利时vs新西兰(G组末轮·06-27 11:00)是双方共同的求生之战。比利时0胜2平急需一胜；Jeremy Doku此前因妻子临盆提前离队，现已返回有望出场。但Nathan Ngoy本场停赛，Zeno Debast仍列伤病名单存疑。新西兰同样0胜2平，但拥有完整一线队，无任何伤停。双方均知胜者大概率晋级淘汰赛；比利时赔率大热门但连平无状态，新西兰主场冷门空间需参考让球盘。",
+   "enFull": "Belgium vs New Zealand (Group G closer, June 27 11:00 BJT) is a must-win clash for both. Belgium (0W-2D) desperately need three points; Jeremy Doku, who left the squad for paternity leave, has returned and is expected to start. Absentees: Nathan Ngoy (suspended), Zeno Debast (doubtful). New Zealand also hold 0 wins from 2 draws but have a clean injury bill. A win for either side likely secures R32 qualification. Belgium are heavy favorites but lack a win all tournament, giving some upset potential for an organized New Zealand.",
+   "links": [
+    {
+     "name": "SportsMole NZ vs Belgium team news",
+     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/new-zealand-vs-belgium-injury-suspension-list-predicted-xis_599919.html"
+    },
+    {
+     "name": "ESPN NZ vs Belgium preview & lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49165403/new-zealand-vs-belgium-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "match": "周五064",
+   "impact": "乌拉圭后防缺阵",
+   "tone": "negative",
+   "text": "乌拉圭Araujo+de Arrascaeta仍伤缺·Gimenez已恢复训练；西班牙平局即可出线料轮换·Yamal出战。乌拉圭必须赢。(SportsMole/ESPN双源)",
+   "en": "Uruguay: Araujo and de Arrascaeta still out; Gimenez back in training. Spain need only a draw and may rotate; Yamal expected to start. Uruguay must win.",
+   "full": "乌拉圭vs西班牙(H组末轮·06-27 08:00)。乌拉圭积2分(连平)·必须赢球才能锁定晋级；若平局则需等其他结果。核心后卫Ronald Araujo整届缺阵仍未恢复；创造核心de Arrascaeta也未归队；中卫Gimenez最新已回归训练，有望复出。西班牙积4分锁定H组第一，Luis de la Fuente大概率轮换养精蓄锐，但Yamal料将出战，整体实力远强于乌拉圭。Bielsa背水一战vs西班牙低动机求稳——动机差异是本场核心变量。",
+   "enFull": "Uruguay vs Spain (Group H closer, June 27 08:00 BJT). Uruguay (2pts, two draws) must win to guarantee qualification, else fate depends on Cape Verde vs Saudi Arabia. Key absentees: Ronald Araujo (injured all tournament) and Giorgian de Arrascaeta (playmaker) still out; Jose Gimenez has returned to training and may feature. Spain (4pts, H1 secured) widely expected to rotate; Yamal likely starts. Motivation asymmetry is decisive — Bielsa's Uruguay will attack but face a structurally weakened backline against a strong Spanish side even with rotation.",
+   "links": [
+    {
+     "name": "SportsMole Uruguay vs Spain preview",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/uruguay-vs-spain-prediction-team-news-lineups_599989.html"
+    },
+    {
+     "name": "ESPN Uruguay vs Spain preview & lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49167172/fifa-world-cup-2026-uruguay-vs-spain-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
   {
    "date": "2026-06-26",
    "match": "周四060",
