@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-27 20:31",
+  "updated": "2026-06-27 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2139,9 +2139,9 @@ window.DASH_DATA = {
     "pick": "让胜 (约旦+2·阿根廷赢≤1球或平或约旦赢均中)",
     "tier": "硬信息差·轮换减星",
     "stake": 6,
-    "odds": 2.70,
+    "odds": 2.7,
     "value": 1.13,
-    "ev": 0.80,
+    "ev": 0.8,
     "note": "梅西确认板凳(ESPN/Yahoo Sports)·Romero膝伤缺·Scaloni大轮换·J组已锁6分第一；tilt-20%阿根廷λ→Poisson模型48%·§15保守校准42%→value=42%×2.70=1.13>1.10；hhad.single=1✓；§17.1四层验证：定义/价格/vig后EV均通过"
    },
    {
@@ -2150,7 +2150,7 @@ window.DASH_DATA = {
     "pick": "让胜 (巴拿马+2·英格兰赢≤1球或平或巴拿马赢均中)",
     "tier": "硬信息差·dead rubber大轮换",
     "stake": 4,
-    "odds": 2.70,
+    "odds": 2.7,
     "value": 1.08,
     "ev": 0.32,
     "note": "英格兰已出线dead rubber·确认大轮换·James出局·Rice伤疑·Saka受限；巴拿马+2缓冲；tilt-20%英格兰λ→模型48%·§15保守40%→value=40%×2.70=1.08·§0凸性给pick；hhad.single=1✓"
