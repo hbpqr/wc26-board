@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-28 01:12:27",
+ "fetched_at": "2026-06-28 02:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -21,7 +21,24 @@ window.ODDS_DATA = {
     "h": "3.63",
     "d": "3.00",
     "a": "1.92",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.269,
+     0.275,
+     0.457
+    ],
+    "mkt": [
+     0.244,
+     0.295,
+     0.461
+    ],
+    "val_top": 0.98,
+    "edge_top": 0.025,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "6.20",
@@ -66,7 +83,24 @@ window.ODDS_DATA = {
     "h": "2.85",
     "d": "4.10",
     "a": "1.87",
-    "line": "+2"
+    "line": "+2",
+    "tier": "deep",
+    "tier_label": "深让·镜像雷区",
+    "model": [
+     0.481,
+     0.236,
+     0.284
+    ],
+    "mkt": [
+     0.311,
+     0.216,
+     0.473
+    ],
+    "val_top": 1.37,
+    "edge_top": 0.17,
+    "mirage": true,
+    "top_label": "让胜",
+    "verdict": "镜像假金矿,不买"
    },
    "crs": {
     "1:0": "45.00",
@@ -107,7 +141,24 @@ window.ODDS_DATA = {
     "h": "1.89",
     "d": "3.55",
     "a": "3.14",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.476,
+     0.23,
+     0.293
+    ],
+    "mkt": [
+     0.469,
+     0.249,
+     0.282
+    ],
+    "val_top": 0.92,
+    "edge_top": 0.011,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "15.00",
@@ -152,7 +203,24 @@ window.ODDS_DATA = {
     "h": "2.64",
     "d": "3.13",
     "a": "2.32",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.397,
+     0.236,
+     0.367
+    ],
+    "mkt": [
+     0.335,
+     0.283,
+     0.382
+    ],
+    "val_top": 1.05,
+    "edge_top": 0.062,
+    "mirage": true,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "5.30",
@@ -197,7 +265,24 @@ window.ODDS_DATA = {
     "h": "1.32",
     "d": "4.35",
     "a": "7.05",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.672,
+     0.24,
+     0.088
+    ],
+    "mkt": [
+     0.671,
+     0.204,
+     0.126
+    ],
+    "val_top": 1.05,
+    "edge_top": 0.037,
+    "mirage": false,
+    "top_label": "让平",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "9.00",
@@ -242,7 +327,24 @@ window.ODDS_DATA = {
     "h": "2.70",
     "d": "3.90",
     "a": "1.99",
-    "line": "+2"
+    "line": "+2",
+    "tier": "deep",
+    "tier_label": "深让·镜像雷区",
+    "model": [
+     0.481,
+     0.236,
+     0.284
+    ],
+    "mkt": [
+     0.328,
+     0.227,
+     0.445
+    ],
+    "val_top": 1.3,
+    "edge_top": 0.153,
+    "mirage": true,
+    "top_label": "让胜",
+    "verdict": "镜像假金矿,不买"
    },
    "crs": {
     "1:0": "42.00",
@@ -283,7 +385,24 @@ window.ODDS_DATA = {
     "h": "2.00",
     "d": "3.30",
     "a": "3.07",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.457,
+     0.266,
+     0.277
+    ],
+    "mkt": [
+     0.443,
+     0.268,
+     0.289
+    ],
+    "val_top": 0.91,
+    "edge_top": 0.014,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "10.50",
@@ -328,7 +447,24 @@ window.ODDS_DATA = {
     "h": "2.95",
     "d": "3.34",
     "a": "2.04",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.282,
+     0.266,
+     0.451
+    ],
+    "mkt": [
+     0.3,
+     0.265,
+     0.434
+    ],
+    "val_top": 0.92,
+    "edge_top": 0.017,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "6.25",
@@ -373,7 +509,24 @@ window.ODDS_DATA = {
     "h": "3.82",
     "d": "3.58",
     "a": "1.70",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.218,
+     0.255,
+     0.528
+    ],
+    "mkt": [
+     0.232,
+     0.247,
+     0.521
+    ],
+    "val_top": 0.91,
+    "edge_top": 0.007,
+    "mirage": false,
+    "top_label": "让平",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "6.30",
