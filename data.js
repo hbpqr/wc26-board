@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-27 13:10",
+  "updated": "2026-06-27 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1699,6 +1699,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-27",
+   "match": "周六071",
+   "impact": "Amoura伤缺",
+   "tone": "negative",
+   "text": "阿尔及利亚Amoura腿筋伤缺席(对阿根廷一战受伤)；奥地利无伤停·Arnautovic预计首发。(SportsMole/Goal.com双源)",
+   "en": "Algeria: Amoura (hamstring, injured vs Argentina) out; Austria: no injuries, Arnautovic expected to start. (SportsMole/Goal.com)",
+   "full": "阿尔及利亚边锋Mohamed Amoura在6月17日对阿根廷的比赛中拉伤腿筋，此后一直缺阵，确认不参加本场对奥地利的比赛。Amoura是阿尔及利亚进攻核心之一，其缺席对锋线威胁影响较大；Mahrez和Gouiri预计搭档中前场。奥地利方面无任何伤停报告，Arnautovic预计首发，Sabitzer/Schlager/Wanner参与中场。两队均积1分(阿尔及利亚赢约旦·奥地利输阿根廷)，本场必须赢球方可有望晋级次轮。主场优势：中性场地，两队动机均强。⚠️市场数据待更新；intl_odds当前KeyError(地名映射)·无概率数据。",
+   "enFull": "Algeria winger Mohamed Amoura sustained a hamstring injury against Argentina on June 17 and is confirmed out for the Austrian game. Amoura is a key attacking outlet for Algeria; Mahrez and Gouiri are expected to partner in attack. Austria have a clean bill of health — Arnautovic is set to lead the line with Sabitzer and the Schlager duo in midfield. Both sides are on 1 point and must win to have any realistic chance of progressing. This is a must-win for both — a high-stakes encounter in Group J. ⚠️International odds data pending (intl_odds mapping issue for Algeria).",
+   "links": [
+    {
+     "name": "SportsMole – Algeria vs Austria team news",
+     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/team-news/algeria-vs-austria-injury-suspension-list-predicted-xis_600063.html"
+    },
+    {
+     "name": "Goal.com – Algeria vs Austria preview",
+     "url": "https://www.goal.com/en/news/algeria-austria-world-cup-preview/bltd61a8ee4bb405624"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-27",
+   "match": "周六070",
+   "impact": "双队无重大伤停",
+   "tone": "neutral",
+   "text": "刚果金无伤停报告；乌兹别克Ashurmatov(此前疑问)确认上场。两队均需赢球争晋级(K组·刚果1分·乌兹别克0分)。(SportsMole/ESPN双源)",
+   "en": "DR Congo: no injury concerns; Uzbekistan: Ashurmatov (previously doubtful) confirmed fit. Both sides must win to stay in contention (Group K). (SportsMole/ESPN)",
+   "full": "刚果金方面无伤停·无停赛，预计最强阵容出战·中场Makabi Lila和Kakuta预计发挥关键作用；球队在小组赛积1分(平葡萄牙·负哥伦比亚)·末轮必须赢球才能希望出线。乌兹别克斯坦后卫Rustam Ashurmatov此前有伤在身，最新消息确认他已准备就绪并可以上场；全队无其他重大伤情。乌兹别克两连败积0分·获胜方有机会凭借其他组结果勉强出线。本场预计技战术对抗激烈·双方动机相近(均需赢球)。⚠️intl_odds当前KeyError(地名映射)·无概率数据。",
+   "enFull": "DR Congo have no injury or suspension concerns — a full-strength squad is available with Makabi Lila and Kakuta expected in midfield. The Leopards are on 1 point (drew Portugal, lost to Colombia) and must win. Uzbekistan defender Rustam Ashurmatov, who had been a doubt due to injury, is confirmed fit and expected to feature. No other significant absences for The White Wolves, who are bottom of Group K with 0 points from 2 games. A win for either side could be enough to advance depending on other results — both teams are fully motivated. ⚠️International odds data pending (intl_odds name mapping issue).",
+   "links": [
+    {
+     "name": "SportsMole – Congo DR vs Uzbekistan team news",
+     "url": "https://www.sportsmole.co.uk/football/congo-dr/world-cup-2026/team-news/congo-dr-vs-uzbekistan-injury-suspension-list-predicted-xis--world-cup-2026_600078.html"
+    },
+    {
+     "name": "ESPN – Congo DR vs Uzbekistan preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49173684/congo-dr-vs-uzbekistan-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "2026-06-26",
    "match": "周日073",
