@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-27 20:10",
+  "updated": "2026-06-27 20:31",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -509,6 +509,16 @@ window.DASH_DATA = {
     "actualPnl": null,
     "status": "待结算",
     "note": "经验EV=+5.1元(0.33×4×3.30+0.11×4×15.77)；模型EV=-0.7元；CLV中性·最小fade-favorite仓；池282.55·最坏-8→274.55>>地板80"
+   },
+   {
+    "date": "06-27",
+    "desc": "周六2注10元:072约旦让胜@2.70·6元 + 068巴拿马让胜@2.70·4元",
+    "stake": 10,
+    "evPnl": 1.12,
+    "winProb": 65,
+    "actualPnl": null,
+    "status": "待结算",
+    "note": "梅西板凳+阿根廷大轮换(072)+英格兰dead rubber轮换(068)·HHAD让胜@2.70双注·tilt后value1.13/1.08·池278.55·最坏-10→268.55>>地板80"
    }
   ]
  },
@@ -1898,6 +1908,26 @@ window.DASH_DATA = {
    ]
   },
   {
+   "date": "2026-06-27",
+   "match": "周六072",
+   "impact": "梅西板凳·大轮换",
+   "tone": "negative",
+   "text": "梅西确认对约旦首发板凳(ESPN/Yahoo Sports)·Scaloni明确大轮换·Romero膝伤缺·Nico Paz预计接替位置；约旦无伤停。",
+   "en": "Messi confirmed bench starter vs Jordan (ESPN/Yahoo Sports); Scaloni plans heavy rotation; Romero (knee) out; Nico Paz to start. Jordan: no injuries.",
+   "full": "ESPN和Yahoo Sports最新确认：梅西将以替补身份出发对约旦的小组赛(06-28 10:00)，Scaloni赛前明确Messi板凳开场、预计半场后登场以保留体力迎接淘汰赛。Cristian Romero已因膝伤缺阵。Nico Paz预计接替梅西中前场首发。J组第一已锁6分·这是本轮最确定的轮换信息差。HHAD约旦+2让胜@2.70在大轮换背景下tilt后概率42%→value1.13(>1.10阈值)。",
+   "enFull": "ESPN and Yahoo Sports confirm Lionel Messi will start on the bench against Jordan, per coach Scaloni. Messi expected to enter second half to manage load before the knockout stage. Cristian Romero is already ruled out with a knee injury. Nico Paz set to start in No.10 role. With Group J already secured at 6pts, this is the most confirmed rotation intel of this round. HHAD Jordan +2 (让胜@2.70): tilt-adjusted probability 42% → value 1.13 above the 1.10 threshold.",
+   "links": [
+    {
+     "name": "ESPN – Messi to start on bench vs Jordan",
+     "url": "https://www.espn.com/soccer/story/_/id/49191791/lionel-messi-argentina-bench-jordan-fifa-2026-world-cup"
+    },
+    {
+     "name": "Yahoo Sports – Messi bench confirmed",
+     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-lionel-messi-will-start-on-bench-vs-jordan-argentina-coach-confirms-001436432.html"
+    }
+   ]
+  },
+  {
    "date": "2026-06-26",
    "match": "周六072",
    "impact": "阿根廷主力伤轮",
@@ -2099,101 +2129,89 @@ window.DASH_DATA = {
   }
  ],
  "slip": {
-  "title": "6月26日 · 周四 · §0最简凸性 · 21:00最终版",
-  "status": "六场全扫：HAD/HHAD价值最高仅0.96，无单项≥1.10。fade-favorite(055德国conf=63%)CLV不通过：竞彩平4.92<sharp公平5.26(负CLV-6.4%)。§0最高指令·给最小凸性picks：①厄瓜多尔@5.20·德国已锁组E第一无动机·value0.92·4元；②日本×巴拉圭2串1·model55%+37%·value联合0.85·4元。合计8元，诚实负EV约-0.7元，§0参与向量。影子book已记满6场预测。",
-  "detail": "周四6场扫描结果：055厄vs德(HAD全0.86-0.93·fade-CLV负)；056库vs科(竞彩未开盘HHAD仅·0.83-0.95)；057突vs荷(未开盘·HHAD让胜表面1.34但镜像假核心)；058日vs瑞(HAD全0.86-0.89·single=0)；059巴vs澳(HAD全0.84-0.96·single=0)；060土vs美(HAD全0.88-0.89·single=1)。无任何盘口真实edge≥1.10。§0给2注凸性：①055厄瓜多尔@5.20(德国6pt已锁Group E第一·零赢球动机·厄生死战·model18%×5.20=value0.92；had.single=1可单买)；②058日本×059巴拉圭2串1@4.25(日本model55.4%主胜·巴拉圭model36.5%主胜·联合概率~20%·联合value0.85；058 had.single=0+059 had.single=0均allUp合法)。最坏-8→270.55>>地板80；单日8/278.55=2.9%<<25%。",
+  "title": "6月28日 · 周六 · 轮换信息差 · 21:00最终版",
+  "status": "周六6场全扫：072约旦vs阿根廷HHAD让胜@2.70(梅西板凳+大轮换·tilt后42%·value1.13✓)·068巴拿马vs英格兰HHAD让胜@2.70(dead rubber大轮换·40%·value1.08✓)。070 fade-favorite CLV不通过(竞彩4.15<sharp公平4.33→负CLV)跳过。合计10元，§0双注。影子book已记满6场预测。",
+  "detail": "周六6场全扫：①067克vs加(HAD主0.89/平0.88/客0.87·HHAD-1最高0.92·均<1.10)；②068巴拿马vs英格兰(HAD未开盘·HHAD+2让胜@2.70·英格兰dead rubber确认大轮换/James出局/Rice伤疑/Saka受限·tilt-20%英格兰λ→模型48%→保守40%→value=1.08·hhad.single=1✓)；③069哥vs葡(HAD主0.92/平0.90/客0.86·HHAD+1最高0.92·<1.10)；④070刚果金vs乌兹别克(模型主胜61.3%→§14 fade-favorite触发但CLV闸：竞彩平4.15<sharp公平4.33→负CLV-4%→按§14协议不下；HAD/HHAD单=0)；⑤071阿尔及利vs奥地利(平45.9%model·HAD/HHAD单=0·Amoura伤缺削进攻)；⑥072约旦vs阿根廷(HAD未开盘·HHAD+2让胜@2.70·梅西确认板凳+Romero膝伤缺+Scaloni大轮换·tilt-20%阿根廷λ→模型48%→保守42%→value=42%×2.70=1.13✓·hhad.single=1✓)。最终2注：072让胜6元+068让胜4元。最坏-10→268.55>>地板80；10/278.55=3.6%<<25%。",
   "items": [
    {
-    "num": "周四055",
-    "match": "厄瓜多尔 vs 德国",
-    "pick": "厄瓜多尔 赢(主胜)",
-    "tier": "凸性/§0·德国零动机",
-    "stake": 4,
-    "odds": 5.2,
-    "value": 0.92,
-    "ev": -0.32,
-    "note": "德国6pt已锁Group E第一，无需赢球；厄瓜多尔生死战(必须赢且等待其他结果)；赔率5.20·model18%·value0.92<1.10；§0给凸性4元小注"
+    "num": "周六072",
+    "match": "约旦 vs 阿根廷",
+    "pick": "让胜 (约旦+2·阿根廷赢≤1球或平或约旦赢均中)",
+    "tier": "硬信息差·轮换减星",
+    "stake": 6,
+    "odds": 2.70,
+    "value": 1.13,
+    "ev": 0.80,
+    "note": "梅西确认板凳(ESPN/Yahoo Sports)·Romero膝伤缺·Scaloni大轮换·J组已锁6分第一；tilt-20%阿根廷λ→Poisson模型48%·§15保守校准42%→value=42%×2.70=1.13>1.10；hhad.single=1✓；§17.1四层验证：定义/价格/vig后EV均通过"
    },
    {
-    "num": "058×059",
-    "match": "日本×巴拉圭 2串1",
-    "pick": "2串1 日本主胜×巴拉圭主胜",
-    "legs": [
-     {
-      "n": "周四058",
-      "pick": "主胜(日本赢)",
-      "odds": 1.61
-     },
-     {
-      "n": "周四059",
-      "pick": "主胜(巴拉圭赢)",
-      "odds": 2.64
-     }
-    ],
-    "tier": "凸性串关/§0",
-    "match_detail": "058日本vs瑞典·059巴拉圭vs澳大利亚",
+    "num": "周六068",
+    "match": "巴拿马 vs 英格兰",
+    "pick": "让胜 (巴拿马+2·英格兰赢≤1球或平或巴拿马赢均中)",
+    "tier": "硬信息差·dead rubber大轮换",
     "stake": 4,
-    "odds": 4.25,
-    "value": 0.85,
-    "ev": -0.6,
-    "note": "058日本model55.4%(had.single=0·allUp=1)×059巴拉圭model36.5%(had.single=0·allUp=1)；联合概率~20%；联合value0.85<1.10；§0给凸性串关4元"
+    "odds": 2.70,
+    "value": 1.08,
+    "ev": 0.32,
+    "note": "英格兰已出线dead rubber·确认大轮换·James出局·Rice伤疑·Saka受限；巴拿马+2缓冲；tilt-20%英格兰λ→模型48%·§15保守40%→value=40%×2.70=1.08·§0凸性给pick；hhad.single=1✓"
    }
   ],
   "summary": {
-   "stake": 8,
-   "evLow": -8,
-   "evHigh": 37,
-   "winProb": 24,
+   "stake": 10,
+   "evLow": -10,
+   "evHigh": 27,
+   "winProb": 65,
    "best": {
-    "label": "厄瓜多尔赢+日本赢+巴拉圭赢(全中)",
-    "pnl": 34
+    "label": "072中+068中(双中)",
+    "pnl": 17
    },
    "worst": {
     "label": "全挂",
-    "pnl": -8
+    "pnl": -10
    },
    "keyScenarios": [
     {
-     "label": "仅厄瓜多尔赢",
-     "pnl": 13
+     "label": "仅072中(068挂)",
+     "pnl": 6.2
     },
     {
-     "label": "仅日本+巴拉圭串中",
-     "pnl": 9
+     "label": "仅068中(072挂)",
+     "pnl": 0.8
     },
     {
      "label": "全挂",
-     "pnl": -8
+     "pnl": -10
     }
    ]
   },
   "matrix": [
    {
-    "scenario": "厄赢+日赢+巴赢(全中)",
-    "prob": 4,
-    "returnTotal": 38,
-    "pnl": 34
+    "scenario": "072中+068中(双中)",
+    "prob": 17,
+    "returnTotal": 27,
+    "pnl": 17
    },
    {
-    "scenario": "仅厄赢(串关挂)",
-    "prob": 14,
-    "returnTotal": 21,
-    "pnl": 13
+    "scenario": "仅072中(068挂)",
+    "prob": 25,
+    "returnTotal": 16.2,
+    "pnl": 6.2
    },
    {
-    "scenario": "仅日赢+巴赢(厄不赢)",
-    "prob": 16,
-    "returnTotal": 17,
-    "pnl": 9
+    "scenario": "仅068中(072挂)",
+    "prob": 23,
+    "returnTotal": 10.8,
+    "pnl": 0.8
    },
    {
     "scenario": "全挂",
-    "prob": 66,
+    "prob": 35,
     "returnTotal": 0,
-    "pnl": -8
+    "pnl": -10
    }
   ],
-  "copyText": "周四这轮，下2注：\n① 场次：周四055 厄瓜多尔 vs 德国\n   买：厄瓜多尔赢\n   方式：单关（只买这场）\n   金额：4元\n\n② 2串1（下面两场全对才中，4元）：\n   · 周四058 日本 vs 瑞典 → 买日本赢\n   · 周四059 巴拉圭 vs 澳大利亚 → 买巴拉圭赢\n\n一共8元，谢谢！"
+  "copyText": "周六这轮，下2注（轮换信息差）：\n① 场次：周六072 约旦 vs 阿根廷\n   买：让胜（约旦+2，阿根廷赢≤1球、平局或约旦赢均算中）\n   方式：单关（只买这场）\n   金额：6元\n\n② 场次：周六068 巴拿马 vs 英格兰\n   买：让胜（巴拿马+2，英格兰赢≤1球、平局或巴拿马赢均算中）\n   方式：单关（只买这场）\n   金额：4元\n\n一共10元，谢谢！",
+  "reviewNote": "✓ 已独立复核 20:46 ｜ 草稿基本合规，无删改；⚠️068 value=1.08 低于1.10安全边际，但正EV(>1.0)+主会话已显式引用§0保留+stake已轻(4元)，§0凌驾§3通过"
  },
  "calibration": {
   "stats": {
