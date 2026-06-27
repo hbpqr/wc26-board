@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 03:13",
+  "updated": "2026-06-28 04:11",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1809,6 +1809,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-28",
+   "match": "周六068",
+   "impact": "英格兰确认首发5换",
+   "tone": "neutral",
+   "text": "图赫尔5换阵：Quansah·Anderson·Rogers·O'Reilly·Rashford首发；Rice落选·Saka/Kane/贝林厄姆齐首发。巴拿马阵容无变。(WorldSoccerTalk/ESPN确认首发·距开球50分钟公布)",
+   "en": "Tuchel makes 5 changes for Panama: Quansah, Anderson, Rogers, O'Reilly, Rashford in; Rice dropped but not injured; Saka, Kane, Bellingham all start. Panama lineup unchanged. (WorldSoccerTalk/ESPN confirmed lineups, released ~50min pre-KO)",
+   "full": "距开球约50分钟，英格兰官方公布确认首发：Pickford; Quansah, Guéhi, Konsa, O'Reilly; Anderson, Bellingham, Rogers; Saka, Kane, Rashford。图赫尔相比上场大幅轮换5人——Quansah首次上场(对位加纳0:0后Trippier/James全出)，Morgan Rogers和Nico O'Reilly中场大轮换，Marcus Rashford替入。最重要：Declan Rice未在首发，系战术降级而非伤缺；Bukayo Saka带着跟腱炎依然进首发(本场优先保持进攻)；Harry Kane和贝林厄姆依然领衔。巴拿马已出局·Carrasquilla全程缺席·阵容与前场相差无几。英格兰深度仍碾压·客胜共识未变，轮换降低了上半场稳健度但不改最终走势。",
+   "enFull": "England confirmed starting XI released ~50 minutes before kickoff: Pickford; Quansah, Guéhi, Konsa, O'Reilly; Anderson, Bellingham, Rogers; Saka, Kane, Rashford. Tuchel makes 5 changes from the Croatia draw — Quansah makes his tournament debut, Rogers and O'Reilly provide fresh midfield legs, Rashford returns up front. Key notes: Declan Rice is absent from the starting XI (tactical rotation, not injury); Bukayo Saka starts despite Achilles concerns (England are prioritizing this game given Panama are already eliminated); Kane and Bellingham still anchor the attack. Panama lineup is largely unchanged. England's squad depth remains vastly superior — the consensus England win is intact despite heavy rotation; early cohesion could be slightly lower. ⚠️ With so many changes, England's margin of control in the first 30 minutes may be reduced, but quality should tell by the 60th minute.",
+   "links": [
+    {
+     "name": "WorldSoccerTalk – Confirmed lineups",
+     "url": "https://worldsoccertalk.com/amp/world-cup/is-harry-kane-playing-panama-vs-england-projected-lineups-for-the-2026-world-cup-group-l-game/"
+    },
+    {
+     "name": "ESPN – Panama vs England preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49173382/panama-vs-england-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "2026-06-27",
    "match": "周六068",
