@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-27 17:10",
+  "updated": "2026-06-27 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1797,6 +1797,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-27",
+   "match": "周六068",
+   "impact": "詹姆斯确认伤缺",
+   "tone": "negative",
+   "text": "Reece James因腿后肌伤正式排除巴拿马一战(Goal.com/ESPN确认·非再观察)；Rice降级/轮换·Saka跟腱炎·巴拿马Carrasquilla全程缺席。",
+   "en": "Reece James officially ruled out vs Panama (hamstring confirmed, Goal.com/ESPN); Rice dropped/rotated; Saka managing Achilles. Panama's Carrasquilla absent all tournament.",
+   "full": "英格兰右后卫Reece James确认因腿后肌伤退出对巴拿马的阵容，不只是「监测中」——Goal.com标题明确ruled out·ESPN预测阵容中Reece James也未出现。Declan Rice在预测阵中被降级/轮换(非伤缺·战术决定)，Kobbie Mainoo料顶替中场核心。Bukayo Saka带着跟腱炎出战，上场时间受控。巴拿马Adalberto Carrasquilla(大腿内收肌)全程缺席·队长Godoy适应欠佳·两连败已出局动机极低。英格兰尽管多将变阵，阵容深度仍远优于巴拿马，客胜优势明显。",
+   "enFull": "England right-back Reece James has been officially ruled out of the Panama clash with a hamstring injury — Goal.com used the headline 'Reece James ruled out,' confirming it beyond monitoring. Declan Rice is dropped from the predicted XI (tactical rotation, not injury). Bukayo Saka continues managing Achilles tendinitis and may have limited minutes. Kobbie Mainoo is set to start alongside Elliot Anderson in central midfield. Panama are without Carrasquilla for the entire tournament and have no realistic path to qualification, which could affect motivation. Despite England's lineup changes, their squad depth still far exceeds Panama's, making an England win the overwhelming consensus.",
+   "links": [
+    {
+     "name": "Goal.com – Reece James ruled out",
+     "url": "https://www.goal.com/en/lists/reece-james-ruled-out-england-panama-world-cup-thomas-tuchel-injury/blt05e30a9a52e4975e"
+    },
+    {
+     "name": "ESPN – Panama vs England preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49173382/panama-vs-england-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-27",
+   "match": "周六071",
+   "impact": "平局市场46%",
+   "tone": "neutral",
+   "text": "市场加权共识：阿尔及利亚22.0% 平局46.0% 奥地利32.0%（Smarkets/Polymarket双源）；平局概率远超胜负·奥地利3分平局即出线·阿尔及利亚1分必须赢。动机严重分化。",
+   "en": "Market consensus (Smarkets/Polymarket): Algeria 22.0% / Draw 46.0% / Austria 32.0%. Draw is the dominant outcome; Austria (3pts) qualify with a draw while Algeria (1pt) need a win. Motivation sharply asymmetric.",
+   "full": "intl_odds数据(2026-06-27 18:10刷新)：Smarkets主22.0%·平46.1%·客32.0%，Polymarket主22.2%·平45.8%·客32.0%，加权共识主22.0%·平46.0%·客32.0%。平局概率46%为本届小组赛最高之一，市场正在为奥地利保平局出线这一理性策略定价。奥地利已积3分·平局即锁J组第二出线；阿尔及利亚仅积1分·必须赢球+看阿根廷结果。Amoura缺席削弱阿尔及利亚进攻端。§14 fade-favorite角度：本场没有明显高置信热门可fade；两队均不是极端热门/冷门，平局赔率须查竞彩实际值。自开盘以来平局概率升+3.9pp，印证市场向和局靠拢。",
+   "enFull": "intl_odds refresh (2026-06-27 18:10): Smarkets H22.0/D46.1/A32.0, Polymarket H22.2/D45.8/A32.0. Weighted consensus: H22.0% D46.0% A32.0%. A draw is the single most likely outcome per market, at nearly double the home-win probability. Austria, on 3 points, can qualify by holding a draw; Algeria, on 1 point, must win and need Argentina to drop points. Without Amoura, Algeria's attacking options are reduced. Since opening, the draw probability has drifted up +3.9pp — reflecting the market pricing in Austria's rational interest in not losing. Check actual Caizhan odds for the draw: if ≥1.10 value on draw, this could be a §14-style edge pick (market already sees it at 46%). ⚠️Confirm Caizhan draw odds before any bet.",
+   "links": [
+    {
+     "name": "SportsMole – Algeria vs Austria team news",
+     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/team-news/algeria-vs-austria-injury-suspension-list-predicted-xis_600063.html"
+    },
+    {
+     "name": "si.com – Algeria vs Austria preview",
+     "url": "https://www.si.com/soccer/algeria-vs-austria-world-cup-preview-predictions-lineups-6-27-26"
+    }
+   ]
+  },
   {
    "date": "2026-06-27",
    "match": "周六071",
