@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 08:10",
+  "updated": "2026-06-28 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1823,6 +1823,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-28",
+   "match": "周六072",
+   "impact": "阿根廷确认首发",
+   "tone": "positive",
+   "text": "赛前确认：梅西板凳·胡利安·阿尔瓦雷斯领衔进攻·Musso/Otamendi/Lo Celso/Paredes/Nico Paz首发·Scaloni大轮换11人·约旦无伤停。(ESPN/CBS Sports/Yahoo Sports三源)",
+   "en": "Match-day confirmed: Messi on bench, Julián Álvarez leads attack. Argentina XI: Musso; Molina, Otamendi, Senesi, Tagliafico; Lo Celso, Paredes, Barco; Nico Paz, Álvarez, Nico González. Jordan: no injuries. (ESPN/CBS Sports/Yahoo Sports)",
+   "full": "6月28日赛前确认：阿根廷大轮换首发阵容——Musso(GK); Molina, Otamendi, Senesi, Tagliafico(四后卫); Lo Celso, Paredes, Barco(三中场); Nico Paz, Julián Álvarez, Nico González(三前锋)。梅西确认首发坐板凳，保留为淘汰赛阶段。Romero膝伤缺席。Scaloni明确表示大轮换理由：已锁J组第一、需保护主力体能。约旦方面无重大伤停，但两连败积0分已无晋级可能，积极性存疑。此轮换阵容仍具相当实力(胡利安/帕雷德斯等)，阿根廷客胜大方向不变，但整体统治力低于满员阵容。⚠️约旦+2让球闸口：阿根廷净胜3+才破让球；净胜1-2(让平/让小胜)概率在市场86%客胜基础上需分类估算。",
+   "enFull": "Match-day lineup confirmed (released pre-kickoff). Argentina rotates heavily: Musso in goal; four-man back line of Molina, Otamendi, Senesi, Tagliafico; midfield three of Lo Celso, Paredes, Barco; front three Nico Paz, Julián Álvarez, Nico González. Messi starts on the bench — Scaloni confirmed this publicly, citing squad preservation ahead of the knockout stages. Romero (knee) misses out entirely. Jordan (0pts, 2 losses) are already eliminated and may lack motivation, though they'll want pride. Argentina's rotated XI still outclasses Jordan significantly, but the handicap (+2 for Jordan) hinges on Argentina's winning margin — they must win by 3+ to cover the HHAD. Market: Argentina 86% to win (Smarkets/Polymarket consensus). ⚠️HHAD slip item: slip picks Jordan +2 let-win (Argentina wins by ≤1, draw, or Jordan wins). If Argentina win by exactly 2, it's a handicap draw (push/lose per Caizhan HHAD rules).",
+   "links": [
+    {
+     "name": "Yahoo Sports – Messi on bench confirmed",
+     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-lionel-messi-will-start-on-bench-vs-jordan-argentina-coach-confirms-001436432.html"
+    },
+    {
+     "name": "CBS Sports – Messi bench vs Jordan",
+     "url": "https://www.cbssports.com/soccer/news/lionel-messi-world-cup-argentina-jordan-group-stage-finale/"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周六071",
+   "impact": "决战次席格局",
+   "tone": "neutral",
+   "text": "两队各积3分(阿尔及利亚赢约旦·奥地利赢约旦)·胜者锁J组次席·平局则奥地利凭净胜球领先·Amoura确认缺席·Alaba首发·开球50分钟。(SportsMole/Goal.com双源)",
+   "en": "Both sides now on 3pts — winner takes Group J runner-up spot; draw likely favors Austria on GD. Amoura confirmed out (hamstring); Alaba starts for Austria. KO in ~50 min. (SportsMole/Goal.com)",
+   "full": "赛前情况更新(06-28 09:10)：阿尔及利亚和奥地利目前均积3分——阿尔及利亚此前赢约旦、奥地利此前赢约旦，同组积分并列。胜者直接锁定J组次席出线；若平局，奥地利凭借净胜球(+2)优于阿尔及利亚(+0)，平局对奥地利更有利，但动机上奥地利未必愿意冒险。阿尔及利亚：Amoura确认因腿筋伤缺阵(自6月17日起)；预测阵：Luca Zidane; Belghali, Mandi, Bensebaini, Aït-Nouri; Bentaleb, Boudaoui; Mahrez, Maza, Chaïbi; Gouiri。奥地利：Alaba确认首发(膝伤后复出·有利消息)；预测阵：Schlager; Posch, Danso, Alaba, Laimer; Seiwald, X.Schlager; Schmid, Wanner, Sabitzer（注：Arnautovic未在预测阵中）。两队均有充分动机赢球，市场46%平局概率印证双方趋于保守走势。",
+   "enFull": "Pre-match update (June 28, 09:10 CST): Algeria and Austria are both now on 3 points, with both having beaten Jordan in their previous group games. The winner claims Group J's runner-up spot directly. If it ends in a draw, Austria likely advance on goal difference (+2 vs Algeria's +0). Algeria: Amoura (hamstring since June 17) confirmed out; predicted XI: Zidane; Belghali, Mandi, Bensebaini, Aït-Nouri; Bentaleb, Boudaoui; Mahrez, Maza, Chaïbi; Gouiri. Austria: Alaba is expected to start — his inclusion is positive news after recent fitness concerns; predicted XI: Schlager; Posch, Danso, Alaba, Laimer; Seiwald, X.Schlager; Schmid, Wanner, Sabitzer (note: Arnautovic NOT in predicted XI). ⚠️Match-day lineups to be confirmed ~50 min before 10:00 KO. Market: H22% D46% A26% — a draw is the single most probable outcome. Algeria must win; Austria can accept a draw.",
+   "links": [
+    {
+     "name": "SportsMole – Algeria vs Austria team news",
+     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/team-news/algeria-vs-austria-injury-suspension-list-predicted-xis_600063.html"
+    },
+    {
+     "name": "SI.com – Algeria vs Austria preview",
+     "url": "https://www.si.com/soccer/algeria-vs-austria-world-cup-preview-predictions-lineups-6-27-26"
+    }
+   ]
+  },
   {
    "date": "2026-06-28",
    "match": "周六068",
