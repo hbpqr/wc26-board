@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 05:10",
+  "updated": "2026-06-29 06:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1857,6 +1857,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周一075",
+   "impact": "戈麦斯停赛",
+   "tone": "negative",
+   "text": "巴拉圭中场Diego Gomez累黄停赛·中卫Alderete存疑出场·Almiron停赛解除可复出·德国左后卫Brown小伤存疑。(Sports Mole/ESPN双源)",
+   "en": "Paraguay: Diego Gomez (suspended) and Alderete (doubt) key absences; Almiron returns from suspension. Germany: Nathaniel Brown (left-back) minor injury doubt vs Paraguay. (Sports Mole/ESPN)",
+   "full": "巴拉圭备战德国出现关键缺阵：中场核心Diego Gomez因累积黄牌停赛无法出场，其缺席令巴拉圭中路组织和防守硬度大降。中卫Omar Alderete存疑，能否首发尚待确认。好消息是攻中Miguel Almiron的停赛解除，可重回首发，为巴拉圭增加创造力。预计首发(4-4-2)：Villar; Martinez, Balbuena, ?, Santos; Cubas, Pena, Ounahi替补; Enciso, Avalos, Almiron。德国方面：左后卫Nathaniel Brown有小伤存疑(非主力後卫但替补深度降低)；Rüdiger/Tah主力中卫组合健康无变化；Havertz领衔4-2-3-1；Pavlovic/Nmecha双后腰；Sane/Musiala/Wirtz三前场。⚠️两队情报均有多来源确认，但Alderete/Brown伤情属'存疑'级别，赛前官方首发公布后可能更新。",
+   "enFull": "Paraguay suffer two key absences for the Round of 32 vs Germany: midfielder Diego Gomez is suspended after accumulating yellow cards in the group stage — he was central to Paraguay's creative play. Centre-back Omar Alderete is also in doubt and may not be risked from the start. However, attacking midfielder Miguel Almiron's ban has been lifted, allowing the Newcastle star to return to the starting XI after missing the final group stage match — a positive development for Paraguay's attack. Germany: Nathaniel Brown (left-back) has a minor injury knock, creating a small doubt; Rüdiger and Tah remain fit at centre-back. Germany are expected to line up in their settled 4-2-3-1 with Havertz as the No.9, Pavlovic/Nmecha screening, and Sane/Musiala/Wirtz behind him. ⚠️ Alderete/Brown injury levels are 'doubt'-grade — confirm from official lineups ~60 min before kickoff. (Sports Mole/ESPN, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Germany vs Paraguay team news",
+     "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
+    },
+    {
+     "name": "ESPN – Germany vs Paraguay World Cup preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49197785/germany-vs-paraguay-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "match": "周一074",
+   "impact": "板仓疑缺",
+   "tone": "negative",
+   "text": "日本CB板仓滉二(Ko Itakura)对瑞典上半场提前换下·预测首发由谷口彰悟(Taniguchi)顶替·日本后防深度下降·Kubo膝伤同样缺席。(ESPN/Sports Mole双源)",
+   "en": "Japan CB Ko Itakura taken off in 1st half vs Sweden with unspecified discomfort; Taniguchi expected to start at CB vs Brazil. Kubo (knee) also highly unlikely. Japan defense weakened. (ESPN/Sports Mole)",
+   "full": "日本后防迎来新的不确定性：中卫Ko Itakura在周四对瑞典的1:1中下半场替换，主要原因是上半场被提前换下时存在不明原因身体不适。Sports Mole预测首发中Itakura不在11人内，由谷口彰悟(Shogo Taniguchi)顶替中卫位置。Hiroki Ito担任另一中卫。Kubo膝伤仍持续，未能全训，出场几乎被排除。预测首发(3-4-2-1调整为4-1-4-1)：Zion Suzuki; Watanabe, Taniguchi, Hiroki Ito; Sugawara, Tanaka/Kamada; Nakamura, Doan; Kamada, Maeda; Ueda。⚠️两关键球员同步存疑令日本防守明显削弱；slip已基于Raphinha+Kubo双缺建模(val=0.89)，若Itakura确认缺阵，日本防守端更弱，但市场若已知晓则赔率变动不大(市场极快消化)。赛前约24h，官方首发待确认。",
+   "enFull": "Japan's defensive setup faces fresh uncertainty ahead of the Round of 32 vs Brazil: centre-back Ko Itakura was taken off in the first half of Thursday's 1-1 draw with Sweden due to undisclosed discomfort. Sports Mole's predicted XI for the Brazil clash does NOT include Itakura — instead Shogo Taniguchi is projected to partner Hiroki Ito at centre-back. This is a step beyond the earlier 'questionable' designation: he was physically removed early in the Sweden match, suggesting the issue is more than precautionary. Takefusa Kubo (knee) also remains highly unlikely to feature. Japan's predicted XI: Suzuki; Watanabe, Taniguchi, Hiroki Ito; Sugawara, Tanaka, Kamada, Nakamura; Doan, Maeda; Ueda. ⚠️ Two key contributors potentially absent (Kubo = creative outlet, Itakura = defensive anchor). The slip's model already assumes both Raphinha and Kubo absent; Itakura's doubt makes Japan's defensive block slightly less organized, though Brazil (even without Raphinha) remain heavy favourites. Official lineup ~60 min before June 30 01:00 kickoff. (ESPN/Sports Mole, two independent sources)",
+   "links": [
+    {
+     "name": "ESPN – Brazil vs Japan World Cup preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49194679/brazil-vs-japan-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+     "name": "Sports Mole – Japan predicted XI vs Brazil (defensive doubt)",
+     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/defensive-injury-doubt-predicted-japan-xi-vs-brazil_600207.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周日073",
