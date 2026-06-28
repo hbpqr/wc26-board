@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 00:10",
+  "updated": "2026-06-29 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1845,6 +1845,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周日073",
+   "impact": "莫科埃纳复出",
+   "tone": "positive",
+   "text": "南非中场Teboho Mokoena结束停赛复出，重新担任核心组织角色；Zwane仍停赛。(Sports Mole/Yahoo Sports双源)",
+   "en": "South Africa's Teboho Mokoena returns from one-game suspension vs Canada; Zwane still suspended. (Sports Mole/Yahoo Sports)",
+   "full": "南非中场Teboho Mokoena在对科特迪瓦和墨西哥各吃一黄后停赛，缺席上一场南非vs韩国，现确认对加拿大复出首发。Mokoena是南非中场核心，其回归明显加强南非中路控制能力。对阵加拿大(073场·06-29 03:00)，南非阵容更接近全员状态：Zwane仍因红牌停赛，Davies仅板凳，加拿大Kone整届缺阵、Eustaquio/Jones带伤临场。预测首发：Williams；Mudau/Mbokazi/Okon/Modiba；Mbatha/Mokoena；Maseko/Mofokeng/Appollis；Makgopa。⚠️距开球仅约2小时，首发尚待官方确认。",
+   "enFull": "South Africa midfielder Teboho Mokoena is confirmed to return from his one-match suspension for the Round of 32 clash vs Canada (match 073, 03:00 June 29). He missed the final group stage match after collecting yellow cards in the first two games. His return reinforces South Africa's midfield organization. South Africa will still be without the suspended Zwane (red card). Canada face their own absences: Kone ruled out for the tournament, Eustaquio and Alfie Jones both questionable with knocks. Predicted South Africa XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Mokoena; Maseko, Mofokeng, Appollis; Makgopa. ⚠️ Kick-off ~2h away; official lineup not yet released. (Sports Mole/Yahoo Sports)",
+   "links": [
+    {
+     "name": "Sports Mole – South Africa vs Canada team news",
+     "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
+    },
+    {
+     "name": "Yahoo Sports – South Africa vs Canada lineups",
+     "url": "https://au.sports.yahoo.com/south-africa-vs-canada-lineups-135022733.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "match": "周一074",
+   "impact": "巴西首发确认",
+   "tone": "neutral",
+   "text": "巴西首发确认：Rayan替补Raphinha(腘绳肌)出任右路，Vinicius/Cunha/Paqueta随行；Kubo伤疑不在首发XI。(Sports Mole/RotoWire双源)",
+   "en": "Brazil confirmed XI vs Japan: Rayan starts in place of injured Raphinha; Vinicius/Cunha/Paqueta complete attack. Kubo doubtful, not in Japan projected XI. (Sports Mole/RotoWire)",
+   "full": "巴西主帅安切洛蒂确认沿用对阵苏格兰时的进攻方案：Rayan(波尔多18岁天才)顶替腘绳肌伤出局的Raphinha出任右路，Vinicius Junior在左、Matheus Cunha中锋、Lucas Paqueta组织。Raphinha本届状态最佳，将在新泽西大本营集中康复希望打16强赛。日本方面：Kubo疑出(膝伤)不在预期首发；Itakura带伤预计出场；Moriyasu沿用3-4-2-1，Ito/Kamada支持前锋Ueda，Doan以右翼卫向前推进。巴西阵容整体仍强，但少了Raphinha的创造力，日本压低防线再搏偷袭的策略可行性上升。⚠️比赛06-30 01:00，约24小时后开球，官方首发待确认。",
+   "enFull": "Brazil coach Ancelotti confirms his starting XI for the Round of 32 vs Japan (match 074, June 30 01:00): 18-year-old Bournemouth prodigy Rayan starts on the right wing in place of Raphinha (hamstring, out for at least this round). Vinicius Junior leads the left flank, Matheus Cunha at CF, Lucas Paqueta as the 10. Raphinha will undergo intensive recovery in New Jersey targeting a potential Round of 16 return. Japan: Kubo (knee) is doubtful and projected out of the starting XI; Ko Itakura listed questionable but expected to start. Coach Moriyasu sticks with his settled 3-4-2-1 with Ito/Kamada supporting striker Ueda and Doan as the right wing-back. Brazil remain heavy favorites but the absence of Raphinha's creativity gives Japan a marginally better chance of keeping it tight. ⚠️ Match ~24h away; official lineup not yet confirmed. (Sports Mole/RotoWire)",
+   "links": [
+    {
+     "name": "Sports Mole – Brazil predicted XI vs Japan",
+     "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/predicted-lineups/rayan-or-raphinha-predicted-brazil-xi-vs-japan_600205.html"
+    },
+    {
+     "name": "RotoWire – Brazil vs Japan preview",
+     "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
+    }
+   ]
+  },
   {
    "date": "2026-06-28",
    "match": "周一075",
