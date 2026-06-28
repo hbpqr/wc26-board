@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 13:10",
+  "updated": "2026-06-28 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1838,7 +1838,7 @@ window.DASH_DATA = {
   {
    "date": "2026-06-28",
    "match": "周日073",
-   "impact": "南非Zwane停赛",
+   "impact": "Zwane停赛",
    "tone": "negative",
    "text": "南非核心攻中Themba Zwane因开幕战红牌禁赛·全组缺席本场·南非进攻威胁大降；Mokoena复回中场，整体阵型相对完整。(Sports Mole/ESPN双源)",
    "en": "South Africa's key attacking midfielder Themba Zwane is suspended (red card vs Mexico, Group A) for the entire group stage and Round of 32 clash with Canada — a significant attacking absence. Mokoena returns to bolster midfield. (Sports Mole/ESPN)",
@@ -1918,7 +1918,7 @@ window.DASH_DATA = {
   {
    "date": "2026-06-28",
    "match": "周六068",
-   "impact": "英格兰确认首发5换",
+   "impact": "英格兰5换首发",
    "tone": "neutral",
    "text": "图赫尔5换阵：Quansah·Anderson·Rogers·O'Reilly·Rashford首发；Rice落选·Saka/Kane/贝林厄姆齐首发。巴拿马阵容无变。(WorldSoccerTalk/ESPN确认首发·距开球50分钟公布)",
    "en": "Tuchel makes 5 changes for Panama: Quansah, Anderson, Rogers, O'Reilly, Rashford in; Rice dropped but not injured; Saka, Kane, Bellingham all start. Panama lineup unchanged. (WorldSoccerTalk/ESPN confirmed lineups, released ~50min pre-KO)",
