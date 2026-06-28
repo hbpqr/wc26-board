@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 21:10",
+  "updated": "2026-06-28 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1845,6 +1845,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-28",
+   "match": "周一075",
+   "impact": "主力后卫缺",
+   "tone": "negative",
+   "text": "德国中卫Nico Schlotterbeck因对科特迪瓦时(6/21)踝关节韧带撕裂整届报销·Rüdiger/Tah顶替后防线受影响。(ESPN/FIFA.com/Bundesliga三源)",
+   "en": "Germany defender Schlotterbeck ruled out of entire WC2026 with torn ankle ligament (injury vs Côte d'Ivoire 6/21); Rüdiger/Tah cover CB duties vs Paraguay. (ESPN/FIFA.com/Bundesliga)",
+   "full": "德国后防迎来本届最大伤停：中卫Nico Schlotterbeck在6月21日对科特迪瓦的比赛中踝关节韧带撕裂，DFB官方确认整届报销。他将留在大本营随队但不可出场。Antonio Rüdiger将继续领衔后防，Tah则填补另一中卫位置。对阵巴拉圭(075场)，德国后防深度缩减，但Rüdiger状态全场稳定。Schlotterbeck曾是德国主力后卫，缺席令科特迪瓦得以突破后防打进2:1，对阵更强的巴拉圭若防线出现组织问题需关注。⚠️该伤情发生在6/21，市场已有6天时间消化定价，impact很可能已price-in。",
+   "enFull": "Germany suffer a major defensive blow: centre-back Nico Schlotterbeck has been ruled out for the remainder of WC2026 after sustaining torn ankle ligament against Côte d'Ivoire on June 21. The DFB confirmed he will remain with the squad but cannot play. Antonio Rüdiger and Jonathan Tah are expected to partner at centre-back against Paraguay (match 075). Schlotterbeck was a key starter; his absence was felt in the Ivory Coast defeat (2:1). For Germany vs Paraguay, the CB rotation depth is reduced, though Rüdiger remains in excellent form. ⚠️ Injury occurred June 21 — 6+ days for the market to price this in, so impact is likely already reflected in current odds. (ESPN/FIFA.com/Bundesliga, three independent sources)",
+   "links": [
+    {
+     "name": "ESPN – Schlotterbeck out for rest of WC2026",
+     "url": "https://www.espn.com/soccer/story/_/id/49143768/germany-nico-schlotterbeck-miss-rest-world-cup-ankle-injury"
+    },
+    {
+     "name": "FIFA.com – Schlotterbeck ruled out",
+     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/nico-schlotterbeck-germany-injured"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周一074",
+   "impact": "Kubo确认缺阵",
+   "tone": "negative",
+   "text": "日本Takefusa Kubo(膝伤)赛前未能全训·几乎确认缺席巴西一战·日本进攻组织削弱(已有Itakura带伤出战疑问)。(RotoWire/Sports Mole双源)",
+   "en": "Japan's Kubo (knee) not training fully ahead of Brazil clash, highly unlikely to feature; Itakura also questionable. Japan's attack further weakened on top of Brazil's Raphinha absence. (RotoWire/Sports Mole)",
+   "full": "日本前锋Takefusa Kubo因膝伤赛前无法全力训练，出战巴西的可能性极低，多家媒体预计其缺席。中卫Ko Itakura同样带伤存疑但预计强行首发。巴西方面Raphinha(腿筋·6/19伤缺)整场缺席，由年轻球员Rayan替补右路。两队同时面对核心创造者缺阵，实际攻势强度均有下降，但巴西整体深度仍远超日本。日本2022年曾凭防守体系爆冷击败德国/西班牙，若Kubo缺阵则日本完全转入防守反击模式依赖前锋。⚠️slip已按Raphinha/Kubo均伤缺建模·market已price·val=0.89确认负EV仅§0凸性小注。",
+   "enFull": "Japan attacker Takefusa Kubo is highly unlikely to face Brazil due to a knee injury that has prevented him from training fully. He is not projected to start and his availability is in serious doubt. Itakura is also questionable but expected to start through injury. For Brazil, Raphinha (hamstring, out since June 19) misses the Round of 32 clash as well, replaced by youngster Rayan on the right wing — Neymar has returned from injury as a substitute option. Both sides are missing their primary creative playmakers simultaneously. Brazil's depth still makes them heavy favourites, but Japan have a track record of defensive discipline upsetting giants (beat Germany and Spain in 2022). ⚠️ The slip already models both Raphinha/Kubo absent — this is a confirmation of assumptions already baked in (val=0.89, negative EV, §0 small-stake only). (RotoWire/Sports Mole, two independent sources)",
+   "links": [
+    {
+     "name": "RotoWire – Brazil vs Japan preview team news",
+     "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
+    },
+    {
+     "name": "Sports Mole – Brazil vs Japan preview",
+     "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-japan-prediction-team-news-lineups_600204.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周日073",
+   "impact": "Kone整届缺",
+   "tone": "negative",
+   "text": "加拿大中场Ismael Kone(胫骨骨折·对卡塔尔时伤)整届报销·Eustaquio小伤测试·Davies仅替补备用。(Sports Mole/SI.com双源)",
+   "en": "Canada: Kone (fractured tibia vs Qatar) ruled out of entire WC2026; Eustaquio and Alfie Jones face late fitness tests; Davies (hamstring comeback) only bench option vs South Africa. (Sports Mole/SI.com)",
+   "full": "加拿大备战南非出现多重减员：中场核心Ismael Kone在小组赛对卡塔尔时骨折，整届缺阵。另有Eustaquio和Alfie Jones均有伤需赛前测试才能确认出战，且两人均列入临时名单但存疑。阿尔方索·戴维斯在因腿后肌伤缺席全部小组赛后预计复出，但Marsch大概率将他放在替补席，不会首发。南非方面Zwane仍停赛，Mokoena复回。两队均首次打入32强淘汰赛。加拿大中场因Kone骨折+Eustaquio伤缺，组织核心大幅削弱；当前赔率给加拿大客胜1.50，市场认为加拿大略占优。⚠️ Kone折后两周，大概率已price-in；Eustaquio/Jones伤缺若赛前宣布才是最新消息。",
+   "enFull": "Canada face significant injury issues ahead of the Round of 32 vs South Africa: midfielder Ismael Kone fractured his tibia in the group stage against Qatar and is out for the entire tournament. Stephen Eustaquio and Alfie Jones both have knocks and face late fitness tests. Alphonso Davies, who missed the entire group stage with a hamstring injury, is set to return but is projected to come off the bench rather than start. South Africa have Zwane suspended and Mokoena returning. Both nations make their maiden World Cup knockout appearances. Canada's midfield engine is significantly weakened by Kone's absence plus Eustaquio's uncertain fitness — though current odds already price Canada as slight favourites (away win @1.50). ⚠️ Kone injury is 2+ weeks old and highly likely price-in already; any Eustaquio/Jones confirmed absence closer to kickoff would be fresher market-moving news. (Sports Mole/SI.com, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – South Africa vs Canada team news",
+     "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/preview/south-africa-vs-canada-prediction-team-news-lineups_600163.html"
+    },
+    {
+     "name": "SI.com – South Africa vs Canada preview",
+     "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"
+    }
+   ]
+  },
   {
    "date": "2026-06-28",
    "match": "周一076",
