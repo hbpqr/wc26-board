@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 12:10",
+  "updated": "2026-06-28 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1838,6 +1838,26 @@ window.DASH_DATA = {
   {
    "date": "2026-06-28",
    "match": "周日073",
+   "impact": "南非Zwane停赛",
+   "tone": "negative",
+   "text": "南非核心攻中Themba Zwane因开幕战红牌禁赛·全组缺席本场·南非进攻威胁大降；Mokoena复回中场，整体阵型相对完整。(Sports Mole/ESPN双源)",
+   "en": "South Africa's key attacking midfielder Themba Zwane is suspended (red card vs Mexico, Group A) for the entire group stage and Round of 32 clash with Canada — a significant attacking absence. Mokoena returns to bolster midfield. (Sports Mole/ESPN)",
+   "full": "南非进攻核心Themba Zwane在小组赛首场对阵墨西哥时收到红牌直接被停赛，从未踏入本届任何一场小组赛，本场对加拿大同样缺席。Zwane是Bafana Bafana创造力来源，缺少他后南非进攻更加依赖Evidence Makgopa的策动和边路反击。好消息是中场核心Teboho Mokoena上场因两黄停赛·本场复回首发，可补强南非中场硬度。综合伤停/停赛因素：南非净减一攻中+增一防中(Mokoena)；加拿大净减前锋Koné(骨折·全缺)，Davies替补预备。市场共识南非16%/平27%/加拿大57%基本准确定价了双方伤停格局。",
+   "enFull": "South Africa are without their key creative midfielder Themba Zwane for this Round of 32 clash against Canada. Zwane received a red card in South Africa's opening match against Mexico and has been suspended throughout the group stage — this is his first and only suspension match of the tournament. His absence removes South Africa's primary creative outlet; coach Hugo Broos will rely more heavily on Evidence Makgopa's movement and counter-attacks on the wings. On the positive side, midfielder Teboho Mokoena returns from a one-match ban (two yellow cards accumulated in first two games). Net suspension/injury impact: South Africa lose an attacking midfielder (Zwane) but gain a defensive midfielder (Mokoena); Canada lose striker Koné (leg fracture, all tournament) but gain Davies (bench return). Market consensus SAf 16%/Draw 27%/Canada 57% reflects the two-sided absences fairly. (Sports Mole/ESPN, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – South Africa vs Canada team news",
+     "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
+    },
+    {
+     "name": "ESPN – South Africa vs Canada preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49185213/south-africa-vs-canada-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周日073",
    "impact": "戴维斯复出",
    "tone": "positive",
    "text": "加拿大主帅Marsch赛前确认Davies可出战·大概率替补登场(非首发)·已是本届首次可用；南非Mokoena从停赛复回首发。(CBC Sports/Fox Sports/bet365双源)",
@@ -2032,86 +2052,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports – Messi bench confirmed",
      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-lionel-messi-will-start-on-bench-vs-jordan-argentina-coach-confirms-001436432.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周六072",
-   "impact": "阿根廷主力伤轮",
-   "tone": "negative",
-   "text": "阿根廷Cristian Romero对奥地利膝伤退场·大概率缺席约旦一战·Scaloni料轮换多人(已锁J组第一)；约旦无伤缺。(Bolavip/SportsMole双源)",
-   "en": "Argentina: Cristian Romero (knee, off vs Austria) likely out vs Jordan; Scaloni expected to rotate with Group J already secured. Jordan: no injury concerns. (Bolavip/SportsMole)",
-   "full": "阿根廷后卫Cristian Romero在对奥地利的比赛中因膝伤提前退场，目前大概率缺席对约旦的末轮小组赛(06-28 09:00北京时间)。Scaloni料以Otamendi(38岁)和Marcos Senesi搭档中卫；鉴于J组第一名已锁定6分·多名主力(含Messi)或轮换休息保留体力。约旦方面无任何伤停报告，全队齐整。Messi是否首发是最大焦点，若休息则阿根廷进攻锋芒大幅下降·约旦冷门空间扩大。⚠️国际共识约旦vs阿根廷:主5.4%·平10.8%·客83.9%(市场给约旦赢=重度冷门·HHAD 约旦+2让线)。",
-   "enFull": "Argentina defender Cristian Romero came off with a knee injury against Austria and is expected to miss the Jordan group closer. Scaloni is likely to rotate multiple starters having already secured top spot in Group J with 6 points. Otamendi (38) and Marcos Senesi are expected to partner in central defence. Messi's participation is uncertain — if rested, Argentina's attacking edge diminishes significantly, widening Jordan's upset window. Jordan report no injury concerns and have a full squad available. International consensus: Jordan 5.4% / draw 10.8% / Argentina 83.9% — Jordan win is a heavy underdog proposition; HHAD line is +2 for Jordan. ⚠️Market prices in Argentina rotation; actual lineup announcement is the key variable before kick-off.",
-   "links": [
-    {
-     "name": "Bolavip – Argentina lose Romero vs Jordan",
-     "url": "https://bolavip.com/en/world-cup/lionel-messi-argentina-lose-cristian-romero-vs-jordan-but-avoid-major-world-cup-scare"
-    },
-    {
-     "name": "SportsMole – Argentina predicted lineup vs Jordan",
-     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/will-messi-survive-scaloni-rotation-predicted-argentina-lineup-vs-jordan_600041.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周六069",
-   "impact": "葡萄牙必须赢",
-   "tone": "neutral",
-   "text": "哥伦比亚6分领头K组·Luis Suarez肩伤确认可出战；葡萄牙Tomas Araujo膝伤存疑·需赢球才能以组首晋级·C罗vs乌兹别克贡献进球。(SportsMole/ESPN双源)",
-   "en": "Colombia top Group K with 6pts; Suarez clears shoulder injury test. Portugal's Tomas Araujo is a fitness doubt — they must win to top the group; Ronaldo scored vs Uzbekistan. (SportsMole/ESPN)",
-   "full": "哥伦比亚前两场全胜积6分稳居K组首位，Diego Suarez肩伤赛前曾存疑，但最新消息确认可以出战本场，预计维持首发；后卫Lucumí·中场Lerma体能充沛。葡萄牙积4分位列次席，若输球有可能被哥伦比亚或另一组结果影响，因此Roberto Martinez一方必须赢球以锁定组首。后卫Tomas Araujo在首场对阵刚果金时受伤，仍是疑问·其余球员无重大伤停。C罗在上轮对阵乌兹别克斯坦时打入一球·状态回勇·预计首发。本场为双强对决，哥伦比亚主动力在于出线已定有空间压制；葡萄牙背水赢球动机更强。",
-   "enFull": "Colombia lead Group K with a perfect 6 points after two wins. Luis Suarez cleared a shoulder injury scare and is expected to start alongside Luiz Díaz. Portugal sit second with 4 points — a win is essential to top the group and avoid a potentially tougher Round of 32 path. Defender Tomas Araujo sustained an injury in the opening win over Congo DR and is rated as a doubt, though no other significant absences are expected. Cristiano Ronaldo scored against Uzbekistan last match and is expected to feature from the start. The match is a high-stakes clash with Portugal needing the win while Colombia can afford to defend.",
-   "links": [
-    {
-     "name": "SportsMole – Colombia vs Portugal preview",
-     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/colombia-vs-portugal-prediction-team-news-lineups_600099.html"
-    },
-    {
-     "name": "ESPN – Colombia vs Portugal preview",
-     "url": "https://www.espn.in/football/story/_/id/49172923/fifa-world-cup-2026-colombia-vs-portugal-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周六068",
-   "impact": "英格兰多将伤疑",
-   "tone": "negative",
-   "text": "英格兰Declan Rice新伤小腿存疑·Saka跟腱炎·Spence踝伤；Mainoo候补入场；巴拿马Carrasquilla全程缺席·已被淘汰。(SportsMole双源确认)",
-   "en": "England hit by injury doubts: Declan Rice fresh calf concern is major worry; Saka Achilles tendinitis; Spence ankle doubt. Mainoo on standby. Panama's Carrasquilla absent all tournament; Panama already eliminated. (SportsMole)",
-   "full": "英格兰在对阵加纳0:0平局后迎来多伤困扰：Declan Rice赛后出现小腿新伤，成为对巴拿马一战最大疑云，Kobbie Mainoo随时备战顶替中场核心；Bukayo Saka整个赛事期间受跟腱炎困扰，上场发挥受限；右后卫Djed Spence对加纳赛后出现踝伤也存疑。Reece James此前已有腿后肌问题需持续监测。Marcus Rashford虽有腿后肌不适但仍替补出场。巴拿马方面核心中场Adalberto Carrasquilla全程因大腿内收肌伤缺阵；队长Anibal Godoy本届几乎未上场；巴拿马两连败已被淘汰，动机有限。",
-   "enFull": "England face multiple injury concerns ahead of the Panama clash. Declan Rice emerged from the Ghana draw with a fresh calf problem and is listed as a major doubt — Kobbie Mainoo is on standby to partner Elliot Anderson. Bukayo Saka has been managing Achilles tendinitis throughout the tournament. Djed Spence also picked up an ankle knock against Ghana and is uncertain. Reece James continues to be monitored for a hamstring issue. Panama, already eliminated with back-to-back defeats, are without Adalberto Carrasquilla (adductor, all tournament) and skipper Anibal Godoy has barely featured due to fitness concerns. ⚠️Injury situation may affect England lineup significantly.",
-   "links": [
-    {
-     "name": "SportsMole – England injury list vs Panama",
-     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/saka-rashford-latest-england-injury-suspension-list-vs-panama_599953.html"
-    },
-    {
-     "name": "SportsMole – Panama vs England preview",
-     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/panama-vs-england-prediction-team-news-lineups_600066.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-26",
-   "match": "周六067",
-   "impact": "加纳门将伤缺",
-   "tone": "negative",
-   "text": "加纳正选门将Ati-Zigi对巴拿马时受伤出局·替补Asare对英格兰(0:0)3次扑救表现出色；克罗地亚Budimir替补打进制胜球大概率首发。(ESPN/SportsMole双源)",
-   "en": "Ghana's first-choice GK Lawrence Ati-Zigi is out injured (hurt vs Panama); backup Asare kept a clean sheet vs England. Croatia's Budimir likely starts after scoring the winner vs Panama. (ESPN/SportsMole)",
-   "full": "加纳正选门将Lawrence Ati-Zigi在首场对阵巴拿马时受伤倒下，之后对英格兰0:0战中由Hearts of Oak替补门将Benjamin Asare出阵，共完成3次扑救表现亮眼。目前仍无Ati-Zigi伤情恢复的官方消息，对克罗地亚一战大概率由Asare继续把关。克罗地亚方面，前锋Ante Budimir替补登场打进1:0制胜球，预计在本场获得首发机会。加纳目前积4分，平局即晋级；克罗地亚积3分必须赢球才有机会出线，动机更强。Modric等老将面临世界杯最后一战压力。",
-   "enFull": "Ghana's first-choice goalkeeper Lawrence Ati-Zigi sustained an injury against Panama and has not played since. His replacement, Hearts of Oak stopper Benjamin Asare, impressed in the 0-0 draw with England, recording three saves. Ati-Zigi's status for the Croatia clash remains unclear with no official return timeline. For Croatia, striker Ante Budimir came off the bench to score the only goal in the 1-0 win over Panama, and is expected to start this must-win fixture. Ghana need only a point to advance from Group L; Croatia must win and hope results go their way. This is likely Luka Modric's final World Cup match, adding extra motivation for the Croatians.",
-   "links": [
-    {
-     "name": "ESPN – Croatia vs Ghana preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49172894/fifa-world-cup-2026-croatia-vs-ghana-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
-    },
-    {
-     "name": "SportsMole – Ghana lineup vs Croatia",
-     "url": "https://www.sportsmole.co.uk/football/ghana/world-cup-2026/predicted-lineups/stick-or-twist-in-the-sticks-predicted-ghana-xi-vs-croatia_600077.html"
     }
    ]
   },
