@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 20:35",
+  "updated": "2026-06-28 21:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1845,6 +1845,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-28",
+   "match": "周一076",
+   "impact": "荷双主力复出",
+   "tone": "positive",
+   "text": "荷兰Dumfries(小伤)与Brobbey(小伤)均已通过健康测试可出战·Van de Ven复回左后卫首发·Timber整届伤缺(腹股沟)不变。(Sports Mole/FIFA.com双源)",
+   "en": "Netherlands fitness boost: Dumfries and Brobbey both passed fitness tests and are available vs Morocco; Van de Ven returns to start at left-back. Timber remains out all tournament (groin). (Sports Mole/FIFA.com)",
+   "full": "荷兰迎来双重健康利好：Denzel Dumfries和Brian Brobbey两人此前均有小伤，但赛前均通过健康测试，确认可上阵对摩洛哥。Van de Ven复回左后卫首发位置，将Ake替换至替补。Jurriën Timber因腹股沟伤整届缺席不变，荷兰已适应无Timber的阵容打法。预计首发：Verbruggen; Dumfries, Van Hecke, Van Dijk, Van de Ven; Gravenberch, De Jong, Reijnders; Malen, Brobbey, Gakpo。两名关键球员通过健康测试令荷兰战斗力接近满编，对摩洛哥的赔率优势更加稳固。",
+   "enFull": "Netherlands receive a double fitness boost ahead of their Round of 32 clash with Morocco: Denzel Dumfries (minor knock) and Brian Brobbey (minor knock) have both been passed fit and are available for selection. Micky van de Ven is set to return to the starting XI at left-back, with Nathan Ake dropping to the bench. Jurriën Timber (groin) remains out for the tournament — Netherlands have adjusted to life without him across the group stage. Predicted XI: Verbruggen; Dumfries, Van Hecke, Van Dijk, Van de Ven; Gravenberch, De Jong, Reijnders; Malen, Brobbey, Gakpo. The two fitness clearances mean Netherlands are close to full strength for the most important match of their tournament. (Sports Mole/FIFA.com, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Netherlands double fitness boost predicted XI",
+     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/predicted-lineups/double-fitness-boost-how-netherlands-could-line-up-vs-morocco_600224.html"
+    },
+    {
+     "name": "FIFA.com – Netherlands v Morocco match preview",
+     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周一076",
+   "impact": "摩4主力回归",
+   "tone": "positive",
+   "text": "摩洛哥Mazraoui/Diop/Bouaddi/Ounahi预计回归首发·Saibari本届3球进4场领衔进攻·整体阵型最强配置。(Sports Mole/Squawka双源)",
+   "en": "Morocco four starters return: Mazraoui, Diop, Bouaddi, Ounahi back in XI; Saibari (3 goals in 3 apps) leads attack vs Netherlands. Morocco at full strength. (Sports Mole/Squawka)",
+   "full": "摩洛哥对荷兰将迎来多名主力回归：Noussair Mazraoui、Issa Diop、Ayyoub Bouaddi和Azzedine Ounahi四人预计重回首发11人。主教练Ouahbi将轮换调整回最强11人阵容。锋线领衔的Ismael Saibari本届3场贡献3球，状态绝佳；Hakimi担任右后卫，El Khannouss和Ounahi组成中场核心。预计首发：Bounou; Hakimi, Diop, Riad, Mazraoui; Bouaddi, El Aynaoui; Díaz, Ounahi, El Khannouss; Saibari。摩洛哥2022世界杯曾打进四强、淘汰赛6场5胜1平，本届32强对阵正是发挥淘汰赛能力的舞台，但面对接近满编的荷兰仍是以弱胜强。",
+   "enFull": "Morocco will recall four key starters for the Round of 32 clash with Netherlands: Noussair Mazraoui, Issa Diop, Ayyoub Bouaddi and Azzedine Ounahi are all expected to return to the starting XI after resting or rotation in the group stage. Coach Ouahbi reverts to Morocco's strongest lineup. Leading the attack is Ismael Saibari, who has scored three goals in three appearances at WC2026 and heads to Bayern Munich this summer — he has been in sensational form. The predicted XI: Bounou; Hakimi, Diop, Riad, Mazraoui; Bouaddi, El Aynaoui; Díaz, Ounahi, El Khannouss; Saibari. Morocco reached the semi-finals at the 2022 World Cup and have a record of 5W1D across knockout rounds — this Round of 32 sets the stage for their trademark big-game performance, though facing a near-full-strength Netherlands is a significant challenge. (Sports Mole/Squawka, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Morocco predicted XI vs Netherlands",
+     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/predicted-lineups/ouahbi-to-make-changes-how-morocco-could-line-up-vs-netherlands_600225.html"
+    },
+    {
+     "name": "Squawka – Netherlands vs Morocco team news and predicted lineups",
+     "url": "https://www.squawka.com/en/news/world-cup/netherlands-vs-morocco-team-news-predicted-lineups/"
+    }
+   ]
+  },
   {
    "date": "2026-06-28",
    "match": "周日073",
