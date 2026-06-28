@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 20:10",
+  "updated": "2026-06-28 20:35",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -535,6 +535,16 @@ window.DASH_DATA = {
     "actualPnl": null,
     "status": "待结算",
     "note": "梅西板凳+阿根廷大轮换(072)+英格兰dead rubber轮换(068)·HHAD让胜@2.70双注·tilt后value1.13/1.08·池278.55·最坏-10→268.55>>地板80"
+   },
+   {
+    "date": "06-28",
+    "desc": "周一2注8元:074日本@5.25·4元单关 + 076摩洛哥@3.64·4元单关",
+    "stake": 8,
+    "evPnl": -0.92,
+    "winProb": 37,
+    "actualPnl": null,
+    "status": "待结算",
+    "note": "全场无val≥1.10·§0最高指令凸性最小仓·Raphinha伤缺(074)+摩洛哥淘汰赛能力(076)·CLV均负·池278.55·最坏-8→270.55>>地板80"
    }
   ]
  },
@@ -2074,92 +2084,120 @@ window.DASH_DATA = {
      "url": "https://sports.yahoo.com/articles/saudi-arabia-xi-vs-cape-060000478.html"
     }
    ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周一074",
+   "impact": "巴西核心缺阵",
+   "tone": "negative",
+   "text": "巴西Raphinha腿筋伤确认缺席vs日本·ESPN及telecomasia双源证实·Brazil vs Japan R32仍无出战可能；日本Kubo膝伤(vs荷兰场受伤)继续缺席。(ESPN/telecomasia双源)",
+   "en": "Raphinha confirmed out for Brazil vs Japan R32 (hamstring); Kubo (knee, injured vs Netherlands) also doubtful/out. (ESPN/telecomasia dual sources)",
+   "full": "Raphinha suffered hamstring injury in group stage vs Haiti; ESPN confirmed World Cup return uncertain; telecomasia confirmed will miss R32 match vs Japan. Brazil Ancelotti expected to keep same XI shape without him.",
+   "enFull": "Raphinha confirmed out for Brazil vs Japan Round of 32. Suffered hamstring injury against Haiti in group stage. ESPN and telecomasia both confirmed he will miss the Round of 32 match. Multiple sessions of daily physiotherapy ongoing, targeting possible return in later rounds if Brazil advances.",
+   "links": [
+    "https://www.espn.com/soccer/story/_/id/49129032/brazil-confirm-raphinha-hamstring-injury-world-cup-2026-return-uncertain-group-c",
+    "https://www.telecomasia.net/news/football/raphinha-to-miss-2026-world-cup-round-of-32-match-against-japan-due-to-injury/"
+   ]
+  },
+  {
+   "date": "2026-06-28",
+   "match": "周一075",
+   "impact": "德国中卫退出",
+   "tone": "negative",
+   "text": "德国Nico Schlotterbeck踝伤退出本届世界杯剩余赛事·Rüdiger+Tah中卫搭档；巴拉圭Diego Gómez停赛·Almirón回归·Alderete膝盖存疑。(Fox Sports/SportsMole双源)",
+   "en": "Germany's Nico Schlotterbeck ruled out for remainder of WC with ankle injury; Rudiger+Tah in CB. Paraguay: Diego Gomez suspended, Almiron returns, Alderete knee doubt. (Fox Sports/SportsMole)",
+   "full": "Schlotterbeck confirmed out for remainder of 2026 WC. Rudiger and Tah will partner in CB. Germany's Kimmich moves to RB. Paraguay lose Gomez to suspension but welcome back Almiron from suspension. Alderete a doubt with knee problem.",
+   "enFull": "Schlotterbeck ruled out for remainder of 2026 World Cup with ankle injury per Fox Sports. Kimmich shifts to right back. Rudiger and Tah form CB partnership. Paraguay: Almiron returns (served 1-match suspension vs Australia), Diego Gomez suspended, Omar Alderete knee doubt.",
+   "links": [
+    "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz",
+    "https://www.sportsmole.co.uk/football/germany/world-cup-2026/predicted-lineups/will-brown-be-passed-fit-how-germany-could-line-up-against-paraguay_600234.html"
+   ]
   }
  ],
  "slip": {
-  "title": "6月28日 · 周六 · 轮换信息差 · 21:00最终版",
-  "status": "周六6场全扫：072约旦vs阿根廷HHAD让胜@2.70(梅西板凳+大轮换·tilt后42%·value1.13✓)·068巴拿马vs英格兰HHAD让胜@2.70(dead rubber大轮换·40%·value1.08✓)。070 fade-favorite CLV不通过(竞彩4.15<sharp公平4.33→负CLV)跳过。合计10元，§0双注。影子book已记满6场预测。",
-  "detail": "周六6场全扫：①067克vs加(HAD主0.89/平0.88/客0.87·HHAD-1最高0.92·均<1.10)；②068巴拿马vs英格兰(HAD未开盘·HHAD+2让胜@2.70·英格兰dead rubber确认大轮换/James出局/Rice伤疑/Saka受限·tilt-20%英格兰λ→模型48%→保守40%→value=1.08·hhad.single=1✓)；③069哥vs葡(HAD主0.92/平0.90/客0.86·HHAD+1最高0.92·<1.10)；④070刚果金vs乌兹别克(模型主胜61.3%→§14 fade-favorite触发但CLV闸：竞彩平4.15<sharp公平4.33→负CLV-4%→按§14协议不下；HAD/HHAD单=0)；⑤071阿尔及利vs奥地利(平45.9%model·HAD/HHAD单=0·Amoura伤缺削进攻)；⑥072约旦vs阿根廷(HAD未开盘·HHAD+2让胜@2.70·梅西确认板凳+Romero膝伤缺+Scaloni大轮换·tilt-20%阿根廷λ→模型48%→保守42%→value=42%×2.70=1.13✓·hhad.single=1✓)。最终2注：072让胜6元+068让胜4元。最坏-10→268.55>>地板80；10/278.55=3.6%<<25%。",
+  "title": "6月29日 · 正常模式 · 21:00最终版",
+  "status": "final",
+  "detail": "六场全盘口终盘扫描(073-078·淘汰赛32强)：073南非vs加拿大(HAD全<1.10·HHAD单=0)；074巴西vs日本(HAD 日本@5.25 val=0.89·Raphinha确认伤缺ESPN双源·最高凸性)；075德国vs巴拉圭(平@4.90 val=0.91但fade-CLV负-9.8%跳过)；076荷兰vs摩洛哥(摩洛哥@3.64 val=0.88)；077科特迪瓦vs挪威(无单开·竞彩HAD单=1但全<1.10)；078法国vs瑞典(平@5.50 fade-CLV负-14.3%跳过)。全盘口无盘口≥1.10。fade-favorite：075德国conf71.2%≥60%触发→但竹彩平4.90<sharp公平5.43(CLV-9.8%)→§14.3 CLV闸拦截；078法国conf76.1%→CLV-14.3%→同理跳过。§0最高指令·给最小凸性picks：①074日本@5.25(Raphinha确认缺·日本防守组织世界级·2022WC曾胜德国/西班牙)；②076摩洛哥@3.64(2022WC4强·摩洛哥淘汰赛克敌纪录·荷兰Timber整届缺席已price)。诚实披露：两注均val<1.0(EV负·完全是vig成本)；CLV均负；纯属§0最高指令参与，学习样本继续累积影子book。",
   "items": [
    {
-    "num": "周六072",
-    "match": "约旦 vs 阿根廷",
-    "pick": "让胜 (约旦+2·阿根廷赢≤1球或平或约旦赢均中)",
-    "tier": "硬信息差·轮换减星",
-    "stake": 6,
-    "odds": 2.7,
-    "value": 1.13,
-    "ev": 0.8,
-    "note": "梅西确认板凳(ESPN/Yahoo Sports)·Romero膝伤缺·Scaloni大轮换·J组已锁6分第一；tilt-20%阿根廷λ→Poisson模型48%·§15保守校准42%→value=42%×2.70=1.13>1.10；hhad.single=1✓；§17.1四层验证：定义/价格/vig后EV均通过"
+    "num": "周一074",
+    "match": "巴西 vs 日本",
+    "pick": "日本胜 (HAD 客胜)",
+    "tier": "§0凸性·Raphinha伤缺",
+    "stake": 4,
+    "odds": 5.25,
+    "value": 0.89,
+    "ev": -0.44,
+    "note": "Raphinha确认因腿筋伤缺席巴西vs日本(ESPN/telecomasia双源)；Kubo膝伤限制日本创造力；竹彩HAD had.single=1；集成日本概率17.0%·市场去水16.9%·Polymarket18.2%·理论值0.89；§0凸性最小4元·诚实：CLV负(竹彩5.25<sharp公平5.49)"
    },
    {
-    "num": "周六068",
-    "match": "巴拿马 vs 英格兰",
-    "pick": "让胜 (巴拿马+2·英格兰赢≤1球或平或巴拿马赢均中)",
-    "tier": "硬信息差·dead rubber大轮换",
+    "num": "周一076",
+    "match": "荷兰 vs 摩洛哥",
+    "pick": "摩洛哥胜 (HAD 客胜)",
+    "tier": "§0凸性·淘汰赛能力",
     "stake": 4,
-    "odds": 2.7,
-    "value": 1.08,
-    "ev": 0.32,
-    "note": "英格兰已出线dead rubber·确认大轮换·James出局·Rice伤疑·Saka受限；巴拿马+2缓冲；tilt-20%英格兰λ→模型48%·§15保守40%→value=40%×2.70=1.08·§0凸性给pick；hhad.single=1✓"
+    "odds": 3.64,
+    "value": 0.88,
+    "ev": -0.48,
+    "note": "摩洛哥2022WC4强·淘汰赛克强队纪录；荷兰Timber整届缺席(groin·已price-in)；集成摩洛哥24.2%·Polymarket24.6%·had.single=1✓；value=0.88；§0凸性最小4元；CLV负(竹彩3.64<sharp公平4.07)"
    }
   ],
   "summary": {
-   "stake": 10,
-   "evLow": -10,
-   "evHigh": 27,
-   "winProb": 65,
+   "stake": 8,
+   "evLow": -8,
+   "evHigh": 28,
+   "winProb": 37,
    "best": {
-    "label": "072中+068中(双中)",
-    "pnl": 17
+    "label": "074日本+076摩洛哥均中",
+    "pnl": 27.56
    },
    "worst": {
     "label": "全挂",
-    "pnl": -10
+    "pnl": -8
    },
    "keyScenarios": [
     {
-     "label": "仅072中(068挂)",
-     "pnl": 6.2
+     "label": "仅074日本中(076挂)",
+     "pnl": 13
     },
     {
-     "label": "仅068中(072挂)",
-     "pnl": 0.8
+     "label": "仅076摩洛哥中(074挂)",
+     "pnl": 6.56
     },
     {
      "label": "全挂",
-     "pnl": -10
+     "pnl": -8
     }
    ]
   },
   "matrix": [
    {
-    "scenario": "072中+068中(双中)",
-    "prob": 17,
-    "returnTotal": 27,
-    "pnl": 17
+    "scenario": "074日本+076摩洛哥均中",
+    "prob": 4,
+    "returnTotal": 35.56,
+    "pnl": 27.56
    },
    {
-    "scenario": "仅072中(068挂)",
-    "prob": 25,
-    "returnTotal": 16.2,
-    "pnl": 6.2
+    "scenario": "仅074日本中",
+    "prob": 13,
+    "returnTotal": 21,
+    "pnl": 13
    },
    {
-    "scenario": "仅068中(072挂)",
-    "prob": 23,
-    "returnTotal": 10.8,
-    "pnl": 0.8
+    "scenario": "仅076摩洛哥中",
+    "prob": 20,
+    "returnTotal": 14.56,
+    "pnl": 6.56
    },
    {
     "scenario": "全挂",
-    "prob": 35,
+    "prob": 63,
     "returnTotal": 0,
-    "pnl": -10
+    "pnl": -8
    }
   ],
-  "copyText": "周六这轮，下2注（轮换信息差）：\n① 场次：周六072 约旦 vs 阿根廷\n   买：让胜（约旦+2，阿根廷赢≤1球、平局或约旦赢均算中）\n   方式：单关（只买这场）\n   金额：6元\n\n② 场次：周六068 巴拿马 vs 英格兰\n   买：让胜（巴拿马+2，英格兰赢≤1球、平局或巴拿马赢均算中）\n   方式：单关（只买这场）\n   金额：4元\n\n一共10元，谢谢！",
-  "reviewNote": "✓ 已独立复核 20:46 ｜ 草稿基本合规，无删改；⚠️068 value=1.08 低于1.10安全边际，但正EV(>1.0)+主会话已显式引用§0保留+stake已轻(4元)，§0凌驾§3通过"
+  "copyText": "老板你好，竞彩足球，6月29日：\n\n场次：周一074 巴西 vs 日本\n买：日本赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周一076 荷兰 vs 摩洛哥\n买：摩洛哥赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
+  "reviewNote": "✓ 已独立复核 20:45 ｜ 零删改·1处修正(copyText日期6月30日→6月29日) ｜ 两注value<1.0(0.89/0.88)·§3负EV→但§0最高指令显式援引且诚实披露·小仓凸性冷门(5.25/3.64)·had.single=1✓·总注8元<<池25%=69.6·最坏270.55>>地板80·金额偶数·无比分票无反向无负EV串·合规放行"
  },
  "calibration": {
   "stats": {
