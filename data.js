@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-28 10:10",
+  "updated": "2026-06-28 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1829,6 +1829,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-28",
+   "match": "周日073",
+   "impact": "戴维斯复出",
+   "tone": "positive",
+   "text": "加拿大主帅Marsch赛前确认Davies可出战·大概率替补登场(非首发)·已是本届首次可用；南非Mokoena从停赛复回首发。(CBC Sports/Fox Sports/bet365双源)",
+   "en": "Coach Marsch confirms Alphonso Davies available for R32 vs South Africa — likely coming off bench, first appearance of this World Cup. South Africa: Teboho Mokoena returns from suspension to start. (CBC Sports/Fox Sports)",
+   "full": "6月28日赛前更新：加拿大队长阿方索·戴维斯(腿筋伤·缺席全部小组赛)被主帅Jesse Marsch赛前新闻发布会确认为已准备好出战。戴维斯大概率从替补席登场，非首发位置——Marsch仍谨慎用其，前28天无比赛时间。此前news所写确定不上阵属过时信息，现已更新。Stephen Eustaquio肌肉伤已恢复，预计首发。Koné骨折仍出局。南非方面：中场核心Teboho Mokoena在小组赛最后场次因两黄停赛，本场复回，预计首发。⚠️本场为淘汰赛(32强)·90分钟平局则加时赛，无平局结算·竞彩按进加时/点球结果算(需注意口径)。市场国际共识：南非16%/平局27%/加拿大57.5%。Davies复出利好加拿大，但从替补发力的效果与首发不同。",
+   "enFull": "Match-day update (June 28): Canada's captain Alphonso Davies was confirmed available by coach Jesse Marsch at a pre-match press conference on Saturday. Davies has been absent all tournament with a hamstring injury but is now declared fit. He is expected to come on as a substitute rather than start — Marsch is being cautious after nearly 30 days without match time. The earlier news entry ('確定不上阵/confirmed out') is now outdated and superseded. Stephen Eustaquio is expected to recover and start. Ismael Koné (broken leg) remains out. For South Africa: Teboho Mokoena returns from a one-match suspension (two yellows in first two games) and is expected to start. This strengthens South Africa's midfield. ⚠️Knockout match: extra time and penalties if level after 90 minutes — no draw result possible. Market: SAf 15.9% / Draw 26.7% / Canada 57.5% (Smarkets/Polymarket weighted). Davies' return off the bench is a positive signal for Canada's attacking quality in the latter stages.",
+   "links": [
+    {
+     "name": "CBC Sports – Davies ready to play vs South Africa",
+     "url": "https://www.cbc.ca/sports/soccer/canada-captain-davies-ready-to-play-world-cup-2026-9.7251595"
+    },
+    {
+     "name": "Fox Sports – Davies available confirmed",
+     "url": "https://www.foxsports.com/stories/soccer/canada-says-star-alphonso-davies-is-honestly-ready-to-play-at-world-cup-as-knockout-rounds-begin"
+    }
+   ]
+  },
   {
    "date": "2026-06-28",
    "match": "周六072",
