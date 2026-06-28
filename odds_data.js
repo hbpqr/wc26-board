@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-28 22:10:03",
+ "fetched_at": "2026-06-28 23:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -56,11 +56,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -118,11 +118,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -136,15 +136,15 @@ window.ODDS_DATA = {
    "time": "04:30",
    "status": "Selling",
    "had": {
-    "h": "1.24",
-    "d": "4.90",
-    "a": "8.40",
-    "updated": "2026-06-28 16:15:58"
+    "h": "1.22",
+    "d": "5.10",
+    "a": "8.80",
+    "updated": "2026-06-28 22:29:16"
    },
    "hhad": {
-    "h": "1.82",
-    "d": "3.65",
-    "a": "3.28",
+    "h": "1.78",
+    "d": "3.70",
+    "a": "3.36",
     "line": "-1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -154,14 +154,14 @@ window.ODDS_DATA = {
      0.268
     ],
     "mkt": [
-     0.487,
-     0.243,
-     0.27
+     0.497,
+     0.239,
+     0.263
     ],
-    "val_top": 0.91,
-    "edge_top": 0.013,
+    "val_top": 0.9,
+    "edge_top": 0.004,
     "mirage": false,
-    "top_label": "让胜",
+    "top_label": "让负",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
@@ -180,11 +180,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -198,15 +198,15 @@ window.ODDS_DATA = {
    "time": "09:00",
    "status": "Selling",
    "had": {
-    "h": "1.86",
-    "d": "3.10",
-    "a": "3.72",
-    "updated": "2026-06-28 21:44:53"
+    "h": "1.89",
+    "d": "3.07",
+    "a": "3.64",
+    "updated": "2026-06-28 22:17:36"
    },
    "hhad": {
-    "h": "3.78",
+    "h": "3.83",
     "d": "3.48",
-    "a": "1.73",
+    "a": "1.72",
     "line": "-1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -216,12 +216,12 @@ window.ODDS_DATA = {
      0.519
     ],
     "mkt": [
-     0.234,
+     0.231,
      0.254,
-     0.512
+     0.515
     ],
-    "val_top": 0.9,
-    "edge_top": 0.008,
+    "val_top": 0.89,
+    "edge_top": 0.005,
     "mirage": false,
     "top_label": "让负",
     "verdict": "市场≈模型·无边"
@@ -242,11 +242,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -304,11 +304,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -366,11 +366,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   }
