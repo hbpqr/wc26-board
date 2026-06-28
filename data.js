@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 01:10",
+  "updated": "2026-06-29 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1845,6 +1845,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周日073",
+   "impact": "官方首发确认",
+   "tone": "neutral",
+   "text": "073官方首发：南非Williams/Mudau/Okon/Mbokazi/Modiba/Sithole/Mokoena/Maseko/Mofokeng/Appollis/Makgopa；加拿大Eustaquio**确认首发**(之前伤疑)；Davies板凳。(WorldSoccerTalk/SI.com双源)",
+   "en": "Match 073 official lineups confirmed: South Africa unchanged; Canada's Eustaquio confirmed to start despite pre-match injury doubts; Alphonso Davies on the bench. (WorldSoccerTalk/SI.com)",
+   "full": "073南非vs加拿大官方首发已确认。南非11人：Williams(GK)；Mudau/Okon/Mbokazi/Modiba；Sithole/Mokoena；Maseko/Mofokeng/Appollis；Makgopa。Mokoena复出首发核心位置，Zwane仍停赛缺席。加拿大11人：Crépeau(GK)；Johnston/De Fougerolles/Cornelius/Laryea；Buchanan/Eustaquio/Saliba/Millar；David/Oluwaseyi。关键更新：Eustaquio确认首发(赛前带伤存疑·此前新闻标注小伤测试)，Kone仍缺阵骨折整届，Davies仅替补。加拿大中场攻击阵容较预期更接近全力状态。(WorldSoccerTalk/SI.com双源·距开球约50分钟)",
+   "enFull": "Official lineups confirmed for match 073 (South Africa vs Canada, Round of 32, 03:00 BJT). South Africa XI: Williams; Mudau, Okon, Mbokazi, Modiba; Sithole, Mokoena; Maseko, Mofokeng, Appollis; Makgopa. Mokoena returns from suspension to start. Zwane still suspended. Canada XI: Crépeau; Johnston, De Fougerolles, Cornelius, Laryea; Buchanan, Eustaquio, Saliba, Millar; David, Oluwaseyi. Key update: Eustaquio confirmed in starting XI despite pre-match injury concerns — midfield stronger than feared. Kone still absent (tournament-ending fracture). Davies named on the bench only. (WorldSoccerTalk/SI.com, two independent sources, ~50 min to kickoff)",
+   "links": [
+    {
+     "name": "WorldSoccerTalk – Confirmed lineups South Africa vs Canada",
+     "url": "https://worldsoccertalk.com/world-cup/is-alphonso-davies-playing-south-africa-vs-canada-projected-lineups-for-the-2026-world-cup-game/"
+    },
+    {
+     "name": "SI.com – South Africa vs Canada World Cup lineups",
+     "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周日073",
