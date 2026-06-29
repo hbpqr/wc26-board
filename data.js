@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 06:10",
+  "updated": "2026-06-30 06:30",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -503,7 +503,7 @@ window.DASH_DATA = {
     "records": [
      "🏆 巴西 2:1 日本(01:00 完赛·ESPN STATUS_FULL_TIME·90'+11'终场·R32淘汰赛·巴西晋级)",
      "　模型集成主胜58.7%方向命中(Brier ens≈0.274)·slip押日本胜@4.95 4元(若已出票→挂·-4)·⚠️待主会话确认074是否出票+结算",
-     "📊 074已终·076荷兰vs摩洛哥(09:00)待开赛。请主会话确认slip执行状态+结算074+生成周二slip"
+     "📊 074已终·075德国vs巴拉圭(04:30) ESPN STATUS_END_OF_REGULATION 1:1·加时赛进行中·待STATUS_FULL_TIME回填·076荷兰vs摩洛哥(09:00)待开赛。请主会话确认slip执行状态+结算074+生成周二slip"
     ]
    }
   ],
@@ -2249,26 +2249,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-06-28",
-   "match": "周一074",
-   "impact": "Kubo确认缺阵",
-   "tone": "negative",
-   "text": "日本Takefusa Kubo(膝伤)赛前未能全训·几乎确认缺席巴西一战·日本进攻组织削弱(已有Itakura带伤出战疑问)。(RotoWire/Sports Mole双源)",
-   "en": "Japan's Kubo (knee) not training fully ahead of Brazil clash, highly unlikely to feature; Itakura also questionable. Japan's attack further weakened on top of Brazil's Raphinha absence. (RotoWire/Sports Mole)",
-   "full": "日本前锋Takefusa Kubo因膝伤赛前无法全力训练，出战巴西的可能性极低，多家媒体预计其缺席。中卫Ko Itakura同样带伤存疑但预计强行首发。巴西方面Raphinha(腿筋·6/19伤缺)整场缺席，由年轻球员Rayan替补右路。两队同时面对核心创造者缺阵，实际攻势强度均有下降，但巴西整体深度仍远超日本。日本2022年曾凭防守体系爆冷击败德国/西班牙，若Kubo缺阵则日本完全转入防守反击模式依赖前锋。⚠️slip已按Raphinha/Kubo均伤缺建模·market已price·val=0.89确认负EV仅§0凸性小注。",
-   "enFull": "Japan attacker Takefusa Kubo is highly unlikely to face Brazil due to a knee injury that has prevented him from training fully. He is not projected to start and his availability is in serious doubt. Itakura is also questionable but expected to start through injury. For Brazil, Raphinha (hamstring, out since June 19) misses the Round of 32 clash as well, replaced by youngster Rayan on the right wing — Neymar has returned from injury as a substitute option. Both sides are missing their primary creative playmakers simultaneously. Brazil's depth still makes them heavy favourites, but Japan have a track record of defensive discipline upsetting giants (beat Germany and Spain in 2022). ⚠️ The slip already models both Raphinha/Kubo absent — this is a confirmation of assumptions already baked in (val=0.89, negative EV, §0 small-stake only). (RotoWire/Sports Mole, two independent sources)",
-   "links": [
-    {
-     "name": "RotoWire – Brazil vs Japan preview team news",
-     "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
-    },
-    {
-     "name": "Sports Mole – Brazil vs Japan preview",
-     "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/preview/brazil-vs-japan-prediction-team-news-lineups_600204.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
    "match": "周一076",
    "impact": "荷双主力复出",
    "tone": "positive",
@@ -2285,20 +2265,6 @@ window.DASH_DATA = {
      "name": "FIFA.com – Netherlands v Morocco match preview",
      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
     }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周一074",
-   "impact": "巴西核心缺阵",
-   "tone": "negative",
-   "text": "巴西Raphinha腿筋伤确认缺席vs日本·ESPN及telecomasia双源证实·Brazil vs Japan R32仍无出战可能；日本Kubo膝伤(vs荷兰场受伤)继续缺席。(ESPN/telecomasia双源)",
-   "en": "Raphinha confirmed out for Brazil vs Japan R32 (hamstring); Kubo (knee, injured vs Netherlands) also doubtful/out. (ESPN/telecomasia dual sources)",
-   "full": "Raphinha suffered hamstring injury in group stage vs Haiti; ESPN confirmed World Cup return uncertain; telecomasia confirmed will miss R32 match vs Japan. Brazil Ancelotti expected to keep same XI shape without him.",
-   "enFull": "Raphinha confirmed out for Brazil vs Japan Round of 32. Suffered hamstring injury against Haiti in group stage. ESPN and telecomasia both confirmed he will miss the Round of 32 match. Multiple sessions of daily physiotherapy ongoing, targeting possible return in later rounds if Brazil advances.",
-   "links": [
-    "https://www.espn.com/soccer/story/_/id/49129032/brazil-confirm-raphinha-hamstring-injury-world-cup-2026-return-uncertain-group-c",
-    "https://www.telecomasia.net/news/football/raphinha-to-miss-2026-world-cup-round-of-32-match-against-japan-due-to-injury/"
    ]
   },
   {
