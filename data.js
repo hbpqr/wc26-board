@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 00:10",
+  "updated": "2026-06-30 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1995,6 +1995,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-30",
+   "match": "周二078",
+   "impact": "海恩整届告终",
+   "tone": "negative",
+   "text": "瑞典中卫Isak Hien因腿筋伤整届告终·缺席对阵法国的R32比赛·Lindelof从中场后移顶替中卫位置。(Sports Mole/ESPN双源)",
+   "en": "Sweden CB Isak Hien ruled out for rest of World Cup with thigh injury; will miss France R32 clash — Lindelof shifts from midfield to cover in back three. (Sports Mole/ESPN)",
+   "full": "06-30 Sports Mole/ESPN报道：瑞典中卫Isak Hien因腿筋伤已被确认整届赛事告终，无缘对阵法国的淘汰赛。Hien缺席是瑞典后防的重大打击——Victor Lindelof被迫从中场位置后移顶替中卫，与Gustaf Lagerbielke和Gabriel Gudmundsson组成三中卫。此外Eric Smith、Nilsson Lindelöf(已受伤)、Benjamin Nygren也在伤缺名单中。瑞典整体防线重建压力大。法国方面Saliba背部轻伤但预计带伤出战。⚠️官方首发于07-01 05:00开球前约60分钟确认。(Sports Mole/ESPN双源)",
+   "enFull": "As reported by Sports Mole and ESPN (June 30), Sweden centre-back Isak Hien has been ruled out of the entire 2026 World Cup with a thigh injury, meaning he will play no part in their Round of 32 clash against France on July 1. Hien's absence significantly weakens Sweden's defensive structure — Victor Lindelof must shift from midfield to cover in the back three alongside Lagerbielke and Gudmundsson. Sweden are also missing Eric Smith, Benjamin Nygren, and face a reshuffled backline under significant pressure. France meanwhile have a clean bill of health; Saliba has a back issue but is expected to start. Official lineups confirmed ~60 min before kick-off July 1 05:00 BJT. (Sports Mole/ESPN, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Sweden vs France team news",
+     "url": "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/predicted-lineups/who-replaces-hien-predicted-sweden-xi-vs-france_600279.html"
+    },
+    {
+     "name": "ESPN – France vs Sweden World Cup preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二077",
+   "impact": "莱尔森腿筋疑",
+   "tone": "negative",
+   "text": "挪威右后卫Ryerson腿筋伤缺存疑·若缺席Aursnes移至右后卫·Berg顶替中场。(Sports Mole/Yahoo Sports双源)",
+   "en": "Norway RB Ryerson doubtful with thigh injury for Ivory Coast R32 clash; if absent, Aursnes shifts to RB with Berg entering midfield. (Sports Mole/Yahoo Sports)",
+   "full": "06-30 Sports Mole/Yahoo Sports报道：挪威右后卫Julian Ryerson因腿筋伤对阵科特迪瓦的R32比赛存疑——他在对阵法国的小组赛中因腿筋伤被换下缺阵，主帅Solbakken表示他在逐日恢复但仍是问题。若Ryerson缺席，全能中场Fredrik Aursnes将移至右后卫位置，Patrick Berg顶替中场核心。Ryerson是挪威右翼进攻的重要齿轮，其缺席将影响挪威利用右路Haaland/Sørloth前锋组合的进攻路线。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Norway right-back Julian Ryerson is a doubt for the Round of 32 clash against Ivory Coast due to a thigh injury sustained during the France group-stage match. Manager Solbakken says Ryerson is improving day-by-day but his availability remains uncertain. If absent, Fredrik Aursnes shifts to right-back with Patrick Berg slotting into central midfield. Ryerson's presence is important for Norway's right-side attacks feeding Haaland and Sørloth. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Norway vs Ivory Coast team news",
+     "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/predicted-lineups/who-joins-haaland-up-top-in-round-of-32-predicted-norway-xi-vs-ivory-coast_600305.html"
+    },
+    {
+     "name": "Yahoo Sports – Ivory Coast vs Norway preview",
+     "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二077",
+   "impact": "辛戈腿筋伤疑",
+   "tone": "negative",
+   "text": "科特迪瓦中卫Singo腿筋伤存疑·Amad Diallo疑出场受限·后防稳定性存压力。(Sports Mole/Yahoo Sports双源)",
+   "en": "Ivory Coast CB Singo doubtful with hamstring injury; Amad Diallo also a doubt after early substitution in final group game. (Sports Mole/Yahoo Sports)",
+   "full": "06-30 Sports Mole/Yahoo Sports报道：科特迪瓦中卫Wilfried Singo因腿筋伤对阵挪威的R32比赛存疑，进一步增加科特迪瓦后防不确定性。同时，边路球员Amad Diallo在小组赛末轮被早早换下，状态存疑，首发能力有待确认。科特迪瓦前三场表现不稳定（1-0胜巴拿马·1-0负瑞典·1-1平波黑），后防受压频率较高。挪威锋线Haaland+Sørloth组合若对上缺员的科特迪瓦后防，可能带来较大威胁。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Ivory Coast centre-back Wilfried Singo is struggling with a hamstring injury ahead of the Round of 32 clash against Norway. Additionally, Amad Diallo is a doubt after being substituted early in Ivory Coast's final group-stage match. Ivory Coast showed defensive vulnerabilities throughout the group stage (conceding multiple xG per game). Norway's Haaland-Sørloth frontline could exploit a potentially weakened Ivorian backline. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Ivory Coast vs Norway preview",
+     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/preview/ivory-coast-vs-norway-prediction-team-news-lineups_600294.html"
+    },
+    {
+     "name": "Yahoo Sports – Ivory Coast vs Norway preview",
+     "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周一076",
