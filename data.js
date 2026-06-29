@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
-  "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 20:10",
+  "round": "淘汰赛 R32",
+  "updated": "2026-06-29 20:31",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -547,14 +547,14 @@ window.DASH_DATA = {
     "note": "梅西板凳+阿根廷大轮换(072)+英格兰dead rubber轮换(068)·HHAD让胜@2.70双注·tilt后value1.13/1.08·池278.55·最坏-10→268.55>>地板80"
    },
    {
-    "date": "06-28",
-    "desc": "周一2注8元:074日本@5.25·4元单关 + 076摩洛哥@3.64·4元单关",
+    "date": "06-29",
+    "desc": "周一2注8元:074日本@4.95·4元单关 + 076摩洛哥@3.48·4元单关",
     "stake": 8,
-    "evPnl": -0.92,
-    "winProb": 37,
+    "evPnl": -1.01,
+    "winProb": 38,
     "actualPnl": null,
     "status": "待结算",
-    "note": "全场无val≥1.10·§0最高指令凸性最小仓·Raphinha伤缺(074)+摩洛哥淘汰赛能力(076)·CLV均负·池278.55·最坏-8→270.55>>地板80"
+    "note": "全场无val≥1.10·§0最高指令凸性最小仓·终盘刷新(日本5.25→4.95·摩洛哥3.64→3.48)·Brazil双边路缺席(Raphinha+Rodrygo)·摩洛哥全主力回归+Saibari3球·CLV均负·池278.55·最坏-8→270.55>>地板80"
    }
   ]
  },
@@ -2215,39 +2215,39 @@ window.DASH_DATA = {
  "slip": {
   "title": "6月29日 · 正常模式 · 21:00最终版",
   "status": "final",
-  "detail": "六场全盘口终盘扫描(073-078·淘汰赛32强)：073南非vs加拿大(HAD全<1.10·HHAD单=0)；074巴西vs日本(HAD 日本@5.25 val=0.89·Raphinha确认伤缺ESPN双源·最高凸性)；075德国vs巴拉圭(平@4.90 val=0.91但fade-CLV负-9.8%跳过)；076荷兰vs摩洛哥(摩洛哥@3.64 val=0.88)；077科特迪瓦vs挪威(无单开·竞彩HAD单=1但全<1.10)；078法国vs瑞典(平@5.50 fade-CLV负-14.3%跳过)。全盘口无盘口≥1.10。fade-favorite：075德国conf71.2%≥60%触发→但竹彩平4.90<sharp公平5.43(CLV-9.8%)→§14.3 CLV闸拦截；078法国conf76.1%→CLV-14.3%→同理跳过。§0最高指令·给最小凸性picks：①074日本@5.25(Raphinha确认缺·日本防守组织世界级·2022WC曾胜德国/西班牙)；②076摩洛哥@3.64(2022WC4强·摩洛哥淘汰赛克敌纪录·荷兰Timber整届缺席已price)。诚实披露：两注均val<1.0(EV负·完全是vig成本)；CLV均负；纯属§0最高指令参与，学习样本继续累积影子book。",
+  "detail": "三场全盘口终盘扫描(074-076·R32·终盘20:31刷新)：全盘口无价值≥1.10项。074巴西vs日本(HAD 日本@4.95 val=0.87·终盘从5.25跌至4.95)；075德国vs巴拉圭(平@5.00 val(emp)=1.65→但Polymarket-only CLV-7.9%·Gómez停赛削弱巴拉圭·淘汰赛draw更难→fade跳过)；076荷兰vs摩洛哥(摩洛哥@3.48 val=0.88·终盘从3.64跌至3.48)。伤停终核：074 Brazil缺Raphinha(腿筋·ESPN/telecomasia双源)+Rodrygo(十字韧带·整届缺席·不在名单)→两大边路全无，攻击力严重受限；日本缺Kubo(膝伤)+Mitoma(不在名单)但紧凑3-4-2-1反击体系完整、2022WC淘汰赛克德/西先例。076 Morocco全主力回归(Saibari分组赛3场3球+Mazraoui/Ounahi/Bouaddi全归)vs荷兰Timber整届缺席+Van de Ven顶左后卫。§0最高指令给凸性picks：①074日本@4.95(双边路缺席·反击凸性)；②076摩洛哥@3.48(全阵+Saibari在状态·2022WC4强·淘汰赛实力)。诚实披露：两注均val<1.0(EV负)，CLV均负，纯§0最高指令参与；影子book继续记全盘口。",
   "items": [
    {
     "num": "周一074",
     "match": "巴西 vs 日本",
     "pick": "日本胜 (HAD 客胜)",
-    "tier": "§0凸性·Raphinha伤缺",
+    "tier": "§0凸性·双边路缺席",
     "stake": 4,
-    "odds": 5.25,
-    "value": 0.89,
-    "ev": -0.44,
-    "note": "Raphinha确认因腿筋伤缺席巴西vs日本(ESPN/telecomasia双源)；Kubo膝伤限制日本创造力；竹彩HAD had.single=1；集成日本概率17.0%·市场去水16.9%·Polymarket18.2%·理论值0.89；§0凸性最小4元·诚实：CLV负(竹彩5.25<sharp公平5.49)"
+    "odds": 4.95,
+    "value": 0.87,
+    "ev": -0.53,
+    "note": "终盘4.95(从5.25下移)·had.single=1✓；Brazil缺Raphinha(腿筋)+Rodrygo(十字韧带·整届缺席)→两大边路全无仅剩Vinicius·日本缺Kubo+Mitoma但3-4-2-1紧凑体系完整·2022WC淘汰赛克德/西先例；集成日本17.5%·Smarkets公平5.50→CLV-10.0%(负)·§0凸性4元"
    },
    {
     "num": "周一076",
     "match": "荷兰 vs 摩洛哥",
     "pick": "摩洛哥胜 (HAD 客胜)",
-    "tier": "§0凸性·淘汰赛能力",
+    "tier": "§0凸性·全阵+Saibari在状态",
     "stake": 4,
-    "odds": 3.64,
+    "odds": 3.48,
     "value": 0.88,
     "ev": -0.48,
-    "note": "摩洛哥2022WC4强·淘汰赛克强队纪录；荷兰Timber整届缺席(groin·已price-in)；集成摩洛哥24.2%·Polymarket24.6%·had.single=1✓；value=0.88；§0凸性最小4元；CLV负(竹彩3.64<sharp公平4.07)"
+    "note": "终盘3.48(从3.64下移)·had.single=1✓；摩洛哥全主力回归(Saibari分组赛3场3球·Mazraoui/Ounahi/Bouaddi全归)·荷兰Timber整届缺席+Van de Ven顶左后卫；集成摩洛哥25.3%·Smarkets公平3.87→CLV-10.1%(负)·2022WC4强·淘汰赛克强历史；§0凸性4元"
    }
   ],
   "summary": {
    "stake": 8,
    "evLow": -8,
-   "evHigh": 28,
-   "winProb": 37,
+   "evHigh": 26,
+   "winProb": 38,
    "best": {
     "label": "074日本+076摩洛哥均中",
-    "pnl": 27.56
+    "pnl": 25.72
    },
    "worst": {
     "label": "全挂",
@@ -2256,11 +2256,11 @@ window.DASH_DATA = {
    "keyScenarios": [
     {
      "label": "仅074日本中(076挂)",
-     "pnl": 13
+     "pnl": 11.8
     },
     {
      "label": "仅076摩洛哥中(074挂)",
-     "pnl": 6.56
+     "pnl": 5.92
     },
     {
      "label": "全挂",
@@ -2272,30 +2272,30 @@ window.DASH_DATA = {
    {
     "scenario": "074日本+076摩洛哥均中",
     "prob": 4,
-    "returnTotal": 35.56,
-    "pnl": 27.56
+    "returnTotal": 33.72,
+    "pnl": 25.72
    },
    {
     "scenario": "仅074日本中",
     "prob": 13,
-    "returnTotal": 21,
-    "pnl": 13
+    "returnTotal": 19.8,
+    "pnl": 11.8
    },
    {
     "scenario": "仅076摩洛哥中",
-    "prob": 20,
-    "returnTotal": 14.56,
-    "pnl": 6.56
+    "prob": 21,
+    "returnTotal": 13.92,
+    "pnl": 5.92
    },
    {
     "scenario": "全挂",
-    "prob": 63,
+    "prob": 62,
     "returnTotal": 0,
     "pnl": -8
    }
   ],
   "copyText": "老板你好，竞彩足球，6月29日：\n\n场次：周一074 巴西 vs 日本\n买：日本赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周一076 荷兰 vs 摩洛哥\n买：摩洛哥赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
-  "reviewNote": "✓ 已独立复核 20:45 ｜ 零删改·1处修正(copyText日期6月30日→6月29日) ｜ 两注value<1.0(0.89/0.88)·§3负EV→但§0最高指令显式援引且诚实披露·小仓凸性冷门(5.25/3.64)·had.single=1✓·总注8元<<池25%=69.6·最坏270.55>>地板80·金额偶数·无比分票无反向无负EV串·合规放行"
+  "reviewNote": "✓ 已独立复核 20:41 ｜ 草稿合规，无删改 ｜ 两注均§0最高指令凸性最小仓(4元underdog)，value<1.10经§0推翻§3否决权，had.single均=1，8元/278.55池=2.9%<<25%，最坏270.55>>地板80"
  },
  "calibration": {
   "stats": {
