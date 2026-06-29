@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 13:10",
+  "updated": "2026-06-29 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1920,66 +1920,6 @@ window.DASH_DATA = {
   {
    "date": "2026-06-29",
    "match": "周一074",
-   "impact": "板仓疑缺",
-   "tone": "negative",
-   "text": "日本CB板仓滉二(Ko Itakura)对瑞典上半场提前换下·预测首发由谷口彰悟(Taniguchi)顶替·日本后防深度下降·Kubo膝伤同样缺席。(ESPN/Sports Mole双源)",
-   "en": "Japan CB Ko Itakura taken off in 1st half vs Sweden with unspecified discomfort; Taniguchi expected to start at CB vs Brazil. Kubo (knee) also highly unlikely. Japan defense weakened. (ESPN/Sports Mole)",
-   "full": "日本后防迎来新的不确定性：中卫Ko Itakura在周四对瑞典的1:1中下半场替换，主要原因是上半场被提前换下时存在不明原因身体不适。Sports Mole预测首发中Itakura不在11人内，由谷口彰悟(Shogo Taniguchi)顶替中卫位置。Hiroki Ito担任另一中卫。Kubo膝伤仍持续，未能全训，出场几乎被排除。预测首发(3-4-2-1调整为4-1-4-1)：Zion Suzuki; Watanabe, Taniguchi, Hiroki Ito; Sugawara, Tanaka/Kamada; Nakamura, Doan; Kamada, Maeda; Ueda。⚠️两关键球员同步存疑令日本防守明显削弱；slip已基于Raphinha+Kubo双缺建模(val=0.89)，若Itakura确认缺阵，日本防守端更弱，但市场若已知晓则赔率变动不大(市场极快消化)。赛前约24h，官方首发待确认。",
-   "enFull": "Japan's defensive setup faces fresh uncertainty ahead of the Round of 32 vs Brazil: centre-back Ko Itakura was taken off in the first half of Thursday's 1-1 draw with Sweden due to undisclosed discomfort. Sports Mole's predicted XI for the Brazil clash does NOT include Itakura — instead Shogo Taniguchi is projected to partner Hiroki Ito at centre-back. This is a step beyond the earlier 'questionable' designation: he was physically removed early in the Sweden match, suggesting the issue is more than precautionary. Takefusa Kubo (knee) also remains highly unlikely to feature. Japan's predicted XI: Suzuki; Watanabe, Taniguchi, Hiroki Ito; Sugawara, Tanaka, Kamada, Nakamura; Doan, Maeda; Ueda. ⚠️ Two key contributors potentially absent (Kubo = creative outlet, Itakura = defensive anchor). The slip's model already assumes both Raphinha and Kubo absent; Itakura's doubt makes Japan's defensive block slightly less organized, though Brazil (even without Raphinha) remain heavy favourites. Official lineup ~60 min before June 30 01:00 kickoff. (ESPN/Sports Mole, two independent sources)",
-   "links": [
-    {
-     "name": "ESPN – Brazil vs Japan World Cup preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49194679/brazil-vs-japan-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "Sports Mole – Japan predicted XI vs Brazil (defensive doubt)",
-     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/defensive-injury-doubt-predicted-japan-xi-vs-brazil_600207.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周日073",
-   "impact": "官方首发确认",
-   "tone": "neutral",
-   "text": "073官方首发：南非Williams/Mudau/Okon/Mbokazi/Modiba/Sithole/Mokoena/Maseko/Mofokeng/Appollis/Makgopa；加拿大Eustaquio**确认首发**(之前伤疑)；Davies板凳。(WorldSoccerTalk/SI.com双源)",
-   "en": "Match 073 official lineups confirmed: South Africa unchanged; Canada's Eustaquio confirmed to start despite pre-match injury doubts; Alphonso Davies on the bench. (WorldSoccerTalk/SI.com)",
-   "full": "073南非vs加拿大官方首发已确认。南非11人：Williams(GK)；Mudau/Okon/Mbokazi/Modiba；Sithole/Mokoena；Maseko/Mofokeng/Appollis；Makgopa。Mokoena复出首发核心位置，Zwane仍停赛缺席。加拿大11人：Crépeau(GK)；Johnston/De Fougerolles/Cornelius/Laryea；Buchanan/Eustaquio/Saliba/Millar；David/Oluwaseyi。关键更新：Eustaquio确认首发(赛前带伤存疑·此前新闻标注小伤测试)，Kone仍缺阵骨折整届，Davies仅替补。加拿大中场攻击阵容较预期更接近全力状态。(WorldSoccerTalk/SI.com双源·距开球约50分钟)",
-   "enFull": "Official lineups confirmed for match 073 (South Africa vs Canada, Round of 32, 03:00 BJT). South Africa XI: Williams; Mudau, Okon, Mbokazi, Modiba; Sithole, Mokoena; Maseko, Mofokeng, Appollis; Makgopa. Mokoena returns from suspension to start. Zwane still suspended. Canada XI: Crépeau; Johnston, De Fougerolles, Cornelius, Laryea; Buchanan, Eustaquio, Saliba, Millar; David, Oluwaseyi. Key update: Eustaquio confirmed in starting XI despite pre-match injury concerns — midfield stronger than feared. Kone still absent (tournament-ending fracture). Davies named on the bench only. (WorldSoccerTalk/SI.com, two independent sources, ~50 min to kickoff)",
-   "links": [
-    {
-     "name": "WorldSoccerTalk – Confirmed lineups South Africa vs Canada",
-     "url": "https://worldsoccertalk.com/world-cup/is-alphonso-davies-playing-south-africa-vs-canada-projected-lineups-for-the-2026-world-cup-game/"
-    },
-    {
-     "name": "SI.com – South Africa vs Canada World Cup lineups",
-     "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周日073",
-   "impact": "莫科埃纳复出",
-   "tone": "positive",
-   "text": "南非中场Teboho Mokoena结束停赛复出，重新担任核心组织角色；Zwane仍停赛。(Sports Mole/Yahoo Sports双源)",
-   "en": "South Africa's Teboho Mokoena returns from one-game suspension vs Canada; Zwane still suspended. (Sports Mole/Yahoo Sports)",
-   "full": "南非中场Teboho Mokoena在对科特迪瓦和墨西哥各吃一黄后停赛，缺席上一场南非vs韩国，现确认对加拿大复出首发。Mokoena是南非中场核心，其回归明显加强南非中路控制能力。对阵加拿大(073场·06-29 03:00)，南非阵容更接近全员状态：Zwane仍因红牌停赛，Davies仅板凳，加拿大Kone整届缺阵、Eustaquio/Jones带伤临场。预测首发：Williams；Mudau/Mbokazi/Okon/Modiba；Mbatha/Mokoena；Maseko/Mofokeng/Appollis；Makgopa。⚠️距开球仅约2小时，首发尚待官方确认。",
-   "enFull": "South Africa midfielder Teboho Mokoena is confirmed to return from his one-match suspension for the Round of 32 clash vs Canada (match 073, 03:00 June 29). He missed the final group stage match after collecting yellow cards in the first two games. His return reinforces South Africa's midfield organization. South Africa will still be without the suspended Zwane (red card). Canada face their own absences: Kone ruled out for the tournament, Eustaquio and Alfie Jones both questionable with knocks. Predicted South Africa XI: Williams; Mudau, Mbokazi, Okon, Modiba; Mbatha, Mokoena; Maseko, Mofokeng, Appollis; Makgopa. ⚠️ Kick-off ~2h away; official lineup not yet released. (Sports Mole/Yahoo Sports)",
-   "links": [
-    {
-     "name": "Sports Mole – South Africa vs Canada team news",
-     "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
-    },
-    {
-     "name": "Yahoo Sports – South Africa vs Canada lineups",
-     "url": "https://au.sports.yahoo.com/south-africa-vs-canada-lineups-135022733.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一074",
    "impact": "巴西首发确认",
    "tone": "neutral",
    "text": "巴西首发确认：Rayan替补Raphinha(腘绳肌)出任右路，Vinicius/Cunha/Paqueta随行；Kubo伤疑不在首发XI。(Sports Mole/RotoWire双源)",
@@ -2039,26 +1979,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-06-28",
-   "match": "周日073",
-   "impact": "Kone整届缺",
-   "tone": "negative",
-   "text": "加拿大中场Ismael Kone(胫骨骨折·对卡塔尔时伤)整届报销·Eustaquio小伤测试·Davies仅替补备用。(Sports Mole/SI.com双源)",
-   "en": "Canada: Kone (fractured tibia vs Qatar) ruled out of entire WC2026; Eustaquio and Alfie Jones face late fitness tests; Davies (hamstring comeback) only bench option vs South Africa. (Sports Mole/SI.com)",
-   "full": "加拿大备战南非出现多重减员：中场核心Ismael Kone在小组赛对卡塔尔时骨折，整届缺阵。另有Eustaquio和Alfie Jones均有伤需赛前测试才能确认出战，且两人均列入临时名单但存疑。阿尔方索·戴维斯在因腿后肌伤缺席全部小组赛后预计复出，但Marsch大概率将他放在替补席，不会首发。南非方面Zwane仍停赛，Mokoena复回。两队均首次打入32强淘汰赛。加拿大中场因Kone骨折+Eustaquio伤缺，组织核心大幅削弱；当前赔率给加拿大客胜1.50，市场认为加拿大略占优。⚠️ Kone折后两周，大概率已price-in；Eustaquio/Jones伤缺若赛前宣布才是最新消息。",
-   "enFull": "Canada face significant injury issues ahead of the Round of 32 vs South Africa: midfielder Ismael Kone fractured his tibia in the group stage against Qatar and is out for the entire tournament. Stephen Eustaquio and Alfie Jones both have knocks and face late fitness tests. Alphonso Davies, who missed the entire group stage with a hamstring injury, is set to return but is projected to come off the bench rather than start. South Africa have Zwane suspended and Mokoena returning. Both nations make their maiden World Cup knockout appearances. Canada's midfield engine is significantly weakened by Kone's absence plus Eustaquio's uncertain fitness — though current odds already price Canada as slight favourites (away win @1.50). ⚠️ Kone injury is 2+ weeks old and highly likely price-in already; any Eustaquio/Jones confirmed absence closer to kickoff would be fresher market-moving news. (Sports Mole/SI.com, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – South Africa vs Canada team news",
-     "url": "https://www.sportsmole.co.uk/football/canada/world-cup-2026/preview/south-africa-vs-canada-prediction-team-news-lineups_600163.html"
-    },
-    {
-     "name": "SI.com – South Africa vs Canada preview",
-     "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
    "match": "周一076",
    "impact": "荷双主力复出",
    "tone": "positive",
@@ -2094,106 +2014,6 @@ window.DASH_DATA = {
     {
      "name": "Squawka – Netherlands vs Morocco team news and predicted lineups",
      "url": "https://www.squawka.com/en/news/world-cup/netherlands-vs-morocco-team-news-predicted-lineups/"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周日073",
-   "impact": "Zwane停赛",
-   "tone": "negative",
-   "text": "南非核心攻中Themba Zwane因开幕战红牌禁赛·全组缺席本场·南非进攻威胁大降；Mokoena复回中场，整体阵型相对完整。(Sports Mole/ESPN双源)",
-   "en": "South Africa's key attacking midfielder Themba Zwane is suspended (red card vs Mexico, Group A) for the entire group stage and Round of 32 clash with Canada — a significant attacking absence. Mokoena returns to bolster midfield. (Sports Mole/ESPN)",
-   "full": "南非进攻核心Themba Zwane在小组赛首场对阵墨西哥时收到红牌直接被停赛，从未踏入本届任何一场小组赛，本场对加拿大同样缺席。Zwane是Bafana Bafana创造力来源，缺少他后南非进攻更加依赖Evidence Makgopa的策动和边路反击。好消息是中场核心Teboho Mokoena上场因两黄停赛·本场复回首发，可补强南非中场硬度。综合伤停/停赛因素：南非净减一攻中+增一防中(Mokoena)；加拿大净减前锋Koné(骨折·全缺)，Davies替补预备。市场共识南非16%/平27%/加拿大57%基本准确定价了双方伤停格局。",
-   "enFull": "South Africa are without their key creative midfielder Themba Zwane for this Round of 32 clash against Canada. Zwane received a red card in South Africa's opening match against Mexico and has been suspended throughout the group stage — this is his first and only suspension match of the tournament. His absence removes South Africa's primary creative outlet; coach Hugo Broos will rely more heavily on Evidence Makgopa's movement and counter-attacks on the wings. On the positive side, midfielder Teboho Mokoena returns from a one-match ban (two yellow cards accumulated in first two games). Net suspension/injury impact: South Africa lose an attacking midfielder (Zwane) but gain a defensive midfielder (Mokoena); Canada lose striker Koné (leg fracture, all tournament) but gain Davies (bench return). Market consensus SAf 16%/Draw 27%/Canada 57% reflects the two-sided absences fairly. (Sports Mole/ESPN, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – South Africa vs Canada team news",
-     "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
-    },
-    {
-     "name": "ESPN – South Africa vs Canada preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49185213/south-africa-vs-canada-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周日073",
-   "impact": "戴维斯复出",
-   "tone": "positive",
-   "text": "加拿大主帅Marsch赛前确认Davies可出战·大概率替补登场(非首发)·已是本届首次可用；南非Mokoena从停赛复回首发。(CBC Sports/Fox Sports/bet365双源)",
-   "en": "Coach Marsch confirms Alphonso Davies available for R32 vs South Africa — likely coming off bench, first appearance of this World Cup. South Africa: Teboho Mokoena returns from suspension to start. (CBC Sports/Fox Sports)",
-   "full": "6月28日赛前更新：加拿大队长阿方索·戴维斯(腿筋伤·缺席全部小组赛)被主帅Jesse Marsch赛前新闻发布会确认为已准备好出战。戴维斯大概率从替补席登场，非首发位置——Marsch仍谨慎用其，前28天无比赛时间。此前news所写确定不上阵属过时信息，现已更新。Stephen Eustaquio肌肉伤已恢复，预计首发。Koné骨折仍出局。南非方面：中场核心Teboho Mokoena在小组赛最后场次因两黄停赛，本场复回，预计首发。⚠️本场为淘汰赛(32强)·90分钟平局则加时赛，无平局结算·竞彩按进加时/点球结果算(需注意口径)。市场国际共识：南非16%/平局27%/加拿大57.5%。Davies复出利好加拿大，但从替补发力的效果与首发不同。",
-   "enFull": "Match-day update (June 28): Canada's captain Alphonso Davies was confirmed available by coach Jesse Marsch at a pre-match press conference on Saturday. Davies has been absent all tournament with a hamstring injury but is now declared fit. He is expected to come on as a substitute rather than start — Marsch is being cautious after nearly 30 days without match time. The earlier news entry ('確定不上阵/confirmed out') is now outdated and superseded. Stephen Eustaquio is expected to recover and start. Ismael Koné (broken leg) remains out. For South Africa: Teboho Mokoena returns from a one-match suspension (two yellows in first two games) and is expected to start. This strengthens South Africa's midfield. ⚠️Knockout match: extra time and penalties if level after 90 minutes — no draw result possible. Market: SAf 15.9% / Draw 26.7% / Canada 57.5% (Smarkets/Polymarket weighted). Davies' return off the bench is a positive signal for Canada's attacking quality in the latter stages.",
-   "links": [
-    {
-     "name": "CBC Sports – Davies ready to play vs South Africa",
-     "url": "https://www.cbc.ca/sports/soccer/canada-captain-davies-ready-to-play-world-cup-2026-9.7251595"
-    },
-    {
-     "name": "Fox Sports – Davies available confirmed",
-     "url": "https://www.foxsports.com/stories/soccer/canada-says-star-alphonso-davies-is-honestly-ready-to-play-at-world-cup-as-knockout-rounds-begin"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周六072",
-   "impact": "阿根廷确认首发",
-   "tone": "positive",
-   "text": "赛前确认：梅西板凳·胡利安·阿尔瓦雷斯领衔进攻·Musso/Otamendi/Lo Celso/Paredes/Nico Paz首发·Scaloni大轮换11人·约旦无伤停。(ESPN/CBS Sports/Yahoo Sports三源)",
-   "en": "Match-day confirmed: Messi on bench, Julián Álvarez leads attack. Argentina XI: Musso; Molina, Otamendi, Senesi, Tagliafico; Lo Celso, Paredes, Barco; Nico Paz, Álvarez, Nico González. Jordan: no injuries. (ESPN/CBS Sports/Yahoo Sports)",
-   "full": "6月28日赛前确认：阿根廷大轮换首发阵容——Musso(GK); Molina, Otamendi, Senesi, Tagliafico(四后卫); Lo Celso, Paredes, Barco(三中场); Nico Paz, Julián Álvarez, Nico González(三前锋)。梅西确认首发坐板凳，保留为淘汰赛阶段。Romero膝伤缺席。Scaloni明确表示大轮换理由：已锁J组第一、需保护主力体能。约旦方面无重大伤停，但两连败积0分已无晋级可能，积极性存疑。此轮换阵容仍具相当实力(胡利安/帕雷德斯等)，阿根廷客胜大方向不变，但整体统治力低于满员阵容。⚠️约旦+2让球闸口：阿根廷净胜3+才破让球；净胜1-2(让平/让小胜)概率在市场86%客胜基础上需分类估算。",
-   "enFull": "Match-day lineup confirmed (released pre-kickoff). Argentina rotates heavily: Musso in goal; four-man back line of Molina, Otamendi, Senesi, Tagliafico; midfield three of Lo Celso, Paredes, Barco; front three Nico Paz, Julián Álvarez, Nico González. Messi starts on the bench — Scaloni confirmed this publicly, citing squad preservation ahead of the knockout stages. Romero (knee) misses out entirely. Jordan (0pts, 2 losses) are already eliminated and may lack motivation, though they'll want pride. Argentina's rotated XI still outclasses Jordan significantly, but the handicap (+2 for Jordan) hinges on Argentina's winning margin — they must win by 3+ to cover the HHAD. Market: Argentina 86% to win (Smarkets/Polymarket consensus). ⚠️HHAD slip item: slip picks Jordan +2 let-win (Argentina wins by ≤1, draw, or Jordan wins). If Argentina win by exactly 2, it's a handicap draw (push/lose per Caizhan HHAD rules).",
-   "links": [
-    {
-     "name": "Yahoo Sports – Messi on bench confirmed",
-     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-lionel-messi-will-start-on-bench-vs-jordan-argentina-coach-confirms-001436432.html"
-    },
-    {
-     "name": "CBS Sports – Messi bench vs Jordan",
-     "url": "https://www.cbssports.com/soccer/news/lionel-messi-world-cup-argentina-jordan-group-stage-finale/"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周六071",
-   "impact": "决战次席格局",
-   "tone": "neutral",
-   "text": "两队各积3分(阿尔及利亚赢约旦·奥地利赢约旦)·胜者锁J组次席·平局则奥地利凭净胜球领先·Amoura确认缺席·Alaba首发·开球50分钟。(SportsMole/Goal.com双源)",
-   "en": "Both sides now on 3pts — winner takes Group J runner-up spot; draw likely favors Austria on GD. Amoura confirmed out (hamstring); Alaba starts for Austria. KO in ~50 min. (SportsMole/Goal.com)",
-   "full": "赛前情况更新(06-28 09:10)：阿尔及利亚和奥地利目前均积3分——阿尔及利亚此前赢约旦、奥地利此前赢约旦，同组积分并列。胜者直接锁定J组次席出线；若平局，奥地利凭借净胜球(+2)优于阿尔及利亚(+0)，平局对奥地利更有利，但动机上奥地利未必愿意冒险。阿尔及利亚：Amoura确认因腿筋伤缺阵(自6月17日起)；预测阵：Luca Zidane; Belghali, Mandi, Bensebaini, Aït-Nouri; Bentaleb, Boudaoui; Mahrez, Maza, Chaïbi; Gouiri。奥地利：Alaba确认首发(膝伤后复出·有利消息)；预测阵：Schlager; Posch, Danso, Alaba, Laimer; Seiwald, X.Schlager; Schmid, Wanner, Sabitzer（注：Arnautovic未在预测阵中）。两队均有充分动机赢球，市场46%平局概率印证双方趋于保守走势。",
-   "enFull": "Pre-match update (June 28, 09:10 CST): Algeria and Austria are both now on 3 points, with both having beaten Jordan in their previous group games. The winner claims Group J's runner-up spot directly. If it ends in a draw, Austria likely advance on goal difference (+2 vs Algeria's +0). Algeria: Amoura (hamstring since June 17) confirmed out; predicted XI: Zidane; Belghali, Mandi, Bensebaini, Aït-Nouri; Bentaleb, Boudaoui; Mahrez, Maza, Chaïbi; Gouiri. Austria: Alaba is expected to start — his inclusion is positive news after recent fitness concerns; predicted XI: Schlager; Posch, Danso, Alaba, Laimer; Seiwald, X.Schlager; Schmid, Wanner, Sabitzer (note: Arnautovic NOT in predicted XI). ⚠️Match-day lineups to be confirmed ~50 min before 10:00 KO. Market: H22% D46% A26% — a draw is the single most probable outcome. Algeria must win; Austria can accept a draw.",
-   "links": [
-    {
-     "name": "SportsMole – Algeria vs Austria team news",
-     "url": "https://www.sportsmole.co.uk/football/algeria/world-cup-2026/team-news/algeria-vs-austria-injury-suspension-list-predicted-xis_600063.html"
-    },
-    {
-     "name": "SI.com – Algeria vs Austria preview",
-     "url": "https://www.si.com/soccer/algeria-vs-austria-world-cup-preview-predictions-lineups-6-27-26"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周六068",
-   "impact": "英格兰5换首发",
-   "tone": "neutral",
-   "text": "图赫尔5换阵：Quansah·Anderson·Rogers·O'Reilly·Rashford首发；Rice落选·Saka/Kane/贝林厄姆齐首发。巴拿马阵容无变。(WorldSoccerTalk/ESPN确认首发·距开球50分钟公布)",
-   "en": "Tuchel makes 5 changes for Panama: Quansah, Anderson, Rogers, O'Reilly, Rashford in; Rice dropped but not injured; Saka, Kane, Bellingham all start. Panama lineup unchanged. (WorldSoccerTalk/ESPN confirmed lineups, released ~50min pre-KO)",
-   "full": "距开球约50分钟，英格兰官方公布确认首发：Pickford; Quansah, Guéhi, Konsa, O'Reilly; Anderson, Bellingham, Rogers; Saka, Kane, Rashford。图赫尔相比上场大幅轮换5人——Quansah首次上场(对位加纳0:0后Trippier/James全出)，Morgan Rogers和Nico O'Reilly中场大轮换，Marcus Rashford替入。最重要：Declan Rice未在首发，系战术降级而非伤缺；Bukayo Saka带着跟腱炎依然进首发(本场优先保持进攻)；Harry Kane和贝林厄姆依然领衔。巴拿马已出局·Carrasquilla全程缺席·阵容与前场相差无几。英格兰深度仍碾压·客胜共识未变，轮换降低了上半场稳健度但不改最终走势。",
-   "enFull": "England confirmed starting XI released ~50 minutes before kickoff: Pickford; Quansah, Guéhi, Konsa, O'Reilly; Anderson, Bellingham, Rogers; Saka, Kane, Rashford. Tuchel makes 5 changes from the Croatia draw — Quansah makes his tournament debut, Rogers and O'Reilly provide fresh midfield legs, Rashford returns up front. Key notes: Declan Rice is absent from the starting XI (tactical rotation, not injury); Bukayo Saka starts despite Achilles concerns (England are prioritizing this game given Panama are already eliminated); Kane and Bellingham still anchor the attack. Panama lineup is largely unchanged. England's squad depth remains vastly superior — the consensus England win is intact despite heavy rotation; early cohesion could be slightly lower. ⚠️ With so many changes, England's margin of control in the first 30 minutes may be reduced, but quality should tell by the 60th minute.",
-   "links": [
-    {
-     "name": "WorldSoccerTalk – Confirmed lineups",
-     "url": "https://worldsoccertalk.com/amp/world-cup/is-harry-kane-playing-panama-vs-england-projected-lineups-for-the-2026-world-cup-group-l-game/"
-    },
-    {
-     "name": "ESPN – Panama vs England preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49173382/panama-vs-england-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
     }
    ]
   },
