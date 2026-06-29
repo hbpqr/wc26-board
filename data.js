@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 12:10",
+  "updated": "2026-06-29 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1857,6 +1857,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周一074",
+   "impact": "内马尔增出场",
+   "tone": "negative",
+   "text": "内马尔本届缺两场后替补出场·安切洛蒂证实内马尔现可上场超15分钟·将在对日本时担纲更重要角色但不预计首发。(beIN SPORTS/Tribune India双源)",
+   "en": "Neymar set for bigger role vs Japan — Ancelotti confirms he can now play 15+ minutes; expected to come off bench with greater impact than Scotland match. Not expected to start. (beIN SPORTS/Tribune India)",
+   "full": "安切洛蒂在06-29赛前发布会上证实：内马尔的状态在过去一周有显著进步。对苏格兰只能上场不到15分钟，对阵日本他将有能力打更长时间，主帅将根据比赛形势决定其上场时机。内马尔本届因肌肉伤缺席前两场，仅在对苏格兰的分组赛末轮以替补身份亮相。虽然不预期首发（四前场Vinicius/Cunha/Paqueta/Rayan均无变化），但内马尔若以关键时刻替补登场，可能在比赛后半段改变局势。对日本防线而言增加一个突击变量。⚠️官方首发06-30 01:00前确认，内马尔出场时长仍有不确定性。",
+   "enFull": "Carlo Ancelotti confirmed in his pre-match press conference (June 29) that Neymar's progress has been significant over the past week. While he could only manage under 15 minutes against Scotland, he is now fit enough to play a longer spell against Japan, and Ancelotti will deploy him based on how the game evolves. Neymar missed Brazil's first two group matches (muscle injury) and made his tournament debut off the bench vs Scotland. He is not expected to start — Brazil's front four of Vinicius/Cunha/Paqueta/Rayan remains unchanged — but a more impactful substitute appearance in the second half could change the dynamic, adding an extra unpredictable threat against Japan's organised low-block defence. ⚠️ Official lineup confirmed ~60 min before kick-off June 30 01:00 BJT; Neymar's exact role remains fluid. (beIN SPORTS/Tribune India, two independent sources)",
+   "links": [
+    {
+     "name": "beIN SPORTS – Ancelotti Neymar update vs Japan",
+     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/will-neymar-start-for-brazil-against-japan-carlo-ancelotti-addresses-the-question-2026-06-29"
+    },
+    {
+     "name": "Tribune India – Ancelotti backs Neymar for bigger role",
+     "url": "https://www.tribuneindia.com/news/sports/fifa-world-cup-2026-ancelotti-backs-fit-again-neymar-for-bigger-role-in-brazils-round-of-32-clash/"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周一074",
