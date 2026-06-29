@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 19:10",
+  "updated": "2026-06-29 20:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1986,6 +1986,46 @@ window.DASH_DATA = {
   {
    "date": "2026-06-29",
    "match": "周一076",
+   "impact": "摩洛哥四人回归",
+   "tone": "positive",
+   "text": "摩洛哥Mazraoui/Issa Diop/Bouaddi/Ounahi预计回归首发·分别承担右后卫/中卫/中场/边路职责·摩洛哥全主力阵容对阵荷兰。(Sports Mole/Al Jazeera双源)",
+   "en": "Morocco set to recall Mazraoui, Issa Diop, Bouaddi and Ounahi to starting XI vs Netherlands — full-strength Atlas Lions lineup for Round of 32. (Sports Mole/Al Jazeera)",
+   "full": "06-29 Sports Mole/Al Jazeera报道：摩洛哥对阵荷兰将进行多项换人调整，四名主力球员预计回归首发XI：Noussair Mazraoui(右后卫)、Issa Diop(中卫)、Ayyoub Bouaddi(中场核心)和Azzedine Ounahi(边路创造)均预计首发。这意味着摩洛哥以全主力阵容出战；在组赛末轮主教练为防伤病/保存实力做了轮换，本场恢复主力整容。摩洛哥在组赛中1-1平巴西、淘汰赛2022年4强底蕴尚在。Bouaddi(比利时梅赫伦出道·20岁中场新星)和Ounahi(马赛)的回归加强了中场创造力。⚠️官方首发于06-30 09:00开球前约60分钟确认。(Sports Mole/Al Jazeera双源)",
+   "enFull": "According to Sports Mole and Al Jazeera (June 29), Morocco are set to make several changes from their final group-stage lineup, with four key players expected to return to the starting XI vs Netherlands: Noussair Mazraoui (RB), Issa Diop (CB), Ayyoub Bouaddi (CM) and Azzedine Ounahi (wide creator). Morocco rotated in their final group-stage match to preserve fitness, and are now expected to field a near full-strength side. Context: Morocco held Brazil 1-1 in the group stage and have strong knockout pedigree (2022 WC semifinalists). The return of Bouaddi (20-year-old Belgium-born creator) and Ounahi (Marseille) strengthens their creative output significantly. ⚠️ Official lineup confirmed ~60 min before kick-off June 30 09:00 BJT. (Sports Mole / Al Jazeera, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Netherlands vs Morocco team news",
+     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-morocco-prediction-team-news-lineups_600222.html"
+    },
+    {
+     "name": "Al Jazeera – Netherlands vs Morocco prediction team news",
+     "url": "https://www.aljazeera.com/sports/2026/6/29/netherlands-vs-morocco-fifa-world-cup-round-of-32-prediction-team-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "match": "周一075",
+   "impact": "布朗伤复可战",
+   "tone": "positive",
+   "text": "德国左后卫Nathaniel Brown(肌肉伤)预计对阵巴拉圭首发复出·错过厄瓜多尔一战后已获准上场·巴拉圭Almiron红牌停赛(⚠️与早前情报矛盾·待确认)。(Sports Mole/ESPN双源)",
+   "en": "Germany LB Nathaniel Brown expected to return to starting XI vs Paraguay after missing the Ecuador game with a muscular issue. Paraguay's Almiron reportedly suspended (red card vs Turkey) — contradicts earlier intel, needs confirmation. (Sports Mole/ESPN)",
+   "full": "06-29 Sports Mole/ESPN最新报道：德国左后卫Nathaniel Brown因对阵厄瓜多尔前出现肌肉问题缺席，现已预计对巴拉圭首发复出。Sports Mole将Brown列入德国预测XI首发位置。德国预测XI：Neuer; Kimmich/Tah/Rudiger/Brown; Nmecha/Pavlovic; Sane/Musiala/Wirtz; Havertz。⚠️重要矛盾情报：Sports Mole称巴拉圭Almiron因对土耳其(032)遭红牌停赛、本场无缘出战，巴拉圭预测XI亦未见其名；但早前06-29情报条目写'Almiron停赛解除可复出'——两条情报相互矛盾，主会话需在开球前核实Almiron真实停赛状态。若Almiron(巴拉圭核心中场)确为停赛，将进一步削弱巴拉圭中场组织能力。(Sports Mole/ESPN双源·含矛盾标注)",
+   "enFull": "Sports Mole and ESPN report (June 29): Germany LB Nathaniel Brown, who missed the Ecuador match with a muscular problem, is expected to be cleared and return to the starting lineup vs Paraguay. Germany predicted XI: Neuer; Kimmich, Tah, Rudiger, Brown; Nmecha, Pavlovic; Sane, Musiala, Wirtz; Havertz. ⚠️ CONTRADICTORY INTEL: Sports Mole states Miguel Almiron was sent off against Turkey (match 032) and will be suspended for this match — he does not appear in Paraguay's predicted XI either. However, an earlier June 29 intel entry stated 'Almiron's ban is served, available to return.' These two entries contradict each other. Main session should verify Almiron's true suspension status before kick-off. If Almiron (Paraguay's key CM) is indeed suspended alongside Gomez (yellow card ban), Paraguay would be severely depleted in midfield. (Sports Mole/ESPN, two independent sources — contradiction flagged)",
+   "links": [
+    {
+     "name": "Sports Mole – Germany vs Paraguay team news & predicted XI",
+     "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
+    },
+    {
+     "name": "ESPN – Germany vs Paraguay kickoff, lineups, stream",
+     "url": "https://www.espn.com/soccer/story/_/id/49197785/germany-vs-paraguay-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "match": "周一076",
    "impact": "加克波丧子",
    "tone": "negative",
    "text": "荷兰前锋加克波(Gakpo)伴侣宣布未出生儿子于孕期夭折·加克波决定留队继续征战·荷兰足协确认其将对阵摩洛哥出战。(ESPN/Sky Sports双源)",
@@ -2140,26 +2180,6 @@ window.DASH_DATA = {
     {
      "name": "FIFA.com – Netherlands v Morocco match preview",
      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周一076",
-   "impact": "摩4主力回归",
-   "tone": "positive",
-   "text": "摩洛哥Mazraoui/Diop/Bouaddi/Ounahi预计回归首发·Saibari本届3球进4场领衔进攻·整体阵型最强配置。(Sports Mole/Squawka双源)",
-   "en": "Morocco four starters return: Mazraoui, Diop, Bouaddi, Ounahi back in XI; Saibari (3 goals in 3 apps) leads attack vs Netherlands. Morocco at full strength. (Sports Mole/Squawka)",
-   "full": "摩洛哥对荷兰将迎来多名主力回归：Noussair Mazraoui、Issa Diop、Ayyoub Bouaddi和Azzedine Ounahi四人预计重回首发11人。主教练Ouahbi将轮换调整回最强11人阵容。锋线领衔的Ismael Saibari本届3场贡献3球，状态绝佳；Hakimi担任右后卫，El Khannouss和Ounahi组成中场核心。预计首发：Bounou; Hakimi, Diop, Riad, Mazraoui; Bouaddi, El Aynaoui; Díaz, Ounahi, El Khannouss; Saibari。摩洛哥2022世界杯曾打进四强、淘汰赛6场5胜1平，本届32强对阵正是发挥淘汰赛能力的舞台，但面对接近满编的荷兰仍是以弱胜强。",
-   "enFull": "Morocco will recall four key starters for the Round of 32 clash with Netherlands: Noussair Mazraoui, Issa Diop, Ayyoub Bouaddi and Azzedine Ounahi are all expected to return to the starting XI after resting or rotation in the group stage. Coach Ouahbi reverts to Morocco's strongest lineup. Leading the attack is Ismael Saibari, who has scored three goals in three appearances at WC2026 and heads to Bayern Munich this summer — he has been in sensational form. The predicted XI: Bounou; Hakimi, Diop, Riad, Mazraoui; Bouaddi, El Aynaoui; Díaz, Ounahi, El Khannouss; Saibari. Morocco reached the semi-finals at the 2022 World Cup and have a record of 5W1D across knockout rounds — this Round of 32 sets the stage for their trademark big-game performance, though facing a near-full-strength Netherlands is a significant challenge. (Sports Mole/Squawka, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Morocco predicted XI vs Netherlands",
-     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/predicted-lineups/ouahbi-to-make-changes-how-morocco-could-line-up-vs-netherlands_600225.html"
-    },
-    {
-     "name": "Squawka – Netherlands vs Morocco team news and predicted lineups",
-     "url": "https://www.squawka.com/en/news/world-cup/netherlands-vs-morocco-team-news-predicted-lineups/"
     }
    ]
   },
