@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 15:10",
+  "updated": "2026-06-29 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1899,6 +1899,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周一076",
+   "impact": "加克波丧子",
+   "tone": "negative",
+   "text": "荷兰前锋加克波(Gakpo)伴侣宣布未出生儿子于孕期夭折·加克波决定留队继续征战·荷兰足协确认其将对阵摩洛哥出战。(ESPN/Sky Sports双源)",
+   "en": "Netherlands forward Cody Gakpo's unborn son passed away during pregnancy; Gakpo has chosen to remain with the squad and will feature vs Morocco, KNVB confirmed. (ESPN/Sky Sports)",
+   "full": "06-29荷兰足协(KNVB)证实：加克波的伴侣Noa van der Bij在社媒上宣布两人的第二个孩子Elijah在孕期不幸夭折。加克波在与女友协商后决定留在荷兰大名单中继续备战。荷兰足协声明：Cody在与女友商量后决定留在团队里。加克波是荷兰本届世界杯表现最稳定的球员之一，在分组赛贡献关键输出，本场对摩洛哥预计首发出战。⚠️这一心理/情绪因素可能影响其专注度和发挥，属软性风险变量；硬信息方面加克波出场无悬念·但场上状态难以量化预判。(ESPN/Sky Sports/Flashscore三源证实)",
+   "enFull": "The KNVB confirmed on June 29 that Cody Gakpo's partner Noa van der Bij announced on social media the passing of their unborn son Elijah during pregnancy. After consulting with his girlfriend, Gakpo has decided to remain with the Netherlands squad and will be available for the Round of 32 clash vs Morocco. The Dutch FA issued a statement: Cody has decided, in consultation with his girlfriend, to remain with the group. Gakpo has been one of Netherlands' key performers in the group stage and is expected to start vs Morocco. ⚠️ This emotional factor is a soft risk variable that may affect Gakpo's focus and performance on the night; his availability is confirmed but form level is unpredictable. (ESPN / Sky Sports / Flashscore — three independent sources)",
+   "links": [
+    {
+     "name": "ESPN – Gakpo shares loss of unborn son",
+     "url": "https://www.espn.com/soccer/story/_/id/49199804/cody-gakpo-netherlands-2026-world-cup"
+    },
+    {
+     "name": "Sky Sports – Gakpo to stay with Netherlands squad",
+     "url": "https://www.skysports.com/football/news/12021/13558394/cody-gakpo-to-stay-with-netherlands-squad-at-world-cup-after-loss-of-unborn-son"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周一074",
