@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 05:10",
+  "updated": "2026-06-30 06:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2007,6 +2007,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-30",
+   "match": "周一076",
+   "impact": "萨巴里三连球",
+   "tone": "negative",
+   "text": "摩洛哥前锋萨巴里(Saibari)分组赛3场3球领衔进攻·今夏转战拜仁·将对荷兰领衔一线。(Sports Mole/Yahoo Sports双源)",
+   "en": "Morocco striker Saibari scored in all 3 group games (3 goals), joins Bayern this summer; leads attack vs Netherlands. (Sports Mole/Yahoo Sports)",
+   "full": "06-30 Sports Mole/Yahoo Sports报道：摩洛哥前锋Ismael Saibari在分组赛3场全部进球，合计3球，成为本届最稳定进攻点之一。今夏确认转战拜仁慕尼黑，正处职业生涯最佳状态。对阵荷兰的淘汰赛，萨巴里将继续领衔摩洛哥一线；摩预计首发：Bono; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Brahim, Ounahi, El Khannouss; Saibari。荷兰后防需警惕其持续进球能力——状态当打之年的萨巴里是本场摩洛哥最大单体威胁。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Morocco forward Ismael Saibari scored in all three of Morocco's group-stage matches (3 goals from 3 appearances), one of the tournament's most consistent finishers. He is set to complete a summer move to Bayern Munich. For the Round of 32 vs Netherlands, Saibari leads Morocco's attack. Predicted Morocco XI: Bono; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Brahim, Ounahi, El Khannouss; Saibari. Netherlands defence must manage his threat in a high-pressure knockout fixture — Saibari is Morocco's single greatest attacking danger. (Sports Mole/Yahoo Sports, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Netherlands vs Morocco predicted XIs",
+     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-morocco-injury-suspension-list-predicted-xis_600223.html"
+    },
+    {
+     "name": "Yahoo Sports – Netherlands XI vs Morocco predicted",
+     "url": "https://uk.sports.yahoo.com/news/netherlands-xi-vs-morocco-predicted-152400279.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-30",
    "match": "周二078",
