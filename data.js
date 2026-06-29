@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 18:10",
+  "updated": "2026-06-29 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1659,11 +1659,11 @@ window.DASH_DATA = {
    "away": "日本",
    "time": "06-30 01:00",
    "status": "upcoming",
-   "predModel": "主胜57.3%",
+   "predModel": "主胜58.7%",
    "ensemble": {
-    "h": 57.3,
-    "d": 25.1,
-    "a": 17.6
+    "h": 58.7,
+    "d": 24.3,
+    "a": 17.0
    }
   },
   {
@@ -1673,11 +1673,11 @@ window.DASH_DATA = {
    "away": "巴拉圭",
    "time": "06-30 04:30",
    "status": "upcoming",
-   "predModel": "主胜73.1%",
+   "predModel": "主胜71.5%",
    "ensemble": {
-    "h": 73.1,
-    "d": 18.4,
-    "a": 8.5
+    "h": 71.5,
+    "d": 18.3,
+    "a": 10.2
    }
   },
   {
@@ -1687,11 +1687,95 @@ window.DASH_DATA = {
    "away": "摩洛哥",
    "time": "06-30 09:00",
    "status": "upcoming",
-   "predModel": "主胜42.7%",
+   "predModel": "主胜44.4%",
    "ensemble": {
-    "h": 42.7,
-    "d": 31.3,
-    "a": 26.1
+    "h": 44.4,
+    "d": 30.2,
+    "a": 25.3
+   }
+  },
+  {
+   "num": "周二077",
+   "round": "周二",
+   "home": "科特迪瓦",
+   "away": "挪威",
+   "time": "07-01 01:00",
+   "status": "upcoming",
+   "predModel": "主胜23.8%",
+   "ensemble": {
+    "h": 23.8,
+    "d": 26.4,
+    "a": 49.9
+   }
+  },
+  {
+   "num": "周二078",
+   "round": "周二",
+   "home": "法国",
+   "away": "瑞典",
+   "time": "07-01 05:00",
+   "status": "upcoming",
+   "predModel": "主胜77.3%",
+   "ensemble": {
+    "h": 77.3,
+    "d": 14.9,
+    "a": 7.8
+   }
+  },
+  {
+   "num": "周二079",
+   "round": "周二",
+   "home": "墨西哥",
+   "away": "厄瓜多尔",
+   "time": "07-01 09:00",
+   "status": "upcoming",
+   "predModel": "主胜45.2%",
+   "ensemble": {
+    "h": 45.2,
+    "d": 32.1,
+    "a": 22.7
+   }
+  },
+  {
+   "num": "周三080",
+   "round": "周三",
+   "home": "英格兰",
+   "away": "刚果金",
+   "time": "07-02 00:00",
+   "status": "upcoming",
+   "predModel": "主胜75.9%",
+   "ensemble": {
+    "h": 75.9,
+    "d": 17.0,
+    "a": 7.1
+   }
+  },
+  {
+   "num": "周三081",
+   "round": "周三",
+   "home": "比利时",
+   "away": "塞内加尔",
+   "time": "07-02 04:00",
+   "status": "upcoming",
+   "predModel": "主胜45.5%",
+   "ensemble": {
+    "h": 45.5,
+    "d": 29.1,
+    "a": 25.5
+   }
+  },
+  {
+   "num": "周三082",
+   "round": "周三",
+   "home": "美国",
+   "away": "波黑",
+   "time": "07-02 08:00",
+   "status": "upcoming",
+   "predModel": "主胜70.3%",
+   "ensemble": {
+    "h": 70.3,
+    "d": 19.4,
+    "a": 10.4
    }
   }
  ],
