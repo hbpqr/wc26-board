@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "小组赛第 3 轮",
-  "updated": "2026-06-29 09:10",
+  "updated": "2026-06-29 10:13",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1857,6 +1857,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-29",
+   "match": "周一074",
+   "impact": "板仓料出战",
+   "tone": "positive",
+   "text": "日本CB板仓滉二(Itakura)最新预测首发出战巴西·ESPN/Sports Mole均列入先发XI·伤情'非严重'料可上阵·早间谷口替补说法更新。(ESPN/Sports Mole双源)",
+   "en": "Japan CB Ko Itakura now projected to START vs Brazil — ESPN notes injury 'not thought to be serious'; Taniguchi drops to bench. Updates earlier doubt report. (ESPN/Sports Mole)",
+   "full": "最新情报(06-29上午)更新板仓状态：ESPN最新文章明确表示'板仓被认为伤情非严重，应该可以上阵(Itakura is not thought to be carrying a serious injury, so he should play)'；Sports Mole最新日本预测XI(同源)也将Itakura列入首发。最新日本预测XI(3-4-2-1)：Suzuki；Ito/Tomiyasu/Itakura；Doan/Sano/Tanaka/Nakamura；Kamada/Maeda；Ueda。此前06-29早间'板仓疑缺·谷口顶替'条目为更早版Sports Mole文章的预测·已被最新资讯更正。Kubo膝伤仍高度可能缺席。板仓出战令日本防守较预期略强，但巴西整体仍压倒性强势。⚠️此条更新早间'板仓疑缺'条目·官方首发于06-30 00:40前确认。",
+   "enFull": "Status update as of June 29 morning: ESPN's latest preview explicitly states Ko Itakura 'is not thought to be carrying a serious injury, so he should play' vs Brazil. Sports Mole's updated Japan predicted XI also lists Itakura in the starting lineup. Updated Japan predicted XI (3-4-2-1): Suzuki; Ito, Tomiyasu, Itakura; Doan, Sano, Tanaka, Nakamura; Kamada, Maeda; Ueda. This supersedes the earlier entry that had Taniguchi replacing Itakura — that was based on an earlier Sports Mole article which has since been revised. Takefusa Kubo (knee) remains highly unlikely to feature. Itakura's expected return makes Japan's defensive organization slightly more solid than feared, though Brazil remain heavy favourites regardless. ⚠️ This updates the earlier 'Itakura doubt' entry (same date, different source vintage). Official lineups confirmed ~60 min before kick-off June 30 01:00 BJT. (ESPN/Sports Mole, two independent sources)",
+   "links": [
+    {
+     "name": "ESPN – Brazil vs Japan predicted lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49194679/brazil-vs-japan-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+     "name": "Sports Mole – Japan predicted XI vs Brazil (Itakura expected to play)",
+     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/defensive-injury-doubt-predicted-japan-xi-vs-brazil_600207.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-29",
    "match": "周一075",
