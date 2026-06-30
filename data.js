@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 12:10",
+  "updated": "2026-06-30 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2017,6 +2017,66 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "2026-06-30",
+   "match": "周二077",
+   "impact": "哈兰+奥德复出",
+   "tone": "positive",
+   "text": "挪威锋线Haaland和队长Odegaard小组赛末轮(0:4负法国)轮休后预计对科特迪瓦复出首发·全主力阵容出战淘汰赛。(Sports Mole/Yahoo Sports双源)",
+   "en": "Norway's Haaland and Odegaard expected to return to starting XI vs Ivory Coast after being rested for final group game (0-4 loss to France). (Sports Mole/Yahoo Sports)",
+   "full": "06-30 Sports Mole/Yahoo Sports报道：挪威前锋Erling Haaland和队长Martin Odegaard在对阵法国的小组赛末轮(0:4)被主帅Solbakken有意轮休，保体能迎接淘汰赛。两人预计对阵科特迪瓦全面复出首发。Haaland本届分组赛前两场各有贡献(对巴拿马进球)，Odegaard是中场核心与节奏把控者。科特迪瓦面对拥有Haaland+Odegaard+Sorloth的挪威全主力阵容，防守压力将显著增大。⚠️右后卫Ryerson腿筋伤仍存疑(已有独立情报条目)，Pedersen候补。官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Norway's two biggest stars — striker Erling Haaland and captain Martin Odegaard — are expected to return to the starting XI against Ivory Coast after being rested for Norway's final group-stage match (0-4 defeat to France). The decision to rotate both players was a deliberate squad management call by manager Solbakken ahead of the knockout rounds. Haaland scored vs Panama in the group stage and remains Norway's primary scoring threat; Odegaard is the creative engine of Norway's attack. Ivory Coast, facing defensive doubts (Singo/Amad), will face a significantly more dangerous Norway than the rotated team that lost to France. ⚠️ RB Julian Ryerson remains a doubt (thigh) — see separate intel entry. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Ivory Coast vs Norway team news",
+     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/team-news/ivory-coast-vs-norway-injury-suspension-list-predicted-xis_600307.html"
+    },
+    {
+     "name": "Yahoo Sports – Norway XI vs Ivory Coast",
+     "url": "https://au.sports.yahoo.com/norway-xi-vs-ivory-coast-171238949.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二078",
+   "impact": "萨利巴背伤疑",
+   "tone": "negative",
+   "text": "法国中卫Saliba对挪威轮休·原因为背部持续伤痛·预计带伤出战瑞典(软性风险·出场无悬念)。(Sports Mole/ESPN双源)",
+   "en": "France CB William Saliba was rested vs Norway due to ongoing back issue; expected to play through pain vs Sweden but a soft injury risk factor. (Sports Mole/ESPN)",
+   "full": "06-30 Sports Mole/ESPN报道：法国后卫William Saliba在对挪威的小组赛末轮被有意轮休，原因是背部持续伤痛(ongoing back issue)。尽管如此，阿森纳中卫预计在淘汰赛对瑞典时带伤出战——主帅Deschamps称他要守住首发位置，本场应会出场。法国整体防线Upamecano/Koundé/Hernandez均无新伤停报告。⚠️Saliba背伤属软性风险变量——出场预计无悬念，但若伤情在比赛中恶化，或影响其对抗Gyokeres/Isak的防守强度。官方首发于07-01 05:00开球前约60分钟确认。(Sports Mole/ESPN双源)",
+   "enFull": "According to Sports Mole and ESPN (June 30), France centre-back William Saliba was rested for the final group-stage match against Norway due to an ongoing back issue. However, the Arsenal defender is expected to play through the discomfort and start against Sweden in the Round of 32. France's defensive unit — Saliba, Upamecano, Koundé, T.Hernandez — remains the core backbone; no other new injury concerns reported. ⚠️ Saliba's back issue is a soft risk variable: his availability is assumed but an in-game flare-up could reduce his effectiveness against Sweden's physically powerful forwards (Gyokeres, Isak). Official lineup confirmed ~60 min before kick-off July 1 05:00 BJT. (Sports Mole/ESPN, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – France vs Sweden team news",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-sweden-injury-suspension-list-predicted-xis_600359.html"
+    },
+    {
+     "name": "ESPN – France vs Sweden World Cup preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二079",
+   "impact": "希门尼斯复出",
+   "tone": "positive",
+   "text": "墨西哥无伤停隐忧·Raul Jimenez末轮轮休后预计复出首发·厄瓜多尔全员健康维持击败德国原阵。(Sports Mole/Goal.com双源)",
+   "en": "Mexico no injury concerns; Jimenez expected to return to XI after rest vs Czech Republic. Ecuador unchanged from lineup that beat Germany 2-1. (Sports Mole/Goal.com)",
+   "full": "06-30 Sports Mole/Goal.com报道：墨西哥备战厄瓜多尔全队无伤停顾虑，主帅Aguirre预计在轮休一场后恢复核心中锋Raul Jimenez首发。预测首发XI：Rangel; Sanchez, Alvarez, Vasquez, Gallardo; Romo, Lira, Gutierrez; Alvarado, Jimenez, Quinones。墨西哥是本届东道主之一，小组赛三场全胜无失球，主场球迷优势明显。厄瓜多尔：主帅Beccacece无伤停顾虑，预计沿用击败德国2:1的全套首发(Galindez; Franco, Ordonez, Pacho, Hincapie; Yeboah, Caicedo, Vite, Angulo; Plata, Valencia)。Caicedo控场+Valencia锋线是厄瓜多尔的核心威胁。⚠️官方首发于07-01 09:00开球前约60分钟确认。(Sports Mole/Goal.com双源)",
+   "enFull": "Per Sports Mole and Goal.com (June 30), Mexico have no injury or suspension concerns heading into their Round of 32 match against Ecuador. Manager Aguirre is expected to restore striker Raul Jimenez to the starting XI after resting him vs Czech Republic. Predicted Mexico XI: Rangel; Sanchez, Alvarez, Vasquez, Gallardo; Romo, Lira, Gutierrez; Alvarado, Jimenez, Quinones. Mexico are co-hosts, won all three group games without conceding (vs Colombia, Kuwait, Czech Republic), and will have enormous home support at the Estadio Azteca. Ecuador have no injury concerns — Beccacece names the same XI that beat Germany 2-1: Galindez; Franco, Ordonez, Pacho, Hincapie; Yeboah, Caicedo, Vite, Angulo; Plata, Valencia. Caicedo in midfield and Valencia up front are Ecuador's biggest threats. ⚠️ Official lineups confirmed ~60 min before kick-off July 1 09:00 BJT. (Sports Mole/Goal.com, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Mexico vs Ecuador team news",
+     "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/team-news/mexico-vs-ecuador-injury-suspension-list-predicted-xis_600277.html"
+    },
+    {
+     "name": "Goal.com – Mexico vs Ecuador World Cup preview",
+     "url": "https://www.goal.com/en-us/news/mexico-ecuador-world-cup-preview/blt3e5e16bf513deef8"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
    "match": "周一076",
    "impact": "萨巴里三连球",
    "tone": "negative",
@@ -2232,26 +2292,6 @@ window.DASH_DATA = {
     {
      "name": "RotoWire – Brazil vs Japan preview",
      "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周一076",
-   "impact": "荷双主力复出",
-   "tone": "positive",
-   "text": "荷兰Dumfries(小伤)与Brobbey(小伤)均已通过健康测试可出战·Van de Ven复回左后卫首发·Timber整届伤缺(腹股沟)不变。(Sports Mole/FIFA.com双源)",
-   "en": "Netherlands fitness boost: Dumfries and Brobbey both passed fitness tests and are available vs Morocco; Van de Ven returns to start at left-back. Timber remains out all tournament (groin). (Sports Mole/FIFA.com)",
-   "full": "荷兰迎来双重健康利好：Denzel Dumfries和Brian Brobbey两人此前均有小伤，但赛前均通过健康测试，确认可上阵对摩洛哥。Van de Ven复回左后卫首发位置，将Ake替换至替补。Jurriën Timber因腹股沟伤整届缺席不变，荷兰已适应无Timber的阵容打法。预计首发：Verbruggen; Dumfries, Van Hecke, Van Dijk, Van de Ven; Gravenberch, De Jong, Reijnders; Malen, Brobbey, Gakpo。两名关键球员通过健康测试令荷兰战斗力接近满编，对摩洛哥的赔率优势更加稳固。",
-   "enFull": "Netherlands receive a double fitness boost ahead of their Round of 32 clash with Morocco: Denzel Dumfries (minor knock) and Brian Brobbey (minor knock) have both been passed fit and are available for selection. Micky van de Ven is set to return to the starting XI at left-back, with Nathan Ake dropping to the bench. Jurriën Timber (groin) remains out for the tournament — Netherlands have adjusted to life without him across the group stage. Predicted XI: Verbruggen; Dumfries, Van Hecke, Van Dijk, Van de Ven; Gravenberch, De Jong, Reijnders; Malen, Brobbey, Gakpo. The two fitness clearances mean Netherlands are close to full strength for the most important match of their tournament. (Sports Mole/FIFA.com, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Netherlands double fitness boost predicted XI",
-     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/predicted-lineups/double-fitness-boost-how-netherlands-could-line-up-vs-morocco_600224.html"
-    },
-    {
-     "name": "FIFA.com – Netherlands v Morocco match preview",
-     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
     }
    ]
   }
