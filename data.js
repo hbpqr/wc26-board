@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 18:10",
+  "updated": "2026-06-30 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2015,6 +2015,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-06-30",
+   "match": "周二077",
+   "impact": "莱尔森确认缺阵",
+   "tone": "negative",
+   "text": "挪威右后卫Ryerson正式确认腿筋伤缺席vs科特迪瓦(从存疑升级为确认缺阵)·Pedersen候补待命·Aursnes顶右后卫。(Sports Mole/Yahoo Sports双源)",
+   "en": "Norway RB Julian Ryerson confirmed ruled out vs Ivory Coast (upgraded from doubt) with thigh injury; Marcus Pedersen on standby, Aursnes shifts to right-back. (Sports Mole/Yahoo Sports)",
+   "full": "06-30 Sports Mole/Yahoo Sports最新报道：挪威右后卫Julian Ryerson正式确认因腿筋伤缺席对科特迪瓦的R32比赛——从此前「存疑」升级为「确认缺阵」。Marcus Pedersen进入候补待命。若Aursnes顶右后卫、Berg入中场的调整如预料进行，挪威右路进攻创造力将有所下降，但全主力Haaland+Odegaard+Sørloth锋线的进攻威力不受影响。相比分组赛末轮轮休整个锋线，本场挪威攻击力仍大幅提升。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "Latest from Sports Mole and Yahoo Sports (June 30): Norway right-back Julian Ryerson is now confirmed ruled out of the Round of 32 match against Ivory Coast — an upgrade from his earlier doubtful status. A thigh injury prevents him from featuring; Marcus Pedersen is on standby to cover at right-back or as a substitute option. The expected knock-on is Fredrik Aursnes shifts from central midfield to right-back with Patrick Berg entering midfield. Norway's right-side attacking creativity will be somewhat reduced, but the full-strength Haaland+Odegaard+Sørloth frontline remains unaffected. ⚠️ Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Ivory Coast vs Norway team news",
+     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/team-news/ivory-coast-vs-norway-injury-suspension-list-predicted-xis_600307.html"
+    },
+    {
+     "name": "Yahoo Sports – Norway XI vs Ivory Coast",
+     "url": "https://au.sports.yahoo.com/norway-xi-vs-ivory-coast-171238949.html"
+    }
+   ]
+  },
   {
    "date": "2026-06-30",
    "match": "周二077",
