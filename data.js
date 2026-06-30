@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 08:14",
+  "updated": "2026-06-30 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2233,26 +2233,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-06-28",
-   "match": "周一075",
-   "impact": "主力后卫缺",
-   "tone": "negative",
-   "text": "德国中卫Nico Schlotterbeck因对科特迪瓦时(6/21)踝关节韧带撕裂整届报销·Rüdiger/Tah顶替后防线受影响。(ESPN/FIFA.com/Bundesliga三源)",
-   "en": "Germany defender Schlotterbeck ruled out of entire WC2026 with torn ankle ligament (injury vs Côte d'Ivoire 6/21); Rüdiger/Tah cover CB duties vs Paraguay. (ESPN/FIFA.com/Bundesliga)",
-   "full": "德国后防迎来本届最大伤停：中卫Nico Schlotterbeck在6月21日对科特迪瓦的比赛中踝关节韧带撕裂，DFB官方确认整届报销。他将留在大本营随队但不可出场。Antonio Rüdiger将继续领衔后防，Tah则填补另一中卫位置。对阵巴拉圭(075场)，德国后防深度缩减，但Rüdiger状态全场稳定。Schlotterbeck曾是德国主力后卫，缺席令科特迪瓦得以突破后防打进2:1，对阵更强的巴拉圭若防线出现组织问题需关注。⚠️该伤情发生在6/21，市场已有6天时间消化定价，impact很可能已price-in。",
-   "enFull": "Germany suffer a major defensive blow: centre-back Nico Schlotterbeck has been ruled out for the remainder of WC2026 after sustaining torn ankle ligament against Côte d'Ivoire on June 21. The DFB confirmed he will remain with the squad but cannot play. Antonio Rüdiger and Jonathan Tah are expected to partner at centre-back against Paraguay (match 075). Schlotterbeck was a key starter; his absence was felt in the Ivory Coast defeat (2:1). For Germany vs Paraguay, the CB rotation depth is reduced, though Rüdiger remains in excellent form. ⚠️ Injury occurred June 21 — 6+ days for the market to price this in, so impact is likely already reflected in current odds. (ESPN/FIFA.com/Bundesliga, three independent sources)",
-   "links": [
-    {
-     "name": "ESPN – Schlotterbeck out for rest of WC2026",
-     "url": "https://www.espn.com/soccer/story/_/id/49143768/germany-nico-schlotterbeck-miss-rest-world-cup-ankle-injury"
-    },
-    {
-     "name": "FIFA.com – Schlotterbeck ruled out",
-     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/nico-schlotterbeck-germany-injured"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-28",
    "match": "周一076",
    "impact": "荷双主力复出",
    "tone": "positive",
@@ -2269,20 +2249,6 @@ window.DASH_DATA = {
      "name": "FIFA.com – Netherlands v Morocco match preview",
      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
     }
-   ]
-  },
-  {
-   "date": "2026-06-28",
-   "match": "周一075",
-   "impact": "德国中卫退出",
-   "tone": "negative",
-   "text": "德国Nico Schlotterbeck踝伤退出本届世界杯剩余赛事·Rüdiger+Tah中卫搭档；巴拉圭Diego Gómez停赛·Almirón回归·Alderete膝盖存疑。(Fox Sports/SportsMole双源)",
-   "en": "Germany's Nico Schlotterbeck ruled out for remainder of WC with ankle injury; Rudiger+Tah in CB. Paraguay: Diego Gomez suspended, Almiron returns, Alderete knee doubt. (Fox Sports/SportsMole)",
-   "full": "Schlotterbeck confirmed out for remainder of 2026 WC. Rudiger and Tah will partner in CB. Germany's Kimmich moves to RB. Paraguay lose Gomez to suspension but welcome back Almiron from suspension. Alderete a doubt with knee problem.",
-   "enFull": "Schlotterbeck ruled out for remainder of 2026 World Cup with ankle injury per Fox Sports. Kimmich shifts to right back. Rudiger and Tah form CB partnership. Paraguay: Almiron returns (served 1-match suspension vs Australia), Diego Gomez suspended, Omar Alderete knee doubt.",
-   "links": [
-    "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-buzz",
-    "https://www.sportsmole.co.uk/football/germany/world-cup-2026/predicted-lineups/will-brown-be-passed-fit-how-germany-could-line-up-against-paraguay_600234.html"
    ]
   }
  ],
