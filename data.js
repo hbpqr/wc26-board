@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 20:10",
+  "updated": "2026-06-30 20:31",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -581,6 +581,16 @@ window.DASH_DATA = {
     "actualPnl": null,
     "status": "待结算",
     "note": "全场无val≥1.10·§0最高指令凸性最小仓·终盘刷新(日本5.25→4.95·摩洛哥3.64→3.48)·Brazil双边路缺席(Raphinha+Rodrygo)·摩洛哥全主力回归+Saibari3球·CLV均负·池278.55·最坏-8→270.55>>地板80"
+   },
+   {
+    "date": "06-30",
+    "desc": "周二2注8元:077科特迪瓦@3.60·4元单关 + 079厄瓜多尔@4.00·4元单关",
+    "stake": 8,
+    "evPnl": -0.83,
+    "winProb": 42,
+    "actualPnl": null,
+    "status": "待结算",
+    "note": "全9场无val≥1.10·§0最高指令凸性最小仓·betRound=周二(077/078/079)·国际盘CLV全负(Smarkets/Polymarket)·078 fade CLV=-9.5%协议不触发(Hien确认缺阵+CLV负)·077 IVC首场KO历史动机·079 ECU已证明爆冷(德国2:1)·CLV均负·池278.55·最坏-8→270.55>>地板80"
    }
   ]
  },
@@ -2154,44 +2164,88 @@ window.DASH_DATA = {
      "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
     }
    ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二078",
+   "impact": "Hien缺阵",
+   "tone": "negative",
+   "text": "瑞典中卫Isak Hien(腘绳肌)确认整届缺席·Lindelof从中场临时转中卫应对法国。(ESPN/Sports Mole双源)",
+   "en": "Sweden CB Isak Hien confirmed out for tournament remainder (hamstring). Victor Lindelof moves from midfield to fill at center-back vs France. (ESPN/Sports Mole)",
+   "full": "06-30 ESPN/Sports Mole报道：瑞典中卫Isak Hien因腘绳肌伤情确认整届缺席——R32对法国无法参加。Hien是瑞典防线稳定器，其离开迫使主帅Potter将Victor Lindelof(31岁)从中场临时改打中后卫。瑞典分组赛已对荷兰失5球(1-5)，本场防线重组面对Mbappe/Dembele/Olise法国锋线风险极高。法国Marcus Thuram(小腿存疑)预计替补；法国Saliba预计复出首发。这一伤情强化法国主胜方向，但同时使平局概率进一步下降——与fade-favorite压平策略相悖。(ESPN/Sports Mole双源)",
+   "enFull": "Per ESPN and Sports Mole (June 30): Sweden CB Isak Hien is officially ruled out for the rest of the tournament with a hamstring injury. He will not feature against France in R32 or beyond. Coach Graham Potter must move Victor Lindelof from midfield to center-back. Sweden conceded 5 goals in their 1-5 loss to Netherlands in the group stage; a reshuffled backline now faces France's attacking line of Mbappe, Dembele, and Olise. France's Marcus Thuram (calf) is doubtful but available off the bench. William Saliba expected to return to France's starting XI. Net intelligence effect: this injury strengthens France's win probability and reduces draw likelihood — cuts against any fade-the-draw thesis. (ESPN/Sports Mole, two independent sources)",
+   "links": [
+    {
+     "name": "ESPN – France vs Sweden preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+     "name": "Sports Mole – France vs Sweden team news",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-sweden-injury-suspension-list-predicted-xis_600359.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "match": "周二079",
+   "impact": "墨主场驱动",
+   "tone": "positive",
+   "text": "墨西哥A组第一(3胜0失球)·主场墨西哥城·40年未赢淘汰赛的历史驱动·Jimenez复出首发。厄瓜多尔全员健康·Caicedo领衔·3场0-0-1后2:1爆冷德国晋级。(Goal/ESPN/Sports Mole三源)",
+   "en": "Mexico: group winners (3W, 0 conceded), home advantage Mexico City, 40-year knockout drought, Jimenez returns. Ecuador: full squad, Caicedo world-class, upset Germany 2-1. (Goal/ESPN/Sports Mole)",
+   "full": "06-30 多源报道：墨西哥以A组第一(3战全胜·零失球)进入淘汰赛，在主场墨西哥城阿兹特克体育场出战。历史背景：墨西哥自1986年本土WC以来40年未赢淘汰赛——本场对厄瓜多尔是打破诅咒的时机，球员动机极强。前锋Jimenez末轮轮休后复出首发，全员健康，阵容最强。厄瓜多尔：全员无伤，Moises Caicedo(Chelsea CM)是本届最佳球员之一，Enner Valencia领衔锋线。小组赛前两场0进球，但第三场2:1德国展示了真正的爆冷能力，防守纪律出色。墨西哥@1.98竞彩价(val=0.90)vs 厄瓜多尔@4.00(val=0.89)，主场+动机可能让墨西哥真实胜率高于市场45%，但竞彩仍比Polymarket公平价(4.27)短→负CLV。(Goal/ESPN/Sports Mole三源)",
+   "enFull": "Multiple sources (June 30): Mexico enter the knockout stage as Group A winners — three wins, zero goals conceded, a record-setting performance by any metric. Playing at home in Mexico City (Estadio Azteca) gives structural advantage including altitude. Historical context is compelling: Mexico has not won a knockout-round match in 40 years (since the 1986 home World Cup), losing consecutively in the Round of 16 at eight straight tournaments. Raul Jimenez returns to the starting XI after rest. Full squad available. Ecuador: no injuries, Moises Caicedo (Chelsea) is one of the best CMs in the world. Enner Valencia leads the attack. Group stage was uneven (0 goals in first two matches, then 2-1 vs Germany). Defensive discipline is strong. Intelligence verdict: Mexico's home + motivation context is real, but already priced into 竞彩 (CLV negative vs Polymarket fair 4.27). (Goal/ESPN/Sports Mole, three sources)",
+   "links": [
+    {
+     "name": "Goal – Mexico vs Ecuador preview",
+     "url": "https://www.goal.com/en-us/news/mexico-ecuador-world-cup-preview/blt3e5e16bf513deef8"
+    },
+    {
+     "name": "ESPN – Mexico vs Ecuador preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49212810/mexico-vs-ecuador-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+     "name": "Sports Mole – Mexico vs Ecuador team news",
+     "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/team-news/mexico-vs-ecuador-injury-suspension-list-predicted-xis_600277.html"
+    }
+   ]
   }
  ],
  "slip": {
-  "title": "6月29日 · 正常模式 · 21:00最终版",
+  "title": "6月30日 · 正常模式 · 21:00最终版",
   "status": "final",
-  "detail": "三场全盘口终盘扫描(074-076·R32·终盘20:31刷新)：全盘口无价值≥1.10项。074巴西vs日本(HAD 日本@4.95 val=0.87·终盘从5.25跌至4.95)；075德国vs巴拉圭(平@5.00 val(emp)=1.65→但Polymarket-only CLV-7.9%·Gómez停赛削弱巴拉圭·淘汰赛draw更难→fade跳过)；076荷兰vs摩洛哥(摩洛哥@3.48 val=0.88·终盘从3.64跌至3.48)。伤停终核：074 Brazil缺Raphinha(腿筋·ESPN/telecomasia双源)+Rodrygo(十字韧带·整届缺席·不在名单)→两大边路全无，攻击力严重受限；日本缺Kubo(膝伤)+Mitoma(不在名单)但紧凑3-4-2-1反击体系完整、2022WC淘汰赛克德/西先例。076 Morocco全主力回归(Saibari分组赛3场3球+Mazraoui/Ounahi/Bouaddi全归)vs荷兰Timber整届缺席+Van de Ven顶左后卫。§0最高指令给凸性picks：①074日本@4.95(双边路缺席·反击凸性)；②076摩洛哥@3.48(全阵+Saibari在状态·2022WC4强·淘汰赛实力)。诚实披露：两注均val<1.0(EV负)，CLV均负，纯§0最高指令参与；影子book继续记全盘口。",
+  "detail": "九场全盘口终盘扫描(077-085·R32·终盘20:31刷新)：全盘口无价值≥1.10项。betRound=周二(077/078/079·均在售·均未开打)。三模型+国际共识集成：077 IVC25.1%/平26.6%/挪威48.3%；078 法国77.1%/平15.2%/瑞典7.7%；079 墨西哥45.5%/平32.3%/厄瓜多尔22.2%。国际盘CLV核查：077全负CLV(Smarkets科特迪瓦3.85>竞彩3.60·平3.60>3.38·挪威2.16>1.80)；078全负CLV(Polymarket法国公平1.30>1.16·平公平6.41>5.80)；079全负CLV(Polymarket厄瓜多尔公平4.27>竞彩4.00·墨西哥公平2.31>1.98)。Fade-favorite §14协议：078法国conf=77.1%≥60%触发检查→竞彩平@5.80 vs Polymarket公平6.41→CLV=-9.5%(负)→**协议不触发·台账记not_placed_neg_clv**。Hien伤情复盘：确认整届缺席使法国更可能大胜、平局更难(不利于押平)，与fade-the-draw方向相悖，进一步支持CLV不通过的决定。伤停终核：077 挪威Ryerson(腿筋)确认缺阵·Haaland+Odegaard复出全火力；IVC Singo(腿筋)存疑。078 瑞典Isak Hien整届确认缺席·Lindelof临时顶中卫·法国Thuram(小腿)存疑但预计上替补。079 双方全员健康·墨西哥主场阿兹特克·40年KO晋级渴望·Jimenez复出首发；厄瓜多尔Caicedo世界级CM·2:1爆冷德国展示真实爆冷力。§0最高指令→无val≥1.10·选两注最高凸性underdog参与：①077 科特迪瓦@3.60(IVC历史首场KO赛·情绪高涨·防反打针对Haaland依赖体系)；②079 厄瓜多尔@4.00(已证明爆冷能力·Caicedo领衔·墨西哥40年压力可能适得其反)。诚实披露：两注均val<1.10(负CLV)，§0最高指令凸性最小仓·影子book记全9场全盘口。",
   "items": [
    {
-    "num": "周一074",
-    "match": "巴西 vs 日本",
-    "pick": "日本胜 (HAD 客胜)",
-    "tier": "§0凸性·双边路缺席",
+    "num": "周二077",
+    "match": "科特迪瓦 vs 挪威",
+    "pick": "科特迪瓦胜 (HAD 主胜)",
+    "tier": "§0凸性·历史首场KO",
     "stake": 4,
-    "odds": 4.95,
-    "value": 0.87,
-    "ev": -0.53,
-    "note": "终盘4.95(从5.25下移)·had.single=1✓；Brazil缺Raphinha(腿筋)+Rodrygo(十字韧带·整届缺席)→两大边路全无仅剩Vinicius·日本缺Kubo+Mitoma但3-4-2-1紧凑体系完整·2022WC淘汰赛克德/西先例；集成日本17.5%·Smarkets公平5.50→CLV-10.0%(负)·§0凸性4元"
+    "odds": 3.6,
+    "value": 0.9,
+    "ev": -0.38,
+    "note": "had.single=1✓；IVC历史首场WC淘汰赛·情绪动机极强·防守反击体系成型(Pepe/Diomande/Adingra速度)·对Haaland依赖体系克制可能；挪威Ryerson(腿筋)确认缺阵右路弱化·Haaland+Odegaard复出·高强度压迫style；集成IVC 25.1%·Smarkets公平3.85→CLV-6.5%(负)·§0凸性最小仓4元"
    },
    {
-    "num": "周一076",
-    "match": "荷兰 vs 摩洛哥",
-    "pick": "摩洛哥胜 (HAD 客胜)",
-    "tier": "§0凸性·全阵+Saibari在状态",
+    "num": "周二079",
+    "match": "墨西哥 vs 厄瓜多尔",
+    "pick": "厄瓜多尔胜 (HAD 客胜)",
+    "tier": "§0凸性·爆冷能力验证",
     "stake": 4,
-    "odds": 3.48,
-    "value": 0.88,
-    "ev": -0.48,
-    "note": "终盘3.48(从3.64下移)·had.single=1✓；摩洛哥全主力回归(Saibari分组赛3场3球·Mazraoui/Ounahi/Bouaddi全归)·荷兰Timber整届缺席+Van de Ven顶左后卫；集成摩洛哥25.3%·Smarkets公平3.87→CLV-10.1%(负)·2022WC4强·淘汰赛克强历史；§0凸性4元"
+    "odds": 4.0,
+    "value": 0.89,
+    "ev": -0.45,
+    "note": "had.single=1✓；厄瓜多尔2:1爆冷德国已证明真实爆冷能力·Caicedo(Chelsea CM)世界级领衔·全员健康·防守低位街·压反路线成型；墨西哥40年淘汰赛诅咒可能形成紧张·竞彩主场优势已price in；集成ECU 22.2%·Polymarket公平4.27→CLV-6.3%(负)·§0凸性最小仓4元"
    }
   ],
   "summary": {
    "stake": 8,
    "evLow": -8,
-   "evHigh": 26,
-   "winProb": 38,
+   "evHigh": 22,
+   "winProb": 42,
    "best": {
-    "label": "074日本+076摩洛哥均中",
-    "pnl": 25.72
+    "label": "077 IVC+079 ECU均中",
+    "pnl": 22.4
    },
    "worst": {
     "label": "全挂",
@@ -2199,12 +2253,12 @@ window.DASH_DATA = {
    },
    "keyScenarios": [
     {
-     "label": "仅074日本中(076挂)",
-     "pnl": 11.8
+     "label": "仅077 IVC中(079挂)",
+     "pnl": 10.4
     },
     {
-     "label": "仅076摩洛哥中(074挂)",
-     "pnl": 5.92
+     "label": "仅079 ECU中(077挂)",
+     "pnl": 12.0
     },
     {
      "label": "全挂",
@@ -2214,32 +2268,32 @@ window.DASH_DATA = {
   },
   "matrix": [
    {
-    "scenario": "074日本+076摩洛哥均中",
-    "prob": 4,
-    "returnTotal": 33.72,
-    "pnl": 25.72
+    "scenario": "077 IVC+079 ECU均中",
+    "prob": 6,
+    "returnTotal": 30.4,
+    "pnl": 22.4
    },
    {
-    "scenario": "仅074日本中",
-    "prob": 13,
-    "returnTotal": 19.8,
-    "pnl": 11.8
+    "scenario": "仅077 IVC胜",
+    "prob": 20,
+    "returnTotal": 14.4,
+    "pnl": 10.4
    },
    {
-    "scenario": "仅076摩洛哥中",
-    "prob": 21,
-    "returnTotal": 13.92,
-    "pnl": 5.92
+    "scenario": "仅079 ECU胜",
+    "prob": 17,
+    "returnTotal": 16.0,
+    "pnl": 12.0
    },
    {
     "scenario": "全挂",
-    "prob": 62,
+    "prob": 57,
     "returnTotal": 0,
     "pnl": -8
    }
   ],
-  "copyText": "老板你好，竞彩足球，6月29日：\n\n场次：周一074 巴西 vs 日本\n买：日本赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周一076 荷兰 vs 摩洛哥\n买：摩洛哥赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
-  "reviewNote": "✓ 已独立复核 20:41 ｜ 草稿合规，无删改 ｜ 两注均§0最高指令凸性最小仓(4元underdog)，value<1.10经§0推翻§3否决权，had.single均=1，8元/278.55池=2.9%<<25%，最坏270.55>>地板80"
+  "copyText": "老板你好，竞彩足球，6月30日：\n\n场次：周二077 科特迪瓦 vs 挪威\n买：科特迪瓦赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周二079 墨西哥 vs 厄瓜多尔\n买：厄瓜多尔赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
+  "reviewNote": "✓ 已独立复核 20:31 ｜ 两注均§0最高指令凸性最小仓(4元underdog) · value均<1.10由§0推翻§3否决权 · had.single均=1 · 8元/278.55池=2.9%<<25% · 最坏270.55>>地板80 · 078跳过(Hien缺阵使法国更强+CLV-9.5%负) · fade-favorite §14未触发(078 CLV=-9.5%<0)"
  },
  "calibration": {
   "stats": {
