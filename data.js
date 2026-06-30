@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-06-30 13:10",
+  "updated": "2026-06-30 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2077,26 +2077,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-06-30",
-   "match": "周一076",
-   "impact": "萨巴里三连球",
-   "tone": "negative",
-   "text": "摩洛哥前锋萨巴里(Saibari)分组赛3场3球领衔进攻·今夏转战拜仁·将对荷兰领衔一线。(Sports Mole/Yahoo Sports双源)",
-   "en": "Morocco striker Saibari scored in all 3 group games (3 goals), joins Bayern this summer; leads attack vs Netherlands. (Sports Mole/Yahoo Sports)",
-   "full": "06-30 Sports Mole/Yahoo Sports报道：摩洛哥前锋Ismael Saibari在分组赛3场全部进球，合计3球，成为本届最稳定进攻点之一。今夏确认转战拜仁慕尼黑，正处职业生涯最佳状态。对阵荷兰的淘汰赛，萨巴里将继续领衔摩洛哥一线；摩预计首发：Bono; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Brahim, Ounahi, El Khannouss; Saibari。荷兰后防需警惕其持续进球能力——状态当打之年的萨巴里是本场摩洛哥最大单体威胁。(Sports Mole/Yahoo Sports双源)",
-   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Morocco forward Ismael Saibari scored in all three of Morocco's group-stage matches (3 goals from 3 appearances), one of the tournament's most consistent finishers. He is set to complete a summer move to Bayern Munich. For the Round of 32 vs Netherlands, Saibari leads Morocco's attack. Predicted Morocco XI: Bono; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Brahim, Ounahi, El Khannouss; Saibari. Netherlands defence must manage his threat in a high-pressure knockout fixture — Saibari is Morocco's single greatest attacking danger. (Sports Mole/Yahoo Sports, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Netherlands vs Morocco predicted XIs",
-     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/team-news/netherlands-vs-morocco-injury-suspension-list-predicted-xis_600223.html"
-    },
-    {
-     "name": "Yahoo Sports – Netherlands XI vs Morocco predicted",
-     "url": "https://uk.sports.yahoo.com/news/netherlands-xi-vs-morocco-predicted-152400279.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
    "match": "周二078",
    "impact": "海恩整届告终",
    "tone": "negative",
@@ -2152,146 +2132,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports – Ivory Coast vs Norway preview",
      "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一076",
-   "impact": "摩洛哥四人回归",
-   "tone": "positive",
-   "text": "摩洛哥Mazraoui/Issa Diop/Bouaddi/Ounahi预计回归首发·分别承担右后卫/中卫/中场/边路职责·摩洛哥全主力阵容对阵荷兰。(Sports Mole/Al Jazeera双源)",
-   "en": "Morocco set to recall Mazraoui, Issa Diop, Bouaddi and Ounahi to starting XI vs Netherlands — full-strength Atlas Lions lineup for Round of 32. (Sports Mole/Al Jazeera)",
-   "full": "06-29 Sports Mole/Al Jazeera报道：摩洛哥对阵荷兰将进行多项换人调整，四名主力球员预计回归首发XI：Noussair Mazraoui(右后卫)、Issa Diop(中卫)、Ayyoub Bouaddi(中场核心)和Azzedine Ounahi(边路创造)均预计首发。这意味着摩洛哥以全主力阵容出战；在组赛末轮主教练为防伤病/保存实力做了轮换，本场恢复主力整容。摩洛哥在组赛中1-1平巴西、淘汰赛2022年4强底蕴尚在。Bouaddi(比利时梅赫伦出道·20岁中场新星)和Ounahi(马赛)的回归加强了中场创造力。⚠️官方首发于06-30 09:00开球前约60分钟确认。(Sports Mole/Al Jazeera双源)",
-   "enFull": "According to Sports Mole and Al Jazeera (June 29), Morocco are set to make several changes from their final group-stage lineup, with four key players expected to return to the starting XI vs Netherlands: Noussair Mazraoui (RB), Issa Diop (CB), Ayyoub Bouaddi (CM) and Azzedine Ounahi (wide creator). Morocco rotated in their final group-stage match to preserve fitness, and are now expected to field a near full-strength side. Context: Morocco held Brazil 1-1 in the group stage and have strong knockout pedigree (2022 WC semifinalists). The return of Bouaddi (20-year-old Belgium-born creator) and Ounahi (Marseille) strengthens their creative output significantly. ⚠️ Official lineup confirmed ~60 min before kick-off June 30 09:00 BJT. (Sports Mole / Al Jazeera, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Netherlands vs Morocco team news",
-     "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-morocco-prediction-team-news-lineups_600222.html"
-    },
-    {
-     "name": "Al Jazeera – Netherlands vs Morocco prediction team news",
-     "url": "https://www.aljazeera.com/sports/2026/6/29/netherlands-vs-morocco-fifa-world-cup-round-of-32-prediction-team-news"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一075",
-   "impact": "布朗伤复可战",
-   "tone": "positive",
-   "text": "德国左后卫Nathaniel Brown(肌肉伤)预计对阵巴拉圭首发复出·错过厄瓜多尔一战后已获准上场·巴拉圭Almiron红牌停赛(⚠️与早前情报矛盾·待确认)。(Sports Mole/ESPN双源)",
-   "en": "Germany LB Nathaniel Brown expected to return to starting XI vs Paraguay after missing the Ecuador game with a muscular issue. Paraguay's Almiron reportedly suspended (red card vs Turkey) — contradicts earlier intel, needs confirmation. (Sports Mole/ESPN)",
-   "full": "06-29 Sports Mole/ESPN最新报道：德国左后卫Nathaniel Brown因对阵厄瓜多尔前出现肌肉问题缺席，现已预计对巴拉圭首发复出。Sports Mole将Brown列入德国预测XI首发位置。德国预测XI：Neuer; Kimmich/Tah/Rudiger/Brown; Nmecha/Pavlovic; Sane/Musiala/Wirtz; Havertz。⚠️重要矛盾情报：Sports Mole称巴拉圭Almiron因对土耳其(032)遭红牌停赛、本场无缘出战，巴拉圭预测XI亦未见其名；但早前06-29情报条目写'Almiron停赛解除可复出'——两条情报相互矛盾，主会话需在开球前核实Almiron真实停赛状态。若Almiron(巴拉圭核心中场)确为停赛，将进一步削弱巴拉圭中场组织能力。(Sports Mole/ESPN双源·含矛盾标注)",
-   "enFull": "Sports Mole and ESPN report (June 29): Germany LB Nathaniel Brown, who missed the Ecuador match with a muscular problem, is expected to be cleared and return to the starting lineup vs Paraguay. Germany predicted XI: Neuer; Kimmich, Tah, Rudiger, Brown; Nmecha, Pavlovic; Sane, Musiala, Wirtz; Havertz. ⚠️ CONTRADICTORY INTEL: Sports Mole states Miguel Almiron was sent off against Turkey (match 032) and will be suspended for this match — he does not appear in Paraguay's predicted XI either. However, an earlier June 29 intel entry stated 'Almiron's ban is served, available to return.' These two entries contradict each other. Main session should verify Almiron's true suspension status before kick-off. If Almiron (Paraguay's key CM) is indeed suspended alongside Gomez (yellow card ban), Paraguay would be severely depleted in midfield. (Sports Mole/ESPN, two independent sources — contradiction flagged)",
-   "links": [
-    {
-     "name": "Sports Mole – Germany vs Paraguay team news & predicted XI",
-     "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
-    },
-    {
-     "name": "ESPN – Germany vs Paraguay kickoff, lineups, stream",
-     "url": "https://www.espn.com/soccer/story/_/id/49197785/germany-vs-paraguay-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一076",
-   "impact": "加克波丧子",
-   "tone": "negative",
-   "text": "荷兰前锋加克波(Gakpo)伴侣宣布未出生儿子于孕期夭折·加克波决定留队继续征战·荷兰足协确认其将对阵摩洛哥出战。(ESPN/Sky Sports双源)",
-   "en": "Netherlands forward Cody Gakpo's unborn son passed away during pregnancy; Gakpo has chosen to remain with the squad and will feature vs Morocco, KNVB confirmed. (ESPN/Sky Sports)",
-   "full": "06-29荷兰足协(KNVB)证实：加克波的伴侣Noa van der Bij在社媒上宣布两人的第二个孩子Elijah在孕期不幸夭折。加克波在与女友协商后决定留在荷兰大名单中继续备战。荷兰足协声明：Cody在与女友商量后决定留在团队里。加克波是荷兰本届世界杯表现最稳定的球员之一，在分组赛贡献关键输出，本场对摩洛哥预计首发出战。⚠️这一心理/情绪因素可能影响其专注度和发挥，属软性风险变量；硬信息方面加克波出场无悬念·但场上状态难以量化预判。(ESPN/Sky Sports/Flashscore三源证实)",
-   "enFull": "The KNVB confirmed on June 29 that Cody Gakpo's partner Noa van der Bij announced on social media the passing of their unborn son Elijah during pregnancy. After consulting with his girlfriend, Gakpo has decided to remain with the Netherlands squad and will be available for the Round of 32 clash vs Morocco. The Dutch FA issued a statement: Cody has decided, in consultation with his girlfriend, to remain with the group. Gakpo has been one of Netherlands' key performers in the group stage and is expected to start vs Morocco. ⚠️ This emotional factor is a soft risk variable that may affect Gakpo's focus and performance on the night; his availability is confirmed but form level is unpredictable. (ESPN / Sky Sports / Flashscore — three independent sources)",
-   "links": [
-    {
-     "name": "ESPN – Gakpo shares loss of unborn son",
-     "url": "https://www.espn.com/soccer/story/_/id/49199804/cody-gakpo-netherlands-2026-world-cup"
-    },
-    {
-     "name": "Sky Sports – Gakpo to stay with Netherlands squad",
-     "url": "https://www.skysports.com/football/news/12021/13558394/cody-gakpo-to-stay-with-netherlands-squad-at-world-cup-after-loss-of-unborn-son"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一074",
-   "impact": "内马尔增出场",
-   "tone": "negative",
-   "text": "内马尔本届缺两场后替补出场·安切洛蒂证实内马尔现可上场超15分钟·将在对日本时担纲更重要角色但不预计首发。(beIN SPORTS/Tribune India双源)",
-   "en": "Neymar set for bigger role vs Japan — Ancelotti confirms he can now play 15+ minutes; expected to come off bench with greater impact than Scotland match. Not expected to start. (beIN SPORTS/Tribune India)",
-   "full": "安切洛蒂在06-29赛前发布会上证实：内马尔的状态在过去一周有显著进步。对苏格兰只能上场不到15分钟，对阵日本他将有能力打更长时间，主帅将根据比赛形势决定其上场时机。内马尔本届因肌肉伤缺席前两场，仅在对苏格兰的分组赛末轮以替补身份亮相。虽然不预期首发（四前场Vinicius/Cunha/Paqueta/Rayan均无变化），但内马尔若以关键时刻替补登场，可能在比赛后半段改变局势。对日本防线而言增加一个突击变量。⚠️官方首发06-30 01:00前确认，内马尔出场时长仍有不确定性。",
-   "enFull": "Carlo Ancelotti confirmed in his pre-match press conference (June 29) that Neymar's progress has been significant over the past week. While he could only manage under 15 minutes against Scotland, he is now fit enough to play a longer spell against Japan, and Ancelotti will deploy him based on how the game evolves. Neymar missed Brazil's first two group matches (muscle injury) and made his tournament debut off the bench vs Scotland. He is not expected to start — Brazil's front four of Vinicius/Cunha/Paqueta/Rayan remains unchanged — but a more impactful substitute appearance in the second half could change the dynamic, adding an extra unpredictable threat against Japan's organised low-block defence. ⚠️ Official lineup confirmed ~60 min before kick-off June 30 01:00 BJT; Neymar's exact role remains fluid. (beIN SPORTS/Tribune India, two independent sources)",
-   "links": [
-    {
-     "name": "beIN SPORTS – Ancelotti Neymar update vs Japan",
-     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/will-neymar-start-for-brazil-against-japan-carlo-ancelotti-addresses-the-question-2026-06-29"
-    },
-    {
-     "name": "Tribune India – Ancelotti backs Neymar for bigger role",
-     "url": "https://www.tribuneindia.com/news/sports/fifa-world-cup-2026-ancelotti-backs-fit-again-neymar-for-bigger-role-in-brazils-round-of-32-clash/"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一074",
-   "impact": "板仓料出战",
-   "tone": "positive",
-   "text": "日本CB板仓滉二(Itakura)最新预测首发出战巴西·ESPN/Sports Mole均列入先发XI·伤情'非严重'料可上阵·早间谷口替补说法更新。(ESPN/Sports Mole双源)",
-   "en": "Japan CB Ko Itakura now projected to START vs Brazil — ESPN notes injury 'not thought to be serious'; Taniguchi drops to bench. Updates earlier doubt report. (ESPN/Sports Mole)",
-   "full": "最新情报(06-29上午)更新板仓状态：ESPN最新文章明确表示'板仓被认为伤情非严重，应该可以上阵(Itakura is not thought to be carrying a serious injury, so he should play)'；Sports Mole最新日本预测XI(同源)也将Itakura列入首发。最新日本预测XI(3-4-2-1)：Suzuki；Ito/Tomiyasu/Itakura；Doan/Sano/Tanaka/Nakamura；Kamada/Maeda；Ueda。此前06-29早间'板仓疑缺·谷口顶替'条目为更早版Sports Mole文章的预测·已被最新资讯更正。Kubo膝伤仍高度可能缺席。板仓出战令日本防守较预期略强，但巴西整体仍压倒性强势。⚠️此条更新早间'板仓疑缺'条目·官方首发于06-30 00:40前确认。",
-   "enFull": "Status update as of June 29 morning: ESPN's latest preview explicitly states Ko Itakura 'is not thought to be carrying a serious injury, so he should play' vs Brazil. Sports Mole's updated Japan predicted XI also lists Itakura in the starting lineup. Updated Japan predicted XI (3-4-2-1): Suzuki; Ito, Tomiyasu, Itakura; Doan, Sano, Tanaka, Nakamura; Kamada, Maeda; Ueda. This supersedes the earlier entry that had Taniguchi replacing Itakura — that was based on an earlier Sports Mole article which has since been revised. Takefusa Kubo (knee) remains highly unlikely to feature. Itakura's expected return makes Japan's defensive organization slightly more solid than feared, though Brazil remain heavy favourites regardless. ⚠️ This updates the earlier 'Itakura doubt' entry (same date, different source vintage). Official lineups confirmed ~60 min before kick-off June 30 01:00 BJT. (ESPN/Sports Mole, two independent sources)",
-   "links": [
-    {
-     "name": "ESPN – Brazil vs Japan predicted lineups",
-     "url": "https://www.espn.com/soccer/story/_/id/49194679/brazil-vs-japan-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "Sports Mole – Japan predicted XI vs Brazil (Itakura expected to play)",
-     "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/predicted-lineups/defensive-injury-doubt-predicted-japan-xi-vs-brazil_600207.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一075",
-   "impact": "戈麦斯停赛",
-   "tone": "negative",
-   "text": "巴拉圭中场Diego Gomez累黄停赛·中卫Alderete存疑出场·Almiron停赛解除可复出·德国左后卫Brown小伤存疑。(Sports Mole/ESPN双源)",
-   "en": "Paraguay: Diego Gomez (suspended) and Alderete (doubt) key absences; Almiron returns from suspension. Germany: Nathaniel Brown (left-back) minor injury doubt vs Paraguay. (Sports Mole/ESPN)",
-   "full": "巴拉圭备战德国出现关键缺阵：中场核心Diego Gomez因累积黄牌停赛无法出场，其缺席令巴拉圭中路组织和防守硬度大降。中卫Omar Alderete存疑，能否首发尚待确认。好消息是攻中Miguel Almiron的停赛解除，可重回首发，为巴拉圭增加创造力。预计首发(4-4-2)：Villar; Martinez, Balbuena, ?, Santos; Cubas, Pena, Ounahi替补; Enciso, Avalos, Almiron。德国方面：左后卫Nathaniel Brown有小伤存疑(非主力後卫但替补深度降低)；Rüdiger/Tah主力中卫组合健康无变化；Havertz领衔4-2-3-1；Pavlovic/Nmecha双后腰；Sane/Musiala/Wirtz三前场。⚠️两队情报均有多来源确认，但Alderete/Brown伤情属'存疑'级别，赛前官方首发公布后可能更新。",
-   "enFull": "Paraguay suffer two key absences for the Round of 32 vs Germany: midfielder Diego Gomez is suspended after accumulating yellow cards in the group stage — he was central to Paraguay's creative play. Centre-back Omar Alderete is also in doubt and may not be risked from the start. However, attacking midfielder Miguel Almiron's ban has been lifted, allowing the Newcastle star to return to the starting XI after missing the final group stage match — a positive development for Paraguay's attack. Germany: Nathaniel Brown (left-back) has a minor injury knock, creating a small doubt; Rüdiger and Tah remain fit at centre-back. Germany are expected to line up in their settled 4-2-3-1 with Havertz as the No.9, Pavlovic/Nmecha screening, and Sane/Musiala/Wirtz behind him. ⚠️ Alderete/Brown injury levels are 'doubt'-grade — confirm from official lineups ~60 min before kickoff. (Sports Mole/ESPN, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Germany vs Paraguay team news",
-     "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
-    },
-    {
-     "name": "ESPN – Germany vs Paraguay World Cup preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49197785/germany-vs-paraguay-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-29",
-   "match": "周一074",
-   "impact": "巴西首发确认",
-   "tone": "neutral",
-   "text": "巴西首发确认：Rayan替补Raphinha(腘绳肌)出任右路，Vinicius/Cunha/Paqueta随行；Kubo伤疑不在首发XI。(Sports Mole/RotoWire双源)",
-   "en": "Brazil confirmed XI vs Japan: Rayan starts in place of injured Raphinha; Vinicius/Cunha/Paqueta complete attack. Kubo doubtful, not in Japan projected XI. (Sports Mole/RotoWire)",
-   "full": "巴西主帅安切洛蒂确认沿用对阵苏格兰时的进攻方案：Rayan(波尔多18岁天才)顶替腘绳肌伤出局的Raphinha出任右路，Vinicius Junior在左、Matheus Cunha中锋、Lucas Paqueta组织。Raphinha本届状态最佳，将在新泽西大本营集中康复希望打16强赛。日本方面：Kubo疑出(膝伤)不在预期首发；Itakura带伤预计出场；Moriyasu沿用3-4-2-1，Ito/Kamada支持前锋Ueda，Doan以右翼卫向前推进。巴西阵容整体仍强，但少了Raphinha的创造力，日本压低防线再搏偷袭的策略可行性上升。⚠️比赛06-30 01:00，约24小时后开球，官方首发待确认。",
-   "enFull": "Brazil coach Ancelotti confirms his starting XI for the Round of 32 vs Japan (match 074, June 30 01:00): 18-year-old Bournemouth prodigy Rayan starts on the right wing in place of Raphinha (hamstring, out for at least this round). Vinicius Junior leads the left flank, Matheus Cunha at CF, Lucas Paqueta as the 10. Raphinha will undergo intensive recovery in New Jersey targeting a potential Round of 16 return. Japan: Kubo (knee) is doubtful and projected out of the starting XI; Ko Itakura listed questionable but expected to start. Coach Moriyasu sticks with his settled 3-4-2-1 with Ito/Kamada supporting striker Ueda and Doan as the right wing-back. Brazil remain heavy favorites but the absence of Raphinha's creativity gives Japan a marginally better chance of keeping it tight. ⚠️ Match ~24h away; official lineup not yet confirmed. (Sports Mole/RotoWire)",
-   "links": [
-    {
-     "name": "Sports Mole – Brazil predicted XI vs Japan",
-     "url": "https://www.sportsmole.co.uk/football/brazil/world-cup-2026/predicted-lineups/rayan-or-raphinha-predicted-brazil-xi-vs-japan_600205.html"
-    },
-    {
-     "name": "RotoWire – Brazil vs Japan preview",
-     "url": "https://www.rotowire.com/soccer/article/brazil-vs-japan-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120069"
     }
    ]
   }
