@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-06-30 10:50:06",
+ "fetched_at": "2026-06-30 11:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -12,15 +12,15 @@ window.ODDS_DATA = {
    "time": "01:00",
    "status": "Selling",
    "had": {
-    "h": "3.68",
-    "d": "3.38",
-    "a": "1.78",
-    "updated": "2026-06-30 09:59:53"
+    "h": "3.55",
+    "d": "3.35",
+    "a": "1.82",
+    "updated": "2026-06-30 11:06:55"
    },
    "hhad": {
-    "h": "1.82",
-    "d": "3.63",
-    "a": "3.28",
+    "h": "1.78",
+    "d": "3.65",
+    "a": "3.40",
     "line": "+1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -30,14 +30,14 @@ window.ODDS_DATA = {
      0.27
     ],
     "mkt": [
-     0.486,
-     0.244,
-     0.27
+     0.497,
+     0.242,
+     0.26
     ],
-    "val_top": 0.89,
-    "edge_top": 0.0,
+    "val_top": 0.92,
+    "edge_top": 0.009,
     "mirage": false,
-    "top_label": "让胜",
+    "top_label": "让负",
     "verdict": "市场≈模型·无边"
    },
    "crs": {
@@ -56,11 +56,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -118,11 +118,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -136,15 +136,15 @@ window.ODDS_DATA = {
    "time": "09:00",
    "status": "Selling",
    "had": {
-    "h": "2.00",
+    "h": "1.97",
     "d": "2.70",
-    "a": "3.86",
-    "updated": "2026-06-29 14:39:49"
+    "a": "3.98",
+    "updated": "2026-06-30 11:09:18"
    },
    "hhad": {
     "h": "4.50",
-    "d": "3.40",
-    "a": "1.63",
+    "d": "3.32",
+    "a": "1.65",
     "line": "-1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -155,11 +155,11 @@ window.ODDS_DATA = {
     ],
     "mkt": [
      0.197,
-     0.26,
-     0.543
+     0.267,
+     0.537
     ],
-    "val_top": 0.89,
-    "edge_top": 0.003,
+    "val_top": 0.9,
+    "edge_top": 0.01,
     "mirage": false,
     "top_label": "让负",
     "verdict": "市场≈模型·无边"
@@ -180,11 +180,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -242,11 +242,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -304,11 +304,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -366,11 +366,197 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
+     "single": 1,
+     "allUp": 1
+    }
+   }
+  },
+  {
+   "num": "周四083",
+   "round": "周四",
+   "matchId": 2040354,
+   "home": "西班牙",
+   "away": "奥地利",
+   "date": "2026-07-03",
+   "time": "03:00",
+   "status": "Selling",
+   "had": {
+    "h": "1.26",
+    "d": "4.50",
+    "a": "8.80",
+    "updated": "2026-06-30 10:02:08"
+   },
+   "hhad": {
+    "h": "1.95",
+    "d": "3.50",
+    "a": "3.02",
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.442,
+     0.261,
+     0.298
+    ],
+    "mkt": [
+     0.454,
+     0.253,
+     0.293
+    ],
+    "val_top": 0.91,
+    "edge_top": 0.008,
+    "mirage": false,
+    "top_label": "让平",
+    "verdict": "市场≈模型·无边"
+   },
+   "crs": {
+    "1:0": "6.25",
+    "2:0": "5.10",
+    "3:0": "7.00",
+    "2:1": "7.00",
+    "0:0": "13.00",
+    "1:1": "8.50",
+    "2:2": "22.00",
+    "0:1": "18.00",
+    "0:2": "50.00",
+    "0:3": "200.0",
+    "1:2": "24.00"
+   },
+   "elig": {
+    "had": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
+    },
+    "hhad": {
+     "single": 1,
+     "allUp": 1
+    }
+   }
+  },
+  {
+   "num": "周四084",
+   "round": "周四",
+   "matchId": 2040355,
+   "home": "葡萄牙",
+   "away": "克罗地亚",
+   "date": "2026-07-03",
+   "time": "07:00",
+   "status": "Selling",
+   "had": {
+    "h": "1.59",
+    "d": "3.40",
+    "a": "4.85",
+    "updated": "2026-06-30 10:02:08"
+   },
+   "hhad": {
+    "h": "2.99",
+    "d": "3.25",
+    "a": "2.05",
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.293,
+     0.266,
+     0.441
+    ],
+    "mkt": [
+     0.296,
+     0.272,
+     0.432
+    ],
+    "val_top": 0.9,
+    "edge_top": 0.009,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "市场≈模型·无边"
+   },
+   "crs": {
+    "1:0": "6.50",
+    "2:0": "7.00",
+    "3:0": "12.00",
+    "2:1": "6.00",
+    "0:0": "11.00",
+    "1:1": "7.00",
+    "2:2": "14.00",
+    "0:1": "12.00",
+    "0:2": "26.00",
+    "0:3": "80.00",
+    "1:2": "15.00"
+   },
+   "elig": {
+    "had": {
+     "single": 1,
+     "allUp": 1
+    },
+    "hhad": {
+     "single": 0,
+     "allUp": 1
+    }
+   }
+  },
+  {
+   "num": "周四085",
+   "round": "周四",
+   "matchId": 2040356,
+   "home": "瑞士",
+   "away": "阿尔及利",
+   "date": "2026-07-03",
+   "time": "11:00",
+   "status": "Selling",
+   "had": {
+    "h": "1.85",
+    "d": "3.00",
+    "a": "3.92",
+    "updated": "2026-06-30 10:02:08"
+   },
+   "hhad": {
+    "h": "3.90",
+    "d": "3.35",
+    "a": "1.74",
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.219,
+     0.263,
+     0.519
+    ],
+    "mkt": [
+     0.227,
+     0.264,
+     0.509
+    ],
+    "val_top": 0.9,
+    "edge_top": 0.01,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "市场≈模型·无边"
+   },
+   "crs": {
+    "1:0": "6.00",
+    "2:0": "7.50",
+    "3:0": "16.00",
+    "2:1": "7.00",
+    "0:0": "8.50",
+    "1:1": "5.20",
+    "2:2": "15.00",
+    "0:1": "10.00",
+    "0:2": "20.00",
+    "0:3": "60.00",
+    "1:2": "12.00"
+   },
+   "elig": {
+    "had": {
+     "single": 1,
+     "allUp": 1
+    },
+    "hhad": {
+     "single": 0,
+     "allUp": 1
     }
    }
   }
