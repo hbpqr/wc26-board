@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 22:10",
+  "updated": "2026-07-01 23:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1883,6 +1883,22 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三080",
+   "impact": "萨卡轮休马杜",
+   "tone": "neutral",
+   "text": "英格兰官方首发公布：萨卡(Saka)未进首发，马杜埃克(Madueke)顶位出战刚果金；赖斯/斯宾塞/贝林厄姆均首发。正式阵容：皮克福德；斯宾塞、孔萨、格希、奥莱利；安德森、赖斯；马杜埃克、贝林厄姆、拉什福德；凯恩。(englandfootball.com官方公布)",
+   "en": "England official XI: Saka benched, Madueke starts vs Congo DR; Rice/Spence/Bellingham/Kane all start. XI: Pickford; Spence, Konsa, Guehi, O'Reilly; Anderson, Rice; Madueke, Bellingham, Rashford; Kane. (englandfootball.com official)",
+   "full": "07-01 23:10官方首发公布：英格兰主帅图赫尔作出3处调整——赖斯(Rice)、马杜埃克(Madueke)、斯宾塞(Spence)进入首发，替代摩根·罗杰斯(Rogers)、萨卡(Saka)、受伤缺阵的夸萨(Quansah)。萨卡轮休出人意料，但英格兰攻击深度充足：贝林厄姆+凯恩双核不变，马杜埃克提供左侧宽度。赖斯的回归强化中场控制；斯宾塞补位因腿筋受伤的里斯·詹姆斯。刚果金将以5-3-2应战，预计万-比萨卡出任右翼后卫。英格兰整体实力仍远超刚果金(Polymarket ~76%)，萨卡未首发不改变强热门地位。开球时间07-02 00:00 BJT(约50分钟后)。(englandfootball.com Match Centre官方公布)",
+   "enFull": "July 1, 23:10 BJT - England official lineup released by englandfootball.com: Tuchel makes three changes — Declan Rice, Noni Madueke and Djed Spence return to the XI, replacing Morgan Rogers, Bukayo Saka and injured Jarell Quansah. Saka's absence from the starting lineup is noteworthy (tactical rest or rotation decision), but England maintain full attacking quality: Bellingham and Kane headline the attack, with Madueke providing left-flank width. Rice anchors midfield alongside Anderson. Spence slots in at right-back for the injured Reece James. Congo DR expected to deploy 5-3-2 with Aaron Wan-Bissaka at right wing-back. England remain heavy favorites (~76% Polymarket). No bet placed on this match; informational only. (Source: englandfootball.com Match Centre — official confirmed XI)",
+   "links": [
+    {
+     "name": "englandfootball.com Match Centre",
+     "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/england-v-dr-congo-fifa-world-cup-wednesday-1-july-2026-match-centre"
+    }
+   ]
+  },
   {
    "date": "2026-07-01",
    "match": "周三081",
