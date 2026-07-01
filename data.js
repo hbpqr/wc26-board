@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 11:30",
+  "updated": "2026-07-01 12:31",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -523,7 +523,9 @@ window.DASH_DATA = {
      "　模型集成客胜49.9%方向命中(Brier ens=0.402优)·slip押IVC@3.60 4元→挂(-4·⚠️待主会话确认077是否出票+结算)",
      "🏆 法国 3:0 瑞典(05:00 完赛·ESPN STATUS_FULL_TIME·90'+4'终场·R32淘汰赛·法国晋级8强)",
      "　模型集成主胜77.3%方向命中·slip未押078(CLV-9.5%负·跳过)·无持仓·pool不变·learn.py已结算",
-     "📊 077/078均终·079墨西哥vs厄瓜多尔(09:00)待赛·pool暂278.55不变(待主会话确认077 IVC@3.60 4元出票状态)"
+     "🏆 墨西哥 2:0 厄瓜多尔(09:00 完赛·ESPN STATUS_FULL_TIME·R32淘汰赛·墨西哥晋级·打破40年诅咒)",
+     "　Quinones 22'+Jimenez 31'·模型集成主胜45.2%方向命中(Brier ens=0.451差于随机0.667)·slip押ECU@4.00 4元→挂(-4·⚠️待主会话确认079是否出票·had.single=0存疑)·learn.py已结算",
+     "📊 077/078/079三场全终·pool暂278.55不变(待主会话确认077 IVC@3.60 4元+079 ECU@4.00 4元出票状态·若均已出票两注全挂→-8→270.55)·请主会话结算并生成周三slip+focus"
     ]
    }
   ],
@@ -604,9 +606,9 @@ window.DASH_DATA = {
     "stake": 8,
     "evPnl": -0.83,
     "winProb": 42,
-    "actualPnl": null,
-    "status": "待结算",
-    "note": "全9场无val≥1.10·§0最高指令凸性最小仓·betRound=周二(077/078/079)·国际盘CLV全负(Smarkets/Polymarket)·078 fade CLV=-9.5%协议不触发(Hien确认缺阵+CLV负)·077 IVC首场KO历史动机·079 ECU已证明爆冷(德国2:1)·CLV均负·池278.55·最坏-8→270.55>>地板80"
+    "actualPnl": -8,
+    "status": "⚠️待主会话确认出票",
+    "note": "077 IVC挂(1:2·挪威赢)·079 ECU挂(2:0·墨西哥赢)·两注全挂·但077/079 elig.had.single=0 ALERTS·实际是否出票待主会话确认·若均出票→actualPnl=-8·cashNow→270.55；若均未出票→actualPnl=0·pool不变278.55"
    }
   ]
  },
@@ -1790,13 +1792,16 @@ window.DASH_DATA = {
    "home": "墨西哥",
    "away": "厄瓜多尔",
    "time": "07-01 09:00",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "2:0",
+   "predManual": "slip押厄瓜多尔@4.00 4元(§0凸性·⚠️had.single=0存疑·待主会话确认是否出票)",
    "predModel": "主胜45.2%",
    "ensemble": {
     "h": 45.2,
     "d": 32.1,
     "a": 22.7
-   }
+   },
+   "note": "终场：墨西哥2:0厄瓜多尔(ESPN STATUS_FULL_TIME·R32淘汰赛·墨西哥晋级16强·打破40年淘汰赛诅咒)。Quinones 22'首开·Jimenez 31'扩大(复出即进球)·厄瓜多尔防线未能控制Jimenez+Quinones组合。模型集成主胜45.2%方向命中(Brier ens=0.451·差于随机0.667·RPS ens=0.173)。slip押厄瓜多尔ECU@4.00 4元→若已出票则挂(-4)·had.single=0问题见ALERTS。⚠️待主会话确认079出票状态+结算·learn.py已结算(calibration_log 079已确认)。"
   },
   {
    "num": "周三080",
