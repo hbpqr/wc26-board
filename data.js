@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 10:10",
+  "updated": "2026-07-01 10:50",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2066,6 +2066,26 @@ window.DASH_DATA = {
    "full": "07-01 ESPN报道：USMNT主帅Mauricio Pochettino在赛前新闻发布会上将对阵波黑的比赛定性为「如同世界杯决赛」，强调团队全力以赴的高度重视。美国主场优势明显（北美三国联办·中立度最低）、全队主力健康，Pochettino的「决赛」定性为球队注入高强度备战动机。波黑晋级已是爆冷，美国被Polymarket+Smarkets双线评为70.8%热门。⚠️波黑仅靠强硬防守+定向球可能威胁美国，注意波黑中场Pjanic风险。⚠️官方首发07-02 08:00开球前~60分钟确认。(ESPN·波切蒂诺记者会双源)",
    "enFull": "July 1, ESPN: USMNT head coach Mauricio Pochettino described Wednesday's Round of 32 match against Bosnia-Herzegovina as 'like a World Cup final,' signaling his team's maximum focus and motivation. USA has full-squad health heading in and benefits from de-facto home advantage at North American venues. Bosnia reached the R32 as a surprise qualifier, but their disciplined defensive block and set-piece threat remain dangerous. USA is favored at 70.8% (Polymarket+Smarkets consensus). ⚠️ Official lineup confirmed ~60 min before kick-off July 2 08:00 BJT. (ESPN/Pochettino press conference)",
    "links": []
+  },
+  {
+   "date": "2026-07-01",
+   "match": "周三081",
+   "impact": "门迪膝伤存疑",
+   "tone": "negative",
+   "text": "塞内加尔门将Mendy第二场小组赛受膝伤后已离队·前往沙特阿尔-阿赫利俱乐部接受进一步检查·出战比利时存严重疑问·替补门将Diaw或首发。(Yahoo Sports/Sports Mole/ESPN三源)",
+   "en": "Senegal GK Edouard Mendy sustained knee injury in group stage and has left the camp to travel to Al-Ahli (Saudi Arabia) for medical assessment; participation vs Belgium in serious doubt, Diaw likely to start. (Yahoo Sports/Sports Mole/ESPN)",
+   "full": "07-01 Yahoo Sports/Sports Mole/ESPN多源报道：塞内加尔主力门将Edouard Mendy在第二场小组赛对阵挪威期间膝盖受伤，伤后已离开塞内加尔大本营，前往其沙特俱乐部阿尔-阿赫利接受进一步医学评估，缺席对比利时的R32比赛可能性极大。若Mendy确认缺席，备用门将Alfred Gomis Diaw将首发出战比利时。门将缺阵对塞内加尔防线稳定性影响显著——Mendy是经验丰富的切尔西前主力门将，Diaw缺少高水平大赛经验。比利时锋线De Bruyne/De Ketelaere/Doku/Trossard压制力强，将对替补门将造成更大压力。比利时方面：后卫Zeno Debast已返回训练但全程未出场，本场仍不太可能首发；整体阵容无重大伤停。⚠️Mendy离队消息已由Sports Mole/Yahoo Sports/ESPN三路报道交叉确认，塞内加尔官方未正式声明但出征几乎无望。⚠️官方首发于07-02 04:00开球前约60分钟确认。(Yahoo Sports/Sports Mole/ESPN三源)",
+   "enFull": "Per Yahoo Sports, Sports Mole, and ESPN (July 1): Senegal goalkeeper Edouard Mendy sustained a knee injury during their second group-stage match against Norway and has since left the Senegal squad camp to travel to his club Al-Ahli in Saudi Arabia for further medical assessment. His participation in the Round of 32 match against Belgium is in serious doubt. If Mendy is ruled out, backup goalkeeper Alfred Gomis Diaw would start against Belgium — a significant downgrade in experience at this level. Mendy (formerly Chelsea) is Senegal's most experienced goalkeeper and organizer of the backline; his absence would expose the defense against Belgium's forward quality. Belgium meanwhile are largely injury-free: Zeno Debast has returned to training after a leg injury but has not played in this tournament and is unlikely to start; De Bruyne, Trossard, Doku, De Ketelaere all available. ⚠️ Multiple sources confirm Mendy's departure from camp; Senegalese FA has not officially released a statement, but absence is considered highly likely. ⚠️ Official lineup confirmed ~60 min before kick-off July 2 04:00 BJT. (Yahoo Sports/Sports Mole/ESPN, three independent sources)",
+   "links": [
+    {
+     "name": "Yahoo Sports – Belgium vs Senegal preview",
+     "url": "https://sports.yahoo.com/articles/preview-belgium-vs-senegal-team-200500513.html"
+    },
+    {
+     "name": "Sports Mole – Belgium vs Senegal team news",
+     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-senegal-injury-suspension-list-predicted-xis_600369.html"
+    }
+   ]
   },
   {
    "date": "2026-06-30",
