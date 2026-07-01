@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 13:10",
+  "updated": "2026-07-01 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2064,7 +2064,7 @@ window.DASH_DATA = {
   {
    "date": "2026-07-01",
    "match": "周三082",
-   "impact": "波切蒂诺称赛如决赛",
+   "impact": "波帅称如决赛",
    "tone": "positive",
    "text": "USMNT主帅波切蒂诺称对波黑比赛「如同世界杯决赛」·高度重视·主场优势+全员健康·美国动机极强。(ESPN·波切蒂诺记者会)",
    "en": "USMNT coach Pochettino calls Bosnia match 'like a World Cup final' — high motivation, full squad, home advantage for USA. (ESPN/Pochettino presser)",
@@ -2075,12 +2075,12 @@ window.DASH_DATA = {
   {
    "date": "2026-07-01",
    "match": "周三081",
-   "impact": "门迪膝伤存疑",
+   "impact": "门迪确认缺阵",
    "tone": "negative",
-   "text": "塞内加尔门将Mendy第二场小组赛受膝伤后已离队·前往沙特阿尔-阿赫利俱乐部接受进一步检查·出战比利时存严重疑问·替补门将Diaw或首发。(Yahoo Sports/Sports Mole/ESPN三源)",
-   "en": "Senegal GK Edouard Mendy sustained knee injury in group stage and has left the camp to travel to Al-Ahli (Saudi Arabia) for medical assessment; participation vs Belgium in serious doubt, Diaw likely to start. (Yahoo Sports/Sports Mole/ESPN)",
-   "full": "07-01 Yahoo Sports/Sports Mole/ESPN多源报道：塞内加尔主力门将Edouard Mendy在第二场小组赛对阵挪威期间膝盖受伤，伤后已离开塞内加尔大本营，前往其沙特俱乐部阿尔-阿赫利接受进一步医学评估，缺席对比利时的R32比赛可能性极大。若Mendy确认缺席，备用门将Alfred Gomis Diaw将首发出战比利时。门将缺阵对塞内加尔防线稳定性影响显著——Mendy是经验丰富的切尔西前主力门将，Diaw缺少高水平大赛经验。比利时锋线De Bruyne/De Ketelaere/Doku/Trossard压制力强，将对替补门将造成更大压力。比利时方面：后卫Zeno Debast已返回训练但全程未出场，本场仍不太可能首发；整体阵容无重大伤停。⚠️Mendy离队消息已由Sports Mole/Yahoo Sports/ESPN三路报道交叉确认，塞内加尔官方未正式声明但出征几乎无望。⚠️官方首发于07-02 04:00开球前约60分钟确认。(Yahoo Sports/Sports Mole/ESPN三源)",
-   "enFull": "Per Yahoo Sports, Sports Mole, and ESPN (July 1): Senegal goalkeeper Edouard Mendy sustained a knee injury during their second group-stage match against Norway and has since left the Senegal squad camp to travel to his club Al-Ahli in Saudi Arabia for further medical assessment. His participation in the Round of 32 match against Belgium is in serious doubt. If Mendy is ruled out, backup goalkeeper Alfred Gomis Diaw would start against Belgium — a significant downgrade in experience at this level. Mendy (formerly Chelsea) is Senegal's most experienced goalkeeper and organizer of the backline; his absence would expose the defense against Belgium's forward quality. Belgium meanwhile are largely injury-free: Zeno Debast has returned to training after a leg injury but has not played in this tournament and is unlikely to start; De Bruyne, Trossard, Doku, De Ketelaere all available. ⚠️ Multiple sources confirm Mendy's departure from camp; Senegalese FA has not officially released a statement, but absence is considered highly likely. ⚠️ Official lineup confirmed ~60 min before kick-off July 2 04:00 BJT. (Yahoo Sports/Sports Mole/ESPN, three independent sources)",
+   "text": "塞内加尔主帅Thiaw正式确认门将Mendy缺席对比利时R32·膝伤离队返沙特俱乐部就医·Diaw替补首发。(WashingtonPost/TSN/DailyUnion三源)",
+   "en": "Senegal coach Pape Thiaw officially confirmed GK Edouard Mendy out of R32 vs Belgium with knee injury; left squad to receive treatment at Al-Ahli; Diaw to start. (WashingtonPost/TSN/DailyUnion)",
+   "full": "07-01更新：塞内加尔主帅Pape Thiaw正式确认主力门将Edouard Mendy缺席对比利时的R32比赛。Mendy在第二场小组赛对阵挪威期间膝盖受伤，已离开球队大本营返回沙特俱乐部阿尔-阿赫利接受进一步治疗——这意味着他将在淘汰赛阶段缺席。备用门将Alfred Gomis Diaw（效力法甲勒阿弗尔）将首发，他在塞内加尔5:0大胜伊拉克一役零封对手表现稳健。门将缺阵对塞内加尔防线稳定性影响显著——Mendy是经验丰富的切尔西前主力门将，Diaw大赛经验相对不足。比利时锋线De Bruyne/De Ketelaere/Doku/Trossard压制力极强，将对Diaw形成更大考验。比利时方面：后卫Zeno Debast已返回训练但整届未出场，本场仍不太可能首发；整体阵容无重大伤停。⚠️消息已由WashingtonPost/TSN/DailyUnion三路独立报道交叉确认，为正式缺席通告（升级自前报「存严重疑问」）。⚠️官方首发于07-02 04:00开球前约60分钟确认。",
+   "enFull": "July 1 update: Senegal head coach Pape Thiaw has officially confirmed that goalkeeper Edouard Mendy will miss the Round of 32 match against Belgium. Mendy sustained a knee injury during Senegal's second group-stage match against Norway, and has since returned to his club Al-Ahli (Saudi Arabia) for medical treatment, ruling him out of the knockout stage. Backup goalkeeper Alfred Gomis Diaw (Le Havre, French Ligue 1) will start; he kept a clean sheet in Senegal's 5-0 win over Iraq. While Diaw performed well in that match, he brings less top-level experience than Mendy, Senegal's most experienced shot-stopper. Belgium's attack — De Bruyne, De Ketelaere, Doku, Trossard — will exert heavy pressure on the replacement keeper. Belgium are largely injury-free: Zeno Debast has returned to training but hasn't featured and is unlikely to start. ⚠️ Confirmed by WashingtonPost, TSN, and DailyUnion — upgrade from previously reported 'serious doubt' to official absence. ⚠️ Official lineup confirmed ~60 min before kick-off July 2 04:00 BJT.",
    "links": [
     {
      "name": "Yahoo Sports – Belgium vs Senegal preview",
@@ -2089,190 +2089,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole – Belgium vs Senegal team news",
      "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-senegal-injury-suspension-list-predicted-xis_600369.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二077",
-   "impact": "莱尔森确认缺阵",
-   "tone": "negative",
-   "text": "挪威右后卫Ryerson正式确认腿筋伤缺席vs科特迪瓦(从存疑升级为确认缺阵)·Pedersen候补待命·Aursnes顶右后卫。(Sports Mole/Yahoo Sports双源)",
-   "en": "Norway RB Julian Ryerson confirmed ruled out vs Ivory Coast (upgraded from doubt) with thigh injury; Marcus Pedersen on standby, Aursnes shifts to right-back. (Sports Mole/Yahoo Sports)",
-   "full": "06-30 Sports Mole/Yahoo Sports最新报道：挪威右后卫Julian Ryerson正式确认因腿筋伤缺席对科特迪瓦的R32比赛——从此前「存疑」升级为「确认缺阵」。Marcus Pedersen进入候补待命。若Aursnes顶右后卫、Berg入中场的调整如预料进行，挪威右路进攻创造力将有所下降，但全主力Haaland+Odegaard+Sørloth锋线的进攻威力不受影响。相比分组赛末轮轮休整个锋线，本场挪威攻击力仍大幅提升。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
-   "enFull": "Latest from Sports Mole and Yahoo Sports (June 30): Norway right-back Julian Ryerson is now confirmed ruled out of the Round of 32 match against Ivory Coast — an upgrade from his earlier doubtful status. A thigh injury prevents him from featuring; Marcus Pedersen is on standby to cover at right-back or as a substitute option. The expected knock-on is Fredrik Aursnes shifts from central midfield to right-back with Patrick Berg entering midfield. Norway's right-side attacking creativity will be somewhat reduced, but the full-strength Haaland+Odegaard+Sørloth frontline remains unaffected. ⚠️ Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Ivory Coast vs Norway team news",
-     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/team-news/ivory-coast-vs-norway-injury-suspension-list-predicted-xis_600307.html"
-    },
-    {
-     "name": "Yahoo Sports – Norway XI vs Ivory Coast",
-     "url": "https://au.sports.yahoo.com/norway-xi-vs-ivory-coast-171238949.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二077",
-   "impact": "哈兰+奥德复出",
-   "tone": "positive",
-   "text": "挪威锋线Haaland和队长Odegaard小组赛末轮(0:4负法国)轮休后预计对科特迪瓦复出首发·全主力阵容出战淘汰赛。(Sports Mole/Yahoo Sports双源)",
-   "en": "Norway's Haaland and Odegaard expected to return to starting XI vs Ivory Coast after being rested for final group game (0-4 loss to France). (Sports Mole/Yahoo Sports)",
-   "full": "06-30 Sports Mole/Yahoo Sports报道：挪威前锋Erling Haaland和队长Martin Odegaard在对阵法国的小组赛末轮(0:4)被主帅Solbakken有意轮休，保体能迎接淘汰赛。两人预计对阵科特迪瓦全面复出首发。Haaland本届分组赛前两场各有贡献(对巴拿马进球)，Odegaard是中场核心与节奏把控者。科特迪瓦面对拥有Haaland+Odegaard+Sorloth的挪威全主力阵容，防守压力将显著增大。⚠️右后卫Ryerson腿筋伤仍存疑(已有独立情报条目)，Pedersen候补。官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
-   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Norway's two biggest stars — striker Erling Haaland and captain Martin Odegaard — are expected to return to the starting XI against Ivory Coast after being rested for Norway's final group-stage match (0-4 defeat to France). The decision to rotate both players was a deliberate squad management call by manager Solbakken ahead of the knockout rounds. Haaland scored vs Panama in the group stage and remains Norway's primary scoring threat; Odegaard is the creative engine of Norway's attack. Ivory Coast, facing defensive doubts (Singo/Amad), will face a significantly more dangerous Norway than the rotated team that lost to France. ⚠️ RB Julian Ryerson remains a doubt (thigh) — see separate intel entry. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Ivory Coast vs Norway team news",
-     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/team-news/ivory-coast-vs-norway-injury-suspension-list-predicted-xis_600307.html"
-    },
-    {
-     "name": "Yahoo Sports – Norway XI vs Ivory Coast",
-     "url": "https://au.sports.yahoo.com/norway-xi-vs-ivory-coast-171238949.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二078",
-   "impact": "萨利巴背伤疑",
-   "tone": "negative",
-   "text": "法国中卫Saliba对挪威轮休·原因为背部持续伤痛·预计带伤出战瑞典(软性风险·出场无悬念)。(Sports Mole/ESPN双源)",
-   "en": "France CB William Saliba was rested vs Norway due to ongoing back issue; expected to play through pain vs Sweden but a soft injury risk factor. (Sports Mole/ESPN)",
-   "full": "06-30 Sports Mole/ESPN报道：法国后卫William Saliba在对挪威的小组赛末轮被有意轮休，原因是背部持续伤痛(ongoing back issue)。尽管如此，阿森纳中卫预计在淘汰赛对瑞典时带伤出战——主帅Deschamps称他要守住首发位置，本场应会出场。法国整体防线Upamecano/Koundé/Hernandez均无新伤停报告。⚠️Saliba背伤属软性风险变量——出场预计无悬念，但若伤情在比赛中恶化，或影响其对抗Gyokeres/Isak的防守强度。官方首发于07-01 05:00开球前约60分钟确认。(Sports Mole/ESPN双源)",
-   "enFull": "According to Sports Mole and ESPN (June 30), France centre-back William Saliba was rested for the final group-stage match against Norway due to an ongoing back issue. However, the Arsenal defender is expected to play through the discomfort and start against Sweden in the Round of 32. France's defensive unit — Saliba, Upamecano, Koundé, T.Hernandez — remains the core backbone; no other new injury concerns reported. ⚠️ Saliba's back issue is a soft risk variable: his availability is assumed but an in-game flare-up could reduce his effectiveness against Sweden's physically powerful forwards (Gyokeres, Isak). Official lineup confirmed ~60 min before kick-off July 1 05:00 BJT. (Sports Mole/ESPN, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – France vs Sweden team news",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-sweden-injury-suspension-list-predicted-xis_600359.html"
-    },
-    {
-     "name": "ESPN – France vs Sweden World Cup preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二079",
-   "impact": "希门尼斯复出",
-   "tone": "positive",
-   "text": "墨西哥无伤停隐忧·Raul Jimenez末轮轮休后预计复出首发·厄瓜多尔全员健康维持击败德国原阵。(Sports Mole/Goal.com双源)",
-   "en": "Mexico no injury concerns; Jimenez expected to return to XI after rest vs Czech Republic. Ecuador unchanged from lineup that beat Germany 2-1. (Sports Mole/Goal.com)",
-   "full": "06-30 Sports Mole/Goal.com报道：墨西哥备战厄瓜多尔全队无伤停顾虑，主帅Aguirre预计在轮休一场后恢复核心中锋Raul Jimenez首发。预测首发XI：Rangel; Sanchez, Alvarez, Vasquez, Gallardo; Romo, Lira, Gutierrez; Alvarado, Jimenez, Quinones。墨西哥是本届东道主之一，小组赛三场全胜无失球，主场球迷优势明显。厄瓜多尔：主帅Beccacece无伤停顾虑，预计沿用击败德国2:1的全套首发(Galindez; Franco, Ordonez, Pacho, Hincapie; Yeboah, Caicedo, Vite, Angulo; Plata, Valencia)。Caicedo控场+Valencia锋线是厄瓜多尔的核心威胁。⚠️官方首发于07-01 09:00开球前约60分钟确认。(Sports Mole/Goal.com双源)",
-   "enFull": "Per Sports Mole and Goal.com (June 30), Mexico have no injury or suspension concerns heading into their Round of 32 match against Ecuador. Manager Aguirre is expected to restore striker Raul Jimenez to the starting XI after resting him vs Czech Republic. Predicted Mexico XI: Rangel; Sanchez, Alvarez, Vasquez, Gallardo; Romo, Lira, Gutierrez; Alvarado, Jimenez, Quinones. Mexico are co-hosts, won all three group games without conceding (vs Colombia, Kuwait, Czech Republic), and will have enormous home support at the Estadio Azteca. Ecuador have no injury concerns — Beccacece names the same XI that beat Germany 2-1: Galindez; Franco, Ordonez, Pacho, Hincapie; Yeboah, Caicedo, Vite, Angulo; Plata, Valencia. Caicedo in midfield and Valencia up front are Ecuador's biggest threats. ⚠️ Official lineups confirmed ~60 min before kick-off July 1 09:00 BJT. (Sports Mole/Goal.com, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Mexico vs Ecuador team news",
-     "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/team-news/mexico-vs-ecuador-injury-suspension-list-predicted-xis_600277.html"
-    },
-    {
-     "name": "Goal.com – Mexico vs Ecuador World Cup preview",
-     "url": "https://www.goal.com/en-us/news/mexico-ecuador-world-cup-preview/blt3e5e16bf513deef8"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二078",
-   "impact": "海恩整届告终",
-   "tone": "negative",
-   "text": "瑞典中卫Isak Hien因腿筋伤整届告终·缺席对阵法国的R32比赛·Lindelof从中场后移顶替中卫位置。(Sports Mole/ESPN双源)",
-   "en": "Sweden CB Isak Hien ruled out for rest of World Cup with thigh injury; will miss France R32 clash — Lindelof shifts from midfield to cover in back three. (Sports Mole/ESPN)",
-   "full": "06-30 Sports Mole/ESPN报道：瑞典中卫Isak Hien因腿筋伤已被确认整届赛事告终，无缘对阵法国的淘汰赛。Hien缺席是瑞典后防的重大打击——Victor Lindelof被迫从中场位置后移顶替中卫，与Gustaf Lagerbielke和Gabriel Gudmundsson组成三中卫。此外Eric Smith、Nilsson Lindelöf(已受伤)、Benjamin Nygren也在伤缺名单中。瑞典整体防线重建压力大。法国方面Saliba背部轻伤但预计带伤出战。⚠️官方首发于07-01 05:00开球前约60分钟确认。(Sports Mole/ESPN双源)",
-   "enFull": "As reported by Sports Mole and ESPN (June 30), Sweden centre-back Isak Hien has been ruled out of the entire 2026 World Cup with a thigh injury, meaning he will play no part in their Round of 32 clash against France on July 1. Hien's absence significantly weakens Sweden's defensive structure — Victor Lindelof must shift from midfield to cover in the back three alongside Lagerbielke and Gudmundsson. Sweden are also missing Eric Smith, Benjamin Nygren, and face a reshuffled backline under significant pressure. France meanwhile have a clean bill of health; Saliba has a back issue but is expected to start. Official lineups confirmed ~60 min before kick-off July 1 05:00 BJT. (Sports Mole/ESPN, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Sweden vs France team news",
-     "url": "https://www.sportsmole.co.uk/football/sweden/world-cup-2026/predicted-lineups/who-replaces-hien-predicted-sweden-xi-vs-france_600279.html"
-    },
-    {
-     "name": "ESPN – France vs Sweden World Cup preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二077",
-   "impact": "莱尔森腿筋疑",
-   "tone": "negative",
-   "text": "挪威右后卫Ryerson腿筋伤缺存疑·若缺席Aursnes移至右后卫·Berg顶替中场。(Sports Mole/Yahoo Sports双源)",
-   "en": "Norway RB Ryerson doubtful with thigh injury for Ivory Coast R32 clash; if absent, Aursnes shifts to RB with Berg entering midfield. (Sports Mole/Yahoo Sports)",
-   "full": "06-30 Sports Mole/Yahoo Sports报道：挪威右后卫Julian Ryerson因腿筋伤对阵科特迪瓦的R32比赛存疑——他在对阵法国的小组赛中因腿筋伤被换下缺阵，主帅Solbakken表示他在逐日恢复但仍是问题。若Ryerson缺席，全能中场Fredrik Aursnes将移至右后卫位置，Patrick Berg顶替中场核心。Ryerson是挪威右翼进攻的重要齿轮，其缺席将影响挪威利用右路Haaland/Sørloth前锋组合的进攻路线。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
-   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Norway right-back Julian Ryerson is a doubt for the Round of 32 clash against Ivory Coast due to a thigh injury sustained during the France group-stage match. Manager Solbakken says Ryerson is improving day-by-day but his availability remains uncertain. If absent, Fredrik Aursnes shifts to right-back with Patrick Berg slotting into central midfield. Ryerson's presence is important for Norway's right-side attacks feeding Haaland and Sørloth. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Norway vs Ivory Coast team news",
-     "url": "https://www.sportsmole.co.uk/football/norway/world-cup-2026/predicted-lineups/who-joins-haaland-up-top-in-round-of-32-predicted-norway-xi-vs-ivory-coast_600305.html"
-    },
-    {
-     "name": "Yahoo Sports – Ivory Coast vs Norway preview",
-     "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二077",
-   "impact": "辛戈腿筋伤疑",
-   "tone": "negative",
-   "text": "科特迪瓦中卫Singo腿筋伤存疑·Amad Diallo疑出场受限·后防稳定性存压力。(Sports Mole/Yahoo Sports双源)",
-   "en": "Ivory Coast CB Singo doubtful with hamstring injury; Amad Diallo also a doubt after early substitution in final group game. (Sports Mole/Yahoo Sports)",
-   "full": "06-30 Sports Mole/Yahoo Sports报道：科特迪瓦中卫Wilfried Singo因腿筋伤对阵挪威的R32比赛存疑，进一步增加科特迪瓦后防不确定性。同时，边路球员Amad Diallo在小组赛末轮被早早换下，状态存疑，首发能力有待确认。科特迪瓦前三场表现不稳定（1-0胜巴拿马·1-0负瑞典·1-1平波黑），后防受压频率较高。挪威锋线Haaland+Sørloth组合若对上缺员的科特迪瓦后防，可能带来较大威胁。⚠️官方首发于07-01 01:00开球前约60分钟确认。(Sports Mole/Yahoo Sports双源)",
-   "enFull": "Per Sports Mole and Yahoo Sports (June 30), Ivory Coast centre-back Wilfried Singo is struggling with a hamstring injury ahead of the Round of 32 clash against Norway. Additionally, Amad Diallo is a doubt after being substituted early in Ivory Coast's final group-stage match. Ivory Coast showed defensive vulnerabilities throughout the group stage (conceding multiple xG per game). Norway's Haaland-Sørloth frontline could exploit a potentially weakened Ivorian backline. Official lineup confirmed ~60 min before kick-off July 1 01:00 BJT. (Sports Mole/Yahoo Sports, two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole – Ivory Coast vs Norway preview",
-     "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/preview/ivory-coast-vs-norway-prediction-team-news-lineups_600294.html"
-    },
-    {
-     "name": "Yahoo Sports – Ivory Coast vs Norway preview",
-     "url": "https://sports.yahoo.com/articles/preview-ivory-coast-vs-norway-170000026.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二078",
-   "impact": "Hien缺阵",
-   "tone": "negative",
-   "text": "瑞典中卫Isak Hien(腘绳肌)确认整届缺席·Lindelof从中场临时转中卫应对法国。(ESPN/Sports Mole双源)",
-   "en": "Sweden CB Isak Hien confirmed out for tournament remainder (hamstring). Victor Lindelof moves from midfield to fill at center-back vs France. (ESPN/Sports Mole)",
-   "full": "06-30 ESPN/Sports Mole报道：瑞典中卫Isak Hien因腘绳肌伤情确认整届缺席——R32对法国无法参加。Hien是瑞典防线稳定器，其离开迫使主帅Potter将Victor Lindelof(31岁)从中场临时改打中后卫。瑞典分组赛已对荷兰失5球(1-5)，本场防线重组面对Mbappe/Dembele/Olise法国锋线风险极高。法国Marcus Thuram(小腿存疑)预计替补；法国Saliba预计复出首发。这一伤情强化法国主胜方向，但同时使平局概率进一步下降——与fade-favorite压平策略相悖。(ESPN/Sports Mole双源)",
-   "enFull": "Per ESPN and Sports Mole (June 30): Sweden CB Isak Hien is officially ruled out for the rest of the tournament with a hamstring injury. He will not feature against France in R32 or beyond. Coach Graham Potter must move Victor Lindelof from midfield to center-back. Sweden conceded 5 goals in their 1-5 loss to Netherlands in the group stage; a reshuffled backline now faces France's attacking line of Mbappe, Dembele, and Olise. France's Marcus Thuram (calf) is doubtful but available off the bench. William Saliba expected to return to France's starting XI. Net intelligence effect: this injury strengthens France's win probability and reduces draw likelihood — cuts against any fade-the-draw thesis. (ESPN/Sports Mole, two independent sources)",
-   "links": [
-    {
-     "name": "ESPN – France vs Sweden preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49204105/france-vs-sweden-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "Sports Mole – France vs Sweden team news",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/team-news/france-vs-sweden-injury-suspension-list-predicted-xis_600359.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-06-30",
-   "match": "周二079",
-   "impact": "墨主场驱动",
-   "tone": "positive",
-   "text": "墨西哥A组第一(3胜0失球)·主场墨西哥城·40年未赢淘汰赛的历史驱动·Jimenez复出首发。厄瓜多尔全员健康·Caicedo领衔·3场0-0-1后2:1爆冷德国晋级。(Goal/ESPN/Sports Mole三源)",
-   "en": "Mexico: group winners (3W, 0 conceded), home advantage Mexico City, 40-year knockout drought, Jimenez returns. Ecuador: full squad, Caicedo world-class, upset Germany 2-1. (Goal/ESPN/Sports Mole)",
-   "full": "06-30 多源报道：墨西哥以A组第一(3战全胜·零失球)进入淘汰赛，在主场墨西哥城阿兹特克体育场出战。历史背景：墨西哥自1986年本土WC以来40年未赢淘汰赛——本场对厄瓜多尔是打破诅咒的时机，球员动机极强。前锋Jimenez末轮轮休后复出首发，全员健康，阵容最强。厄瓜多尔：全员无伤，Moises Caicedo(Chelsea CM)是本届最佳球员之一，Enner Valencia领衔锋线。小组赛前两场0进球，但第三场2:1德国展示了真正的爆冷能力，防守纪律出色。墨西哥@1.98竞彩价(val=0.90)vs 厄瓜多尔@4.00(val=0.89)，主场+动机可能让墨西哥真实胜率高于市场45%，但竞彩仍比Polymarket公平价(4.27)短→负CLV。(Goal/ESPN/Sports Mole三源)",
-   "enFull": "Multiple sources (June 30): Mexico enter the knockout stage as Group A winners — three wins, zero goals conceded, a record-setting performance by any metric. Playing at home in Mexico City (Estadio Azteca) gives structural advantage including altitude. Historical context is compelling: Mexico has not won a knockout-round match in 40 years (since the 1986 home World Cup), losing consecutively in the Round of 16 at eight straight tournaments. Raul Jimenez returns to the starting XI after rest. Full squad available. Ecuador: no injuries, Moises Caicedo (Chelsea) is one of the best CMs in the world. Enner Valencia leads the attack. Group stage was uneven (0 goals in first two matches, then 2-1 vs Germany). Defensive discipline is strong. Intelligence verdict: Mexico's home + motivation context is real, but already priced into 竞彩 (CLV negative vs Polymarket fair 4.27). (Goal/ESPN/Sports Mole, three sources)",
-   "links": [
-    {
-     "name": "Goal – Mexico vs Ecuador preview",
-     "url": "https://www.goal.com/en-us/news/mexico-ecuador-world-cup-preview/blt3e5e16bf513deef8"
-    },
-    {
-     "name": "ESPN – Mexico vs Ecuador preview",
-     "url": "https://www.espn.com/soccer/story/_/id/49212810/mexico-vs-ecuador-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    },
-    {
-     "name": "Sports Mole – Mexico vs Ecuador team news",
-     "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/team-news/mexico-vs-ecuador-injury-suspension-list-predicted-xis_600277.html"
     }
    ]
   }
