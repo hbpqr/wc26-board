@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 17:10",
+  "updated": "2026-07-01 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2050,6 +2050,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三080",
+   "impact": "斯宾塞顶位首发",
+   "tone": "neutral",
+   "text": "英格兰右后卫杰德·斯宾塞(Djed Spence)确认顶位首发对阵刚果金，接替腿筋受伤的里斯·詹姆斯。斯宾塞为最正宗右后卫候选，提供进攻宽度但防守稳健性稍弱于詹姆斯。(Sports Mole/Yahoo Sports双源)",
+   "en": "England RB Djed Spence confirmed to start vs Congo DR replacing injured Reece James; natural RB option adding right-side width, slight defensive step-down. (Sports Mole/Yahoo Sports)",
+   "full": "07-01更新：英格兰右后卫由杰德·斯宾塞(Djed Spence)首发，接替腿筋受伤缺席的里斯·詹姆斯。斯宾塞(25岁·托特纳姆外租)是当前阵容中最正宗的右后卫选择——此前巡检提及的Luke Thomas/Colwill均属中卫/左后卫出身，斯宾塞的选用能维持英格兰右路进攻宽度。尽管如此，斯宾塞大赛经验有限、防守较詹姆斯略弱；但刚果金将以5-3-2收缩防守，对英格兰右路威胁较低，整体影响有限。预计首发(Sports Mole预判)：皮克福德；斯宾塞、孔萨、格希、奥莱利；安德森、赖斯；萨卡、贝林厄姆、拉什福德；凯恩。⚠️刚果金方面：无伤停顾虑，预计5-3-2首发，阿龙·旺-比萨卡(Aaron Wan-Bissaka·Man Utd/Arsenal级)预计出战右翼后卫——防线整体质量高于一般小队水准。⚠️官方首发07-02 00:00开球前~60分钟确认。(Sports Mole/Yahoo Sports双源独立报道)",
+   "enFull": "July 1 update: England right-back Djed Spence is confirmed to start against DR Congo, replacing the injured Reece James (hamstring). Spence (25, Tottenham loan) is the most natural RB option in the squad — Luke Thomas and Colwill are left-back/center-back by trade, making Spence the cleaner pick. While he provides attacking width on the right flank, he has less big-game experience and defensive solidity than James. However, DR Congo will likely deploy a compact 5-3-2 and are not expected to create significant right-flank threats, so the impact on the match outcome is limited. Predicted England XI: Pickford; Spence, Konsa, Guehi, O'Reilly; Anderson, Rice; Saka, Bellingham, Rashford; Kane. ⚠️ Congo DR note: No injury concerns, reverting to 5-3-2; Aaron Wan-Bissaka (Man Utd/Arsenal-level player eligible via descent) expected at right wing-back, making their defense higher quality than typical R32 outsiders. ⚠️ Official lineup confirmed ~60 min before kick-off July 2 00:00 BJT. (Sports Mole/Yahoo Sports — two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – England vs DR Congo team news",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/team-news/england-vs-dr-congo-injury-suspension-list-predicted-xis_600341.html"
+    },
+    {
+     "name": "Yahoo Sports – England XI vs DR Congo",
+     "url": "https://sports.yahoo.com/articles/england-xi-vs-dr-congo-180417277.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-01",
    "match": "周三082",
