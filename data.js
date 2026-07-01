@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 16:10",
+  "updated": "2026-07-01 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2050,6 +2050,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三082",
+   "impact": "穆氏停赛归队",
+   "tone": "positive",
+   "text": "波黑后卫穆哈雷莫维奇(Tarik Muharemovic)对阵瑞士时因红牌停赛缺席卡塔尔场，本场解禁复出，预计首发加强防线。(Sports Mole/Goal.com双源)",
+   "en": "Bosnia CB Tarik Muharemovic (red card vs Switzerland) returns from suspension vs USA; expected to start and strengthen back line. (Sports Mole/Goal.com)",
+   "full": "07-01更新：波黑23岁中卫Tarik Muharemovic在对阵瑞士时领到红牌，缺席小组赛末轮对卡塔尔一役；本场R32对美国停赛结束、完全解禁，预计首发中卫位置。Muharemovic的回归加强了波黑后防线完整性——他是波黑主要防线组织者之一，与Katic搭档中卫。背景：波黑凭借组织紧密的防守体系+Edin Dzeko/Demirovic双锋以平局出线，防线强化对顶住美国攻势意义重大。美国方面Pulisic/McKennie/Balogun全健康，波帅称「如决赛」；但波黑防线回归主力将使这场比赛更具悬念。⚠️波黑Amar Dedic(大腿)赛前存疑，但整体阵容比上轮更强。(Sports Mole / Goal.com两路独立报道)",
+   "enFull": "July 1 update: Bosnia-Herzegovina center-back Tarik Muharemovic (23) returns from a one-match suspension for Wednesday's R32 against USA. He was red-carded in Bosnia's group opener vs Switzerland and missed the Qatar match. Back in the squad, he's expected to partner Katic in central defense, restoring Bosnia's back line to its best shape. Bosnia's defensive organization — built around a compact block and set-piece threat featuring Edin Dzeko and Demirovic up front — will be reinforced by his return. USA remain heavy favorites at ~70% (Polymarket+Smarkets), but a full-strength Bosnia defensive unit makes this match slightly less clearcut than it appeared without him. ⚠️ Amar Dedic (thigh) remains a doubt for Bosnia's right flank. (Sports Mole / Goal.com — two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – USA vs Bosnia team news",
+     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-bosnia-herzegovina-injury-suspension-list-predicted-xis_600325.html"
+    },
+    {
+     "name": "Goal.com – USA vs Bosnia preview",
+     "url": "https://www.goal.com/en-us/news/usa-bosnia-herzegovina-world-cup-preview/blt1c2973efdd46fc73"
+    }
+   ]
+  },
   {
    "date": "2026-07-01",
    "match": "周三080",
