@@ -1,13 +1,13 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 20:10",
+  "updated": "2026-07-01 20:32",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 278.55,
+  "cashNow": 270.55,
   "pending": 0,
   "goal": 20000,
   "floor": 80,
@@ -193,7 +193,7 @@ window.DASH_DATA = {
    },
    {
     "d": "07-01",
-    "v": 278.55
+    "v": 270.55
    }
   ],
   "evCurve": [
@@ -516,16 +516,16 @@ window.DASH_DATA = {
    },
    {
     "d": "07-01",
-    "pool": 278.55,
-    "pnl": 0,
+    "pool": 270.55,
+    "pnl": -8,
     "records": [
-     "🏆 科特迪瓦 1:2 挪威(01:00 完赛·ESPN STATUS_FULL_TIME·R32淘汰赛·挪威客场晋级)",
-     "　模型集成客胜49.9%方向命中(Brier ens=0.402优)·slip押IVC@3.60 4元→挂(-4·⚠️待主会话确认077是否出票+结算)",
-     "🏆 法国 3:0 瑞典(05:00 完赛·ESPN STATUS_FULL_TIME·90'+4'终场·R32淘汰赛·法国晋级8强)",
-     "　模型集成主胜77.3%方向命中·slip未押078(CLV-9.5%负·跳过)·无持仓·pool不变·learn.py已结算",
-     "🏆 墨西哥 2:0 厄瓜多尔(09:00 完赛·ESPN STATUS_FULL_TIME·R32淘汰赛·墨西哥晋级·打破40年诅咒)",
-     "　Quinones 22'+Jimenez 31'·模型集成主胜45.2%方向命中(Brier ens=0.451差于随机0.667)·slip押ECU@4.00 4元→挂(-4·⚠️待主会话确认079是否出票·had.single=0存疑)·learn.py已结算",
-     "📊 077/078/079三场全终·pool暂278.55不变(待主会话确认077 IVC@3.60 4元+079 ECU@4.00 4元出票状态·若均已出票两注全挂→-8→270.55)·请主会话结算并生成周三slip+focus"
+     "🏆 科特迪瓦 1:2 挪威(01:00 完赛·R32·挪威客场晋级8强)",
+     "　✗ 077 IVC@3.60 4元单关→挂(-4)·IVC失守主场优势",
+     "🏆 法国 3:0 瑞典(05:00 完赛·R32·法国晋级·模型主胜77.3%命中·无持仓)",
+     "🏆 墨西哥 2:0 厄瓜多尔(09:00 完赛·R32·墨西哥晋级·打破40年诅咒)",
+     "　✗ 079 ECU@4.00 4元单关→挂(-4)·墨西哥主场爆发",
+     "📊 周二三场全终·077/079两注全挂→-8·pool 278.55→270.55",
+     "🎫 20:32 最终版生成·betRound=周三(080/081/082)·081比利时@1.97·4元 + 082波黑@9.40·4元"
     ]
    }
   ],
@@ -607,8 +607,18 @@ window.DASH_DATA = {
     "evPnl": -0.83,
     "winProb": 42,
     "actualPnl": -8,
-    "status": "⚠️待主会话确认出票",
-    "note": "077 IVC挂(1:2·挪威赢)·079 ECU挂(2:0·墨西哥赢)·两注全挂·但077/079 elig.had.single=0 ALERTS·实际是否出票待主会话确认·若均出票→actualPnl=-8·cashNow→270.55；若均未出票→actualPnl=0·pool不变278.55"
+    "status": "已结算·两注全挂",
+    "note": "077 IVC@3.60挂(1:2挪威赢) + 079 ECU@4.00挂(2:0墨西哥赢)·两注全挂·-8·pool 278.55→270.55"
+   },
+   {
+    "date": "07-01",
+    "desc": "周三2注8元：081比利时@1.97·4元单关 + 082波黑@9.40·4元单关",
+    "stake": 8,
+    "evPnl": -0.61,
+    "winProb": 52,
+    "actualPnl": null,
+    "status": "待结算",
+    "note": "全9场无val≥1.10·§0最高指令凸性最小仓参与·081 Belgium46.6%@1.97 val=0.92·082 Bosnia9.9%@9.40 val=0.93·Mendy缺阵已price in·Muharemovic复出·池270.55·最坏-8→262.55>>地板80·had.single均=1"
    }
   ]
  },
@@ -1847,204 +1857,27 @@ window.DASH_DATA = {
   }
  ],
  "holdings": {
-  "invested": 100,
-  "returned": 126.45,
-  "pendingStake": 0,
-  "condEV": -18.3,
-  "condWinProb": 42,
+  "invested": 8,
+  "returned": 0,
+  "pendingStake": 8,
+  "condEV": -0.61,
+  "condWinProb": 52,
   "tickets": [
    {
-    "match": "荷兰 vs 瑞典",
-    "pick": "荷兰胜(主胜)·单关",
-    "stake": 12,
-    "odds": 1.53,
-    "status": "win",
-    "payout": 18.36
-   },
-   {
-    "match": "突尼斯 vs 日本",
-    "pick": "日本胜(客胜)·单关",
-    "stake": 20,
-    "odds": 1.37,
-    "status": "win",
-    "payout": 27.4
-   },
-   {
-    "match": "德国×日本",
-    "pick": "2串1 德国胜×日本胜",
-    "stake": 24,
-    "odds": 1.836,
-    "status": "win",
-    "payout": 44.06
-   },
-   {
-    "match": "德国×日本×厄瓜多尔",
-    "pick": "3串1 德×日×厄总进球3",
-    "stake": 16,
-    "odds": 6.24,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "德国×荷兰",
-    "pick": "2串1 德国胜×荷兰胜",
-    "stake": 18,
-    "odds": 2.035,
-    "status": "win",
-    "payout": 36.63
-   },
-   {
-    "match": "德国×厄瓜多尔",
-    "pick": "2串1 德国胜×厄瓜多尔让2球(净胜3+)",
-    "stake": 10,
-    "odds": 2.46,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "美国 vs 澳大利亚",
-    "pick": "美国胜(主胜)·单关",
-    "stake": 16,
-    "odds": 1.44,
-    "status": "win",
-    "payout": 23.04
-   },
-   {
-    "match": "苏格兰 vs 摩洛哥",
-    "pick": "摩洛哥胜(客胜)·单关",
-    "stake": 16,
-    "odds": 1.5,
-    "status": "win",
-    "payout": 24
-   },
-   {
-    "match": "美国×摩洛哥",
-    "pick": "2串1 美国胜×摩洛哥胜",
-    "stake": 12,
-    "odds": 2.16,
-    "status": "win",
-    "payout": 25.92
-   },
-   {
-    "match": "美国×摩洛哥×巴西",
-    "pick": "3串1 美×摩×巴西让-2(净胜3+)",
-    "stake": 8,
-    "odds": 3.455,
-    "status": "win",
-    "payout": 27.64
-   },
-   {
-    "match": "乌拉圭 vs 佛得角",
-    "pick": "乌拉圭胜(主胜)·单关",
-    "stake": 24,
-    "odds": 1.29,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "比利时×乌拉圭",
-    "pick": "2串1 比利时胜×乌拉圭胜",
-    "stake": 32,
-    "odds": 1.63,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "比利时×乌拉圭×西班牙",
-    "pick": "3串1 比×乌×西班牙让2球",
-    "stake": 16,
-    "odds": 2.55,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "阿根廷 vs 奥地利",
-    "pick": "阿根廷对奥地利 打平",
-    "stake": 8,
-    "odds": 4.3,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "约旦阿尔及利亚平 × 阿根廷胜",
-    "pick": "2串1 约旦阿尔及利亚平×阿根廷胜",
-    "stake": 16,
-    "odds": 5.67,
-    "status": "lose",
-    "payout": 0
-   },
-   {
-    "match": "加拿大×捷克 2串1",
-    "pick": "2串1 加拿大客胜×捷克主胜",
+    "match": "比利时 vs 塞内加尔",
+    "pick": "比利时胜(主胜)·单关",
     "stake": 4,
-    "odds": 12.07,
-    "status": "lose",
-    "payout": 0
-   }
-  ],
-  "scenariosTitle": "周六整轮·已下注100元(6张票·票面为准)",
-  "scenarios": [
-   {
-    "label": "全胜:德日荷赢+厄让中",
-    "pnl": 117.64,
-    "prob": 8,
-    "win": [
-     0,
-     1,
-     2,
-     3
-    ]
+    "odds": 1.97,
+    "status": "pending",
+    "payout": null
    },
    {
-    "label": "德日荷赢·厄让没中",
-    "pnl": 17.8,
-    "prob": 18,
-    "win": [
-     0,
-     1,
-     2
-    ]
-   },
-   {
-    "label": "德日赢+厄让中·荷兰输",
-    "pnl": 99.28,
-    "prob": 5,
-    "win": [
-     1,
-     2,
-     3
-    ]
-   },
-   {
-    "label": "德日赢·荷输厄没中(2串保本)",
-    "pnl": -0.56,
-    "prob": 12,
-    "win": [
-     1,
-     2
-    ]
-   },
-   {
-    "label": "日本没赢(德日串全死·最多荷单回血)",
-    "pnl": -53.64,
-    "prob": 22,
-    "win": [
-     0
-    ]
-   },
-   {
-    "label": "德国没赢但日本赢(日单回血)",
-    "pnl": -35,
-    "prob": 20,
-    "win": [
-     1
-    ]
-   },
-   {
-    "label": "日荷都没赢",
-    "pnl": -72,
-    "prob": 15,
-    "win": []
+    "match": "美国 vs 波黑",
+    "pick": "波黑胜(客胜)·单关",
+    "stake": 4,
+    "odds": 9.4,
+    "status": "pending",
+    "payout": null
    }
   ]
  },
@@ -2154,41 +1987,41 @@ window.DASH_DATA = {
   }
  ],
  "slip": {
-  "title": "6月30日 · 正常模式 · 21:00最终版",
+  "title": "7月1日 · 正常模式 · 21:00最终版",
   "status": "final",
-  "detail": "九场全盘口终盘扫描(077-085·R32·终盘20:31刷新)：全盘口无价值≥1.10项。betRound=周二(077/078/079·均在售·均未开打)。三模型+国际共识集成：077 IVC25.1%/平26.6%/挪威48.3%；078 法国77.1%/平15.2%/瑞典7.7%；079 墨西哥45.5%/平32.3%/厄瓜多尔22.2%。国际盘CLV核查：077全负CLV(Smarkets科特迪瓦3.85>竞彩3.60·平3.60>3.38·挪威2.16>1.80)；078全负CLV(Polymarket法国公平1.30>1.16·平公平6.41>5.80)；079全负CLV(Polymarket厄瓜多尔公平4.27>竞彩4.00·墨西哥公平2.31>1.98)。Fade-favorite §14协议：078法国conf=77.1%≥60%触发检查→竞彩平@5.80 vs Polymarket公平6.41→CLV=-9.5%(负)→**协议不触发·台账记not_placed_neg_clv**。Hien伤情复盘：确认整届缺席使法国更可能大胜、平局更难(不利于押平)，与fade-the-draw方向相悖，进一步支持CLV不通过的决定。伤停终核：077 挪威Ryerson(腿筋)确认缺阵·Haaland+Odegaard复出全火力；IVC Singo(腿筋)存疑。078 瑞典Isak Hien整届确认缺席·Lindelof临时顶中卫·法国Thuram(小腿)存疑但预计上替补。079 双方全员健康·墨西哥主场阿兹特克·40年KO晋级渴望·Jimenez复出首发；厄瓜多尔Caicedo世界级CM·2:1爆冷德国展示真实爆冷力。§0最高指令→无val≥1.10·选两注最高凸性underdog参与：①077 科特迪瓦@3.60(IVC历史首场KO赛·情绪高涨·防反打针对Haaland依赖体系)；②079 厄瓜多尔@4.00(已证明爆冷能力·Caicedo领衔·墨西哥40年压力可能适得其反)。诚实披露：两注均val<1.10(负CLV)，§0最高指令凸性最小仓·影子book记全9场全盘口。",
+  "detail": "九场全盘口终盘扫描(080-088·R32·终盘20:32刷新)：全盘口无价值≥1.10项。betRound=周三(080/081/082·均在售·均未开打)。三模型+国际共识集成：080 英格兰75.8%/平17.6%/刚果金6.6%；081 比利时46.6%/平28.9%/塞内加尔24.6%；082 美国71.5%/平18.6%/波黑9.9%。国际盘CLV核查(平局)：080 Polymarket平公平5.43 > 竹彩5.13 → CLV-5.2%(负)；081 Polymarket平公平3.40 > 竹彩2.98 → CLV-12.5%(负)；082 Smarkets平公平5.15 > 竹彩4.91 → CLV-4.7%(负)。Fade-favorite §14：080 英格兰conf75.8%≥60%→平CLV-5.2%负·不触发；082 美国conf71.5%≥60%→平CLV-4.7%负·不触发。伤停终核：080 詹姆斯(腿筋)+夸萨(踝)缺阵·斯宾塞补位RB·Rice复出首发·刚果金全员健康；081 **门迪确认整届缺席**(膝伤·已离队返沙特就医)·备用门将Diaw首发·比利时Debast未出场·Debast本场仍不太可能上·比利时全攻(De Bruyne/Doku/Trossard)对阵后备门将；082 Muharemovic停赛归队(强化波黑后防)·Dedic(大腿)存疑·美国Pulisic/McKennie全健康·波帅称'如决赛'。§15校准闸：081 比利时锚=市场去水44.9%/模型46.6%/Poly45.3%·Mendy缺阵已price in·小正model edge但未超噪声·门迪缺阵为已知硬信息(升确认后Poly45.3%已包含)·无额外偏离。§0最高指令→无val≥1.10·选两注最高凸性参与：①081比利时@1.97(最平衡场次·model轻微正edge·备用GK Diaw面对比利时锋线)；②082波黑@9.40(凸性层·Muharemovic归队强后防·Dzeko+Demirovic双锋·唯一model>市场客胜项)。诚实披露：两注均val<1.10(均负CLV)，§0最高指令凸性最小仓参与·影子book记全9场全盘口。",
   "items": [
    {
-    "num": "周二077",
-    "match": "科特迪瓦 vs 挪威",
-    "pick": "科特迪瓦胜 (HAD 主胜)",
-    "tier": "§0凸性·历史首场KO",
+    "num": "周三081",
+    "match": "比利时 vs 塞内加尔",
+    "pick": "比利时胜 (HAD 主胜)",
+    "tier": "§0凸性·均衡场最高model edge",
     "stake": 4,
-    "odds": 3.6,
-    "value": 0.9,
-    "ev": -0.38,
-    "note": "had.single=1✓；IVC历史首场WC淘汰赛·情绪动机极强·防守反击体系成型(Pepe/Diomande/Adingra速度)·对Haaland依赖体系克制可能；挪威Ryerson(腿筋)确认缺阵右路弱化·Haaland+Odegaard复出·高强度压迫style；集成IVC 25.1%·Smarkets公平3.85→CLV-6.5%(负)·§0凸性最小仓4元"
+    "odds": 1.97,
+    "value": 0.92,
+    "ev": -0.33,
+    "note": "had.single=1✓；model46.6% vs 市场去水44.9%·edge+1.7pp·Polymarket45.3%·Mendy确认整届缺阵(Diaw替补首发·大赛经验不足)·比利时De Bruyne/Doku/Trossard/De Ketelaere攻击组合压阵·Courtois镇守·CLV-6.0%(Poly公平1/0.453=2.21 > 竹彩1.97)·§0最小仓4元"
    },
    {
-    "num": "周二079",
-    "match": "墨西哥 vs 厄瓜多尔",
-    "pick": "厄瓜多尔胜 (HAD 客胜)",
-    "tier": "§0凸性·爆冷能力验证",
+    "num": "周三082",
+    "match": "美国 vs 波黑",
+    "pick": "波黑胜 (HAD 客胜)",
+    "tier": "§0凸性·唯一model>市场客胜项",
     "stake": 4,
-    "odds": 4.0,
-    "value": 0.89,
-    "ev": -0.45,
-    "note": "had.single=1✓；厄瓜多尔2:1爆冷德国已证明真实爆冷能力·Caicedo(Chelsea CM)世界级领衔·全员健康·防守低位街·压反路线成型；墨西哥40年淘汰赛诅咒可能形成紧张·竞彩主场优势已price in；集成ECU 22.2%·Polymarket公平4.27→CLV-6.3%(负)·§0凸性最小仓4元"
+    "odds": 9.4,
+    "value": 0.93,
+    "ev": -0.28,
+    "note": "had.single=1✓；model9.9% vs 市场去水9.4%·小正edge·Smarkets10.5%·Muharemovic停赛归队强化后防·Dzeko+Demirovic双锋威胁·Dedic(大腿)存疑但整体阵容比上轮强·美国24年未赢KO赛压力·波帅'如决赛'情绪双刃·CLV-1.1%(Smarkets公平1/0.105=9.52 > 竹彩9.40)·最大凸性层·§0最小仓4元"
    }
   ],
   "summary": {
    "stake": 8,
    "evLow": -8,
-   "evHigh": 22,
-   "winProb": 42,
+   "evHigh": 38,
+   "winProb": 52,
    "best": {
-    "label": "077 IVC+079 ECU均中",
-    "pnl": 22.4
+    "label": "081比利时+082波黑均中",
+    "pnl": 37.48
    },
    "worst": {
     "label": "全挂",
@@ -2196,47 +2029,51 @@ window.DASH_DATA = {
    },
    "keyScenarios": [
     {
-     "label": "仅077 IVC中(079挂)",
-     "pnl": 10.4
+     "label": "仅081比利时中(波黑挂)",
+     "pnl": -0.12
     },
     {
-     "label": "仅079 ECU中(077挂)",
-     "pnl": 12.0
+     "label": "仅082波黑中(比利时挂)",
+     "pnl": 29.6
+    },
+    {
+     "label": "全中(比利时+波黑)",
+     "pnl": 37.48
     },
     {
      "label": "全挂",
-     "pnl": -8
+     "pnl": -8.0
     }
    ]
   },
   "matrix": [
    {
-    "scenario": "077 IVC+079 ECU均中",
+    "scenario": "081比利时+082波黑均中",
+    "prob": 5,
+    "returnTotal": 45.48,
+    "pnl": 37.48
+   },
+   {
+    "scenario": "仅082波黑中(比利时挂)",
     "prob": 6,
-    "returnTotal": 30.4,
-    "pnl": 22.4
+    "returnTotal": 37.6,
+    "pnl": 29.6
    },
    {
-    "scenario": "仅077 IVC胜",
-    "prob": 20,
-    "returnTotal": 14.4,
-    "pnl": 10.4
-   },
-   {
-    "scenario": "仅079 ECU胜",
-    "prob": 17,
-    "returnTotal": 16.0,
-    "pnl": 12.0
+    "scenario": "仅081比利时中(波黑挂)",
+    "prob": 42,
+    "returnTotal": 7.88,
+    "pnl": -0.12
    },
    {
     "scenario": "全挂",
-    "prob": 57,
+    "prob": 47,
     "returnTotal": 0,
-    "pnl": -8
+    "pnl": -8.0
    }
   ],
-  "copyText": "老板你好，竞彩足球，6月30日：\n\n场次：周二077 科特迪瓦 vs 挪威\n买：科特迪瓦赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周二079 墨西哥 vs 厄瓜多尔\n买：厄瓜多尔赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
-  "reviewNote": "✓ 已独立复核 20:44 ｜ 草稿合规,无删改 ｜ 两注均§0最高指令凸性最小仓(4元underdog) · value均<1.10由§0推翻§3否决权 · had.single均=1 · 8元/278.55池=2.9%<<25% · 最坏270.55>>地板80 · 078跳过(Hien缺阵使法国更强+CLV-9.5%负) · fade-favorite §14未触发(078 CLV=-9.5%<0)"
+  "copyText": "老板你好，竞彩足球，7月2日：\n\n场次：周三081 比利时 vs 塞内加尔\n买：比利时赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周三082 美国 vs 波黑\n买：波黑赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
+  "reviewNote": "✓ 终盘复核 20:32 ｜ 全9场盘口扫描完成·无val≥1.10·§0最高指令凸性最小仓·081 Belgium@1.97(val=0.92·had.single=1·model轻正edge) + 082 Bosnia@9.40(val=0.93·had.single=1·最大凸性层) · 8元/270.55池=3.0%<<25%限 · 最坏-8→262.55>>地板80 · fade-favorite均负CLV不触发 · 影子book全9场落盘 ｜ ✓ 独立复核 20:44 ｜ 草稿合规·无删改·val<1.10已披露·§0最高指令最小仓参与合法·single=1双确认·仓位3.0%<<25%·summary数值核算一致"
  },
  "calibration": {
   "stats": {
