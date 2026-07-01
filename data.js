@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 14:10",
+  "updated": "2026-07-01 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2050,6 +2050,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三080",
+   "impact": "赖斯确认复出",
+   "tone": "positive",
+   "text": "英格兰中场核心Declan Rice确认出战vs刚果金·此前对巴拿马缺席纯属保护性休息·神经痛问题可控·预计首发。(Goal.com/Athlon Sports双源)",
+   "en": "England CM Declan Rice confirmed fit to start vs Congo DR; Panama absence was precautionary (dead calf, not structural); managing neural pain but ready to anchor midfield. (Goal.com/Athlon Sports)",
+   "full": "07-01更新：英格兰中场核心Declan Rice在赛前新闻发布会上确认出战对阵刚果金的R32。Rice在小组赛末轮对巴拿马缺席，系对阵加纳时被对手踢中小腿引发严重肿胀，但他表示「不是真正的小腿问题，三天后自然消肿」，缺席纯属保护性措施。Rice同时透露一直在管理自年12月以来的「神经痛」慢性问题，但表示已找到方式维持表现水准。他的复出对英格兰中场控制力意义重大——配合Bellingham构成双核。前序伤情背景：James(腿筋)/Quansah(踝)确认缺阵，Rice回归部分弥补英格兰阵容完整性。英格兰整体实力仍远超刚果金(Polymarket 76.9%+)。(Goal.com · Athlon Sports两路独立报道)",
+   "enFull": "July 1 update: England midfielder Declan Rice has confirmed he is fit to start Wednesday's Round of 32 against Congo DR. Rice missed England's final group game vs Panama after taking a blow to his calf against Ghana that 'blew up' with swelling for three days — but he clarified it was not a structural calf injury and only precautionary rest was needed. Rice also acknowledged managing a chronic neural pain issue since December but says he has found ways to maintain performance at the highest level. His return significantly strengthens England's midfield, pairing with Bellingham as a double pivot. Context: Reece James (hamstring) and Quansah (ankle) remain ruled out, so Rice's return partially offsets England's defensive reshuffle concerns. England remain heavy favorites at ~77% (Polymarket). (Goal.com / Athlon Sports — two independent sources)",
+   "links": [
+    {
+     "name": "Goal.com – Rice injury update",
+     "url": "https://www.goal.com/en-us/lists/major-boost-england-declan-rice-injury-world-cup-knockout-stage-clash-dr-congo/blt7f17437e2f540d6f"
+    },
+    {
+     "name": "Athlon Sports – Rice fitness update",
+     "url": "https://athlonsports.com/soccer/england-get-major-declan-rice-update-ahead-of-dr-congo-game"
+    }
+   ]
+  },
   {
    "date": "2026-07-01",
    "match": "周三080",
