@@ -1,13 +1,13 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 06:30",
+  "updated": "2026-07-02 06:50",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 270.55,
+  "cashNow": 266.55,
   "pending": 0,
   "goal": 20000,
   "floor": 80,
@@ -194,6 +194,10 @@ window.DASH_DATA = {
    {
     "d": "07-01",
     "v": 270.55
+   },
+   {
+    "d": "07-02",
+    "v": 266.55
    }
   ],
   "evCurve": [
@@ -530,11 +534,13 @@ window.DASH_DATA = {
    },
    {
     "d": "07-02",
-    "pool": 270.55,
-    "pnl": 0,
+    "pool": 266.55,
+    "pnl": -4,
     "records": [
      "🏆 英格兰 2:1 刚果金(00:00 完赛·ESPN STATUS_FULL_TIME·R32淘汰赛·刚果金先进1:0·英格兰逆转晋级八强·Brier ens=0.094极优·model主胜75.9%命中·learn.py已结算·无持仓·pool不变)",
-     "⏳ 081 比利时 vs 塞内加尔(04:00 进行中·加时赛100'·比利时2:2塞内加尔·先0:2落后后Tielemans+Lukaku追平·持仓4元@1.97 pending·结果悬而未决)",
+     "🏆 比利时 3:2(加时) 塞内加尔(04:00 完赛·ESPN STATUS_FINAL_AET·R32·90分钟2:2平·Tielemans加时点球绝杀·比利时晋级八强)",
+     "　✗ 081 BEL@1.97 4元单关→挂(-4)·竞彩以90分钟结算·90分钟平局=比利时胜挂",
+     "📊 081结算·比利时胜挂(-4)·pool 270.55→266.55·082波黑@9.40·4元仍pending(08:00开赛)",
      "⏳ 082 美国 vs 波黑(08:00 待开赛·持仓4元@9.40 pending)"
     ]
    }
@@ -1845,7 +1851,9 @@ window.DASH_DATA = {
    "home": "比利时",
    "away": "塞内加尔",
    "time": "07-02 04:00",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "3:2(aet)",
+   "note": "比利时3:2加时塞内加尔·90分钟2:2平局·Tielemans加时点球绝杀·竞彩以90分钟结算→平局·比利时胜单关挂",
    "predModel": "主胜45.5%",
    "ensemble": {
     "h": 45.5,
@@ -1871,7 +1879,7 @@ window.DASH_DATA = {
  "holdings": {
   "invested": 8,
   "returned": 0,
-  "pendingStake": 8,
+  "pendingStake": 4,
   "condEV": -0.61,
   "condWinProb": 52,
   "tickets": [
@@ -1880,8 +1888,8 @@ window.DASH_DATA = {
     "pick": "比利时胜(主胜)·单关",
     "stake": 4,
     "odds": 1.97,
-    "status": "pending",
-    "payout": null
+    "status": "lose",
+    "payout": 0
    },
    {
     "match": "美国 vs 波黑",
@@ -2228,26 +2236,26 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 80,
+  "sampleCount": 81,
   "threshold": 50,
-  "pct": 160,
+  "pct": 162,
   "ensBrier": 0.486,
-  "ensBrierMedian": 0.265,
-  "marketBase": 0.5114,
+  "ensBrierMedian": 0.267,
+  "marketBase": 0.5105,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 55,
-  "dirHit": 51,
+  "beatRandom": 56,
+  "dirHit": 52,
   "weightsFirst": {
    "A": 33,
    "B": 34,
    "C": 33
   },
   "weightsLast": {
-   "A": 61,
-   "B": 11,
+   "A": 60,
+   "B": 13,
    "C": 0,
-   "D": 28
+   "D": 27
   },
   "dots": [
    {
@@ -2729,10 +2737,16 @@ window.DASH_DATA = {
     "m": "英格兰·2:1",
     "b": 0.09,
     "win": true
+   },
+   {
+    "num": "周三081",
+    "m": "比利时·3:2",
+    "b": 0.43,
+    "win": true
    }
   ],
-  "headline": "已喂 80 场预测 · 集成 Brier 0.486 vs 市场去水 0.5114（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.486 **仍没跑赢市场去水(0.5114)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 80/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 81 场预测 · 集成 Brier 0.486 vs 市场去水 0.5105（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.486 **仍没跑赢市场去水(0.5105)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 81/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
