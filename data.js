@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 08:10",
+  "updated": "2026-07-01 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2045,6 +2045,28 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三080",
+   "impact": "詹姆斯/夸萨缺阵",
+   "tone": "negative",
+   "text": "英格兰右后卫里斯·詹姆斯与中卫夸萨确认缺席vs刚果金·Tuchel新闻发布会亲口确认·Luke Thomas/Colwill补位。(ESPN·Tuchel记者会)",
+   "en": "England RB Reece James and CB Quansah confirmed out vs Congo DR; Tuchel confirmed in press conference, Luke Thomas/Colwill to deputize. (ESPN/Tuchel presser)",
+   "full": "07-01 ESPN报道：英格兰主帅Thomas Tuchel在新闻发布会上亲口确认右后卫Reece James与中卫Jarell Quansah双双缺席对阵刚果金的R32比赛。James的缺阵削弱英格兰右路进攻创造力，Quansah中卫缺阵增加防线压力；Luke Thomas候补左路顶右路或Colwill首发中卫为主要调整方向。尽管如此，英格兰整体阵容实力仍远超刚果金（Polymarket 76.9%）。Tuchel同时提及德国、荷兰出局令他们心态更稳。⚠️官方首发07-02 00:00开球前~60分钟确认。(ESPN·Tuchel记者会双源)",
+   "enFull": "July 1, ESPN: England manager Thomas Tuchel confirmed in his pre-match press conference that right-back Reece James and center-back Jarell Quansah are both ruled out of the Round of 32 match against Congo DR. James' absence weakens England's right-side creativity and width; Quansah's absence creates a defensive reshuffle with Colwill or alternative options likely. Despite the absences, England remain heavy favorites at Polymarket 76.9%. Tuchel noted Germany and Netherlands' early exits will 'calm' England's expectations. ⚠️ Official lineup confirmed ~60 min before kick-off July 2 00:00 BJT. (ESPN/Tuchel press conference)",
+   "links": []
+  },
+  {
+   "date": "2026-07-01",
+   "match": "周三082",
+   "impact": "波切蒂诺称赛如决赛",
+   "tone": "positive",
+   "text": "USMNT主帅波切蒂诺称对波黑比赛「如同世界杯决赛」·高度重视·主场优势+全员健康·美国动机极强。(ESPN·波切蒂诺记者会)",
+   "en": "USMNT coach Pochettino calls Bosnia match 'like a World Cup final' — high motivation, full squad, home advantage for USA. (ESPN/Pochettino presser)",
+   "full": "07-01 ESPN报道：USMNT主帅Mauricio Pochettino在赛前新闻发布会上将对阵波黑的比赛定性为「如同世界杯决赛」，强调团队全力以赴的高度重视。美国主场优势明显（北美三国联办·中立度最低）、全队主力健康，Pochettino的「决赛」定性为球队注入高强度备战动机。波黑晋级已是爆冷，美国被Polymarket+Smarkets双线评为70.8%热门。⚠️波黑仅靠强硬防守+定向球可能威胁美国，注意波黑中场Pjanic风险。⚠️官方首发07-02 08:00开球前~60分钟确认。(ESPN·波切蒂诺记者会双源)",
+   "enFull": "July 1, ESPN: USMNT head coach Mauricio Pochettino described Wednesday's Round of 32 match against Bosnia-Herzegovina as 'like a World Cup final,' signaling his team's maximum focus and motivation. USA has full-squad health heading in and benefits from de-facto home advantage at North American venues. Bosnia reached the R32 as a surprise qualifier, but their disciplined defensive block and set-piece threat remain dangerous. USA is favored at 70.8% (Polymarket+Smarkets consensus). ⚠️ Official lineup confirmed ~60 min before kick-off July 2 08:00 BJT. (ESPN/Pochettino press conference)",
+   "links": []
+  },
   {
    "date": "2026-06-30",
    "match": "周二077",
