@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-01 21:10",
+  "updated": "2026-07-01 22:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1883,6 +1883,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-01",
+   "match": "周三081",
+   "impact": "门迪疑复出",
+   "tone": "negative",
+   "text": "多路预测首发列表显示Mendy疑似已通过沙特俱乐部医学评估·可能复出首发对阵比利时·与教练Thiaw官方「整届缺席」声明存在冲突·请主会话开球前确认。(Sports Mole/SI.com双源预测阵型)",
+   "en": "Multiple predicted lineups (Sports Mole/SI.com) list Mendy to start vs Belgium — potential reversal of Thiaw's 'out for tournament' official statement; Mendy reportedly assessed fit in Jeddah. Verify before kick-off 04:00 BJT. (Sports Mole/SI.com)",
+   "full": "07-01 22:10紧急更新：Sports Mole、SI.com、RotoWire、Goal.com等多路来源在最新预测首发阵型中均将Edouard Mendy列入塞内加尔首发门将位置。相关描述称「Mendy在前往沙特阿尔-阿赫利进行膝伤评估后被认为适合出战」，与此前Thiaw主帅在新闻发布会上官方宣布「Mendy整届缺席」形成冲突。当前最新情报方向：Mendy可能实际参战。若Mendy复出首发，比利时押注理由中「面对备用GK Diaw」这一硬信息差消失，利空比利时注；但市场Poly 45.3%可能已反映此变化。⚠️主会话应在081开球(07-02 04:00 BJT)前约60分钟通过官方首发公告确认门将号码。⚠️如Mendy确认首发则slip 081比利时注信息差消失——请主会话判断是否调整。(Sources: Sports Mole/SI.com/RotoWire预测阵型—三路独立列表)",
+   "enFull": "July 1, 22:10 BJT urgent update: Multiple preview sources (Sports Mole, SI.com, RotoWire, Goal.com) are now listing Edouard Mendy as Senegal's starting GK against Belgium, contradicting coach Pape Thiaw's official press conference statement that Mendy would miss the entire tournament. Recent reporting suggests Mendy traveled to his club Al-Ahli in Jeddah for knee assessment and has been cleared to play. If true, this reverses the key intel advantage behind the Belgium slip: 'inexperienced backup GK Diaw facing De Bruyne/Doku/Trossard attack' — if Mendy starts, that information edge disappears. However, Polymarket's 45.3% for Belgium may already incorporate this intelligence given widespread coverage. ⚠️ Confirmed lineups will be announced ~60 min before kick-off July 2 04:00 BJT. ⚠️ Host session should verify GK number at lineup release and reassess Belgium pick if Mendy confirmed to start. (Sources: Sports Mole / SI.com / RotoWire predicted XIs — three independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole – Belgium vs Senegal lineups",
+     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/belgium-vs-senegal-prediction-team-news-lineups_600358.html"
+    },
+    {
+     "name": "SI.com – Belgium vs Senegal preview/lineups",
+     "url": "https://www.si.com/soccer/belgium-vs-senegal-world-cup-preview-predictions-lineups-7-1-26"
+    }
+   ]
+  },
   {
    "date": "2026-07-01",
    "match": "周三080",
