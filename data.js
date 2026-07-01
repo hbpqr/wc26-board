@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 01:10",
+  "updated": "2026-07-02 01:50",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1883,6 +1883,17 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-02",
+   "match": "周三081",
+   "impact": "Diaw首发确认",
+   "tone": "positive",
+   "text": "081开球前最新共识(01:50 BJT)：CBS Sports/ESPN/RotoWire/Sports Mole预测首发均列Diaw首发门将·Mendy确认缺阵·此前「疑复出」系误判·比利时注信息差(备用GK Diaw)仍有效。(CBS Sports/ESPN/Sports Mole三源)",
+   "en": "Pre-match consensus (01:50 BJT): All major predicted XIs (CBS Sports/ESPN/RotoWire/Sports Mole) confirm Mory Diaw starts in goal for Senegal vs Belgium. Mendy absent as originally reported. Earlier 'possible return' alert was a false alarm. Belgium bet basis (Diaw facing De Bruyne/Doku/Trossard attack) remains intact. (CBS Sports/ESPN/Sports Mole)",
+   "full": "07-02 01:50 BJT确认：开球前约2小时，CBS Sports、ESPN、RotoWire、Sports Mole、101GreatGoals等多路主流媒体的预测首发阵型一致列Mory Diaw为塞内加尔首发门将，Edouard Mendy仍缺阵——CBS Sports明确写道「Mendy膝伤在对阵挪威后离队赴沙特阿尔-阿赫利就医，Diaw可能替补首发」。此前21:10-22:10窗口出现的「门迪疑复出」报道系基于SI.com等少数预测文章，已被更广泛的媒体共识否定。结论：slip 081比利时注的核心信息差——「Diaw(备用门将·大赛经验不足)面对比利时豪华锋线(De Bruyne/Doku/Trossard/De Ketelaere)」——仍然有效。比利时预测首发：Courtois；Castagne/Theate/Mechele/De Cuyper；Onana/Tielemans；Trossard/De Bruyne/Doku；De Ketelaere。⚠️官方首发预计03:00 BJT发布，届时请主会话最终确认门将号码。(CBS Sports/ESPN predicted XIs/Sports Mole)",
+   "enFull": "July 2, 01:50 BJT — Pre-match consensus confirmed: Multiple major outlets (CBS Sports, ESPN, RotoWire, Sports Mole, 101GreatGoals) all list Mory Diaw as Senegal's starting goalkeeper for the Round of 32 vs Belgium. Mendy remains absent — CBS Sports notes he 'left the Senegal camp to travel to his club Al-Ahli in Saudi Arabia' after the Norway match. The earlier alert ('Mendy possible return') at 21:10-22:10 BJT on July 1 was based on a lone SI.com predicted XI and has been overridden by the broader media consensus now pointing to Diaw. The core information edge behind the Belgium slip — 'inexperienced backup GK facing De Bruyne/Doku/Trossard/De Ketelaere attack' — remains intact. Belgium predicted XI: Courtois; Castagne, Theate, Mechele, De Cuyper; Onana, Tielemans; Trossard, De Bruyne, Doku; De Ketelaere. ⚠️ Official confirmed lineup expected ~03:00 BJT. (CBS Sports/ESPN/Sports Mole — three independent sources)",
+   "links": []
+  },
   {
    "date": "2026-07-01",
    "match": "周三080",
