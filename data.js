@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-03 00:10",
+  "updated": "2026-07-03 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2000,6 +2000,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-03",
+   "match": "周四083",
+   "impact": "西班牙攻线重组",
+   "tone": "neutral",
+   "text": "西班牙Pino疑似锁骨骨折伤势更重；预测首发锋线改为Yamal+Oyarzabal+Baena；奥地利全员无伤出战。(Yahoo Sports/Sports Mole双源)",
+   "en": "Spain's Pino feared to have fractured collarbone; Baena set to fill in on the right flank alongside Yamal and Oyarzabal; Austria report no injury concerns. (Yahoo Sports/Sports Mole)",
+   "full": "07-03 01:10 BJT临赛情报：周四083西班牙vs奥地利——西班牙右翼Yéremy Pino伤势比此前更为严重，Yahoo Sports报道显示疑似锁骨骨折已出局，而非仅一般性伤缺；Nico Williams(腹股沟)同样缺席；主帅Luis de la Fuente预计起用Baena补位右翼，首发锋线三叉戟为Yamal(左)+Oyarzabal(中)+Baena(右)；Victor Munoz大腿伤持续存疑。奥地利方面全员健康、无伤停，Arnautovic领衔全主力4-2-3-1出战。⚠️双翼缺损令西班牙右路宽度受损，但Baena+Pedri技术中轴仍保证进攻优势；Polymarket西班牙主胜76.1%(动量+1.0pp)。(Yahoo Sports/Sports Mole双源)",
+   "enFull": "July 3, 01:10 BJT pre-match update for 周四083 Spain vs Austria: Spain's Yeremy Pino is now feared to have sustained a fractured collarbone — a more serious injury than initially reported — joining Nico Williams (groin) on the sideline; Victor Munoz also remains a hamstring doubt. Luis de la Fuente is expected to field Baena on the right wing, with Yamal, Oyarzabal and Baena forming the front three. Austria have no injury or suspension concerns and will field a full-strength squad in their 4-2-3-1 system led by Arnautovic. Spain's right-flank depth is reduced but their technical core through Pedri, Baena and Yamal remains strong; Polymarket has Spain at 76.1% win probability (+1.0pp momentum). (Yahoo Sports / Sports Mole)",
+   "links": [
+    {
+     "name": "Spain XI vs Austria - Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/spain-xi-vs-austria-confirmed-213512697.html"
+    },
+    {
+     "name": "Spain lineup vs Austria - Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/pinos-pain-williams-woes-predicted-spain-xi-vs-austria_600397.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "match": "周四085",
+   "impact": "维德默髋部不适",
+   "tone": "neutral",
+   "text": "瑞士Widmer因髋部不适大概率缺席首发；Jaquez预计出任右后卫；阿尔及利亚无新增伤情。(Sports Mole双文章核实)",
+   "en": "Switzerland's Widmer (hip discomfort) likely to miss out; Jaquez expected at right-back; no new Algeria injuries. (Sports Mole x2)",
+   "full": "07-03 01:10 BJT临赛情报：周四085瑞士vs阿尔及利亚——瑞士右后卫Silvan Widmer因髋部不适(此前报道为大腿问题，部位已更新为髋/臀区域)赛前训练缺席，大概率无缘首发。Luca Jaquez曾于6月24日对加拿大一役表现出色，预计顶位首发出任右后卫，后防线或为Jaquez+Elvedi+Akanji+Rodriguez四人组。阿尔及利亚除此前已知的Amoura(腿筋·缺席)外无新增伤情，Mahrez领衔Maza+Chaibi+Gouiri构成进攻线。Polymarket瑞士主胜51.3%(动量+4.1pp)，均衡场平局率仍是高概率事件。⚠️Widmer伤情来自Sports Mole两篇文章，临开球前建议关注官方阵容公布。(Sports Mole两篇独立文章核实)",
+   "enFull": "July 3, 01:10 BJT pre-match update for 周四085 Switzerland vs Algeria: Switzerland right-back Silvan Widmer missed training with hip discomfort (earlier described as a thigh issue; now updated to hip/gluteal area) and is unlikely to start. Luca Jaquez — who impressed in Switzerland's 2-1 win over Canada on June 24 — is set to fill in at right-back alongside Elvedi, Akanji and Rodriguez in the back four. Algeria have no new injuries beyond the confirmed absence of Amoura (hamstring); Mahrez leads the attack alongside Maza, Chaibi and Gouiri. Polymarket has Switzerland win at 51.3% (+4.1pp momentum), with draw remaining a high-probability outcome in this balanced tie. ⚠️ Widmer status sourced from Sports Mole x2 articles only; confirm via official lineup closer to kickoff. (Sports Mole x2)",
+   "links": [
+    {
+     "name": "Switzerland lineup vs Algeria - Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/predicted-lineups/right-back-options-predicted-switzerland-xi-vs-algeria_600426.html"
+    },
+    {
+     "name": "Switzerland vs Algeria team news - Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-algeria-injury-suspension-list-predicted-xis_600443.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-02",
    "match": "周五088",
