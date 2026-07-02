@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 16:10",
+  "updated": "2026-07-02 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1990,6 +1990,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-02",
+   "match": "周五088",
+   "impact": "塞梅尼奥带伤",
+   "tone": "negative",
+   "text": "加纳前锋安托万·塞梅尼奥(Antoine Semenyo)踝伤存疑但预计首发；门将Zigi伤病存疑·Asare或顶位；哥伦比亚苏亚雷斯身体无虞·路易斯·迪亚斯+J.罗德里格斯全首发。(Sports Mole/ESPN双源)",
+   "en": "Ghana forward Antoine Semenyo (ankle) is a doubt but expected to start; GK Ati-Zigi fitness in question, Asare likely starting. Colombia full squad available; Suarez, Diaz and James Rodriguez all set to feature. (Sports Mole/ESPN)",
+   "full": "07-02 18:10 BJT情报：周五088哥伦比亚vs加纳——加纳右路核心前锋安托万·塞梅尼奥(Manchester City·Antoine Semenyo)踝伤持续存疑，Sports Mole预测他预计首发但状态存不确定性；主力门将劳伦斯·阿蒂-济吉(Lawrence Ati-Zigi)亦有伤病隐患，本杰明·阿萨尔(Benjamin Asare)有望首发守门。加纳中场领袖托马斯·帕泰(Thomas Partey)预计正常出战。哥伦比亚方面全员健康：路易斯·苏亚雷斯已甩开轻微伤病顾虑重返首发；路易斯·迪亚斯+哈梅斯·罗德里格斯领衔锋线。哥伦比亚凭借强大攻击线是明显大热门(Polymarket 63.5%)。加纳门将伤停若确认=利好哥伦比亚攻门效率。(Sports Mole/ESPN/Goal.com三源)",
+   "enFull": "July 2, 18:10 BJT: Ghana face fitness doubts ahead of R32 vs Colombia. Right winger Antoine Semenyo (Man City) has been managing an ankle issue but is expected to start according to Sports Mole, though his condition bears watching. Main goalkeeper Lawrence Ati-Zigi is also a fitness concern, meaning Benjamin Asare is likely to continue in goal. Thomas Partey is expected to feature normally in midfield. Colombia have no injury concerns — Luis Suarez has shaken off a minor doubt and is set to start alongside Luis Diaz and James Rodriguez up front. Colombia are the strong favourites at 63.5% on Polymarket. Zigi's continued absence is a slight boost to Colombia's chances of converting. (Sports Mole / ESPN / Goal.com)",
+   "links": [
+    {
+     "name": "Sports Mole Ghana lineup",
+     "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/is-semenyo-fit-how-ghana-could-line-up-against-colombia_600512.html"
+    },
+    {
+     "name": "ESPN Colombia vs Ghana preview",
+     "url": "https://www.espn.com/espn/story/_/id/49224579/colombia-vs-ghana-kick-team-news-how-watch-world-cup-round-32-clash"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "match": "周五087",
+   "impact": "罗梅罗复出佛绿",
+   "tone": "positive",
+   "text": "阿根廷罗梅罗(Romero)膝伤复出预计首发；梅西领衔全主力。佛得角阿尔坎霍(Arcanjo)肌肉伤缺席，西德尼·卡布拉尔(Sidny Cabral)停赛归队。(Sports Mole/Yahoo Sports双源)",
+   "en": "Argentina's Cristian Romero returns from knee issue and is expected to start; Messi leads full-strength squad. Cape Verde: Arcanjo out with muscle injury, Sidny Cabral returns from ban. (Sports Mole/Yahoo Sports)",
+   "full": "07-02 18:10 BJT情报：周五087阿根廷vs佛得角——阿根廷几乎零伤病：克里斯蒂安·罗梅罗(Cristian Romero)此前对阵奥地利时有轻微膝伤，已恢复并预计复出首发；梅西领衔马克·阿利斯特+恩佐·费尔南德斯+劳塔罗·马丁内斯+胡利安·阿尔瓦雷斯全主力阵容迎战。佛得角方面：中场阿尔坎霍(Arcanjo)肌肉拉伤持续缺席；左后卫西德尼·卡布拉尔(Sidny Cabral)禁赛期满归队补充边路选择；弗兹纳(Vozinha)继续把守大门；加雷·罗德里格斯和约瓦内·卡布拉尔是进攻核心。国际盘：Smarkets阿根廷84.9%/平11.2%/佛得角3.9%·阿根廷绝对大热。(Sports Mole/Yahoo Sports双源)",
+   "enFull": "July 2, 18:10 BJT: Argentina look near full-strength for R32 vs Cape Verde. Cristian Romero recovered from a minor knee issue suffered vs Austria and is expected to start alongside Otamendi. Messi leads the attack with Mac Allister, Enzo Fernandez, De Paul behind; Lautaro Martinez and Julian Alvarez complete the front line. Cape Verde: Arcanjo (muscle) remains out; Sidny Cabral returns from a one-match ban to bolster left-back. Vozinha in goal; Garry Rodrigues and Jovane Cabral the main attackers. International consensus: Smarkets Argentina 84.9% / Draw 11.2% / Cape Verde 3.9% — Argentina are overwhelming favourites. (Sports Mole / Yahoo Sports)",
+   "links": [
+    {
+     "name": "Sports Mole Argentina lineup",
+     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/messi-returns-romero-boost-predicted-argentina-xi-vs-cape-verde_600514.html"
+    },
+    {
+     "name": "Yahoo Sports Argentina prediction",
+     "url": "https://sports.yahoo.com/articles/world-cup-2026-r32-argentina-092500864.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-02",
    "match": "周五086",
