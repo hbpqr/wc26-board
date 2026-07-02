@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 20:10",
+  "updated": "2026-07-02 20:31",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -636,6 +636,16 @@ window.DASH_DATA = {
     "actualPnl": -8,
     "status": "已结算·两注全挂",
     "note": "081比利时@1.97挂(90分钟2:2平·竞彩HAD以平局结算)·082波黑@9.40挂(美国2:0·Balogun破门·10人坚守)·两注全挂·-8·pool 270.55→262.55"
+   },
+   {
+    "date": "07-02",
+    "desc": "周四2注8元：084葡萄牙vs克罗地亚平@3.32·4元 + 085瑞士vs阿尔及利亚平@3.16·4元",
+    "stake": 8,
+    "evPnl": -0.95,
+    "winProb": 47,
+    "actualPnl": null,
+    "status": "待结算",
+    "note": "全3场无val≥1.10·全负CLV·fade-favorite不触发(083 CLV-8.3%/084 conf57.2%<60%/085 conf49.9%<60%)·083 HAD single=0跳过·押经验平局率角度(33%实际率 vs 26%市场定价)·084平empirical value=1.096(最高)·085平empirical value=1.043·池262.55·最坏-8→254.55>>地板80"
    }
   ]
  },
@@ -1966,25 +1976,25 @@ window.DASH_DATA = {
  "holdings": {
   "invested": 8,
   "returned": 0,
-  "pendingStake": 0,
-  "condEV": 0,
-  "condWinProb": 0,
+  "pendingStake": 8,
+  "condEV": -0.95,
+  "condWinProb": 47,
   "tickets": [
    {
-    "match": "比利时 vs 塞内加尔",
-    "pick": "比利时胜(主胜)·单关",
+    "match": "葡萄牙 vs 克罗地亚",
+    "pick": "平局(HAD平)·单关",
     "stake": 4,
-    "odds": 1.97,
-    "status": "lose",
-    "payout": 0
+    "odds": 3.32,
+    "status": "pending",
+    "payout": null
    },
    {
-    "match": "美国 vs 波黑",
-    "pick": "波黑胜(客胜)·单关",
+    "match": "瑞士 vs 阿尔及利亚",
+    "pick": "平局(HAD平)·单关",
     "stake": 4,
-    "odds": 9.4,
-    "status": "lose",
-    "payout": 0
+    "odds": 3.16,
+    "status": "pending",
+    "payout": null
    }
   ]
  },
@@ -2265,41 +2275,41 @@ window.DASH_DATA = {
   }
  ],
  "slip": {
-  "title": "7月1日 · 正常模式 · 21:00最终版",
-  "status": "final",
-  "detail": "九场全盘口终盘扫描(080-088·R32·终盘20:32刷新)：全盘口无价值≥1.10项。betRound=周三(080/081/082·均在售·均未开打)。三模型+国际共识集成：080 英格兰75.8%/平17.6%/刚果金6.6%；081 比利时46.6%/平28.9%/塞内加尔24.6%；082 美国71.5%/平18.6%/波黑9.9%。国际盘CLV核查(平局)：080 Polymarket平公平5.43 > 竹彩5.13 → CLV-5.2%(负)；081 Polymarket平公平3.40 > 竹彩2.98 → CLV-12.5%(负)；082 Smarkets平公平5.15 > 竹彩4.91 → CLV-4.7%(负)。Fade-favorite §14：080 英格兰conf75.8%≥60%→平CLV-5.2%负·不触发；082 美国conf71.5%≥60%→平CLV-4.7%负·不触发。伤停终核：080 詹姆斯(腿筋)+夸萨(踝)缺阵·斯宾塞补位RB·Rice复出首发·刚果金全员健康；081 **门迪确认整届缺席**(膝伤·已离队返沙特就医)·备用门将Diaw首发·比利时Debast未出场·Debast本场仍不太可能上·比利时全攻(De Bruyne/Doku/Trossard)对阵后备门将；082 Muharemovic停赛归队(强化波黑后防)·Dedic(大腿)存疑·美国Pulisic/McKennie全健康·波帅称'如决赛'。§15校准闸：081 比利时锚=市场去水44.9%/模型46.6%/Poly45.3%·Mendy缺阵已price in·小正model edge但未超噪声·门迪缺阵为已知硬信息(升确认后Poly45.3%已包含)·无额外偏离。§0最高指令→无val≥1.10·选两注最高凸性参与：①081比利时@1.97(最平衡场次·model轻微正edge·备用GK Diaw面对比利时锋线)；②082波黑@9.40(凸性层·Muharemovic归队强后防·Dzeko+Demirovic双锋·唯一model>市场客胜项)。诚实披露：两注均val<1.10(均负CLV)，§0最高指令凸性最小仓参与·影子book记全9场全盘口。",
+  "title": "7月3日 · 正常模式 · 21:00最终版",
+  "status": "active",
+  "detail": "三场全盘口终盘扫描(083-085·R32·20:31刷新)：betRound=周四(083西班牙vs奥地利03:00/084葡萄牙vs克罗地亚07:00/085瑞士vs阿尔及利亚11:00·三场均在售未开打)。集成预测：083 西班牙75.3%/平16.8%/奥地利7.9%；084 葡萄牙57.2%/平25.9%/克罗地亚16.9%；085 瑞士49.9%/平28.6%/阿尔及利亚21.5%。全盘口价值：083 HAD主胜0.89/平0.89/客胜0.85·HHAD让胜0.91/让平0.85/让负0.87；084 HAD主胜0.90/平0.86/客胜0.88；085 HAD主胜0.87/平0.90/客胜0.90——全轮无val≥1.10。CLV全景(竞彩 vs Polymarket公平赔率)：083 HAD平5.30 vs Sharp公平5.78→CLV-8.3%(负)；084 全三项负CLV(葡萄牙1.57 vs 1.770/平3.32 vs 3.846/克5.22 vs 5.714)；085 全三项负CLV(瑞1.74 vs 2.092/平3.16 vs 3.356/阿4.20 vs 4.484)。Fade-favorite §14：083 西班牙conf75.3%≥60%✓奥地利非鱼腩✓→CLV-8.3%负不触发；084 葡萄牙conf57.2%<60%不满足；085 瑞士conf49.9%<60%不满足。伤停终核：083 Nico Williams(腹股沟)+Yéremy Pino双翼确认缺席(Polymarket西74.9%·-0.2pp动量·已price in)·Victor Munoz大腿存疑；084 João Neves复出首发·克罗地亚瓜迪奥尔或归位·双方无重大伤缺(+2.3pp葡动量·已price in)；085 Amoura(腿筋)确认缺席(Polymarket均衡·已price in)·瑞士Widmer存疑。083跳过：HAD single=0无单关选项；HHAD让平/让负值≤0.87且无正model edge→合规跳过该场。§0最高指令→全轮无val≥1.10无正CLV但须给picks→两场各4元最小仓·选经验平局率角度(33%实际率 vs 市场~26%)：①084 葡萄牙vs克罗地亚押平@3.32(empirical value=0.33×3.32=1.096·全场最高经验价值·model 25.9%·CLV-13.7%·HAD single=1✓)；②085 瑞士vs阿尔及利亚押平@3.16(empirical value=0.33×3.16=1.043·均衡场平局实际概率最高·model 28.6%·CLV-5.9%·HAD single=1✓)。诚实披露：两注均负CLV·model EV合计约-0.95元·§0最高指令最小仓参与·影子book记全3场全盘口。池262.55·最坏-8→254.55>>地板80。",
   "items": [
    {
-    "num": "周三081",
-    "match": "比利时 vs 塞内加尔",
-    "pick": "比利时胜 (HAD 主胜)",
-    "tier": "§0凸性·均衡场最高model edge",
+    "num": "周四084",
+    "match": "葡萄牙 vs 克罗地亚",
+    "pick": "平局 (HAD 平)",
+    "tier": "§0最小仓·经验平局率",
     "stake": 4,
-    "odds": 1.97,
-    "value": 0.92,
-    "ev": -0.33,
-    "note": "had.single=1✓；model46.6% vs 市场去水44.9%·edge+1.7pp·Polymarket45.3%·Mendy确认整届缺阵(Diaw替补首发·大赛经验不足)·比利时De Bruyne/Doku/Trossard/De Ketelaere攻击组合压阵·Courtois镇守·CLV-6.0%(Poly公平1/0.453=2.21 > 竹彩1.97)·§0最小仓4元"
+    "odds": 3.32,
+    "value": 0.86,
+    "ev": -0.56,
+    "note": "had.single=1✓；model平25.9% vs 市场去水26.7%；empirical平局率0.33×3.32=1.096(全场最高经验价值pick)；João Neves复出首发利好葡萄牙但已price in(Poly+2.3pp)；克罗地亚瓜迪奥尔归位；R32无加时·平局真实；CLV-13.7%(竞彩3.32 vs Polymarket公平3.846)；§0最小仓4元"
    },
    {
-    "num": "周三082",
-    "match": "美国 vs 波黑",
-    "pick": "波黑胜 (HAD 客胜)",
-    "tier": "§0凸性·唯一model>市场客胜项",
+    "num": "周四085",
+    "match": "瑞士 vs 阿尔及利亚",
+    "pick": "平局 (HAD 平)",
+    "tier": "§0最小仓·均衡场平局",
     "stake": 4,
-    "odds": 9.4,
-    "value": 0.93,
-    "ev": -0.28,
-    "note": "had.single=1✓；model9.9% vs 市场去水9.4%·小正edge·Smarkets10.5%·Muharemovic停赛归队强化后防·Dzeko+Demirovic双锋威胁·Dedic(大腿)存疑但整体阵容比上轮强·美国24年未赢KO赛压力·波帅'如决赛'情绪双刃·CLV-1.1%(Smarkets公平1/0.105=9.52 > 竹彩9.40)·最大凸性层·§0最小仓4元"
+    "odds": 3.16,
+    "value": 0.9,
+    "ev": -0.39,
+    "note": "had.single=1✓；model平28.6% vs 市场去水28.0%；empirical平局率0.33×3.16=1.043(略高于1.0)；Amoura确认缺席已price in(Polymarket瑞47.8%/平29.8%/阿22.3%)；均衡场平局概率最可信；CLV-5.9%(竞彩3.16 vs Polymarket公平3.356)；§0最小仓4元"
    }
   ],
   "summary": {
    "stake": 8,
    "evLow": -8,
-   "evHigh": 38,
-   "winProb": 52,
+   "evHigh": 18,
+   "winProb": 47,
    "best": {
-    "label": "081比利时+082波黑均中",
-    "pnl": 37.48
+    "label": "084平+085平双中",
+    "pnl": 17.92
    },
    "worst": {
     "label": "全挂",
@@ -2307,51 +2317,43 @@ window.DASH_DATA = {
    },
    "keyScenarios": [
     {
-     "label": "仅081比利时中(波黑挂)",
-     "pnl": -0.12
+     "label": "仅084葡萄牙vs克罗地亚平局中",
+     "pnl": 5.28
     },
     {
-     "label": "仅082波黑中(比利时挂)",
-     "pnl": 29.6
-    },
-    {
-     "label": "全中(比利时+波黑)",
-     "pnl": 37.48
-    },
-    {
-     "label": "全挂",
-     "pnl": -8.0
+     "label": "仅085瑞士vs阿尔及利亚平局中",
+     "pnl": 4.64
     }
    ]
   },
   "matrix": [
    {
-    "scenario": "081比利时+082波黑均中",
-    "prob": 5,
-    "returnTotal": 45.48,
-    "pnl": 37.48
+    "scenario": "084平+085平双中",
+    "prob": 7,
+    "returnTotal": 25.92,
+    "pnl": 17.92
    },
    {
-    "scenario": "仅082波黑中(比利时挂)",
-    "prob": 6,
-    "returnTotal": 37.6,
-    "pnl": 29.6
+    "scenario": "仅084平中(085非平)",
+    "prob": 19,
+    "returnTotal": 13.28,
+    "pnl": 5.28
    },
    {
-    "scenario": "仅081比利时中(波黑挂)",
-    "prob": 42,
-    "returnTotal": 7.88,
-    "pnl": -0.12
+    "scenario": "仅085平中(084非平)",
+    "prob": 21,
+    "returnTotal": 12.64,
+    "pnl": 4.64
    },
    {
     "scenario": "全挂",
-    "prob": 47,
+    "prob": 53,
     "returnTotal": 0,
     "pnl": -8.0
    }
   ],
-  "copyText": "老板你好，竞彩足球，7月2日：\n\n场次：周三081 比利时 vs 塞内加尔\n买：比利时赢\n方式：单关（只买这场）\n金额：4元\n\n场次：周三082 美国 vs 波黑\n买：波黑赢\n方式：单关（只买这场）\n金额：4元\n\n一共8元，谢谢！",
-  "reviewNote": "✓ 终盘复核 20:32 ｜ 全9场盘口扫描完成·无val≥1.10·§0最高指令凸性最小仓·081 Belgium@1.97(val=0.92·had.single=1·model轻正edge) + 082 Bosnia@9.40(val=0.93·had.single=1·最大凸性层) · 8元/270.55池=3.0%<<25%限 · 最坏-8→262.55>>地板80 · fade-favorite均负CLV不触发 · 影子book全9场落盘 ｜ ✓ 独立复核 20:44 ｜ 草稿合规·无删改·val<1.10已披露·§0最高指令最小仓参与合法·single=1双确认·仓位3.0%<<25%·summary数值核算一致"
+  "copyText": "老板你好，竞彩足球，7月3日：\n\n第1张：\n场次：周四084 葡萄牙 vs 克罗地亚\n买：平局\n方式：单关（只买这场）\n金额：4元\n\n第2张：\n场次：周四085 瑞士 vs 阿尔及利亚\n买：平局\n方式：单关（只买这场）\n金额：4元\n\n一共 8 元，谢谢！",
+  "reviewNote": "终盘复核 20:31 · 全3场(083-085)全盘口扫描完成·无val≥1.10·全负CLV·fade-favorite均不触发(083负CLV/084-085 conf<60%)·083 HAD single=0无单关选项跳过·084平@3.32(val=0.86·single=1·empirical1.096)+085平@3.16(val=0.90·single=1·empirical1.043)·8元/262.55池=3.0%<<25%限·最坏-8→254.55>>地板80·影子book全3场落盘 ｜ ✓ 已独立复核 20:46 · 草稿合规无删改·§0最高指令覆盖val<1.10·两注平局非禁令·仓位合规·放行"
  },
  "calibration": {
   "stats": {
