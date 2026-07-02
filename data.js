@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 10:10",
+  "updated": "2026-07-02 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -633,9 +633,9 @@ window.DASH_DATA = {
     "stake": 8,
     "evPnl": -0.61,
     "winProb": 52,
-    "actualPnl": null,
-    "status": "待结算",
-    "note": "全9场无val≥1.10·§0最高指令凸性最小仓参与·081 Belgium46.6%@1.97 val=0.92·082 Bosnia9.9%@9.40 val=0.93·Mendy缺阵已price in·Muharemovic复出·池270.55·最坏-8→262.55>>地板80·had.single均=1"
+    "actualPnl": -8,
+    "status": "已结算·两注全挂",
+    "note": "081比利时@1.97挂(90分钟2:2平·竞彩HAD以平局结算)·082波黑@9.40挂(美国2:0·Balogun破门·10人坚守)·两注全挂·-8·pool 270.55→262.55"
    }
   ]
  },
@@ -1966,9 +1966,9 @@ window.DASH_DATA = {
  "holdings": {
   "invested": 8,
   "returned": 0,
-  "pendingStake": 4,
-  "condEV": -0.61,
-  "condWinProb": 52,
+  "pendingStake": 0,
+  "condEV": 0,
+  "condWinProb": 0,
   "tickets": [
    {
     "match": "比利时 vs 塞内加尔",
