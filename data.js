@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 07:10",
+  "updated": "2026-07-02 08:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1873,6 +1873,90 @@ window.DASH_DATA = {
     "h": 70.3,
     "d": 19.4,
     "a": 10.4
+   }
+  },
+  {
+   "num": "周四083",
+   "round": "周四",
+   "home": "西班牙",
+   "away": "奥地利",
+   "time": "07-03 03:00",
+   "status": "upcoming",
+   "predModel": "主胜73.9%",
+   "ensemble": {
+    "h": 73.9,
+    "d": 17.6,
+    "a": 8.5
+   }
+  },
+  {
+   "num": "周四084",
+   "round": "周四",
+   "home": "葡萄牙",
+   "away": "克罗地亚",
+   "time": "07-03 07:00",
+   "status": "upcoming",
+   "predModel": "主胜54.2%",
+   "ensemble": {
+    "h": 54.2,
+    "d": 27.4,
+    "a": 18.4
+   }
+  },
+  {
+   "num": "周四085",
+   "round": "周四",
+   "home": "瑞士",
+   "away": "阿尔及利",
+   "time": "07-03 11:00",
+   "status": "upcoming",
+   "predModel": "主胜46.7%",
+   "ensemble": {
+    "h": 46.7,
+    "d": 29.7,
+    "a": 23.6
+   }
+  },
+  {
+   "num": "周五086",
+   "round": "周五",
+   "home": "澳大利亚",
+   "away": "埃及",
+   "time": "07-04 02:00",
+   "status": "upcoming",
+   "predModel": "客胜38.3%",
+   "ensemble": {
+    "h": 28.4,
+    "d": 33.3,
+    "a": 38.3
+   }
+  },
+  {
+   "num": "周五087",
+   "round": "周五",
+   "home": "阿根廷",
+   "away": "佛得角",
+   "time": "07-04 06:00",
+   "status": "upcoming",
+   "predModel": "主胜84.2%",
+   "ensemble": {
+    "h": 84.2,
+    "d": 11.7,
+    "a": 4.1
+   }
+  },
+  {
+   "num": "周五088",
+   "round": "周五",
+   "home": "哥伦比亚",
+   "away": "加纳",
+   "time": "07-04 09:30",
+   "status": "upcoming",
+   "predModel": "主胜63.6%",
+   "ensemble": {
+    "h": 63.6,
+    "d": 24.1,
+    "a": 12.3
    }
   }
  ],
