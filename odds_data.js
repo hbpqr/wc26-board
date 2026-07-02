@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-02 21:10:04",
+ "fetched_at": "2026-07-02 22:10:05",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -56,11 +56,11 @@ window.ODDS_DATA = {
    "elig": {
     "had": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -104,8 +104,8 @@ window.ODDS_DATA = {
    },
    "crs": {
     "1:0": "8.50",
-    "2:0": "9.50",
-    "3:0": "15.00",
+    "2:0": "10.00",
+    "3:0": "16.00",
     "2:1": "4.55",
     "0:0": "13.50",
     "1:1": "5.40",
@@ -117,12 +117,12 @@ window.ODDS_DATA = {
    },
    "elig": {
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -167,7 +167,7 @@ window.ODDS_DATA = {
    "crs": {
     "1:0": "6.20",
     "2:0": "6.75",
-    "3:0": "19.00",
+    "3:0": "20.00",
     "2:1": "5.40",
     "0:0": "9.00",
     "1:1": "5.35",
@@ -179,12 +179,12 @@ window.ODDS_DATA = {
    },
    "elig": {
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     },
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     }
    }
   },
@@ -242,11 +242,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -289,8 +289,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -348,11 +348,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -410,11 +410,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -457,8 +457,8 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   }
