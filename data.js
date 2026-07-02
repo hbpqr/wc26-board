@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 15:10",
+  "updated": "2026-07-02 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1990,6 +1990,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-02",
+   "match": "周五086",
+   "impact": "萨拉赫存疑",
+   "tone": "negative",
+   "text": "埃及队长萨拉赫(Mohamed Salah)在对阵伊朗时带腿筋伤离场，R32对阵澳大利亚出战存疑；左后卫Abu El Fattouh膝腱撕裂确认缺席·后卫Abdulmonem踝伤存疑；澳大利亚Leckie和Italiano确认缺席本届。(FIFA.com/Yahoo Sports双源)",
+   "en": "Egypt captain Mohamed Salah is a major doubt for R32 vs Australia with a hamstring strain suffered vs Iran; LB Abu El Fattouh (hamstring tear) is out, Abdulmonem (ankle bruising) is questionable. Australia lose Leckie and Italiano for the tournament. (FIFA.com/Yahoo Sports)",
+   "full": "07-02 16:10 BJT情报：埃及面临R32对阵澳大利亚前严峻的伤病考验——队长穆罕默德·萨拉赫(Mohamed Salah)在小组赛对阵伊朗时仅踢了下半场12分钟便因腿筋劳损下场，埃及足协确认其已开始针对性治疗，能否出战澳大利亚高度存疑；左后卫艾哈迈德·阿布·埃尔·法图赫(Ahmed Abu El Fattouh)腿筋撕裂确认整届缺席；后卫穆罕默德·阿卜杜勒·穆内姆(Abdulmonem)踝关节严重淤伤·尽管被纳入备战但出战仍存疑。澳大利亚方面：老将前锋马修·莱基(Mathew Leckie)和雅各布·伊塔利亚诺(Jacob Italiano)官方确认缺席本届剩余赛程。国际盘背景：Polymarket澳大利亚28.1%/平33.5%/埃及38.4%·若萨拉赫最终缺阵=埃及最大利空·市场或未充分price in该风险。(FIFA.com/Yahoo Sports/CAF Online三源)",
+   "enFull": "July 2, 16:10 BJT: Egypt face a major injury crisis ahead of R32 vs Australia. Captain Mohamed Salah left the Egypt vs Iran match just 12 minutes into the second half with a hamstring strain; the Egyptian FA confirmed he began treatment and will be assessed, making his availability highly uncertain. Left-back Ahmed Abu El Fattouh is confirmed out for the tournament with a hamstring tear sustained in the England game. Centre-back Mohamed Abdulmonem has severe ankle bruising and is questionable despite being readied by the medical team. For Australia: veteran forward Mathew Leckie and Jacob Italiano are officially ruled out for the remainder of the tournament. Polymarket: Australia 28.1% / Draw 33.5% / Egypt 38.4% — if Salah is ruled out, Egypt's chances could shift materially and the market may not fully reflect that risk yet. (FIFA.com / Yahoo Sports / CAF Online — three independent sources)",
+   "links": [
+    {
+     "name": "FIFA.com Egypt injury update",
+     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/egypt-injury-worries-australia-mohamed-salah"
+    },
+    {
+     "name": "Yahoo Sports Salah doubt",
+     "url": "https://sports.yahoo.com/articles/huge-mohamed-salah-concern-egypt-130920911.html"
+    },
+    {
+     "name": "CAF Online Salah fitness",
+     "url": "https://www.cafonline.com/fifa-world-cup/news/egypt-sweat-on-salah-fitness-ahead-of-historic-world-cup-clash-with-australia/"
+    }
+   ]
+  },
   {
    "date": "2026-07-02",
    "match": "周四083",
