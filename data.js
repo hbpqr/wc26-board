@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-02 08:10",
+  "updated": "2026-07-02 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -1987,6 +1987,66 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-02",
+   "match": "周四083",
+   "impact": "双翼伤缺",
+   "tone": "negative",
+   "text": "西班牙Nico Williams(腹股沟)和Yéremy Pino均因伤缺席对奥地利的R32，进攻宽度受损；Victor Munoz大腿亦存疑。(Sports Mole/ESPN双源)",
+   "en": "Spain miss both Nico Williams (groin) and Yéremy Pino through injury for R32 vs Austria, weakening flank options; Victor Munoz also a thigh doubt. (Sports Mole/ESPN)",
+   "full": "07-02 09:10 BJT情报：西班牙主帅路易斯·德拉富恩特面临两翼受损困局——Nico Williams(腹股沟伤)和Yéremy Pino均已确认缺席R32对阵奥地利，右路宽度大幅受限。此外中卫维克托·穆尼奥斯(Victor Munoz)大腿伤存疑，尚未被排除出场。Sports Mole预测XI：西蒙；略伦特/库巴尔西/拉波尔特/库库雷利亚；梅里诺/罗德里/佩德里；亚马尔/奥亚尔扎瓦尔/巴埃纳。奥地利方面：阿拉巴(David Alaba)和阿诺托维奇(Arnautovic)均出现轻度膝盖不适，但未被排除出场，尚在与时间赛跑恢复。市场：Polymarket西班牙74.4%(动量主-0.7pp·本信息差可能已部分price进去，但双翼同缺是真实削弱)。(Sports Mole/ESPN — 双源确认)",
+   "enFull": "July 2, 09:10 BJT: Spain head coach Luis de la Fuente faces a depleted attack for Thursday's R32 vs Austria — both Nico Williams (groin) and Yéremy Pino are confirmed out through injury, removing Spain's primary flank threats. Victor Munoz is also a thigh doubt and has not been ruled out. Sports Mole predicted XI (without Williams/Pino): Simon; Llorente, Cubarsi, Laporte, Cucurella; Merino, Rodri, Pedri; Yamal, Oyarzabal, Baena. Austria: David Alaba and Arnautovic both have minor knee discomfort but are not ruled out, racing to be fit. Polymarket: Spain 74.4% / Draw 17.1% / Austria 8.5% — Spain momentum at -0.7pp from opening line, suggesting the market may already reflect some injury awareness. (Sports Mole / ESPN — two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole team news",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/team-news/spain-vs-austria-injury-suspension-lists-predicted-xis_600400.html"
+    },
+    {
+     "name": "ESPN predicted lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49213161/fifa-world-cup-2026-spain-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "match": "周四085",
+   "impact": "阿莫拉伤缺",
+   "tone": "negative",
+   "text": "阿尔及利亚锋将Mohamed Amoura(沃尔夫斯堡)腿筋伤缺席R32对阵瑞士；瑞士右后卫Widmer大腿伤存疑·Jaquez或顶位。(Sports Mole/Yahoo Sports双源)",
+   "en": "Algeria forward Mohamed Amoura out with hamstring injury vs Switzerland R32; Swiss right-back Silvan Widmer a thigh doubt, Jaquez could continue. (Sports Mole/Yahoo Sports)",
+   "full": "07-02 09:10 BJT情报：阿尔及利亚进攻核心Mohamed Amoura(沃尔夫斯堡)腿筋伤确认缺阵，R32对阵瑞士无缘出场，锋线火力大打折扣。佩特科维奇(Petkovic)预计召回左后卫Rayan Ait-Nouri替换Hadjam；Mahrez预计担任队长领衔进攻四人组，搭档Ibrahim Maza、Farès Chaïbi和Amine Gouiri。瑞士方面：右后卫Silvan Widmer大腿伤存疑，若无法出场则Luca Jaquez(对加拿大表现稳健)继续顶位。市场：Polymarket瑞士46.9%/平29.7%/阿尔及利亚23.3%，三方较为均衡；Amoura缺阵对阿尔及利亚是实质性打击，但Mahrez仍是关键。(Sports Mole/Yahoo Sports — 双源确认)",
+   "enFull": "July 2, 09:10 BJT: Algeria's key attacker Mohamed Amoura (Wolfsburg) is confirmed out with a hamstring injury for the R32 against Switzerland, significantly weakening Algeria's attacking options. Coach Petkovic expected to recall left-back Rayan Ait-Nouri; Riyad Mahrez set to captain a frontline alongside Ibrahim Maza, Farès Chaïbi and Amine Gouiri. Switzerland: Silvan Widmer (right-back, thigh) is a doubt; Luca Jaquez expected to continue if Widmer fails fitness test. Polymarket: Switzerland 46.9% / Draw 29.7% / Algeria 23.3% — a relatively tight three-way market. Amoura's absence is a real blow to Algeria's pace and directness in attack. (Sports Mole / Yahoo Sports — two independent sources)",
+   "links": [
+    {
+     "name": "Sports Mole preview",
+     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-algeria-prediction-team-news-lineups_600371.html"
+    },
+    {
+     "name": "Yahoo Sports picks",
+     "url": "https://sports.yahoo.com/articles/world-cup-2026-r32-switzerland-162000326.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-02",
+   "match": "周四084",
+   "impact": "内维斯复出首发",
+   "tone": "positive",
+   "text": "葡萄牙João Neves预计重返首发对阵克罗地亚·双方均无伤缺·克罗地亚瓜迪奥尔或从板凳复归首发。(ESPN/Sports Mole双源)",
+   "en": "Portugal's João Neves expected to return to starting XI vs Croatia; both sides report no injury concerns; Croatia's Gvardiol may return from the bench to start. (ESPN/Sports Mole)",
+   "full": "07-02 09:10 BJT情报：葡萄牙主帅罗伯托·马丁内斯阵中无伤停，对阵哥伦比亚(0:0)未出现新增伤情；João Neves预计重返首发，C罗(Ronaldo)继续领衔进攻。克罗地亚同样全员可用：主帅达里奇(Dalic)的选人重点在于瓜迪奥尔(Gvardiol)——对阵加纳他被置于板凳，本场可能复归首发(Perisic回调边路)。市场：Polymarket葡萄牙55.3%/平26.1%/克罗地亚18.6%，动量葡+1.1pp/克+0.2pp；双方全员健康意味着预测主要靠实力差异驱动·硬信息差有限。(ESPN/Sports Mole — 双源确认)",
+   "enFull": "July 2, 09:10 BJT: Portugal's Roberto Martínez reports a clean bill of health — no injuries or suspensions — heading into Thursday's R32 vs Croatia. João Neves is expected to return to the starting XI after two starts and one substitute appearance in the group stage; Cristiano Ronaldo heads the attack. Croatia also have a full squad available; coach Zlatko Dalić's key selection call is whether Joško Gvardiol returns to start after being benched against Ghana, with Ivan Perišić potentially shifting to the wing. Polymarket: Portugal 55.3% / Draw 26.1% / Croatia 18.6%, with Portugal gaining 1.1pp momentum since opening line. Both squads being at full strength means this match leans on form and quality gaps — limited hard-info edge. (ESPN / Sports Mole — two independent sources)",
+   "links": [
+    {
+     "name": "ESPN Portugal vs Croatia",
+     "url": "https://www.espn.com/soccer/story/_/id/49221788/portugal-vs-croatia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    },
+    {
+     "name": "Sports Mole preview",
+     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-croatia-prediction-team-news-lineups_600433.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-02",
    "match": "周三081",
