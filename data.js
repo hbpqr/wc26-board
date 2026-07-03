@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-03 13:10",
+  "updated": "2026-07-03 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2026,41 +2026,61 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "2026-07-03",
-   "match": "周四083",
-   "impact": "西班牙攻线重组",
-   "tone": "neutral",
-   "text": "西班牙Pino疑似锁骨骨折伤势更重；预测首发锋线改为Yamal+Oyarzabal+Baena；奥地利全员无伤出战。(Yahoo Sports/Sports Mole双源)",
-   "en": "Spain's Pino feared to have fractured collarbone; Baena set to fill in on the right flank alongside Yamal and Oyarzabal; Austria report no injury concerns. (Yahoo Sports/Sports Mole)",
-   "full": "07-03 01:10 BJT临赛情报：周四083西班牙vs奥地利——西班牙右翼Yéremy Pino伤势比此前更为严重，Yahoo Sports报道显示疑似锁骨骨折已出局，而非仅一般性伤缺；Nico Williams(腹股沟)同样缺席；主帅Luis de la Fuente预计起用Baena补位右翼，首发锋线三叉戟为Yamal(左)+Oyarzabal(中)+Baena(右)；Victor Munoz大腿伤持续存疑。奥地利方面全员健康、无伤停，Arnautovic领衔全主力4-2-3-1出战。⚠️双翼缺损令西班牙右路宽度受损，但Baena+Pedri技术中轴仍保证进攻优势；Polymarket西班牙主胜76.1%(动量+1.0pp)。(Yahoo Sports/Sports Mole双源)",
-   "enFull": "July 3, 01:10 BJT pre-match update for 周四083 Spain vs Austria: Spain's Yeremy Pino is now feared to have sustained a fractured collarbone — a more serious injury than initially reported — joining Nico Williams (groin) on the sideline; Victor Munoz also remains a hamstring doubt. Luis de la Fuente is expected to field Baena on the right wing, with Yamal, Oyarzabal and Baena forming the front three. Austria have no injury or suspension concerns and will field a full-strength squad in their 4-2-3-1 system led by Arnautovic. Spain's right-flank depth is reduced but their technical core through Pedri, Baena and Yamal remains strong; Polymarket has Spain at 76.1% win probability (+1.0pp momentum). (Yahoo Sports / Sports Mole)",
+   "match": "周五086",
+   "impact": "萨拉赫望复出",
+   "tone": "positive",
+   "text": "萨拉赫腿筋伤好转，预计出战澳大利亚R32；主帅哈桑暗示其会上场但未确认首发。(ESPN/FIFA.com双源)",
+   "en": "Salah has recovered from hamstring strain and is expected to feature vs Australia R32; coach Hassan hints he will play but won't confirm starter. (ESPN/FIFA.com)",
+   "full": "07-03 14:00 BJT更新：周五086澳大利亚vs埃及——ESPN和FIFA.com最新报道确认穆罕默德·萨拉赫已从腿筋劳损中恢复，预计将出场迎战澳大利亚，此前他在小组赛57分钟因伤退场。埃及主帅胡萨姆·哈桑(Hossam Hassan)未明确承诺萨拉赫首发，但暗示他能够参与。左后卫阿布·埃尔·法图赫(Abu El Fattouh)腿筋撕裂仍然缺席。澳大利亚方面莱基(Leckie)和伊塔利亚诺(Italiano)仍缺席本届。若萨拉赫真正首发，埃及进攻力大幅提升，盘口或被低估。(ESPN/FIFA.com双源)",
+   "enFull": "July 3, 14:00 BJT update: ESPN and FIFA.com confirm Mohamed Salah has recovered from the hamstring strain that forced him off after 57 minutes vs Iran. He is expected to feature against Australia in the R32. Coach Hossam Hassan declined to commit on whether Salah will start, though the tone suggests he will play a role. Left-back Abu El Fattouh (hamstring tear) remains absent. For Australia, Leckie and Italiano continue to miss the tournament. Salah's return materially boosts Egypt's attack and may shift R32 odds if not yet priced in. (ESPN / FIFA.com)",
    "links": [
     {
-     "name": "Spain XI vs Austria - Yahoo Sports",
-     "url": "https://sports.yahoo.com/articles/spain-xi-vs-austria-confirmed-213512697.html"
+     "name": "ESPN Salah recovery",
+     "url": "https://www.espn.com/soccer/story/_/id/49252258/mohamed-salah-recovers-hamstring-egypt-australia"
     },
     {
-     "name": "Spain lineup vs Austria - Sports Mole",
-     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/pinos-pain-williams-woes-predicted-spain-xi-vs-austria_600397.html"
+     "name": "FIFA.com Egypt injury update",
+     "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/egypt-injury-worries-australia-mohamed-salah"
     }
    ]
   },
   {
    "date": "2026-07-03",
-   "match": "周四085",
-   "impact": "维德默髋部不适",
+   "match": "周五088",
+   "impact": "塞梅尼奥复出",
    "tone": "neutral",
-   "text": "瑞士Widmer因髋部不适大概率缺席首发；Jaquez预计出任右后卫；阿尔及利亚无新增伤情。(Sports Mole双文章核实)",
-   "en": "Switzerland's Widmer (hip discomfort) likely to miss out; Jaquez expected at right-back; no new Algeria injuries. (Sports Mole x2)",
-   "full": "07-03 01:10 BJT临赛情报：周四085瑞士vs阿尔及利亚——瑞士右后卫Silvan Widmer因髋部不适(此前报道为大腿问题，部位已更新为髋/臀区域)赛前训练缺席，大概率无缘首发。Luca Jaquez曾于6月24日对加拿大一役表现出色，预计顶位首发出任右后卫，后防线或为Jaquez+Elvedi+Akanji+Rodriguez四人组。阿尔及利亚除此前已知的Amoura(腿筋·缺席)外无新增伤情，Mahrez领衔Maza+Chaibi+Gouiri构成进攻线。Polymarket瑞士主胜51.3%(动量+4.1pp)，均衡场平局率仍是高概率事件。⚠️Widmer伤情来自Sports Mole两篇文章，临开球前建议关注官方阵容公布。(Sports Mole两篇独立文章核实)",
-   "enFull": "July 3, 01:10 BJT pre-match update for 周四085 Switzerland vs Algeria: Switzerland right-back Silvan Widmer missed training with hip discomfort (earlier described as a thigh issue; now updated to hip/gluteal area) and is unlikely to start. Luca Jaquez — who impressed in Switzerland's 2-1 win over Canada on June 24 — is set to fill in at right-back alongside Elvedi, Akanji and Rodriguez in the back four. Algeria have no new injuries beyond the confirmed absence of Amoura (hamstring); Mahrez leads the attack alongside Maza, Chaibi and Gouiri. Polymarket has Switzerland win at 51.3% (+4.1pp momentum), with draw remaining a high-probability outcome in this balanced tie. ⚠️ Widmer status sourced from Sports Mole x2 articles only; confirm via official lineup closer to kickoff. (Sports Mole x2)",
+   "text": "加纳塞梅尼奥踝伤好转已可无辅助行走，预计对阵哥伦比亚可上场；加纳仍为大冷门方。(YEN.com.gh/Sports Mole双源)",
+   "en": "Ghana's Semenyo walking freely without support after ankle injury, expected to be available vs Colombia R32; Ghana still heavy underdogs. (YEN.com.gh/Sports Mole)",
+   "full": "07-03 14:00 BJT更新：周五088哥伦比亚vs加纳——加纳足协传播总监亨利·阿桑特·图姆(Henry Asante Twum)7月1日确认，右路前锋安托万·塞梅尼奥踝伤已大幅好转，'行走已无需辅助且疼痛大幅减轻'，医疗团队预计他可出战哥伦比亚。塞梅尼奥是加纳最强进攻点，其复出令加纳前线威胁恢复。哥伦比亚方面路易斯·迪亚斯+哈梅斯·罗德里格斯全员就绪，仍为明显大热门(Polymarket 63.5%)。⚠️塞梅尼奥复出已于07-01公布，7月4日赛前最终首发名单仍需留意。(YEN.com.gh/Sports Mole/ESPN三源)",
+   "enFull": "July 3, 14:00 BJT update: Ghana FA communications director Henry Asante Twum confirmed on July 1 that Antoine Semenyo's ankle injury has improved significantly — he is walking freely without support and pain has reduced drastically. The medical team expects Semenyo to be available for R32 vs Colombia. Semenyo is Ghana's main attacking threat; his return restores their offensive bite. Colombia remain the heavy favourites (Polymarket 63.5%) with Diaz, James Rodriguez and Suarez all fit. ⚠️ The Semenyo update was published July 1; watch for the final official lineup before kick-off July 4. (YEN.com.gh / Sports Mole / ESPN)",
    "links": [
     {
-     "name": "Switzerland lineup vs Algeria - Sports Mole",
-     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/predicted-lineups/right-back-options-predicted-switzerland-xi-vs-algeria_600426.html"
+     "name": "YEN.com.gh Semenyo update",
+     "url": "https://yen.com.gh/sports/football/307097-world-cup-2026-ghana-handed-fresh-antoine-semenyo-injury-update-colombia-clash/"
     },
     {
-     "name": "Switzerland vs Algeria team news - Sports Mole",
-     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-algeria-injury-suspension-list-predicted-xis_600443.html"
+     "name": "Sports Mole Ghana lineup",
+     "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/is-semenyo-fit-how-ghana-could-line-up-against-colombia_600512.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "match": "周五087",
+   "impact": "阿根廷阵容确认",
+   "tone": "positive",
+   "text": "阿根廷罗梅罗复出确认首发，梅西领衔全主力4-4-2出战佛得角；佛得角阿尔坎霍预测阵中。(ESPN/FIFA.com双源)",
+   "en": "Argentina confirm full-strength XI with Romero returning to start; Messi leads 4-4-2 vs Cape Verde. Arcanjo appears in Cape Verde predicted lineup. (ESPN/FIFA.com)",
+   "full": "07-03 14:00 BJT更新：周五087阿根廷vs佛得角——ESPN和FIFA.com公布预测首发阵容，阿根廷首发：E.马丁内斯-莫利纳/C.罗梅罗/L.马丁内斯/梅迪纳-德保罗/麦卡利斯特/恩佐·费尔南德斯/阿尔马达-梅西/劳塔罗。罗梅罗(Cristian Romero)膝伤完全复出确认首发，防线全员就绪。佛得角预测阵容：福兹纳(Vozinha)-S.莫雷拉/皮科·洛佩斯/迪内伊·博尔赫斯/西德尼·卡布拉尔-R.门德斯/阿尔坎霍/K.皮纳/J.蒙泰罗-加雷·罗德里格斯/基尔松·本奇莫尔；阿尔坎霍出现在预测阵中(此前报道称肌肉伤，⚠️待官方确认)。阿根廷Polymarket 84.9%压倒热门。(ESPN/FIFA.com双源)",
+   "enFull": "July 3, 14:00 BJT update: Argentina vs Cape Verde predicted XIs confirmed by ESPN and FIFA.com. Argentina (4-4-2): E.Martinez; Molina, C.Romero, L.Martinez, Medina; De Paul, Mac Allister, E.Fernandez, Almada; Messi, Lautaro. Romero fully fit and starting, resolving the earlier knee concern. Cape Verde predicted XI: Vozinha; S.Moreira, Pico Lopes, Diney Borges, Sidny Cabral; R.Mendes, Arcanjo, K.Pina, J.Monteiro; Garry Rodrigues, Gilson Benchimol. Arcanjo appearing in the predicted lineup despite earlier muscle injury reports — ⚠️ official confirmation pending. Argentina overwhelming favourites at 84.9% on Polymarket. (ESPN / FIFA.com)",
+   "links": [
+    {
+     "name": "ESPN Argentina vs Cape Verde preview",
+     "url": "https://www.espn.com/soccer/story/_/id/49234020/fifa-world-cup-2026-argentina-vs-cape-verde-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups-lionel-messi"
+    },
+    {
+     "name": "FIFA match centre",
+     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521"
     }
    ]
   },
@@ -2127,77 +2147,6 @@ window.DASH_DATA = {
      "url": "https://www.cafonline.com/fifa-world-cup/news/egypt-sweat-on-salah-fitness-ahead-of-historic-world-cup-clash-with-australia/"
     }
    ]
-  },
-  {
-   "date": "2026-07-02",
-   "match": "周四083",
-   "impact": "双翼伤缺",
-   "tone": "negative",
-   "text": "西班牙Nico Williams(腹股沟)和Yéremy Pino均因伤缺席对奥地利的R32，进攻宽度受损；Victor Munoz大腿亦存疑。(Sports Mole/ESPN双源)",
-   "en": "Spain miss both Nico Williams (groin) and Yéremy Pino through injury for R32 vs Austria, weakening flank options; Victor Munoz also a thigh doubt. (Sports Mole/ESPN)",
-   "full": "07-02 09:10 BJT情报：西班牙主帅路易斯·德拉富恩特面临两翼受损困局——Nico Williams(腹股沟伤)和Yéremy Pino均已确认缺席R32对阵奥地利，右路宽度大幅受限。此外中卫维克托·穆尼奥斯(Victor Munoz)大腿伤存疑，尚未被排除出场。Sports Mole预测XI：西蒙；略伦特/库巴尔西/拉波尔特/库库雷利亚；梅里诺/罗德里/佩德里；亚马尔/奥亚尔扎瓦尔/巴埃纳。奥地利方面：阿拉巴(David Alaba)和阿诺托维奇(Arnautovic)均出现轻度膝盖不适，但未被排除出场，尚在与时间赛跑恢复。市场：Polymarket西班牙74.4%(动量主-0.7pp·本信息差可能已部分price进去，但双翼同缺是真实削弱)。(Sports Mole/ESPN — 双源确认)",
-   "enFull": "July 2, 09:10 BJT: Spain head coach Luis de la Fuente faces a depleted attack for Thursday's R32 vs Austria — both Nico Williams (groin) and Yéremy Pino are confirmed out through injury, removing Spain's primary flank threats. Victor Munoz is also a thigh doubt and has not been ruled out. Sports Mole predicted XI (without Williams/Pino): Simon; Llorente, Cubarsi, Laporte, Cucurella; Merino, Rodri, Pedri; Yamal, Oyarzabal, Baena. Austria: David Alaba and Arnautovic both have minor knee discomfort but are not ruled out, racing to be fit. Polymarket: Spain 74.4% / Draw 17.1% / Austria 8.5% — Spain momentum at -0.7pp from opening line, suggesting the market may already reflect some injury awareness. (Sports Mole / ESPN — two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole team news",
-     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/team-news/spain-vs-austria-injury-suspension-lists-predicted-xis_600400.html"
-    },
-    {
-     "name": "ESPN predicted lineups",
-     "url": "https://www.espn.com/soccer/story/_/id/49213161/fifa-world-cup-2026-spain-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-02",
-   "match": "周四085",
-   "impact": "阿莫拉伤缺",
-   "tone": "negative",
-   "text": "阿尔及利亚锋将Mohamed Amoura(沃尔夫斯堡)腿筋伤缺席R32对阵瑞士；瑞士右后卫Widmer大腿伤存疑·Jaquez或顶位。(Sports Mole/Yahoo Sports双源)",
-   "en": "Algeria forward Mohamed Amoura out with hamstring injury vs Switzerland R32; Swiss right-back Silvan Widmer a thigh doubt, Jaquez could continue. (Sports Mole/Yahoo Sports)",
-   "full": "07-02 09:10 BJT情报：阿尔及利亚进攻核心Mohamed Amoura(沃尔夫斯堡)腿筋伤确认缺阵，R32对阵瑞士无缘出场，锋线火力大打折扣。佩特科维奇(Petkovic)预计召回左后卫Rayan Ait-Nouri替换Hadjam；Mahrez预计担任队长领衔进攻四人组，搭档Ibrahim Maza、Farès Chaïbi和Amine Gouiri。瑞士方面：右后卫Silvan Widmer大腿伤存疑，若无法出场则Luca Jaquez(对加拿大表现稳健)继续顶位。市场：Polymarket瑞士46.9%/平29.7%/阿尔及利亚23.3%，三方较为均衡；Amoura缺阵对阿尔及利亚是实质性打击，但Mahrez仍是关键。(Sports Mole/Yahoo Sports — 双源确认)",
-   "enFull": "July 2, 09:10 BJT: Algeria's key attacker Mohamed Amoura (Wolfsburg) is confirmed out with a hamstring injury for the R32 against Switzerland, significantly weakening Algeria's attacking options. Coach Petkovic expected to recall left-back Rayan Ait-Nouri; Riyad Mahrez set to captain a frontline alongside Ibrahim Maza, Farès Chaïbi and Amine Gouiri. Switzerland: Silvan Widmer (right-back, thigh) is a doubt; Luca Jaquez expected to continue if Widmer fails fitness test. Polymarket: Switzerland 46.9% / Draw 29.7% / Algeria 23.3% — a relatively tight three-way market. Amoura's absence is a real blow to Algeria's pace and directness in attack. (Sports Mole / Yahoo Sports — two independent sources)",
-   "links": [
-    {
-     "name": "Sports Mole preview",
-     "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-algeria-prediction-team-news-lineups_600371.html"
-    },
-    {
-     "name": "Yahoo Sports picks",
-     "url": "https://sports.yahoo.com/articles/world-cup-2026-r32-switzerland-162000326.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-02",
-   "match": "周四084",
-   "impact": "内维斯复出首发",
-   "tone": "positive",
-   "text": "葡萄牙João Neves预计重返首发对阵克罗地亚·双方均无伤缺·克罗地亚瓜迪奥尔或从板凳复归首发。(ESPN/Sports Mole双源)",
-   "en": "Portugal's João Neves expected to return to starting XI vs Croatia; both sides report no injury concerns; Croatia's Gvardiol may return from the bench to start. (ESPN/Sports Mole)",
-   "full": "07-02 09:10 BJT情报：葡萄牙主帅罗伯托·马丁内斯阵中无伤停，对阵哥伦比亚(0:0)未出现新增伤情；João Neves预计重返首发，C罗(Ronaldo)继续领衔进攻。克罗地亚同样全员可用：主帅达里奇(Dalic)的选人重点在于瓜迪奥尔(Gvardiol)——对阵加纳他被置于板凳，本场可能复归首发(Perisic回调边路)。市场：Polymarket葡萄牙55.3%/平26.1%/克罗地亚18.6%，动量葡+1.1pp/克+0.2pp；双方全员健康意味着预测主要靠实力差异驱动·硬信息差有限。(ESPN/Sports Mole — 双源确认)",
-   "enFull": "July 2, 09:10 BJT: Portugal's Roberto Martínez reports a clean bill of health — no injuries or suspensions — heading into Thursday's R32 vs Croatia. João Neves is expected to return to the starting XI after two starts and one substitute appearance in the group stage; Cristiano Ronaldo heads the attack. Croatia also have a full squad available; coach Zlatko Dalić's key selection call is whether Joško Gvardiol returns to start after being benched against Ghana, with Ivan Perišić potentially shifting to the wing. Polymarket: Portugal 55.3% / Draw 26.1% / Croatia 18.6%, with Portugal gaining 1.1pp momentum since opening line. Both squads being at full strength means this match leans on form and quality gaps — limited hard-info edge. (ESPN / Sports Mole — two independent sources)",
-   "links": [
-    {
-     "name": "ESPN Portugal vs Croatia",
-     "url": "https://www.espn.com/soccer/story/_/id/49221788/portugal-vs-croatia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "Sports Mole preview",
-     "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-croatia-prediction-team-news-lineups_600433.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-02",
-   "match": "周三081",
-   "impact": "Diaw首发确认",
-   "tone": "positive",
-   "text": "081开球前最新共识(01:50 BJT)：CBS Sports/ESPN/RotoWire/Sports Mole预测首发均列Diaw首发门将·Mendy确认缺阵·此前「疑复出」系误判·比利时注信息差(备用GK Diaw)仍有效。(CBS Sports/ESPN/Sports Mole三源)",
-   "en": "Pre-match consensus (01:50 BJT): All major predicted XIs (CBS Sports/ESPN/RotoWire/Sports Mole) confirm Mory Diaw starts in goal for Senegal vs Belgium. Mendy absent as originally reported. Earlier 'possible return' alert was a false alarm. Belgium bet basis (Diaw facing De Bruyne/Doku/Trossard attack) remains intact. (CBS Sports/ESPN/Sports Mole)",
-   "full": "07-02 01:50 BJT确认：开球前约2小时，CBS Sports、ESPN、RotoWire、Sports Mole、101GreatGoals等多路主流媒体的预测首发阵型一致列Mory Diaw为塞内加尔首发门将，Edouard Mendy仍缺阵——CBS Sports明确写道「Mendy膝伤在对阵挪威后离队赴沙特阿尔-阿赫利就医，Diaw可能替补首发」。此前21:10-22:10窗口出现的「门迪疑复出」报道系基于SI.com等少数预测文章，已被更广泛的媒体共识否定。结论：slip 081比利时注的核心信息差——「Diaw(备用门将·大赛经验不足)面对比利时豪华锋线(De Bruyne/Doku/Trossard/De Ketelaere)」——仍然有效。比利时预测首发：Courtois；Castagne/Theate/Mechele/De Cuyper；Onana/Tielemans；Trossard/De Bruyne/Doku；De Ketelaere。⚠️官方首发预计03:00 BJT发布，届时请主会话最终确认门将号码。(CBS Sports/ESPN predicted XIs/Sports Mole)",
-   "enFull": "July 2, 01:50 BJT — Pre-match consensus confirmed: Multiple major outlets (CBS Sports, ESPN, RotoWire, Sports Mole, 101GreatGoals) all list Mory Diaw as Senegal's starting goalkeeper for the Round of 32 vs Belgium. Mendy remains absent — CBS Sports notes he 'left the Senegal camp to travel to his club Al-Ahli in Saudi Arabia' after the Norway match. The earlier alert ('Mendy possible return') at 21:10-22:10 BJT on July 1 was based on a lone SI.com predicted XI and has been overridden by the broader media consensus now pointing to Diaw. The core information edge behind the Belgium slip — 'inexperienced backup GK facing De Bruyne/Doku/Trossard/De Ketelaere attack' — remains intact. Belgium predicted XI: Courtois; Castagne, Theate, Mechele, De Cuyper; Onana, Tielemans; Trossard, De Bruyne, Doku; De Ketelaere. ⚠️ Official confirmed lineup expected ~03:00 BJT. (CBS Sports/ESPN/Sports Mole — three independent sources)",
-   "links": []
   }
  ],
  "slip": {
