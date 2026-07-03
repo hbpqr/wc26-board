@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-04 07:10",
+  "updated": "2026-07-04 07:55",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2047,6 +2047,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周六090",
+   "impact": "阿尔德雷特缺战",
+   "tone": "negative",
+   "text": "巴拉圭中卫奥马尔·阿尔德雷特膝伤未愈大概率缺阵法国；恩西索、阿瓦洛斯带伤观察。法国坎特/图拉姆(腓伤疑)：图拉姆仍存疑，姆巴佩领衔4231全主力压阵。(RotoWire/ESPN双源)",
+   "en": "Paraguay CB Omar Alderete (knee) is expected to miss France clash; Enciso and Avalos carrying knocks. France: Kante and Thuram (calf) doubts, Thuram still questionable; Mbappe leads a 4-2-3-1 with Dembele/Olise/Barcola. (RotoWire/ESPN)",
+   "full": "07-04 07:50 BJT情报：周六090巴拉圭vs法国(07-05 05:00开球)——巴拉圭中卫奥马尔·阿尔德雷特(Omar Alderete)小组赛尾场膝伤未痊愈，预计缺战法国；胡里奥·恩西索(Julio Enciso)和加布里埃尔·阿瓦洛斯(Gabriel Avalos)带轻伤需观察，何塞·卡纳莱(Jose Canale)有望顶替中卫位置。法国方面恩戈洛·坎特(N'Golo Kante)和马库斯·图拉姆(Marcus Thuram·腓肠肌)均有伤情，图拉姆仍是疑问人选；法国仍以4231全主力应战，姆巴佩领衔，登贝莱/奥利塞/巴尔科拉助攻，拉比奥+图阿梅尼双后腰。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%，法国绝对大热，阿尔德雷特缺阵进一步压低巴拉圭防守稳定性预期。(RotoWire/ESPN双源)",
+   "enFull": "July 4, 07:50 BJT update (kickoff 07-05 05:00 BJT): Paraguay centre-back Omar Alderete has not recovered from the knee injury suffered in the final group match and is expected to miss the France clash; Julio Enciso and Gabriel Avalos are carrying knocks worth monitoring, with Jose Canale likely to deputise at centre-back. For France, N'Golo Kante and Marcus Thuram (calf) both carry fitness concerns, with Thuram still a doubt; France still line up in a full-strength 4-2-3-1 with Mbappe leading the line, Dembele/Olise/Barcola in support, and Rabiot/Tchouameni anchoring midfield. International consensus (Polymarket): France 82.9% / Draw 12.6% / Paraguay 4.5% — France remain overwhelming favourites, and Alderete's absence further weakens Paraguay's defensive outlook. (RotoWire/ESPN)",
+   "links": [
+    {
+     "name": "RotoWire Paraguay vs France preview",
+     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-france-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120852"
+    },
+    {
+     "name": "ESPN Paraguay vs France team news",
+     "url": "https://www.espn.com/soccer/story/_/id/49233642/paraguay-vs-france-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-04",
+   "match": "周六089",
+   "impact": "科内伤缺里亚德复出",
+   "tone": "neutral",
+   "text": "加拿大科内(Ismael Kone)脚踝骨折缺阵，戴维斯(Davies)伤后首发有望；摩洛哥里亚德(Chadi Riad)伤愈已恢复全训，阵容无缺员。(Al Jazeera/Sports Mole双源)",
+   "en": "Canada's Ismael Kone (broken ankle) is out; Alphonso Davies could start after returning from injury last game. Morocco's Chadi Riad has recovered full training with no other injury concerns. (Al Jazeera/Sports Mole)",
+   "full": "07-04 07:50 BJT情报：周六089加拿大vs摩洛哥(07-05 01:00开球)——加拿大伊斯梅尔·科内(Ismael Kone)脚踝骨折确认缺阵；阿方索·戴维斯(Alphonso Davies)上一场替补出场首次登场本届，本场有望进入首发。摩洛哥中卫查迪·里亚德(Chadi Riad)此前伤情存疑，周三已恢复全部训练，赶上对阵加拿大无虞，摩洛哥阵中无其他伤病报告。国际共识(Polymarket)摩洛哥51.2%/平28.4%/加拿大20.4%，摩洛哥占优且动量向摩洛哥倾斜(开盘以来客队+... )，科内伤缺进一步压低加拿大中场硬度预期。(Al Jazeera/Sports Mole双源)",
+   "enFull": "July 4, 07:50 BJT update (kickoff 07-05 01:00 BJT): Canada's Ismael Kone is confirmed out with a broken ankle; Alphonso Davies, who came on as a 75th-minute substitute last match for his first minutes of the tournament, could now start. Morocco centre-back Chadi Riad, previously an injury doubt, returned to full training Wednesday and is fit for Canada; no other injury concerns in the Morocco camp. International consensus (Polymarket): Morocco 51.2% / Draw 28.4% / Canada 20.4% — Morocco favoured, and Kone's absence further weakens Canada's midfield solidity. (Al Jazeera/Sports Mole)",
+   "links": [
+    {
+     "name": "Sports Mole Canada vs Morocco team news",
+     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/team-news/canada-vs-morocco-injury-suspension-list-predicted-xis_600555.html"
+    },
+    {
+     "name": "Sports Mole Morocco predicted lineup",
+     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/predicted-lineups/will-riad-recover-in-time-predicted-morocco-xi-vs-canada_600553.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周五086",
