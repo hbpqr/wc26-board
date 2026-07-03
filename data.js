@@ -1,13 +1,13 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-03 08:50",
+  "updated": "2026-07-03 09:11",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
   "start": 200,
   "startDate": "06-11",
-  "cashNow": 262.55,
+  "cashNow": 258.55,
   "pending": 0,
   "goal": 20000,
   "floor": 80,
@@ -198,6 +198,10 @@ window.DASH_DATA = {
    {
     "d": "07-02",
     "v": 262.55
+   },
+   {
+    "d": "07-03",
+    "v": 258.55
    }
   ],
   "evCurve": [
@@ -547,11 +551,14 @@ window.DASH_DATA = {
    },
    {
     "d": "07-03",
-    "pool": 262.55,
-    "pnl": 0,
+    "pool": 258.55,
+    "pnl": -4,
     "records": [
-     "🏆 西班牙 3:0 奥地利(03:00 完赛·ESPN STATUS_FULL_TIME·R16·西班牙统治性大胜晋级八强·model主胜73.9%命中·无持仓·pool不变)",
-     "　双翼缺阵(Pino锁骨伤+Nico Williams)未影响统治力·Yamal+Pedri中轴主导全场·learn.py已结算"
+     "🏆 西班牙 3:0 奥地利(03:00 完赛·ESPN STATUS_FULL_TIME·R32·西班牙统治性大胜晋级八强·model主胜73.9%命中·无持仓)",
+     "　双翼缺阵(Pino锁骨伤+Nico Williams)未影响统治力·Yamal+Pedri中轴主导全场·learn.py已结算",
+     "🏆 葡萄牙 2:1 克罗地亚(07:00 完赛·ESPN STATUS_FULL_TIME·R32·葡萄牙晋级16强·model主胜54.2%命中·Brier ens=0.278)",
+     "　✗ 084 平@3.32 4元单关→挂(-4)·葡萄牙主场取胜·平局未实现",
+     "📊 周四083+084已终·084平局挂→-4·pool 262.55→258.55"
     ]
    }
   ],
@@ -1919,13 +1926,15 @@ window.DASH_DATA = {
    "home": "葡萄牙",
    "away": "克罗地亚",
    "time": "07-03 07:00",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "2:1",
    "predModel": "主胜54.2%",
    "ensemble": {
     "h": 54.2,
     "d": 27.4,
     "a": 18.4
-   }
+   },
+   "note": "葡萄牙2:1胜克罗地亚·R32淘汰赛·葡萄牙晋级16强·模型集成主胜54.2%方向命中(Brier ens=0.278·RPS ens=0.106)·新权重A市场59.9%/B-Elo13.4%/C-Poisson0.0%·Elo:葡萄牙→1958.1/克罗地亚→1816.3·slip押平局@3.32 4元挂·learn.py已结算"
   },
   {
    "num": "周四085",
@@ -1987,17 +1996,17 @@ window.DASH_DATA = {
  "holdings": {
   "invested": 8,
   "returned": 0,
-  "pendingStake": 8,
-  "condEV": -0.95,
-  "condWinProb": 47,
+  "pendingStake": 4,
+  "condEV": -0.39,
+  "condWinProb": 28,
   "tickets": [
    {
     "match": "葡萄牙 vs 克罗地亚",
     "pick": "平局(HAD平)·单关",
     "stake": 4,
     "odds": 3.32,
-    "status": "pending",
-    "payout": null
+    "status": "lose",
+    "payout": 0
    },
    {
     "match": "瑞士 vs 阿尔及利亚",
@@ -2500,16 +2509,16 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 83,
+  "sampleCount": 84,
   "threshold": 50,
-  "pct": 166,
-  "ensBrier": 0.477,
-  "ensBrierMedian": 0.262,
-  "marketBase": 0.4983,
+  "pct": 168,
+  "ensBrier": 0.474,
+  "ensBrierMedian": 0.265,
+  "marketBase": 0.4952,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 58,
-  "dirHit": 54,
+  "beatRandom": 59,
+  "dirHit": 55,
   "weightsFirst": {
    "A": 33,
    "B": 34,
@@ -3019,10 +3028,16 @@ window.DASH_DATA = {
     "m": "西班牙·3:0",
     "b": 0.1,
     "win": true
+   },
+   {
+    "num": "周四084",
+    "m": "葡萄牙·2:1",
+    "b": 0.28,
+    "win": true
    }
   ],
-  "headline": "已喂 83 场预测 · 集成 Brier 0.477 vs 市场去水 0.4983（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.477 **仍没跑赢市场去水(0.4983)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 83/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 84 场预测 · 集成 Brier 0.474 vs 市场去水 0.4952（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.474 **仍没跑赢市场去水(0.4952)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 84/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
