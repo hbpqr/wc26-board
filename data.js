@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-04 00:12",
+  "updated": "2026-07-04 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2037,6 +2037,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周五086",
+   "impact": "萨拉赫首发确认",
+   "tone": "positive",
+   "text": "赛前官方首发名单确认萨拉赫顶入首发(4-3-3:Zico-Salah-Marmoush锋线)，此前腿伤悬念解除。(Central Oregon Daily/Sports Mole双源)",
+   "en": "Confirmed starting XI has Salah in the front three (Zico-Salah-Marmoush); hamstring doubt resolved pre-kickoff. (Central Oregon Daily/Sports Mole)",
+   "full": "07-04 01:10 BJT更新：周五086澳大利亚vs埃及(02:00开球前)——赛前官方首发确认穆罕默德·萨拉赫顶入首发阵容(门将Shobeir；后防Hany/Rabia/Ibrahim/Hafez；中场Fathy/Attia/Ashour；锋线Zico/Salah/Marmoush)。此前主帅哈桑一直未承诺其首发地位，本条为开球前最终确认，较此条前情报(仅'望出战'未确认首发)更进一步。澳大利亚以5-4-1应对，Beach把关。萨拉赫确认首发对埃及进攻火力构成正面利好，若赔率未及时反应即为潜在价值点(需与开球前最新盘口核对)。(Central Oregon Daily/Sports Mole双源)",
+   "enFull": "July 4, 01:10 BJT update (pre-kickoff for the 02:00 match): Confirmed starting lineups show Mohamed Salah starting for Egypt (GK Shobeir; back four Hany/Rabia/Ibrahim/Hafez; midfield Fathy/Attia/Ashour; front three Zico/Salah/Marmoush). This resolves the earlier uncertainty where coach Hassan declined to confirm Salah's starting status. Australia line up in a 5-4-1 with Beach in goal. Salah's confirmed inclusion is a positive for Egypt's attack — worth checking against the latest odds for any pricing lag. (Central Oregon Daily/Sports Mole)",
+   "links": [
+    {
+     "name": "Central Oregon Daily Egypt lineup",
+     "url": "https://www.centraloregondaily.com/sports/egypts-world-cup-lineup-vs-australia-mo-salah-starting-round-of-32/article_002b7bf9-7209-5e11-a20d-4e875370c788.html"
+    },
+    {
+     "name": "Sports Mole predicted lineups",
+     "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/predicted-lineups/will-salah-be-available-how-egypt-could-line-up-against-australia_600495.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-03",
    "match": "周五086",
