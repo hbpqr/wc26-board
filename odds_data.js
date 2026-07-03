@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-03 07:12:26",
+ "fetched_at": "2026-07-03 08:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -21,7 +21,24 @@ window.ODDS_DATA = {
     "h": "3.75",
     "d": "3.08",
     "a": "1.86",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "mkt": [
+     0.236,
+     0.288,
+     0.476
+    ],
+    "val_top": 1.86,
+    "edge_top": 0.524,
+    "mirage": true,
+    "top_label": "让负",
+    "verdict": "真edge候选·查来源"
    },
    "crs": {
     "1:0": "6.20",
@@ -66,7 +83,24 @@ window.ODDS_DATA = {
     "h": "1.45",
     "d": "3.65",
     "a": "6.05",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.619,
+     0.241,
+     0.14
+    ],
+    "mkt": [
+     0.611,
+     0.243,
+     0.146
+    ],
+    "val_top": 0.9,
+    "edge_top": 0.008,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "6.75",
@@ -111,7 +145,10 @@ window.ODDS_DATA = {
     "h": "2.22",
     "d": "3.62",
     "a": "2.48",
-    "line": "-2"
+    "line": "-2",
+    "tier": "deep",
+    "tier_label": "深让·镜像雷区",
+    "verdict": "未评估(待模型)"
    },
    "crs": {
     "1:0": "6.50",
@@ -152,7 +189,24 @@ window.ODDS_DATA = {
     "h": "2.29",
     "d": "3.05",
     "a": "2.75",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.397,
+     0.275,
+     0.329
+    ],
+    "mkt": [
+     0.387,
+     0.291,
+     0.322
+    ],
+    "val_top": 0.91,
+    "edge_top": 0.01,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "5.25",
@@ -197,7 +251,24 @@ window.ODDS_DATA = {
     "h": "2.00",
     "d": "3.15",
     "a": "3.22",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.451,
+     0.272,
+     0.276
+    ],
+    "mkt": [
+     0.443,
+     0.281,
+     0.275
+    ],
+    "val_top": 0.9,
+    "edge_top": 0.008,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "10.00",
@@ -242,7 +313,10 @@ window.ODDS_DATA = {
     "h": "2.24",
     "d": "3.80",
     "a": "2.38",
-    "line": "+2"
+    "line": "+2",
+    "tier": "deep",
+    "tier_label": "深让·镜像雷区",
+    "verdict": "未评估(待模型)"
    },
    "crs": {
     "1:0": "32.00",
