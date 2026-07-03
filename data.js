@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-03 14:10",
+  "updated": "2026-07-03 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -661,9 +661,9 @@ window.DASH_DATA = {
     "stake": 8,
     "evPnl": -0.95,
     "winProb": 47,
-    "actualPnl": null,
-    "status": "待结算",
-    "note": "全3场无val≥1.10·全负CLV·fade-favorite不触发(083 CLV-8.3%/084 conf57.2%<60%/085 conf49.9%<60%)·083 HAD single=0跳过·押经验平局率角度(33%实际率 vs 26%市场定价)·084平empirical value=1.096(最高)·085平empirical value=1.043·池262.55·最坏-8→254.55>>地板80"
+    "actualPnl": -8,
+    "status": "已结算·两注全挂",
+    "note": "全3场无val≥1.10·全负CLV·fade-favorite不触发(083 CLV-8.3%/084 conf57.2%<60%/085 conf49.9%<60%)·083 HAD single=0跳过·押经验平局率角度(33%实际率 vs 26%市场定价)·084平empirical value=1.096(最高)·085平empirical value=1.043·池262.55·最坏-8→254.55>>地板80·084葡萄牙2:1克罗地亚平挂·085瑞士2:0阿尔及利亚平挂·两注全挂"
    }
   ]
  },
