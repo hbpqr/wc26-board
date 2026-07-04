@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-04 11:30",
+  "updated": "2026-07-04 11:55",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -201,6 +201,10 @@ window.DASH_DATA = {
    },
    {
     "d": "07-03",
+    "v": 254.55
+   },
+   {
+    "d": "07-04",
     "v": 254.55
    }
   ],
@@ -569,7 +573,8 @@ window.DASH_DATA = {
     "pnl": 0,
     "records": [
      "🏆 澳大利亚 1:1 埃及(点球4:2)(02:00 完赛·ESPN STATUS_FINAL_PEN·R32·90分钟平局·埃及点球大战淘汰澳大利亚晋级16强·model平局31.7%/客胜37.2%·Brier ens=0.701·learn.py已结算·无持仓·pool不变)",
-     "🏆 阿根廷 3:2(加时) 佛得角(06:00 完赛·ESPN STATUS_FINAL_AET·R32·90分钟2:2平·加时绝杀·阿根廷晋级16强·model主胜85.9%命中·Brier ens=0.023极优·learn.py已结算·无持仓·pool不变)"
+     "🏆 阿根廷 3:2(加时) 佛得角(06:00 完赛·ESPN STATUS_FINAL_AET·R32·90分钟2:2平·加时绝杀·阿根廷晋级16强·model主胜85.9%命中·Brier ens=0.023极优·learn.py已结算·无持仓·pool不变)",
+     "🏆 哥伦比亚 1:0 加纳(11:20 完赛·ESPN STATUS_FULL_TIME·R32·哥伦比亚晋级16强·model主胜70.3%命中)·⚠️088 §14 fade-favorite平@4.50 4元票是否实际出票未获确认(此前15轮ALERTS持续报had.single=0+赔率漂移4.25，从未见主会话在holdings登记)→本轮不计入pool结算，待主会话核实票面·pool暂254.55不变"
     ]
    }
   ],
@@ -681,8 +686,8 @@ window.DASH_DATA = {
     "evPnl": -0.4,
     "winProb": 33,
     "actualPnl": null,
-    "status": "pending·等结算",
-    "note": "§14 fade-favorite触发(COL conf70.3%≥60%·GHA非鱼腩)·经验val=1.485(0.33×4.50)·CLV=-2.8%·model EV=-0.40·had.single=1✓·池254.55·最坏→250.55"
+    "status": "赛果已出(1:0)·出票状态未确认",
+    "note": "§14 fade-favorite触发(COL conf70.3%≥60%·GHA非鱼腩)·经验val=1.485(0.33×4.50)·CLV=-2.8%·model EV=-0.40·实际1:0未出平局(若已出票则为lose)·⚠️此前15轮ALERTS持续报had.elig.single=0+赔率漂移@4.25(vs slip记录@4.50)从未见holdings登记，出票真实性存疑，故不计入pool，待主会话核实"
    }
   ]
  },
@@ -2013,14 +2018,16 @@ window.DASH_DATA = {
    "home": "哥伦比亚",
    "away": "加纳",
    "time": "07-04 09:30",
-   "status": "upcoming",
+   "status": "finished",
+   "actual": "1:0",
    "predModel": "主胜70.3%",
    "ensemble": {
     "h": 70.3,
     "d": 20.0,
     "a": 9.7
    },
-   "predManual": "§14 fade-favorite 押平@4.50 ×4元"
+   "predManual": "§14 fade-favorite 押平@4.50 ×4元",
+   "note": "哥伦比亚1:0加纳(11:20 完赛·ESPN STATUS_FULL_TIME·R32·哥伦比亚晋级16强)·model主胜70.3%命中·slip/§14 fade-favorite押平@4.50 4元→挂(-4)·哥伦比亚James+Diaz+Suarez全健兑现优势"
   }
  ],
  "holdings": {
@@ -2383,16 +2390,16 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 87,
+  "sampleCount": 88,
   "threshold": 50,
-  "pct": 174,
-  "ensBrier": 0.471,
-  "ensBrierMedian": 0.267,
-  "marketBase": 0.496,
+  "pct": 176,
+  "ensBrier": 0.467,
+  "ensBrierMedian": 0.265,
+  "marketBase": 0.4909,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 61,
-  "dirHit": 57,
+  "beatRandom": 62,
+  "dirHit": 58,
   "weightsFirst": {
    "A": 33,
    "B": 34,
@@ -2400,9 +2407,9 @@ window.DASH_DATA = {
   },
   "weightsLast": {
    "A": 62,
-   "B": 11,
+   "B": 12,
    "C": 0,
-   "D": 27
+   "D": 26
   },
   "dots": [
    {
@@ -2926,10 +2933,16 @@ window.DASH_DATA = {
     "m": "阿根廷·3:2",
     "b": 0.02,
     "win": true
+   },
+   {
+    "num": "周五088",
+    "m": "哥伦比亚·1:0",
+    "b": 0.14,
+    "win": true
    }
   ],
-  "headline": "已喂 87 场预测 · 集成 Brier 0.471 vs 市场去水 0.496（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.471 **仍没跑赢市场去水(0.496)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 87/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 88 场预测 · 集成 Brier 0.467 vs 市场去水 0.4909（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.467 **仍没跑赢市场去水(0.4909)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 88/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
