@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 05:10",
+  "updated": "2026-07-05 06:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2074,6 +2074,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日092",
+   "impact": "詹姆斯仍不确定",
+   "tone": "neutral",
+   "text": "图赫尔赛前发布会证实：匡萨(Quansah)伤愈进度略快于詹姆斯(James)，James若出战墨西哥也大概率仅替补登场，右后卫仍是隐患。(ESPN/Sports Mole/Yardbarker多源)",
+   "en": "Tuchel's pre-match presser confirmed Quansah is slightly ahead of James in his recovery — even if James is involved vs Mexico, it would likely be off the bench, leaving right-back a lingering concern. (ESPN/Sports Mole/Yardbarker)",
+   "full": "07-05 06:15 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——主帅图赫尔(Thomas Tuchel)在赛前发布会中确认，匡萨(Jarell Quansah)的伤愈进度略快于詹姆斯(Reece James)，暗示詹姆斯回归时间表仍不确定；此前对阵刚果民主共和国一役图赫尔曾表示詹姆斯有望从替补席回归，但本次发布会未给出更明确定论，右后卫位置深度仍是已知隐患。赖斯(Rice)腘绳肌紧绷已确认对阵墨西哥无碍，与既有情报一致。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，暂未因此调整。(ESPN/Sports Mole/Yardbarker多源核实)",
+   "enFull": "July 5, 06:15 BJT update (kickoff 07-06 08:00 BJT): Manager Thomas Tuchel confirmed at his pre-match press conference that Jarell Quansah's recovery is running slightly ahead of Reece James's, suggesting James's return timeline remains unsettled; ahead of the DR Congo game Tuchel had suggested James could return from the bench, but this latest presser offered no firmer confirmation, leaving right-back depth a lingering concern. Declan Rice's hamstring tightness is confirmed fine for Mexico, consistent with prior reporting. International consensus (Polymarket) unchanged: England 39.3% / Draw 30.3% / Mexico 30.3%. (ESPN/Sports Mole/Yardbarker corroboration)",
+   "links": [
+    {
+     "name": "Sports Mole: England injury, suspension list and return dates vs. Mexico",
+     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-james-quansah-latest-england-injury-suspension-list-vs-mexico_600617.html"
+    },
+    {
+     "name": "Yardbarker: Will Reece James play against Mexico? Latest England injury update and return timeline",
+     "url": "https://www.yardbarker.com/soccer/articles/will_reece_james_play_against_mexico_latest_england_injury_update_and_return_timeline/s1_17664_44016055"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-05",
+   "match": "周日091",
+   "impact": "拉菲尼亚复训",
+   "tone": "neutral",
+   "text": "巴西边锋拉菲尼亚(右大腿伤)本周二在新泽西完成本届伤后首次个人场地训练，为积极信号，但ESPN称其出战挪威'希望渺茫'，目标复出节点或推迟至8强(7月11日)。(Yahoo Sports/Goal.com/ESPN多源)",
+   "en": "Brazil winger Raphinha (right thigh) completed his first individual pitch session since injury on Tuesday in New Jersey — a positive step — but ESPN says he has 'little chance' of playing vs Norway, with a possible return target now pushed to the quarterfinal (July 11). (Yahoo Sports/Goal.com/ESPN)",
+   "full": "07-05 06:15 BJT情报更新：周日091巴西vs挪威(07-06 04:00开球)——巴西边锋拉菲尼亚(Raphinha·右大腿肌纤维撕裂，本赛季同部位第5次伤病)本周二在新泽西完成本届杯赛伤后首次个人场地训练，是继续朝复出迈进的积极信号；但ESPN报道称球队对其出战挪威'谨慎考虑但希望渺茫'，教练组不愿在关键攻击手身上冒不必要风险，目标复出节点据信推迟至若晋级后的8强战(7月11日)。此前已确认缺阵的帕奎塔(大腿伤)、以及卡塞米罗对日本一战带伤离场(预计可出战)情况不变。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，持平未因此变动。(Yahoo Sports/Goal.com/Barca Blaugranes/ESPN多源核实)",
+   "enFull": "July 5, 06:15 BJT update (kickoff 07-06 04:00 BJT): Brazil winger Raphinha (thigh muscle tear, his 5th issue in the same area this season) completed his first individual pitch training session since injury on Tuesday in New Jersey — a positive step in his recovery. However, ESPN reports Brazil are only 'cautiously considering' him for Norway with 'little chance' of playing, unwilling to risk a key attacker, with a likely return target pushed to a potential quarterfinal on July 11. Paqueta remains ruled out (thigh) as previously confirmed, and Casemiro — who went off hurt vs Japan — is still expected to be available. International consensus (Polymarket) unchanged at Brazil 53.2% / Draw 26.4% / Norway 20.4%. (Yahoo Sports/Goal.com/Barca Blaugranes/ESPN corroboration)",
+   "links": [
+    {
+     "name": "Yahoo Sports: Huge injury boost for Brazil! Raphinha back in training ahead of World Cup round-of-16 tie vs Norway",
+     "url": "https://sports.yahoo.com/articles/huge-injury-boost-brazil-raphinha-071408412.html"
+    },
+    {
+     "name": "Yahoo Sports: Raphinha injury update: Barcelona star returns to pitch training; still uncertain to play against Norway",
+     "url": "https://sports.yahoo.com/articles/raphinha-injury-barcelona-star-returns-064000938.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周日091",
