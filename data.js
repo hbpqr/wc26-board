@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 00:10",
+  "updated": "2026-07-05 01:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日091",
+   "impact": "拉菲尼亚缺战",
+   "tone": "negative",
+   "text": "巴西边锋拉菲尼亚(右大腿肌纤维撕裂)确认缺战挪威，为本场第二位缺阵主力(叠加已知帕奎塔)；卡塞米罗对日本一战伤退但预计可出战。(CaughtOffside/Athlon Sports/Yahoo Sports多源)",
+   "en": "Brazil winger Raphinha (muscle fibre tear, right thigh) is ruled out against Norway — the second key starter sidelined alongside the already-known Paqueta absence; Casemiro went down late vs Japan but is expected to be available. (CaughtOffside/Athlon Sports/Yahoo Sports)",
+   "full": "07-05 01:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——巴西边锋拉菲尼亚(Raphinha·右大腿后侧肌纤维撕裂)在小组赛对海地一役40分钟因伤下场，此后连续缺席末轮对苏格兰及16强对日本，本轮确认继续缺战挪威，为本场除帕奎塔外第二位缺阵的主力首发；医疗组仍持谨慎态度，若巴西晋级8强有望复出。中场卡塞米罗(Casemiro)对日本一战92分钟带伤离场引发担忧，但目前评估预计可正常出战。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因两大主力缺阵显著调整。(CaughtOffside/Athlon Sports/Yahoo Sports/YSscores多源核实)",
+   "enFull": "July 5, 01:10 BJT update (kickoff 07-06 04:00 BJT): Brazil winger Raphinha (muscle fibre tear, back of right thigh) went off in the 40th minute of the group-stage win over Haiti and has since missed the Scotland finale and the round-of-16 win over Japan; he is now confirmed out again for Norway, the second key starter sidelined alongside the already-known Paqueta absence. Medical staff remain cautious, with a possible return only if Brazil reach the quarterfinals. Midfielder Casemiro went down in the 92nd minute against Japan, raising fitness concerns, but is currently expected to be available. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4% — no major market shift yet despite the two absences. (CaughtOffside/Athlon Sports/Yahoo Sports/YSscores corroboration)",
+   "links": [
+    {
+     "name": "CaughtOffside: Brazil hit with injury blow as second starter is ruled out of Norway clash",
+     "url": "https://www.caughtoffside.com/2026/07/02/brazil-hit-with-injury-blow-as-second-starter-is-ruled-out-of-norway-world-cup-clash/"
+    },
+    {
+     "name": "Yahoo Sports: Barcelona superstar Raphinha ruled out of Brazil's Round of 16 showdown vs Norway",
+     "url": "https://sports.yahoo.com/articles/barcelona-superstar-raphinha-ruled-brazil-070000238.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周六090",
