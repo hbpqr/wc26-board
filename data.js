@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-04 22:15",
+  "updated": "2026-07-04 23:16",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周六090",
+   "impact": "图拉姆伤缺",
+   "tone": "negative",
+   "text": "法国锋线马库斯·图拉姆(腓肠肌伤)确认缺战巴拉圭，德尚证实其仍未重返合练，伤情从此前'存疑'升级为'确认缺战'；叠加已知的图阿梅尼(大腿伤)缺阵，法国本场同时缺两名主力。(RotoWire/Yahoo Sports双源)",
+   "en": "France forward Marcus Thuram (calf) is confirmed OUT against Paraguay, with Deschamps confirming he still hasn't rejoined full training — an upgrade from the earlier 'doubtful' tag; combined with the already-known Tchouameni absence, France is missing two key starters. (RotoWire/Yahoo Sports)",
+   "full": "07-04 23:10 BJT情报更新：周六090巴拉圭vs法国(07-05 05:00开球)——法国锋线马库斯·图拉姆(Marcus Thuram·腓肠肌伤)确认缺战巴拉圭，此前对阵瑞典(16强前)已因伤缺席，本场仍未能重返集体合练；主帅德尚(Didier Deschamps)赛前发布会证实其未归队，伤情状态由07-04 07:50情报中的'仍是疑问人选'升级为'确认缺战'。叠加此前18:10已确认的中场图阿梅尼(Tchouameni·大腿伤)缺阵，法国本场同时缺两名主力(锋线+中场)。预计登贝莱/奥利塞/巴尔科拉三人组顶替锋线支援姆巴佩，科内+拉比奥出任双后腰。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%维持大热，两处伤缺尚未导致盘口显著松动(法国替补深度充足)。(RotoWire/Yahoo Sports双源，引德尚发布会原话)",
+   "enFull": "July 4, 23:10 BJT update (kickoff 07-05 05:00 BJT): France forward Marcus Thuram (calf) is confirmed out for the Paraguay clash, having already missed the round-of-32 game vs Sweden and still not back in full training; manager Didier Deschamps confirmed at his pre-match press conference that Thuram has not rejoined the group, upgrading his status from 'doubtful' (as of the 07:50 BJT update) to 'ruled out'. Combined with the already-confirmed absence of midfielder Aurelien Tchouameni (thigh, confirmed at 18:10 BJT), France is missing two key starters across attack and midfield. Ousmane Dembele, Michael Olise and Bradley Barcola are expected to support Mbappe up front, with Kone and Rabiot pairing in central midfield. International consensus (Polymarket) still has France at 82.9% / Draw 12.6% / Paraguay 4.5% — the two absences have not moved the market meaningfully given France's squad depth. (RotoWire/Yahoo Sports corroboration, citing Deschamps' press conference)",
+   "links": [
+    {
+     "name": "RotoWire: Marcus Thuram Injury: Won't face Paraguay",
+     "url": "https://www.rotowire.com/soccer/headlines/marcus-thuram-injury-wont-face-paraguay-522363"
+    },
+    {
+     "name": "Yahoo Sports: France predicted lineup and team news vs Paraguay",
+     "url": "https://ca.sports.yahoo.com/news/france-predicted-lineup-team-news-054000799.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周日092",
