@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 01:15",
+  "updated": "2026-07-05 02:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周六090",
+   "impact": "首发官宣",
+   "tone": "neutral",
+   "text": "法国、巴拉圭双方官方首发已出炉：法国4231科内替补图阿梅尼(拉比奥搭档)、图拉姆不在名单符合伤缺；巴拉圭迪亚戈·戈麦斯解禁复出，阿尔德雷特膝伤大概率缺席由卡纳莱顶替。(RotoWire/Yahoo Sports/beIN三源)",
+   "en": "Confirmed starting XIs are out for both sides: France's 4-2-3-1 has Kone deputising for the injured Tchouameni alongside Rabiot, with Thuram absent as expected; Paraguay's Diego Gomez returns from suspension, with Alderete (knee) expected to miss out for Canale. (RotoWire/Yahoo Sports/beIN)",
+   "full": "07-05 02:10 BJT情报：周六090巴拉圭vs法国(07-05 05:00开球)——双方官方确认首发。法国4-2-3-1：马里尼昂；孔德、乌帕梅卡诺、萨利巴、迪涅；曼努·科内、拉比奥双后腰(科内顶替伤缺的图阿梅尼)；登贝莱、奥利塞、巴尔科拉；姆巴佩，图拉姆(腓伤)不在名单，与此前情报一致。巴拉圭4-4-2：吉尔；卡塞雷斯、戈麦斯、卡纳莱、阿隆索；加拉尔萨、库巴斯、迭戈·戈麦斯(解禁复出，此前因对德国点球大战停赛缺席)；阿尔米隆、阿瓦洛斯、恩西索；中卫奥马尔·阿尔德雷特(膝伤)大概率仍缺阵，由卡纳莱顶替。国际共识(Polymarket)巴拉圭4.5%/平12.4%/法国83.1%，法国仍是绝对大热，官宣首发与预期一致，未引发盘口调整。(RotoWire/Yahoo Sports/beIN Sports三源核实)",
+   "enFull": "July 5, 02:10 BJT update (kickoff 07-05 05:00 BJT): Both confirmed starting XIs are out. France (4-2-3-1): Maignan; Kounde, Upamecano, Saliba, Digne; Manu Kone, Rabiot (Kone deputising for the injured Tchouameni); Dembele, Olise, Barcola; Mbappe — Thuram (calf) is absent as already known. Paraguay (4-4-2): Gill; Caceres, G. Gomez, Canale, Alonso; Galarza, Cubas, Diego Gomez (back from suspension after missing the shootout win over Germany); Almiron, Avalos, Enciso — centre-back Omar Alderete (knee) is still expected to miss out, with Canale deputising. International consensus (Polymarket) unchanged with France heavily favoured; the confirmed lineups matched expectations with no market reaction. (RotoWire/Yahoo Sports/beIN Sports corroboration)",
+   "links": [
+    {
+     "name": "RotoWire: Paraguay vs France Preview, Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-france-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120852"
+    },
+    {
+     "name": "Yahoo Sports: France Starting XI vs Paraguay: Confirmed Team News",
+     "url": "https://sports.yahoo.com/articles/france-stating-xi-vs-paraguay-105000250.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周日091",
