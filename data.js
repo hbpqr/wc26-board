@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 03:13",
+  "updated": "2026-07-05 04:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2074,6 +2074,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日091",
+   "impact": "内马尔或顶替",
+   "tone": "neutral",
+   "text": "帕奎塔(腘绳肌二级拉伤)确认缺战挪威，安切洛蒂需重排中场，内马尔被多源点名为可能顶替其首发位置的人选之一(⚠️非官方确认阵容)。(World Soccer Talk/Goal.com双源)",
+   "en": "With Paqueta (grade-2 hamstring strain) ruled out vs Norway, Ancelotti must reshuffle midfield — Neymar is being floated by multiple outlets as a possible starter to fill the gap (⚠️not an official confirmed XI). (World Soccer Talk/Goal.com)",
+   "full": "07-05 04:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——帕奎塔本届对阵日本一役上半场因左大腿后侧二级肌肉拉伤下场，巴西足协影像检查确认，除非巴西打进决赛(7月19日)否则赛季提前结束，本场确认缺战。安切洛蒂因此需要在中场重新排阵，World Soccer Talk与Goal.com均点名内马尔是可能顶替帕奎塔位置、获得首发机会的人选之一；⚠️此为媒体分析/预测，非官方公布首发，距开球仍有约24小时，需待赛前发布会/官方名单确认。叠加此前已知拉菲尼亚(右大腿肌纤维撕裂)仍缺战，卡塞米罗对日本一战带伤离场但预计可出战。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因阵容悬念显著调整。(World Soccer Talk/Goal.com/Yahoo Sports多源核实)",
+   "enFull": "July 5, 04:10 BJT update (kickoff 07-06 04:00 BJT): Paqueta went off in the first half vs Japan with a confirmed grade-2 strain to the back of his left thigh and is ruled out for Norway — likely season-ending unless Brazil reach the final on July 19. Ancelotti must reshuffle midfield, and World Soccer Talk and Goal.com both name Neymar as a possible candidate to fill the void and start; ⚠️this is media speculation, not an official confirmed lineup, with kickoff still ~24h away pending the pre-match presser/official team sheet. Raphinha (thigh tear) remains out as previously known, and Casemiro — who went off hurt vs Japan — is expected to be available. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4%, largely unmoved by the lineup uncertainty. (World Soccer Talk/Goal.com/Yahoo Sports corroboration)",
+   "links": [
+    {
+     "name": "World Soccer Talk: Neymar could return to the starting team as Brazil rule out Lucas Paqueta",
+     "url": "https://worldsoccertalk.com/world-cup/neymar-could-return-to-the-starting-team-as-brazil-rule-out-lucas-paqueta-for-round-of-16-clash-vs-norway/"
+    },
+    {
+     "name": "Goal.com: Brazil Raphinha World Cup Round of 16 Norway",
+     "url": "https://www.goal.com/en/lists/brazil-raphinha-world-cup-round-of-16-norway/blt18da306f60c66906"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周六090",
