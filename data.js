@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-04 18:13",
+  "updated": "2026-07-04 19:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周日091",
+   "impact": "帕奎塔伤退赛",
+   "tone": "negative",
+   "text": "巴西中场卢卡斯·帕奎塔大腿肌肉伤确诊，缺战挪威且预计缺席至少3-4周，本届恐无法再登场(除非巴西打进决赛)；内马尔有望复出顶替首发。(Fox Sports/ESPN/OneFootball多源)",
+   "en": "Brazil midfielder Lucas Paqueta has a confirmed left-thigh muscle injury and is ruled out for the Norway last-16 clash, expected to miss 3-4 weeks (effectively out for the rest of the tournament unless Brazil reach the final); Neymar could return to the starting XI in his place. (Fox Sports/ESPN/OneFootball)",
+   "full": "07-04 19:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——巴西中场卢卡斯·帕奎塔(Lucas Paqueta)在对阵日本一战中半场因伤下场，赛后影像检查确诊左大腿后侧肌肉拉伤，已确认缺战挪威，预计康复期3-4周，意味着除非巴西打进7月19日决赛，本届世界杯基本报销。内马尔(Neymar)有望顶替其位置回归首发。挪威方面莱尔森(Ryerson)大腿伤缺阵，佩德森顶替右后卫。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，帕奎塔缺阵为中场组织端已知负面，但内马尔回归部分对冲，暂未引发盘口大幅调整。(Fox Sports/ESPN/OneFootball/Sentinel Assam多源核实)",
+   "enFull": "July 4, 19:10 BJT update (kickoff 07-06 04:00 BJT): Brazil midfielder Lucas Paqueta went off at halftime against Japan and imaging has confirmed a muscle injury in the back of his left thigh; he is ruled out of the Norway clash with a 3-4 week recovery timeline, effectively ending his tournament unless Brazil reach the July 19 final. Neymar is expected to return to the starting lineup in his place. Norway will be without wingback Julian Ryerson (thigh), with Pedersen deputising on the right side of the back line. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4% — Paqueta's absence is a known negative for Brazil's midfield, partly offset by Neymar's return, with no major market shift yet. (Fox Sports/ESPN/OneFootball/Sentinel Assam corroboration)",
+   "links": [
+    {
+     "name": "Fox Sports: Paqueta ruled out for Norway clash",
+     "url": "https://www.foxsports.com/stories/other/brazil-midfielder-lucas-paqueta-has-a-thigh-injury-ahead-of-match-against-norway-at-the-world-cup"
+    },
+    {
+     "name": "ESPN: Brazil vs Norway predicted lineups",
+     "url": "https://www.espn.com/soccer/story/_/id/49256507/brazil-vs-norway-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周六090",
