@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-04 20:45",
+  "updated": "2026-07-04 21:14",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周日092",
+   "impact": "詹姆斯有望复出",
+   "tone": "positive",
+   "text": "英格兰赖斯(轻微腘绳肌紧绷)自称对阵墨西哥无碍；詹姆斯(腘绳肌)缺战两场后训练感觉良好，正争取复出，图赫尔赛前发布会将给最终定论。(ESPN/Sports Mole双源)",
+   "en": "England's Declan Rice says he'll be fine for Mexico despite hamstring tightness vs DR Congo; Reece James, out for two games, feels good in training and is pushing for a return, with Tuchel to confirm at the pre-match presser. (ESPN/Sports Mole)",
+   "full": "07-04 21:10 BJT情报：周日092墨西哥vs英格兰(07-06 08:00开球)——英格兰后腰德克兰·赖斯(Declan Rice)在对阵刚果民主共和国一战因腘绳肌紧绷一度踢得吃力(赛后形容『terrible pain』)，未踢满90分钟，但赛后向主帅图赫尔(Thomas Tuchel)保证备战墨西哥无碍。右后卫里斯·詹姆斯(Reece James，腘绳肌伤)已连续缺席英格兰上两场比赛，训练中反馈『感觉良好』，正争取复出，与匡萨(Jarell Quansah)一同在轻量训练中缺席、仍列伤情观察名单，图赫尔预计将在赛前发布会给出最终出场定论。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，英格兰略占优；若詹姆斯持续缺阵，右路防守深度仍是已知隐患，暂未导致盘口大幅调整。(ESPN/Sports Mole双源核实)",
+   "enFull": "July 4, 21:10 BJT update (kickoff 07-06 08:00 BJT): England midfielder Declan Rice struggled with hamstring tightness against DR Congo (describing it as 'terrible pain' post-match) and didn't finish the 90 minutes, but has assured manager Thomas Tuchel he'll be fine for Mexico. Right-back Reece James (hamstring), who has missed England's last two matches, reports feeling good in training and is pushing for a return; he was absent from a light training session alongside Jarell Quansah and remains a fitness watch, with Tuchel expected to give a final verdict at the pre-match press conference. International consensus (Polymarket): England 39.3% / Draw 30.3% / Mexico 30.3% — England slightly favoured; James's continued absence would remain a known weakness on the right side of defense, with no major market shift yet. (ESPN/Sports Mole corroboration)",
+   "links": [
+    {
+     "name": "ESPN: Declan Rice in 'terrible pain' vs Congo DR but fit for Mexico",
+     "url": "https://www.espn.com/soccer/story/_/id/49250143/declan-rice-terrible-pain-congo-dr-fit-england-mexico"
+    },
+    {
+     "name": "Sports Mole: England given Reece James injury boost before Mexico clash",
+     "url": "https://www.sportsmole.co.uk/football/england/injury-news/news/england-given-reece-james-injury-boost-before-mexico-world-cup-clash_600545.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周日091",
