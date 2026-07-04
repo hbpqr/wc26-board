@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R32",
-  "updated": "2026-07-04 17:10",
+  "updated": "2026-07-04 18:13",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2057,6 +2057,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-04",
+   "match": "周六090",
+   "impact": "图阿梅尼伤缺",
+   "tone": "negative",
+   "text": "法国中场奥雷利安·图阿梅尼(大腿伤)确认缺战巴拉圭，拉比奥搭档科内出任双后腰；巴拉圭阿尔德雷特膝伤仍大概率缺阵。(ANI/ESPN双源)",
+   "en": "France midfielder Aurelien Tchouameni (thigh) is ruled out of the Paraguay clash; Rabiot now pairs with Kone in midfield. Paraguay's Alderete (knee) remains a likely absentee.",
+   "full": "07-04 18:10 BJT情报更新：周六090巴拉圭vs法国(07-05 05:00开球)——法国中场奥雷利安·图阿梅尼(Aurelien Tchouameni·大腿伤)已确认因伤缺战本场(法国《队报》L'Equipe原报道·路透社转引)，此前16:10核查时仅Rotowire单源、与ESPN预测首发冲突未采信，现经ANI/Flashscore/NewKerala等多家独立媒体交叉核实同一L'Equipe消息，满足双源门槛；预计曼努·科内(Manu Kone)顶替，与阿德里安·拉比奥(Adrien Rabiot)搭档双后腰。图阿梅尼伤情预计需休养至少一周，若法国晋级8强下一场仍存疑。巴拉圭方面奥马尔·阿尔德雷特(Omar Alderete·膝伤)仍大概率缺阵(与此前情报一致，未变)。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%维持大热，图阿梅尼缺阵为已知负面但法国替补深度充足，暂未显著改变盘口。(L'Equipe/Reuters原报·ANI/Flashscore双源核实)",
+   "enFull": "July 4, 18:10 BJT update (kickoff 07-05 05:00 BJT): France midfielder Aurelien Tchouameni (thigh) has now been confirmed OUT for the Paraguay clash per French daily L'Equipe (via Reuters); at the 16:10 check this was a single-source Rotowire claim conflicting with ESPN's predicted lineup and was not logged, but it is now cross-verified by ANI, Flashscore and NewKerala independently reporting the same L'Equipe story, clearing the double-source bar. Manu Kone is expected to replace him, pairing with Adrien Rabiot in central midfield. Tchouameni reportedly needs at least a week to recover, making him a doubt for the quarterfinal if France advance. Paraguay's Omar Alderete (knee) remains a likely absentee, unchanged from prior reporting. International consensus (Polymarket) still has France at 82.9% / Draw 12.6% / Paraguay 4.5% — Tchouameni's absence is a known negative but France's squad depth means the market has not moved materially. (L'Equipe/Reuters original; ANI/Flashscore corroboration)",
+   "links": [
+    {
+     "name": "ANI: Tchouameni ruled out of Paraguay clash",
+     "url": "https://www.aninews.in/news/sports/football/fifa-world-cup-2026-frances-tchouameni-ruled-out-of-paraguay-clash-due-to-injury20260704143534/"
+    },
+    {
+     "name": "Flashscore: Tchouameni set to miss Paraguay clash",
+     "url": "https://www.flashscore.com/news/france-s-tchouameni-reportedly-set-to-miss-paraguay-clash-with-thigh-injury/MwNrZ0qJ/"
+    }
+   ]
+  },
   {
    "date": "2026-07-04",
    "match": "周六090",
