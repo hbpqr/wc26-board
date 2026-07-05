@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 14:10",
+  "updated": "2026-07-05 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2106,6 +2106,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日092",
+   "impact": "匡萨解禁詹皇存疑",
+   "tone": "neutral",
+   "text": "匡萨(Quansah)伤愈已恢复全部训练、确认可出战墨西哥；詹姆斯(James)周六合练唯一缺席、独自训练,天空体育称其'世界杯可能因伤提前结束'，即便复出也大概率只能坐替补席。右后卫从此前'二选一悬念'明朗为'匡萨大概率顶替'。(Yahoo Sports/Sky Sports多源)",
+   "en": "Quansah has returned to full training and is confirmed fit to face Mexico; James was the only absentee at Saturday's session and trained alone — Sky Sports says his World Cup 'potentially over' due to hamstring, with a bench role at best if he returns. The right-back picture shifts from a toss-up to Quansah as likely starter. (Yahoo Sports/Sky Sports)",
+   "full": "07-05 15:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——右后卫位置出现明显转折：贾雷尔·匡萨(Jarell Quansah，大腿伤)已恢复全部训练，英媒确认'解禁可出战墨西哥'，此前困扰图赫尔的右后卫隐忧因此缓解；与此同时里斯·詹姆斯(Reece James，腘绳肌伤)周六合练中唯一缺席、独自训练，天空体育报道其'世界杯可能因伤提前结束'，即便复出最多也只能坐上替补席，需医疗组和教练组共同评估是否值得冒险。此前06:15/11:10情报口径'James/Quansah二选一''图赫尔右后卫难题'如今明朗为：匡萨大概率首发，詹姆斯大概率缺阵或仅替补，斯彭斯(Spence)此前对刚果金一战表现不佳后的替代方案也随之淡化。国际共识(Polymarket)英格兰39.7%/平30.7%/墨西哥29.6%，暂未因此显著调整。(Yahoo Sports两篇独立报道+Sky Sports/Modern Ghana多源核实)",
+   "enFull": "July 5, 15:10 BJT update (kickoff 07-06 08:00 BJT): England's right-back picture has clarified. Jarell Quansah (thigh) has returned to full training and is confirmed fit for Mexico, easing Tuchel's earlier right-back concern. Meanwhile Reece James (hamstring) was the only player absent from Saturday's session, training alone — Sky Sports reports his World Cup is 'potentially over,' and even if he returns it would likely be a bench role pending medical and coaching assessment. This resolves the earlier 06:15/11:10 BJT framing of 'James vs Quansah' and 'Tuchel's right-back problem' — Quansah is now the likely starter, James likely out or bench-only, and the Spence-as-fallback storyline (after his poor showing vs DR Congo) has faded. International consensus (Polymarket) little changed: England 39.7% / Draw 30.7% / Mexico 29.6%. (Two independent Yahoo Sports reports plus Sky Sports/Modern Ghana corroboration)",
+   "links": [
+    {
+     "name": "Yahoo Sports: Reece James trains alone before England face Mexico but Jarell Quansah has hope",
+     "url": "https://uk.sports.yahoo.com/news/reece-james-trains-alone-england-231652792.html"
+    },
+    {
+     "name": "Sky Sports: Reece James injury - England right-back's World Cup potentially over due to hamstring problem",
+     "url": "https://www.skysports.com/football/news/11095/13558203/reece-james-injury-england-right-backs-world-cup-potentially-over-due-to-hamstring-problem"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周日091",
