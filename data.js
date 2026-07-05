@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 17:10",
+  "updated": "2026-07-05 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2106,6 +2106,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日092",
+   "impact": "图赫尔实锤匡萨",
+   "tone": "positive",
+   "text": "主帅图赫尔赛前发布会亲口证实：'匡萨(Jarrell)训练了、完全可用'，大腿/脚踝伤愈后有望顶替斯彭斯首发右后卫；詹姆斯(Reece James)可能重返比赛日大名单坐替补席，但需赛前(07-06 18:00当地/北京08:00开球前)最后体测和医疗组评估才能确定。这份来自图赫尔本人的官方表态，解决了此前11:10/17:10情报口径中'预测阵容稿件称James/Quansah仍双双缺阵'与'匡萨已恢复全训'之间的冲突。(Sky Sports/Tribune双源核实)",
+   "en": "Head coach Tuchel confirmed at his pre-match press conference: 'Jarrell trained and is fully available,' with Quansah in line to start at right-back over Spence after recovering from injury; Reece James could return to the matchday squad on the bench, pending a final fitness assessment before kickoff. This official confirmation from Tuchel himself resolves the earlier 11:10/17:10 BJT conflict between predicted-lineup pieces suggesting both James and Quansah remained sidelined and the previously reported 'Quansah back in full training.' (Sky Sports/Tribune corroborated)",
+   "full": "07-05 18:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00 BJT开球)——主帅图赫尔在赛前发布会中亲口确认：'贾雷尔(匡萨)训练了、完全可以出战'，大腿/脚踝伤情已愈，有望在客场对阵墨西哥一战顶替此前对刚果金表现不佳的斯彭斯(Djed Spence)首发右后卫。同时图赫尔透露里斯·詹姆斯(Reece James，腘绳肌伤)有望重返比赛日大名单、可能坐上替补席，但他强调'James最多能上替补席，仍需赛前最后一次体测和医疗团队评估意见'才能最终定论。这是本轮首次由主帅本人在正式发布会中给出的权威表态，解决了此前11:10/17:10情报里'预测阵容类稿件称James与Quansah仍双双缺阵'与'匡萨已恢复全训确认可战'两种口径的冲突——冲突已解，口径明朗为：匡萨大概率首发，詹姆斯至多替补且仍待最终体测。国际共识(Polymarket)英格兰39.7%/平30.7%/墨西哥29.6%(持平未因此调整)。(Sky Sports两篇独立报道+Tribune交叉核实)",
+   "enFull": "July 5, 18:10 BJT update (kickoff 07-06 08:00 BJT): Head coach Thomas Tuchel confirmed directly in his pre-match press conference that 'Jarrell trained and is fully available' — Quansah has recovered from his thigh/ankle injury and is in line to start at right-back away at Mexico, replacing Djed Spence after his shaky showing against DR Congo. Tuchel also revealed Reece James (hamstring) could return to the matchday squad, possibly on the bench, but stressed 'Reece can maybe make it on the bench, but we need a last assessment from the doctors and a medical opinion' before kickoff. This is the first authoritative, on-the-record confirmation from the head coach himself this round, resolving the prior 11:10/17:10 BJT conflict between predicted-lineup pieces claiming both James and Quansah remained sidelined, and earlier reports that Quansah had returned to full training. The picture is now clear: Quansah likely starts, James bench-only pending final fitness test. International consensus (Polymarket) unchanged: England 39.7% / Draw 30.7% / Mexico 29.6%. (Two independent Sky Sports reports plus Tribune corroboration)",
+   "links": [
+    {
+     "name": "Sky Sports: Mexico vs England World Cup last 16 - Thomas Tuchel faces another right-back dilemma as Azteca awaits",
+     "url": "https://www.skysports.com/football/news/12016/13560378/mexico-vs-england-world-cup-last-16-thomas-tuchel-faces-another-right-back-dilemma-as-azteca-awaits"
+    },
+    {
+     "name": "The Tribune: FIFA World Cup 2026 - England boss Tuchel gives fitness updates on Reece, Quansah",
+     "url": "https://www.tribuneindia.com/news/sports/fifa-world-cup-2026-england-boss-tuchel-gives-fitness-updates-on-reece-quansah/"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周日092",
