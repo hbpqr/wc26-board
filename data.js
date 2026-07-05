@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 13:10",
+  "updated": "2026-07-05 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2349,7 +2349,7 @@ window.DASH_DATA = {
   {
    "date": "2026-07-04",
    "match": "周六089",
-   "impact": "科内伤缺里亚德复出",
+   "impact": "科内伤缺",
    "tone": "neutral",
    "text": "加拿大科内(Ismael Kone)脚踝骨折缺阵，戴维斯(Davies)伤后首发有望；摩洛哥里亚德(Chadi Riad)伤愈已恢复全训，阵容无缺员。(Al Jazeera/Sports Mole双源)",
    "en": "Canada's Ismael Kone (broken ankle) is out; Alphonso Davies could start after returning from injury last game. Morocco's Chadi Riad has recovered full training with no other injury concerns. (Al Jazeera/Sports Mole)",
