@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-05 10:10",
+  "updated": "2026-07-05 11:12",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2106,6 +2106,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-05",
+   "match": "周日091",
+   "impact": "拉菲尼亚解禁",
+   "tone": "positive",
+   "text": "安切洛蒂(7/5)确认拉菲尼亚已解禁可出战挪威，本人称'还没到100%，但能踢几分钟帮球队'——从此前'希望渺茫'升级为替补可用(预计不首发)。(beIN Sports/Goal.com/SI.com多源)",
+   "en": "Ancelotti confirmed (July 5) Raphinha is available to face Norway — the player himself says he's 'not at 100% but can give a few minutes' — an upgrade from 'little chance' to fit-as-substitute (unlikely to start). (beIN Sports/Goal.com/SI.com)",
+   "full": "07-05 11:10 BJT情报更新：周日091巴西vs挪威(07-06 04:00开球)——主帅安切洛蒂(Carlo Ancelotti)在7月5日赛前发布会中确认拉菲尼亚(Raphinha·右大腿肌纤维撕裂)已解禁，可以入选对阵挪威的比赛，较此前06:15情报'训练积极但ESPN称希望渺茫、目标推迟至8强'明显升级；拉菲尼亚本人受访表示'还没到100%状态，但能上场踢几分钟帮助球队'，暗示预计以替补身份出场而非首发。帕奎塔(大腿伤)仍确认缺战，卡塞米罗预计可正常出战不变。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因此调整。(beIN Sports/Goal.com/SI.com三源核实)",
+   "enFull": "July 5, 11:10 BJT update (kickoff 07-06 04:00 BJT): Manager Carlo Ancelotti confirmed at his July 5 pre-match press conference that Raphinha (right thigh muscle tear) has been cleared to be part of the squad against Norway — an upgrade from the 06:15 BJT update ('positive training signal but ESPN says little chance, target pushed to quarterfinal'). Raphinha himself said he's 'not at 100% but can give a few minutes to help the team,' suggesting a substitute appearance rather than a start. Paqueta (thigh) remains ruled out, and Casemiro is still expected to be fine. International consensus (Polymarket) unchanged: Brazil 53.2% / Draw 26.4% / Norway 20.4%. (beIN Sports/Goal.com/SI.com corroboration)",
+   "links": [
+    {
+     "name": "beIN Sports: Carlo Ancelotti Confirms Raphinha's Return and Changes Brazil's Outlook Against Norway",
+     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/carlo-ancelotti-confirms-raphinha-s-return-and-changes-brazil-s-outlook-against-norway-2026-07-05"
+    },
+    {
+     "name": "SI.com: Brazil Receives Major Raphinha Injury Boost Ahead of Norway Clash",
+     "url": "https://www.si.com/soccer/brazil-major-raphinha-injury-boost-norway-clash"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-05",
+   "match": "周日092",
+   "impact": "右后卫生变",
+   "tone": "neutral",
+   "text": "图赫尔对阵刚果(金)一战对斯彭斯(Spence)表现大发雷霆，70分钟将其换下改由赖斯客串右后卫；叠加匡萨伤情同为疑问号，英格兰右后卫位置比此前'詹姆斯待定'更混乱。(Sky Sports/GiveMeSport双源)",
+   "en": "Tuchel was furious at Djed Spence's display vs DR Congo, hooking him in the 70th minute and switching Rice to right-back; with Quansah also a doubt, England's right-back situation is now messier than the earlier 'James pending' picture. (Sky Sports/GiveMeSport)",
+   "full": "07-05 11:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——对阵刚果民主共和国一役，主帅图赫尔(Thomas Tuchel)对右后卫德耶德·斯彭斯(Djed Spence)的表现明显不满，第70分钟将其换下，改用德克兰·赖斯(Rice)客串右后卫，英格兰随后逆转取胜；卡拉格(Carragher)等评论指出，叠加匡萨(Quansah)伤情同为对阵墨西哥的疑问号，图赫尔实际上给自己制造了一个'右后卫难题'——原本被视为回归人选的詹姆斯(James)是否首发，如今要和'赖斯客串'方案一起权衡，比此前06:15情报'James/Quansah二选一'更复杂。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，暂未因此调整。(Sky Sports/GiveMeSport双源核实)",
+   "enFull": "July 5, 11:10 BJT update (kickoff 07-06 08:00 BJT): Against DR Congo, manager Thomas Tuchel was visibly angry at right-back Djed Spence's performance, substituting him in the 70th minute and shifting Declan Rice to fill in at right-back; England went on to win. Pundits including Jamie Carragher note that, with Quansah also a doubt for Mexico, Tuchel has created his own 'right-back problem' — whether James starts on his return now has to be weighed against the Rice-at-right-back option, making the picture messier than the earlier 06:15 BJT 'James vs Quansah' framing. International consensus (Polymarket) unchanged: England 39.3% / Draw 30.3% / Mexico 30.3%. (Sky Sports/GiveMeSport corroboration)",
+   "links": [
+    {
+     "name": "Sky Sports: England boss Thomas Tuchel has created World Cup right-back problem ahead of Mexico last-16 game, says Jamie Carragher",
+     "url": "https://www.skysports.com/football/news/12040/13560384/england-boss-thomas-tuchel-has-created-world-cup-right-back-problem-ahead-of-mexico-last-16-game-says-jamie-carragher"
+    },
+    {
+     "name": "GiveMeSport: World Cup: Thomas Tuchel Went Ballistic at Djed Spence During England vs DR Congo",
+     "url": "https://www.givemesport.com/thomas-tuchel-ballistic-djed-spence-england-world-cup-dr-congo/"
+    }
+   ]
+  },
   {
    "date": "2026-07-05",
    "match": "周日092",
