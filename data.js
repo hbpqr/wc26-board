@@ -2107,6 +2107,46 @@ window.DASH_DATA = {
  "focus": [],
  "news": [
   {
+   "date": "2026-07-06",
+   "match": "周一094",
+   "impact": "巴洛贡解禁复出",
+   "tone": "positive",
+   "text": "美国前锋巴洛贡(Balogun)对波黑一战因踩踏对方脚踝染红牌,按常规应停赛一场;但FIFA裁决纪律委员会援引FDC第27条,将该禁赛'缓期一年执行',巴洛贡因此解禁、可代表美国出战比利时——为世界杯历史上第二例红牌禁赛被FIFA主动撤销(上一例为1962年加林查)。(ESPN两篇独立报道+Yahoo Sports/半岛电视台/NBC多源核实)",
+   "en": "USMNT forward Folarin Balogun was sent off vs Bosnia & Herzegovina for stepping on an opponent's ankle, which would normally mean a one-match ban. But FIFA's disciplinary committee invoked FDC Article 27 to suspend the automatic ban for a one-year probationary period, clearing Balogun to face Belgium — only the second known instance of FIFA lifting a World Cup red-card suspension (after Garrincha in 1962). (Two independent ESPN reports plus Yahoo Sports/Al Jazeera/NBC corroboration)",
+   "full": "07-06 05:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——美国前锋弗拉林·巴洛贡(Folarin Balogun)在对阵波黑一役第64分钟因踩踏对方球员塔里克·穆哈雷莫维奇(Tarik Muharemović)脚踝染红牌被罚下,按FIFA常规应自动停赛一场、缺战1/8决赛比利时。但FIFA纪律委员会随后裁决,援引FDC第27条将该停赛'处以一年缓刑期、暂缓执行',巴洛贡因此解禁、可正常出战比利时——多家权威媒体(ESPN两篇独立报道、Yahoo Sports、半岛电视台、NBC News、Fox Sports)证实这是世界杯历史上第二例红牌停赛被FIFA主动撤销的案例(上一例为1962年决赛加林查)。⚠️此为极罕见程序性裁决、非常规伤停情报,直接影响美国锋线火力预期,此前市场定价(竞彩美国胜@2.44/平@3.26/客胜@2.42)大概率尚未完全消化此利好,需留意后续赔率是否因此向美国方向调整。比利时方面:德巴斯特(Debast,腿伤)本届全程缺阵仍是疑问,特罗萨德(Trossard)带伤情但确认可出战,德布劳内/多库预计正常首发。",
+   "enFull": "July 6, 05:10 BJT update (kickoff 07-07 08:00 BJT): USMNT forward Folarin Balogun was shown a straight red card in the 64th minute vs Bosnia & Herzegovina for stepping on Tarik Muharemović's ankle, which would normally trigger an automatic one-match ban for the Belgium round-of-16 game. However, FIFA's disciplinary committee invoked FDC Article 27 to suspend the automatic ban for a one-year probationary period, clearing Balogun to play against Belgium — confirmed by multiple major outlets (two independent ESPN reports, Yahoo Sports, Al Jazeera, NBC News, Fox Sports) as only the second known instance of FIFA lifting a World Cup red-card suspension, after Garrincha in the 1962 final. ⚠️This is a rare procedural ruling rather than routine injury news, and directly boosts USA's attacking outlook; prior market pricing (China Sports Lottery: USA win @2.44 / draw @3.26 / Belgium win @2.42) likely hasn't fully priced this in yet — watch for odds movement toward USA. On Belgium's side: Zeno Debast (leg) remains a doubt for the entire tournament, Leandro Trossard is confirmed fit despite an issue, and De Bruyne/Doku are expected to start as usual.",
+   "links": [
+    {
+     "name": "ESPN: USMNT's Folarin Balogun has red card suspended by FIFA, striker available to face Belgium",
+     "url": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium"
+    },
+    {
+     "name": "Al Jazeera: Trump thanks FIFA as it suspends Balogun's ban for Belgium World Cup match",
+     "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "match": "周一093",
+   "impact": "西班牙双翼缺战",
+   "tone": "negative",
+   "text": "西班牙双边锋尼科·威廉姆斯(腹股沟/内收肌拉伤)与耶雷米·平诺(肩锁关节韧带扭伤)对阵葡萄牙均预计缺战,预测阵容改由亚马尔+巴埃纳出任边路、奥亚萨瓦尔客串中锋。(ESPN/Yahoo Sports双源核实)",
+   "en": "Spain's Nico Williams (groin/adductor strain) and Yeremy Pino (AC joint sprain) are both expected out for Portugal, with predicted lineup shifting to Yamal and Baena on the flanks and Oyarzabal through the middle. (ESPN/Yahoo Sports corroborated)",
+   "full": "07-06 05:10 BJT情报更新:周一093葡萄牙vs西班牙(07-07 03:00开球)——西班牙双边锋均带伤:尼科·威廉姆斯(Nico Williams)对阵乌拉圭一战右侧内收肌再度拉伤,本人称'这是我人生最糟糕的日子之一';耶雷米·平诺(Yeremy Pino)同场因对抗遭遇肩锁关节韧带扭伤,一度担心锁骨骨折(西班牙足协确认排除骨折)。西班牙足协声明'两人伤情均为中度,能否出战取决于恢复进度',目前预测两人对阵葡萄牙均缺战,德拉富恩特(de la Fuente)预计仍以亚马尔(Yamal)+巴埃纳(Baena)出任左右边路、奥亚萨瓦尔(Oyarzabal)客串中锋顶替进攻,法比安·鲁伊斯(Fabian Ruiz)可能替换对奥地利一战表现不佳的奥尔莫或佩德里。葡萄牙方面无伤病报告,C罗预计以41岁高龄继续首发。国际共识/竞彩赔率(葡萄牙胜@3.83/平@3.30/西班牙胜@1.77)暂未因双翼缺战信息显著调整,需留意后续是否随伤情明朗而漂移。(ESPN两篇独立报道+Yahoo Sports多源核实)",
+   "enFull": "July 6, 05:10 BJT update (kickoff 07-07 03:00 BJT): Both Spain wingers are carrying injuries. Nico Williams re-strained his right adductor against Uruguay, calling it 'one of the worst days of my life'; Yeremy Pino suffered an AC joint sprain in a collision in the same match, with an initial fracture fear later ruled out by the Spanish federation. The RFEF says 'both injuries are moderate, availability depends on recovery progress' — both are currently expected out for Portugal, with de la Fuente predicted to keep Yamal and Baena on the flanks and Oyarzabal through the middle, while Fabian Ruiz could replace an underperforming Olmo or Pedri. Portugal report no injury concerns, with Ronaldo, 41, expected to start again. International consensus/China Sports Lottery odds (Portugal @3.83 / draw @3.30 / Spain @1.77) have not moved significantly on this news yet — worth watching for drift as fitness clarifies. (Two independent ESPN reports plus Yahoo Sports corroboration)",
+   "links": [
+    {
+     "name": "ESPN: Spain's Nico Williams on injury: One of worst days of my life",
+     "url": "https://www.espn.com/soccer/story/_/id/49200729/spain-nico-williams-injury-yeremy-pino-2026-world-cup"
+    },
+    {
+     "name": "Yahoo Sports: Spain XI vs Portugal: Confirmed team news, predicted lineup and injury latest",
+     "url": "https://sports.yahoo.com/articles/spain-xi-vs-portugal-confirmed-185630668.html"
+    }
+   ]
+  },
+  {
    "date": "2026-07-05",
    "match": "周日092",
    "impact": "图赫尔实锤匡萨",
