@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-06 10:10:06",
+ "fetched_at": "2026-07-06 11:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -56,11 +56,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -74,15 +74,15 @@ window.ODDS_DATA = {
    "time": "08:00",
    "status": "Selling",
    "had": {
-    "h": "2.40",
-    "d": "3.26",
-    "a": "2.46",
-    "updated": "2026-07-06 09:44:36"
+    "h": "2.35",
+    "d": "3.30",
+    "a": "2.50",
+    "updated": "2026-07-06 11:07:09"
    },
    "hhad": {
-    "h": "1.40",
-    "d": "4.45",
-    "a": "5.25",
+    "h": "1.39",
+    "d": "4.50",
+    "a": "5.35",
     "line": "+1",
     "tier": "shallow",
     "tier_label": "浅让·主战场",
@@ -92,12 +92,12 @@ window.ODDS_DATA = {
      0.165
     ],
     "mkt": [
-     0.632,
-     0.199,
-     0.169
+     0.637,
+     0.197,
+     0.166
     ],
-    "val_top": 0.91,
-    "edge_top": 0.005,
+    "val_top": 0.92,
+    "edge_top": 0.007,
     "mirage": false,
     "top_label": "让平",
     "verdict": "市场≈模型·无边"
@@ -118,11 +118,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   },
@@ -179,12 +179,12 @@ window.ODDS_DATA = {
    },
    "elig": {
     "hhad": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     },
     "had": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     }
    }
   },
@@ -242,11 +242,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 0
+     "allUp": 1
     },
     "had": {
-     "single": 0,
-     "allUp": 0
+     "single": 1,
+     "allUp": 1
     }
    }
   }
