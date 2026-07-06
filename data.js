@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 15:10",
+  "updated": "2026-07-06 16:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-06",
+   "match": "周二096",
+   "impact": "科尔多瓦缺战",
+   "tone": "positive",
+   "text": "哥伦比亚锋线主力约翰·科尔多瓦对阵加纳一役第8分钟即因内收肌撕裂伤退,已确认本届世界杯报销,预计苏亚雷斯顶替出任独箭头。瑞士方面艾比舍尔(肌肉伤)恢复进度存疑仍在个人训练。(Sports Mole/RotoWire/ColombiaOne多源核实)",
+   "en": "Colombia's starting striker Jhon Cordoba was subbed off just 8 minutes into the Ghana match with an adductor tear and is confirmed out for the rest of the World Cup; Luis Suarez is expected to lead the line instead. Switzerland's Michel Aebischer (muscle injury) remains a fitness doubt, still training individually. (Sports Mole/RotoWire/ColombiaOne corroborated)",
+   "full": "07-06 16:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——哥伦比亚锋线主力约翰·科尔多瓦(Jhon Cordoba)对阵加纳一役第8分钟即因内收肌撕裂伤被换下,是本届世界杯哥伦比亚首发球员最早的伤退换人,随后确诊为内收肌撕裂、预计缺席4周,即本届世界杯剩余赛程报销。此前科尔多瓦已从苏亚雷斯手中抢回主力箭头位置,他的缺阵预计由路易斯·苏亚雷斯(Luis Suarez)顶替首发,库乔·埃尔南德斯(Cucho Hernandez)为唯一另一名可用的正印前锋。洛伦索(Lorenzo)其余阵容无新增伤病报告,预计以一套经验丰富的阵容出战。瑞士方面:米歇尔·艾比舍尔(Michel Aebischer,肌肉伤)仍在个人训练以求尽快复出,能否首战阿根廷组第二轮出战八强存疑。国际共识(Polymarket,07-05开盘以来首次纳入36h焦点窗口)瑞士27.1%/平31.0%/哥伦比亚41.9%,竞彩赔率暂无显著漂移。(Sports Mole/RotoWire/ColombiaOne/Bolavip多源核实)",
+   "enFull": "July 6, 16:10 BJT update (kickoff 07-08 04:00 BJT): Colombia's first-choice striker Jhon Cordoba was subbed off just 8 minutes into the round-of-32 win over Ghana — the earliest injury substitution for a Colombian starter in World Cup history — and has since been diagnosed with an adductor tear expected to keep him out roughly 4 weeks, ruling him out for the rest of the tournament. Cordoba had recently reclaimed the starting striker role from Luis Suarez, who is now expected to lead the line again, with Cucho Hernandez the only other recognized frontline option. Manager Nestor Lorenzo has no other reported injury concerns and is expected to field an otherwise settled, experienced side. On Switzerland's side, Michel Aebischer (muscle injury) remains a doubt, still training individually in hopes of being ready. International consensus (Polymarket, entering the 36h focus window for the first time since opening 07-05) has Switzerland 27.1% / draw 31.0% / Colombia 41.9%, with no significant odds drift so far. (Sports Mole/RotoWire/ColombiaOne/Bolavip corroborated)",
+   "links": [
+    {
+     "name": "Bolavip: Jhon Cordoba reportedly out of 2026 World Cup as Colombia's striker suffers gruesome injury",
+     "url": "https://bolavip.com/en/world-cup/jhon-cordoba-reportedly-out-of-2026-world-cup-as-colombias-striker-suffers-gruesome-injury"
+    },
+    {
+     "name": "Sports Mole: Colombia lineup vs. Switzerland — who replaces injured striker Cordoba",
+     "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/who-replaces-injured-striker-cordoba-predicted-colombia-xi-vs-switzerland_600748.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "match": "周二095",
+   "impact": "埃及防线三缺",
+   "tone": "positive",
+   "text": "埃及对阵阿根廷面临三名后卫伤情:法图赫(左后卫,大腿/腘绳肌)大概率缺战,阿卜杜勒蒙纳姆(中卫,脚踝)状态存疑,哈菲兹(左后卫,大腿)同为疑问人选,防线出现空档。(Sports Mole/Ahram Online双源核实)",
+   "en": "Egypt face three defender doubts against Argentina: left-back Ahmed Fatouh (thigh/hamstring) is likely out, centre-back Mohamed Abdelmonem (ankle) is touch-and-go, and left-back Karim Hafez (thigh) is also a doubt, leaving the backline short. (Sports Mole/Ahram Online corroborated)",
+   "full": "07-06 16:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球)——埃及主帅哈桑(Hassan)本场可能同时缺少三名后卫:艾哈迈德·法图赫(Ahmed Fatouh,左后卫)大腿伤势被曝实为腘绳肌撕裂,恢复难度大、大概率缺战对阵澳大利亚点球战的替补出场机会渺茫;穆罕默德·阿卜杜勒蒙纳姆(Mohamed Abdelmonem,中卫)小组赛对伊朗时脚踝受伤,列入哈桑的'临场决定'观察名单,该球员本届世界杯此前才刚从十字韧带重伤复出;卡里姆·哈菲兹(Karim Hafez,左后卫)同样因大腿伤势存疑。三人若均缺阵,埃及防线将出现明显空档。利好消息:此前发烧/伤情引发关注的萨拉赫(Salah)预计将正常出战。阿根廷方面伤情较轻:尼科·冈萨雷斯(Nico Gonzalez)、法昆多·梅迪纳(Facundo Medina,被淡化为抽筋)带轻伤,梅西领衔的锋线预计正常首发。国际共识(Polymarket)阿根廷70.4%/平20.2%/埃及9.4%,已持续两轮无显著漂移,竞彩赔率与埃及防线伤情尚未出现明显联动。(Sports Mole/Ahram Online/Racing Post多源核实)",
+   "enFull": "July 6, 16:10 BJT update (kickoff 07-08 00:00 BJT): Egypt boss Hossam Hassan could be missing three defenders at once against Argentina: left-back Ahmed Fatouh's thigh issue is reportedly a hamstring tear that makes a quick recovery unlikely, leaving him a long shot to feature after already missing the Australia penalty-shootout win; centre-back Mohamed Abdelmonem, who picked up an ankle injury against Iran in the group stage after only recently returning from a long ACL layoff, is on Hassan's 'game-time decision' list; and left-back Karim Hafez is also a doubt with a thigh problem. If all three are out, Egypt's backline would have a clear gap. On the positive side, Mohamed Salah — whose fitness had been a talking point — is expected to be fine to start. Argentina's fitness picture is lighter: Nico Gonzalez and Facundo Medina (his issue downplayed as cramp) carry minor knocks, but Messi and the rest of the attack are expected to start as normal. International consensus (Polymarket) has Argentina 70.4% / draw 20.2% / Egypt 9.4%, stable across two refresh cycles with no sign yet of the odds reacting to Egypt's defensive injury news. (Sports Mole/Ahram Online/Racing Post corroborated)",
+   "links": [
+    {
+     "name": "Sports Mole: Egypt lineup vs. Argentina — predicted XI amid triple defensive injury concern",
+     "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/predicted-lineups/a-decimated-defence-predicted-egypt-xi-vs-argentina_600707.html"
+    },
+    {
+     "name": "Ahram Online: Salah starts rehab, Fatouh likely out as Egypt prepare for Australia knockout tie",
+     "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=571750"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周一094",
