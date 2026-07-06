@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-07 00:12:20",
+ "fetched_at": "2026-07-07 01:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -21,7 +21,24 @@ window.ODDS_DATA = {
     "h": "1.77",
     "d": "3.28",
     "a": "3.85",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.492,
+     0.245,
+     0.263
+    ],
+    "mkt": [
+     0.5,
+     0.27,
+     0.23
+    ],
+    "val_top": 1.01,
+    "edge_top": 0.033,
+    "mirage": false,
+    "top_label": "让负",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "15.00",
@@ -66,7 +83,24 @@ window.ODDS_DATA = {
     "h": "1.33",
     "d": "4.75",
     "a": "6.00",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.679,
+     0.182,
+     0.139
+    ],
+    "mkt": [
+     0.666,
+     0.186,
+     0.148
+    ],
+    "val_top": 0.9,
+    "edge_top": 0.013,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "11.50",
@@ -111,7 +145,24 @@ window.ODDS_DATA = {
     "h": "1.86",
     "d": "3.45",
     "a": "3.32",
-    "line": "-1"
+    "line": "-1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.49,
+     0.248,
+     0.262
+    ],
+    "mkt": [
+     0.476,
+     0.257,
+     0.267
+    ],
+    "val_top": 0.91,
+    "edge_top": 0.014,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "5.70",
@@ -156,7 +207,24 @@ window.ODDS_DATA = {
     "h": "1.49",
     "d": "3.62",
     "a": "5.50",
-    "line": "+1"
+    "line": "+1",
+    "tier": "shallow",
+    "tier_label": "浅让·主战场",
+    "model": [
+     0.625,
+     0.227,
+     0.149
+    ],
+    "mkt": [
+     0.594,
+     0.245,
+     0.161
+    ],
+    "val_top": 0.93,
+    "edge_top": 0.03,
+    "mirage": false,
+    "top_label": "让胜",
+    "verdict": "市场≈模型·无边"
    },
    "crs": {
     "1:0": "9.00",
