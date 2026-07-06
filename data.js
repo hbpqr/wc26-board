@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 03:10",
+  "updated": "2026-07-07 04:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周二096",
+   "impact": "瑞士雅克伤疑新增",
+   "tone": "negative",
+   "text": "瑞士右后卫卢卡·雅克(大腿肌肉伤)继艾比舍尔之后再添一名个人训练中的疑似缺战球员,两人伤情均待赛前最终确认。(RotoWire/Yahoo Sports双源核实)",
+   "en": "Switzerland right-back Luca Jaquez (thigh muscle issue) joins Aebischer on the individual-training doubtful list, with both fitness calls pending until close to kickoff. (RotoWire/Yahoo Sports corroborated)",
+   "full": "07-07 04:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——新增瑞士伤情:右后卫卢卡·雅克(Luca Jaquez)因大腿肌肉不适,继此前已知的米歇尔·艾比舍尔(Michel Aebischer,肌肉伤)之后,成为第二名仍在个人训练、未回归大部队合练的瑞士球员。雅克此前在小组赛末轮对阵加拿大出任右后卫首发,此后因肌肉问题存疑缺席对阿尔及利亚一战,目前对哥伦比亚一战能否出战仍是逐日观察。哥伦比亚方面口径不变(科尔多瓦报销、J罗因病存疑)。国际共识/竞彩赔率暂未见因此新增变化。(RotoWire两篇独立报道+Yahoo Sports核实)",
+   "enFull": "July 7, 04:10 BJT update (kickoff 07-08 04:00 BJT): New Switzerland fitness concern — right-back Luca Jaquez (thigh muscle issue) joins Michel Aebischer as a second player still training individually rather than with the full squad. Jaquez started at right-back in the final group game against Canada, then was already a doubt for the Algeria match with the same issue; his availability for Colombia remains day-to-day. Colombia's situation is unchanged (Cordoba out for the tournament, James Rodriguez a doubt with illness). No odds movement tied to this so far. (Two independent RotoWire reports plus Yahoo Sports corroboration)",
+   "links": [
+    {
+     "name": "RotoWire: Luca Jaquez Injury: Sits out training with muscle issue",
+     "url": "https://www.rotowire.com/soccer/headlines/luca-jaquez-injury-sits-out-training-with-muscle-issue-521955"
+    },
+    {
+     "name": "Yahoo Sports: Switzerland defender Jaquez doubtful for match against Algeria",
+     "url": "https://sports.yahoo.com/articles/switzerland-defender-jaquez-doubtful-match-003423909.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周一094",
