@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 06:10",
+  "updated": "2026-07-06 08:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2132,6 +2132,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-06",
+   "match": "周日092",
+   "impact": "开球延迟1小时",
+   "tone": "neutral",
+   "text": "墨西哥城赛区因雷电天气,墨西哥vs英格兰开球由当地18:00延迟1小时至19:00(即北京时间由08:00顺延至09:00);同时官方确认首发:英格兰匡萨(Quansah)顶替斯彭斯首发右后卫,詹姆斯未进首发名单;墨西哥方面阿尔瓦雷斯(Alvarez)未首发。(ESPN+多源核实)",
+   "en": "Kickoff for Mexico vs England (Azteca) delayed one hour by lightning/storms, from 6pm to 7pm local (08:00→09:00 BJT); confirmed England XI has Quansah starting at right-back over Spence, with James left out of the starting XI; Mexico's Alvarez also not in the starting lineup. (ESPN + multiple sources)",
+   "full": "07-06 08:10 BJT情报更新:周日092墨西哥vs英格兰——因墨西哥城赛区雷电/强降雨预警,原定当地18:00(北京08:00)开球的比赛官方延迟1小时至当地19:00(北京09:00)开球;此前墨西哥政府曾提议提前开球时间以规避午后雷雨,但遭墨西哥足协与英足总反对、FIFA维持原定18:00不变,结果天气如期而至仍被迫延迟。同批确认双方首发:英格兰按图赫尔赛前口径,匡萨(Quansah)伤愈复出顶替斯彭斯(Spence)首发右后卫,詹姆斯(James)未获首发(与既有'匡萨大概率首发、詹姆斯至多替补'口径一致,现已由首发名单实锤);墨西哥方面埃德森·阿尔瓦雷斯(Edson Alvarez)未首发。国际共识/竞彩赔率暂未因延迟或首发名单产生显著漂移。(ESPN关于延迟的报道+PrizePicks/World Soccer Talk关于首发的报道,共4个独立信源)",
+   "enFull": "July 6, 08:10 BJT update: Mexico vs England kickoff at Estadio Azteca was pushed back one hour, from 6pm to 7pm local time (08:00→09:00 BJT), due to lightning/storm warnings in Mexico City. The Mexican government had earlier sought to move kickoff earlier to avoid afternoon storms, but the Mexican Football Federation and the FA opposed the change and FIFA kept the original 6pm slot — the delay happened anyway once the forecast storm arrived. Confirmed starting lineups: England start Jarell Quansah at right-back (over Djed Spence) per Tuchel's pre-match comments, with Reece James left out of the XI — consistent with the prior 'Quansah likely starts, James bench at best' reporting, now locked in by the official team sheet; Mexico's Edson Alvarez is also not in the starting XI. No significant odds movement tied to the delay or lineups so far. (ESPN report on the delay plus PrizePicks/World Soccer Talk lineup reports — four independent sources total)",
+   "links": [
+    {
+     "name": "ESPN: Sources - Mexico vs. England World Cup kickoff time unchanged after talks",
+     "url": "https://www.espn.com/soccer/story/_/id/49260497/mexico-vs-england-world-cup-clash-brought-forward-six-hours-sources"
+    },
+    {
+     "name": "PrizePicks: Mexico vs. England Lineups Confirmed, Starting XIs for World Cup Tonight",
+     "url": "https://www.prizepicks.com/playbook-article/mexico-vs-england-lineups-confirmed-starting-xis-world-cup-tonight"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周一094",
