@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 13:10",
+  "updated": "2026-07-06 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2172,26 +2172,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-07-06",
-   "match": "周日092",
-   "impact": "开球延迟1小时",
-   "tone": "neutral",
-   "text": "墨西哥城赛区因雷电天气,墨西哥vs英格兰开球由当地18:00延迟1小时至19:00(即北京时间由08:00顺延至09:00);同时官方确认首发:英格兰匡萨(Quansah)顶替斯彭斯首发右后卫,詹姆斯未进首发名单;墨西哥方面阿尔瓦雷斯(Alvarez)未首发。(ESPN+多源核实)",
-   "en": "Kickoff for Mexico vs England (Azteca) delayed one hour by lightning/storms, from 6pm to 7pm local (08:00→09:00 BJT); confirmed England XI has Quansah starting at right-back over Spence, with James left out of the starting XI; Mexico's Alvarez also not in the starting lineup. (ESPN + multiple sources)",
-   "full": "07-06 08:10 BJT情报更新:周日092墨西哥vs英格兰——因墨西哥城赛区雷电/强降雨预警,原定当地18:00(北京08:00)开球的比赛官方延迟1小时至当地19:00(北京09:00)开球;此前墨西哥政府曾提议提前开球时间以规避午后雷雨,但遭墨西哥足协与英足总反对、FIFA维持原定18:00不变,结果天气如期而至仍被迫延迟。同批确认双方首发:英格兰按图赫尔赛前口径,匡萨(Quansah)伤愈复出顶替斯彭斯(Spence)首发右后卫,詹姆斯(James)未获首发(与既有'匡萨大概率首发、詹姆斯至多替补'口径一致,现已由首发名单实锤);墨西哥方面埃德森·阿尔瓦雷斯(Edson Alvarez)未首发。国际共识/竞彩赔率暂未因延迟或首发名单产生显著漂移。(ESPN关于延迟的报道+PrizePicks/World Soccer Talk关于首发的报道,共4个独立信源)",
-   "enFull": "July 6, 08:10 BJT update: Mexico vs England kickoff at Estadio Azteca was pushed back one hour, from 6pm to 7pm local time (08:00→09:00 BJT), due to lightning/storm warnings in Mexico City. The Mexican government had earlier sought to move kickoff earlier to avoid afternoon storms, but the Mexican Football Federation and the FA opposed the change and FIFA kept the original 6pm slot — the delay happened anyway once the forecast storm arrived. Confirmed starting lineups: England start Jarell Quansah at right-back (over Djed Spence) per Tuchel's pre-match comments, with Reece James left out of the XI — consistent with the prior 'Quansah likely starts, James bench at best' reporting, now locked in by the official team sheet; Mexico's Edson Alvarez is also not in the starting XI. No significant odds movement tied to the delay or lineups so far. (ESPN report on the delay plus PrizePicks/World Soccer Talk lineup reports — four independent sources total)",
-   "links": [
-    {
-     "name": "ESPN: Sources - Mexico vs. England World Cup kickoff time unchanged after talks",
-     "url": "https://www.espn.com/soccer/story/_/id/49260497/mexico-vs-england-world-cup-clash-brought-forward-six-hours-sources"
-    },
-    {
-     "name": "PrizePicks: Mexico vs. England Lineups Confirmed, Starting XIs for World Cup Tonight",
-     "url": "https://www.prizepicks.com/playbook-article/mexico-vs-england-lineups-confirmed-starting-xis-world-cup-tonight"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
    "match": "周一094",
    "impact": "巴洛贡解禁复出",
    "tone": "positive",
@@ -2227,166 +2207,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Spain XI vs Portugal: Confirmed team news, predicted lineup and injury latest",
      "url": "https://sports.yahoo.com/articles/spain-xi-vs-portugal-confirmed-185630668.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日092",
-   "impact": "图赫尔实锤匡萨",
-   "tone": "positive",
-   "text": "主帅图赫尔赛前发布会亲口证实：'匡萨(Jarrell)训练了、完全可用'，大腿/脚踝伤愈后有望顶替斯彭斯首发右后卫；詹姆斯(Reece James)可能重返比赛日大名单坐替补席，但需赛前(07-06 18:00当地/北京08:00开球前)最后体测和医疗组评估才能确定。这份来自图赫尔本人的官方表态，解决了此前11:10/17:10情报口径中'预测阵容稿件称James/Quansah仍双双缺阵'与'匡萨已恢复全训'之间的冲突。(Sky Sports/Tribune双源核实)",
-   "en": "Head coach Tuchel confirmed at his pre-match press conference: 'Jarrell trained and is fully available,' with Quansah in line to start at right-back over Spence after recovering from injury; Reece James could return to the matchday squad on the bench, pending a final fitness assessment before kickoff. This official confirmation from Tuchel himself resolves the earlier 11:10/17:10 BJT conflict between predicted-lineup pieces suggesting both James and Quansah remained sidelined and the previously reported 'Quansah back in full training.' (Sky Sports/Tribune corroborated)",
-   "full": "07-05 18:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00 BJT开球)——主帅图赫尔在赛前发布会中亲口确认：'贾雷尔(匡萨)训练了、完全可以出战'，大腿/脚踝伤情已愈，有望在客场对阵墨西哥一战顶替此前对刚果金表现不佳的斯彭斯(Djed Spence)首发右后卫。同时图赫尔透露里斯·詹姆斯(Reece James，腘绳肌伤)有望重返比赛日大名单、可能坐上替补席，但他强调'James最多能上替补席，仍需赛前最后一次体测和医疗团队评估意见'才能最终定论。这是本轮首次由主帅本人在正式发布会中给出的权威表态，解决了此前11:10/17:10情报里'预测阵容类稿件称James与Quansah仍双双缺阵'与'匡萨已恢复全训确认可战'两种口径的冲突——冲突已解，口径明朗为：匡萨大概率首发，詹姆斯至多替补且仍待最终体测。国际共识(Polymarket)英格兰39.7%/平30.7%/墨西哥29.6%(持平未因此调整)。(Sky Sports两篇独立报道+Tribune交叉核实)",
-   "enFull": "July 5, 18:10 BJT update (kickoff 07-06 08:00 BJT): Head coach Thomas Tuchel confirmed directly in his pre-match press conference that 'Jarrell trained and is fully available' — Quansah has recovered from his thigh/ankle injury and is in line to start at right-back away at Mexico, replacing Djed Spence after his shaky showing against DR Congo. Tuchel also revealed Reece James (hamstring) could return to the matchday squad, possibly on the bench, but stressed 'Reece can maybe make it on the bench, but we need a last assessment from the doctors and a medical opinion' before kickoff. This is the first authoritative, on-the-record confirmation from the head coach himself this round, resolving the prior 11:10/17:10 BJT conflict between predicted-lineup pieces claiming both James and Quansah remained sidelined, and earlier reports that Quansah had returned to full training. The picture is now clear: Quansah likely starts, James bench-only pending final fitness test. International consensus (Polymarket) unchanged: England 39.7% / Draw 30.7% / Mexico 29.6%. (Two independent Sky Sports reports plus Tribune corroboration)",
-   "links": [
-    {
-     "name": "Sky Sports: Mexico vs England World Cup last 16 - Thomas Tuchel faces another right-back dilemma as Azteca awaits",
-     "url": "https://www.skysports.com/football/news/12016/13560378/mexico-vs-england-world-cup-last-16-thomas-tuchel-faces-another-right-back-dilemma-as-azteca-awaits"
-    },
-    {
-     "name": "The Tribune: FIFA World Cup 2026 - England boss Tuchel gives fitness updates on Reece, Quansah",
-     "url": "https://www.tribuneindia.com/news/sports/fifa-world-cup-2026-england-boss-tuchel-gives-fitness-updates-on-reece-quansah/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日092",
-   "impact": "匡萨解禁詹皇存疑",
-   "tone": "neutral",
-   "text": "匡萨(Quansah)伤愈已恢复全部训练、确认可出战墨西哥；詹姆斯(James)周六合练唯一缺席、独自训练,天空体育称其'世界杯可能因伤提前结束'，即便复出也大概率只能坐替补席。右后卫从此前'二选一悬念'明朗为'匡萨大概率顶替'。(Yahoo Sports/Sky Sports多源)",
-   "en": "Quansah has returned to full training and is confirmed fit to face Mexico; James was the only absentee at Saturday's session and trained alone — Sky Sports says his World Cup 'potentially over' due to hamstring, with a bench role at best if he returns. The right-back picture shifts from a toss-up to Quansah as likely starter. (Yahoo Sports/Sky Sports)",
-   "full": "07-05 15:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——右后卫位置出现明显转折：贾雷尔·匡萨(Jarell Quansah，大腿伤)已恢复全部训练，英媒确认'解禁可出战墨西哥'，此前困扰图赫尔的右后卫隐忧因此缓解；与此同时里斯·詹姆斯(Reece James，腘绳肌伤)周六合练中唯一缺席、独自训练，天空体育报道其'世界杯可能因伤提前结束'，即便复出最多也只能坐上替补席，需医疗组和教练组共同评估是否值得冒险。此前06:15/11:10情报口径'James/Quansah二选一''图赫尔右后卫难题'如今明朗为：匡萨大概率首发，詹姆斯大概率缺阵或仅替补，斯彭斯(Spence)此前对刚果金一战表现不佳后的替代方案也随之淡化。国际共识(Polymarket)英格兰39.7%/平30.7%/墨西哥29.6%，暂未因此显著调整。(Yahoo Sports两篇独立报道+Sky Sports/Modern Ghana多源核实)",
-   "enFull": "July 5, 15:10 BJT update (kickoff 07-06 08:00 BJT): England's right-back picture has clarified. Jarell Quansah (thigh) has returned to full training and is confirmed fit for Mexico, easing Tuchel's earlier right-back concern. Meanwhile Reece James (hamstring) was the only player absent from Saturday's session, training alone — Sky Sports reports his World Cup is 'potentially over,' and even if he returns it would likely be a bench role pending medical and coaching assessment. This resolves the earlier 06:15/11:10 BJT framing of 'James vs Quansah' and 'Tuchel's right-back problem' — Quansah is now the likely starter, James likely out or bench-only, and the Spence-as-fallback storyline (after his poor showing vs DR Congo) has faded. International consensus (Polymarket) little changed: England 39.7% / Draw 30.7% / Mexico 29.6%. (Two independent Yahoo Sports reports plus Sky Sports/Modern Ghana corroboration)",
-   "links": [
-    {
-     "name": "Yahoo Sports: Reece James trains alone before England face Mexico but Jarell Quansah has hope",
-     "url": "https://uk.sports.yahoo.com/news/reece-james-trains-alone-england-231652792.html"
-    },
-    {
-     "name": "Sky Sports: Reece James injury - England right-back's World Cup potentially over due to hamstring problem",
-     "url": "https://www.skysports.com/football/news/11095/13558203/reece-james-injury-england-right-backs-world-cup-potentially-over-due-to-hamstring-problem"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日091",
-   "impact": "拉菲尼亚解禁",
-   "tone": "positive",
-   "text": "安切洛蒂(7/5)确认拉菲尼亚已解禁可出战挪威，本人称'还没到100%，但能踢几分钟帮球队'——从此前'希望渺茫'升级为替补可用(预计不首发)。(beIN Sports/Goal.com/SI.com多源)",
-   "en": "Ancelotti confirmed (July 5) Raphinha is available to face Norway — the player himself says he's 'not at 100% but can give a few minutes' — an upgrade from 'little chance' to fit-as-substitute (unlikely to start). (beIN Sports/Goal.com/SI.com)",
-   "full": "07-05 11:10 BJT情报更新：周日091巴西vs挪威(07-06 04:00开球)——主帅安切洛蒂(Carlo Ancelotti)在7月5日赛前发布会中确认拉菲尼亚(Raphinha·右大腿肌纤维撕裂)已解禁，可以入选对阵挪威的比赛，较此前06:15情报'训练积极但ESPN称希望渺茫、目标推迟至8强'明显升级；拉菲尼亚本人受访表示'还没到100%状态，但能上场踢几分钟帮助球队'，暗示预计以替补身份出场而非首发。帕奎塔(大腿伤)仍确认缺战，卡塞米罗预计可正常出战不变。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因此调整。(beIN Sports/Goal.com/SI.com三源核实)",
-   "enFull": "July 5, 11:10 BJT update (kickoff 07-06 04:00 BJT): Manager Carlo Ancelotti confirmed at his July 5 pre-match press conference that Raphinha (right thigh muscle tear) has been cleared to be part of the squad against Norway — an upgrade from the 06:15 BJT update ('positive training signal but ESPN says little chance, target pushed to quarterfinal'). Raphinha himself said he's 'not at 100% but can give a few minutes to help the team,' suggesting a substitute appearance rather than a start. Paqueta (thigh) remains ruled out, and Casemiro is still expected to be fine. International consensus (Polymarket) unchanged: Brazil 53.2% / Draw 26.4% / Norway 20.4%. (beIN Sports/Goal.com/SI.com corroboration)",
-   "links": [
-    {
-     "name": "beIN Sports: Carlo Ancelotti Confirms Raphinha's Return and Changes Brazil's Outlook Against Norway",
-     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/carlo-ancelotti-confirms-raphinha-s-return-and-changes-brazil-s-outlook-against-norway-2026-07-05"
-    },
-    {
-     "name": "SI.com: Brazil Receives Major Raphinha Injury Boost Ahead of Norway Clash",
-     "url": "https://www.si.com/soccer/brazil-major-raphinha-injury-boost-norway-clash"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日092",
-   "impact": "右后卫生变",
-   "tone": "neutral",
-   "text": "图赫尔对阵刚果(金)一战对斯彭斯(Spence)表现大发雷霆，70分钟将其换下改由赖斯客串右后卫；叠加匡萨伤情同为疑问号，英格兰右后卫位置比此前'詹姆斯待定'更混乱。(Sky Sports/GiveMeSport双源)",
-   "en": "Tuchel was furious at Djed Spence's display vs DR Congo, hooking him in the 70th minute and switching Rice to right-back; with Quansah also a doubt, England's right-back situation is now messier than the earlier 'James pending' picture. (Sky Sports/GiveMeSport)",
-   "full": "07-05 11:10 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——对阵刚果民主共和国一役，主帅图赫尔(Thomas Tuchel)对右后卫德耶德·斯彭斯(Djed Spence)的表现明显不满，第70分钟将其换下，改用德克兰·赖斯(Rice)客串右后卫，英格兰随后逆转取胜；卡拉格(Carragher)等评论指出，叠加匡萨(Quansah)伤情同为对阵墨西哥的疑问号，图赫尔实际上给自己制造了一个'右后卫难题'——原本被视为回归人选的詹姆斯(James)是否首发，如今要和'赖斯客串'方案一起权衡，比此前06:15情报'James/Quansah二选一'更复杂。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，暂未因此调整。(Sky Sports/GiveMeSport双源核实)",
-   "enFull": "July 5, 11:10 BJT update (kickoff 07-06 08:00 BJT): Against DR Congo, manager Thomas Tuchel was visibly angry at right-back Djed Spence's performance, substituting him in the 70th minute and shifting Declan Rice to fill in at right-back; England went on to win. Pundits including Jamie Carragher note that, with Quansah also a doubt for Mexico, Tuchel has created his own 'right-back problem' — whether James starts on his return now has to be weighed against the Rice-at-right-back option, making the picture messier than the earlier 06:15 BJT 'James vs Quansah' framing. International consensus (Polymarket) unchanged: England 39.3% / Draw 30.3% / Mexico 30.3%. (Sky Sports/GiveMeSport corroboration)",
-   "links": [
-    {
-     "name": "Sky Sports: England boss Thomas Tuchel has created World Cup right-back problem ahead of Mexico last-16 game, says Jamie Carragher",
-     "url": "https://www.skysports.com/football/news/12040/13560384/england-boss-thomas-tuchel-has-created-world-cup-right-back-problem-ahead-of-mexico-last-16-game-says-jamie-carragher"
-    },
-    {
-     "name": "GiveMeSport: World Cup: Thomas Tuchel Went Ballistic at Djed Spence During England vs DR Congo",
-     "url": "https://www.givemesport.com/thomas-tuchel-ballistic-djed-spence-england-world-cup-dr-congo/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日092",
-   "impact": "詹姆斯仍不确定",
-   "tone": "neutral",
-   "text": "图赫尔赛前发布会证实：匡萨(Quansah)伤愈进度略快于詹姆斯(James)，James若出战墨西哥也大概率仅替补登场，右后卫仍是隐患。(ESPN/Sports Mole/Yardbarker多源)",
-   "en": "Tuchel's pre-match presser confirmed Quansah is slightly ahead of James in his recovery — even if James is involved vs Mexico, it would likely be off the bench, leaving right-back a lingering concern. (ESPN/Sports Mole/Yardbarker)",
-   "full": "07-05 06:15 BJT情报更新：周日092墨西哥vs英格兰(07-06 08:00开球)——主帅图赫尔(Thomas Tuchel)在赛前发布会中确认，匡萨(Jarell Quansah)的伤愈进度略快于詹姆斯(Reece James)，暗示詹姆斯回归时间表仍不确定；此前对阵刚果民主共和国一役图赫尔曾表示詹姆斯有望从替补席回归，但本次发布会未给出更明确定论，右后卫位置深度仍是已知隐患。赖斯(Rice)腘绳肌紧绷已确认对阵墨西哥无碍，与既有情报一致。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，暂未因此调整。(ESPN/Sports Mole/Yardbarker多源核实)",
-   "enFull": "July 5, 06:15 BJT update (kickoff 07-06 08:00 BJT): Manager Thomas Tuchel confirmed at his pre-match press conference that Jarell Quansah's recovery is running slightly ahead of Reece James's, suggesting James's return timeline remains unsettled; ahead of the DR Congo game Tuchel had suggested James could return from the bench, but this latest presser offered no firmer confirmation, leaving right-back depth a lingering concern. Declan Rice's hamstring tightness is confirmed fine for Mexico, consistent with prior reporting. International consensus (Polymarket) unchanged: England 39.3% / Draw 30.3% / Mexico 30.3%. (ESPN/Sports Mole/Yardbarker corroboration)",
-   "links": [
-    {
-     "name": "Sports Mole: England injury, suspension list and return dates vs. Mexico",
-     "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-james-quansah-latest-england-injury-suspension-list-vs-mexico_600617.html"
-    },
-    {
-     "name": "Yardbarker: Will Reece James play against Mexico? Latest England injury update and return timeline",
-     "url": "https://www.yardbarker.com/soccer/articles/will_reece_james_play_against_mexico_latest_england_injury_update_and_return_timeline/s1_17664_44016055"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周六090",
-   "impact": "首发官宣",
-   "tone": "neutral",
-   "text": "法国、巴拉圭双方官方首发已出炉：法国4231科内替补图阿梅尼(拉比奥搭档)、图拉姆不在名单符合伤缺；巴拉圭迪亚戈·戈麦斯解禁复出，阿尔德雷特膝伤大概率缺席由卡纳莱顶替。(RotoWire/Yahoo Sports/beIN三源)",
-   "en": "Confirmed starting XIs are out for both sides: France's 4-2-3-1 has Kone deputising for the injured Tchouameni alongside Rabiot, with Thuram absent as expected; Paraguay's Diego Gomez returns from suspension, with Alderete (knee) expected to miss out for Canale. (RotoWire/Yahoo Sports/beIN)",
-   "full": "07-05 02:10 BJT情报：周六090巴拉圭vs法国(07-05 05:00开球)——双方官方确认首发。法国4-2-3-1：马里尼昂；孔德、乌帕梅卡诺、萨利巴、迪涅；曼努·科内、拉比奥双后腰(科内顶替伤缺的图阿梅尼)；登贝莱、奥利塞、巴尔科拉；姆巴佩，图拉姆(腓伤)不在名单，与此前情报一致。巴拉圭4-4-2：吉尔；卡塞雷斯、戈麦斯、卡纳莱、阿隆索；加拉尔萨、库巴斯、迭戈·戈麦斯(解禁复出，此前因对德国点球大战停赛缺席)；阿尔米隆、阿瓦洛斯、恩西索；中卫奥马尔·阿尔德雷特(膝伤)大概率仍缺阵，由卡纳莱顶替。国际共识(Polymarket)巴拉圭4.5%/平12.4%/法国83.1%，法国仍是绝对大热，官宣首发与预期一致，未引发盘口调整。(RotoWire/Yahoo Sports/beIN Sports三源核实)",
-   "enFull": "July 5, 02:10 BJT update (kickoff 07-05 05:00 BJT): Both confirmed starting XIs are out. France (4-2-3-1): Maignan; Kounde, Upamecano, Saliba, Digne; Manu Kone, Rabiot (Kone deputising for the injured Tchouameni); Dembele, Olise, Barcola; Mbappe — Thuram (calf) is absent as already known. Paraguay (4-4-2): Gill; Caceres, G. Gomez, Canale, Alonso; Galarza, Cubas, Diego Gomez (back from suspension after missing the shootout win over Germany); Almiron, Avalos, Enciso — centre-back Omar Alderete (knee) is still expected to miss out, with Canale deputising. International consensus (Polymarket) unchanged with France heavily favoured; the confirmed lineups matched expectations with no market reaction. (RotoWire/Yahoo Sports/beIN Sports corroboration)",
-   "links": [
-    {
-     "name": "RotoWire: Paraguay vs France Preview, Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-france-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120852"
-    },
-    {
-     "name": "Yahoo Sports: France Starting XI vs Paraguay: Confirmed Team News",
-     "url": "https://sports.yahoo.com/articles/france-stating-xi-vs-paraguay-105000250.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周日092",
-   "impact": "詹姆斯有望复出",
-   "tone": "positive",
-   "text": "英格兰赖斯(轻微腘绳肌紧绷)自称对阵墨西哥无碍；詹姆斯(腘绳肌)缺战两场后训练感觉良好，正争取复出，图赫尔赛前发布会将给最终定论。(ESPN/Sports Mole双源)",
-   "en": "England's Declan Rice says he'll be fine for Mexico despite hamstring tightness vs DR Congo; Reece James, out for two games, feels good in training and is pushing for a return, with Tuchel to confirm at the pre-match presser. (ESPN/Sports Mole)",
-   "full": "07-04 21:10 BJT情报：周日092墨西哥vs英格兰(07-06 08:00开球)——英格兰后腰德克兰·赖斯(Declan Rice)在对阵刚果民主共和国一战因腘绳肌紧绷一度踢得吃力(赛后形容『terrible pain』)，未踢满90分钟，但赛后向主帅图赫尔(Thomas Tuchel)保证备战墨西哥无碍。右后卫里斯·詹姆斯(Reece James，腘绳肌伤)已连续缺席英格兰上两场比赛，训练中反馈『感觉良好』，正争取复出，与匡萨(Jarell Quansah)一同在轻量训练中缺席、仍列伤情观察名单，图赫尔预计将在赛前发布会给出最终出场定论。国际共识(Polymarket)英格兰39.3%/平30.3%/墨西哥30.3%，英格兰略占优；若詹姆斯持续缺阵，右路防守深度仍是已知隐患，暂未导致盘口大幅调整。(ESPN/Sports Mole双源核实)",
-   "enFull": "July 4, 21:10 BJT update (kickoff 07-06 08:00 BJT): England midfielder Declan Rice struggled with hamstring tightness against DR Congo (describing it as 'terrible pain' post-match) and didn't finish the 90 minutes, but has assured manager Thomas Tuchel he'll be fine for Mexico. Right-back Reece James (hamstring), who has missed England's last two matches, reports feeling good in training and is pushing for a return; he was absent from a light training session alongside Jarell Quansah and remains a fitness watch, with Tuchel expected to give a final verdict at the pre-match press conference. International consensus (Polymarket): England 39.3% / Draw 30.3% / Mexico 30.3% — England slightly favoured; James's continued absence would remain a known weakness on the right side of defense, with no major market shift yet. (ESPN/Sports Mole corroboration)",
-   "links": [
-    {
-     "name": "ESPN: Declan Rice in 'terrible pain' vs Congo DR but fit for Mexico",
-     "url": "https://www.espn.com/soccer/story/_/id/49250143/declan-rice-terrible-pain-congo-dr-fit-england-mexico"
-    },
-    {
-     "name": "Sports Mole: England given Reece James injury boost before Mexico clash",
-     "url": "https://www.sportsmole.co.uk/football/england/injury-news/news/england-given-reece-james-injury-boost-before-mexico-world-cup-clash_600545.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周六089",
-   "impact": "科内伤缺",
-   "tone": "neutral",
-   "text": "加拿大科内(Ismael Kone)脚踝骨折缺阵，戴维斯(Davies)伤后首发有望；摩洛哥里亚德(Chadi Riad)伤愈已恢复全训，阵容无缺员。(Al Jazeera/Sports Mole双源)",
-   "en": "Canada's Ismael Kone (broken ankle) is out; Alphonso Davies could start after returning from injury last game. Morocco's Chadi Riad has recovered full training with no other injury concerns. (Al Jazeera/Sports Mole)",
-   "full": "07-04 07:50 BJT情报：周六089加拿大vs摩洛哥(07-05 01:00开球)——加拿大伊斯梅尔·科内(Ismael Kone)脚踝骨折确认缺阵；阿方索·戴维斯(Alphonso Davies)上一场替补出场首次登场本届，本场有望进入首发。摩洛哥中卫查迪·里亚德(Chadi Riad)此前伤情存疑，周三已恢复全部训练，赶上对阵加拿大无虞，摩洛哥阵中无其他伤病报告。国际共识(Polymarket)摩洛哥51.2%/平28.4%/加拿大20.4%，摩洛哥占优且动量向摩洛哥倾斜(开盘以来客队+... )，科内伤缺进一步压低加拿大中场硬度预期。(Al Jazeera/Sports Mole双源)",
-   "enFull": "July 4, 07:50 BJT update (kickoff 07-05 01:00 BJT): Canada's Ismael Kone is confirmed out with a broken ankle; Alphonso Davies, who came on as a 75th-minute substitute last match for his first minutes of the tournament, could now start. Morocco centre-back Chadi Riad, previously an injury doubt, returned to full training Wednesday and is fit for Canada; no other injury concerns in the Morocco camp. International consensus (Polymarket): Morocco 51.2% / Draw 28.4% / Canada 20.4% — Morocco favoured, and Kone's absence further weakens Canada's midfield solidity. (Al Jazeera/Sports Mole)",
-   "links": [
-    {
-     "name": "Sports Mole Canada vs Morocco team news",
-     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/team-news/canada-vs-morocco-injury-suspension-list-predicted-xis_600555.html"
-    },
-    {
-     "name": "Sports Mole Morocco predicted lineup",
-     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/predicted-lineups/will-riad-recover-in-time-predicted-morocco-xi-vs-canada_600553.html"
     }
    ]
   }
