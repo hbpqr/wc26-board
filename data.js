@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 19:10",
+  "updated": "2026-07-06 20:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-06",
+   "match": "周二096",
+   "impact": "J罗带病存疑",
+   "tone": "neutral",
+   "text": "哥伦比亚哈梅斯·罗德里格斯(J罗)因病存疑出战瑞士,老将胡安·金特罗可能顶替首发;此前科尔多瓦已确认伤退报销,锋线由苏亚雷斯顶替。(ESPN/RotoWire双源核实)",
+   "en": "Colombia's James Rodriguez is a doubt with illness for the Switzerland clash, with veteran Juan Quintero in line to start in his place; this comes on top of Jhon Cordoba's already-confirmed season-ending injury with Suarez leading the line. (ESPN/RotoWire corroborated)",
+   "full": "07-06 20:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——新增哈梅斯·罗德里格斯(James Rodriguez/J罗)因病存疑出战本场,老将胡安·金特罗(Juan Quintero)可能顶替其首发位置;J罗本届此前已因病缺战小组赛对阵加纳一役,本人赛季中曾因严重脱水住院观察三天(俱乐部已否认坊间横纹肌溶解症传闻)。此消息叠加此前已确认的科尔多瓦(内收肌撕裂、本届报销、苏亚雷斯顶替箭头)及瑞士艾比舍尔(肌肉伤、个人训练中)伤情,哥伦比亚攻防两端均存在人员不确定性。国际共识/竞彩赔率暂未见因此进一步调整。(ESPN/RotoWire多源核实)",
+   "enFull": "July 6, 20:10 BJT update (kickoff 07-08 04:00 BJT): New line of concern — Colombia's James Rodriguez is a doubt for this match due to illness, with veteran Juan Quintero in line to start in his place. Rodriguez already missed the group-stage win over Ghana this tournament due to illness, having earlier in the season been hospitalized for three days with severe dehydration (his club has denied social-media rhabdomyolysis rumors). This adds to Colombia's already-confirmed uncertainty up front, with Jhon Cordoba (adductor tear, out for the rest of the tournament, Luis Suarez leading the line) and Switzerland's Michel Aebischer (muscle injury, still training individually) already in the news. No significant odds movement tied to this so far. (ESPN/RotoWire corroborated)",
+   "links": [
+    {
+     "name": "ESPN: Switzerland vs Colombia at World Cup 2026 — predicted line-ups",
+     "url": "https://www.espn.com/soccer/story/_/id/49278663/fifa-world-cup-2026-switzerland-vs-colombia-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+     "name": "RotoWire: Switzerland vs Colombia Preview, Predicted Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/switzerland-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121310"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周一094",
