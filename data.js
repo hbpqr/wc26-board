@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 01:15",
+  "updated": "2026-07-07 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周一093",
+   "impact": "西班牙多点轻伤",
+   "tone": "negative",
+   "text": "西班牙亚马尔、波尔特、奥尔莫、拉波尔特周五均未完整参训,但均无重伤迹象;略伦特可顶替波尔特,主力阵容预计基本不变。(SI/RotoWire双源核实)",
+   "en": "Spain's Yamal, Porro, Dani Olmo and Laporte all failed to complete a full training session on Friday, though none is thought to have a serious issue; Llorente is the fallback for Porro, and an unchanged Roja XI is still expected. (SI/RotoWire corroborated)",
+   "full": "07-07 02:10 BJT情报更新:周一093葡萄牙vs西班牙(07-07 03:00开球)——除此前已确认缺战的尼科·威廉姆斯(内收肌)、耶雷米·平诺(肩伤)外,新增西班牙亚马尔(Yamal)、波尔特(Porro)、丹尼·奥尔莫(Dani Olmo)、拉波尔特(Laporte)四人周五均未完整参加训练,但均未被列为严重伤情;略伦特(Llorente)是波尔特的替补方案,德拉富恩特预计仍以基本不变的首发阵容出战。葡萄牙方面无新增伤情,马丁内斯预计沿用击败克罗地亚的原班人马、C罗继续首发。国际共识(Polymarket)葡萄牙23.4%/平27.4%/西班牙49.3%,较07-04开盘客胜-1.5pp小幅回落,竞彩赔率(葡萄牙胜@3.83/平@3.30/西班牙胜@1.77)暂未见显著联动。(SI/RotoWire多源核实)",
+   "enFull": "July 7, 02:10 BJT update (kickoff 07-07 03:00 BJT): Beyond the already-confirmed absences of Nico Williams (adductor) and Yeremy Pino (shoulder), Spain's Yamal, Porro, Dani Olmo and Laporte all failed to complete full training on Friday, though none is described as a serious concern. Llorente is the fallback option for Porro, and coach de la Fuente is still expected to field a largely unchanged starting XI. Portugal reports no new injury concerns, with Martinez expected to stick with the same group that beat Croatia and Ronaldo continuing to start. International consensus (Polymarket) has Portugal 23.4% / draw 27.4% / Spain 49.3%, a modest -1.5pp pullback for the away win since the July 4 open; China Sports Lottery odds (Portugal @3.83 / draw @3.30 / Spain @1.77) have not moved materially on this. (SI/RotoWire corroborated)",
+   "links": [
+    {
+     "name": "SI: Portugal Predicted Lineup vs. Spain: World Cup Round of 16",
+     "url": "https://www.si.com/soccer/portugal-predicted-lineup-vs-spain-world-cup-7-6-26"
+    },
+    {
+     "name": "RotoWire: Portugal vs Spain Preview, Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/portugal-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121162"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "match": "周一094",
+   "impact": "申诉被驳回",
+   "tone": "positive",
+   "text": "FIFA已正式驳回比利时对巴洛贡解禁裁决的申诉,巴洛贡确认可代表美国出战比利时,此前悬而未决的争议至此落定。(Yahoo Sports/CNBC/ESPN多源核实)",
+   "en": "FIFA has formally denied Belgium's appeal against the decision to lift Balogun's suspension, confirming he is available to play for the USA against Belgium — resolving the previously unsettled controversy. (Yahoo Sports/CNBC/ESPN corroborated)",
+   "full": "07-07 02:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——此前悬而未决的申诉已有结果:FIFA申诉委员会已正式驳回比利时足协对'巴洛贡红牌停赛缓刑解禁'裁决的申诉,巴洛贡确认解禁、可代表美国出战本场比利时。比利时方面反应强烈,主帅加西亚(Rudi Garcia)称最初听闻裁决时'以为是愚人节玩笑';比利时此前称呼吁FIFA说明改判理由未获正面答复,FIFA将其诉求径直作为申诉处理。此案为世界杯60余年历史上第二例红牌停赛被FIFA主动撤销(特朗普此前证实曾就此案致电FIFA主席因凡蒂诺)。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)在申诉结果公布前已基本消化此利好,国际共识(Polymarket)美国39.3%/平27.4%/比利时33.3%,较07-04开盘主胜+6.0pp,方向与竞彩定价一致,暂未见因今日裁决结果本身出现新增漂移。(Yahoo Sports/CNBC/ESPN/France24多源核实)",
+   "enFull": "July 7, 02:10 BJT update (kickoff 07-07 08:00 BJT): The previously unresolved appeal has now been decided — FIFA's appeals panel has formally denied Belgium's appeal against the ruling that suspended Balogun's red-card ban, confirming he is cleared to play for the USA in this match. Belgium reacted strongly, with head coach Rudi Garcia saying he initially thought the ruling was 'an April Fools' joke'; Belgium had said its request for FIFA to explain the reversal went unanswered, with FIFA instead treating the inquiry as a formal appeal. This is only the second time in 60-plus years of World Cup history that FIFA has proactively overturned a red-card suspension (Trump has confirmed he called FIFA president Infantino about the case). China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) had already largely priced in this favorable outcome for the USA ahead of the ruling; international consensus (Polymarket) has USA 39.3% / draw 27.4% / Belgium 33.3%, up +6.0pp for the home win since the July 4 open, consistent in direction with the Sports Lottery pricing — no fresh drift is evident from today's ruling itself. (Yahoo Sports/CNBC/ESPN/France24 corroborated)",
+   "links": [
+    {
+     "name": "Yahoo Sports: World Cup 2026: Belgium has appeal denied after FIFA reversed USMNT's Folarin Balogun 1-game ban",
+     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-belgium-has-appeal-denied-after-fifa-reversed-usmnts-folarin-balogun-1-game-ban-after-red-card-123613835.html"
+    },
+    {
+     "name": "CNBC: Belgium loses appeal of Balogun eligibility after Trump defends intervention with FIFA",
+     "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周一094",
