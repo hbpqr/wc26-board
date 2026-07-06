@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 18:10",
+  "updated": "2026-07-06 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-06",
+   "match": "周一094",
+   "impact": "比利时上诉获批",
+   "tone": "neutral",
+   "text": "比利时对FIFA'缓刑解禁巴洛贡'裁决的申诉已被正式受理,双方需在开球前12小时(西雅图时间凌晨5点)前提交材料,FIFA已指定申诉委员会成员审理,开赛前是否推翻原裁决仍悬而未决。(CNBC/Seattle Times/Fox News/NPR多源核实)",
+   "en": "Belgium's appeal against FIFA's decision to suspend Balogun's red-card ban has been formally granted; both federations must submit materials by 5am PT (12 hours before kickoff in Seattle), and a FIFA appeals panel member has been assigned to hear the case — whether the ruling gets overturned before kickoff remains unresolved. (CNBC/Seattle Times/Fox News/NPR corroborated)",
+   "full": "07-06 19:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——此前比利时足协'调查潜在应对方案'已升级为正式行动:据CNBC/西雅图时报/福克斯新闻/NPR多源报道,比利时皇家足协已正式提交对FIFA'缓刑解禁巴洛贡'裁决的申诉,FIFA已受理并指定一名申诉委员会成员审理此案;美国足协与比利时足协均被要求在太平洋时间凌晨5点前(即西雅图开球前12小时)提交书面材料。截至发稿裁决结果尚未公布,巴洛贡能否最终出战仍存在开赛前被推翻的可能性,需持续关注赛前最后时刻的裁决动态。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)暂未因此进一步调整。(CNBC/Seattle Times/Fox News/NPR/thegrio多源核实)",
+   "enFull": "July 6, 19:10 BJT update (kickoff 07-07 08:00 BJT): Belgium's earlier 'investigating potential options' has escalated into formal action — per CNBC, The Seattle Times, Fox News and NPR, the Royal Belgian FA has formally filed an appeal against FIFA's decision to suspend Balogun's red-card ban, FIFA has accepted the appeal and assigned a panel member to hear it, and both federations must submit written materials by 5am PT (12 hours before the Seattle kickoff). As of this update no ruling has been announced, so there remains a real possibility Balogun's clearance gets overturned before kickoff — worth monitoring closely in the final hours. China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) have not moved further on this so far. (CNBC/Seattle Times/Fox News/NPR/thegrio corroborated)",
+   "links": [
+    {
+     "name": "CNBC: Belgium set to appeal as FIFA reverses Balogun's World Cup suspension after Trump reportedly intervenes",
+     "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html"
+    },
+    {
+     "name": "Field Level Media: Report: Belgium granted right to appeal FIFA's Folarin Balogun decision",
+     "url": "https://fieldlevelmedia.com/news/report-belgium-granted-right-to-appeal-fifas-folarin-balogun-decision/"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周二096",
