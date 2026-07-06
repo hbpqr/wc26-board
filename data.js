@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 22:10",
+  "updated": "2026-07-06 23:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-06",
+   "match": "周一094",
+   "impact": "UEFA谴责裁决",
+   "tone": "neutral",
+   "text": "欧足联(UEFA)公开声明称FIFA解禁巴洛贡的裁决'越过红线'、'前所未有、难以理解、不合理',舆论施压进一步升级;截至发稿FIFA申诉裁决结果仍未公布。(CBS Sports/Yahoo Sports双源核实)",
+   "en": "UEFA issued a public statement saying FIFA's decision to suspend Balogun's ban 'crossed a red line' and was 'unprecedented, incomprehensible and unjustifiable', escalating the pressure campaign; as of this update FIFA's appeal ruling has still not been announced. (CBS Sports/Yahoo Sports corroborated)",
+   "full": "07-06 23:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——继比利时官方申诉被FIFA受理后,欧足联(UEFA)公开发表声明,称FIFA解禁巴洛贡红牌停赛的裁决'越过了红线'(crossed a red line),形容其'前所未有、难以理解、不合理'(unprecedented, incomprehensible and unjustifiable)。这是继比利时足协'震惊'表态、正式申诉获FIFA受理后,舆论施压的进一步升级,凸显此案争议性持续发酵。截至发稿,负责审理申诉的FIFA申诉委员会成员尚未公布裁决结果,巴洛贡能否最终出战仍悬而未决。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)暂未因此进一步调整。(CBS Sports/Yahoo Sports多源核实)",
+   "enFull": "July 6, 23:10 BJT update (kickoff 07-07 08:00 BJT): Following Belgium's formal appeal being accepted by FIFA, UEFA has issued a public statement saying FIFA's decision to suspend Balogun's red-card ban 'crossed a red line', calling it 'unprecedented, incomprehensible and unjustifiable'. This marks a further escalation of public pressure after Belgium's federation said it was 'astonished' and filed its formal appeal, underscoring how contentious the case remains. As of this update, the FIFA appeals panel member assigned to the case has not announced a ruling, so whether Balogun will ultimately be available remains unresolved. China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) have not moved further on this so far. (CBS Sports/Yahoo Sports corroborated)",
+   "links": [
+    {
+     "name": "CBS Sports: Can USMNT's Folarin Balogun's World Cup suspension be reinstated? Belgium will appeal decision",
+     "url": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-belgium-appeal-decision/"
+    },
+    {
+     "name": "Yahoo Sports: World Cup 2026: Belgium granted appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban",
+     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-belgium-granted-appeal-after-fifa-reversed-usmnts-folarin-balogun-1-game-ban-after-red-card-123613835.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-06",
    "match": "周二096",
