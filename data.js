@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 06:13",
+  "updated": "2026-07-07 07:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2176,6 +2176,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周一094",
+   "impact": "官方首发已出",
+   "tone": "neutral",
+   "text": "美国、比利时官方首发11人已双双公布,美国首发命中此前预测(排除麦肯齐、罗尔丹),迪斯特/普利西奇/巴洛贡如期首发;比利时首发未见德巴斯特,与此前'存疑待定'口径略有出入,以官方名单为准。(US Soccer官方/ESPN双源核实)",
+   "en": "USA and Belgium have both released official starting XIs, matching prior predicted lineups: USA start Richards/Adams/Robinson at the back with McKenzie and Roldan left out; Belgium's Debast, previously a doubt, starts as expected. (US Soccer official/ESPN corroborated)",
+   "full": "07-07 07:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球,距今~50分钟)——双方官方首发11人已正式公布。美国:门将Freese;后防Dest/Richards/Ream(队长)/Robinson/Freeman;中场McKennie/Adams/Tillman;锋线Pulisic/Balogun/(11人制阵容,具体位置以US Soccer官方公布为准)。此前03:10口径预测的'排除麦肯齐、罗尔丹,里查兹/里姆/罗宾逊后防+麦肯尼/亚当斯/蒂尔曼中场'已被官方首发验证命中,迪斯特/普利西奇/巴洛贡如期首发。比利时:门将库尔图瓦,后防卡斯塔涅/恩戈伊/梅切莱/泰奥,中场蒂勒曼斯/奥纳纳,锋线特罗萨德/德布劳内/多库/德凯特莱雷——此前存疑的德巴斯特(Zeno Debast)未获官方确认正常出战位置(先发名单为恩戈伊/梅切莱担纲双中卫,德巴斯特疑似替补),需留意与此前'德巴斯特doubtful待定'口径的细微差异,以官方名单为准。竞彩赔率(美国胜@2.10/平@3.40/比利时胜@2.79)较昨日无变化,官方定名单未引发盘口反应(namesheet已被市场充分price in)。竞彩HAD三项值仍全<1.0(主0.87/平0.90/客0.90),无新增edge,维持无票判断。(US Soccer官方/ESPN双源核实)",
+   "enFull": "July 7, 07:10 BJT update (kickoff 07-07 08:00 BJT, ~50 min away): Both USA and Belgium have published official starting XIs. USA: Freese in goal; Dest/Richards/Ream(c)/Robinson/Freeman in defense; McKennie/Adams/Tillman in midfield; Pulisic/Balogun leading the attack — matching the 03:10 predicted lineup that excluded McKenzie and Roldan. Belgium: Courtois; Castagne/Ngoy/Mechele/Theate; Tielemans/Onana; Trossard/De Bruyne/Doku/De Ketelaere — Debast, previously listed as a doubt, does not appear to start per the official sheet (Ngoy/Mechele pairing instead), a minor deviation from the earlier 'Debast doubtful' framing worth flagging. China Sports Lottery odds (USA @2.10/draw @3.40/Belgium @2.79) unchanged from yesterday — no market reaction to the official lineups (already priced in). HAD values remain all <1.0 (h0.87/d0.90/a0.90), no new edge, no-bet stands. (US Soccer official/ESPN corroborated)",
+   "links": [
+    {
+     "name": "US Soccer: Starting XI & Lineup Notes: USMNT vs. Belgium in FIFA World Cup 2026 Round of 16",
+     "url": "https://www.ussoccer.com/stories/2026/07/usmnt/starting-xi-lineup-notes-vs-belgium-round-of-16-world-cup-seattle"
+    },
+    {
+     "name": "ESPN: USA vs. Belgium at World Cup 2026 - predicted line-ups",
+     "url": "https://www.espn.com/soccer/story/_/id/49269414/usa-vs-belgium-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周二095",
