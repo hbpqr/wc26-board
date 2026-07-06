@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-06 08:10",
+  "updated": "2026-07-06 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2134,6 +2134,26 @@ window.DASH_DATA = {
  "news": [
   {
    "date": "2026-07-06",
+   "match": "周一094",
+   "impact": "比利时抗议巴洛贡",
+   "tone": "neutral",
+   "text": "FIFA裁委会'缓刑'裁决解禁巴洛贡出战后,比利时官方表态'震惊',正调查申诉等'潜在应对方案';FIFA裁决目前维持不变,巴洛贡预计仍可代表美国出战。国际共识/竞彩赔率暂未因该争议显著调整。(ESPN/Fox Sports双源核实)",
+   "en": "After FIFA's disciplinary panel suspended Balogun's ban, Belgium said they were 'astonished' and are investigating an appeal/'potential options'; the FIFA ruling stands for now and Balogun is still expected to be available for the USA. No significant odds movement tied to the dispute so far. (ESPN/Fox Sports corroborated)",
+   "full": "07-06 09:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——继FIFA纪律委员会援引FDC第27条'缓刑执行'解禁巴洛贡(Balogun)出战报道后,比利时足协官方回应'震惊'(astonished),称正在调查针对该裁决的申诉等'潜在应对方案'(potential options),质疑该裁决与FDC第66.4条'红牌自动停赛一场'及本届世界杯赛事规程第10.5条相悖(此前本届所有红牌停赛均按常规执行);另有报道称特朗普此前曾致电FIFA主席因凡蒂诺过问此案,为争议再添一层。截至发稿FIFA裁决未被推翻,巴洛贡预计仍可代表美国出战比利时;国际共识(Polymarket)/竞彩赔率(美国胜@2.44/平@3.26/客胜@2.42)暂未因该申诉传闻显著调整,需留意开赛前比利时申诉是否有实质进展。(ESPN两篇独立报道+Fox Sports多源核实)",
+   "enFull": "July 6, 09:10 BJT update (kickoff 07-07 08:00 BJT): Following FIFA's disciplinary committee invoking FDC Article 27 to suspend the automatic ban and clear Folarin Balogun to face Belgium, the Belgian federation said it was 'astonished' by the ruling and is investigating an appeal and other 'potential options,' arguing the decision contradicts FDC Article 66.4 (automatic one-match ban for a red card) and Article 10.5 of the tournament's competition regulations — noting every other red-card suspension this World Cup was applied as normal. Separate reporting says Donald Trump had called FIFA president Gianni Infantino about the case beforehand, adding another layer to the controversy. As of this update the FIFA ruling has not been overturned and Balogun remains expected to be available for the USA; international consensus (Polymarket) and China Sports Lottery odds (USA win @2.44 / draw @3.26 / Belgium win @2.42) have not moved significantly on the appeal talk — worth watching for a late change if Belgium's protest gains traction before kickoff. (Two independent ESPN reports plus Fox Sports corroboration)",
+   "links": [
+    {
+     "name": "ESPN: Belgium 'astonished' by Folarin Balogun ruling, investigating potential options",
+     "url": "https://www.espn.com/soccer/story/_/id/49279471/belgium-usa-folarin-balogun-ban-suspended-fifa-world-cup-2026"
+    },
+    {
+     "name": "Fox Sports: Belgium 'Astonished' By Folarin Balogun Ruling, Investigating 'Potential Options'",
+     "url": "https://www.foxsports.com/stories/soccer/belgium-astonished-folarin-balogun-ruling-investigating-potential-options"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
    "match": "周日092",
    "impact": "开球延迟1小时",
    "tone": "neutral",
@@ -2294,46 +2314,6 @@ window.DASH_DATA = {
   },
   {
    "date": "2026-07-05",
-   "match": "周日091",
-   "impact": "拉菲尼亚复训",
-   "tone": "neutral",
-   "text": "巴西边锋拉菲尼亚(右大腿伤)本周二在新泽西完成本届伤后首次个人场地训练，为积极信号，但ESPN称其出战挪威'希望渺茫'，目标复出节点或推迟至8强(7月11日)。(Yahoo Sports/Goal.com/ESPN多源)",
-   "en": "Brazil winger Raphinha (right thigh) completed his first individual pitch session since injury on Tuesday in New Jersey — a positive step — but ESPN says he has 'little chance' of playing vs Norway, with a possible return target now pushed to the quarterfinal (July 11). (Yahoo Sports/Goal.com/ESPN)",
-   "full": "07-05 06:15 BJT情报更新：周日091巴西vs挪威(07-06 04:00开球)——巴西边锋拉菲尼亚(Raphinha·右大腿肌纤维撕裂，本赛季同部位第5次伤病)本周二在新泽西完成本届杯赛伤后首次个人场地训练，是继续朝复出迈进的积极信号；但ESPN报道称球队对其出战挪威'谨慎考虑但希望渺茫'，教练组不愿在关键攻击手身上冒不必要风险，目标复出节点据信推迟至若晋级后的8强战(7月11日)。此前已确认缺阵的帕奎塔(大腿伤)、以及卡塞米罗对日本一战带伤离场(预计可出战)情况不变。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，持平未因此变动。(Yahoo Sports/Goal.com/Barca Blaugranes/ESPN多源核实)",
-   "enFull": "July 5, 06:15 BJT update (kickoff 07-06 04:00 BJT): Brazil winger Raphinha (thigh muscle tear, his 5th issue in the same area this season) completed his first individual pitch training session since injury on Tuesday in New Jersey — a positive step in his recovery. However, ESPN reports Brazil are only 'cautiously considering' him for Norway with 'little chance' of playing, unwilling to risk a key attacker, with a likely return target pushed to a potential quarterfinal on July 11. Paqueta remains ruled out (thigh) as previously confirmed, and Casemiro — who went off hurt vs Japan — is still expected to be available. International consensus (Polymarket) unchanged at Brazil 53.2% / Draw 26.4% / Norway 20.4%. (Yahoo Sports/Goal.com/Barca Blaugranes/ESPN corroboration)",
-   "links": [
-    {
-     "name": "Yahoo Sports: Huge injury boost for Brazil! Raphinha back in training ahead of World Cup round-of-16 tie vs Norway",
-     "url": "https://sports.yahoo.com/articles/huge-injury-boost-brazil-raphinha-071408412.html"
-    },
-    {
-     "name": "Yahoo Sports: Raphinha injury update: Barcelona star returns to pitch training; still uncertain to play against Norway",
-     "url": "https://sports.yahoo.com/articles/raphinha-injury-barcelona-star-returns-064000938.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日091",
-   "impact": "内马尔或顶替",
-   "tone": "neutral",
-   "text": "帕奎塔(腘绳肌二级拉伤)确认缺战挪威，安切洛蒂需重排中场，内马尔被多源点名为可能顶替其首发位置的人选之一(⚠️非官方确认阵容)。(World Soccer Talk/Goal.com双源)",
-   "en": "With Paqueta (grade-2 hamstring strain) ruled out vs Norway, Ancelotti must reshuffle midfield — Neymar is being floated by multiple outlets as a possible starter to fill the gap (⚠️not an official confirmed XI). (World Soccer Talk/Goal.com)",
-   "full": "07-05 04:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——帕奎塔本届对阵日本一役上半场因左大腿后侧二级肌肉拉伤下场，巴西足协影像检查确认，除非巴西打进决赛(7月19日)否则赛季提前结束，本场确认缺战。安切洛蒂因此需要在中场重新排阵，World Soccer Talk与Goal.com均点名内马尔是可能顶替帕奎塔位置、获得首发机会的人选之一；⚠️此为媒体分析/预测，非官方公布首发，距开球仍有约24小时，需待赛前发布会/官方名单确认。叠加此前已知拉菲尼亚(右大腿肌纤维撕裂)仍缺战，卡塞米罗对日本一战带伤离场但预计可出战。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因阵容悬念显著调整。(World Soccer Talk/Goal.com/Yahoo Sports多源核实)",
-   "enFull": "July 5, 04:10 BJT update (kickoff 07-06 04:00 BJT): Paqueta went off in the first half vs Japan with a confirmed grade-2 strain to the back of his left thigh and is ruled out for Norway — likely season-ending unless Brazil reach the final on July 19. Ancelotti must reshuffle midfield, and World Soccer Talk and Goal.com both name Neymar as a possible candidate to fill the void and start; ⚠️this is media speculation, not an official confirmed lineup, with kickoff still ~24h away pending the pre-match presser/official team sheet. Raphinha (thigh tear) remains out as previously known, and Casemiro — who went off hurt vs Japan — is expected to be available. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4%, largely unmoved by the lineup uncertainty. (World Soccer Talk/Goal.com/Yahoo Sports corroboration)",
-   "links": [
-    {
-     "name": "World Soccer Talk: Neymar could return to the starting team as Brazil rule out Lucas Paqueta",
-     "url": "https://worldsoccertalk.com/world-cup/neymar-could-return-to-the-starting-team-as-brazil-rule-out-lucas-paqueta-for-round-of-16-clash-vs-norway/"
-    },
-    {
-     "name": "Goal.com: Brazil Raphinha World Cup Round of 16 Norway",
-     "url": "https://www.goal.com/en/lists/brazil-raphinha-world-cup-round-of-16-norway/blt18da306f60c66906"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
    "match": "周六090",
    "impact": "首发官宣",
    "tone": "neutral",
@@ -2349,46 +2329,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: France Starting XI vs Paraguay: Confirmed Team News",
      "url": "https://sports.yahoo.com/articles/france-stating-xi-vs-paraguay-105000250.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-05",
-   "match": "周日091",
-   "impact": "拉菲尼亚缺战",
-   "tone": "negative",
-   "text": "巴西边锋拉菲尼亚(右大腿肌纤维撕裂)确认缺战挪威，为本场第二位缺阵主力(叠加已知帕奎塔)；卡塞米罗对日本一战伤退但预计可出战。(CaughtOffside/Athlon Sports/Yahoo Sports多源)",
-   "en": "Brazil winger Raphinha (muscle fibre tear, right thigh) is ruled out against Norway — the second key starter sidelined alongside the already-known Paqueta absence; Casemiro went down late vs Japan but is expected to be available. (CaughtOffside/Athlon Sports/Yahoo Sports)",
-   "full": "07-05 01:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——巴西边锋拉菲尼亚(Raphinha·右大腿后侧肌纤维撕裂)在小组赛对海地一役40分钟因伤下场，此后连续缺席末轮对苏格兰及16强对日本，本轮确认继续缺战挪威，为本场除帕奎塔外第二位缺阵的主力首发；医疗组仍持谨慎态度，若巴西晋级8强有望复出。中场卡塞米罗(Casemiro)对日本一战92分钟带伤离场引发担忧，但目前评估预计可正常出战。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，暂未因两大主力缺阵显著调整。(CaughtOffside/Athlon Sports/Yahoo Sports/YSscores多源核实)",
-   "enFull": "July 5, 01:10 BJT update (kickoff 07-06 04:00 BJT): Brazil winger Raphinha (muscle fibre tear, back of right thigh) went off in the 40th minute of the group-stage win over Haiti and has since missed the Scotland finale and the round-of-16 win over Japan; he is now confirmed out again for Norway, the second key starter sidelined alongside the already-known Paqueta absence. Medical staff remain cautious, with a possible return only if Brazil reach the quarterfinals. Midfielder Casemiro went down in the 92nd minute against Japan, raising fitness concerns, but is currently expected to be available. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4% — no major market shift yet despite the two absences. (CaughtOffside/Athlon Sports/Yahoo Sports/YSscores corroboration)",
-   "links": [
-    {
-     "name": "CaughtOffside: Brazil hit with injury blow as second starter is ruled out of Norway clash",
-     "url": "https://www.caughtoffside.com/2026/07/02/brazil-hit-with-injury-blow-as-second-starter-is-ruled-out-of-norway-world-cup-clash/"
-    },
-    {
-     "name": "Yahoo Sports: Barcelona superstar Raphinha ruled out of Brazil's Round of 16 showdown vs Norway",
-     "url": "https://sports.yahoo.com/articles/barcelona-superstar-raphinha-ruled-brazil-070000238.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周六090",
-   "impact": "图拉姆伤缺",
-   "tone": "negative",
-   "text": "法国锋线马库斯·图拉姆(腓肠肌伤)确认缺战巴拉圭，德尚证实其仍未重返合练，伤情从此前'存疑'升级为'确认缺战'；叠加已知的图阿梅尼(大腿伤)缺阵，法国本场同时缺两名主力。(RotoWire/Yahoo Sports双源)",
-   "en": "France forward Marcus Thuram (calf) is confirmed OUT against Paraguay, with Deschamps confirming he still hasn't rejoined full training — an upgrade from the earlier 'doubtful' tag; combined with the already-known Tchouameni absence, France is missing two key starters. (RotoWire/Yahoo Sports)",
-   "full": "07-04 23:10 BJT情报更新：周六090巴拉圭vs法国(07-05 05:00开球)——法国锋线马库斯·图拉姆(Marcus Thuram·腓肠肌伤)确认缺战巴拉圭，此前对阵瑞典(16强前)已因伤缺席，本场仍未能重返集体合练；主帅德尚(Didier Deschamps)赛前发布会证实其未归队，伤情状态由07-04 07:50情报中的'仍是疑问人选'升级为'确认缺战'。叠加此前18:10已确认的中场图阿梅尼(Tchouameni·大腿伤)缺阵，法国本场同时缺两名主力(锋线+中场)。预计登贝莱/奥利塞/巴尔科拉三人组顶替锋线支援姆巴佩，科内+拉比奥出任双后腰。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%维持大热，两处伤缺尚未导致盘口显著松动(法国替补深度充足)。(RotoWire/Yahoo Sports双源，引德尚发布会原话)",
-   "enFull": "July 4, 23:10 BJT update (kickoff 07-05 05:00 BJT): France forward Marcus Thuram (calf) is confirmed out for the Paraguay clash, having already missed the round-of-32 game vs Sweden and still not back in full training; manager Didier Deschamps confirmed at his pre-match press conference that Thuram has not rejoined the group, upgrading his status from 'doubtful' (as of the 07:50 BJT update) to 'ruled out'. Combined with the already-confirmed absence of midfielder Aurelien Tchouameni (thigh, confirmed at 18:10 BJT), France is missing two key starters across attack and midfield. Ousmane Dembele, Michael Olise and Bradley Barcola are expected to support Mbappe up front, with Kone and Rabiot pairing in central midfield. International consensus (Polymarket) still has France at 82.9% / Draw 12.6% / Paraguay 4.5% — the two absences have not moved the market meaningfully given France's squad depth. (RotoWire/Yahoo Sports corroboration, citing Deschamps' press conference)",
-   "links": [
-    {
-     "name": "RotoWire: Marcus Thuram Injury: Won't face Paraguay",
-     "url": "https://www.rotowire.com/soccer/headlines/marcus-thuram-injury-wont-face-paraguay-522363"
-    },
-    {
-     "name": "Yahoo Sports: France predicted lineup and team news vs Paraguay",
-     "url": "https://ca.sports.yahoo.com/news/france-predicted-lineup-team-news-054000799.html"
     }
    ]
   },
@@ -2409,66 +2349,6 @@ window.DASH_DATA = {
     {
      "name": "Sports Mole: England given Reece James injury boost before Mexico clash",
      "url": "https://www.sportsmole.co.uk/football/england/injury-news/news/england-given-reece-james-injury-boost-before-mexico-world-cup-clash_600545.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周日091",
-   "impact": "帕奎塔伤退赛",
-   "tone": "negative",
-   "text": "巴西中场卢卡斯·帕奎塔大腿肌肉伤确诊，缺战挪威且预计缺席至少3-4周，本届恐无法再登场(除非巴西打进决赛)；内马尔有望复出顶替首发。(Fox Sports/ESPN/OneFootball多源)",
-   "en": "Brazil midfielder Lucas Paqueta has a confirmed left-thigh muscle injury and is ruled out for the Norway last-16 clash, expected to miss 3-4 weeks (effectively out for the rest of the tournament unless Brazil reach the final); Neymar could return to the starting XI in his place. (Fox Sports/ESPN/OneFootball)",
-   "full": "07-04 19:10 BJT情报：周日091巴西vs挪威(07-06 04:00开球)——巴西中场卢卡斯·帕奎塔(Lucas Paqueta)在对阵日本一战中半场因伤下场，赛后影像检查确诊左大腿后侧肌肉拉伤，已确认缺战挪威，预计康复期3-4周，意味着除非巴西打进7月19日决赛，本届世界杯基本报销。内马尔(Neymar)有望顶替其位置回归首发。挪威方面莱尔森(Ryerson)大腿伤缺阵，佩德森顶替右后卫。国际共识(Polymarket)巴西53.2%/平26.4%/挪威20.4%，帕奎塔缺阵为中场组织端已知负面，但内马尔回归部分对冲，暂未引发盘口大幅调整。(Fox Sports/ESPN/OneFootball/Sentinel Assam多源核实)",
-   "enFull": "July 4, 19:10 BJT update (kickoff 07-06 04:00 BJT): Brazil midfielder Lucas Paqueta went off at halftime against Japan and imaging has confirmed a muscle injury in the back of his left thigh; he is ruled out of the Norway clash with a 3-4 week recovery timeline, effectively ending his tournament unless Brazil reach the July 19 final. Neymar is expected to return to the starting lineup in his place. Norway will be without wingback Julian Ryerson (thigh), with Pedersen deputising on the right side of the back line. International consensus (Polymarket): Brazil 53.2% / Draw 26.4% / Norway 20.4% — Paqueta's absence is a known negative for Brazil's midfield, partly offset by Neymar's return, with no major market shift yet. (Fox Sports/ESPN/OneFootball/Sentinel Assam corroboration)",
-   "links": [
-    {
-     "name": "Fox Sports: Paqueta ruled out for Norway clash",
-     "url": "https://www.foxsports.com/stories/other/brazil-midfielder-lucas-paqueta-has-a-thigh-injury-ahead-of-match-against-norway-at-the-world-cup"
-    },
-    {
-     "name": "ESPN: Brazil vs Norway predicted lineups",
-     "url": "https://www.espn.com/soccer/story/_/id/49256507/brazil-vs-norway-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周六090",
-   "impact": "图阿梅尼伤缺",
-   "tone": "negative",
-   "text": "法国中场奥雷利安·图阿梅尼(大腿伤)确认缺战巴拉圭，拉比奥搭档科内出任双后腰；巴拉圭阿尔德雷特膝伤仍大概率缺阵。(ANI/ESPN双源)",
-   "en": "France midfielder Aurelien Tchouameni (thigh) is ruled out of the Paraguay clash; Rabiot now pairs with Kone in midfield. Paraguay's Alderete (knee) remains a likely absentee.",
-   "full": "07-04 18:10 BJT情报更新：周六090巴拉圭vs法国(07-05 05:00开球)——法国中场奥雷利安·图阿梅尼(Aurelien Tchouameni·大腿伤)已确认因伤缺战本场(法国《队报》L'Equipe原报道·路透社转引)，此前16:10核查时仅Rotowire单源、与ESPN预测首发冲突未采信，现经ANI/Flashscore/NewKerala等多家独立媒体交叉核实同一L'Equipe消息，满足双源门槛；预计曼努·科内(Manu Kone)顶替，与阿德里安·拉比奥(Adrien Rabiot)搭档双后腰。图阿梅尼伤情预计需休养至少一周，若法国晋级8强下一场仍存疑。巴拉圭方面奥马尔·阿尔德雷特(Omar Alderete·膝伤)仍大概率缺阵(与此前情报一致，未变)。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%维持大热，图阿梅尼缺阵为已知负面但法国替补深度充足，暂未显著改变盘口。(L'Equipe/Reuters原报·ANI/Flashscore双源核实)",
-   "enFull": "July 4, 18:10 BJT update (kickoff 07-05 05:00 BJT): France midfielder Aurelien Tchouameni (thigh) has now been confirmed OUT for the Paraguay clash per French daily L'Equipe (via Reuters); at the 16:10 check this was a single-source Rotowire claim conflicting with ESPN's predicted lineup and was not logged, but it is now cross-verified by ANI, Flashscore and NewKerala independently reporting the same L'Equipe story, clearing the double-source bar. Manu Kone is expected to replace him, pairing with Adrien Rabiot in central midfield. Tchouameni reportedly needs at least a week to recover, making him a doubt for the quarterfinal if France advance. Paraguay's Omar Alderete (knee) remains a likely absentee, unchanged from prior reporting. International consensus (Polymarket) still has France at 82.9% / Draw 12.6% / Paraguay 4.5% — Tchouameni's absence is a known negative but France's squad depth means the market has not moved materially. (L'Equipe/Reuters original; ANI/Flashscore corroboration)",
-   "links": [
-    {
-     "name": "ANI: Tchouameni ruled out of Paraguay clash",
-     "url": "https://www.aninews.in/news/sports/football/fifa-world-cup-2026-frances-tchouameni-ruled-out-of-paraguay-clash-due-to-injury20260704143534/"
-    },
-    {
-     "name": "Flashscore: Tchouameni set to miss Paraguay clash",
-     "url": "https://www.flashscore.com/news/france-s-tchouameni-reportedly-set-to-miss-paraguay-clash-with-thigh-injury/MwNrZ0qJ/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-04",
-   "match": "周六090",
-   "impact": "阿尔德雷特缺战",
-   "tone": "negative",
-   "text": "巴拉圭中卫奥马尔·阿尔德雷特膝伤未愈大概率缺阵法国；恩西索、阿瓦洛斯带伤观察。法国坎特/图拉姆(腓伤疑)：图拉姆仍存疑，姆巴佩领衔4231全主力压阵。(RotoWire/ESPN双源)",
-   "en": "Paraguay CB Omar Alderete (knee) is expected to miss France clash; Enciso and Avalos carrying knocks. France: Kante and Thuram (calf) doubts, Thuram still questionable; Mbappe leads a 4-2-3-1 with Dembele/Olise/Barcola. (RotoWire/ESPN)",
-   "full": "07-04 07:50 BJT情报：周六090巴拉圭vs法国(07-05 05:00开球)——巴拉圭中卫奥马尔·阿尔德雷特(Omar Alderete)小组赛尾场膝伤未痊愈，预计缺战法国；胡里奥·恩西索(Julio Enciso)和加布里埃尔·阿瓦洛斯(Gabriel Avalos)带轻伤需观察，何塞·卡纳莱(Jose Canale)有望顶替中卫位置。法国方面恩戈洛·坎特(N'Golo Kante)和马库斯·图拉姆(Marcus Thuram·腓肠肌)均有伤情，图拉姆仍是疑问人选；法国仍以4231全主力应战，姆巴佩领衔，登贝莱/奥利塞/巴尔科拉助攻，拉比奥+图阿梅尼双后腰。国际共识(Polymarket)法国82.9%/平12.6%/巴拉圭4.5%，法国绝对大热，阿尔德雷特缺阵进一步压低巴拉圭防守稳定性预期。(RotoWire/ESPN双源)",
-   "enFull": "July 4, 07:50 BJT update (kickoff 07-05 05:00 BJT): Paraguay centre-back Omar Alderete has not recovered from the knee injury suffered in the final group match and is expected to miss the France clash; Julio Enciso and Gabriel Avalos are carrying knocks worth monitoring, with Jose Canale likely to deputise at centre-back. For France, N'Golo Kante and Marcus Thuram (calf) both carry fitness concerns, with Thuram still a doubt; France still line up in a full-strength 4-2-3-1 with Mbappe leading the line, Dembele/Olise/Barcola in support, and Rabiot/Tchouameni anchoring midfield. International consensus (Polymarket): France 82.9% / Draw 12.6% / Paraguay 4.5% — France remain overwhelming favourites, and Alderete's absence further weakens Paraguay's defensive outlook. (RotoWire/ESPN)",
-   "links": [
-    {
-     "name": "RotoWire Paraguay vs France preview",
-     "url": "https://www.rotowire.com/soccer/article/paraguay-vs-france-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-120852"
-    },
-    {
-     "name": "ESPN Paraguay vs France team news",
-     "url": "https://www.espn.com/soccer/story/_/id/49233642/paraguay-vs-france-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
     }
    ]
   },
