@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 02:10",
+  "updated": "2026-07-07 03:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2150,6 +2150,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周一094",
+   "impact": "麦肯齐罗尔丹存疑",
+   "tone": "negative",
+   "text": "美国中卫麦肯齐(脚伤)、中场罗尔丹(肌肉伤)出战存疑,预测首发已排除二人(后防换里查兹/里姆/罗宾逊,中场麦肯尼/亚当斯/蒂尔曼),迪斯特/普利西奇/巴洛贡如期首发;比利时仅德巴斯特(Debast)存疑待最终确认。(Sports Mole/RotoWire双源核实)",
+   "en": "USA center back Mark McKenzie (foot) and midfielder Cristian Roldan (muscle) are doubtful; predicted lineups already omit both (Richards/Ream/Robinson at the back, McKennie/Adams/Tillman in midfield), with Dest, Pulisic and Balogun set to start as planned. Belgium's only doubt is Zeno Debast, pending a final call. (Sports Mole/RotoWire corroborated)",
+   "full": "07-07 03:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——新增美国伤情:中卫麦肯齐(Mark McKenzie,脚伤)、中场罗尔丹(Cristian Roldan,肌肉伤)出战存疑,尚待赛前最终评估,但多家预测首发已直接排除二人,以里查兹(Richards)/里姆(Ream)/罗宾逊(Robinson)组成后防三人组、麦肯尼(McKennie)/亚当斯(Adams)/蒂尔曼(Tillman)组成中场,迪斯特(Dest)、普利西奇(Pulisic)、巴洛贡(Balogun,解禁已确认)如期首发。比利时方面无新增伤情,仅中卫德巴斯特(Zeno Debast)伤情存疑待赛前最终确定,特罗萨德(Trossard)、德布劳内(De Bruyne)、多库(Doku)均预计正常首发。竞彩赔率(美国胜@2.10/平@3.40/比利时胜@2.79)、国际共识(Polymarket美38.3%/平27.4%/比34.3%,较07-04开盘主胜+5.0pp)暂未见因这两条新增伤情出现进一步漂移,预测首发已提前消化。(Sports Mole/RotoWire多源核实)",
+   "enFull": "July 7, 03:10 BJT update (kickoff 07-07 08:00 BJT): New USA injury news — center back Mark McKenzie (foot) and midfielder Cristian Roldan (muscle) are doubtful pending final pre-match assessment, but predicted XIs already exclude both, slotting in a Richards/Ream/Robinson back line and a McKennie/Adams/Tillman midfield, with Dest, Pulisic and the now-cleared Balogun starting as planned. Belgium reports no new injury concerns beyond center back Zeno Debast's doubtful status pending a final call, with Trossard, De Bruyne and Doku all expected to start normally. China Sports Lottery odds (USA @2.10 / draw @3.40 / Belgium @2.79) and international consensus (Polymarket USA 38.3% / draw 27.4% / Belgium 34.3%, +5.0pp for the home win since the July 4 open) show no further drift from these two new fitness doubts, already priced in via the predicted lineups. (Sports Mole/RotoWire corroborated)",
+   "links": [
+    {
+     "name": "Sports Mole: Team News: USA vs. Belgium injury, suspension list, predicted XIs",
+     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-belgium-injury-suspension-list-predicted-xis_600665.html"
+    },
+    {
+     "name": "RotoWire: USA vs Belgium Preview, Predicted Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/usa-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121161"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周一093",
