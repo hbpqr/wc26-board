@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 04:10",
+  "updated": "2026-07-07 05:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -600,6 +600,15 @@ window.DASH_DATA = {
      "🏆 巴西 1:2 挪威(04:00 完赛·ESPN STATUS_FULL_TIME·R16·巴西爆冷出局·集成主胜56.9%方向落空·竞彩HAD值均<1.10未出票·无持仓·pool 250.55不变)",
      "🏆 墨西哥 2:3 英格兰(延迟至09:00开球·完赛·ESPN STATUS_FULL_TIME·R16·集成客胜41.5%方向命中·竞彩HAD值均<1.10未出票·无持仓·pool 250.55不变)",
      "📊 周日091/092两场全终·无持仓·pool 250.55不变;betRound前滚至周一093(葡萄牙vs西班牙07-07 03:00)/094(美国vs比利时07-07 08:00)"
+    ]
+   },
+   {
+    "d": "07-07",
+    "pool": 250.55,
+    "pnl": 0,
+    "records": [
+     "🏆 葡萄牙 0:1 西班牙(03:00 完赛·ESPN STATUS_FULL_TIME·R16·集成客胜49.7%方向命中·竞彩HAD值均<1.10未出票·无持仓·pool 250.55不变)",
+     "📊 周一093已终·094(美国vs比利时07-07 08:00)未开赛·betRound前滚至周二095(阿根廷vs埃及07-08 00:00)/096(瑞士vs哥伦比亚07-08 04:00)"
     ]
    }
   ],
@@ -2121,6 +2130,23 @@ window.DASH_DATA = {
    },
    "predManual": "未出票",
    "note": "墨西哥2:3英格兰(ESPN STATUS_FULL_TIME·R16,因雷电延迟1小时09:00开球)·集成客胜41.5%方向命中(ens Brier=0.513,优于随机0.667;RPS=0.211,优于随机0.292)·匡萨解禁首发右后卫、詹姆斯替补的既定口径兑现·竞彩HAD值均<1.10(主胜0.91/平0.88/客胜0.88)未出票,无资金影响。learn.py已结算:新权重A市场65.9%/B-Elo5.9%/C-Poisson0.0%,Elo:墨西哥-16.9→1852.2,英格兰→2000.7。"
+  },
+  {
+   "num": "周一093",
+   "round": "周一",
+   "home": "葡萄牙",
+   "away": "西班牙",
+   "time": "07-07 03:00",
+   "status": "finished",
+   "actual": "0:1",
+   "predModel": "客胜49.7%",
+   "ensemble": {
+    "h": 23.57,
+    "d": 26.74,
+    "a": 49.69
+   },
+   "predManual": "未出票",
+   "note": "葡萄牙0:1西班牙(ESPN STATUS_FULL_TIME·R16)·集成客胜49.7%方向命中(ens Brier=0.380,优于随机0.667;RPS=0.154,优于随机0.292)·西班牙双翼Nico Williams(腹股沟)/Yeremy Pino(肩伤)缺战、亚马尔/波尔特/奥尔莫/拉波尔特周五未完整参训均已price in,竞彩HAD三项值全<1.0(主胜0.89/平0.88/客胜0.88)未出票,无资金影响。learn.py已结算:新权重A市场66.0%/B-Elo5.2%/C-Poisson0.0%,Elo:葡萄牙-17.8→1940.3,西班牙→2074.5。"
   }
  ],
  "holdings": {
@@ -2150,6 +2176,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周二095",
+   "impact": "哈菲兹或可出战",
+   "tone": "positive",
+   "text": "埃及左后卫哈菲兹此前因大腿伤情存疑,最新消息为已参加训练、大概率可出战阿根廷,此前口径'后防三缺'需下修为法图赫(大腿撕裂)确定缺战+阿卜杜勒蒙纳姆(脚踝)存疑,哈菲兹倾向可用。(Sports Mole/RotoWire双源核实)",
+   "en": "Egypt left-back Karim Hafez, previously a doubt with a thigh issue, has since trained and looks likely to be available against Argentina — the earlier 'three defenders out' framing should be revised down to Fatouh (confirmed out, hamstring tear) plus Abdelmonem (ankle, doubtful), with Hafez now leaning available. (Sports Mole/RotoWire corroborated)",
+   "full": "07-07 05:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球)——此前(07-06 16:10)口径为埃及后防三缺(法图赫/阿卜杜勒蒙纳姆/哈菲兹均为大腿伤情存疑),最新核实哈菲兹(Karim Hafez)对阵澳大利亚一战80分钟被换下的原因被两源交叉指向体能/轻微伤情而非重伤,他此后已参加合练、大概率可以首发出战阿根廷;法图赫(Ahmed Fatouh,腘绳肌撕裂)仍被视为'基本确定缺战';阿卜杜勒蒙纳姆(Mohamed Abdelmonem,脚踝)仍是临场决定。阿根廷方面新增:恩佐·费尔南德斯(Enzo Fernandez,对佛得角一战抽筋)、尼科·冈萨雷斯(脚踝)、法昆多·梅迪纳(抽筋)均为轻伤,预计不影响梅西领衔的锋线正常首发。国际共识(Polymarket)阿根廷71.1%/平20.4%/埃及8.5%,较07-05开盘几无变化(主+0.7pp/平+0.2pp/客-0.9pp),竞彩赔率未见联动。竞彩HAD值本身仍全<1.0(§0所述值不构成新增edge),哈菲兹回归属于'埃及防线空档收窄'的方向性利好埃及,但幅度有限,不改变现有无票判断。(Sports Mole/RotoWire双源核实)",
+   "enFull": "July 7, 05:10 BJT update (kickoff 07-08 00:00 BJT): The earlier (07-06 16:10) framing of Egypt facing three defensive absences (Fatouh/Abdelmonem/Hafez) needs revising. Karim Hafez, subbed off in the 80th minute against Australia, has since trained with the group and now looks likely to start against Argentina per two corroborating sources — his withdrawal is now attributed to fatigue/a minor issue rather than a serious injury. Ahmed Fatouh (hamstring tear) remains effectively ruled out, and Mohamed Abdelmonem (ankle) remains a game-time decision. On Argentina's side, Enzo Fernandez (cramp vs Cape Verde), Nico Gonzalez (ankle) and Facundo Medina (cramp) are all minor knocks not expected to affect Messi and the attack starting as planned. International consensus (Polymarket) is stable at Argentina 71.1% / draw 20.4% / Egypt 8.5% since the 07-05 open. China Sports Lottery odds show no reaction, and HAD values remain all <1.0 — Hafez's likely return is a modest positive for Egypt's defensive solidity but not enough to change the current no-bet read. (Sports Mole/RotoWire corroborated)",
+   "links": [
+    {
+     "name": "Sports Mole: Preview: Argentina vs Egypt - prediction, team news, lineups",
+     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-egypt-prediction-team-news-lineups_600679.html"
+    },
+    {
+     "name": "RotoWire: Argentina vs Egypt Preview, Predicted Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/argentina-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121312"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周二096",
@@ -2509,16 +2555,16 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 92,
+  "sampleCount": 93,
   "threshold": 50,
-  "pct": 184,
-  "ensBrier": 0.468,
-  "ensBrierMedian": 0.273,
-  "marketBase": 0.4955,
+  "pct": 186,
+  "ensBrier": 0.467,
+  "ensBrierMedian": 0.278,
+  "marketBase": 0.494,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 65,
-  "dirHit": 60,
+  "beatRandom": 66,
+  "dirHit": 61,
   "weightsFirst": {
    "A": 33,
    "B": 34,
@@ -2526,9 +2572,9 @@ window.DASH_DATA = {
   },
   "weightsLast": {
    "A": 66,
-   "B": 6,
+   "B": 5,
    "C": 0,
-   "D": 28
+   "D": 29
   },
   "dots": [
    {
@@ -3082,10 +3128,16 @@ window.DASH_DATA = {
     "m": "墨西哥·2:3",
     "b": 0.51,
     "win": true
+   },
+   {
+    "num": "周一093",
+    "m": "葡萄牙·0:1",
+    "b": 0.38,
+    "win": true
    }
   ],
-  "headline": "已喂 92 场预测 · 集成 Brier 0.468 vs 市场去水 0.4955（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.468 **仍没跑赢市场去水(0.4955)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 92/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 93 场预测 · 集成 Brier 0.467 vs 市场去水 0.494（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.467 **仍没跑赢市场去水(0.494)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 93/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
