@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 12:10",
+  "updated": "2026-07-07 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2194,6 +2194,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周二095",
+   "impact": "埃及中卫伤退存疑",
+   "tone": "positive",
+   "text": "埃及中卫亚辛·易卜拉欣在对阵澳大利亚120分钟点球大战中于加时赛尾声遭遇急性下肢肌肉伤情,成为对阵阿根廷一战的重大出战疑问,叠加此前已知法图赫(确定缺战)、阿卜杜勒蒙纳姆(存疑),埃及后防三缺升级为潜在四缺。(Sports Injury Central/SI双源核实)",
+   "en": "Egypt centre-back Yasser Ibrahim is a major doubt for the Argentina quarterfinal after suffering an acute lower-limb muscle injury late in extra time of the 120-minute win over Australia, adding to already-confirmed absentee Fatouh and doubtful Abdelmonem — a potential fourth defensive absence. (Sports Injury Central/SI corroborated)",
+   "full": "07-07 13:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球,距今~11小时)——新增埃及中卫亚辛·易卜拉欣(Yasser Ibrahim)伤情:对阵澳大利亚120分钟点球大战加时赛尾声遭遇急性下肢肌肉伤情,被列为对阵阿根廷一战的重大出战疑问。此前(07-07 05:10)口径已确认法图赫(腘绳肌撕裂)基本确定缺战、阿卜杜勒蒙纳姆(脚踝)临场决定、哈菲兹训练后大概率可出战;易卜拉欣若确定缺战,埃及后防将从'三缺哈菲兹回归收窄'重新转为潜在四人受影响,方向性利好阿根廷但幅度有限。国际共识(Polymarket)阿根廷72.1%/平19.4%/埃及8.5%(较07-05开盘主+1.7pp/平-0.8pp/客-0.9pp),竞彩HAD值仍全<1.0(主0.89/平0.88/客0.85)且elig.had.single=0只能串关,不改变现有无票判断。(Sports Injury Central/SI双源核实)",
+   "enFull": "July 7, 13:10 BJT update (kickoff 07-08 00:00 BJT, ~11h away): New injury concern for Egypt centre-back Yasser Ibrahim, who picked up an acute lower-limb muscle injury late in extra time of the 120-minute penalty-shootout win over Australia and is now a major doubt for the Argentina quarterfinal. This adds to the already-confirmed absence of Fatouh (hamstring tear) and doubtful Abdelmonem (ankle), while Hafez looks likely to return per the 05:10 update — if Ibrahim is ruled out, Egypt's defensive absentee count could rise back to four. International consensus (Polymarket) is Argentina 72.1% / draw 19.4% / Egypt 8.5% (main+1.7pp/draw-0.8pp/away-0.9pp vs the 07-05 open). China Sports Lottery HAD values remain all <1.0 (h0.89/d0.88/a0.85) and the HAD market is single-bet ineligible (parlay only) — no change to the current no-bet read. (Sports Injury Central/SI corroborated)",
+   "links": [
+    {
+     "name": "Sports Injury Central: World Cup Quarterfinal Injury Tracker",
+     "url": "https://sicscore.com/news/fifa-world-cup-injury-tracker-for-the-quarterfinals"
+    },
+    {
+     "name": "SI: Argentina vs. Egypt—World Cup: Preview, Predictions and Lineups",
+     "url": "https://www.si.com/soccer/argentina-vs-egypt-world-cup-preview-predictions-lineups-7-7-26"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周一094",
