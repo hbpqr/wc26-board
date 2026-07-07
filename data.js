@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 16:10",
+  "updated": "2026-07-07 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2194,6 +2194,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周二096",
+   "impact": "曼赞比确定缺战",
+   "tone": "negative",
+   "text": "瑞士本届最大惊喜新星约翰·曼赞比(3球)在赛前最后一次合练中无对抗性遭遇膝伤,俱乐部主帅雅金证实其'肯定'缺战对哥伦比亚一战;瓦尔加斯、索乌同场提前退出训练,存疑待定。(ESPN/华盛顿邮报双源核实)",
+   "en": "Switzerland's breakout star Johan Manzambi (3 goals this tournament) suffered a non-contact knee injury in the final pre-match training session and will 'definitely' miss the Colombia clash per coach Murat Yakin; Ruben Vargas and Djibril Sow also cut training short and are doubtful. (ESPN/Washington Post corroborated)",
+   "full": "07-07 17:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球,距今~11小时)——瑞士本届最大惊喜新星约翰·曼赞比(Johan Manzambi,20岁,SC弗赖堡,本届已入3球)周一(07-06)赛前最后一堂合练中遭遇无对抗性膝伤,瑞士媒体Blick率先报道,主帅穆拉特·雅金证实其'肯定'(definitely)缺战周二对哥伦比亚一役,并表示'如果他们明天不能出战,对我们将是个大问题'。同场退出训练的鲁本·瓦尔加斯(Ruben Vargas)、吉布里尔·索乌(Djibril Sow)伤情性质未公布,列为存疑待定,叠加此前已知的艾比舍尔(肌肉伤)、雅克(大腿伤)两人仍在个人训练,瑞士本场潜在多达4-5人受伤病影响,是本轮情报中影响面最大的一条。国际共识(Polymarket)瑞士26.4%/平31.3%/哥伦比亚42.3%,较07-05开盘几无变化,竞彩赔率(fetched 17:10)尚未见明显联动(主胜3.18/平2.95/客胜2.10,较16:10几无波动)。竞彩HAD三项值仍<1.0(主0.87/平0.88/客0.90),按纪律本身不构成新增edge,但曼赞比是全队进攻发起点,若正式缺战对瑞士进攻端影响显著,主会话决策时应纳入考量。(ESPN/Washington Post/Yahoo Sports多源核实)",
+   "enFull": "July 7, 17:10 BJT update (kickoff 07-08 04:00 BJT, ~11h away): Switzerland's breakout star of this tournament, 20-year-old Johan Manzambi (SC Freiburg, 3 goals so far), suffered a non-contact knee injury in Monday's final pre-match training session. Swiss outlet Blick first reported it, and head coach Murat Yakin confirmed Manzambi will 'definitely' miss Tuesday's last-16 clash with Colombia, adding 'if they might not play tomorrow, it can be a huge issue for us.' Ruben Vargas and Djibril Sow also cut the same session short with unspecified issues and are listed as doubtful, on top of already-known absentees Michel Aebischer (muscle) and Luca Jaquez (thigh), both still training individually — potentially up to 4-5 players affected, the widest-reaching single update this round. International consensus (Polymarket) stands at Switzerland 26.4% / draw 31.3% / Colombia 42.3%, little changed since the 07-05 open; China Sports Lottery odds (fetched 17:10: home 3.18/draw 2.95/away 2.10) show no material reaction yet vs the 16:10 snapshot. HAD values remain all <1.0 (h0.87/d0.88/a0.90) so this alone doesn't create a new edge by policy, but Manzambi is Switzerland's primary attacking creator — his likely absence should weigh into the main session's read of this match. (ESPN/Washington Post/Yahoo Sports corroborated)",
+   "links": [
+    {
+     "name": "ESPN: Switzerland fear 'huge issue' as Manzambi, 2 others leave training",
+     "url": "https://www.espn.com/soccer/story/_/id/49290967/switzerland-johan-manzambi-injury-colombia-2006-world-cup"
+    },
+    {
+     "name": "Washington Post: Swiss breakout star Manzambi and 2 others leave training ahead of World Cup clash with Colombia",
+     "url": "https://www.washingtonpost.com/sports/soccer/2026/07/06/johan-manzambi-switzerland-colombia-world-cup/9d3bbcd8-7993-11f1-b194-f872dd4ec5aa_story.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周二095",
