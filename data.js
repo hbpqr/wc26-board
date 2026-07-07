@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-07 18:10",
+  "updated": "2026-07-07 19:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2194,6 +2194,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-07",
+   "match": "周二096",
+   "impact": "曼赞比信源冲突",
+   "tone": "negative",
+   "text": "⚠️信源矛盾:瑞士媒体Blick(经OneFootball/Yahoo Sports 07-07转引)称曼赞比'肯定'缺战哥伦比亚一战;但ESPN直接引述主帅雅金原话为'一切仍未落定,今天下午医学检测后再定'(见上一小时更正条目)。两源均标注07-07当日、均未明确谁在后、无法判断先后覆盖关系,按宁缺毋假原则不采信'肯定缺战'为定论,维持'重大存疑·待赛前最终确认'表述。国际共识/竞彩赔率暂未见联动,不改变096无票判断。(OneFootball/Yahoo Sports 转引Blick，与ESPN/Al Jazeera 直接引述冲突)",
+   "en": "⚠️Source conflict: Swiss outlet Blick (via OneFootball/Yahoo Sports, both July 7) reports Manzambi will 'definitely' miss the Colombia match; but ESPN's direct quote from coach Yakin says 'everything is still up in the air' pending an afternoon medical exam (see prior hour's correction). Both dated same-day with no clear sequencing, so per the no-fabrication rule this is NOT treated as confirmed — status remains 'major doubt, pending final confirmation'. No odds/consensus movement seen; doesn't change the no-bet conclusion for 096.",
+   "full": "07-07 19:10 BJT情报更新(信源冲突,不采信为定论):周二096瑞士vs哥伦比亚(07-08 04:00开球,距今~9小时)——本轮WebSearch核查发现瑞士媒体Blick的报道(经OneFootball 07-07 08:25UTC/Yahoo Sports同日转引)称曼赞比因训练最后一节无对抗性膝伤'肯定'缺战;但18:10条目已直接WebFetch核对ESPN原文,雅金原话为'一切仍未落定,今天下午看医学检测结果'(非确认缺战),Al Jazeera同日稿同样列为存疑。两条信源均标注07-07当天、均为间接转引或直接引语,无法确定时间先后覆盖关系,故本条不采信'肯定缺战'为最终定论,维持'重大存疑'表述,留待赛前(04:00 BJT)最终阵容公布时核实。国际共识(Polymarket)瑞士26.4%/平31.3%/哥伦比亚42.3%不变,竞彩HAD三项值仍全<1.0(主0.87/平0.88/客0.90),无新增edge,不改变096无票判断。",
+   "enFull": "July 7, 19:10 BJT update (source conflict, not treated as confirmed): Match 096 Switzerland vs Colombia (kickoff 07-08 04:00 BJT, ~9h away) — this round's WebSearch found Swiss outlet Blick (via OneFootball, published July 7 08:25 UTC, and Yahoo Sports same day) reporting Manzambi will 'definitely' miss the match due to a non-contact knee injury in the final training session. However, the 18:10 entry already directly fetched the ESPN source article, whose actual Yakin quote says 'everything is still up in the air' pending an afternoon medical exam — not a confirmed absence. Al Jazeera's same-day report likewise lists him as doubtful. Both source sets are dated the same day with no clear sequencing, so this entry does NOT treat 'definitely out' as final — status remains 'major doubt', to be confirmed at the official lineup near kickoff (04:00 BJT). International consensus (Polymarket) unchanged at Switzerland 26.4%/draw 31.3%/Colombia 42.3%; HAD values remain all <1.0 (h0.87/d0.88/a0.90), no new edge, no-bet conclusion for 096 unchanged.",
+   "links": [
+    {
+     "name": "OneFootball: Manzambi set to miss Switzerland's World Cup clash with Colombia due to injury",
+     "url": "https://onefootball.com/en/news/manzambi-set-to-miss-switzerlands-world-cup-clash-with-colombia-due-to-injury-43107325"
+    },
+    {
+     "name": "Yahoo Sports: Manzambi set to miss Switzerland's World Cup clash with Colombia due to injury",
+     "url": "https://ca.sports.yahoo.com/news/manzambi-set-miss-switzerland-world-082500636.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-07",
    "match": "周二096",
