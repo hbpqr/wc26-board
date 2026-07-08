@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-08 22:10",
+  "updated": "2026-07-09 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2260,182 +2260,22 @@ window.DASH_DATA = {
    ]
   },
   {
-   "date": "2026-07-07",
-   "match": "周二096",
-   "impact": "曼赞比信源冲突",
-   "tone": "negative",
-   "text": "⚠️信源矛盾:瑞士媒体Blick(经OneFootball/Yahoo Sports 07-07转引)称曼赞比'肯定'缺战哥伦比亚一战;但ESPN直接引述主帅雅金原话为'一切仍未落定,今天下午医学检测后再定'(见上一小时更正条目)。两源均标注07-07当日、均未明确谁在后、无法判断先后覆盖关系,按宁缺毋假原则不采信'肯定缺战'为定论,维持'重大存疑·待赛前最终确认'表述。国际共识/竞彩赔率暂未见联动,不改变096无票判断。(OneFootball/Yahoo Sports 转引Blick，与ESPN/Al Jazeera 直接引述冲突)",
-   "en": "⚠️Source conflict: Swiss outlet Blick (via OneFootball/Yahoo Sports, both July 7) reports Manzambi will 'definitely' miss the Colombia match; but ESPN's direct quote from coach Yakin says 'everything is still up in the air' pending an afternoon medical exam (see prior hour's correction). Both dated same-day with no clear sequencing, so per the no-fabrication rule this is NOT treated as confirmed — status remains 'major doubt, pending final confirmation'. No odds/consensus movement seen; doesn't change the no-bet conclusion for 096.",
-   "full": "07-07 19:10 BJT情报更新(信源冲突,不采信为定论):周二096瑞士vs哥伦比亚(07-08 04:00开球,距今~9小时)——本轮WebSearch核查发现瑞士媒体Blick的报道(经OneFootball 07-07 08:25UTC/Yahoo Sports同日转引)称曼赞比因训练最后一节无对抗性膝伤'肯定'缺战;但18:10条目已直接WebFetch核对ESPN原文,雅金原话为'一切仍未落定,今天下午看医学检测结果'(非确认缺战),Al Jazeera同日稿同样列为存疑。两条信源均标注07-07当天、均为间接转引或直接引语,无法确定时间先后覆盖关系,故本条不采信'肯定缺战'为最终定论,维持'重大存疑'表述,留待赛前(04:00 BJT)最终阵容公布时核实。国际共识(Polymarket)瑞士26.4%/平31.3%/哥伦比亚42.3%不变,竞彩HAD三项值仍全<1.0(主0.87/平0.88/客0.90),无新增edge,不改变096无票判断。",
-   "enFull": "July 7, 19:10 BJT update (source conflict, not treated as confirmed): Match 096 Switzerland vs Colombia (kickoff 07-08 04:00 BJT, ~9h away) — this round's WebSearch found Swiss outlet Blick (via OneFootball, published July 7 08:25 UTC, and Yahoo Sports same day) reporting Manzambi will 'definitely' miss the match due to a non-contact knee injury in the final training session. However, the 18:10 entry already directly fetched the ESPN source article, whose actual Yakin quote says 'everything is still up in the air' pending an afternoon medical exam — not a confirmed absence. Al Jazeera's same-day report likewise lists him as doubtful. Both source sets are dated the same day with no clear sequencing, so this entry does NOT treat 'definitely out' as final — status remains 'major doubt', to be confirmed at the official lineup near kickoff (04:00 BJT). International consensus (Polymarket) unchanged at Switzerland 26.4%/draw 31.3%/Colombia 42.3%; HAD values remain all <1.0 (h0.87/d0.88/a0.90), no new edge, no-bet conclusion for 096 unchanged.",
-   "links": [
-    {
-     "name": "OneFootball: Manzambi set to miss Switzerland's World Cup clash with Colombia due to injury",
-     "url": "https://onefootball.com/en/news/manzambi-set-to-miss-switzerlands-world-cup-clash-with-colombia-due-to-injury-43107325"
-    },
-    {
-     "name": "Yahoo Sports: Manzambi set to miss Switzerland's World Cup clash with Colombia due to injury",
-     "url": "https://ca.sports.yahoo.com/news/manzambi-set-miss-switzerland-world-082500636.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周二096",
-   "impact": "曼赞比状态存疑",
-   "tone": "negative",
-   "text": "更正:瑞士曼赞比(3球新星)伤情**未被确认出局**——主帅雅金07-07最新表态'一切仍未定',球队下午做医学检测后再定,与瓦尔加斯、索乌同列存疑;上一小时'肯定缺战'表述经直接核对原文核实为夸大。(ESPN原文/半岛电视台双源核实修正)",
-   "en": "Correction: Switzerland's Manzambi is NOT confirmed out for Colombia — coach Yakin said July 7 'everything is still up in the air' pending an afternoon medical exam; Vargas and Sow also remain doubtful. Last hour's 'definitely out' claim was overstated per direct re-check of the source article. (ESPN/Al Jazeera corroborated correction)",
-   "full": "07-07 18:10 BJT情报更正:周二096瑞士vs哥伦比亚(07-08 04:00开球,距今~10小时)——直接重新核对17:10条目引用的ESPN原文及新增半岛电视台报道,发现'雅金证实曼赞比肯定缺战'的表述与原文不符,系上一轮总结夸大。ESPN原文雅金原话为:'如果他们明天不能出战,对我们将是个大问题……今天下午再看,因为他们要做医学检测……对约翰·曼赞比来说可能会有点困难,希望不会,一切仍未落定(everything is still up in the air)'。半岛电视台07-07当日稿同样将其列为'待定/存疑'而非确认缺战。瓦尔加斯、索乌情况同样待医学检测结果,均未有俱乐部或主帅给出'确定缺战'的明确表述。特此更正上一小时条目,以此条为准。国际共识(Polymarket)瑞士26.4%/平31.3%/哥伦比亚42.3%不变,竞彩HAD三项值仍全<1.0(主0.87/平0.88/客0.90),本身不构成新增edge。(ESPN/Al Jazeera双源核实修正)",
-   "enFull": "July 7, 18:10 BJT correction (kickoff 07-08 04:00 BJT, ~10h away): Re-checking the ESPN source article cited in the 17:10 entry, plus a new Al Jazeera report, shows the prior claim that coach Yakin 'confirmed' Manzambi will 'definitely' miss the match was an overstatement. Yakin's actual quote: 'If they might not play tomorrow, it can be a huge issue for us... we will see what happens this afternoon because they will go through some medical examination... it's probably going to be a little bit difficult with Johan Manzambi, I hope not, everything is still up in the air.' Al Jazeera's same-day report likewise lists him as doubtful/game-time decision, not ruled out. Vargas and Sow are in the same pending-medical-exam status; no club or coach statement confirms a definite absence for any of the three. This corrects and supersedes the prior hour's entry. International consensus (Polymarket) unchanged at Switzerland 26.4%/draw 31.3%/Colombia 42.3%; HAD values remain all <1.0 (h0.87/d0.88/a0.90), no new edge created. (ESPN/Al Jazeera corroborated correction)",
-   "links": [
-    {
-     "name": "ESPN: Switzerland fear 'huge issue' as Manzambi, 2 others leave training",
-     "url": "https://www.espn.com/soccer/story/_/id/49290967/switzerland-johan-manzambi-injury-colombia-2006-world-cup"
-    },
-    {
-     "name": "Al Jazeera: Switzerland vs Colombia, World Cup last 16 — prediction, start time and news",
-     "url": "https://www.aljazeera.com/news/2026/7/7/switzerland-colombia-world-cup-munoz-embolo-manzambi-prediction-news-start-time"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周二095",
-   "impact": "埃及中卫伤退存疑",
-   "tone": "positive",
-   "text": "埃及中卫亚辛·易卜拉欣在对阵澳大利亚120分钟点球大战中于加时赛尾声遭遇急性下肢肌肉伤情,成为对阵阿根廷一战的重大出战疑问,叠加此前已知法图赫(确定缺战)、阿卜杜勒蒙纳姆(存疑),埃及后防三缺升级为潜在四缺。(Sports Injury Central/SI双源核实)",
-   "en": "Egypt centre-back Yasser Ibrahim is a major doubt for the Argentina quarterfinal after suffering an acute lower-limb muscle injury late in extra time of the 120-minute win over Australia, adding to already-confirmed absentee Fatouh and doubtful Abdelmonem — a potential fourth defensive absence. (Sports Injury Central/SI corroborated)",
-   "full": "07-07 13:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球,距今~11小时)——新增埃及中卫亚辛·易卜拉欣(Yasser Ibrahim)伤情:对阵澳大利亚120分钟点球大战加时赛尾声遭遇急性下肢肌肉伤情,被列为对阵阿根廷一战的重大出战疑问。此前(07-07 05:10)口径已确认法图赫(腘绳肌撕裂)基本确定缺战、阿卜杜勒蒙纳姆(脚踝)临场决定、哈菲兹训练后大概率可出战;易卜拉欣若确定缺战,埃及后防将从'三缺哈菲兹回归收窄'重新转为潜在四人受影响,方向性利好阿根廷但幅度有限。国际共识(Polymarket)阿根廷72.1%/平19.4%/埃及8.5%(较07-05开盘主+1.7pp/平-0.8pp/客-0.9pp),竞彩HAD值仍全<1.0(主0.89/平0.88/客0.85)且elig.had.single=0只能串关,不改变现有无票判断。(Sports Injury Central/SI双源核实)",
-   "enFull": "July 7, 13:10 BJT update (kickoff 07-08 00:00 BJT, ~11h away): New injury concern for Egypt centre-back Yasser Ibrahim, who picked up an acute lower-limb muscle injury late in extra time of the 120-minute penalty-shootout win over Australia and is now a major doubt for the Argentina quarterfinal. This adds to the already-confirmed absence of Fatouh (hamstring tear) and doubtful Abdelmonem (ankle), while Hafez looks likely to return per the 05:10 update — if Ibrahim is ruled out, Egypt's defensive absentee count could rise back to four. International consensus (Polymarket) is Argentina 72.1% / draw 19.4% / Egypt 8.5% (main+1.7pp/draw-0.8pp/away-0.9pp vs the 07-05 open). China Sports Lottery HAD values remain all <1.0 (h0.89/d0.88/a0.85) and the HAD market is single-bet ineligible (parlay only) — no change to the current no-bet read. (Sports Injury Central/SI corroborated)",
-   "links": [
-    {
-     "name": "Sports Injury Central: World Cup Quarterfinal Injury Tracker",
-     "url": "https://sicscore.com/news/fifa-world-cup-injury-tracker-for-the-quarterfinals"
-    },
-    {
-     "name": "SI: Argentina vs. Egypt—World Cup: Preview, Predictions and Lineups",
-     "url": "https://www.si.com/soccer/argentina-vs-egypt-world-cup-preview-predictions-lineups-7-7-26"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周一094",
-   "impact": "官方首发已出",
+   "date": "2026-07-09",
+   "match": "周四097",
+   "impact": "奥利塞带牌观察",
    "tone": "neutral",
-   "text": "美国、比利时官方首发11人已双双公布,美国首发命中此前预测(排除麦肯齐、罗尔丹),迪斯特/普利西奇/巴洛贡如期首发;比利时首发未见德巴斯特,与此前'存疑待定'口径略有出入,以官方名单为准。(US Soccer官方/ESPN双源核实)",
-   "en": "USA and Belgium have both released official starting XIs, matching prior predicted lineups: USA start Richards/Adams/Robinson at the back with McKenzie and Roldan left out; Belgium's Debast, previously a doubt, starts as expected. (US Soccer official/ESPN corroborated)",
-   "full": "07-07 07:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球,距今~50分钟)——双方官方首发11人已正式公布。美国:门将Freese;后防Dest/Richards/Ream(队长)/Robinson/Freeman;中场McKennie/Adams/Tillman;锋线Pulisic/Balogun/(11人制阵容,具体位置以US Soccer官方公布为准)。此前03:10口径预测的'排除麦肯齐、罗尔丹,里查兹/里姆/罗宾逊后防+麦肯尼/亚当斯/蒂尔曼中场'已被官方首发验证命中,迪斯特/普利西奇/巴洛贡如期首发。比利时:门将库尔图瓦,后防卡斯塔涅/恩戈伊/梅切莱/泰奥,中场蒂勒曼斯/奥纳纳,锋线特罗萨德/德布劳内/多库/德凯特莱雷——此前存疑的德巴斯特(Zeno Debast)未获官方确认正常出战位置(先发名单为恩戈伊/梅切莱担纲双中卫,德巴斯特疑似替补),需留意与此前'德巴斯特doubtful待定'口径的细微差异,以官方名单为准。竞彩赔率(美国胜@2.10/平@3.40/比利时胜@2.79)较昨日无变化,官方定名单未引发盘口反应(namesheet已被市场充分price in)。竞彩HAD三项值仍全<1.0(主0.87/平0.90/客0.90),无新增edge,维持无票判断。(US Soccer官方/ESPN双源核实)",
-   "enFull": "July 7, 07:10 BJT update (kickoff 07-07 08:00 BJT, ~50 min away): Both USA and Belgium have published official starting XIs. USA: Freese in goal; Dest/Richards/Ream(c)/Robinson/Freeman in defense; McKennie/Adams/Tillman in midfield; Pulisic/Balogun leading the attack — matching the 03:10 predicted lineup that excluded McKenzie and Roldan. Belgium: Courtois; Castagne/Ngoy/Mechele/Theate; Tielemans/Onana; Trossard/De Bruyne/Doku/De Ketelaere — Debast, previously listed as a doubt, does not appear to start per the official sheet (Ngoy/Mechele pairing instead), a minor deviation from the earlier 'Debast doubtful' framing worth flagging. China Sports Lottery odds (USA @2.10/draw @3.40/Belgium @2.79) unchanged from yesterday — no market reaction to the official lineups (already priced in). HAD values remain all <1.0 (h0.87/d0.90/a0.90), no new edge, no-bet stands. (US Soccer official/ESPN corroborated)",
+   "text": "法国申诉FIFA撤销奥利塞对巴拉圭一战黄牌被正式驳回,德尚证实'黄牌维持不变',奥利塞对摩洛哥一战再吃牌将停赛下一轮。(ESPN/OneFootball双源核实)",
+   "en": "France's appeal to FIFA to rescind Michael Olise's yellow card from the Paraguay match has been formally denied — coach Deschamps confirmed 'nothing has changed' — meaning Olise is one caution away from missing France's next match if booked against Morocco. (ESPN/OneFootball corroborated)",
+   "full": "07-09 00:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~28小时)——法国足协此前就奥利塞(Olise)对阵巴拉圭一战黄牌(争议判罚,回放显示疑似仅拉扯球衣)向FIFA提出撤销申诉,现已有结果:FIFA驳回申诉,德尚发布会证实'黄牌方面,没有任何变化'。奥利塞目前带牌作战,本场若再吃黄牌将停赛下一轮(法国若晋级则为决赛)。此事不影响他本场出战资格,仅构成对抗尺度/战术使用上的隐性风险。国际共识(Polymarket)本轮重刷法国61.8%/平24.6%/摩洛哥13.6%(较07-07开盘主+0.6pp/平+0.2pp/客-0.9pp,无显著漂移),odds_data.js本轮h/d/a数值未变,elig(had/hhad单关/串关)仍全为0(全场封盘中,已连续多轮观察)。图阿梅尼伤势/萨拜里伤情等既有口径不变,本轮无新增两源确认事实。(ESPN/OneFootball corroborated)",
+   "enFull": "July 9, 00:10 BJT update (kickoff 07-10 04:00 BJT, ~28h away): France's federation had appealed to FIFA to rescind Michael Olise's yellow card from the Paraguay match (a contested call, replays suggesting only a shirt tug); FIFA has now denied the appeal, with Deschamps confirming at a press conference 'as for the yellow card, nothing has changed.' Olise plays on a card and would be suspended for France's next match (the final, if France advances) if booked again against Morocco — this does not affect his availability for this match, only the tactical/disciplinary risk around his usage. International consensus (Polymarket, refreshed) France 61.8% / draw 24.6% / Morocco 13.6% (vs the July 7 open: main+0.6pp/draw+0.2pp/away-0.9pp, no material drift). odds_data.js h/d/a values unchanged this round; elig (single/parlay for both HAD and handicap) remains all 0 (fully locked, observed across multiple rounds now). Existing Tchouameni injury / Saibari fitness lines unchanged, no new two-source-confirmed facts this round.",
    "links": [
     {
-     "name": "US Soccer: Starting XI & Lineup Notes: USMNT vs. Belgium in FIFA World Cup 2026 Round of 16",
-     "url": "https://www.ussoccer.com/stories/2026/07/usmnt/starting-xi-lineup-notes-vs-belgium-round-of-16-world-cup-seattle"
+     "name": "ESPN: France appeals to FIFA over controversial Michael Olise yellow card vs. Paraguay",
+     "url": "https://www.espn.com/soccer/story/_/id/49289653/france-appeals-fifa-controversial-michael-olise-yellow-card-vs-paraguay"
     },
     {
-     "name": "ESPN: USA vs. Belgium at World Cup 2026 - predicted line-ups",
-     "url": "https://www.espn.com/soccer/story/_/id/49269414/usa-vs-belgium-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周二095",
-   "impact": "哈菲兹或可出战",
-   "tone": "positive",
-   "text": "埃及左后卫哈菲兹此前因大腿伤情存疑,最新消息为已参加训练、大概率可出战阿根廷,此前口径'后防三缺'需下修为法图赫(大腿撕裂)确定缺战+阿卜杜勒蒙纳姆(脚踝)存疑,哈菲兹倾向可用。(Sports Mole/RotoWire双源核实)",
-   "en": "Egypt left-back Karim Hafez, previously a doubt with a thigh issue, has since trained and looks likely to be available against Argentina — the earlier 'three defenders out' framing should be revised down to Fatouh (confirmed out, hamstring tear) plus Abdelmonem (ankle, doubtful), with Hafez now leaning available. (Sports Mole/RotoWire corroborated)",
-   "full": "07-07 05:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球)——此前(07-06 16:10)口径为埃及后防三缺(法图赫/阿卜杜勒蒙纳姆/哈菲兹均为大腿伤情存疑),最新核实哈菲兹(Karim Hafez)对阵澳大利亚一战80分钟被换下的原因被两源交叉指向体能/轻微伤情而非重伤,他此后已参加合练、大概率可以首发出战阿根廷;法图赫(Ahmed Fatouh,腘绳肌撕裂)仍被视为'基本确定缺战';阿卜杜勒蒙纳姆(Mohamed Abdelmonem,脚踝)仍是临场决定。阿根廷方面新增:恩佐·费尔南德斯(Enzo Fernandez,对佛得角一战抽筋)、尼科·冈萨雷斯(脚踝)、法昆多·梅迪纳(抽筋)均为轻伤,预计不影响梅西领衔的锋线正常首发。国际共识(Polymarket)阿根廷71.1%/平20.4%/埃及8.5%,较07-05开盘几无变化(主+0.7pp/平+0.2pp/客-0.9pp),竞彩赔率未见联动。竞彩HAD值本身仍全<1.0(§0所述值不构成新增edge),哈菲兹回归属于'埃及防线空档收窄'的方向性利好埃及,但幅度有限,不改变现有无票判断。(Sports Mole/RotoWire双源核实)",
-   "enFull": "July 7, 05:10 BJT update (kickoff 07-08 00:00 BJT): The earlier (07-06 16:10) framing of Egypt facing three defensive absences (Fatouh/Abdelmonem/Hafez) needs revising. Karim Hafez, subbed off in the 80th minute against Australia, has since trained with the group and now looks likely to start against Argentina per two corroborating sources — his withdrawal is now attributed to fatigue/a minor issue rather than a serious injury. Ahmed Fatouh (hamstring tear) remains effectively ruled out, and Mohamed Abdelmonem (ankle) remains a game-time decision. On Argentina's side, Enzo Fernandez (cramp vs Cape Verde), Nico Gonzalez (ankle) and Facundo Medina (cramp) are all minor knocks not expected to affect Messi and the attack starting as planned. International consensus (Polymarket) is stable at Argentina 71.1% / draw 20.4% / Egypt 8.5% since the 07-05 open. China Sports Lottery odds show no reaction, and HAD values remain all <1.0 — Hafez's likely return is a modest positive for Egypt's defensive solidity but not enough to change the current no-bet read. (Sports Mole/RotoWire corroborated)",
-   "links": [
-    {
-     "name": "Sports Mole: Preview: Argentina vs Egypt - prediction, team news, lineups",
-     "url": "https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-egypt-prediction-team-news-lineups_600679.html"
-    },
-    {
-     "name": "RotoWire: Argentina vs Egypt Preview, Predicted Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/argentina-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121312"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周二096",
-   "impact": "瑞士雅克伤疑新增",
-   "tone": "negative",
-   "text": "瑞士右后卫卢卡·雅克(大腿肌肉伤)继艾比舍尔之后再添一名个人训练中的疑似缺战球员,两人伤情均待赛前最终确认。(RotoWire/Yahoo Sports双源核实)",
-   "en": "Switzerland right-back Luca Jaquez (thigh muscle issue) joins Aebischer on the individual-training doubtful list, with both fitness calls pending until close to kickoff. (RotoWire/Yahoo Sports corroborated)",
-   "full": "07-07 04:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——新增瑞士伤情:右后卫卢卡·雅克(Luca Jaquez)因大腿肌肉不适,继此前已知的米歇尔·艾比舍尔(Michel Aebischer,肌肉伤)之后,成为第二名仍在个人训练、未回归大部队合练的瑞士球员。雅克此前在小组赛末轮对阵加拿大出任右后卫首发,此后因肌肉问题存疑缺席对阿尔及利亚一战,目前对哥伦比亚一战能否出战仍是逐日观察。哥伦比亚方面口径不变(科尔多瓦报销、J罗因病存疑)。国际共识/竞彩赔率暂未见因此新增变化。(RotoWire两篇独立报道+Yahoo Sports核实)",
-   "enFull": "July 7, 04:10 BJT update (kickoff 07-08 04:00 BJT): New Switzerland fitness concern — right-back Luca Jaquez (thigh muscle issue) joins Michel Aebischer as a second player still training individually rather than with the full squad. Jaquez started at right-back in the final group game against Canada, then was already a doubt for the Algeria match with the same issue; his availability for Colombia remains day-to-day. Colombia's situation is unchanged (Cordoba out for the tournament, James Rodriguez a doubt with illness). No odds movement tied to this so far. (Two independent RotoWire reports plus Yahoo Sports corroboration)",
-   "links": [
-    {
-     "name": "RotoWire: Luca Jaquez Injury: Sits out training with muscle issue",
-     "url": "https://www.rotowire.com/soccer/headlines/luca-jaquez-injury-sits-out-training-with-muscle-issue-521955"
-    },
-    {
-     "name": "Yahoo Sports: Switzerland defender Jaquez doubtful for match against Algeria",
-     "url": "https://sports.yahoo.com/articles/switzerland-defender-jaquez-doubtful-match-003423909.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周一094",
-   "impact": "麦肯齐罗尔丹存疑",
-   "tone": "negative",
-   "text": "美国中卫麦肯齐(脚伤)、中场罗尔丹(肌肉伤)出战存疑,预测首发已排除二人(后防换里查兹/里姆/罗宾逊,中场麦肯尼/亚当斯/蒂尔曼),迪斯特/普利西奇/巴洛贡如期首发;比利时仅德巴斯特(Debast)存疑待最终确认。(Sports Mole/RotoWire双源核实)",
-   "en": "USA center back Mark McKenzie (foot) and midfielder Cristian Roldan (muscle) are doubtful; predicted lineups already omit both (Richards/Ream/Robinson at the back, McKennie/Adams/Tillman in midfield), with Dest, Pulisic and Balogun set to start as planned. Belgium's only doubt is Zeno Debast, pending a final call. (Sports Mole/RotoWire corroborated)",
-   "full": "07-07 03:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——新增美国伤情:中卫麦肯齐(Mark McKenzie,脚伤)、中场罗尔丹(Cristian Roldan,肌肉伤)出战存疑,尚待赛前最终评估,但多家预测首发已直接排除二人,以里查兹(Richards)/里姆(Ream)/罗宾逊(Robinson)组成后防三人组、麦肯尼(McKennie)/亚当斯(Adams)/蒂尔曼(Tillman)组成中场,迪斯特(Dest)、普利西奇(Pulisic)、巴洛贡(Balogun,解禁已确认)如期首发。比利时方面无新增伤情,仅中卫德巴斯特(Zeno Debast)伤情存疑待赛前最终确定,特罗萨德(Trossard)、德布劳内(De Bruyne)、多库(Doku)均预计正常首发。竞彩赔率(美国胜@2.10/平@3.40/比利时胜@2.79)、国际共识(Polymarket美38.3%/平27.4%/比34.3%,较07-04开盘主胜+5.0pp)暂未见因这两条新增伤情出现进一步漂移,预测首发已提前消化。(Sports Mole/RotoWire多源核实)",
-   "enFull": "July 7, 03:10 BJT update (kickoff 07-07 08:00 BJT): New USA injury news — center back Mark McKenzie (foot) and midfielder Cristian Roldan (muscle) are doubtful pending final pre-match assessment, but predicted XIs already exclude both, slotting in a Richards/Ream/Robinson back line and a McKennie/Adams/Tillman midfield, with Dest, Pulisic and the now-cleared Balogun starting as planned. Belgium reports no new injury concerns beyond center back Zeno Debast's doubtful status pending a final call, with Trossard, De Bruyne and Doku all expected to start normally. China Sports Lottery odds (USA @2.10 / draw @3.40 / Belgium @2.79) and international consensus (Polymarket USA 38.3% / draw 27.4% / Belgium 34.3%, +5.0pp for the home win since the July 4 open) show no further drift from these two new fitness doubts, already priced in via the predicted lineups. (Sports Mole/RotoWire corroborated)",
-   "links": [
-    {
-     "name": "Sports Mole: Team News: USA vs. Belgium injury, suspension list, predicted XIs",
-     "url": "https://www.sportsmole.co.uk/football/usa/world-cup-2026/team-news/usa-vs-belgium-injury-suspension-list-predicted-xis_600665.html"
-    },
-    {
-     "name": "RotoWire: USA vs Belgium Preview, Predicted Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/usa-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121161"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周一093",
-   "impact": "西班牙多点轻伤",
-   "tone": "negative",
-   "text": "西班牙亚马尔、波尔特、奥尔莫、拉波尔特周五均未完整参训,但均无重伤迹象;略伦特可顶替波尔特,主力阵容预计基本不变。(SI/RotoWire双源核实)",
-   "en": "Spain's Yamal, Porro, Dani Olmo and Laporte all failed to complete a full training session on Friday, though none is thought to have a serious issue; Llorente is the fallback for Porro, and an unchanged Roja XI is still expected. (SI/RotoWire corroborated)",
-   "full": "07-07 02:10 BJT情报更新:周一093葡萄牙vs西班牙(07-07 03:00开球)——除此前已确认缺战的尼科·威廉姆斯(内收肌)、耶雷米·平诺(肩伤)外,新增西班牙亚马尔(Yamal)、波尔特(Porro)、丹尼·奥尔莫(Dani Olmo)、拉波尔特(Laporte)四人周五均未完整参加训练,但均未被列为严重伤情;略伦特(Llorente)是波尔特的替补方案,德拉富恩特预计仍以基本不变的首发阵容出战。葡萄牙方面无新增伤情,马丁内斯预计沿用击败克罗地亚的原班人马、C罗继续首发。国际共识(Polymarket)葡萄牙23.4%/平27.4%/西班牙49.3%,较07-04开盘客胜-1.5pp小幅回落,竞彩赔率(葡萄牙胜@3.83/平@3.30/西班牙胜@1.77)暂未见显著联动。(SI/RotoWire多源核实)",
-   "enFull": "July 7, 02:10 BJT update (kickoff 07-07 03:00 BJT): Beyond the already-confirmed absences of Nico Williams (adductor) and Yeremy Pino (shoulder), Spain's Yamal, Porro, Dani Olmo and Laporte all failed to complete full training on Friday, though none is described as a serious concern. Llorente is the fallback option for Porro, and coach de la Fuente is still expected to field a largely unchanged starting XI. Portugal reports no new injury concerns, with Martinez expected to stick with the same group that beat Croatia and Ronaldo continuing to start. International consensus (Polymarket) has Portugal 23.4% / draw 27.4% / Spain 49.3%, a modest -1.5pp pullback for the away win since the July 4 open; China Sports Lottery odds (Portugal @3.83 / draw @3.30 / Spain @1.77) have not moved materially on this. (SI/RotoWire corroborated)",
-   "links": [
-    {
-     "name": "SI: Portugal Predicted Lineup vs. Spain: World Cup Round of 16",
-     "url": "https://www.si.com/soccer/portugal-predicted-lineup-vs-spain-world-cup-7-6-26"
-    },
-    {
-     "name": "RotoWire: Portugal vs Spain Preview, Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/portugal-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121162"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-07",
-   "match": "周一094",
-   "impact": "申诉被驳回",
-   "tone": "positive",
-   "text": "FIFA已正式驳回比利时对巴洛贡解禁裁决的申诉,巴洛贡确认可代表美国出战比利时,此前悬而未决的争议至此落定。(Yahoo Sports/CNBC/ESPN多源核实)",
-   "en": "FIFA has formally denied Belgium's appeal against the decision to lift Balogun's suspension, confirming he is available to play for the USA against Belgium — resolving the previously unsettled controversy. (Yahoo Sports/CNBC/ESPN corroborated)",
-   "full": "07-07 02:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——此前悬而未决的申诉已有结果:FIFA申诉委员会已正式驳回比利时足协对'巴洛贡红牌停赛缓刑解禁'裁决的申诉,巴洛贡确认解禁、可代表美国出战本场比利时。比利时方面反应强烈,主帅加西亚(Rudi Garcia)称最初听闻裁决时'以为是愚人节玩笑';比利时此前称呼吁FIFA说明改判理由未获正面答复,FIFA将其诉求径直作为申诉处理。此案为世界杯60余年历史上第二例红牌停赛被FIFA主动撤销(特朗普此前证实曾就此案致电FIFA主席因凡蒂诺)。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)在申诉结果公布前已基本消化此利好,国际共识(Polymarket)美国39.3%/平27.4%/比利时33.3%,较07-04开盘主胜+6.0pp,方向与竞彩定价一致,暂未见因今日裁决结果本身出现新增漂移。(Yahoo Sports/CNBC/ESPN/France24多源核实)",
-   "enFull": "July 7, 02:10 BJT update (kickoff 07-07 08:00 BJT): The previously unresolved appeal has now been decided — FIFA's appeals panel has formally denied Belgium's appeal against the ruling that suspended Balogun's red-card ban, confirming he is cleared to play for the USA in this match. Belgium reacted strongly, with head coach Rudi Garcia saying he initially thought the ruling was 'an April Fools' joke'; Belgium had said its request for FIFA to explain the reversal went unanswered, with FIFA instead treating the inquiry as a formal appeal. This is only the second time in 60-plus years of World Cup history that FIFA has proactively overturned a red-card suspension (Trump has confirmed he called FIFA president Infantino about the case). China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) had already largely priced in this favorable outcome for the USA ahead of the ruling; international consensus (Polymarket) has USA 39.3% / draw 27.4% / Belgium 33.3%, up +6.0pp for the home win since the July 4 open, consistent in direction with the Sports Lottery pricing — no fresh drift is evident from today's ruling itself. (Yahoo Sports/CNBC/ESPN/France24 corroborated)",
-   "links": [
-    {
-     "name": "Yahoo Sports: World Cup 2026: Belgium has appeal denied after FIFA reversed USMNT's Folarin Balogun 1-game ban",
-     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-belgium-has-appeal-denied-after-fifa-reversed-usmnts-folarin-balogun-1-game-ban-after-red-card-123613835.html"
-    },
-    {
-     "name": "CNBC: Belgium loses appeal of Balogun eligibility after Trump defends intervention with FIFA",
-     "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html"
+     "name": "OneFootball: Decision on Olise made — will the yellow card be rescinded?",
+     "url": "https://onefootball.com/en/news/decision-on-olise-made-will-the-yellow-card-be-rescinded-43113561"
     }
    ]
   }
