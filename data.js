@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 01:10",
+  "updated": "2026-07-09 02:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-09",
+   "match": "周四097",
+   "impact": "摩后卫伤情看好",
+   "tone": "neutral",
+   "text": "摩洛哥中卫里亚德(Chadi Riad,对荷兰一战膝盖受创,缺席对加拿大一役)恢复良好,有望复出出战法国;若无法出场哈尔哈勒(Halhal)顶替,最终决定待临近开球确认。(Roundtable/Africa Soccer双源核实)",
+   "en": "Morocco centre-back Chadi Riad, who picked up a knee knock against the Netherlands and missed the Canada match, is recovering well and could return for the France quarter-final; Redouane Halhal would deputise if he's unavailable, final call closer to kickoff. (Roundtable/Africa Soccer corroborated)",
+   "full": "07-09 02:14 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~26小时)——摩洛哥中卫里亚德(Chadi Riad,水晶宫)16强战对阵荷兰时膝盖受创,缺席1/8决赛对加拿大一役(由哈尔哈勒Halhal顶替);最新体测显示恢复良好、伤情不算严重,有望复出出战法国,但最终决定要等临近开球才能确认。若里亚德复出,摩洛哥后防将回到对荷兰一战前的原配置;若仍缺席则哈尔哈勒续任。既有口径(图阿梅尼伤愈可战/萨拜里伤情已排除严重但仍待定/奥利塞带牌观察)不变,国际共识(Polymarket)本轮法国61.8%/平24.6%/摩洛哥13.6%,较07-07开盘无显著漂移。竞彩本场HAD/让球三项value仍<1.0(约0.83-0.92),暂无新增edge。(Roundtable/Africa Soccer/Sports Mole多源核实)",
+   "enFull": "July 9, 02:14 BJT update (kickoff 07-10 04:00 BJT, ~26h away): Morocco centre-back Chadi Riad (Crystal Palace) suffered a knee knock against the Netherlands in the last-32 and missed the round-of-16 win over Canada (deputised by Redouane Halhal); the latest medical assessment shows he is recovering well and the issue is 'not serious', with a chance he returns for France, though a final call won't come until closer to kickoff. If fit, Riad restores Morocco's back line to its pre-Netherlands-match setup; otherwise Halhal continues. Existing lines (Tchouameni fit to play / Saibari's serious injury ruled out but still unconfirmed / Olise's booking-risk watch) unchanged. International consensus (Polymarket) unchanged this round at France 61.8% / draw 24.6% / Morocco 13.6%, no material drift since the July 7 open. China Sports Lottery HAD/handicap values remain <1.0 (~0.83-0.92), no new edge. (Roundtable/Africa Soccer/Sports Mole corroborated)",
+   "links": [
+    {
+     "name": "Roundtable: Positive update on Chadi Riad's fitness after Morocco injury",
+     "url": "https://roundtable.io/sports/soccer/premier-league/crystal-palace/news/positive-update-on-chadi-riads-fitness-after-morocco-injury"
+    },
+    {
+     "name": "Africa Soccer: Morocco receive major injury boost for France clash",
+     "url": "https://africasoccer.com/morocco-receive-major-injury-boost-france-clash/"
+    }
+   ]
+  },
   {
    "date": "2026-07-08",
    "match": "周四097",
