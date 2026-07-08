@@ -2240,6 +2240,26 @@ window.DASH_DATA = {
  "focus": [],
  "news": [
   {
+   "date": "2026-07-08",
+   "match": "周四097",
+   "impact": "图阿梅尼伤疑",
+   "tone": "neutral",
+   "text": "法国中场图阿梅尼(大腿伤势)对阵摩洛哥出战存疑,预计科内替补搭档拉比奥特出任双后腰。(Sports Mole/Rotowire双源核实)",
+   "en": "France midfielder Aurelien Tchouameni is doubtful with a thigh injury for the Morocco quarterfinal, with Manu Kone expected to partner Rabiot in a double pivot instead. (Sports Mole/Rotowire corroborated)",
+   "full": "07-08 19:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~33小时,QF)——法国中场图阿梅尼(Tchouameni)大腿伤势成疑,预计科内(Manu Kone)将替补搭档拉比奥特(Rabiot)出任双后腰;姆巴佩预计正常出战领衔锋线。摩洛哥方面前锋萨拜里(Saibari,对加拿大一战22分钟因腘绳肌不适下场)医学检测已排除严重伤情,但能否出战仍未最终确认。国际共识(Polymarket刚刷新)法国61.2%/平24.4%/摩洛哥14.4%,竞彩赔率法国@1.40/平@3.85/摩洛哥@6.45,让球(-1)让胜@2.43,三项HAD/让球value均<1.0(0.92/0.92/0.83),暂无新增edge。(Sports Mole/The National/beIN Sports/Rotowire多源核实)",
+   "enFull": "July 8, 19:10 BJT update (kickoff 07-10 04:00 BJT, ~33h away, QF): France midfielder Aurelien Tchouameni is doubtful with a thigh injury for the Morocco quarterfinal, with Manu Kone expected to partner Rabiot in a double pivot; Mbappe expected to start as usual leading the attack. Morocco forward Saibari (left the Canada match in the 22nd minute with hamstring discomfort) has had a serious injury ruled out by medical tests, but his availability remains unconfirmed. International consensus (Polymarket, just refreshed) has France 61.2% / draw 24.4% / Morocco 14.4%; China Sports Lottery odds France @1.40 / draw @3.85 / Morocco @6.45, handicap (-1) covered-win @2.43 — all HAD/handicap values remain <1.0 (0.92/0.92/0.83), no new edge. (Sports Mole/The National/beIN Sports/Rotowire corroborated)",
+   "links": [
+    {
+     "name": "Sports Mole: France lineup vs Morocco: Predicted XI for World Cup 2026 quarter-final as Manu Kone stands ready to deputise",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/captain-mbappe-to-start-can-tchouameni-return-predicted-france-xi-vs-morocco_600830.html"
+    },
+    {
+     "name": "The National: Ismael Saibari fitness concern for Morocco ahead of France World Cup quarter-final clash",
+     "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/07/06/ismael-saibari-fitness-concern-for-morocco-ahead-of-france-world-cup-quarter-final-clash/"
+    }
+   ]
+  },
+  {
    "date": "2026-07-07",
    "match": "周二096",
    "impact": "曼赞比信源冲突",
@@ -2419,166 +2439,6 @@ window.DASH_DATA = {
     }
    ]
   },
-  {
-   "date": "2026-07-06",
-   "match": "周一094",
-   "impact": "UEFA谴责裁决",
-   "tone": "neutral",
-   "text": "欧足联(UEFA)公开声明称FIFA解禁巴洛贡的裁决'越过红线'、'前所未有、难以理解、不合理',舆论施压进一步升级;截至发稿FIFA申诉裁决结果仍未公布。(CBS Sports/Yahoo Sports双源核实)",
-   "en": "UEFA issued a public statement saying FIFA's decision to suspend Balogun's ban 'crossed a red line' and was 'unprecedented, incomprehensible and unjustifiable', escalating the pressure campaign; as of this update FIFA's appeal ruling has still not been announced. (CBS Sports/Yahoo Sports corroborated)",
-   "full": "07-06 23:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——继比利时官方申诉被FIFA受理后,欧足联(UEFA)公开发表声明,称FIFA解禁巴洛贡红牌停赛的裁决'越过了红线'(crossed a red line),形容其'前所未有、难以理解、不合理'(unprecedented, incomprehensible and unjustifiable)。这是继比利时足协'震惊'表态、正式申诉获FIFA受理后,舆论施压的进一步升级,凸显此案争议性持续发酵。截至发稿,负责审理申诉的FIFA申诉委员会成员尚未公布裁决结果,巴洛贡能否最终出战仍悬而未决。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)暂未因此进一步调整。(CBS Sports/Yahoo Sports多源核实)",
-   "enFull": "July 6, 23:10 BJT update (kickoff 07-07 08:00 BJT): Following Belgium's formal appeal being accepted by FIFA, UEFA has issued a public statement saying FIFA's decision to suspend Balogun's red-card ban 'crossed a red line', calling it 'unprecedented, incomprehensible and unjustifiable'. This marks a further escalation of public pressure after Belgium's federation said it was 'astonished' and filed its formal appeal, underscoring how contentious the case remains. As of this update, the FIFA appeals panel member assigned to the case has not announced a ruling, so whether Balogun will ultimately be available remains unresolved. China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) have not moved further on this so far. (CBS Sports/Yahoo Sports corroborated)",
-   "links": [
-    {
-     "name": "CBS Sports: Can USMNT's Folarin Balogun's World Cup suspension be reinstated? Belgium will appeal decision",
-     "url": "https://www.cbssports.com/soccer/news/usmnt-folarin-balogun-world-cup-suspension-belgium-appeal-decision/"
-    },
-    {
-     "name": "Yahoo Sports: World Cup 2026: Belgium granted appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban",
-     "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-belgium-granted-appeal-after-fifa-reversed-usmnts-folarin-balogun-1-game-ban-after-red-card-123613835.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周二096",
-   "impact": "J罗带病存疑",
-   "tone": "neutral",
-   "text": "哥伦比亚哈梅斯·罗德里格斯(J罗)因病存疑出战瑞士,老将胡安·金特罗可能顶替首发;此前科尔多瓦已确认伤退报销,锋线由苏亚雷斯顶替。(ESPN/RotoWire双源核实)",
-   "en": "Colombia's James Rodriguez is a doubt with illness for the Switzerland clash, with veteran Juan Quintero in line to start in his place; this comes on top of Jhon Cordoba's already-confirmed season-ending injury with Suarez leading the line. (ESPN/RotoWire corroborated)",
-   "full": "07-06 20:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——新增哈梅斯·罗德里格斯(James Rodriguez/J罗)因病存疑出战本场,老将胡安·金特罗(Juan Quintero)可能顶替其首发位置;J罗本届此前已因病缺战小组赛对阵加纳一役,本人赛季中曾因严重脱水住院观察三天(俱乐部已否认坊间横纹肌溶解症传闻)。此消息叠加此前已确认的科尔多瓦(内收肌撕裂、本届报销、苏亚雷斯顶替箭头)及瑞士艾比舍尔(肌肉伤、个人训练中)伤情,哥伦比亚攻防两端均存在人员不确定性。国际共识/竞彩赔率暂未见因此进一步调整。(ESPN/RotoWire多源核实)",
-   "enFull": "July 6, 20:10 BJT update (kickoff 07-08 04:00 BJT): New line of concern — Colombia's James Rodriguez is a doubt for this match due to illness, with veteran Juan Quintero in line to start in his place. Rodriguez already missed the group-stage win over Ghana this tournament due to illness, having earlier in the season been hospitalized for three days with severe dehydration (his club has denied social-media rhabdomyolysis rumors). This adds to Colombia's already-confirmed uncertainty up front, with Jhon Cordoba (adductor tear, out for the rest of the tournament, Luis Suarez leading the line) and Switzerland's Michel Aebischer (muscle injury, still training individually) already in the news. No significant odds movement tied to this so far. (ESPN/RotoWire corroborated)",
-   "links": [
-    {
-     "name": "ESPN: Switzerland vs Colombia at World Cup 2026 — predicted line-ups",
-     "url": "https://www.espn.com/soccer/story/_/id/49278663/fifa-world-cup-2026-switzerland-vs-colombia-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
-    },
-    {
-     "name": "RotoWire: Switzerland vs Colombia Preview, Predicted Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/switzerland-vs-colombia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121310"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周一094",
-   "impact": "比利时上诉获批",
-   "tone": "neutral",
-   "text": "比利时对FIFA'缓刑解禁巴洛贡'裁决的申诉已被正式受理,双方需在开球前12小时(西雅图时间凌晨5点)前提交材料,FIFA已指定申诉委员会成员审理,开赛前是否推翻原裁决仍悬而未决。(CNBC/Seattle Times/Fox News/NPR多源核实)",
-   "en": "Belgium's appeal against FIFA's decision to suspend Balogun's red-card ban has been formally granted; both federations must submit materials by 5am PT (12 hours before kickoff in Seattle), and a FIFA appeals panel member has been assigned to hear the case — whether the ruling gets overturned before kickoff remains unresolved. (CNBC/Seattle Times/Fox News/NPR corroborated)",
-   "full": "07-06 19:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——此前比利时足协'调查潜在应对方案'已升级为正式行动:据CNBC/西雅图时报/福克斯新闻/NPR多源报道,比利时皇家足协已正式提交对FIFA'缓刑解禁巴洛贡'裁决的申诉,FIFA已受理并指定一名申诉委员会成员审理此案;美国足协与比利时足协均被要求在太平洋时间凌晨5点前(即西雅图开球前12小时)提交书面材料。截至发稿裁决结果尚未公布,巴洛贡能否最终出战仍存在开赛前被推翻的可能性,需持续关注赛前最后时刻的裁决动态。竞彩赔率(美国胜@2.10/平@3.40/客胜@2.79)暂未因此进一步调整。(CNBC/Seattle Times/Fox News/NPR/thegrio多源核实)",
-   "enFull": "July 6, 19:10 BJT update (kickoff 07-07 08:00 BJT): Belgium's earlier 'investigating potential options' has escalated into formal action — per CNBC, The Seattle Times, Fox News and NPR, the Royal Belgian FA has formally filed an appeal against FIFA's decision to suspend Balogun's red-card ban, FIFA has accepted the appeal and assigned a panel member to hear it, and both federations must submit written materials by 5am PT (12 hours before the Seattle kickoff). As of this update no ruling has been announced, so there remains a real possibility Balogun's clearance gets overturned before kickoff — worth monitoring closely in the final hours. China Sports Lottery odds (USA win @2.10 / draw @3.40 / Belgium win @2.79) have not moved further on this so far. (CNBC/Seattle Times/Fox News/NPR/thegrio corroborated)",
-   "links": [
-    {
-     "name": "CNBC: Belgium set to appeal as FIFA reverses Balogun's World Cup suspension after Trump reportedly intervenes",
-     "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html"
-    },
-    {
-     "name": "Field Level Media: Report: Belgium granted right to appeal FIFA's Folarin Balogun decision",
-     "url": "https://fieldlevelmedia.com/news/report-belgium-granted-right-to-appeal-fifas-folarin-balogun-decision/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周二096",
-   "impact": "科尔多瓦缺战",
-   "tone": "positive",
-   "text": "哥伦比亚锋线主力约翰·科尔多瓦对阵加纳一役第8分钟即因内收肌撕裂伤退,已确认本届世界杯报销,预计苏亚雷斯顶替出任独箭头。瑞士方面艾比舍尔(肌肉伤)恢复进度存疑仍在个人训练。(Sports Mole/RotoWire/ColombiaOne多源核实)",
-   "en": "Colombia's starting striker Jhon Cordoba was subbed off just 8 minutes into the Ghana match with an adductor tear and is confirmed out for the rest of the World Cup; Luis Suarez is expected to lead the line instead. Switzerland's Michel Aebischer (muscle injury) remains a fitness doubt, still training individually. (Sports Mole/RotoWire/ColombiaOne corroborated)",
-   "full": "07-06 16:10 BJT情报更新:周二096瑞士vs哥伦比亚(07-08 04:00开球)——哥伦比亚锋线主力约翰·科尔多瓦(Jhon Cordoba)对阵加纳一役第8分钟即因内收肌撕裂伤被换下,是本届世界杯哥伦比亚首发球员最早的伤退换人,随后确诊为内收肌撕裂、预计缺席4周,即本届世界杯剩余赛程报销。此前科尔多瓦已从苏亚雷斯手中抢回主力箭头位置,他的缺阵预计由路易斯·苏亚雷斯(Luis Suarez)顶替首发,库乔·埃尔南德斯(Cucho Hernandez)为唯一另一名可用的正印前锋。洛伦索(Lorenzo)其余阵容无新增伤病报告,预计以一套经验丰富的阵容出战。瑞士方面:米歇尔·艾比舍尔(Michel Aebischer,肌肉伤)仍在个人训练以求尽快复出,能否首战阿根廷组第二轮出战八强存疑。国际共识(Polymarket,07-05开盘以来首次纳入36h焦点窗口)瑞士27.1%/平31.0%/哥伦比亚41.9%,竞彩赔率暂无显著漂移。(Sports Mole/RotoWire/ColombiaOne/Bolavip多源核实)",
-   "enFull": "July 6, 16:10 BJT update (kickoff 07-08 04:00 BJT): Colombia's first-choice striker Jhon Cordoba was subbed off just 8 minutes into the round-of-32 win over Ghana — the earliest injury substitution for a Colombian starter in World Cup history — and has since been diagnosed with an adductor tear expected to keep him out roughly 4 weeks, ruling him out for the rest of the tournament. Cordoba had recently reclaimed the starting striker role from Luis Suarez, who is now expected to lead the line again, with Cucho Hernandez the only other recognized frontline option. Manager Nestor Lorenzo has no other reported injury concerns and is expected to field an otherwise settled, experienced side. On Switzerland's side, Michel Aebischer (muscle injury) remains a doubt, still training individually in hopes of being ready. International consensus (Polymarket, entering the 36h focus window for the first time since opening 07-05) has Switzerland 27.1% / draw 31.0% / Colombia 41.9%, with no significant odds drift so far. (Sports Mole/RotoWire/ColombiaOne/Bolavip corroborated)",
-   "links": [
-    {
-     "name": "Bolavip: Jhon Cordoba reportedly out of 2026 World Cup as Colombia's striker suffers gruesome injury",
-     "url": "https://bolavip.com/en/world-cup/jhon-cordoba-reportedly-out-of-2026-world-cup-as-colombias-striker-suffers-gruesome-injury"
-    },
-    {
-     "name": "Sports Mole: Colombia lineup vs. Switzerland — who replaces injured striker Cordoba",
-     "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/predicted-lineups/who-replaces-injured-striker-cordoba-predicted-colombia-xi-vs-switzerland_600748.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周二095",
-   "impact": "埃及防线三缺",
-   "tone": "positive",
-   "text": "埃及对阵阿根廷面临三名后卫伤情:法图赫(左后卫,大腿/腘绳肌)大概率缺战,阿卜杜勒蒙纳姆(中卫,脚踝)状态存疑,哈菲兹(左后卫,大腿)同为疑问人选,防线出现空档。(Sports Mole/Ahram Online双源核实)",
-   "en": "Egypt face three defender doubts against Argentina: left-back Ahmed Fatouh (thigh/hamstring) is likely out, centre-back Mohamed Abdelmonem (ankle) is touch-and-go, and left-back Karim Hafez (thigh) is also a doubt, leaving the backline short. (Sports Mole/Ahram Online corroborated)",
-   "full": "07-06 16:10 BJT情报更新:周二095阿根廷vs埃及(07-08 00:00开球)——埃及主帅哈桑(Hassan)本场可能同时缺少三名后卫:艾哈迈德·法图赫(Ahmed Fatouh,左后卫)大腿伤势被曝实为腘绳肌撕裂,恢复难度大、大概率缺战对阵澳大利亚点球战的替补出场机会渺茫;穆罕默德·阿卜杜勒蒙纳姆(Mohamed Abdelmonem,中卫)小组赛对伊朗时脚踝受伤,列入哈桑的'临场决定'观察名单,该球员本届世界杯此前才刚从十字韧带重伤复出;卡里姆·哈菲兹(Karim Hafez,左后卫)同样因大腿伤势存疑。三人若均缺阵,埃及防线将出现明显空档。利好消息:此前发烧/伤情引发关注的萨拉赫(Salah)预计将正常出战。阿根廷方面伤情较轻:尼科·冈萨雷斯(Nico Gonzalez)、法昆多·梅迪纳(Facundo Medina,被淡化为抽筋)带轻伤,梅西领衔的锋线预计正常首发。国际共识(Polymarket)阿根廷70.4%/平20.2%/埃及9.4%,已持续两轮无显著漂移,竞彩赔率与埃及防线伤情尚未出现明显联动。(Sports Mole/Ahram Online/Racing Post多源核实)",
-   "enFull": "July 6, 16:10 BJT update (kickoff 07-08 00:00 BJT): Egypt boss Hossam Hassan could be missing three defenders at once against Argentina: left-back Ahmed Fatouh's thigh issue is reportedly a hamstring tear that makes a quick recovery unlikely, leaving him a long shot to feature after already missing the Australia penalty-shootout win; centre-back Mohamed Abdelmonem, who picked up an ankle injury against Iran in the group stage after only recently returning from a long ACL layoff, is on Hassan's 'game-time decision' list; and left-back Karim Hafez is also a doubt with a thigh problem. If all three are out, Egypt's backline would have a clear gap. On the positive side, Mohamed Salah — whose fitness had been a talking point — is expected to be fine to start. Argentina's fitness picture is lighter: Nico Gonzalez and Facundo Medina (his issue downplayed as cramp) carry minor knocks, but Messi and the rest of the attack are expected to start as normal. International consensus (Polymarket) has Argentina 70.4% / draw 20.2% / Egypt 9.4%, stable across two refresh cycles with no sign yet of the odds reacting to Egypt's defensive injury news. (Sports Mole/Ahram Online/Racing Post corroborated)",
-   "links": [
-    {
-     "name": "Sports Mole: Egypt lineup vs. Argentina — predicted XI amid triple defensive injury concern",
-     "url": "https://www.sportsmole.co.uk/football/egypt/world-cup-2026/predicted-lineups/a-decimated-defence-predicted-egypt-xi-vs-argentina_600707.html"
-    },
-    {
-     "name": "Ahram Online: Salah starts rehab, Fatouh likely out as Egypt prepare for Australia knockout tie",
-     "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=571750"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周一094",
-   "impact": "比利时抗议巴洛贡",
-   "tone": "neutral",
-   "text": "FIFA裁委会'缓刑'裁决解禁巴洛贡出战后,比利时官方表态'震惊',正调查申诉等'潜在应对方案';FIFA裁决目前维持不变,巴洛贡预计仍可代表美国出战。国际共识/竞彩赔率暂未因该争议显著调整。(ESPN/Fox Sports双源核实)",
-   "en": "After FIFA's disciplinary panel suspended Balogun's ban, Belgium said they were 'astonished' and are investigating an appeal/'potential options'; the FIFA ruling stands for now and Balogun is still expected to be available for the USA. No significant odds movement tied to the dispute so far. (ESPN/Fox Sports corroborated)",
-   "full": "07-06 09:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——继FIFA纪律委员会援引FDC第27条'缓刑执行'解禁巴洛贡(Balogun)出战报道后,比利时足协官方回应'震惊'(astonished),称正在调查针对该裁决的申诉等'潜在应对方案'(potential options),质疑该裁决与FDC第66.4条'红牌自动停赛一场'及本届世界杯赛事规程第10.5条相悖(此前本届所有红牌停赛均按常规执行);另有报道称特朗普此前曾致电FIFA主席因凡蒂诺过问此案,为争议再添一层。截至发稿FIFA裁决未被推翻,巴洛贡预计仍可代表美国出战比利时;国际共识(Polymarket)/竞彩赔率(美国胜@2.44/平@3.26/客胜@2.42)暂未因该申诉传闻显著调整,需留意开赛前比利时申诉是否有实质进展。(ESPN两篇独立报道+Fox Sports多源核实)",
-   "enFull": "July 6, 09:10 BJT update (kickoff 07-07 08:00 BJT): Following FIFA's disciplinary committee invoking FDC Article 27 to suspend the automatic ban and clear Folarin Balogun to face Belgium, the Belgian federation said it was 'astonished' by the ruling and is investigating an appeal and other 'potential options,' arguing the decision contradicts FDC Article 66.4 (automatic one-match ban for a red card) and Article 10.5 of the tournament's competition regulations — noting every other red-card suspension this World Cup was applied as normal. Separate reporting says Donald Trump had called FIFA president Gianni Infantino about the case beforehand, adding another layer to the controversy. As of this update the FIFA ruling has not been overturned and Balogun remains expected to be available for the USA; international consensus (Polymarket) and China Sports Lottery odds (USA win @2.44 / draw @3.26 / Belgium win @2.42) have not moved significantly on the appeal talk — worth watching for a late change if Belgium's protest gains traction before kickoff. (Two independent ESPN reports plus Fox Sports corroboration)",
-   "links": [
-    {
-     "name": "ESPN: Belgium 'astonished' by Folarin Balogun ruling, investigating potential options",
-     "url": "https://www.espn.com/soccer/story/_/id/49279471/belgium-usa-folarin-balogun-ban-suspended-fifa-world-cup-2026"
-    },
-    {
-     "name": "Fox Sports: Belgium 'Astonished' By Folarin Balogun Ruling, Investigating 'Potential Options'",
-     "url": "https://www.foxsports.com/stories/soccer/belgium-astonished-folarin-balogun-ruling-investigating-potential-options"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周一094",
-   "impact": "巴洛贡解禁复出",
-   "tone": "positive",
-   "text": "美国前锋巴洛贡(Balogun)对波黑一战因踩踏对方脚踝染红牌,按常规应停赛一场;但FIFA裁决纪律委员会援引FDC第27条,将该禁赛'缓期一年执行',巴洛贡因此解禁、可代表美国出战比利时——为世界杯历史上第二例红牌禁赛被FIFA主动撤销(上一例为1962年加林查)。(ESPN两篇独立报道+Yahoo Sports/半岛电视台/NBC多源核实)",
-   "en": "USMNT forward Folarin Balogun was sent off vs Bosnia & Herzegovina for stepping on an opponent's ankle, which would normally mean a one-match ban. But FIFA's disciplinary committee invoked FDC Article 27 to suspend the automatic ban for a one-year probationary period, clearing Balogun to face Belgium — only the second known instance of FIFA lifting a World Cup red-card suspension (after Garrincha in 1962). (Two independent ESPN reports plus Yahoo Sports/Al Jazeera/NBC corroboration)",
-   "full": "07-06 05:10 BJT情报更新:周一094美国vs比利时(07-07 08:00开球)——美国前锋弗拉林·巴洛贡(Folarin Balogun)在对阵波黑一役第64分钟因踩踏对方球员塔里克·穆哈雷莫维奇(Tarik Muharemović)脚踝染红牌被罚下,按FIFA常规应自动停赛一场、缺战1/8决赛比利时。但FIFA纪律委员会随后裁决,援引FDC第27条将该停赛'处以一年缓刑期、暂缓执行',巴洛贡因此解禁、可正常出战比利时——多家权威媒体(ESPN两篇独立报道、Yahoo Sports、半岛电视台、NBC News、Fox Sports)证实这是世界杯历史上第二例红牌停赛被FIFA主动撤销的案例(上一例为1962年决赛加林查)。⚠️此为极罕见程序性裁决、非常规伤停情报,直接影响美国锋线火力预期,此前市场定价(竞彩美国胜@2.44/平@3.26/客胜@2.42)大概率尚未完全消化此利好,需留意后续赔率是否因此向美国方向调整。比利时方面:德巴斯特(Debast,腿伤)本届全程缺阵仍是疑问,特罗萨德(Trossard)带伤情但确认可出战,德布劳内/多库预计正常首发。",
-   "enFull": "July 6, 05:10 BJT update (kickoff 07-07 08:00 BJT): USMNT forward Folarin Balogun was shown a straight red card in the 64th minute vs Bosnia & Herzegovina for stepping on Tarik Muharemović's ankle, which would normally trigger an automatic one-match ban for the Belgium round-of-16 game. However, FIFA's disciplinary committee invoked FDC Article 27 to suspend the automatic ban for a one-year probationary period, clearing Balogun to play against Belgium — confirmed by multiple major outlets (two independent ESPN reports, Yahoo Sports, Al Jazeera, NBC News, Fox Sports) as only the second known instance of FIFA lifting a World Cup red-card suspension, after Garrincha in the 1962 final. ⚠️This is a rare procedural ruling rather than routine injury news, and directly boosts USA's attacking outlook; prior market pricing (China Sports Lottery: USA win @2.44 / draw @3.26 / Belgium win @2.42) likely hasn't fully priced this in yet — watch for odds movement toward USA. On Belgium's side: Zeno Debast (leg) remains a doubt for the entire tournament, Leandro Trossard is confirmed fit despite an issue, and De Bruyne/Doku are expected to start as usual.",
-   "links": [
-    {
-     "name": "ESPN: USMNT's Folarin Balogun has red card suspended by FIFA, striker available to face Belgium",
-     "url": "https://www.espn.com/soccer/story/_/id/49277378/usmnt-folarin-balogun-red-card-suspended-belgium"
-    },
-    {
-     "name": "Al Jazeera: Trump thanks FIFA as it suspends Balogun's ban for Belgium World Cup match",
-     "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-06",
-   "match": "周一093",
-   "impact": "西班牙双翼缺战",
-   "tone": "negative",
-   "text": "西班牙双边锋尼科·威廉姆斯(腹股沟/内收肌拉伤)与耶雷米·平诺(肩锁关节韧带扭伤)对阵葡萄牙均预计缺战,预测阵容改由亚马尔+巴埃纳出任边路、奥亚萨瓦尔客串中锋。(ESPN/Yahoo Sports双源核实)",
-   "en": "Spain's Nico Williams (groin/adductor strain) and Yeremy Pino (AC joint sprain) are both expected out for Portugal, with predicted lineup shifting to Yamal and Baena on the flanks and Oyarzabal through the middle. (ESPN/Yahoo Sports corroborated)",
-   "full": "07-06 05:10 BJT情报更新:周一093葡萄牙vs西班牙(07-07 03:00开球)——西班牙双边锋均带伤:尼科·威廉姆斯(Nico Williams)对阵乌拉圭一战右侧内收肌再度拉伤,本人称'这是我人生最糟糕的日子之一';耶雷米·平诺(Yeremy Pino)同场因对抗遭遇肩锁关节韧带扭伤,一度担心锁骨骨折(西班牙足协确认排除骨折)。西班牙足协声明'两人伤情均为中度,能否出战取决于恢复进度',目前预测两人对阵葡萄牙均缺战,德拉富恩特(de la Fuente)预计仍以亚马尔(Yamal)+巴埃纳(Baena)出任左右边路、奥亚萨瓦尔(Oyarzabal)客串中锋顶替进攻,法比安·鲁伊斯(Fabian Ruiz)可能替换对奥地利一战表现不佳的奥尔莫或佩德里。葡萄牙方面无伤病报告,C罗预计以41岁高龄继续首发。国际共识/竞彩赔率(葡萄牙胜@3.83/平@3.30/西班牙胜@1.77)暂未因双翼缺战信息显著调整,需留意后续是否随伤情明朗而漂移。(ESPN两篇独立报道+Yahoo Sports多源核实)",
-   "enFull": "July 6, 05:10 BJT update (kickoff 07-07 03:00 BJT): Both Spain wingers are carrying injuries. Nico Williams re-strained his right adductor against Uruguay, calling it 'one of the worst days of my life'; Yeremy Pino suffered an AC joint sprain in a collision in the same match, with an initial fracture fear later ruled out by the Spanish federation. The RFEF says 'both injuries are moderate, availability depends on recovery progress' — both are currently expected out for Portugal, with de la Fuente predicted to keep Yamal and Baena on the flanks and Oyarzabal through the middle, while Fabian Ruiz could replace an underperforming Olmo or Pedri. Portugal report no injury concerns, with Ronaldo, 41, expected to start again. International consensus/China Sports Lottery odds (Portugal @3.83 / draw @3.30 / Spain @1.77) have not moved significantly on this news yet — worth watching for drift as fitness clarifies. (Two independent ESPN reports plus Yahoo Sports corroboration)",
-   "links": [
-    {
-     "name": "ESPN: Spain's Nico Williams on injury: One of worst days of my life",
-     "url": "https://www.espn.com/soccer/story/_/id/49200729/spain-nico-williams-injury-yeremy-pino-2026-world-cup"
-    },
-    {
-     "name": "Yahoo Sports: Spain XI vs Portugal: Confirmed team news, predicted lineup and injury latest",
-     "url": "https://sports.yahoo.com/articles/spain-xi-vs-portugal-confirmed-185630668.html"
-    }
-   ]
-  }
  ],
  "slip": {
   "title": "7月7日 · fade-favorite双平局2串1(§0凌驾负CLV) · 21:00 最终版",
