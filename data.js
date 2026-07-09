@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 22:10",
+  "updated": "2026-07-09 23:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-09",
+   "match": "周五098",
+   "impact": "比利时后腰重伤",
+   "tone": "negative",
+   "text": "多源确认:比利时防守型中场奥纳纳本届赛事因前十字韧带(ACL)撕裂提前报销,无缘对阵西班牙的1/4决赛;德布劳内此前对阵美国被雪藏轮休,本场预计回归首发,卢卡库、多库同期归位。",
+   "en": "Multiple sources confirm Belgium defensive midfielder Amadou Onana is out for the rest of the tournament with an ACL tear and will miss the quarterfinal vs Spain; Kevin De Bruyne, rested against the USA, is expected to return to the starting XI alongside Lukaku and Doku.",
+   "full": "07-09 23:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~28小时)——多条信源(Yahoo Sports、RotoWire、ESPN quarterfinal injury tracker)交叉确认比利时防守型中场阿马杜·奥纳纳(此前中场屏障核心)本届赛事因前十字韧带撕裂已official ruled out,无法出战对阵西班牙一役,中场结构将受明显削弱;同时德布劳内(此前对阵美国一战被主帅雪藏轮休)、多库、卢卡库均预计回归首发。西班牙方面预测阵容延续:Simon;Porro/Cubarsi/Laporte/Cucurella;Rodri/Pedri;亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔,尼科·威廉姆斯伤情报道口径有矛盾(部分源称已伤愈可出战、部分源称仍缺阵),未达两独立信源一致门槛,不采信具体结论。竞彩本场HAD h/d/a=1.46/3.80/5.50,elig.had.single=0/allUp=0(见下方异常记录),暂无新增edge。(Yahoo Sports/RotoWire/ESPN多源交叉核实)",
+   "enFull": "July 9, 23:10 BJT update (kickoff 07-11 03:00 BJT, ~28h away): multiple sources (Yahoo Sports, RotoWire, ESPN's quarterfinal injury tracker) corroborate that Belgium defensive midfielder Amadou Onana — previously the midfield anchor — is officially ruled out for the rest of the tournament with an ACL tear, a significant blow to Belgium's midfield structure for the Spain quarterfinal. Kevin De Bruyne (rested vs the USA as a deliberate management decision), Jeremy Doku, and Romelu Lukaku are all expected to return to the starting XI. Spain's predicted lineup is unchanged: Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Pedri; Yamal, Olmo, Baena; Oyarzabal — reporting on Nico Williams' fitness is contradictory across sources (some say recovered and available, others still out), so no claim is made pending two-source confirmation. China Sports Lottery HAD odds h/d/a=1.46/3.80/5.50; elig.had.single=0/allUp=0 (see anomaly note below), no new edge identified. (Corroborated across Yahoo Sports/RotoWire/ESPN)",
+   "links": [
+    {
+     "name": "ESPN: World Cup quarterfinal injury tracker",
+     "url": "https://www.espn.co.uk/football/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium"
+    },
+    {
+     "name": "RotoWire: Spain vs Belgium Preview, Lineups & Team News",
+     "url": "https://www.rotowire.com/soccer/article/spain-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121774"
+    }
+   ]
+  },
   {
    "date": "2026-07-09",
    "match": "周四097",
