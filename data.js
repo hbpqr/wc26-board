@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 11:10",
+  "updated": "2026-07-09 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-09",
+   "match": "周四097",
+   "impact": "图帅大概率缺战",
+   "tone": "neutral",
+   "text": "医学扫描确认图阿梅尼左侧内收肌+大腿上部肌肉撕裂,教练组安排其独立训练至周二,对摩洛哥一战出战希望渺茫;科内预计仍搭档拉比奥特出任双后腰。(Yahoo Sports/Get French Football News双源核实)",
+   "en": "Medical scans have confirmed a tear in Tchouameni's left adductor and upper thigh; his camp has him training separately until at least Tuesday, making him highly unlikely to play against Morocco, with Kone expected to partner Rabiot again. (Yahoo Sports/Get French Football News corroborated)",
+   "full": "07-09 13:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~15小时)——两条独立信源(Yahoo Sports、Get French Football News)均报道图阿梅尼(左侧内收肌+大腿上部)肌肉撕裂已经医学扫描确认,教练组安排其独立训练至少至周二,对阵摩洛哥出战希望渺茫('likely to miss');若无法出场,科内预计续搭档拉比奥特出任双后腰。此前08:10记录的'图帅回暖'(OneFootball/Bolavip:已恢复个人跑动、德尚称好转、不排除出战)仍是当日较早的正面表态,但本次两条更晚出现的报道给出更具体的扫描结果与更保守的结论,判断口径较此前更负面,故补记本条,不删除旧条(同日情报演变,留痕对比)。萨拜里伤情/里亚德恢复/奥利塞带牌观察口径不变。竞彩本场HAD三项value仍<1.0(约0.94),暂无新增edge;elig.had.single=1/hhad.single=0未变。",
+   "enFull": "July 9, 13:10 BJT update (kickoff 07-10 04:00 BJT, ~15h away): two independent sources (Yahoo Sports, Get French Football News) report medical scans have confirmed a tear in Tchouameni's left adductor and upper thigh; his camp has him training separately until at least Tuesday, making him 'likely to miss' the Morocco match, with Kone expected to again partner Rabiot if he sits out. This supersedes the tone (not the fact) of the earlier 08:10 entry ('Tchouameni feeling better') — this later, more specific reporting on scan results reads more negative on his availability; the older entry is kept, not deleted, to preserve the same-day intel timeline. Saibari fitness / Riad recovery / Olise booking-risk lines unchanged. China Sports Lottery HAD value remains <1.0 (~0.94), no new edge; elig.had.single=1/hhad.single=0 unchanged.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Aurélien Tchouaméni likely to miss France's World Cup quarter-final against Morocco",
+     "url": "https://sports.yahoo.com/articles/aur-lien-tchouam-ni-likely-204000430.html"
+    },
+    {
+     "name": "Get French Football News: Aurélien Tchouaméni likely to miss France's World Cup quarter-final against Morocco",
+     "url": "https://www.getfootballnewsfrance.com/2026/aurelien-tchouameni-likely-to-miss-frances-world-cup-quarter-final-against-morocco/"
+    }
+   ]
+  },
   {
    "date": "2026-07-09",
    "match": "周四097",
