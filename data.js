@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 06:14",
+  "updated": "2026-07-09 08:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-09",
+   "match": "周四097",
+   "impact": "图帅回暖",
+   "tone": "neutral",
+   "text": "图阿梅尼已恢复个人跑动训练,德尚证实其大腿伤情好转、不排除对摩洛哥一战披挂,但首发或替补需临近开球才定。(OneFootball/Bolavip双源核实)",
+   "en": "Tchouameni has resumed individual running and Deschamps says he's feeling better and could feature against Morocco, though a start-or-bench call won't come until close to kickoff. (OneFootball/Bolavip corroborated)",
+   "full": "07-09 08:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~20小时)——图阿梅尼(大腿内收肌+上部肌肉撕裂,此前评估复出希望渺茫)已恢复个人跑动训练,距开球仅剩3天;法国主帅德尚最新表态称其伤情感觉好转、不排除出战摩洛哥一战,但最终首发或替补需赛前最后一刻才能确定。此前koorabreak与RotoWire对其复出概率结论相左(单源矛盾未采信),本次OneFootball(训练恢复进度)与Bolavip(德尚原话)两条独立信源共同指向'伤情向好'的方向,故补记本条;科内仍是图阿梅尼缺战时的第一替补人选。既有奥利塞带牌观察/摩洛哥萨拜里存疑/里亚德恢复良好口径不变。竞彩本场HAD/让球盘value仍<1.0(约0.94),暂无新增edge。",
+   "enFull": "July 9, 08:10 BJT update (kickoff 07-10 04:00 BJT, ~20h away): Tchouameni (adductor and upper-thigh muscle tear, previously assessed as 'highly unlikely' to return) has resumed individual running with three days left before kickoff; France boss Deschamps says he's feeling better on the thigh and could feature against Morocco, though whether he starts or comes off the bench won't be decided until close to kickoff. Earlier koorabreak and RotoWire reports conflicted on his return odds (single-sourced, not adopted); this update is corroborated by two independent sources — OneFootball (training progress) and Bolavip (Deschamps' own comments) — both pointing toward a positive trend, hence added. Kone remains the first-choice deputy if Tchouameni sits out. Existing lines (Olise booking-risk watch / Morocco's Saibari doubt / Riad recovering well) unchanged. China Sports Lottery HAD/handicap value remains <1.0 (~0.94), no new edge.",
+   "links": [
+    {
+     "name": "OneFootball: Tchouaméni resumes individual running three days before Morocco World Cup quarter-final",
+     "url": "https://onefootball.com/en/news/aurelien-tchouameni-resumes-individual-running-three-days-before-morocco-world-cup-quarter-final-43109916"
+    },
+    {
+     "name": "Bolavip: Didier Deschamps provides positive update on Aurelien Tchouameni ahead of France vs Morocco game",
+     "url": "https://bolavip.com/en/world-cup/didier-deschamps-provides-positive-update-on-aurelien-tchouameni-ahead-of-france-vs-morocco-game"
+    }
+   ]
+  },
   {
    "date": "2026-07-09",
    "match": "周四097",
