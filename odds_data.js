@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-09 21:10:06",
+ "fetched_at": "2026-07-09 22:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -43,11 +43,11 @@ window.ODDS_DATA = {
    "crs": {
     "1:0": "6.90",
     "2:0": "7.25",
-    "3:0": "13.50",
+    "3:0": "14.50",
     "2:1": "6.15",
     "0:0": "11.50",
     "1:1": "7.25",
-    "2:2": "14.00",
+    "2:2": "12.00",
     "0:1": "18.00",
     "0:2": "45.00",
     "0:3": "150.0",
@@ -56,11 +56,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -118,11 +118,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -180,11 +180,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   },
@@ -242,11 +242,11 @@ window.ODDS_DATA = {
    "elig": {
     "hhad": {
      "single": 0,
-     "allUp": 1
+     "allUp": 0
     },
     "had": {
-     "single": 1,
-     "allUp": 1
+     "single": 0,
+     "allUp": 0
     }
    }
   }
