@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 23:10",
+  "updated": "2026-07-10 01:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-10",
+   "match": "周五098",
+   "impact": "小图大概率替补",
+   "tone": "neutral",
+   "text": "两独立信源(Yahoo Sports确认阵容稿、Goal.com前瞻)证实此前矛盾口径:尼科·威廉姆斯内收肌伤未完全恢复,大概率再度替补出场,非首发,西班牙左路预计沿用原定阵容。",
+   "en": "Two independent sources (Yahoo Sports' confirmed-lineup piece, Goal.com preview) resolve the earlier contradictory reporting: Nico Williams remains short of full fitness from his adductor injury and is expected to be an impact substitute again, not a starter — Spain's XI projected unchanged.",
+   "full": "07-10 01:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~26小时)——两条独立信源(Yahoo Sports《Spain XI vs Belgium: Confirmed team news》、Goal.com《Spain vs Belgium Preview》,Sports Mole同口径佐证)确认此前23:10记录的'尼科·威廉姆斯伤情口径矛盾'现已收敛:他右侧内收肌伤(乌拉圭一役所伤)仍未痊愈,已随队恢复训练但预计续任替补席,非首发,西班牙倾向沿用对葡萄牙一役的稳健首发结构不变。比利时方面德布劳内/多库/卢卡库回归首发口径不变(见前条)。竞彩本场HAD h/d/a=1.46/3.80/5.50,elig.had.single=0/allUp=0持续封盘中(与22:14起观察一致,非新增异常),暂无新增edge。(Yahoo Sports/Goal.com/Sports Mole多源核实)",
+   "enFull": "July 10, 01:10 BJT update (kickoff 07-11 03:00 BJT, ~26h away): two independent sources (Yahoo Sports' confirmed-team-news piece, Goal.com's preview, corroborated by Sports Mole) resolve the contradiction flagged in the 23:10 entry — Nico Williams' right adductor injury (sustained vs Uruguay) has not fully healed; he has returned to training with the squad but is expected to remain on the bench as an impact substitute rather than start, with Spain likely to stick with the same XI structure that beat Portugal. Belgium's De Bruyne/Doku/Lukaku return-to-starting-XI reporting is unchanged from the prior entry. China Sports Lottery HAD odds h/d/a=1.46/3.80/5.50; elig.had.single=0/allUp=0 remains locked (consistent with observations since 22:14, not a new anomaly), no new edge identified.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Spain XI vs Belgium: Confirmed team news, predicted lineup and injury latest",
+     "url": "https://ca.sports.yahoo.com/news/spain-xi-vs-belgium-confirmed-112240595.html"
+    },
+    {
+     "name": "Goal.com: Spain vs Belgium World Cup Preview",
+     "url": "https://www.goal.com/en-us/news/spain-belgium-world-cup-preview/blt1a7a9e35c22bbc19"
+    }
+   ]
+  },
   {
    "date": "2026-07-09",
    "match": "周五098",
