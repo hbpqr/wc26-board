@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-10 06:10",
+  "updated": "2026-07-10 07:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2256,6 +2256,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-10",
+   "match": "周五098",
+   "impact": "德巴斯特存疑",
+   "tone": "neutral",
+   "text": "两独立信源(Sports Mole阵容预测稿、Goal.com前瞻)证实比利时中卫德巴斯特(Sporting)赛前腿伤未愈、本届杯赛尚未出场,需赛前临场测试才能定首发,叠加奥纳纳ACL报销,后防存在双重不确定性。",
+   "en": "Two independent sources (Sports Mole predicted-lineups piece, Goal.com preview) confirm Belgium centre-back Zeno Debast (Sporting) is still carrying a pre-tournament leg injury and has not featured in a single match this World Cup; he needs a late fitness test to be cleared, compounding the defensive uncertainty already caused by Onana's ACL absence.",
+   "full": "07-10 07:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~20小时)——两条独立信源(Sports Mole《Belgium lineup vs. Spain: Predicted XI》、Goal.com《Spain vs Belgium Preview》,同期rotowire佐证)新增细节:比利时中卫德巴斯特(Sporting)赛前腿伤仍未痊愈,本届杯赛至今一场未出场,需赛前临场测试(late fitness test)决定能否首发;此前已记录的奥纳纳(后腰)ACL报销仍成立,若德巴斯特也无法出战,比利时后防将面临双重缺员。德布劳内预计回归首发中场口径不变(见前条)。竞彩本场HAD h/d/a=1.46/3.80/5.50,elig.had.single=0/allUp=0持续封盘中,暂无新增edge。(Sports Mole/Goal.com/rotowire多源核实)",
+   "enFull": "July 10, 07:10 BJT update (kickoff 07-11 03:00 BJT, ~20h away): two independent sources (Sports Mole's predicted-lineups piece, Goal.com's preview, corroborated by rotowire) add new detail — Belgium centre-back Zeno Debast (Sporting) is still carrying a pre-tournament leg injury and has not played a single minute at this World Cup; he requires a late fitness test to be cleared for the quarterfinal. The previously-reported Onana (defensive midfield) ACL absence still stands, so if Debast is also unavailable Belgium faces a double defensive shortage. De Bruyne's expected return to the starting midfield is unchanged from the prior entry. China Sports Lottery HAD odds h/d/a=1.46/3.80/5.50; elig.had.single=0/allUp=0 remains locked, no new edge identified.",
+   "links": [
+    {
+     "name": "Sports Mole: Belgium lineup vs. Spain: Predicted XI for World Cup 2026 quarter-final",
+     "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/predicted-lineups/de-bruyne-recalled-doku-benched-again-predicted-belgium-lineup-vs-spain_600884.html"
+    },
+    {
+     "name": "Goal.com: Spain vs Belgium World Cup Preview",
+     "url": "https://www.goal.com/en/news/spain-belgium-world-cup-preview/blt1a7a9e35c22bbc19"
+    }
+   ]
+  },
   {
    "date": "2026-07-10",
    "match": "周四097",
