@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-10 02:10",
+  "updated": "2026-07-10 03:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-10",
+   "match": "周四097",
+   "impact": "官方首发已出",
+   "tone": "neutral",
+   "text": "三独立信源(FIFA官方比赛中心、Yahoo Sports确认阵容稿、OneFootball)公布官方首发:法国无图阿梅尼(科内-拉比奥-奥利塞中场,坐实此前'回暖但存疑'口径为缺战),摩洛哥萨拜里确认缺战、由塔尔比顶替(非此前预计的拉希米),姆巴佩、登贝莱领衔锋线。",
+   "en": "Three independent sources (FIFA Match Centre, Yahoo Sports confirmed-lineup piece, OneFootball) published the official XIs: France starts without Tchouaméni (Koné-Rabiot-Olise midfield, resolving the earlier 'recovering but doubtful' reporting as an absence), Morocco's Saibari is confirmed out with Talbi — not the previously-expected Rahimi — getting the nod, Mbappé and Dembélé lead France's attack.",
+   "full": "07-10 03:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~50分钟)——官方首发正式公布(FIFA官方比赛中心《Line-ups》、Yahoo Sports《France Starting XI vs Morocco: Predicted Lineup and Confirmed Team News》、OneFootball《line-ups confirmed》三源一致):法国 Maignan;Koundé、Upamecano、Saliba、Digne;Koné、Rabiot、Olise;Doué、Mbappé、Dembélé——图阿梅尼未入首发,坐实此前23:10/04:10记录的'伤情回暖但存疑'口径实为缺战。摩洛哥 Bono;Hakimi、Diop、Eddine、Mazraoui;Bouaddi、El Aynaoui、Ounahi、El Khannouss、Talbi;Brahim Díaz——萨拜里(腘绳肌)确认缺战与此前信源一致,但顶替人选为塔尔比而非此前预计的拉希米,属新增修正信息。竞彩本场HAD h/d/a=1.42/3.75/6.32,elig.had.single=0/allUp=0持续封盘(自07-09 22:14起未恢复,已连续多轮记录为疑似接口异常,非本职范围),暂无新增edge。(FIFA/Yahoo Sports/OneFootball三源核实)",
+   "enFull": "July 10, 03:10 BJT update (kickoff 04:00 BJT, ~50min away): official starting XIs are out (FIFA Match Centre, Yahoo Sports' confirmed-team-news piece, and OneFootball, three sources in agreement). France: Maignan; Koundé, Upamecano, Saliba, Digne; Koné, Rabiot, Olise; Doué, Mbappé, Dembélé — Tchouaméni is not in the XI, confirming the 'recovering but doubtful' reporting from the 23:10/04:10 entries as an actual absence. Morocco: Bono; Hakimi, Diop, Eddine, Mazraoui; Bouaddi, El Aynaoui, Ounahi, El Khannouss, Talbi; Brahim Díaz — Saibari (hamstring) is out as previously reported, but Talbi rather than the previously-expected Rahimi gets the nod, a new correction to prior reporting. China Sports Lottery HAD odds h/d/a=1.42/3.75/6.32; elig.had.single=0/allUp=0 remains locked since 07-09 22:14, flagged across multiple prior entries as a likely feed-parsing anomaly outside this patrol's scope. No new edge identified.",
+   "links": [
+    {
+     "name": "FIFA Match Centre: France v Morocco Line-ups",
+     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536?gender=2&date=2026-07-09"
+    },
+    {
+     "name": "Yahoo Sports: France Starting XI vs Morocco: Predicted Lineup and Confirmed Team News",
+     "url": "https://sports.yahoo.com/articles/france-starting-xi-vs-morocco-162000896.html"
+    },
+    {
+     "name": "OneFootball: Rematch on the cards? France and Morocco line-ups confirmed",
+     "url": "https://onefootball.com/en/news/rematch-on-the-cards-france-and-morocco-line-ups-confirmed-43118914"
+    }
+   ]
+  },
   {
    "date": "2026-07-10",
    "match": "周五098",
