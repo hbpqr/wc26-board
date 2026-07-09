@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 R16",
-  "updated": "2026-07-09 13:10",
+  "updated": "2026-07-09 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2239,6 +2239,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-09",
+   "match": "周四097",
+   "impact": "萨拜里确认缺战",
+   "tone": "neutral",
+   "text": "ESPN与Sports Mole双源确认:摩洛哥前锋萨拜里(此前腘绳肌不适)将缺战法国一役,拉希米预计顶替出任箭头;后防里亚德伤愈复出预测首发。法国预测首发未见图阿梅尼,科内续搭档拉比奥特。",
+   "en": "ESPN and Sports Mole both confirm Morocco forward Saibari will miss the match against France due to his hamstring issue, with Rahimi favored to lead the line; Riad is predicted to return to the back four. France's predicted XI omits Tchouameni, with Kone again partnering Rabiot.",
+   "full": "07-09 14:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~14小时)——两条独立信源(ESPN、Sports Mole)确认摩洛哥前锋萨拜里(此前对加拿大一战22分钟因腘绳肌不适下场,此前口径为'已排除严重但仍待定')本场将缺战,由拉希米(此前对加拿大替补建功)顶替出任箭头;后防方面里亚德(此前02:14记录'有望复出但待最终确认')在最新预测首发中回归,摩洛哥预测阵容(4-2-3-1):Bounou;Hakimi/Diop/Riad/Mazraoui;El Aynaoui/Bouaddi;Diaz/Ounahi/El Khannouss;Rahimi。法国预测阵容(4-2-3-1):Maignan;Kounde/Upamecano/Saliba/Digne;科内/拉比奥特;登贝莱/奥利塞/巴尔科拉;姆巴佩——图阿梅尼未列入预测首发,与此前13:10情报(伤情向坏、大概率缺战)一致印证。竞彩本场HAD三项value仍<1.0(约0.94),暂无新增edge;elig.had.single=1/hhad.single=0未变。(ESPN/Sports Mole双源核实)",
+   "enFull": "July 9, 14:10 BJT update (kickoff 07-10 04:00 BJT, ~14h away): two independent sources (ESPN, Sports Mole) confirm Morocco forward Saibari (subbed off 22' vs Canada with a hamstring issue; previously listed as 'ruled out serious but still pending') will miss this match, with Rahimi (who scored off the bench vs Canada) favored to lead the line. Center-back Riad, previously 'likely to return but unconfirmed' as of the 02:14 entry, is now in the predicted starting XI. Morocco predicted XI (4-2-3-1): Bounou; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Diaz, Ounahi, El Khannouss; Rahimi. France predicted XI (4-2-3-1): Maignan; Kounde, Upamecano, Saliba, Digne; Kone, Rabiot; Dembele, Olise, Barcola; Mbappe — Tchouameni is absent from the predicted lineup, corroborating the 13:10 entry's more negative assessment. China Sports Lottery HAD value remains <1.0 (~0.94), no new edge; elig.had.single=1/hhad.single=0 unchanged. (ESPN/Sports Mole corroborated)",
+   "links": [
+    {
+     "name": "ESPN: Morocco star Saibari to miss World Cup quarterfinal vs. France",
+     "url": "https://www.espn.com/soccer/story/_/id/49310007/morocco-ismael-saibari-injury-france-world-cup-2026-quarterfinal"
+    },
+    {
+     "name": "Sports Mole: Morocco lineup vs France: Predicted XI for World Cup quarter-final, with star striker Saibari hit by injury",
+     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/predicted-lineups/saibari-sidelined-riad-returns-predicted-morocco-world-cup-lineup-vs-france_600834.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-09",
    "match": "周四097",
