@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-10 17:10",
+  "updated": "2026-07-10 18:16",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -621,6 +621,16 @@ window.DASH_DATA = {
      "　⚠️ slip记录§14 fade-favorite 2串1(095买平×097买平,8元,07-07 20:50最终版)腿A(095)已确定未中(3:2非平局)，该2串1数学上整票已lose(AND结构)；holdings.tickets未见此票登记，实际购买状态未知，待主会话核实并结算",
      "🏆 瑞士 0:0(点球4:2) 哥伦比亚(04:00 完赛·ESPN STATUS_FINAL_PEN·R16·集成客胜42.19%方向落空(HAD=平)·Brier ens=0.732劣于随机·全盘口无thesis按§0carve-out跳过·无持仓·learn.py已结算)",
      "📊 周二095/096两场全终·pool 250.55不变(实际持仓状态待核实,见上)；betRound前滚至周四097(法国vs摩洛哥07-10 04:00,唯一在售场次)"
+    ]
+   },
+   {
+    "d": "07-10",
+    "pool": 250.55,
+    "pnl": 0,
+    "records": [
+     "🏆 法国 2:0 摩洛哥(04:00 完赛·ESPN STATUS_FULL_TIME·R16/QF席位·集成主胜62.08%方向命中·Brier ens=0.220优于随机·图阿梅尼/萨拜里缺战情报兑现·learn.py已结算)",
+     "　⚠️ slip记录§14 fade-favorite 2串1(095买平×097买平,8元,07-07 20:50最终版)两腿均未中(095 3:2、097 2:0,均非平局)——数学上已确定lose(AND结构);holdings.tickets至今未见此票登记,实际购买状态待主会话核实并结算(已连续多轮在ALERTS中提醒)",
+     "📊 周四097终场·pool 250.55不变;betRound前滚至周五098(西班牙vs比利时07-11 03:00),slip/focus仍锚定已作废的周二095×周四097,待主会话按§12.1重新生成"
     ]
    }
   ],
@@ -1534,7 +1544,7 @@ window.DASH_DATA = {
    "predManual": "—",
    "predModel": "客胜80.7%",
    "ensemble": {
-    "h": 6.0,
+    "h": 6,
     "d": 13.3,
     "a": 80.7
    }
@@ -1589,7 +1599,7 @@ window.DASH_DATA = {
    "ensemble": {
     "h": 36.5,
     "d": 39.5,
-    "a": 24.0
+    "a": 24
    },
    "note": "巴拉圭0:0澳大利亚(平局)。模型主胜36.5%未兑现，Brier ens=0.556(优于随机0.667)。slip第2注2串1第2腿(巴拉圭主胜)→✗挂；串关4元全挂(058日本1:1先死·059平局确认)。Elo:巴拉圭-7.2→1781.8，澳大利亚→1724.6。"
   },
@@ -1844,7 +1854,7 @@ window.DASH_DATA = {
    "ensemble": {
     "h": 58.7,
     "d": 24.3,
-    "a": 17.0
+    "a": 17
    }
   },
   {
@@ -1939,7 +1949,7 @@ window.DASH_DATA = {
    "predModel": "主胜75.9%",
    "ensemble": {
     "h": 75.9,
-    "d": 17.0,
+    "d": 17,
     "a": 7.1
    },
    "note": "英格兰2:1淘汰刚果金晋级八强。集成75.9%主胜方向正确(Brier ens=0.094·RPS ens=0.031·极优)。萨卡轮休，马杜埃克首发，贝林厄姆/凯恩主导进攻。无持仓，无资金影响。"
@@ -2069,7 +2079,7 @@ window.DASH_DATA = {
    "predModel": "主胜70.3%",
    "ensemble": {
     "h": 70.3,
-    "d": 20.0,
+    "d": 20,
     "a": 9.7
    },
    "predManual": "§14 fade-favorite 押平@4.50 ×4元",
@@ -2085,7 +2095,7 @@ window.DASH_DATA = {
    "actual": "0:3",
    "predModel": "客胜54.6%",
    "ensemble": {
-    "h": 19.0,
+    "h": 19,
     "d": 26.4,
     "a": 54.6
    },
@@ -2256,6 +2266,70 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-10",
+   "match": "周六099",
+   "impact": "挪威疫情减员",
+   "tone": "negative",
+   "text": "多独立信源(hk01、中华网、网易体育、腾讯新闻转RMC、ETtoday、搜狐)交叉确认:挪威队内爆发呼吸道疾病,水晶宫前锋拉尔森此前因发烧缺席小组赛、后卫佩德森因病缺席1/8决赛淘汰巴西一战,主帅索尔巴肯发布会全程咳嗽,归因于世界杯期间频繁跨城飞行与场馆空调温差,备战英格兰受挫。",
+   "en": "Multiple independent sources (hk01, china.com, 163.com, Tencent News citing RMC, ETtoday, Sohu) confirm an illness outbreak within the Norway camp: Crystal Palace forward Larsen missed a group match with fever, defender Pedersen missed the R16 upset of Brazil due to illness, and head coach Solbakken coughed through his press conference — attributed to constant intercity travel and venue AC temperature swings, clouding preparation for the England quarterfinal.",
+   "full": "07-10 18:14 BJT情报更新:周六099挪威vs英格兰(07-12 09:00开球,距今~39小时)——多条独立信源(hk01、中华网、网易体育dy、腾讯新闻转引RMC、ETtoday运动云、搜狐)一致报道挪威队内呼吸道疾病蔓延:水晶宫前锋拉尔森是唯一发烧球员,已因此缺席小组赛首战;后卫佩德森因病缺席了淘汰巴西的1/8决赛;主帅索尔巴肯在赛前发布会上全程咳嗽、声音嘶哑。索尔巴肯将病因归结为世界杯期间频繁跨城飞行、各场馆空调温差大、高强度赛程导致球员免疫力下降。此为负面情报(利空挪威),但竞彩本场HAD盘口暂未见异常漂移,不构成独立可下注edge,仅计入球队状态评估。",
+   "enFull": "July 10, 18:14 BJT update (kickoff 07-12 09:00 BJT, ~39h away): multiple independent sources (hk01, china.com, 163.com/Netease, Tencent News citing RMC, ETtoday, Sohu) report a respiratory illness outbreak within the Norway squad — Crystal Palace forward Larsen was the only player with a fever and missed the opening group match; defender Pedersen missed the R16 upset win over Brazil due to illness; head coach Solbakken coughed throughout his pre-match press conference and sounded hoarse. Solbakken attributed the illness to constant intercity flights during the tournament and large AC temperature swings between venues. This is negative intel for Norway, though China Sports Lottery HAD odds show no abnormal drift yet — logged as squad-condition context rather than a standalone betting edge.",
+   "links": [
+    {
+     "name": "hk01: 世界杯｜挪威球员陆续生病引担忧",
+     "url": "https://global.hk01.com/%E5%8D%B3%E6%97%B6%E4%BD%93%E8%82%B2/60367850/%E4%B8%96%E7%95%8C%E6%9D%AF-%E6%8C%AA%E5%A8%81%E7%90%83%E5%91%98%E9%99%86%E7%BB%AD%E7%94%9F%E7%97%85%E5%BC%95%E6%8B%85%E5%BF%A7-%E8%8B%B1%E6%A0%BC%E5%85%B0%E5%90%8C%E5%8F%97%E4%BC%A4%E6%82%A3%E5%9B%B0%E6%89%B0%E5%87%BA%E7%BA%BF%E6%B7%BB%E5%8F%98%E6%95%B0"
+    },
+    {
+     "name": "RMC via 腾讯新闻: 挪威队多人出现伤病情况",
+     "url": "https://news.qq.com/rain/a/20260707A0A0LZ00"
+    },
+    {
+     "name": "ETtoday: 挪威8強前爆多人身體不適",
+     "url": "https://sports.ettoday.net/news/3197058"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "match": "周六099",
+   "impact": "英格兰三将成疑",
+   "tone": "negative",
+   "text": "多独立信源(Sky Sports、Sports Mole、ESPN、Yahoo Sports)确认英格兰右后卫危机:夸萨(Quansah)对墨西哥染红本场停赛(可能上诉);詹姆斯(Reece James)对阵加纳后腿筋不适、能否出战悬而未决;亨德森(Henderson)对墨西哥赛后庆祝时跌落广告牌摔断手臂,赛季报销;赖斯(Rice)、盖伊(Guéhi)缺席赛前训练进一步加剧不确定性。",
+   "en": "Multiple independent sources (Sky Sports, Sports Mole, ESPN, Yahoo Sports) confirm an England right-back crisis: Jarell Quansah is suspended after a red card vs Mexico (appeal possible); Reece James is a doubt with hamstring soreness since the Ghana draw; Jordan Henderson broke his arm falling off advertising hoardings during post-match celebrations vs Mexico and is out for the tournament; Declan Rice and Marc Guéhi also missed pre-match training, adding to the uncertainty.",
+   "full": "07-10 18:14 BJT情报更新:周六099挪威vs英格兰(07-12 09:00开球,距今~39小时)——四条独立信源(Sky Sports、Sports Mole、ESPN两篇独立报道、Yahoo Sports)交叉确认英格兰赛前减员/风险:①夸萨(Quansah)对墨西哥比赛染红,本场停赛(球队或提出申诉,结果未定);②詹姆斯(Reece James)自0:0战平加纳后腿筋酸痛,队医全力抢救,能否出战悬而未决;③亨德森(Henderson)在淘汰墨西哥3:2庆祝时从广告牌上跌落摔断手臂,已手术,本届赛事报销;④赖斯(Declan Rice)、盖伊(Marc Guéhi)双双缺席赛前训练,进一步加剧右路/后防不确定性。英格兰面临'右后卫荒'。竞彩本场HAD盘口暂未见异常漂移,计入球队状态评估,非独立edge。",
+   "enFull": "July 10, 18:14 BJT update (kickoff 07-12 09:00 BJT, ~39h away): four independent sources (Sky Sports, Sports Mole, two separate ESPN pieces, Yahoo Sports) corroborate England's pre-match depletion: (1) Jarell Quansah is suspended after a red card vs Mexico, with an appeal possible but unresolved; (2) Reece James has hamstring soreness since the 0-0 draw with Ghana and medics are working to get him fit, status uncertain; (3) Jordan Henderson broke his arm falling off advertising hoardings during Round-of-16 celebrations after beating Mexico 3-2, underwent surgery, and is out for the rest of the tournament; (4) Declan Rice and Marc Guéhi both missed pre-match training, compounding the right-back/defensive uncertainty. England face a genuine right-back crisis. China Sports Lottery HAD odds show no abnormal drift yet — logged as squad-condition context, not a standalone edge.",
+   "links": [
+    {
+     "name": "Sky Sports: Reece James in race to be fit for quarter-final clash with Norway",
+     "url": "https://www.skysports.com/football/news/11095/13561150/england-world-cup-latest-reece-james-in-race-to-be-fit-for-quarter-final-clash-with-norway-to-ease-right-back-crisis"
+    },
+    {
+     "name": "Sports Mole: England injury suspension list and return dates for Norway clash",
+     "url": "https://www.sportsmole.co.uk/football/england/injury-news/injuries-and-suspensions/james-quansah-henderson-latest-england-injury-suspension-list-vs-norway_600881.html"
+    },
+    {
+     "name": "ESPN: Reece James, Marc Guéhi and Declan Rice miss England training",
+     "url": "https://www.espn.com/soccer/story/_/id/49307345/reece-james-marc-guehi-declan-rice-injury-england-training-world-cup-quarterfinal-norway"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "match": "周六100",
+   "impact": "阿根廷全员健康",
+   "tone": "positive",
+   "text": "跟队记者确认(唯彩看球等信源):卫冕冠军阿根廷26人大名单全员健康,无伤病无停赛,此前对阿尔及利亚热身赛抽筋的罗梅罗已完全恢复,备战瑞士1/4决赛阵容齐整,首发尚未公布。",
+   "en": "Beat reporters (via vipc.cn and other outlets) confirm defending champions Argentina have a fully healthy 26-man squad ahead of the Switzerland quarterfinal — no injuries, no suspensions — with Cristian Romero, who cramped in a warm-up-stage match vs Algeria, fully recovered. Starting XI not yet announced.",
+   "full": "07-10 18:14 BJT情报更新:周六100阿根廷vs瑞士(07-12 09:00开球,距今~39小时)——阿根廷跟队记者埃杜(Edu)确认(唯彩看球等多家转载):26人大名单全员健康,无一人因伤停赛,此前对阿尔及利亚一役出现抽筋情况的罗梅罗已完全恢复。阿根廷阵容齐整,是本轮四场中唯二'零伤病'的球队。首发阵容截至发稿尚未公布。竞彩本场HAD盘口暂未见异常漂移,计入球队状态评估,非独立edge。",
+   "enFull": "July 10, 18:14 BJT update (kickoff 07-12 09:00 BJT, ~39h away): Argentina beat reporter Edu confirms (widely republished via vipc.cn and others) the full 26-man squad is healthy ahead of the Switzerland quarterfinal, with no suspensions and no injuries — Cristian Romero, who cramped in the warm-up match vs Algeria, has fully recovered. Argentina go into this round with a clean bill of health, in contrast to Norway/England's issues. Starting XI not yet announced as of this update. China Sports Lottery HAD odds show no abnormal drift — logged as squad-condition context, not a standalone edge.",
+   "links": [
+    {
+     "name": "唯彩看球: 埃杜确认阿根廷26人全员健康",
+     "url": "https://www.vipc.cn/article/6a4ede354348f8001b125ea7"
+    }
+   ]
+  },
   {
    "date": "2026-07-10",
    "match": "周五098",
@@ -2507,8 +2581,8 @@ window.DASH_DATA = {
     "match": "阿根廷vs埃及×法国vs摩洛哥",
     "stake": 8,
     "odds": 18.375,
-    "value": 2.0,
-    "ev": 8.0,
+    "value": 2,
+    "ev": 8,
     "note": "两腿均触发§14(阿根廷conf74.15%·法国conf62.08%,均≥60%),买入方向=平局。095平局@4.90(elig.had.single=0仅能串,故与097组串,不与无thesis的096强凑避免§17.4式伪拼接)·097平局@3.75(elig.had.single=1本可单买,为免同一信号单关+串关重复暴露只走此2串1)。CLV两腿均负(095 -3.9%·097 -8.6%,竞彩平局定价均比Polymarket sharp公平价更贵),按§0'凌驾§3/§13/§14、负CLV不构成砍单理由'的最高指令不再否决——这是13次fade-favorite触发中第2次真实出票(前12次因负CLV被否、1次已挂)。value=2.00按protocol经验平局率0.33×0.33×组合赔率18.375计;诚实披露:若用模型自身集成概率(18.28%×23.74%=4.34%)算,联合value仅0.80(<1.0),本注本质是'相信历史回测的平局系统性低估(33-36%实际vs20-24%定价)超过模型自身估计'的前向验证注,置信仅35-50%,§17.6:连续3注净亏立即暂停重审。"
    }
   ],
