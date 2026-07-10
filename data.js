@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-11 04:10",
+  "updated": "2026-07-11 05:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2237,6 +2237,23 @@ window.DASH_DATA = {
    },
    "predManual": "§14 fade-favorite 2串1腿B·买平@3.75(与095组合,详见slip)",
    "note": "法国2:0摩洛哥(ESPN STATUS_FULL_TIME·R16·QF席位)·集成主胜62.08%方向命中(ens Brier=0.220,优于随机0.667;RPS=0.082,优于随机0.292)·图阿梅尼确认缺战(科内顶替)、摩洛哥萨拜里缺战(塔尔比顶替)均兑现为赛前情报口径,法国锋线姆巴佩+登贝莱建功锁定晋级。⚠️§14 fade-favorite 2串1(095买平×097买平,8元)腿B(097买平)也未中(2:0非平局)——两腿均未命中平局,该2串1若已实际出票已数学确定lose(AND结构);holdings.tickets此前未见此票登记,实际购买状态仍待主会话核实并结算(已连续在ALERTS中提醒)。learn.py已结算:新权重A市场65.3%/B-Elo4.7%/C-Poisson0.0%,Elo:法国+15.0→2070.0,摩洛哥→1908.6。"
+  },
+  {
+   "num": "周五098",
+   "round": "周五",
+   "home": "西班牙",
+   "away": "比利时",
+   "time": "07-11 03:00",
+   "status": "finished",
+   "actual": "2:1",
+   "predModel": "主胜60.5%",
+   "ensemble": {
+    "h": 60.54,
+    "d": 23.38,
+    "a": 16.08
+   },
+   "predManual": "未出票",
+   "note": "西班牙2:1比利时(ESPN STATUS_FULL_TIME·1/4决赛)·集成主胜60.5%方向命中(ens Brier=0.236,优于随机0.667;RPS=0.091,优于随机0.292)·比利时奥纳纳(ACL报销)+德巴斯特赛前测试后仍缺阵、德布劳内/多库回归首发均兑现既有情报口径,西班牙顶住费兰·托雷斯/梅切莱双方停赛观察名单压力锁定半决赛席位。竞彩HAD三项值(h/d/a=1.44/3.85/5.70)均<1.10未出票,无资金影响,holdings/slip均未涉及本场。learn.py已结算:新权重A市场65.1%/B-Elo5.2%/C-Poisson0.0%,Elo:西班牙+8.0→2082.5,比利时→1884.7。"
   }
  ],
  "holdings": {
@@ -2266,6 +2283,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-11",
+   "match": "周六099",
+   "impact": "盖伊伤情存疑",
+   "tone": "negative",
+   "text": "多源(ESPN、天空体育、AOL、Bolavip)确认英格兰中卫盖伊对墨西哥一役带伤坚持后本周腿筋拉伤加重,周四缺席合练,周五需临场测试才能确定是否出战对阵挪威,里斯亦有小恙但主帅塔赫尔仍抱乐观态度。",
+   "en": "Multiple sources (ESPN, Sky Sports, AOL, Bolavip) confirm England centre-back Marc Guéhi, who played through discomfort vs Mexico, has a worsening hamstring strain and missed Thursday training; he faces a Friday fitness test to determine his availability vs Norway, with Declan Rice also a minor doubt, though Tuchel remains cautiously optimistic both will be fit.",
+   "full": "07-11 05:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~24小时)——六条独立信源(ESPN、天空体育、AOL、Yahoo Sports、Bolavip US、GBNews)交叉确认:英格兰中卫马克·盖伊在16强战对墨西哥一役中带伤坚持完赛,原以为只是肌肉疲劳,现证实为轻度腘绳肌(hamstring)拉伤,本周伤情未见好转、周四缺席堪萨斯城最后一次合练;主帅图赫尔尚未放弃他周六首发的可能,盖伊需在周五(07-11)接受临场测试后才能确定能否出战,若周五仍无法与球队合练则出战存在'严重疑问'。ESPN同一篇报道并提及后腰赖斯(Declan Rice)亦有轻微状态问题,但图赫尔对二人周六复出持谨慎乐观。此前已记录的昆萨停赛/亨德森手臂骨折报销/詹姆斯未合练口径不变,本条为新增独立事实(盖伊/赖斯伤情此前未见报道)。竞彩本场HAD h/d/a=3.45/3.65/1.77与前序快照一致无漂移;国际共识(Polymarket)主23.4%/平25.8%/客50.8%,较开盘动量主+1.2pp/平-0.3pp/客-0.9pp,无15%+漂移。是否构成可交易edge交由主会话按§6/§17判断,本条仅记录已核实事实。",
+   "enFull": "July 11, 05:10 BJT update (kickoff 07-12 05:00 BJT, ~24h away): six independent sources (ESPN, Sky Sports, AOL, Yahoo Sports, Bolavip US, GBNews) confirm England centre-back Marc Guéhi played through discomfort in the round-of-16 win over Mexico; what was initially thought to be muscular fatigue is now understood to be a minor hamstring strain that has not improved this week, causing him to miss Thursday's final training session in Kansas City. Head coach Thomas Tuchel has not given up hope of starting him Saturday, but Guéhi requires a Friday (07-11) fitness test to determine his availability — if he cannot train with the squad Friday, 'serious doubts' will remain over his selection. The same ESPN report also flags a minor fitness concern for midfielder Declan Rice, though Tuchel remains cautiously optimistic both will be fit. Previously logged facts (Quansah suspended, Henderson's arm fracture ruling him out, James still not training) are unchanged; this is a newly confirmed, independent fact (Guéhi/Rice fitness had not been previously reported). China Sports Lottery HAD odds h/d/a=3.45/3.65/1.77 unchanged from the prior snapshot; Polymarket consensus home 23.4%/draw 25.8%/away 50.8%, momentum since open: home+1.2pp/draw-0.3pp/away-0.9pp, no 15%+ drift. Whether this rises to a tradeable edge is for the main session to judge per §6/§17; this entry only records verified facts.",
+   "links": [
+    {
+     "name": "ESPN: England have Marc Guéhi, Declan Rice fitness concerns before Norway World Cup quarterfinal",
+     "url": "https://www.espn.com/soccer/story/_/id/49322481/england-marc-guehi-declan-rice-fitness-concerns-norway-world-cup-quarterfinal-sources"
+    },
+    {
+     "name": "Sky Sports: World Cup 2026: England defender Marc Guehi a serious doubt for quarter-final clash with Norway",
+     "url": "https://www.skysports.com/football/news/12016/13562168/world-cup-2026-england-defender-marc-guehi-a-serious-doubt-for-quarter-final-clash-with-norway"
+    }
+   ]
+  },
   {
    "date": "2026-07-11",
    "match": "周六100",
@@ -2665,16 +2702,16 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 97,
+  "sampleCount": 98,
   "threshold": 50,
-  "pct": 194,
-  "ensBrier": 0.466,
-  "ensBrierMedian": 0.278,
-  "marketBase": 0.4914,
+  "pct": 196,
+  "ensBrier": 0.463,
+  "ensBrierMedian": 0.273,
+  "marketBase": 0.4882,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
-  "beatRandom": 68,
-  "dirHit": 63,
+  "beatRandom": 69,
+  "dirHit": 64,
   "weightsFirst": {
    "A": 33,
    "B": 34,
@@ -3268,10 +3305,16 @@ window.DASH_DATA = {
     "m": "法国·2:0",
     "b": 0.22,
     "win": true
+   },
+   {
+    "num": "周五098",
+    "m": "西班牙·2:1",
+    "b": 0.24,
+    "win": true
    }
   ],
-  "headline": "已喂 97 场预测 · 集成 Brier 0.466 vs 市场去水 0.4914（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.466 **仍没跑赢市场去水(0.4914)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 97/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 98 场预测 · 集成 Brier 0.463 vs 市场去水 0.4882（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.463 **仍没跑赢市场去水(0.4882)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 98/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
