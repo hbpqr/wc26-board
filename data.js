@@ -2267,6 +2267,30 @@ window.DASH_DATA = {
  "focus": [],
  "news": [
   {
+   "date": "2026-07-11",
+   "match": "周五098",
+   "impact": "官方首发已出",
+   "tone": "neutral",
+   "text": "五独立信源(lineups.com、Sports Mole、Yahoo Sports、Bolavip、CBS Sports)一致确认赛前首发:西班牙4-3-3(Simón;Porro、Cubarsí、Laporte、Cucurella;Rodri、Fabián Ruiz、Baena;Yamal、Olmo、Oyarzabal),尼科·维廉斯未完全恢复仅替补;比利时4-3-3(Courtois;Castagne、Ngoy、Mechele、De Cuyper;Raskin、Tielemans;De Bruyne、Doku、Trossard、De Ketelaere),此前存疑的德巴斯特未入首发(由Ngoy顶替中卫),奥纳纳ACL缺席坐实,德凯特莱雷续打伪9号、卢卡库替补。",
+   "en": "Five independent sources (lineups.com, Sports Mole, Yahoo Sports, Bolavip, CBS Sports) converge on the confirmed XIs: Spain 4-3-3 (Simón; Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz, Baena; Yamal, Olmo, Oyarzabal) with Nico Williams not fully fit and benched; Belgium 4-3-3 (Courtois; Castagne, Ngoy, Mechele, De Cuyper; Raskin, Tielemans; De Bruyne, Doku, Trossard, De Ketelaere) — previously-doubtful Debast is left out (Ngoy starts at CB instead), Onana's ACL absence is confirmed, De Ketelaere continues as false-nine with Lukaku on the bench.",
+   "full": "07-11 02:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~50分钟)——五条独立信源(lineups.com、Sports Mole、Yahoo Sports、Bolavip'confirmed lineups'、CBS Sports)一致列出赛前首发名单:西班牙4-3-3门将Simón,后卫线Porro/Cubarsí/Laporte/Cucurella,中场Rodri/Fabián Ruiz/Baena,锋线Yamal/Olmo/Oyarzabal——尼科·维廉斯内收肌伤未完全恢复,仍居替补(与既有口径一致)。比利时4-3-3门将Courtois,后卫线Castagne/Ngoy/Mechele/De Cuyper,中场Raskin/Tielemans,锋线De Bruyne/Doku/Trossard/De Ketelaere——此前反复记录'存疑/需临场测试'的中卫德巴斯特未获首发席位,改由Ngoy搭档Mechele坐镇中卫(解决此前双重不确定性的悬念),奥纳纳ACL重伤缺席继续坐实,德凯特莱雷续踢伪9号、卢卡库替补出场。竞彩HAD h/d/a=1.44/3.85/5.70,与前序快照一致无漂移;elig.had/hhad.single/allUp持续异常为0(已连续多轮上报,非本职范围)。",
+   "enFull": "July 11, 02:10 BJT update (kickoff 07-11 03:00 BJT, ~50 min away): five independent sources (lineups.com, Sports Mole, Yahoo Sports, Bolavip's 'confirmed lineups' piece, CBS Sports) converge on the same starting XIs. Spain 4-3-3: Simón in goal; Porro, Cubarsí, Laporte, Cucurella across the back; Rodri, Fabián Ruiz, Baena in midfield; Yamal, Olmo, Oyarzabal up front — Nico Williams remains benched with his adductor injury not fully healed, consistent with prior reporting. Belgium 4-3-3: Courtois in goal; Castagne, Ngoy, Mechele, De Cuyper across the back; Raskin, Tielemans in midfield; De Bruyne, Doku, Trossard, De Ketelaere up front — centre-back Zeno Debast, previously flagged as doubtful pending a late fitness test, is left out of the XI with Ngoy partnering Mechele instead, resolving the earlier uncertainty; Onana's ACL-related absence is confirmed, and De Ketelaere continues as a false nine with Lukaku on the bench. China Sports Lottery HAD odds h/d/a=1.44/3.85/5.70, unchanged from the prior snapshot; elig.had/hhad single/allUp remain anomalously 0 (repeatedly flagged across prior patrols, outside this agent's remit to fix).",
+   "links": [
+    {
+     "name": "Bolavip: Spain vs Belgium — Confirmed lineups today in 2026 World Cup quarterfinals",
+     "url": "https://bolavip.com/en/world-cup/spain-vs-belgium-predicted-lineups-today-in-2026-world-cup-quarterfinals"
+    },
+    {
+     "name": "Sports Mole: Preview: Spain vs Belgium - prediction, team news, lineups",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-belgium-prediction-team-news-lineups_600878.html"
+    },
+    {
+     "name": "Yahoo Sports: Spain predicted lineup today: World Cup starting XI projection vs Belgium",
+     "url": "https://sports.yahoo.com/articles/spain-predicted-lineup-today-world-094338334.html"
+    }
+   ]
+  },
+  {
    "date": "2026-07-10",
    "match": "周六099",
    "impact": "挪威疫情减员",
@@ -2438,126 +2462,6 @@ window.DASH_DATA = {
     }
    ]
   },
-  {
-   "date": "2026-07-09",
-   "match": "周四097",
-   "impact": "萨拜里确认缺战",
-   "tone": "neutral",
-   "text": "ESPN与Sports Mole双源确认:摩洛哥前锋萨拜里(此前腘绳肌不适)将缺战法国一役,拉希米预计顶替出任箭头;后防里亚德伤愈复出预测首发。法国预测首发未见图阿梅尼,科内续搭档拉比奥特。",
-   "en": "ESPN and Sports Mole both confirm Morocco forward Saibari will miss the match against France due to his hamstring issue, with Rahimi favored to lead the line; Riad is predicted to return to the back four. France's predicted XI omits Tchouameni, with Kone again partnering Rabiot.",
-   "full": "07-09 14:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~14小时)——两条独立信源(ESPN、Sports Mole)确认摩洛哥前锋萨拜里(此前对加拿大一战22分钟因腘绳肌不适下场,此前口径为'已排除严重但仍待定')本场将缺战,由拉希米(此前对加拿大替补建功)顶替出任箭头;后防方面里亚德(此前02:14记录'有望复出但待最终确认')在最新预测首发中回归,摩洛哥预测阵容(4-2-3-1):Bounou;Hakimi/Diop/Riad/Mazraoui;El Aynaoui/Bouaddi;Diaz/Ounahi/El Khannouss;Rahimi。法国预测阵容(4-2-3-1):Maignan;Kounde/Upamecano/Saliba/Digne;科内/拉比奥特;登贝莱/奥利塞/巴尔科拉;姆巴佩——图阿梅尼未列入预测首发,与此前13:10情报(伤情向坏、大概率缺战)一致印证。竞彩本场HAD三项value仍<1.0(约0.94),暂无新增edge;elig.had.single=1/hhad.single=0未变。(ESPN/Sports Mole双源核实)",
-   "enFull": "July 9, 14:10 BJT update (kickoff 07-10 04:00 BJT, ~14h away): two independent sources (ESPN, Sports Mole) confirm Morocco forward Saibari (subbed off 22' vs Canada with a hamstring issue; previously listed as 'ruled out serious but still pending') will miss this match, with Rahimi (who scored off the bench vs Canada) favored to lead the line. Center-back Riad, previously 'likely to return but unconfirmed' as of the 02:14 entry, is now in the predicted starting XI. Morocco predicted XI (4-2-3-1): Bounou; Hakimi, Diop, Riad, Mazraoui; El Aynaoui, Bouaddi; Diaz, Ounahi, El Khannouss; Rahimi. France predicted XI (4-2-3-1): Maignan; Kounde, Upamecano, Saliba, Digne; Kone, Rabiot; Dembele, Olise, Barcola; Mbappe — Tchouameni is absent from the predicted lineup, corroborating the 13:10 entry's more negative assessment. China Sports Lottery HAD value remains <1.0 (~0.94), no new edge; elig.had.single=1/hhad.single=0 unchanged. (ESPN/Sports Mole corroborated)",
-   "links": [
-    {
-     "name": "ESPN: Morocco star Saibari to miss World Cup quarterfinal vs. France",
-     "url": "https://www.espn.com/soccer/story/_/id/49310007/morocco-ismael-saibari-injury-france-world-cup-2026-quarterfinal"
-    },
-    {
-     "name": "Sports Mole: Morocco lineup vs France: Predicted XI for World Cup quarter-final, with star striker Saibari hit by injury",
-     "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/predicted-lineups/saibari-sidelined-riad-returns-predicted-morocco-world-cup-lineup-vs-france_600834.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-09",
-   "match": "周四097",
-   "impact": "图帅大概率缺战",
-   "tone": "neutral",
-   "text": "医学扫描确认图阿梅尼左侧内收肌+大腿上部肌肉撕裂,教练组安排其独立训练至周二,对摩洛哥一战出战希望渺茫;科内预计仍搭档拉比奥特出任双后腰。(Yahoo Sports/Get French Football News双源核实)",
-   "en": "Medical scans have confirmed a tear in Tchouameni's left adductor and upper thigh; his camp has him training separately until at least Tuesday, making him highly unlikely to play against Morocco, with Kone expected to partner Rabiot again. (Yahoo Sports/Get French Football News corroborated)",
-   "full": "07-09 13:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~15小时)——两条独立信源(Yahoo Sports、Get French Football News)均报道图阿梅尼(左侧内收肌+大腿上部)肌肉撕裂已经医学扫描确认,教练组安排其独立训练至少至周二,对阵摩洛哥出战希望渺茫('likely to miss');若无法出场,科内预计续搭档拉比奥特出任双后腰。此前08:10记录的'图帅回暖'(OneFootball/Bolavip:已恢复个人跑动、德尚称好转、不排除出战)仍是当日较早的正面表态,但本次两条更晚出现的报道给出更具体的扫描结果与更保守的结论,判断口径较此前更负面,故补记本条,不删除旧条(同日情报演变,留痕对比)。萨拜里伤情/里亚德恢复/奥利塞带牌观察口径不变。竞彩本场HAD三项value仍<1.0(约0.94),暂无新增edge;elig.had.single=1/hhad.single=0未变。",
-   "enFull": "July 9, 13:10 BJT update (kickoff 07-10 04:00 BJT, ~15h away): two independent sources (Yahoo Sports, Get French Football News) report medical scans have confirmed a tear in Tchouameni's left adductor and upper thigh; his camp has him training separately until at least Tuesday, making him 'likely to miss' the Morocco match, with Kone expected to again partner Rabiot if he sits out. This supersedes the tone (not the fact) of the earlier 08:10 entry ('Tchouameni feeling better') — this later, more specific reporting on scan results reads more negative on his availability; the older entry is kept, not deleted, to preserve the same-day intel timeline. Saibari fitness / Riad recovery / Olise booking-risk lines unchanged. China Sports Lottery HAD value remains <1.0 (~0.94), no new edge; elig.had.single=1/hhad.single=0 unchanged.",
-   "links": [
-    {
-     "name": "Yahoo Sports: Aurélien Tchouaméni likely to miss France's World Cup quarter-final against Morocco",
-     "url": "https://sports.yahoo.com/articles/aur-lien-tchouam-ni-likely-204000430.html"
-    },
-    {
-     "name": "Get French Football News: Aurélien Tchouaméni likely to miss France's World Cup quarter-final against Morocco",
-     "url": "https://www.getfootballnewsfrance.com/2026/aurelien-tchouameni-likely-to-miss-frances-world-cup-quarter-final-against-morocco/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-09",
-   "match": "周四097",
-   "impact": "图帅回暖",
-   "tone": "neutral",
-   "text": "图阿梅尼已恢复个人跑动训练,德尚证实其大腿伤情好转、不排除对摩洛哥一战披挂,但首发或替补需临近开球才定。(OneFootball/Bolavip双源核实)",
-   "en": "Tchouameni has resumed individual running and Deschamps says he's feeling better and could feature against Morocco, though a start-or-bench call won't come until close to kickoff. (OneFootball/Bolavip corroborated)",
-   "full": "07-09 08:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~20小时)——图阿梅尼(大腿内收肌+上部肌肉撕裂,此前评估复出希望渺茫)已恢复个人跑动训练,距开球仅剩3天;法国主帅德尚最新表态称其伤情感觉好转、不排除出战摩洛哥一战,但最终首发或替补需赛前最后一刻才能确定。此前koorabreak与RotoWire对其复出概率结论相左(单源矛盾未采信),本次OneFootball(训练恢复进度)与Bolavip(德尚原话)两条独立信源共同指向'伤情向好'的方向,故补记本条;科内仍是图阿梅尼缺战时的第一替补人选。既有奥利塞带牌观察/摩洛哥萨拜里存疑/里亚德恢复良好口径不变。竞彩本场HAD/让球盘value仍<1.0(约0.94),暂无新增edge。",
-   "enFull": "July 9, 08:10 BJT update (kickoff 07-10 04:00 BJT, ~20h away): Tchouameni (adductor and upper-thigh muscle tear, previously assessed as 'highly unlikely' to return) has resumed individual running with three days left before kickoff; France boss Deschamps says he's feeling better on the thigh and could feature against Morocco, though whether he starts or comes off the bench won't be decided until close to kickoff. Earlier koorabreak and RotoWire reports conflicted on his return odds (single-sourced, not adopted); this update is corroborated by two independent sources — OneFootball (training progress) and Bolavip (Deschamps' own comments) — both pointing toward a positive trend, hence added. Kone remains the first-choice deputy if Tchouameni sits out. Existing lines (Olise booking-risk watch / Morocco's Saibari doubt / Riad recovering well) unchanged. China Sports Lottery HAD/handicap value remains <1.0 (~0.94), no new edge.",
-   "links": [
-    {
-     "name": "OneFootball: Tchouaméni resumes individual running three days before Morocco World Cup quarter-final",
-     "url": "https://onefootball.com/en/news/aurelien-tchouameni-resumes-individual-running-three-days-before-morocco-world-cup-quarter-final-43109916"
-    },
-    {
-     "name": "Bolavip: Didier Deschamps provides positive update on Aurelien Tchouameni ahead of France vs Morocco game",
-     "url": "https://bolavip.com/en/world-cup/didier-deschamps-provides-positive-update-on-aurelien-tchouameni-ahead-of-france-vs-morocco-game"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-09",
-   "match": "周四097",
-   "impact": "摩后卫伤情看好",
-   "tone": "neutral",
-   "text": "摩洛哥中卫里亚德(Chadi Riad,对荷兰一战膝盖受创,缺席对加拿大一役)恢复良好,有望复出出战法国;若无法出场哈尔哈勒(Halhal)顶替,最终决定待临近开球确认。(Roundtable/Africa Soccer双源核实)",
-   "en": "Morocco centre-back Chadi Riad, who picked up a knee knock against the Netherlands and missed the Canada match, is recovering well and could return for the France quarter-final; Redouane Halhal would deputise if he's unavailable, final call closer to kickoff. (Roundtable/Africa Soccer corroborated)",
-   "full": "07-09 02:14 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~26小时)——摩洛哥中卫里亚德(Chadi Riad,水晶宫)16强战对阵荷兰时膝盖受创,缺席1/8决赛对加拿大一役(由哈尔哈勒Halhal顶替);最新体测显示恢复良好、伤情不算严重,有望复出出战法国,但最终决定要等临近开球才能确认。若里亚德复出,摩洛哥后防将回到对荷兰一战前的原配置;若仍缺席则哈尔哈勒续任。既有口径(图阿梅尼伤愈可战/萨拜里伤情已排除严重但仍待定/奥利塞带牌观察)不变,国际共识(Polymarket)本轮法国61.8%/平24.6%/摩洛哥13.6%,较07-07开盘无显著漂移。竞彩本场HAD/让球三项value仍<1.0(约0.83-0.92),暂无新增edge。(Roundtable/Africa Soccer/Sports Mole多源核实)",
-   "enFull": "July 9, 02:14 BJT update (kickoff 07-10 04:00 BJT, ~26h away): Morocco centre-back Chadi Riad (Crystal Palace) suffered a knee knock against the Netherlands in the last-32 and missed the round-of-16 win over Canada (deputised by Redouane Halhal); the latest medical assessment shows he is recovering well and the issue is 'not serious', with a chance he returns for France, though a final call won't come until closer to kickoff. If fit, Riad restores Morocco's back line to its pre-Netherlands-match setup; otherwise Halhal continues. Existing lines (Tchouameni fit to play / Saibari's serious injury ruled out but still unconfirmed / Olise's booking-risk watch) unchanged. International consensus (Polymarket) unchanged this round at France 61.8% / draw 24.6% / Morocco 13.6%, no material drift since the July 7 open. China Sports Lottery HAD/handicap values remain <1.0 (~0.83-0.92), no new edge. (Roundtable/Africa Soccer/Sports Mole corroborated)",
-   "links": [
-    {
-     "name": "Roundtable: Positive update on Chadi Riad's fitness after Morocco injury",
-     "url": "https://roundtable.io/sports/soccer/premier-league/crystal-palace/news/positive-update-on-chadi-riads-fitness-after-morocco-injury"
-    },
-    {
-     "name": "Africa Soccer: Morocco receive major injury boost for France clash",
-     "url": "https://africasoccer.com/morocco-receive-major-injury-boost-france-clash/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-08",
-   "match": "周四097",
-   "impact": "图阿梅尼伤疑",
-   "tone": "neutral",
-   "text": "法国中场图阿梅尼(大腿伤势)对阵摩洛哥出战存疑,预计科内替补搭档拉比奥特出任双后腰。(Sports Mole/Rotowire双源核实)",
-   "en": "France midfielder Aurelien Tchouameni is doubtful with a thigh injury for the Morocco quarterfinal, with Manu Kone expected to partner Rabiot in a double pivot instead. (Sports Mole/Rotowire corroborated)",
-   "full": "07-08 19:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~33小时,QF)——法国中场图阿梅尼(Tchouameni)大腿伤势成疑,预计科内(Manu Kone)将替补搭档拉比奥特(Rabiot)出任双后腰;姆巴佩预计正常出战领衔锋线。摩洛哥方面前锋萨拜里(Saibari,对加拿大一战22分钟因腘绳肌不适下场)医学检测已排除严重伤情,但能否出战仍未最终确认。国际共识(Polymarket刚刷新)法国61.2%/平24.4%/摩洛哥14.4%,竞彩赔率法国@1.40/平@3.85/摩洛哥@6.45,让球(-1)让胜@2.43,三项HAD/让球value均<1.0(0.92/0.92/0.83),暂无新增edge。(Sports Mole/The National/beIN Sports/Rotowire多源核实)",
-   "enFull": "July 8, 19:10 BJT update (kickoff 07-10 04:00 BJT, ~33h away, QF): France midfielder Aurelien Tchouameni is doubtful with a thigh injury for the Morocco quarterfinal, with Manu Kone expected to partner Rabiot in a double pivot; Mbappe expected to start as usual leading the attack. Morocco forward Saibari (left the Canada match in the 22nd minute with hamstring discomfort) has had a serious injury ruled out by medical tests, but his availability remains unconfirmed. International consensus (Polymarket, just refreshed) has France 61.2% / draw 24.4% / Morocco 14.4%; China Sports Lottery odds France @1.40 / draw @3.85 / Morocco @6.45, handicap (-1) covered-win @2.43 — all HAD/handicap values remain <1.0 (0.92/0.92/0.83), no new edge. (Sports Mole/The National/beIN Sports/Rotowire corroborated)",
-   "links": [
-    {
-     "name": "Sports Mole: France lineup vs Morocco: Predicted XI for World Cup 2026 quarter-final as Manu Kone stands ready to deputise",
-     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/captain-mbappe-to-start-can-tchouameni-return-predicted-france-xi-vs-morocco_600830.html"
-    },
-    {
-     "name": "The National: Ismael Saibari fitness concern for Morocco ahead of France World Cup quarter-final clash",
-     "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/07/06/ismael-saibari-fitness-concern-for-morocco-ahead-of-france-world-cup-quarter-final-clash/"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-09",
-   "match": "周四097",
-   "impact": "奥利塞带牌观察",
-   "tone": "neutral",
-   "text": "法国申诉FIFA撤销奥利塞对巴拉圭一战黄牌被正式驳回,德尚证实'黄牌维持不变',奥利塞对摩洛哥一战再吃牌将停赛下一轮。(ESPN/OneFootball双源核实)",
-   "en": "France's appeal to FIFA to rescind Michael Olise's yellow card from the Paraguay match has been formally denied — coach Deschamps confirmed 'nothing has changed' — meaning Olise is one caution away from missing France's next match if booked against Morocco. (ESPN/OneFootball corroborated)",
-   "full": "07-09 00:10 BJT情报更新:周四097法国vs摩洛哥(07-10 04:00开球,距今~28小时)——法国足协此前就奥利塞(Olise)对阵巴拉圭一战黄牌(争议判罚,回放显示疑似仅拉扯球衣)向FIFA提出撤销申诉,现已有结果:FIFA驳回申诉,德尚发布会证实'黄牌方面,没有任何变化'。奥利塞目前带牌作战,本场若再吃黄牌将停赛下一轮(法国若晋级则为决赛)。此事不影响他本场出战资格,仅构成对抗尺度/战术使用上的隐性风险。国际共识(Polymarket)本轮重刷法国61.8%/平24.6%/摩洛哥13.6%(较07-07开盘主+0.6pp/平+0.2pp/客-0.9pp,无显著漂移),odds_data.js本轮h/d/a数值未变,elig(had/hhad单关/串关)仍全为0(全场封盘中,已连续多轮观察)。图阿梅尼伤势/萨拜里伤情等既有口径不变,本轮无新增两源确认事实。(ESPN/OneFootball corroborated)",
-   "enFull": "July 9, 00:10 BJT update (kickoff 07-10 04:00 BJT, ~28h away): France's federation had appealed to FIFA to rescind Michael Olise's yellow card from the Paraguay match (a contested call, replays suggesting only a shirt tug); FIFA has now denied the appeal, with Deschamps confirming at a press conference 'as for the yellow card, nothing has changed.' Olise plays on a card and would be suspended for France's next match (the final, if France advances) if booked again against Morocco — this does not affect his availability for this match, only the tactical/disciplinary risk around his usage. International consensus (Polymarket, refreshed) France 61.8% / draw 24.6% / Morocco 13.6% (vs the July 7 open: main+0.6pp/draw+0.2pp/away-0.9pp, no material drift). odds_data.js h/d/a values unchanged this round; elig (single/parlay for both HAD and handicap) remains all 0 (fully locked, observed across multiple rounds now). Existing Tchouameni injury / Saibari fitness lines unchanged, no new two-source-confirmed facts this round.",
-   "links": [
-    {
-     "name": "ESPN: France appeals to FIFA over controversial Michael Olise yellow card vs. Paraguay",
-     "url": "https://www.espn.com/soccer/story/_/id/49289653/france-appeals-fifa-controversial-michael-olise-yellow-card-vs-paraguay"
-    },
-    {
-     "name": "OneFootball: Decision on Olise made — will the yellow card be rescinded?",
-     "url": "https://onefootball.com/en/news/decision-on-olise-made-will-the-yellow-card-be-rescinded-43113561"
-    }
-   ]
-  }
  ],
  "slip": {
   "title": "7月7日 · fade-favorite双平局2串1(§0凌驾负CLV) · 21:00 最终版",
