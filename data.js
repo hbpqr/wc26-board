@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-10 12:10",
+  "updated": "2026-07-10 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2256,6 +2256,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-10",
+   "match": "周五098",
+   "impact": "两队各1人停赛险",
+   "tone": "neutral",
+   "text": "三独立信源(ESPN黄牌观察榜、NBC Sports、SI.com)确认:西班牙费兰·托雷斯在对葡萄牙一战补时吃黄牌,本场若再染黄将累积停赛缺席半决赛;比利时梅切莱(对塞内加尔一役唯一染黄球员)同样再吃一张即无缘半决赛。两队各有一名主力面临'战战兢兢踢球'的停赛风险,可能影响其防守/对抗强度,但不改变HAD本身定价。",
+   "en": "Three independent sources (ESPN's yellow-card watch, NBC Sports, SI.com) confirm both Spain's Ferran Torres (booked in stoppage time vs Portugal) and Belgium's Brandon Mechele (Belgium's only yellow card vs Senegal) are one caution away from a suspension that would rule them out of the semifinal, giving both sides a key player walking a disciplinary tightrope in this quarterfinal.",
+   "full": "07-10 13:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~14小时)——三条独立信源(ESPN《World Cup 2026: Yellow Card Watch》、NBC Sports、SI.com同题报道)一致确认停赛观察名单:西班牙费兰·托雷斯在1/4决赛前对葡萄牙的比赛补时段吃到黄牌,累积两张,本场再染黄将自动停赛缺席半决赛;比利时后卫布兰登·梅切莱是对塞内加尔一役比利时队唯一吃牌球员,同样一张黄牌之遥停赛半决赛。两人预计仍会首发,但可能因忌惮停赛而在对抗强度/铲抢选择上趋于保守,属于战术层面的边际影响,不构成竞彩HAD/让球盘定价层面的新增edge(098当前HAD h/d/a=1.46/3.80/5.50,与前序快照一致无漂移)。另核实网传比利时中卫德巴斯特与队医就出战资格存在分歧一事,仅单一低可信度来源(memesita.com)反复出现,ESPN/HLN/Fox Sports等主流信源均未见争议报道,不计入确认新增,德巴斯特仍按此前'伤情堪忧、临场决定'口径处理。",
+   "enFull": "July 10, 13:10 BJT update (kickoff 07-11 03:00 BJT, ~14h away): three independent sources (ESPN's Yellow Card Watch, NBC Sports, SI.com covering the same story) confirm both teams carry a suspension risk into this quarterfinal — Spain's Ferran Torres was booked in stoppage time against Portugal and would miss the semifinal if cautioned again, while Belgium's Brandon Mechele, the only Belgian player booked against Senegal, is likewise one yellow card away from a semifinal ban. Both are expected to start but may play with added caution in duels/tackling given the stakes — a tactical-margin consideration rather than a new pricing edge (098 HAD odds h/d/a=1.46/3.80/5.50, unchanged from the prior snapshot). Separately checked a claim that Belgium centre-back Zeno Debast is in a dispute with the medical staff over his fitness to play; only one low-credibility source (memesita.com) repeats this and no mainstream outlet (ESPN/HLN/Fox Sports) corroborates it, so it is not counted as a confirmed new fact — Debast's status remains 'doubtful, game-time decision' per prior entries.",
+   "links": [
+    {
+     "name": "ESPN: World Cup 2026 Yellow Card Watch — walking a tightrope in the quarterfinals",
+     "url": "https://www.espn.com/soccer/story/_/id/49306154/world-cup-2026-yellow-card-watch-walking-tightrope-quarterfinals"
+    },
+    {
+     "name": "NBC Sports: Which World Cup teams are most at risk to yellow card suspensions for key players?",
+     "url": "https://www.nbcsports.com/soccer/news/which-world-cup-teams-are-most-at-risk-to-yellow-card-suspensions-for-key-players-what-are-the-rules"
+    },
+    {
+     "name": "SI.com: 17 Players at Risk of World Cup Semifinal Suspension",
+     "url": "https://www.si.com/soccer/17-players-risk-world-cup-semifinal-suspension"
+    }
+   ]
+  },
   {
    "date": "2026-07-10",
    "match": "周五098",
