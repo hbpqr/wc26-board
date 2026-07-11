@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-11 09:10",
+  "updated": "2026-07-11 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2286,6 +2286,26 @@ window.DASH_DATA = {
   {
    "date": "2026-07-11",
    "match": "周六099",
+   "impact": "挪威否认疫病",
+   "tone": "positive",
+   "text": "挪威队医Ola Sand向Nettavisen明确否认队内疫病传闻,称'全员现已健康',为06:10快照记录的ESPN/Yahoo Sports矛盾口径(沃尔夫伤情/疫病存疑)提供解答;多源(Fox Sports、Goal.com、GBNews、Yahoo Sports、SportBible、GiveMeSport)交叉证实。",
+   "en": "Norway team doctor Ola Sand told Nettavisen he is dismissing sickness-bug rumors, saying 'all players are healthy now' — resolving the ESPN/Yahoo Sports conflicting reports flagged in the 06:10 snapshot; corroborated across Fox Sports, Goal.com, GBNews, Yahoo Sports, SportBible and GiveMeSport.",
+   "full": "07-11 11:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~18小时)——多源(Fox Sports、Goal.com、GBNews、Yahoo Sports、SportBible、GiveMeSport)一致报道:挪威队医Ola Sand接受Nettavisen采访明确否认此前流传的队内'疫病'传闻,称'全员现已健康,考虑到我们已经近6周高强度聚在一起,这点小状况不算什么',传闻源自主帅索尔巴肯赛后谈及佩德森/斯特兰德·拉森两人状态引发的外界解读。此条解决06:10快照记录的'ESPN称沃尔夫已恢复合练、Yahoo Sports称仍存疑'两源矛盾——现有队医直接表态(非预测性报道)达两独立信源以上确认门槛,更新既有'挪威疫病+伤情'负面口径为已排除。英格兰方面盖伊(腘伤)/赖斯周五临场测试结果仍未见公开报道,维持存疑口径不变。竞彩本场HAD h/d/a=3.35/3.65/1.80(odds_data.js fetched_at 10:51),较此前3.45/3.65/1.77小幅波动<3%无显著漂移;hhad(+1让球)让负value_top=1.02/edge=3.7pp,模型≈市场,verdict'无边'。",
+   "enFull": "July 11, 11:10 BJT update (kickoff 07-12 05:00 BJT, ~18h away): multiple sources (Fox Sports, Goal.com, GBNews, Yahoo Sports, SportBible, GiveMeSport) report Norway team doctor Ola Sand told Nettavisen he is dismissing sickness-bug rumors around the squad, saying 'all players are healthy now,' adding the fuss was minimal 'considering we've been close together for almost six weeks.' The rumors traced back to comments by coach Ståle Solbakken about the condition of Marcus Pedersen and Jørgen Strand Larsen. This resolves the conflicting reports flagged in the 06:10 snapshot (ESPN said Wolfe had returned to full training; Yahoo Sports said his availability remained in doubt) — a direct team-doctor statement corroborated across 6+ independent outlets clears the two-source confirmation bar, updating the prior 'Norway illness + injury concerns' negative framing to resolved. On England's side, no public reporting yet on the outcome of Friday's fitness tests for Guéhi (hamstring) or Rice; that doubt remains unchanged. China Sports Lottery HAD odds h/d/a=3.35/3.65/1.80 (odds_data.js fetched_at 10:51), a small move from the prior 3.45/3.65/1.77 snapshot (<3%, no significant drift); the +1 handicap away-line value is 1.02 with a 3.7pp edge — model roughly matches market, verdict 'no edge'.",
+   "links": [
+    {
+     "name": "Goal.com: Norway team doctor provides update on 'sickness bug' reports as thunderstorms threat looms",
+     "url": "https://www.goal.com/en/lists/norway-team-doctor-provides-update-sickness-bug-reports-thunderstorms-threat-looms-england-world-cup-quarter-final-clash/blte712c3eeb6c6ff7a"
+    },
+    {
+     "name": "GB News: Norway team doctor sets record straight on illness rumours ahead of World Cup showdown with England",
+     "url": "https://www.gbnews.com/sport/football/norway-illness-england-world-cup"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-11",
+   "match": "周六099",
    "impact": "盖伊伤情存疑",
    "tone": "negative",
    "text": "多源(ESPN、天空体育、AOL、Bolavip)确认英格兰中卫盖伊对墨西哥一役带伤坚持后本周腿筋拉伤加重,周四缺席合练,周五需临场测试才能确定是否出战对阵挪威,里斯亦有小恙但主帅塔赫尔仍抱乐观态度。",
@@ -2516,26 +2536,6 @@ window.DASH_DATA = {
     {
      "name": "Goal.com: Spain vs Belgium World Cup Preview",
      "url": "https://www.goal.com/en-us/news/spain-belgium-world-cup-preview/blt1a7a9e35c22bbc19"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-09",
-   "match": "周五098",
-   "impact": "比利时后腰重伤",
-   "tone": "negative",
-   "text": "多源确认:比利时防守型中场奥纳纳本届赛事因前十字韧带(ACL)撕裂提前报销,无缘对阵西班牙的1/4决赛;德布劳内此前对阵美国被雪藏轮休,本场预计回归首发,卢卡库、多库同期归位。",
-   "en": "Multiple sources confirm Belgium defensive midfielder Amadou Onana is out for the rest of the tournament with an ACL tear and will miss the quarterfinal vs Spain; Kevin De Bruyne, rested against the USA, is expected to return to the starting XI alongside Lukaku and Doku.",
-   "full": "07-09 23:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~28小时)——多条信源(Yahoo Sports、RotoWire、ESPN quarterfinal injury tracker)交叉确认比利时防守型中场阿马杜·奥纳纳(此前中场屏障核心)本届赛事因前十字韧带撕裂已official ruled out,无法出战对阵西班牙一役,中场结构将受明显削弱;同时德布劳内(此前对阵美国一战被主帅雪藏轮休)、多库、卢卡库均预计回归首发。西班牙方面预测阵容延续:Simon;Porro/Cubarsi/Laporte/Cucurella;Rodri/Pedri;亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔,尼科·威廉姆斯伤情报道口径有矛盾(部分源称已伤愈可出战、部分源称仍缺阵),未达两独立信源一致门槛,不采信具体结论。竞彩本场HAD h/d/a=1.46/3.80/5.50,elig.had.single=0/allUp=0(见下方异常记录),暂无新增edge。(Yahoo Sports/RotoWire/ESPN多源交叉核实)",
-   "enFull": "July 9, 23:10 BJT update (kickoff 07-11 03:00 BJT, ~28h away): multiple sources (Yahoo Sports, RotoWire, ESPN's quarterfinal injury tracker) corroborate that Belgium defensive midfielder Amadou Onana — previously the midfield anchor — is officially ruled out for the rest of the tournament with an ACL tear, a significant blow to Belgium's midfield structure for the Spain quarterfinal. Kevin De Bruyne (rested vs the USA as a deliberate management decision), Jeremy Doku, and Romelu Lukaku are all expected to return to the starting XI. Spain's predicted lineup is unchanged: Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Pedri; Yamal, Olmo, Baena; Oyarzabal — reporting on Nico Williams' fitness is contradictory across sources (some say recovered and available, others still out), so no claim is made pending two-source confirmation. China Sports Lottery HAD odds h/d/a=1.46/3.80/5.50; elig.had.single=0/allUp=0 (see anomaly note below), no new edge identified. (Corroborated across Yahoo Sports/RotoWire/ESPN)",
-   "links": [
-    {
-     "name": "ESPN: World Cup quarterfinal injury tracker",
-     "url": "https://www.espn.co.uk/football/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium"
-    },
-    {
-     "name": "RotoWire: Spain vs Belgium Preview, Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/spain-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121774"
     }
    ]
   }
