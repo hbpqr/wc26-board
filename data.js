@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-11 11:10",
+  "updated": "2026-07-11 12:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2283,6 +2283,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-11",
+   "match": "周六099",
+   "impact": "赖斯染病隔离",
+   "tone": "negative",
+   "text": "多源(Goal.com、GBNews、Yardbarker、NEWS.am Sport、ReadArsenal、beIN Sports)确认赖斯病情升级为病毒性肠胃感染,已被隔离防止在队内传播,连续缺席两次合练,能否出战挪威悬而未决;若无法复出料由迈努(Mainoo)顶替首发。",
+   "en": "Multiple sources (Goal.com, GBNews, Yardbarker, NEWS.am Sport, ReadArsenal, beIN Sports) confirm Declan Rice's fitness doubt has escalated to a viral infection/gastroenteritis; he has been isolated from the squad to prevent spread and has missed two straight training sessions, with his availability vs Norway now uncertain — Kobbie Mainoo is set to deputise if he can't recover in time.",
+   "full": "07-11 12:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~17小时)——六条独立信源(Goal.com、GBNews、Yardbarker、NEWS.am Sport、ReadArsenal、beIN Sports)交叉证实:此前(05:10快照)记录的'赖斯轻微状态问题'已升级为确诊病毒性肠胃感染,球队为防止在更衣室内传播已将其隔离单独恢复,本周已连续缺席两次全队合练;主帅塔赫尔仍未放弃其周六复出可能,若完全康复料回归首发,若不能则大概率由迈努(Kobbie Mainoo)顶替出任后腰。盖伊(hamstring)仍为50/50、周五临场测试结果未见公开报道,维持存疑口径不变。竞彩本场HAD/hhad盘口(odds_data.js fetched_at 10:51)较前序快照无显著漂移;是否构成可交易edge交由主会话按§6/§17判断,本条仅记录已核实事实。",
+   "enFull": "July 11, 12:10 BJT update (kickoff 07-12 05:00 BJT, ~17h away): six independent sources (Goal.com, GBNews, Yardbarker, NEWS.am Sport, ReadArsenal, beIN Sports) confirm that Declan Rice's previously reported 'minor fitness concern' (05:10 snapshot) has escalated to a confirmed viral infection/gastroenteritis; he has been isolated from the rest of the squad to prevent it spreading and has missed two consecutive full training sessions this week. Head coach Thomas Tuchel has not ruled out a Saturday return if Rice makes a full recovery, but Kobbie Mainoo is the likely deputy in central midfield if he cannot. Marc Guéhi remains a 50/50 hamstring doubt with no public report yet on Friday's fitness test outcome — that uncertainty is unchanged. China Sports Lottery HAD/handicap odds (odds_data.js fetched_at 10:51) show no significant drift from the prior snapshot; whether this rises to a tradeable edge is for the main session to judge per §6/§17 — this entry only records verified facts.",
+   "links": [
+    {
+     "name": "Goal.com: England dealt Declan Rice illness worry as Three Lions fear bug could spread ahead of Norway showdown",
+     "url": "https://www.goal.com/en/lists/england-world-cup-news-declan-rice-sickness-bug-norway/blteeff8f484dfccb12"
+    },
+    {
+     "name": "GB News: Declan Rice forced to isolate from England team-mates ahead of crunch World Cup clash with Norway",
+     "url": "https://www.gbnews.com/sport/football/declan-rice-isolate-england-norway-world-cup"
+    },
+    {
+     "name": "NEWS.am Sport: 2026 World Cup: Declan Rice isolated from rest of England players",
+     "url": "https://sport.news.am/eng/news/167631/2026-world-cup-declan-rice-isolated-from-rest-of-england-players.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-11",
    "match": "周六099",
