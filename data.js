@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 03:10",
+  "updated": "2026-07-13 05:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2425,46 +2425,6 @@ window.DASH_DATA = {
     {
      "name": "Sky Sports: World Cup 2026: England defender Marc Guehi a serious doubt for quarter-final clash with Norway",
      "url": "https://www.skysports.com/football/news/12016/13562168/world-cup-2026-england-defender-marc-guehi-a-serious-doubt-for-quarter-final-clash-with-norway"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周六100",
-   "impact": "瑞士头号射手伤退",
-   "tone": "negative",
-   "text": "多源确认瑞士队内进球最多的曼赞比(3球)训练中非接触性膝伤,主帅亚金承认赶上本场几无可能,将缺席对阵阿根廷一役;阿根廷方面罗梅罗此前腿部不适已做检查确认可以出战,全队基本满编。",
-   "en": "Multiple sources confirm Switzerland's top scorer Johan Manzambi (3 goals) suffered a non-contact knee injury in training and will miss the Argentina quarterfinal, with coach Yakin admitting recovery in time is highly unlikely; Argentina's Cristian Romero was scanned for a calf issue but has been passed fit, with the squad otherwise fully healthy.",
-   "full": "07-11 03:10 BJT情报更新:周六100阿根廷vs瑞士(07-12 09:00开球,距今~30小时)——多条信源(ESPN、Yahoo Sports、RotoWire等赛前预览)交叉确认:瑞士队内本届杯赛进球最多的曼赞比(Johan Manzambi,3球)训练中遭遇非接触性膝伤,主帅亚金公开承认'赶上本场几无可能',确定缺战;瑞士后腰艾比舍尔(Aebischer)与后卫雅克兹(Jaquez)同样缺阵,里德(Rieder)与亚沙里(Jashari)递补填补空缺。阿根廷方面此前对阵埃及一役后罗梅罗因小腿不适送去做扫描,现已确认可以出战,全队26人名单健康完整无伤缺。竞彩本场HAD h/d/a=1.51/3.42/5.75(2026-07-10 20:10快照);国际共识(Polymarket)主57.3%/平26.7%/客16.0%,较07-09开盘动量主+1.0pp/平-0.7pp/客-0.4pp,无15%+漂移。曼赞比缺战属阵型/进攻端硬信息差,已计入影子book下一轮预测更新参考,但当前HAD/让球值是否过闸由主会话按§6/§17判断,本条仅记录事实。",
-   "enFull": "July 11, 03:10 BJT update (kickoff 07-12 09:00 BJT, ~30h away): multiple sources (ESPN, Yahoo Sports, RotoWire previews) confirm Switzerland's top scorer this tournament, Johan Manzambi (3 goals), suffered a non-contact knee injury in training and is ruled out, with coach Murat Yakin admitting a recovery in time is highly unlikely; midfielder Michel Aebischer and defender Luca Jaquez are also unavailable, with Fabian Rieder and Ardon Jashari filling in. Argentina's Cristian Romero was sent for scans on a calf niggle after the Egypt match but has since been passed fit, and the 26-man squad is otherwise fully healthy. China Sports Lottery HAD odds h/d/a=1.51/3.42/5.75 (snapshot 2026-07-10 20:10); Polymarket consensus home 57.3%/draw 26.7%/away 16.0%, momentum since 07-09 open: home+1.0pp/draw-0.7pp/away-0.4pp, no 15%+ drift. Manzambi's absence is a genuine information edge on Switzerland's attack, logged for the next shadow-book prediction refresh — whether it clears the HAD/handicap value gate is for the main session to judge per §6/§17; this entry only records the fact.",
-   "links": [
-    {
-     "name": "ESPN: Argentina vs Switzerland preview, injury news, predicted lineups",
-     "url": "https://www.espn.com/soccer/story/_/id/49313407/argentina-vs-switzerland-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
-    },
-    {
-     "name": "RotoWire: Argentina vs Switzerland Preview, Predicted Lineups & Team News",
-     "url": "https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周六099",
-   "impact": "挪威疫病+伤情",
-   "tone": "negative",
-   "text": "Goal.com与ESPN交叉确认挪威队内爆发肠胃疾病,同时左后卫穆勒·沃尔夫对阵巴西一役伤退、能否出战英格兰存疑;英格兰方面昆萨禁赛、亨德森庆祝时手臂骨折(赛季报销),詹姆斯仍未恢复训练。",
-   "en": "Goal.com and ESPN corroborate a sickness bug spreading through the Norway squad, with left-back David Møller Wolfe forced off injured vs Brazil and his availability vs England uncertain; England's Jarrell Quansah is suspended and Jordan Henderson broke his arm celebrating, while Reece James remains unfit.",
-   "full": "07-11 03:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~26小时)——Goal.com专稿与ESPN赛前报道交叉确认挪威队内爆发肠胃型疾病(sickness bug),影响赛前备战;左后卫穆勒·沃尔夫(David Møller Wolfe)在四强前对阵巴西一役补时阶段带伤下场,教练组尚未公布伤情严重程度,能否出战英格兰存疑。英格兰方面(Yahoo Sports确认阵容稿):后卫昆萨(Jarrell Quansah)因累积黄牌停赛,队长亨德森(Jordan Henderson)在庆祝晋级时不慎摔伤导致手臂骨折,大概率赛事报销;詹姆斯(Reece James)仍未恢复合练。竞彩本场HAD h/d/a=3.45/3.65/1.77(2026-07-10 20:15快照);国际共识(Polymarket)主23.2%/平25.9%/客50.9%,较07-09开盘动量主+1.0pp/平-0.2pp/客-0.8pp,无15%+漂移。两队均有非战术性减员(疫病/意外伤),是否构成可交易的硬信息差交由主会话按§6/§17判断,本条仅记录已核实事实。",
-   "enFull": "July 11, 03:10 BJT update (kickoff 07-12 05:00 BJT, ~26h away): Goal.com and ESPN corroborate a gastrointestinal sickness bug spreading through the Norway camp ahead of this quarterfinal; left-back David Møller Wolfe was forced off injured in the semifinal-qualifying win over Brazil and his fitness for England remains unconfirmed by the coaching staff. On England's side (per Yahoo Sports' confirmed-team-news piece): Jarrell Quansah is suspended through card accumulation, captain Jordan Henderson broke his arm in a post-match celebration mishap and is likely out for the rest of the tournament, and Reece James remains unable to train fully. China Sports Lottery HAD odds h/d/a=3.45/3.65/1.77 (snapshot 2026-07-10 20:15); Polymarket consensus home 23.2%/draw 25.9%/away 50.9%, momentum since 07-09 open: home+1.0pp/draw-0.2pp/away-0.8pp, no 15%+ drift. Both sides carry non-tactical attrition (illness/freak injury) — whether this rises to a tradeable information edge is for the main session to judge per §6/§17; this entry only records verified facts.",
-   "links": [
-    {
-     "name": "Goal.com: Norway squad hit by sickness bug ahead of England World Cup quarter-final clash",
-     "url": "https://www.goal.com/en/lists/norway-squad-sickness-bug-england-world-cup-quarter-final/blt3b8f6977d9d1794d"
-    },
-    {
-     "name": "ESPN: Norway vs England preview, injury news, predicted lineups",
-     "url": "https://www.espn.com/soccer/story/_/id/49314271/norway-vs-england-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
     }
    ]
   }
