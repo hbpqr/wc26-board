@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 02:10",
+  "updated": "2026-07-13 03:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2465,30 +2465,6 @@ window.DASH_DATA = {
     {
      "name": "ESPN: Norway vs England preview, injury news, predicted lineups",
      "url": "https://www.espn.com/soccer/story/_/id/49314271/norway-vs-england-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-injury-predicted-lineups"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周五098",
-   "impact": "官方首发已出",
-   "tone": "neutral",
-   "text": "五独立信源(lineups.com、Sports Mole、Yahoo Sports、Bolavip、CBS Sports)一致确认赛前首发:西班牙4-3-3(Simón;Porro、Cubarsí、Laporte、Cucurella;Rodri、Fabián Ruiz、Baena;Yamal、Olmo、Oyarzabal),尼科·维廉斯未完全恢复仅替补;比利时4-3-3(Courtois;Castagne、Ngoy、Mechele、De Cuyper;Raskin、Tielemans;De Bruyne、Doku、Trossard、De Ketelaere),此前存疑的德巴斯特未入首发(由Ngoy顶替中卫),奥纳纳ACL缺席坐实,德凯特莱雷续打伪9号、卢卡库替补。",
-   "en": "Five independent sources (lineups.com, Sports Mole, Yahoo Sports, Bolavip, CBS Sports) converge on the confirmed XIs: Spain 4-3-3 (Simón; Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz, Baena; Yamal, Olmo, Oyarzabal) with Nico Williams not fully fit and benched; Belgium 4-3-3 (Courtois; Castagne, Ngoy, Mechele, De Cuyper; Raskin, Tielemans; De Bruyne, Doku, Trossard, De Ketelaere) — previously-doubtful Debast is left out (Ngoy starts at CB instead), Onana's ACL absence is confirmed, De Ketelaere continues as false-nine with Lukaku on the bench.",
-   "full": "07-11 02:10 BJT情报更新:周五098西班牙vs比利时(07-11 03:00开球,距今~50分钟)——五条独立信源(lineups.com、Sports Mole、Yahoo Sports、Bolavip'confirmed lineups'、CBS Sports)一致列出赛前首发名单:西班牙4-3-3门将Simón,后卫线Porro/Cubarsí/Laporte/Cucurella,中场Rodri/Fabián Ruiz/Baena,锋线Yamal/Olmo/Oyarzabal——尼科·维廉斯内收肌伤未完全恢复,仍居替补(与既有口径一致)。比利时4-3-3门将Courtois,后卫线Castagne/Ngoy/Mechele/De Cuyper,中场Raskin/Tielemans,锋线De Bruyne/Doku/Trossard/De Ketelaere——此前反复记录'存疑/需临场测试'的中卫德巴斯特未获首发席位,改由Ngoy搭档Mechele坐镇中卫(解决此前双重不确定性的悬念),奥纳纳ACL重伤缺席继续坐实,德凯特莱雷续踢伪9号、卢卡库替补出场。竞彩HAD h/d/a=1.44/3.85/5.70,与前序快照一致无漂移;elig.had/hhad.single/allUp持续异常为0(已连续多轮上报,非本职范围)。",
-   "enFull": "July 11, 02:10 BJT update (kickoff 07-11 03:00 BJT, ~50 min away): five independent sources (lineups.com, Sports Mole, Yahoo Sports, Bolavip's 'confirmed lineups' piece, CBS Sports) converge on the same starting XIs. Spain 4-3-3: Simón in goal; Porro, Cubarsí, Laporte, Cucurella across the back; Rodri, Fabián Ruiz, Baena in midfield; Yamal, Olmo, Oyarzabal up front — Nico Williams remains benched with his adductor injury not fully healed, consistent with prior reporting. Belgium 4-3-3: Courtois in goal; Castagne, Ngoy, Mechele, De Cuyper across the back; Raskin, Tielemans in midfield; De Bruyne, Doku, Trossard, De Ketelaere up front — centre-back Zeno Debast, previously flagged as doubtful pending a late fitness test, is left out of the XI with Ngoy partnering Mechele instead, resolving the earlier uncertainty; Onana's ACL-related absence is confirmed, and De Ketelaere continues as a false nine with Lukaku on the bench. China Sports Lottery HAD odds h/d/a=1.44/3.85/5.70, unchanged from the prior snapshot; elig.had/hhad single/allUp remain anomalously 0 (repeatedly flagged across prior patrols, outside this agent's remit to fix).",
-   "links": [
-    {
-     "name": "Bolavip: Spain vs Belgium — Confirmed lineups today in 2026 World Cup quarterfinals",
-     "url": "https://bolavip.com/en/world-cup/spain-vs-belgium-predicted-lineups-today-in-2026-world-cup-quarterfinals"
-    },
-    {
-     "name": "Sports Mole: Preview: Spain vs Belgium - prediction, team news, lineups",
-     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-belgium-prediction-team-news-lineups_600878.html"
-    },
-    {
-     "name": "Yahoo Sports: Spain predicted lineup today: World Cup starting XI projection vs Belgium",
-     "url": "https://sports.yahoo.com/articles/spain-predicted-lineup-today-world-094338334.html"
     }
    ]
   }
