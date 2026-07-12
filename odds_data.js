@@ -1,5 +1,5 @@
 window.ODDS_DATA = {
- "fetched_at": "2026-07-12 13:10:06",
+ "fetched_at": "2026-07-12 14:10:06",
  "source": "中国竞彩官方 webapi.sporttery.cn",
  "matches": [
   {
@@ -15,7 +15,7 @@ window.ODDS_DATA = {
     "h": "2.20",
     "d": "3.10",
     "a": "2.84",
-    "updated": "2026-07-12 12:36:07"
+    "updated": "2026-07-12 13:15:38"
    },
    "hhad": {
     "h": "4.90",
