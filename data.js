@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 17:10",
+  "updated": "2026-07-13 18:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-13",
+   "match": "周二101",
+   "impact": "西班牙双翼伤愈",
+   "tone": "neutral",
+   "text": "情报修正(18:10):西班牙尼科·威廉姆斯、耶雷米·平诺均已伤愈可出战(此前17:10条目误判为'伤缺'),但预计仍从替补席出发,首发两翼由巴埃纳(左)/亚马尔(右)出战;法国方面丘阿梅尼大腿伤实为'重大疑问'(非此前'已回归合练'口径),科内接替出战概率上升,姆巴佩预计正常出战。",
+   "en": "Correction (18:10 BJT): Spain's Nico Williams and Yeremy Pino have both recovered and are available (correcting the 17:10 entry which said they were out), though projected to start on the bench with Baena (left) and Yamal (right) in the starting XI; on France's side Tchouameni's thigh injury is a genuine doubt (not 'back in full training' as previously read), raising the odds Kone deputizes again, while Mbappe is expected fit.",
+   "full": "07-13 18:10 BJT情报修正:周二101法国vs西班牙(07-15 03:00开球,Dallas)——用Yahoo Sports、Sports Mole两条独立信源核实后,发现17:10条目对西班牙伤情的判断有误:尼科·威廉姆斯、耶雷米·平诺均已从中期伤病中恢复、可以出战,并非'因伤缺阵';但预测首发仍是阿莱士·巴埃纳(左)、拉明·亚马尔(右)两翼,威廉姆斯/平诺预计只能替补登场。同时法国方面丘阿梅尼(大腿伤,7月3日训练受伤)的可战性被Sports Mole明确列为'重大疑问'(major doubt),此前17:10条目'已回归合练'的表述过于乐观;若丘阿梅尼缺阵,科内(轻微膝伤,预计可战)大概率续任中场搭档拉比奥。姆巴佩(轻微脚踝伤)预计正常出战无变化。综合修正后:西班牙伤情不如此前判断严重(双翼回归即便替补出发也是可用战力),法国中场丘阿梅尼缺阵风险上升,两队伤情差距较17:10条目的判断有所收窄。竞彩本场HAD(odds_data.js 18:10快照 h/d/a=2.03/3.13/3.15,与17:10一致无漂移)暂未反映此修正,不构成异常上报(未达15%阈值)。",
+   "enFull": "July 13, 18:10 BJT correction: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas) — cross-checking with two independent sources (Yahoo Sports, Sports Mole) found the 17:10 entry's read on Spain's injuries was wrong: Nico Williams and Yeremy Pino have both recovered from their mid-tournament injuries and are available, not 'out through injury' as previously stated; however the predicted starting wingers remain Alex Baena (left) and Lamine Yamal (right), with Williams/Pino projected as bench options. Separately, France's Tchouameni (thigh injury since a July 3 training session) is explicitly listed by Sports Mole as a 'major doubt' — the 17:10 entry's 'back in full training' framing was too optimistic; if Tchouameni sits, Kone (minor knee issue, expected available) likely continues alongside Rabiot in midfield. Mbappe (minor ankle knock) remains expected to start, unchanged. Net effect of this correction: Spain's absences are less severe than previously assessed (both wingers are useable even off the bench), while France's midfield carries more injury risk than previously read — narrowing the gap between the two teams' injury situations versus the 17:10 read. China Sports Lottery HAD odds (odds_data.js 18:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 17:10) do not yet reflect this correction and remain under the 15% anomaly threshold.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Spain XI vs France: Confirmed team news, predicted lineup and injury latest for World Cup 2026",
+     "url": "https://sports.yahoo.com/articles/spain-xi-vs-france-confirmed-155620902.html"
+    },
+    {
+     "name": "Sports Mole: France injury suspension list and return dates for Spain World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/france/injury-news/injuries-and-suspensions/mbappe-tchouameni-kone-latest-france-injury-suspension-list-vs-spain_601068.html"
+    },
+    {
+     "name": "Sports Mole: France lineup vs. Spain: Predicted XI for World Cup 2026 semi-final",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/predicted-lineups/kone-at-risk-tchouameni-to-return-predicted-france-semi-final-lineup-vs-spain_601093.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-13",
    "match": "周二101",
