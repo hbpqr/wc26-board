@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 06:13",
+  "updated": "2026-07-14 07:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周二101",
+   "impact": "穆尼奥斯可替补",
+   "tone": "neutral",
+   "text": "情报再更新(07:10):利物浦新援维克多·穆尼奥斯(赛前小腿肌肉伤,一度延误世界杯首秀)已于周五1/4决赛前伤愈达标,虽仍未登场但预计本场可获替补出场时间;法国科内因周四对摩洛哥一战轻微膝伤+疲劳第71分钟被换下(预防性),预计出战不受影响;图沙梅尼仍被Sports Mole列为'重大疑问'、freetips称'预计再次缺阵',与07-13 23:10条目'恢复令人满意预计重返首发'的乐观口径矛盾,存疑未解。",
+   "en": "Update (07:10 BJT): Liverpool signing Victor Munoz (pre-tournament calf strain that delayed his WC debut) was passed fit ahead of Friday's QF and, though yet to feature, should get bench minutes this match; France's Kone was subbed off in the 71st minute of Thursday's Morocco game (minor knee issue plus fatigue, precautionary) but remains expected available; Tchouameni is still listed a 'major doubt' by Sports Mole and 'expected to miss out again' by freetips, in tension with the more optimistic 07-13 23:10 read — unresolved.",
+   "full": "07-14 07:10 BJT情报更新:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~20h)——用Sports Mole《France injury suspension list...》(07-11发稿/07-12更新)、ESPN《Liverpool signing Victor Munoz suffers injury setback...》、thisisanfield《Victor Munoz finally cleared after 7-week injury》三源交叉核实新增事实:西班牙利物浦新援维克多·穆尼奥斯赛前遭遇左小腿肌肉伤,原计划复出时又遇肌肉问题设置进一步延误,本届杯赛尚未登场,但已于上周五1/4决赛前伤愈达标(passed fit),主帅德拉富恩特称其'近期训练充满爆发力、状态完美',预计本场可获替补出场机会——此前情报仅追踪威廉姆斯/平诺两人,穆尼奥斯是本次新增的第三名边路轮换球员。同时Sports Mole确认法国科内在周四对摩洛哥一战第71分钟因轻微膝伤+疲劳被换下(预防性),不影响本场出战,与此前口径一致。图沙梅尼方面,Sports Mole(07-12更新)与freetips(07-13 22:43)均维持'重大疑问'/'预计再次缺阵'的悲观判断,与07-13 23:10条目引用Bolavip'恢复令人满意、预计重返首发'的乐观判断直接矛盾——⚠️两派信源持续打架,暂维持存疑口径,留待赛前最终名单确认。竞彩本场HAD(odds_data.js 07:10快照 h/d/a=2.03/3.13/3.15,与04:10一致无漂移)未反映上述任何更新,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 07:10 BJT update: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas, ~20h away) — cross-checking Sports Mole's dedicated France injury piece (filed 07-11, updated 07-12), ESPN's report on Victor Munoz's setback, and thisisanfield's piece on his clearance surfaces a new fact: Spain's Liverpool signing Victor Munoz suffered a pre-tournament left calf strain that was further delayed by a subsequent muscle setback, has yet to feature this tournament, but was passed fit ahead of last Friday's QF, with manager Luis de la Fuente calling his recent training 'extraordinary, full of spark' and saying he's 'in perfect condition' — expected to get bench minutes this match. Prior intel had only tracked Williams and Pino; Munoz is a newly-surfaced third wide-rotation option. Separately, Sports Mole confirms Kone was subbed at the 71st minute of Thursday's Morocco match for a minor knee issue plus fatigue (precautionary), unchanged from prior assessment that he remains available. On Tchouameni, both Sports Mole (updated 07-12) and freetips (07-13 22:43) maintain a pessimistic 'major doubt'/'expected to miss out again' read, directly conflicting with the 07-13 23:10 entry's more optimistic Bolavip-sourced claim of a likely starting return — ⚠️sources remain split; logging as still-unresolved pending the final team sheet. China Sports Lottery HAD odds (07:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 04:10) do not reflect any of this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sports Mole: France injury, suspension list and return dates for Spain World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/france/injury-news/injuries-and-suspensions/mbappe-tchouameni-kone-latest-france-injury-suspension-list-vs-spain_601068.html"
+    },
+    {
+     "name": "ESPN: Liverpool signing Victor Munoz suffers injury setback, World Cup debut delayed",
+     "url": "https://www.espn.com/soccer/story/_/id/49115856/liverpool-signing-victor-munoz-suffers-injury-setback-world-cup-debut-delayed-spain"
+    },
+    {
+     "name": "thisisanfield: Victor Munoz finally cleared after 7-week injury: Can play for Spain vs. Belgium",
+     "url": "https://www.thisisanfield.com/2026/07/victor-munoz-injury-spain-belgium-world-cup-2026/"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周二101",
