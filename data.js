@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 10:10",
+  "updated": "2026-07-13 11:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2361,50 +2361,6 @@ window.DASH_DATA = {
     {
      "name": "Yahoo Sports: Declan Rice among three potential England injury absences as Norway quarterfinal looms",
      "url": "https://sports.yahoo.com/articles/declan-rice-among-three-potential-163904094.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周六099",
-   "impact": "赖斯染病隔离",
-   "tone": "negative",
-   "text": "多源(Goal.com、GBNews、Yardbarker、NEWS.am Sport、ReadArsenal、beIN Sports)确认赖斯病情升级为病毒性肠胃感染,已被隔离防止在队内传播,连续缺席两次合练,能否出战挪威悬而未决;若无法复出料由迈努(Mainoo)顶替首发。",
-   "en": "Multiple sources (Goal.com, GBNews, Yardbarker, NEWS.am Sport, ReadArsenal, beIN Sports) confirm Declan Rice's fitness doubt has escalated to a viral infection/gastroenteritis; he has been isolated from the squad to prevent spread and has missed two straight training sessions, with his availability vs Norway now uncertain — Kobbie Mainoo is set to deputise if he can't recover in time.",
-   "full": "07-11 12:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~17小时)——六条独立信源(Goal.com、GBNews、Yardbarker、NEWS.am Sport、ReadArsenal、beIN Sports)交叉证实:此前(05:10快照)记录的'赖斯轻微状态问题'已升级为确诊病毒性肠胃感染,球队为防止在更衣室内传播已将其隔离单独恢复,本周已连续缺席两次全队合练;主帅塔赫尔仍未放弃其周六复出可能,若完全康复料回归首发,若不能则大概率由迈努(Kobbie Mainoo)顶替出任后腰。盖伊(hamstring)仍为50/50、周五临场测试结果未见公开报道,维持存疑口径不变。竞彩本场HAD/hhad盘口(odds_data.js fetched_at 10:51)较前序快照无显著漂移;是否构成可交易edge交由主会话按§6/§17判断,本条仅记录已核实事实。",
-   "enFull": "July 11, 12:10 BJT update (kickoff 07-12 05:00 BJT, ~17h away): six independent sources (Goal.com, GBNews, Yardbarker, NEWS.am Sport, ReadArsenal, beIN Sports) confirm that Declan Rice's previously reported 'minor fitness concern' (05:10 snapshot) has escalated to a confirmed viral infection/gastroenteritis; he has been isolated from the rest of the squad to prevent it spreading and has missed two consecutive full training sessions this week. Head coach Thomas Tuchel has not ruled out a Saturday return if Rice makes a full recovery, but Kobbie Mainoo is the likely deputy in central midfield if he cannot. Marc Guéhi remains a 50/50 hamstring doubt with no public report yet on Friday's fitness test outcome — that uncertainty is unchanged. China Sports Lottery HAD/handicap odds (odds_data.js fetched_at 10:51) show no significant drift from the prior snapshot; whether this rises to a tradeable edge is for the main session to judge per §6/§17 — this entry only records verified facts.",
-   "links": [
-    {
-     "name": "Goal.com: England dealt Declan Rice illness worry as Three Lions fear bug could spread ahead of Norway showdown",
-     "url": "https://www.goal.com/en/lists/england-world-cup-news-declan-rice-sickness-bug-norway/blteeff8f484dfccb12"
-    },
-    {
-     "name": "GB News: Declan Rice forced to isolate from England team-mates ahead of crunch World Cup clash with Norway",
-     "url": "https://www.gbnews.com/sport/football/declan-rice-isolate-england-norway-world-cup"
-    },
-    {
-     "name": "NEWS.am Sport: 2026 World Cup: Declan Rice isolated from rest of England players",
-     "url": "https://sport.news.am/eng/news/167631/2026-world-cup-declan-rice-isolated-from-rest-of-england-players.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周六099",
-   "impact": "挪威否认疫病",
-   "tone": "positive",
-   "text": "挪威队医Ola Sand向Nettavisen明确否认队内疫病传闻,称'全员现已健康',为06:10快照记录的ESPN/Yahoo Sports矛盾口径(沃尔夫伤情/疫病存疑)提供解答;多源(Fox Sports、Goal.com、GBNews、Yahoo Sports、SportBible、GiveMeSport)交叉证实。",
-   "en": "Norway team doctor Ola Sand told Nettavisen he is dismissing sickness-bug rumors, saying 'all players are healthy now' — resolving the ESPN/Yahoo Sports conflicting reports flagged in the 06:10 snapshot; corroborated across Fox Sports, Goal.com, GBNews, Yahoo Sports, SportBible and GiveMeSport.",
-   "full": "07-11 11:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~18小时)——多源(Fox Sports、Goal.com、GBNews、Yahoo Sports、SportBible、GiveMeSport)一致报道:挪威队医Ola Sand接受Nettavisen采访明确否认此前流传的队内'疫病'传闻,称'全员现已健康,考虑到我们已经近6周高强度聚在一起,这点小状况不算什么',传闻源自主帅索尔巴肯赛后谈及佩德森/斯特兰德·拉森两人状态引发的外界解读。此条解决06:10快照记录的'ESPN称沃尔夫已恢复合练、Yahoo Sports称仍存疑'两源矛盾——现有队医直接表态(非预测性报道)达两独立信源以上确认门槛,更新既有'挪威疫病+伤情'负面口径为已排除。英格兰方面盖伊(腘伤)/赖斯周五临场测试结果仍未见公开报道,维持存疑口径不变。竞彩本场HAD h/d/a=3.35/3.65/1.80(odds_data.js fetched_at 10:51),较此前3.45/3.65/1.77小幅波动<3%无显著漂移;hhad(+1让球)让负value_top=1.02/edge=3.7pp,模型≈市场,verdict'无边'。",
-   "enFull": "July 11, 11:10 BJT update (kickoff 07-12 05:00 BJT, ~18h away): multiple sources (Fox Sports, Goal.com, GBNews, Yahoo Sports, SportBible, GiveMeSport) report Norway team doctor Ola Sand told Nettavisen he is dismissing sickness-bug rumors around the squad, saying 'all players are healthy now,' adding the fuss was minimal 'considering we've been close together for almost six weeks.' The rumors traced back to comments by coach Ståle Solbakken about the condition of Marcus Pedersen and Jørgen Strand Larsen. This resolves the conflicting reports flagged in the 06:10 snapshot (ESPN said Wolfe had returned to full training; Yahoo Sports said his availability remained in doubt) — a direct team-doctor statement corroborated across 6+ independent outlets clears the two-source confirmation bar, updating the prior 'Norway illness + injury concerns' negative framing to resolved. On England's side, no public reporting yet on the outcome of Friday's fitness tests for Guéhi (hamstring) or Rice; that doubt remains unchanged. China Sports Lottery HAD odds h/d/a=3.35/3.65/1.80 (odds_data.js fetched_at 10:51), a small move from the prior 3.45/3.65/1.77 snapshot (<3%, no significant drift); the +1 handicap away-line value is 1.02 with a 3.7pp edge — model roughly matches market, verdict 'no edge'.",
-   "links": [
-    {
-     "name": "Goal.com: Norway team doctor provides update on 'sickness bug' reports as thunderstorms threat looms",
-     "url": "https://www.goal.com/en/lists/norway-team-doctor-provides-update-sickness-bug-reports-thunderstorms-threat-looms-england-world-cup-quarter-final-clash/blte712c3eeb6c6ff7a"
-    },
-    {
-     "name": "GB News: Norway team doctor sets record straight on illness rumours ahead of World Cup showdown with England",
-     "url": "https://www.gbnews.com/sport/football/norway-illness-england-world-cup"
     }
    ]
   }
