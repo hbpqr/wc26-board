@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 03:10",
+  "updated": "2026-07-14 04:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周二101",
+   "impact": "威廉姆斯回归可战",
+   "tone": "positive",
+   "text": "情报再更新(04:10):beIN Sports、Bolavip、Yardbarker等多源证实尼科·威廉姆斯本周六1/4决赛对比利时第78分钟已替补登场(1:1时换下奥亚萨瓦尔),数分钟后梅里诺打进制胜球助西班牙2:1晋级四强——他右侧内收肌拉伤恢复情况好于23:10条目的判断,预计本场至少可替补出战;耶雷米·平诺(肩锁关节扭伤)仍确认缺阵不变。Sports Mole最新预测法国首发未列图沙梅尼(仅科内出战中场),其可战性仍存疑问。",
+   "en": "Update (04:10 BJT): multiple sources (beIN Sports, Bolavip, Yardbarker) confirm Nico Williams already came off the bench in the 78th minute of Spain's QF win over Belgium (replacing Oyarzabal at 1-1), shortly before Merino's winner sent Spain through 2-1 — his adductor strain has recovered better than the 23:10 entry assessed, and he should be at least available off the bench for this match; Yeremy Pino (AC joint sprain) remains confirmed out, unchanged. The latest Sports Mole predicted XI for France omits Tchouameni (Kone deputizing in midfield), so his availability remains in doubt.",
+   "full": "07-14 04:10 BJT情报更新:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~23h)——用beIN Sports专稿《Nico Williams Returns for Spain and Opens Up About Injury》及Bolavip/Yardbarker/Athlon Sports对'威廉姆斯为何未首发'的多篇报道交叉核实后确认:威廉姆斯右侧内收肌拉伤(6月26日对乌拉圭小组赛受伤)已恢复到可以出战程度,本周六1/4决赛对比利时第78分钟替补登场换下奥亚萨瓦尔(彼时1:1平),数分钟后梅里诺补时前打进制胜球,西班牙2:1淘汰比利时晋级四强。这意味着23:10条目'两人均确认缺阵'对威廉姆斯是过时判断——他伤情进展好于该条目引用的ESPN专稿(发稿更早,未覆盖QF后的复出),本场至少具备替补出战能力,若继续进步不排除首发轮换。耶雷米·平诺(肩锁关节扭伤)确认仍缺阵,与此前口径一致未变。法国方面,Sports Mole最新一版预测首发(07-13发稿)中场仍是科内搭档拉比奥,未列图沙梅尼,其可战性仍是悬而未决的'存疑'状态,与07-13 23:10条目'恢复令人满意、预计重返首发'的更乐观判断存在张力,暂按'存疑'口径记录、留待赛前最终名单确认。竞彩本场HAD(odds_data.js 04:10快照 h/d/a=2.03/3.13/3.15,与03:10一致)未反映威廉姆斯复出消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 04:10 BJT update: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas, ~23h away) — cross-checking beIN Sports' dedicated piece ('Nico Williams Returns for Spain and Opens Up About Injury') against Bolavip/Yardbarker/Athlon Sports coverage of 'why isn't Nico Williams starting' confirms Williams' right adductor strain (suffered June 26 vs Uruguay in the group stage) has recovered enough for action: he came on as a 78th-minute substitute for Oyarzabal in Saturday's QF win over Belgium (score tied 1-1 at the time), and minutes later Merino scored the late winner as Spain advanced 2-1. This means the 23:10 entry's claim that 'both remain confirmed out' was outdated for Williams — his recovery has progressed further than the ESPN pieces cited in that entry (filed before the QF substitute appearance) captured; he is now at minimum available off the bench, with a starting role not ruled out if progress continues. Yeremy Pino (AC joint sprain) remains confirmed out, unchanged from prior entries. On France's side, Sports Mole's latest predicted XI (filed 07-13) still has Kone alongside Rabiot in midfield with no Tchouameni — his availability remains a genuine doubt, in tension with the more optimistic 07-13 23:10 read ('recovery satisfactory, expected to start'); logging this as still-uncertain pending the final team sheet. China Sports Lottery HAD odds (odds_data.js 04:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 03:10) do not reflect the Williams news and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "beIN Sports: Nico Williams Returns for Spain and Opens Up About Injury",
+     "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/nico-williams-returns-for-spain-and-opens-up-about-injury-2026-07-11"
+    },
+    {
+     "name": "Sports Mole: Spain injury suspension list and return dates for France World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/spain/injury-news/injuries-and-suspensions/pino-williams-munoz-latest-spain-injury-suspension-list-vs-france_601071.html"
+    },
+    {
+     "name": "Sports Mole: Preview: France vs Spain - prediction, team news, lineups",
+     "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-spain-prediction-team-news-lineups_601083.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-13",
    "match": "周二101",
