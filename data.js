@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 08:10",
+  "updated": "2026-07-13 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2405,26 +2405,6 @@ window.DASH_DATA = {
     {
      "name": "GB News: Norway team doctor sets record straight on illness rumours ahead of World Cup showdown with England",
      "url": "https://www.gbnews.com/sport/football/norway-illness-england-world-cup"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-11",
-   "match": "周六099",
-   "impact": "盖伊伤情存疑",
-   "tone": "negative",
-   "text": "多源(ESPN、天空体育、AOL、Bolavip)确认英格兰中卫盖伊对墨西哥一役带伤坚持后本周腿筋拉伤加重,周四缺席合练,周五需临场测试才能确定是否出战对阵挪威,里斯亦有小恙但主帅塔赫尔仍抱乐观态度。",
-   "en": "Multiple sources (ESPN, Sky Sports, AOL, Bolavip) confirm England centre-back Marc Guéhi, who played through discomfort vs Mexico, has a worsening hamstring strain and missed Thursday training; he faces a Friday fitness test to determine his availability vs Norway, with Declan Rice also a minor doubt, though Tuchel remains cautiously optimistic both will be fit.",
-   "full": "07-11 05:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~24小时)——六条独立信源(ESPN、天空体育、AOL、Yahoo Sports、Bolavip US、GBNews)交叉确认:英格兰中卫马克·盖伊在16强战对墨西哥一役中带伤坚持完赛,原以为只是肌肉疲劳,现证实为轻度腘绳肌(hamstring)拉伤,本周伤情未见好转、周四缺席堪萨斯城最后一次合练;主帅图赫尔尚未放弃他周六首发的可能,盖伊需在周五(07-11)接受临场测试后才能确定能否出战,若周五仍无法与球队合练则出战存在'严重疑问'。ESPN同一篇报道并提及后腰赖斯(Declan Rice)亦有轻微状态问题,但图赫尔对二人周六复出持谨慎乐观。此前已记录的昆萨停赛/亨德森手臂骨折报销/詹姆斯未合练口径不变,本条为新增独立事实(盖伊/赖斯伤情此前未见报道)。竞彩本场HAD h/d/a=3.45/3.65/1.77与前序快照一致无漂移;国际共识(Polymarket)主23.4%/平25.8%/客50.8%,较开盘动量主+1.2pp/平-0.3pp/客-0.9pp,无15%+漂移。是否构成可交易edge交由主会话按§6/§17判断,本条仅记录已核实事实。",
-   "enFull": "July 11, 05:10 BJT update (kickoff 07-12 05:00 BJT, ~24h away): six independent sources (ESPN, Sky Sports, AOL, Yahoo Sports, Bolavip US, GBNews) confirm England centre-back Marc Guéhi played through discomfort in the round-of-16 win over Mexico; what was initially thought to be muscular fatigue is now understood to be a minor hamstring strain that has not improved this week, causing him to miss Thursday's final training session in Kansas City. Head coach Thomas Tuchel has not given up hope of starting him Saturday, but Guéhi requires a Friday (07-11) fitness test to determine his availability — if he cannot train with the squad Friday, 'serious doubts' will remain over his selection. The same ESPN report also flags a minor fitness concern for midfielder Declan Rice, though Tuchel remains cautiously optimistic both will be fit. Previously logged facts (Quansah suspended, Henderson's arm fracture ruling him out, James still not training) are unchanged; this is a newly confirmed, independent fact (Guéhi/Rice fitness had not been previously reported). China Sports Lottery HAD odds h/d/a=3.45/3.65/1.77 unchanged from the prior snapshot; Polymarket consensus home 23.4%/draw 25.8%/away 50.8%, momentum since open: home+1.2pp/draw-0.3pp/away-0.9pp, no 15%+ drift. Whether this rises to a tradeable edge is for the main session to judge per §6/§17; this entry only records verified facts.",
-   "links": [
-    {
-     "name": "ESPN: England have Marc Guéhi, Declan Rice fitness concerns before Norway World Cup quarterfinal",
-     "url": "https://www.espn.com/soccer/story/_/id/49322481/england-marc-guehi-declan-rice-fitness-concerns-norway-world-cup-quarterfinal-sources"
-    },
-    {
-     "name": "Sky Sports: World Cup 2026: England defender Marc Guehi a serious doubt for quarter-final clash with Norway",
-     "url": "https://www.skysports.com/football/news/12016/13562168/world-cup-2026-england-defender-marc-guehi-a-serious-doubt-for-quarter-final-clash-with-norway"
     }
    ]
   }
