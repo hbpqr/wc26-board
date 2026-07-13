@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 13:10",
+  "updated": "2026-07-13 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2341,26 +2341,26 @@ window.DASH_DATA = {
  "focus": [],
  "news": [
   {
-   "date": "2026-07-11",
-   "match": "周六099",
-   "impact": "赖斯三人合练",
-   "tone": "positive",
-   "text": "多源(Sky Sports、World Soccer Talk、Bolavip、Morocco World News、Yahoo Sports)确认赖斯、盖伊、詹姆斯三人周五(迈阿密)已随队合练,为此前'赖斯隔离/盖伊腘伤50-50/詹姆斯或提前结束世界杯'的负面口径带来实质性反转;塔赫尔尚未官宣首发但三人现身合练是可战信号。",
-   "en": "Multiple sources (Sky Sports, World Soccer Talk, Bolavip, Morocco World News, Yahoo Sports) confirm Declan Rice, Marc Guéhi and Reece James all trained with the England squad in Miami on Friday, a material reversal of the prior negative framing (Rice isolated with illness, Guéhi a 50/50 hamstring doubt, James facing a possible early World Cup exit). Tuchel has not confirmed the XI, but all three being on the training pitch is a positive availability signal.",
-   "full": "07-11 16:10 BJT情报更新:周六099挪威vs英格兰(07-12 05:00开球,距今~13小时)——五条独立信源(Sky Sports官方队报、World Soccer Talk、Bolavip US、Morocco World News、Yahoo Sports)一致报道:赖斯(此前病毒性肠胃感染隔离)、盖伊(腘伤50/50存疑)、詹姆斯(天空体育曾称其世界杯或提前结束)三人周五在迈阿密随英格兰队合练。这是对此前12:10/13:10/14:10连续四轮记录的负面口径的实质性反转——此前口径称赖斯被隔离防传染、盖伊/詹姆斯伤情存疑未有训练画面;现三人均现身合练场,即便主帅塔赫尔尚未官宣周六首发名单,出现在合练是可战性的强信号。竞彩本场HAD(odds_data.js 15:40快照 h/d/a=3.56/3.70/1.73)较14:10快照(3.28/3.60/1.83)主胜方向走低约8.5%<15%阈值,方向与'英格兰核心三人利好'的情报一致但未达显著漂移线,不构成异常上报。",
-   "enFull": "July 11, 16:10 BJT update (kickoff 07-12 05:00 BJT, ~13h away): five independent sources (Sky Sports, World Soccer Talk, Bolavip US, Morocco World News, Yahoo Sports) report that Declan Rice (previously isolated with a viral infection), Marc Guéhi (hamstring, 50/50) and Reece James (Sky Sports had suggested a possible early World Cup exit) all trained with England in Miami on Friday. This is a material reversal from the negative framing logged across the 12:10/13:10/14:10 snapshots — Rice had been kept away from teammates and Guéhi/James's training status was previously unconfirmed. Tuchel has not announced Saturday's XI, but all three being on the pitch is a strong positive availability signal. China Sports Lottery HAD odds (odds_data.js 15:40 snapshot h/d/a=3.56/3.70/1.73) moved from the 14:10 snapshot (3.28/3.60/1.83) — home price drifted ~8.5%, under the 15% anomaly threshold, directionally consistent with the England-positive news but not flagged as significant drift.",
+   "date": "2026-07-13",
+   "match": "周二101",
+   "impact": "西班牙两翼伤缺",
+   "tone": "negative",
+   "text": "法国vs西班牙半决赛(07-15 03:00)团队新闻:西班牙方面尼科·威廉姆斯、耶雷米·平诺均因伤缺阵,阿莱士·巴埃纳需力保左路位置;法国方面姆巴佩对摩洛哥一战轻微脚踝伤但赛后自称'完全没事',丘阿梅尼(大腿伤)、科内(轻微膝伤)已回归合练,萨利巴/乌帕梅卡诺周六缺席合练(分别为休息日与个人训练)但预计可战。",
+   "en": "France vs Spain semifinal (07-15 03:00 BJT) team news: Spain's Nico Williams and Yeremy Pino are both unavailable through injury, with Alex Baena fighting to retain the left-flank spot. France's Mbappe picked up a minor ankle knock vs Morocco but said post-match he was 'completely fine'; Tchouameni (thigh) and Kone (minor knee) are back in training, while Saliba/Upamecano missed Saturday training (rest day / individual session respectively) but are expected available.",
+   "full": "07-13 17:10 BJT情报更新:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~34小时)——多源(Yahoo News、RotoWire、freetips.com、ESPN、Sports Mole、Fox Sports)交叉确认:西班牙翼卫尼科·威廉姆斯、耶雷米·平诺均因伤缺阵本场,预测首发左路由阿莱士·巴埃纳顶上(与主力状态有落差);法国方面姆巴佩对摩洛哥一战轻微脚踝伤但赛后受访称'完全没事'预计正常出战,丘阿梅尼(大腿伤,16强战瑞典后)、科内(1/4决赛对摩洛哥下半场轻微膝伤下场)均已回归合练,萨利巴、乌帕梅卡诺周六缺席合练(分别为球队安排的休息日、个人恢复训练)但均预计可出战。综合看西班牙伤情更实质(两名边路轮换/首发级球员缺阵),法国伤情多为预防性轮休、预计满编出战。竞彩本场HAD(odds_data.js 17:10快照 h/d/a=2.03/3.13/3.15)暂未出现异常漂移,方向与'西班牙伤情更重'的情报口径一致但未达15%阈值,不构成异常上报。",
+   "enFull": "July 13, 17:10 BJT update (kickoff 07-15 03:00 BJT in Dallas, ~34h away): multiple independent sources (Yahoo News, RotoWire, freetips.com, ESPN, Sports Mole, Fox Sports) confirm Spain wingers Nico Williams and Yeremy Pino are both out injured, with Alex Baena stepping in on the left flank — a step down from the first-choice option. On the France side, Mbappe took a minor ankle knock against Morocco but told reporters post-match he was 'completely fine' and is expected to start; Tchouameni (thigh, since the Round of 16 win over Sweden) and Kone (minor knee issue, substituted in the second half of the QF win over Morocco) are both back in full training; Saliba and Upamecano sat out Saturday's session (a scheduled rest day and an individual recovery session respectively) but are both expected available. Net read: Spain's absences are more material (two rotation/starting-caliber wide players out) while France's issues look precautionary with a expected-fit squad. China Sports Lottery HAD odds (odds_data.js 17:10 snapshot h/d/a=2.03/3.13/3.15) show no anomalous drift yet; directionally consistent with the Spain-negative read but under the 15% threshold, not flagged.",
    "links": [
     {
-     "name": "Sky Sports: World Cup 2026: England's Declan Rice, Marc Guehi and Reece James train ahead of quarter-final with Norway",
-     "url": "https://www.skysports.com/football/news/12016/13562422/world-cup-2026-englands-declan-rice-marc-guehi-and-reece-james-train-ahead-of-quarter-final-with-norway"
+     "name": "Yahoo News: France XI vs Spain: Confirmed team news, predicted lineup and injury latest for World Cup 2026",
+     "url": "https://malaysia.news.yahoo.com/france-xi-vs-spain-confirmed-161043982.html"
     },
     {
-     "name": "World Soccer Talk: Declan Rice among three England players with fitness concerns ahead of 2026 World Cup quarterfinal clash vs Norway",
-     "url": "https://worldsoccertalk.com/world-cup/declan-rice-among-three-england-players-with-fitness-concerns-ahead-of-2026-world-cup-quarterfinal-clash-vs-norway/"
+     "name": "RotoWire: France vs Spain Preview: Lineups, Team News & Odds",
+     "url": "https://www.rotowire.com/soccer/article/france-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-semifinal-122319"
     },
     {
-     "name": "Yahoo Sports: Declan Rice among three potential England injury absences as Norway quarterfinal looms",
-     "url": "https://sports.yahoo.com/articles/declan-rice-among-three-potential-163904094.html"
+     "name": "freetips.com: France vs Spain Team News & 2026 World Cup Semi-Final Injury Predicted Line-Ups",
+     "url": "https://www.freetips.com/football/fifa-world-cup/france-vs-spain-team-news-20260712-0018/"
     }
    ]
   }
