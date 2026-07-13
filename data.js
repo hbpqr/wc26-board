@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-13 22:10",
+  "updated": "2026-07-13 23:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,30 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-13",
+   "match": "周二101",
+   "impact": "翼伤仍缺阵",
+   "tone": "negative",
+   "text": "情报再修正(23:10):ESPN两篇专稿证实西班牙尼科·威廉姆斯(右侧内收肌拉伤)、耶雷米·平诺(肩锁关节扭伤)本场仍无法出战,此前18:10'伤愈可出战'的修正条目有误,应回退到17:10'伤缺'口径,首发两翼仍为巴埃纳/亚马尔;法国方面丘阿梅尼(大腿伤)据Bolavip报道恢复'令人满意'、预计能重返首发(较18:10'重大疑问'口径转好),乌帕梅卡诺、萨利巴周六缺训但均预计可出战。",
+   "en": "Re-correction (23:10 BJT): two dedicated ESPN pieces confirm Spain's Nico Williams (right adductor strain) and Yeremy Pino (AC joint sprain) remain unavailable for this match — the 18:10 entry's 'recovered and available' read was wrong; reverting to the 17:10 'out' framing, with Baena/Yamal still the projected starting wingers. On France's side, Bolavip reports Tchouameni's recovery is 'satisfactory' and he's expected back in the starting XI (an upgrade from the 18:10 'major doubt' read), while Upamecano and Saliba both missed Saturday training but remain expected to start.",
+   "full": "07-13 23:10 BJT情报再修正:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~27h50m)——用ESPN两篇专稿(《Spain's Nico Williams on injury: One of worst days of my life》《Spain win group but Yéremy Pino could miss rest of World Cup》)交叉核实后确认:尼科·威廉姆斯6月26日对乌拉圭小组赛遭遇右侧内收肌拉伤,本届淘汰赛两场均缺阵;耶雷米·平诺同场受伤,影像学检查确诊为肩锁关节扭伤(非骨折),预计要到赛事更后段才能复出。⚠️这意味着18:10条目'两人均已伤愈可出战'是错误修正,应以本条为准回退到17:10'伤缺'口径。法国方面出现积极更新:Bolavip报道丘阿梅尼恢复'令人满意'、预计能重返首发(较18:10 Sports Mole'重大疑问'口径转好),乌帕梅卡诺(突发脚伤)、萨利巴(背部不适)周六均缺席合练但仍预计可出战。综合看:西班牙伤情比18:10条目判断的更严重(两名边路主力级球员确认缺阵),法国中场丘阿梅尼出战概率回升,两队伤情差距重新拉开、对西班牙不利。竞彩本场HAD(odds_data.js 23:10快照 h/d/a=2.03/3.13/3.15,与22:10一致无漂移)暂未反映此次再修正,未达15%异常阈值。",
+   "enFull": "July 13, 23:10 BJT re-correction: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas, ~27h50m away) — cross-checking two dedicated ESPN pieces ('Spain's Nico Williams on injury: One of worst days of my life' and 'Spain win group but Yéremy Pino could miss rest of World Cup') confirms Nico Williams suffered a right adductor strain in the June 26 group-stage loss to Uruguay and has missed both knockout matches since; Yeremy Pino was hurt in the same match and was diagnosed via imaging with an acromioclavicular joint sprain (not a fracture), with a return expected only in the later stages of the tournament. ⚠️This means the 18:10 entry's claim that 'both have recovered and are available' was itself a wrong correction — reverting to the 17:10 'out' framing. On France's side there's a positive update: Bolavip reports Tchouameni's recovery is 'satisfactory' and he is expected back in the starting XI (an upgrade from the 18:10 Sports Mole 'major doubt' read), while Upamecano (sudden foot injury) and Saliba (back discomfort) both missed Saturday's session but remain expected to start. Net read: Spain's absences are more severe than the 18:10 entry assessed (two starting-caliber wide players confirmed out), while France's Tchouameni availability has improved — widening the injury gap back in France's favor. China Sports Lottery HAD odds (odds_data.js 23:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 22:10) do not yet reflect this re-correction and remain under the 15% anomaly threshold.",
+   "links": [
+    {
+     "name": "ESPN: Spain's Nico Williams on injury: One of worst days of my life",
+     "url": "https://www.espn.com/soccer/story/_/id/49200729/spain-nico-williams-injury-yeremy-pino-2026-world-cup"
+    },
+    {
+     "name": "ESPN: Spain win group but Yéremy Pino could miss rest of World Cup",
+     "url": "https://www.espn.com/soccer/story/_/id/49193963/spain-2026-world-cup-injury-yeremy-pino-nico-williams"
+    },
+    {
+     "name": "Bolavip: France receive good news ahead of 2026 World Cup semifinals with Tchouameni reportedly back vs Spain",
+     "url": "https://bolavip.com/en/world-cup/france-receive-good-news-ahead-of-2026-world-cup-semifinals-with-tchouameni-reportedly-back-vs-spain"
+    }
+   ]
+  },
   {
    "date": "2026-07-13",
    "match": "周二101",
