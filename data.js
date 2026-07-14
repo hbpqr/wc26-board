@@ -657,6 +657,16 @@ window.DASH_DATA = {
      "　⚠️ slip记录§14 fade-favorite 2串1(095买平×097买平,8元,07-07 20:50最终版)两腿均已确定lose(AND结构死票),holdings.tickets至今未登记,实际购买状态待主会话核实并结算(持续多轮在ALERTS中提醒)",
      "📊 周六099/100两场全终·pool 250.55不变;betRound前滚至周二101(法国vs西班牙07-15 03:00,唯一在售场次,距今>36h未到情报窗口),slip/focus仍锚定已作废的周二095×周四097,待主会话按§12.1重新生成"
     ]
+   },
+   {
+    "d": "07-15",
+    "pool": 250.55,
+    "pnl": 0,
+    "records": [
+     "🏆 法国 0:2 西班牙(03:00开球·完赛·ESPN STATUS_FULL_TIME·半决赛·集成主胜39.47%方向落空·Brier ens=0.699劣于随机·竞彩HAD三项值均<1.10未出票·无持仓·learn.py已结算",
+     "　⚠️ slip记录§14 fade-favorite 2串1(095买平×097买平,8元,07-07 20:50最终版)两腿均已确定lose(AND结构死票),holdings.tickets至今未登记,实际购买状态待主会话核实并结算(已连续多轮在ALERTS中提醒)",
+     "📊 周二101终场·pool 250.55不变;betRound前滚至周三102(英格兰vs阿根廷07-16 03:00,唯一在售场次,半决赛),slip/focus仍锚定已作废的周二095×周四097,待主会话按§12.1重新生成"
+    ]
    }
   ],
   "evLedger": [
@@ -2313,6 +2323,23 @@ window.DASH_DATA = {
    },
    "predManual": "未出票",
    "note": "阿根廷1:1瑞士(90分钟平局,麦卡利斯特10'头球先拔头筹·恩多耶67'扳平)·加时马丁内斯/阿尔瓦雷斯连入两球,最终3:1(aet)晋级(ESPN STATUS_FINAL_AET·1/4决赛)·竞彩HAD以90分钟结算→平局(仅影响该盘口投注结算,不影响赛果/模型学习口径,与099同例)·集成主胜57.05%方向命中(按AET最终赛果3:1,ens Brier=0.282,优于随机0.667;RPS=0.105,优于随机0.292)·瑞士恩博洛下半场两黄变一红(VAR回看模拟犯规)少一人仍逼平90分钟。竞彩HAD三项值(h/d/a≈1.58/3.25/5.30,value h0.90/d0.87/a0.86)均<1.10未出票,无资金影响,holdings/slip均未涉及本场。⚠️2026-07-12 17:10巡检发现:此前(12:14巡检)误用90分钟比分1:1结算learn.py(outcome=平局),与081/087/099等其余(aet)场次均按AET最终赛果结算的既有口径不一致;已重新按3:1(主胜)校正calibration_log/elo/weights/goal_env(Elo阿根廷2065.6→2074.5,瑞士1821.3→1812.4;权重A64.7%/B5.5%/D29.8%),旧的错误结算条目已移除、非双重计入。learn.py已结算:新权重A市场64.7%/B-Elo5.5%/C-Poisson0.0%,Elo:阿根廷+8.9→2074.5,瑞士→1812.4。"
+  },
+  {
+   "num": "周二101",
+   "round": "周二",
+   "home": "法国",
+   "away": "西班牙",
+   "time": "07-15 03:00",
+   "status": "finished",
+   "actual": "0:2",
+   "predModel": "主胜39.47%",
+   "ensemble": {
+    "h": 39.47,
+    "d": 28.48,
+    "a": 32.05
+   },
+   "predManual": "未出票",
+   "note": "法国0:2西班牙(ESPN STATUS_FULL_TIME·1/4决赛胜者半决赛)·集成主胜39.47%方向落空(实际客胜,ens Brier=0.699,劣于随机0.667;RPS=0.309,劣于随机0.292)·赛前情报图沙梅尼回归首发顶替科内兑现,但西班牙首发未作调整(沿用淘汰葡萄牙原班人马)完胜。竞彩本场HAD三项值(h/d/a=2.08/3.08/3.09,value h0.821/d0.877/a0.990)均<1.10未出票,无资金影响,holdings/slip均未涉及本场。learn.py已结算:新权重A市场65.0%/B-Elo5.2%/C-Poisson0.0%,Elo:法国-34.1→2035.9,西班牙→2116.6。"
   }
  ],
  "holdings": {
@@ -2342,6 +2369,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-15",
+   "match": "周三102",
+   "impact": "赖斯预计回归首发",
+   "tone": "positive",
+   "text": "情报新增(05:10):khelnow与Yahoo Sports两独立信源交叉核实,英格兰中场赖斯(Declan Rice)因肠胃不适1/4决赛对挪威一战中场被换下,经队医评估非结构性伤病,预计本场对阿根廷半决赛可回归首发;亨德森(手腕术后)仍确认缺战,匡萨(红牌停赛)将在本场服满禁赛。",
+   "en": "New intel (05:10 BJT): khelnow and Yahoo Sports independently confirm England midfielder Declan Rice, subbed off at half-time of the QF win over Norway due to a sickness bug (not a structural injury), is expected to return to the starting XI for the semi-final vs Argentina; Henderson (post-op wrist) remains confirmed out, and Quansah will serve the final match of his red-card suspension this game.",
+   "full": "07-15 05:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~22h)——用khelnow《Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina》与Yahoo Sports《England XI vs Argentina: Confirmed team news, predicted lineup, injury latest》两条独立信源交叉核实:图赫尔在1/4决赛对挪威一役中场即换下赖斯,助教安东尼·巴里赛后确认为肠胃不适(sickness bug)导致无法踢满90分钟、非伤病,赖斯周二合练全员到位(仅亨德森缺席),预计本场可回归首发搭档安德森。亨德森(庆祝英格兰淘汰墨西哥时手腕严重受伤已手术,此前1/4决赛已在替补席但未获出场)仍确认缺战本场及潜在决赛存疑。匡萨(16强战对墨西哥飞铲被追加两场禁赛)已在1/4决赛服满一场,本场服满第二场(最后一场)禁赛后可解禁。竞彩本场HAD(odds_data.js 05:10快照 h/d/a=2.35/2.75/2.94,与02:10一致无漂移)未反映上述任何更新,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 15, 05:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~22h away) — cross-checking khelnow's 'Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina' against Yahoo Sports' 'England XI vs Argentina: Confirmed team news, predicted lineup, injury latest' confirms Tuchel substituted Declan Rice at half-time of the QF win over Norway, with assistant manager Anthony Barry confirming afterward it was due to a sickness bug rather than injury; Rice took part fully in Tuesday's training session (only Henderson absent) and is expected to return to the starting XI alongside Anderson. Henderson (serious wrist injury sustained celebrating the win over Mexico, since operated on; was on the bench but unused in the QF) remains confirmed out for this match with his availability for a potential final still in doubt. Quansah (given a two-match ban by FIFA's disciplinary committee for a studs-up challenge on Jesus Gallardo in the Round of 16) already served one match in the QF and serves the final match of his ban here, clearing him for any subsequent match. China Sports Lottery HAD odds (05:10 snapshot h/d/a=2.35/2.75/2.94, unchanged from 02:10) do not reflect any of this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "khelnow: Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina",
+     "url": "https://khelnow.com/football/england-injury-news-ahead-fifa-world-cup-2026-semi-final-vs-argentina"
+    },
+    {
+     "name": "Yahoo Sports: England XI vs Argentina: Confirmed team news, predicted lineup, injury latest for World Cup semi-final",
+     "url": "https://sports.yahoo.com/articles/england-xi-vs-argentina-confirmed-064857130.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-15",
    "match": "周三102",
@@ -2825,12 +2872,12 @@ window.DASH_DATA = {
   ]
  },
  "training": {
-  "sampleCount": 100,
+  "sampleCount": 101,
   "threshold": 50,
-  "pct": 200,
-  "ensBrier": 0.461,
-  "ensBrierMedian": 0.28,
-  "marketBase": 0.4841,
+  "pct": 202,
+  "ensBrier": 0.463,
+  "ensBrierMedian": 0.282,
+  "marketBase": 0.4867,
   "marketBaseLabel": "市场去水(子模型A)",
   "beatsMarket": true,
   "beatRandom": 71,
@@ -3446,10 +3493,16 @@ window.DASH_DATA = {
     "m": "阿根廷·3:1",
     "b": 0.28,
     "win": true
+   },
+   {
+    "num": "周二101",
+    "m": "法国·0:2",
+    "b": 0.7,
+    "win": false
    }
   ],
-  "headline": "已喂 100 场预测 · 集成 Brier 0.461 vs 市场去水 0.4841（略胜）· 只比随机0.667好一点（地板线,非alpha）",
-  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.461 **仍没跑赢市场去水(0.4841)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
-  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 100/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
+  "headline": "已喂 101 场预测 · 集成 Brier 0.463 vs 市场去水 0.4867（略胜）· 只比随机0.667好一点（地板线,非alpha）",
+  "lesson": "**28场复盘硬结论(诚实版):** 集成 Brier 0.463 **仍没跑赢市场去水(0.4867)**——模型暂无可证明的边。它只比'瞎猜'(随机0.667)好一点,那是地板不是本事。平局占36%(异常高)模型从不押平→10个自动判错卡死命中率;回测所有补救都≤57%,平局事前分不出来。**边在纪律和情报、不在模型方向**(可迁股市:高效市场里纯模型必收敛到市场)。⚠️别把'跑赢随机'当 alpha——真市场CLV还在攒(竞彩收盘价未留存),没有真CLV前'有没有边'仍是自说自话。",
+  "graduation": "完成训练 = 喂满50场 + Brier稳定且**真CLV转正** + 权重收敛。当前 101/50,权重已收敛(A市场去水重仓),但**Brier尚未跑赢市场、CLV待积累**——离'有边'还差关键一步:留存赛前收盘价算真CLV。"
  }
 };
