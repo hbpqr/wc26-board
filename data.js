@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 14:10",
+  "updated": "2026-07-14 15:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "亨德森确认缺战",
+   "tone": "negative",
+   "text": "情报更正(15:10):Sky Sports与ESPN两条独立信源确认,亨德森自16强战墨西哥赛后庆祝时摔伤致手臂骨折,已接受手腕手术,**确定缺席本届世界杯剩余全部赛程**——此前13:10条目'仍是存疑,本人未排除复出可能'的口径予以更正,应以本条'确定缺战'为准。",
+   "en": "Correction (15:10 BJT): Sky Sports and ESPN independently confirm Jordan Henderson, who fractured his arm celebrating the Round-of-16 win over Mexico, has undergone wrist surgery and is **confirmed out for the remainder of the tournament** — this corrects the 13:10 entry's 'still a doubt, hasn't ruled out a return' framing.",
+   "full": "07-14 15:10 BJT情报更正:周三102英格兰vs阿根廷(07-16 03:00开球,距今~36h)——用Sky Sports《World Cup 2026: England's Jordan Henderson out of tournament after freak injury against Mexico》与ESPN《England's Jordan Henderson out of World Cup with suspected broken arm - sources》两条独立信源交叉核实:亨德森16强战墨西哥赛后庆祝跨越广告牌时失足摔倒伤及手腕,确诊骨折并已接受手术,两源均明确其**确定缺席本届世界杯剩余全部赛程**。⚠️这更正了本轮13:10条目引用的'伤情仍存疑、本人未排除复出可能'口径——该口径系此前信源转引球员本人受访措辞,与Sky Sports/ESPN的确定性医疗报道存在出入,按纪律以更权威的确定性信源为准更正。此更正不改变英格兰预计首发框架(亨德森本非首发轮换核心)。竞彩本场HAD(odds_data.js 14:09快照 h/d/a=2.35/2.75/2.94)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 15:10 BJT correction: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~36h away) — cross-checking Sky Sports' 'England's Jordan Henderson out of tournament after freak injury against Mexico' against ESPN's 'England's Jordan Henderson out of World Cup with suspected broken arm' confirms Henderson fractured his wrist after slipping while hopping over advertising hoardings during Round-of-16 celebrations against Mexico, underwent surgery, and both sources state he is **confirmed out for the rest of the tournament**. ⚠️This corrects the 13:10 entry's 'still a doubt, hasn't ruled out a return' framing, which had relied on the player's own more optimistic quotes rather than the more authoritative medical reporting from Sky Sports/ESPN. This does not change England's expected starting framework, as Henderson was not a core rotation starter. China Sports Lottery HAD odds (odds_data.js 14:09 snapshot h/d/a=2.35/2.75/2.94) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sky Sports: World Cup 2026: England's Jordan Henderson out of tournament after freak injury against Mexico",
+     "url": "https://www.skysports.com/football/news/12016/13560940/world-cup-2026-englands-jordan-henderson-out-of-tournament-after-freak-injury-against-mexico"
+    },
+    {
+     "name": "ESPN: England's Jordan Henderson out of World Cup with suspected broken arm - sources",
+     "url": "https://www.espn.com/soccer/story/_/id/49285549/england-jordan-henderson-world-cup-suspected-broken-arm-sources"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "奥莱利伤无碍",
+   "tone": "positive",
+   "text": "情报新增(15:10):Sky Sports与Khelnow两条独立信源交叉核实,英格兰左后卫尼科·奥莱利对挪威1/4决赛第86分钟因腘绳肌不适示意换下,经检查未发现严重拉伤,预计本周可全程参训、大概率保留首发位置(斯彭斯作为替补选项)。",
+   "en": "New intel (15:10 BJT): Sky Sports and Khelnow cross-confirm England left-back Nico O'Reilly, subbed in the 86th minute of the QF win over Norway after signaling a hamstring issue, has no major strain and should take full part in training this week, likely retaining his starting spot (with Djed Spence as the alternative).",
+   "full": "07-14 15:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~36h)——用Sky Sports《World Cup: England injury doubt Nico O'Reilly set to train ahead of Argentina clash》与Khelnow《Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina》两条独立信源交叉核实新增事实:英格兰左后卫尼科·奥莱利(Nico O'Reilly)在1/4决赛对挪威第86分钟示意腘绳肌不适要求换下(斯彭斯替补登场),经检查未发现严重拉伤,预计本周可全程参训,若顺利通过训练大概率保留首发左后卫位置——此前情报未追踪此人,为本次新增的第五名伤情跟踪对象。同时凯恩/安德森/盖伊/斯通斯四人因对挪威一战打满120分钟且天气湿热,将在训练中重点监控体能恢复情况(非伤病,信息性记录)。竞彩本场HAD(odds_data.js 14:09快照 h/d/a=2.35/2.75/2.94)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 15:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~36h away) — cross-checking Sky Sports' 'World Cup: England injury doubt Nico O'Reilly set to train ahead of Argentina clash' against Khelnow's England injury roundup confirms left-back Nico O'Reilly, who signaled a hamstring issue and was substituted in the 86th minute of the QF win over Norway (Djed Spence coming on), has no major strain and should take full part in training this week, likely retaining his starting spot if he comes through training — prior intel had not tracked this player; he is the newly-surfaced fifth fitness watch. Separately, Kane/Anderson/Guehi/Stones, who played all 120 minutes against Norway in hot, humid conditions, will be monitored in training for fatigue recovery (not an injury, logged for information). China Sports Lottery HAD odds (odds_data.js 14:09 snapshot h/d/a=2.35/2.75/2.94) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sky Sports: World Cup: England injury doubt Nico O'Reilly set to train ahead of Argentina clash",
+     "url": "https://www.skysports.com/football/video/30998/13562986/eng-v-arg-pre-13-7-report"
+    },
+    {
+     "name": "Khelnow: Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina",
+     "url": "https://khelnow.com/football/england-injury-news-ahead-fifa-world-cup-2026-semi-final-vs-argentina"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周三102",
