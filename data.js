@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 4强(SF)",
-  "updated": "2026-07-14 23:10",
+  "updated": "2026-07-15 01:17",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -36,7 +36,9 @@ window.DASH_DATA = {
    {
     "date": "07-14",
     "label": "四强产生",
-    "target": 10000
+    "target": 10000,
+    "status": "missed",
+    "actual": 250.55
    },
    {
     "date": "07-19",
