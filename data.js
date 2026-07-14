@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 09:10",
+  "updated": "2026-07-14 10:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周二101",
+   "impact": "图沙梅尼确定首发",
+   "tone": "positive",
+   "text": "情报再更新(10:10):World Soccer Talk与Yahoo Sports(转引Madrid Universal)两独立信源均引述法国《队报》(L'Equipe)报道,图沙梅尼伤愈达标、将回归首发顶替科内出任中场,德尚称其能为中场提供更好平衡——此前07:10/09:10条目'两派信源打架、存疑'的悬而未决状态本条予以解决,倾向确认首发。",
+   "en": "Update (10:10 BJT): two independent outlets — World Soccer Talk and Yahoo Sports (via Madrid Universal) — both cite L'Equipe reporting Tchouameni has recovered and is set to start ahead of Kone, with Deschamps saying he offers better midfield balance. This resolves the 'sources split, still a doubt' status carried in the 07:10/09:10 entries, now leaning toward a confirmed start.",
+   "full": "07-14 10:10 BJT情报更新:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~17h)——用World Soccer Talk《Report: Aurelien Tchouameni set to start for France vs Spain, leaving Manu Koné on bench》及Yahoo Sports(转引Madrid Universal)两条独立报道交叉核实,两者均引述法国《队报》(L'Equipe)原始报道:图沙梅尼(此前大腿/训练伤)已完全恢复、体能状态达标,预计回归首发顶替科内出任中场搭档拉比奥,德尚认为图沙梅尼'能为中场提供更好的平衡',本场法国预计中场/锋线仅此一处变化,其余阵容维持不变。⚠️此前07:10/09:10条目引用Sports Mole'重大疑问'与Bolavip'恢复令人满意预计重返首发'两派口径打架、悬而未决,本条两条独立信源(均转引同一原始信源L'Equipe但为不同二级媒体独立报道)方向一致指向'确定首发',按纪律更新为倾向确认,但因两条二级信源共享同一原始信源、非完全独立,暂不视为100%锁定,留待赛前官方首发名单最终验证。竞彩本场HAD(odds_data.js 10:10快照 h/d/a=2.03/3.13/3.15,与09:10一致无漂移)未反映此更新,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 10:10 BJT update: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas, ~17h away) — cross-checking World Soccer Talk's piece ('Report: Aurelien Tchouameni set to start for France vs Spain, leaving Manu Koné on bench') against Yahoo Sports (via Madrid Universal) confirms both independently cite L'Equipe's original report: Tchouameni (previously out with a thigh/training injury) has fully recovered and his fitness is deemed satisfactory, and he is set to return to the starting XI in place of Kone alongside Rabiot, with Deschamps saying Tchouameni 'can provide more balance in midfield'; this is expected to be France's only lineup change, with the rest of the squad unchanged. ⚠️This resolves the split read carried in the 07:10/09:10 entries (Sports Mole's 'major doubt' vs Bolavip's 'satisfactory recovery, expected to start') — both new sources point the same direction toward a confirmed start, though since both secondary outlets trace back to the same primary source (L'Equipe) rather than being fully independent, this is logged as leaning-confirmed rather than 100% locked, pending the official team sheet. China Sports Lottery HAD odds (odds_data.js 10:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 09:10) do not reflect this update and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "World Soccer Talk: Report: Aurelien Tchouameni set to start for France vs Spain, leaving Manu Koné on bench",
+     "url": "https://worldsoccertalk.com/amp/world-cup/report-aurelien-tchouameni-set-to-start-for-france-vs-spain-leaving-manu-kone-on-bench/"
+    },
+    {
+     "name": "Yahoo Sports: Real Madrid midfielder set to return from injury and start vs Spain in World Cup semi final",
+     "url": "https://sports.yahoo.com/articles/real-madrid-midfielder-set-return-183000605.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周二101",
