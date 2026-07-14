@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 08:10",
+  "updated": "2026-07-14 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周二101",
+   "impact": "姆巴佩伤无碍",
+   "tone": "neutral",
+   "text": "情报再更新(09:10):Yahoo Sports与Sports Mole交叉核实,姆巴佩在周四对摩洛哥一战中遭遇轻微脚踝伤,赛后向记者表示'完全没事',预计本场可正常出战;西班牙方面同源提及穆尼奥斯仍被列为'疑似出战'(doubt),与07:10条目'伤愈达标预计替补'的乐观口径有轻微出入,图沙梅尼可战性依旧存疑未解。",
+   "en": "Update (09:10 BJT): Yahoo Sports and Sports Mole cross-confirm Mbappe picked up a minor ankle knock in Thursday's win over Morocco but told reporters post-match he was 'completely fine' and is expected to start; separately, the same sources still list Spain's Victor Munoz as 'a doubt', a slightly more cautious read than the 07:10 entry's 'passed fit, expected off the bench'; Tchouameni's availability remains unresolved.",
+   "full": "07-14 09:10 BJT情报更新:周二101法国vs西班牙(07-15 03:00开球,Dallas,距今~18h)——用Yahoo Sports《France XI vs Spain: Confirmed team news...》及Sports Mole《France injury, suspension list and return dates for Spain World Cup semi-final》两源交叉核实新增事实:法国队长姆巴佩在周四1/4决赛对摩洛哥一役中遭遇轻微脚踝伤,赛后向记者表示'完全没事'(completely fine),两源均预计他本场可正常首发出战,未见更悲观信源反驳。同一批报道中,西班牙威廉姆斯/平诺伤情口径不变(威廉姆斯已恢复、平诺仍缺阵),但穆尼奥斯被措辞为'a doubt'(存疑),较07:10条目引用的'passed fit,预计可替补'略偏谨慎,两版口径尚不构成直接矛盾,按最新提法更新但不否定此前判断,留待赛前最终名单确认。图沙梅尼仍是悬而未决的存疑状态,未获新信源澄清。竞彩本场HAD(odds_data.js 09:10快照 h/d/a=2.03/3.13/3.15,与08:10一致)未反映上述任何更新,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 09:10 BJT update: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, Dallas, ~18h away) — cross-checking Yahoo Sports' France XI team-news piece against Sports Mole's dedicated France injury list surfaces a new fact: captain Kylian Mbappe suffered a minor ankle knock in Thursday's QF win over Morocco but told reporters afterward he was 'completely fine', with both sources expecting him to start normally; no more pessimistic source contradicts this. The same coverage keeps Spain's Williams/Pino readout unchanged (Williams fit, Pino still out) but phrases Munoz as 'a doubt', a touch more cautious than the 07:10 entry's 'passed fit, expected off the bench' — not a direct contradiction, logged as the latest phrasing without overriding the prior read, pending the final team sheet. Tchouameni's availability remains unresolved, with no fresh clarifying source. China Sports Lottery HAD odds (09:10 snapshot h/d/a=2.03/3.13/3.15, unchanged from 08:10) do not reflect any of this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Yahoo Sports: France XI vs Spain: Confirmed team news, predicted lineup and injury latest for World Cup 2026",
+     "url": "https://sports.yahoo.com/articles/france-xi-vs-spain-confirmed-161043982.html"
+    },
+    {
+     "name": "Sports Mole: France injury, suspension list and return dates for Spain World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/france/injury-news/injuries-and-suspensions/mbappe-tchouameni-kone-latest-france-injury-suspension-list-vs-spain_601068.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周二101",
