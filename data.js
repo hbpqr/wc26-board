@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 12:10",
+  "updated": "2026-07-14 13:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "梅西轻伤无碍",
+   "tone": "neutral",
+   "text": "情报新增(13:10):Yahoo Sports与Sports Mole两条独立信源交叉核实,梅西在1/4决赛对瑞士一战中被扎卡冲撞导致右眼周围出血,经场边处理后继续比赛,存在肿胀风险,但两源均预计他本场可正常出战;罗梅罗/马丁内斯继续搭档中卫,罗梅罗对瑞士加时赛下半场因体力透支被换下。",
+   "en": "New intel (13:10 BJT): Yahoo Sports and Sports Mole independently confirm Messi took a knock from Xhaka in the QF win over Switzerland, leaving him bleeding around the right eye and receiving pitchside treatment before continuing; there is some swelling risk, but both sources expect him fit to start. Romero/Martinez remain the centre-back pairing, with an exhausted Romero withdrawn at half-time of extra time vs Switzerland.",
+   "full": "07-14 13:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~38h)——用Yahoo Sports《Argentina XI vs England: Confirmed team news...》与Sports Mole《Argentina injury, suspension list and return dates for England World Cup semi-final》两条独立信源交叉核实:阿根廷队长梅西在1/4决赛对瑞士一役中被扎卡冲撞导致右眼周围出血,经场边处理后继续比赛完成全场,存在赛后肿胀风险,但两源均预计他本场可正常首发出战,这是双方首次世界杯交锋。中卫方面罗梅罗/马丁内斯继续搭档出战,罗梅罗因加时赛体能透支于加时下半场被换下,预计本场可恢复出战。竞彩本场HAD(odds_data.js 13:10快照 h/d/a=2.35/2.75/2.94)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 13:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~38h away) — cross-checking Yahoo Sports' Argentina team-news piece against Sports Mole's Argentina injury list confirms captain Lionel Messi took a challenge from Granit Xhaka in the QF win over Switzerland that left him bleeding around the right eye; he received pitchside treatment and played on through the full match, with some swelling risk noted, but both sources expect him fit to start in this first-ever World Cup meeting between the sides. At centre-back, Cristian Romero and Lisandro Martinez remain the pairing, with an exhausted Romero withdrawn at half-time of extra time against Switzerland but expected available again. China Sports Lottery HAD odds (odds_data.js 13:10 snapshot h/d/a=2.35/2.75/2.94) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Yahoo Sports: Argentina XI vs England: Confirmed team news, predicted lineup and injury latest for World Cup 2026",
+     "url": "https://ca.sports.yahoo.com/news/argentina-xi-vs-england-confirmed-173303386.html"
+    },
+    {
+     "name": "Sports Mole: Argentina injury, suspension list and return dates for England World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/argentina/injury-news/injuries-and-suspensions/messi-romero-latest-argentina-injury-suspension-list-vs-england_601110.html"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "赖斯预计复出",
+   "tone": "neutral",
+   "text": "情报新增(13:10):Sports Mole与Sky Sports交叉核实,赖斯此前因肠胃不适在1/4决赛对挪威一战中场即被换下,预计本场恢复首发;康萨对挪威一役末段因腿筋抽筋下场但预计可留任后防;亨德森(16强战墨西哥赛后庆祝时摔伤致手臂骨折)仍是存疑,但本人未排除本届余下赛程复出可能。",
+   "en": "New intel (13:10 BJT): Sports Mole and Sky Sports cross-confirm Declan Rice, subbed off at half-time of the QF win over Norway with a sickness bug, is likely to return to the starting XI; Ezri Konsa, subbed late vs Norway with hamstring cramp, should be fit to retain his place; Jordan Henderson (arm fracture sustained celebrating the Round-of-16 win over Mexico) remains a doubt but has not ruled out featuring again before the tournament ends.",
+   "full": "07-14 13:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~38h)——用Sports Mole《England injury, suspension list and return dates for Argentina World Cup semi-final》与Sky Sports相关报道交叉核实:赖斯在1/4决赛对挪威一战因肠胃不适赛前状态受影响、中场休息即被换下,预计本场可恢复首发出战;康萨对挪威一役末段因腿筋抽筋下场,预计可留任后防线位置;亨德森自16强战墨西哥赛后庆祝时摔伤致手臂骨折,伤情仍是存疑状态,但本人受访未排除本届世界杯余下赛程复出可能。三人问题整体不改变英格兰预计首发框架。竞彩本场HAD(odds_data.js 13:10快照 h/d/a=2.35/2.75/2.94)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 13:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~38h away) — cross-checking Sports Mole's England injury list against Sky Sports coverage confirms Declan Rice, who struggled with a sickness bug and was withdrawn at half-time of the QF win over Norway, is likely back in the starting XI for this match; Ezri Konsa, subbed late vs Norway with hamstring cramp, should be fit to retain his backline spot; Jordan Henderson, who fractured his arm celebrating the Round-of-16 win over Mexico, remains a doubt but told reporters he has not ruled out featuring again before the tournament is over. None of the three change England's expected starting framework. China Sports Lottery HAD odds (odds_data.js 13:10 snapshot h/d/a=2.35/2.75/2.94) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sports Mole: England injury, suspension list and return dates for Argentina World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/england/injury-news/injuries-and-suspensions/rice-konsa-henderson-latest-england-injury-suspension-list-vs-argentina_601109.html"
+    },
+    {
+     "name": "Sky Sports: World Cup: England injuries the main concern ahead of Argentina semi-final",
+     "url": "https://www.skysports.com/football/video/30998/13562752/world-cup-england-injuries-the-main-concern-ahead-of-argentina-semi-final"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周二101",
