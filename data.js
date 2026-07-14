@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 4强(SF)",
-  "updated": "2026-07-15 01:17",
+  "updated": "2026-07-15 02:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2342,6 +2342,46 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-15",
+   "match": "周三102",
+   "impact": "罗梅罗预计可战",
+   "tone": "positive",
+   "text": "情报新增(02:10):Sports Mole与World Soccer Talk两独立信源交叉核实,阿根廷中卫克里斯蒂安·罗梅罗(Cristian Romero)对瑞士加时赛中途因体力不支(抽筋)被换下,经检查排除结构性伤病,预计可正常出战本场对英格兰半决赛;真正长期缺阵的是梅迪纳(Facundo Medina,小腿伤自小组赛起缺席至今)。",
+   "en": "New intel (02:10 BJT): Sports Mole and World Soccer Talk independently confirm Argentina centre-back Cristian Romero, subbed off midway through extra time vs Switzerland due to cramp/fatigue, has no structural injury and is expected to be available for the semi-final vs England — the player actually sidelined long-term is Facundo Medina (calf injury since the group stage).",
+   "full": "07-15 02:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~25h)——用Sports Mole《Argentina injury, suspension list and return dates for England World Cup semi-final: Latest on Lionel Messi, Cristian Romero》与World Soccer Talk《Argentina stars injury update: Paredes and Cuti Romero reportedly fit for World Cup semifinal vs England》两条独立信源交叉核实:罗梅罗在1/4决赛加时赛对瑞士一役中途因体力不支(抽筋而非结构性伤病)被换下,据TyC Sports记者Gaston Edul及两条信源转引,罗梅罗与帕雷德斯均属疲劳性下场、检查未发现伤情,预计将正常出战本场半决赛;真正长期缺席的是梅迪纳(小腿伤自小组赛16强战开始缺席至今,本场亦无法出战)。此前既有news未记录罗梅罗/梅迪纳具体情况,本条为净新增。竞彩本场HAD(odds_data.js 02:10快照 h/d/a=2.35/2.75/2.94,与前序快照一致无漂移)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 15, 02:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~25h away) — cross-checking Sports Mole's 'Argentina injury, suspension list and return dates for England World Cup semi-final: Latest on Lionel Messi, Cristian Romero' against World Soccer Talk's 'Argentina stars injury update: Paredes and Cuti Romero reportedly fit for World Cup semifinal vs England' confirms Romero, subbed off midway through extra time vs Switzerland in the quarter-final, came off due to fatigue/cramp rather than a structural injury; per TyC Sports reporter Gaston Edul (cited by both outlets), both Romero and Paredes were fatigue-related withdrawals with no injury found on examination, and Romero is expected to be fit to start the semi-final. The player genuinely sidelined long-term is Facundo Medina (calf injury since the Round of 32, still out for this match). Neither Romero's nor Medina's specific status had been logged in prior news entries — this is a net-new addition. China Sports Lottery HAD odds (odds_data.js 02:10 snapshot h/d/a=2.35/2.75/2.94, unchanged from prior snapshots) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sports Mole: Argentina injury, suspension list and return dates for England World Cup semi-final",
+     "url": "https://www.sportsmole.co.uk/football/argentina/injury-news/injuries-and-suspensions/messi-romero-latest-argentina-injury-suspension-list-vs-england_601110.html"
+    },
+    {
+     "name": "World Soccer Talk: Argentina stars injury update: Paredes and Cuti Romero reportedly fit for World Cup semifinal vs England",
+     "url": "https://worldsoccertalk.com/world-cup/argentina-stars-injury-update-paredes-and-cuti-romero-reportedly-fit-for-world-cup-semifinal-vs-england/"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "match": "周二101",
+   "impact": "两队首发公布",
+   "tone": "neutral",
+   "text": "情报新增(02:10):SI.com与FIFA官方赛事中心两独立信源确认,法国vs西班牙半决赛双方首发已公布:法国4-2-3-1(马尚;孔德/乌帕梅卡诺/萨利巴/迪涅;图沙梅尼/拉比奥;奥利塞/登贝莱/巴尔科拉;姆巴佩),图沙梅尼、巴尔科拉顶替科内、多姆纳入首发;西班牙沿用1/4决赛对葡萄牙一战原班人马未作调整。",
+   "en": "New intel (02:10 BJT): SI.com and the official FIFA match centre both confirm the starting lineups for the France vs Spain semi-final are out — France in a 4-2-3-1 (Maignan; Koundé, Upamecano, Saliba, Digne; Tchouaméni, Rabiot; Olise, Dembélé, Barcola; Mbappé), with Tchouaméni and Barcola replacing Koné and Doué; Spain unchanged from their quarter-final win over Portugal.",
+   "full": "07-15 02:10 BJT情报新增:周二101法国vs西班牙(07-15 03:00开球,距今~50min,情报窗口临近关闭)——用SI.com《France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal》与FIFA官方赛事中心(fifa.com match-centre)两条独立信源交叉核实,双方正式首发已公布:法国4-2-3-1(门将马尚;后卫孔德/乌帕梅卡诺/萨利巴/迪涅;中场图沙梅尼/拉比奥;前场奥利塞/登贝莱/巴尔科拉;锋线姆巴佩),图沙梅尼、巴尔科拉顶替科内、多姆纳入首发,与07-14 10:10条目'图沙梅尼预计回归首发'一致并最终锁定;西班牙4-2-3-1(西蒙;波尔特罗/库巴西/拉波尔特/库库雷利亚;罗德里/法比安·鲁伊斯;拉明·亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔)沿用1/4决赛对葡萄牙原班人马、无变化。竞彩本场HAD(odds_data.js 02:10快照 h/d/a=2.08/3.08/3.09,与前序快照一致无漂移)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 15, 02:10 BJT new intel: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, ~50min away, intel window nearly closed) — cross-checking SI.com's 'France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal' against the official FIFA match centre confirms both official starting XIs are out: France in a 4-2-3-1 (GK Maignan; defenders Koundé, Upamecano, Saliba, Digne; midfielders Tchouaméni, Rabiot; attackers Olise, Dembélé, Barcola; forward Mbappé), with Tchouaméni and Barcola replacing Koné and Doué — this locks in the 07-14 10:10 entry's 'Tchouaméni expected to start' read as confirmed; Spain fields the same 4-2-3-1 XI (Simón; Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz; Yamal, Olmo, Baena; Oyarzabal) unchanged from their quarter-final win over Portugal. China Sports Lottery HAD odds (odds_data.js 02:10 snapshot h/d/a=2.08/3.08/3.09, unchanged from prior snapshots) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "SI.com: France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal",
+     "url": "https://www.si.com/soccer/france-vs-spain-confirmed-lineups-2026-world-cup-semifinal"
+    },
+    {
+     "name": "FIFA Match Centre: France v Spain Semi-final",
+     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541?gender=2&date=2026-07-14"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周三102",
