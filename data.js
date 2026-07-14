@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 13:10",
+  "updated": "2026-07-14 14:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "詹姆斯首发存疑",
+   "tone": "neutral",
+   "text": "情报新增(14:10):Sports Mole与Yahoo Sports两条独立信源交叉核实,英格兰赖特-贝克汉姆式边卫詹姆斯(Reece James)此前因对加纳一战腿筋伤缺阵3场,对挪威1/4决赛已复出替补登场,但能否本场首发仍是疑问,若未100%复原康萨可能续留右后卫位置。",
+   "en": "New intel (14:10 BJT): Sports Mole and Yahoo Sports independently confirm England's Reece James, who missed three matches with a hamstring injury from the Ghana group game, returned as a second-half substitute in the QF win over Norway; whether he starts vs Argentina remains uncertain, with Konsa able to continue at right-back if James isn't fully fit.",
+   "full": "07-14 14:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~37h)——用Sports Mole《England vs. Argentina: Thomas Tuchel receives fresh injury boost before World Cup semi-final showdown》(07-13发稿)与Yahoo Sports《Reece James ready for World Cup 'crunch time'...》两条独立信源交叉核实新增事实:英格兰右后卫詹姆斯(Reece James)此前因小组赛对加纳一役腿筋伤缺阵3场,已于1/4决赛加时赛对挪威一战复出、以替补身份出场(先客串中场随后回归右后卫本职),本人受访称'重回赛场感觉很好,伤病是与时间赛跑,努力让自己归队很开心'。但Sports Mole指出他能否100%复原首发对阵阿根廷仍是疑问,若未达标康萨(Konsa)可能续留右后卫位置——此前情报只追踪赖斯/康萨/亨德森,詹姆斯是本次新增的第四名伤情跟踪对象。竞彩本场HAD(odds_data.js 14:10快照 h/d/a=2.35/2.75/2.94,与13:10一致无漂移)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 14:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~37h away) — cross-checking Sports Mole's piece ('Thomas Tuchel receives fresh injury boost before World Cup semi-final showdown', filed 07-13) against Yahoo Sports' 'Reece James ready for World Cup crunch time' surfaces a new fact: England right-back Reece James, who missed three matches with a hamstring injury sustained in the group-stage Ghana game, returned as a second-half substitute in the QF extra-time win over Norway (deployed first in midfield, then shifting back to his natural right-back role), telling reporters 'it's good to be back out there... injury at a tournament is always a race against the clock.' However, Sports Mole notes whether he's 100% recovered enough to start against Argentina remains a question, with Ezri Konsa able to continue at right-back if James isn't fully fit — prior intel had only tracked Rice/Konsa/Henderson; James is a newly-surfaced fourth fitness watch. China Sports Lottery HAD odds (odds_data.js 14:10 snapshot h/d/a=2.35/2.75/2.94, unchanged from 13:10) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "Sports Mole: England vs. Argentina: Thomas Tuchel receives fresh injury boost before World Cup semi-final showdown",
+     "url": "https://www.sportsmole.co.uk/football/england/injury-news/news/defensive-delight-for-tuchel-as-england-receive-injury-boost-before-argentina-world-cup-showdown_601143.html"
+    },
+    {
+     "name": "Yahoo Sports: Reece James ready for World Cup 'crunch time' as he sets his sights on Argentina after injury woes",
+     "url": "https://sports.yahoo.com/articles/reece-james-ready-world-cup-072036221.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周三102",
