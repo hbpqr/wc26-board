@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 8强(QF)",
-  "updated": "2026-07-14 16:10",
+  "updated": "2026-07-14 17:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2340,6 +2340,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-14",
+   "match": "周三102",
+   "impact": "昆萨禁赛延续",
+   "tone": "negative",
+   "text": "情报新增(17:10):ESPN/Sky Sports/Yahoo Sports三条独立信源交叉核实,英格兰后卫贾雷尔·昆萨(Jarell Quansah)因16强战墨西哥一役第54分钟violent conduct红牌,遭FIFA两场禁赛(违反第14条严重犯规条款,不可上诉),已缺席1/4决赛对挪威,本场对阿根廷半决赛仍在禁赛期内,继续缺席。",
+   "en": "New intel (17:10 BJT): ESPN, Sky Sports and Yahoo Sports independently confirm England defender Jarell Quansah, red-carded in the 54th minute of the Round-of-16 win over Mexico, received a FIFA two-match ban (Article 14 serious foul play, non-appealable) — he already missed the QF vs Norway and remains suspended for this semi-final vs Argentina.",
+   "full": "07-14 17:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~34h)——用ESPN《England's Jarell Quansah suspended two World Cup matches after Mexico red card》、Sky Sports《England defender Jarell Quansah banned for two World Cup games for red card vs Mexico》与Yahoo Sports相关报道三条独立信源交叉核实:昆萨在16强战墨西哥一役第54分钟因VAR回看认定对加拉多的高位危险动作染红被罚下,依FIFA行为准则第14条(严重犯规)被追加两场禁赛且不可上诉,已确定缺席1/4决赛对挪威一战,本场半决赛对阿根廷仍在禁赛期内、继续缺席。此为既往QF轮已记录事实的延续确认(非反转),不改变英格兰预计首发框架(斯通斯/安德森中卫搭档为既定选项)。竞彩本场HAD(odds_data.js 17:10快照 h/d/a=2.35/2.75/2.94,与14:10一致无漂移)未反映此消息,未达15%异常阈值不上报ALERT。",
+   "enFull": "July 14, 17:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~34h away) — cross-checking ESPN's 'England's Jarell Quansah suspended two World Cup matches after Mexico red card', Sky Sports' 'England defender Jarell Quansah banned for two World Cup games for red card vs Mexico', and a Yahoo Sports report confirms Quansah was sent off in the 54th minute of the Round-of-16 win over Mexico for a VAR-reviewed high tackle on Jesus Gallardo, drawing a non-appealable two-match FIFA ban under Article 14 (serious foul play) — he already missed the QF vs Norway and remains suspended for this semi-final. This reconfirms a fact already logged during the QF round (not a reversal) and does not change England's expected back-line framework (Stones/Anderson pairing remains the default). China Sports Lottery HAD odds (odds_data.js 17:10 snapshot h/d/a=2.35/2.75/2.94, unchanged from 14:10) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
+   "links": [
+    {
+     "name": "ESPN: England's Jarell Quansah suspended two World Cup matches after Mexico red card",
+     "url": "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red"
+    },
+    {
+     "name": "Sky Sports: England defender Jarell Quansah banned for two World Cup games for red card vs Mexico",
+     "url": "https://www.skysports.com/football/news/11095/13562035/jarrell-quansah-banned-for-two-world-cup-games-for-red-card-vs-mexico"
+    }
+   ]
+  },
   {
    "date": "2026-07-14",
    "match": "周三102",
