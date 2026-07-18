@@ -2367,6 +2367,17 @@ window.DASH_DATA = {
    },
    "predManual": "未出票",
    "note": "英格兰1:2阿根廷(ESPN STATUS_FULL_TIME·半决赛,阿根廷晋级决赛)·集成主胜36.68%方向落空(实际客胜,ens Brier=0.708,劣于随机0.667;RPS=0.303,劣于随机0.292)·赛前情报(赖斯伤愈回归首发/罗梅罗健康出战/梅西眼伤无碍出战/昆萨服满禁赛)均按预期兑现,但未改变结果。竞彩本场HAD三项值(h/d/a=2.36/2.80/2.87,value h0.87/d0.89/a0.90)均<1.10未出票,无资金影响,holdings/slip均未涉及本场。⚠️learn.py不可用:match-prediction skill目录已连续多日缺失(~/.claude/skills/match-prediction/scripts/不存在),本场Elo/权重结算暂无法执行,沿用现有Elo快照,待skill目录恢复后补结算。"
+  },
+  {
+   "num": "周日103",
+   "round": "周日",
+   "home": "法国",
+   "away": "英格兰",
+   "time": "07-19 05:00",
+   "status": "finished",
+   "actual": "4:6",
+   "predManual": "未出票",
+   "note": "法国4:6英格兰(ESPN STATUS_FULL_TIME·季军赛/3-4名决赛,迈阿密Hard Rock Stadium)·英格兰上半场大幅领先(06:10巡检快照second half 47'已4:0),法国下半场连追扳至4:4,英格兰再入两球终场6:4锁定季军。⚠️无预测:match-prediction skill目录自07-15前后已连续多日缺失(~/.claude/skills/match-prediction/scripts/不存在),odds_data.js自07-15 15:10起未再刷新,本场自开票窗口起从未生成集成概率/进入odds_data.js,影子book本轮继续断供,learn.py无法结算,待skill目录恢复后补结算。竞彩本场从未出票(无盘口数据),无持仓,无资金影响。⚠️本条为结构性缺口补录(该场此前从未被纳入todayMatches数组,同033-036/099历史结构性缺口同类)。"
   }
  ],
  "holdings": {
@@ -2397,42 +2408,22 @@ window.DASH_DATA = {
  "focus": [],
  "news": [
   {
-   "date": "2026-07-15",
-   "match": "周三102",
-   "impact": "赖斯预计回归首发",
+   "date": "2026-07-19",
+   "match": "周一104",
+   "impact": "亚马尔轻伤无碍",
    "tone": "positive",
-   "text": "情报新增(05:10):khelnow与Yahoo Sports两独立信源交叉核实,英格兰中场赖斯(Declan Rice)因肠胃不适1/4决赛对挪威一战中场被换下,经队医评估非结构性伤病,预计本场对阿根廷半决赛可回归首发;亨德森(手腕术后)仍确认缺战,匡萨(红牌停赛)将在本场服满禁赛。",
-   "en": "New intel (05:10 BJT): khelnow and Yahoo Sports independently confirm England midfielder Declan Rice, subbed off at half-time of the QF win over Norway due to a sickness bug (not a structural injury), is expected to return to the starting XI for the semi-final vs Argentina; Henderson (post-op wrist) remains confirmed out, and Quansah will serve the final match of his red-card suspension this game.",
-   "full": "07-15 05:10 BJT情报新增:周三102英格兰vs阿根廷(07-16 03:00开球,距今~22h)——用khelnow《Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina》与Yahoo Sports《England XI vs Argentina: Confirmed team news, predicted lineup, injury latest》两条独立信源交叉核实:图赫尔在1/4决赛对挪威一役中场即换下赖斯,助教安东尼·巴里赛后确认为肠胃不适(sickness bug)导致无法踢满90分钟、非伤病,赖斯周二合练全员到位(仅亨德森缺席),预计本场可回归首发搭档安德森。亨德森(庆祝英格兰淘汰墨西哥时手腕严重受伤已手术,此前1/4决赛已在替补席但未获出场)仍确认缺战本场及潜在决赛存疑。匡萨(16强战对墨西哥飞铲被追加两场禁赛)已在1/4决赛服满一场,本场服满第二场(最后一场)禁赛后可解禁。竞彩本场HAD(odds_data.js 05:10快照 h/d/a=2.35/2.75/2.94,与02:10一致无漂移)未反映上述任何更新,未达15%异常阈值不上报ALERT。",
-   "enFull": "July 15, 05:10 BJT new intel: for match 周三102 England vs Argentina (kickoff 07-16 03:00 BJT, ~22h away) — cross-checking khelnow's 'Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina' against Yahoo Sports' 'England XI vs Argentina: Confirmed team news, predicted lineup, injury latest' confirms Tuchel substituted Declan Rice at half-time of the QF win over Norway, with assistant manager Anthony Barry confirming afterward it was due to a sickness bug rather than injury; Rice took part fully in Tuesday's training session (only Henderson absent) and is expected to return to the starting XI alongside Anderson. Henderson (serious wrist injury sustained celebrating the win over Mexico, since operated on; was on the bench but unused in the QF) remains confirmed out for this match with his availability for a potential final still in doubt. Quansah (given a two-match ban by FIFA's disciplinary committee for a studs-up challenge on Jesus Gallardo in the Round of 16) already served one match in the QF and serves the final match of his ban here, clearing him for any subsequent match. China Sports Lottery HAD odds (05:10 snapshot h/d/a=2.35/2.75/2.94, unchanged from 02:10) do not reflect any of this and remain under the 15% anomaly threshold — not flagged.",
+   "text": "情报新增(07:10):Yahoo Sports与Sports Mole两独立信源交叉核实,决赛(西班牙vs阿根廷,07-20 03:00北京,MetLife Stadium)双方预计首发已曝光:阿根廷门将马丁内斯;蒙铁尔/罗梅罗/马丁内斯/塔利亚菲科;帕雷德斯;德保罗/费尔南德斯/麦卡利斯特;阿尔瓦雷斯/梅西。西班牙西蒙;波尔特罗/库巴西/拉波尔特/库库雷利亚;罗德里/鲁伊斯;亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔。亚马尔对法国半决赛后左大腿缠绷带且周四缺席合练一度引发伤情担忧,两源均预计其本场可正常首发;西班牙无新增伤病,努涅斯此前伤愈已归队可用。阿根廷方面半决赛淘汰英格兰一战无新增伤情。",
+   "en": "New intel (07:10 BJT): Yahoo Sports and Sports Mole independently confirm predicted starting XIs for the final (Spain vs Argentina, kickoff 07-20 03:00 BJT at MetLife Stadium) — Argentina: E. Martinez; Montiel, Romero, Lisandro Martinez, Tagliafico; Paredes; De Paul, Fernandez, Mac Allister; Alvarez, Messi. Spain: Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Ruiz; Yamal, Olmo, Baena; Oyarzabal. Lamine Yamal sparked an injury scare after sitting out Thursday's training with a bandaged left thigh following the semi-final win over France, but both sources expect him fit to start. Spain have no new injury concerns; Argentina report none either after their semi-final win over England.",
+   "full": "07-19 07:10 BJT情报新增:决赛西班牙vs阿根廷(07-20 03:00北京开球,MetLife Stadium,距今~19h50m,已进入36h情报窗口)——用Yahoo Sports《Spain XI vs Argentina: Confirmed team news, predicted lineup, injury latest for World Cup final》与Sports Mole《Spain lineup vs. Argentina: Predicted XI for World Cup 2026 final after Lamine Yamal injury scare》两条独立信源交叉核实:阿根廷预计首发门将埃米利亚诺·马丁内斯;后卫蒙铁尔/罗梅罗/利桑德罗·马丁内斯/塔利亚菲科;中场帕雷德斯;德保罗/恩佐·费尔南德斯/麦卡利斯特;锋线阿尔瓦雷斯/梅西,半决赛淘汰英格兰一役无新增伤病。西班牙预计首发西蒙;波尔特罗/库巴西/拉波尔特/库库雷利亚;罗德里/法比安·鲁伊斯;拉明·亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔——亚马尔对法国半决赛后左大腿缠绷带且被拍到跛行,周四(NJ训练地)缺席合练一度引发伤情担忧,但两条信源均预计其本周末决赛可正常出战;努涅斯此前赛事中因伤缺席已伤愈回归可用,西班牙暂无新增伤病。竞彩odds_data.js仍停留在102(match-prediction skill目录持续缺失,103/104均未开票),赔率/价值闸暂无法核算,本条仅作情报留痕。",
+   "enFull": "July 19, 07:10 BJT new intel: for the final Spain vs Argentina (kickoff 07-20 03:00 BJT at MetLife Stadium, ~19h50m away, now inside the 36h intel window) — cross-checking Yahoo Sports' 'Spain XI vs Argentina: Confirmed team news, predicted lineup, injury latest for World Cup final' against Sports Mole's 'Spain lineup vs. Argentina: Predicted XI for World Cup 2026 final after Lamine Yamal injury scare' confirms predicted starting XIs: Argentina — GK Emiliano Martinez; defenders Montiel, Romero, Lisandro Martinez, Tagliafico; midfielder Paredes; De Paul, Enzo Fernandez, Mac Allister; forwards Alvarez, Messi, with no new injury concerns after the semi-final win over England. Spain — Simon; Porro, Cubarsi, Laporte, Cucurella; Rodri, Fabian Ruiz; Lamine Yamal, Olmo, Baena; Oyarzabal — Yamal sparked an injury scare after being seen limping and wearing a bandaged left thigh following the semi-final win over France, and sat out Thursday's training in New Jersey, but both sources expect him fit to start this weekend; Nico Williams/other earlier injury absentees have since returned, and Spain report no new fitness concerns. China Sports Lottery's odds_data.js remains stuck at match 102 (match-prediction skill directory still missing, neither 103 nor 104 are on sale yet), so odds/value-gate math cannot run — this entry is intel-only for now.",
    "links": [
     {
-     "name": "khelnow: Rice & Saka - England injury news ahead of FIFA World Cup 2026 semi-final vs Argentina",
-     "url": "https://khelnow.com/football/england-injury-news-ahead-fifa-world-cup-2026-semi-final-vs-argentina"
+     "name": "Yahoo Sports: Spain XI vs Argentina: Confirmed team news, predicted lineup, injury latest for World Cup final",
+     "url": "https://sports.yahoo.com/articles/spain-xi-vs-argentina-confirmed-185616702.html"
     },
     {
-     "name": "Yahoo Sports: England XI vs Argentina: Confirmed team news, predicted lineup, injury latest for World Cup semi-final",
-     "url": "https://sports.yahoo.com/articles/england-xi-vs-argentina-confirmed-064857130.html"
-    }
-   ]
-  },
-  {
-   "date": "2026-07-15",
-   "match": "周二101",
-   "impact": "两队首发公布",
-   "tone": "neutral",
-   "text": "情报新增(02:10):SI.com与FIFA官方赛事中心两独立信源确认,法国vs西班牙半决赛双方首发已公布:法国4-2-3-1(马尚;孔德/乌帕梅卡诺/萨利巴/迪涅;图沙梅尼/拉比奥;奥利塞/登贝莱/巴尔科拉;姆巴佩),图沙梅尼、巴尔科拉顶替科内、多姆纳入首发;西班牙沿用1/4决赛对葡萄牙一战原班人马未作调整。",
-   "en": "New intel (02:10 BJT): SI.com and the official FIFA match centre both confirm the starting lineups for the France vs Spain semi-final are out — France in a 4-2-3-1 (Maignan; Koundé, Upamecano, Saliba, Digne; Tchouaméni, Rabiot; Olise, Dembélé, Barcola; Mbappé), with Tchouaméni and Barcola replacing Koné and Doué; Spain unchanged from their quarter-final win over Portugal.",
-   "full": "07-15 02:10 BJT情报新增:周二101法国vs西班牙(07-15 03:00开球,距今~50min,情报窗口临近关闭)——用SI.com《France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal》与FIFA官方赛事中心(fifa.com match-centre)两条独立信源交叉核实,双方正式首发已公布:法国4-2-3-1(门将马尚;后卫孔德/乌帕梅卡诺/萨利巴/迪涅;中场图沙梅尼/拉比奥;前场奥利塞/登贝莱/巴尔科拉;锋线姆巴佩),图沙梅尼、巴尔科拉顶替科内、多姆纳入首发,与07-14 10:10条目'图沙梅尼预计回归首发'一致并最终锁定;西班牙4-2-3-1(西蒙;波尔特罗/库巴西/拉波尔特/库库雷利亚;罗德里/法比安·鲁伊斯;拉明·亚马尔/奥尔莫/巴埃纳;奥亚萨瓦尔)沿用1/4决赛对葡萄牙原班人马、无变化。竞彩本场HAD(odds_data.js 02:10快照 h/d/a=2.08/3.08/3.09,与前序快照一致无漂移)未反映此消息,未达15%异常阈值不上报ALERT。",
-   "enFull": "July 15, 02:10 BJT new intel: for match 周二101 France vs Spain (kickoff 07-15 03:00 BJT, ~50min away, intel window nearly closed) — cross-checking SI.com's 'France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal' against the official FIFA match centre confirms both official starting XIs are out: France in a 4-2-3-1 (GK Maignan; defenders Koundé, Upamecano, Saliba, Digne; midfielders Tchouaméni, Rabiot; attackers Olise, Dembélé, Barcola; forward Mbappé), with Tchouaméni and Barcola replacing Koné and Doué — this locks in the 07-14 10:10 entry's 'Tchouaméni expected to start' read as confirmed; Spain fields the same 4-2-3-1 XI (Simón; Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz; Yamal, Olmo, Baena; Oyarzabal) unchanged from their quarter-final win over Portugal. China Sports Lottery HAD odds (odds_data.js 02:10 snapshot h/d/a=2.08/3.08/3.09, unchanged from prior snapshots) do not reflect this and remain under the 15% anomaly threshold — not flagged.",
-   "links": [
-    {
-     "name": "SI.com: France vs. Spain: Confirmed Lineups for 2026 World Cup Semifinal",
-     "url": "https://www.si.com/soccer/france-vs-spain-confirmed-lineups-2026-world-cup-semifinal"
-    },
-    {
-     "name": "FIFA Match Centre: France v Spain Semi-final",
-     "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541?gender=2&date=2026-07-14"
+     "name": "Sports Mole: Spain lineup vs. Argentina: Predicted XI for World Cup 2026 final after Lamine Yamal injury scare",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/yamal-status-and-pedri-decision-predicted-spain-xi-vs-argentina_601303.html"
     }
    ]
   },
