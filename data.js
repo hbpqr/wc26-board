@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 决赛周(季军赛+决赛)",
-  "updated": "2026-07-20 05:10",
+  "updated": "2026-07-20 06:20",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2380,6 +2380,17 @@ window.DASH_DATA = {
    "actual": "4:6",
    "predManual": "未出票",
    "note": "法国4:6英格兰(ESPN STATUS_FULL_TIME·季军赛/3-4名决赛,迈阿密Hard Rock Stadium)·英格兰上半场大幅领先(06:10巡检快照second half 47'已4:0),法国下半场连追扳至4:4,英格兰再入两球终场6:4锁定季军。⚠️无预测:match-prediction skill目录自07-15前后已连续多日缺失(~/.claude/skills/match-prediction/scripts/不存在),odds_data.js自07-15 15:10起未再刷新,本场自开票窗口起从未生成集成概率/进入odds_data.js,影子book本轮继续断供,learn.py无法结算,待skill目录恢复后补结算。竞彩本场从未出票(无盘口数据),无持仓,无资金影响。⚠️本条为结构性缺口补录(该场此前从未被纳入todayMatches数组,同033-036/099历史结构性缺口同类)。"
+  },
+  {
+   "num": "周一104",
+   "round": "周一",
+   "home": "西班牙",
+   "away": "阿根廷",
+   "time": "07-20 03:00",
+   "status": "finished",
+   "actual": "1:0(aet)",
+   "predManual": "未出票",
+   "note": "🏆世界杯决赛:西班牙1:0阿根廷(加时赛决胜,ESPN STATUS_FINAL_AET,MetLife Stadium)·西班牙夺得队史第2座世界杯冠军(继2010年后再次1:0加时绝杀夺冠)。加时赛106分钟费兰·托雷斯(Ferran Torres)接尼科·威廉姆斯(Nico Williams)传球推射破门制胜;阿根廷恩佐·费尔南德斯82分钟染黄、伤停补时90+2分钟因冲撞库巴西二次染黄被罚下,10人应战仍未能扳平(以上情节ESPN官方终场页+NBC Sports/Yahoo Sports/Fox Sports多信源交叉核实一致)。⚠️无预测:match-prediction skill目录已连续多日缺失(~/.claude/skills/match-prediction/scripts/不存在),odds_data.js自07-15 15:10起未再刷新,本场自开票窗口起从未生成集成概率/纳入odds_data.js,影子book本轮继续断供,learn.py无法结算,待skill目录恢复后补结算。竞彩本场从未出票(无盘口数据),无持仓,无资金影响。"
   }
  ],
  "holdings": {
