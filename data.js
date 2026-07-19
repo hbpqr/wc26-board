@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 决赛周(季军赛+决赛)",
-  "updated": "2026-07-19 23:10",
+  "updated": "2026-07-20 00:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -43,7 +43,9 @@ window.DASH_DATA = {
    {
     "date": "07-19",
     "label": "决赛日",
-    "target": 20000
+    "target": 20000,
+    "status": "missed",
+    "actual": 250.55
    }
   ],
   "rules": [
