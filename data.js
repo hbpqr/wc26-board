@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 决赛周(季军赛+决赛)",
-  "updated": "2026-07-19 17:10",
+  "updated": "2026-07-19 18:15",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2407,6 +2407,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-19",
+   "match": "周一104",
+   "impact": "梅迪纳恐缺战",
+   "tone": "neutral",
+   "text": "情报新增(18:15):Khelnow与Yahoo Sports两独立信源交叉核实,阿根廷左后卫法昆多·梅迪纳(Facundo Medina)在16强战对佛得角(加时赛)受小腿伤困扰,此后半决赛/1/4决赛均缺战,决赛能否出场仍是未知数,若无法出场塔利亚菲科(已连续首发)将继续顶替左后卫;帕雷德斯/罗梅罗/亚马尔/波尔特罗伤情口径与此前09:10/07:10条目一致无变化。竞彩odds_data.js仍停留在102(match-prediction skill目录持续缺失99h+,103/104均未开票),本条仅作情报留痕。",
+   "en": "New intel (18:15 BJT): Khelnow and Yahoo Sports independently confirm Argentina left-back Facundo Medina has been carrying a calf issue since the extra-time round-of-32 win over Cape Verde and has missed the quarter-final and semi-final since; his final availability remains uncertain, with Nicolas Tagliafico (who has started throughout) set to continue at left-back if Medina is unavailable. Paredes/Romero/Yamal/Porro status is unchanged from the 09:10/07:10 entries.",
+   "full": "07-19 18:15 BJT情报新增:决赛西班牙vs阿根廷(07-20 03:00北京开球,MetLife Stadium,距今~8h45m)——用Khelnow《Facundo Medina injured during Argentina vs Cape Verde FIFA World Cup 2026 Round of 32 clash》与Yahoo Sports《Who is injured for the World Cup final?》两条独立信源交叉核实:阿根廷左后卫法昆多·梅迪纳在16强战(vs佛得角,加时赛)中出现小腿伤情,此后1/4决赛(vs瑞士)与半决赛(vs英格兰)均缺席,目前伤情列为'高度存疑'(highly doubtful),正与时间赛跑争取赶上决赛,若无法出场塔利亚菲科(前四场首发三场且淘汰赛阶段表现出色)预计续任左后卫。帕雷德斯/罗梅罗/亚马尔/波尔特罗四人伤情口径均与09:10/07:10条目一致,无新变化。竞彩odds_data.js仍停留在102(match-prediction skill目录持续缺失99h+,103/104均未开票),赔率/价值闸暂无法核算,本条仅作情报留痕。",
+   "enFull": "July 19, 18:15 BJT new intel: for the final Spain vs Argentina (kickoff 07-20 03:00 BJT at MetLife Stadium, ~8h45m away) — cross-checking Khelnow's 'Facundo Medina injured during Argentina vs Cape Verde FIFA World Cup 2026 Round of 32 clash' against Yahoo Sports' 'Who is injured for the World Cup final?' confirms Argentina left-back Facundo Medina has carried a calf issue since the extra-time round-of-32 win over Cape Verde and has missed both the quarter-final and semi-final since; he is now listed as highly doubtful and racing to be fit for the final, with Nicolas Tagliafico (who started three of the first four matches and has impressed through the knockouts) set to retain the left-back spot if Medina can't go. Paredes/Romero/Yamal/Porro status is unchanged from the 09:10/07:10 entries. China Sports Lottery's odds_data.js remains stuck at match 102 (match-prediction skill directory still missing 99h+, neither 103 nor 104 on sale), so odds/value-gate math cannot run — this entry is intel-only.",
+   "links": [
+    {
+     "name": "Khelnow: Facundo Medina injured during Argentina vs Cape Verde FIFA World Cup 2026 Round of 32 clash",
+     "url": "https://khelnow.com/football/facundo-medina-injured-during-argentina-vs-cape-verde-fifa-world-cup-2026"
+    },
+    {
+     "name": "Yahoo Sports: Who is injured for the World Cup final?",
+     "url": "https://sports.yahoo.com/articles/world-cup-injury-tracker-neymar-093810239.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-19",
    "match": "周一104",
