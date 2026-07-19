@@ -1,7 +1,7 @@
 window.DASH_DATA = {
  "meta": {
   "round": "淘汰赛 决赛周(季军赛+决赛)",
-  "updated": "2026-07-19 08:10",
+  "updated": "2026-07-19 09:10",
   "disclaimer": "竞彩胜平负盘实测 vig 12.9%,比分盘更高,长期期望为负。本看板的使命是决策质量管理:亏得最少、给运气最大杠杆。资金池纪律高于一切预测。理性购彩。"
  },
  "bankroll": {
@@ -2407,6 +2407,26 @@ window.DASH_DATA = {
  },
  "focus": [],
  "news": [
+  {
+   "date": "2026-07-19",
+   "match": "周一104",
+   "impact": "帕雷德斯伤情可控",
+   "tone": "neutral",
+   "text": "情报新增(09:10):Sports Mole与Khelnow两独立信源交叉核实,决赛阿根廷阵中帕雷德斯1/4决赛(vs瑞士)已现伤情迹象,半决赛(vs英格兰)第64分钟被换下,但两源均预计其决赛仍可正常出战;罗梅罗1/4决赛曾抽筋但已踢满半决赛全场(17次防守数据)状态正常;西班牙波尔特罗对法国一战伤后肌肉问题预计决赛前恢复,皮诺(肩伤)确认缺席全部剩余赛事(与07:10条目一致)。斯卡洛尼真正担忧非伤病而是阿根廷两场淘汰赛均打满加时后的体能储备。",
+   "en": "New intel (09:10 BJT): Sports Mole and Khelnow independently confirm Argentina's Leandro Paredes picked up an injury concern in the quarter-final vs Switzerland and was subbed off in the 64th minute of the semi-final vs England, but both sources still expect him to feature in the final; Cristian Romero, who cramped in the quarter-final, played the full semi-final (17 defensive actions) and looks fit. Spain's Pedro Porro (muscular issue vs France) is expected to recover in time, while Yeremy Pino (shoulder) remains ruled out for the rest of the tournament (consistent with the 07:10 entry). Coach Scaloni's bigger concern is squad fatigue after two extra-time knockout matches, not injuries.",
+   "full": "07-19 09:10 BJT情报新增:决赛西班牙vs阿根廷(07-20 03:00北京开球,MetLife Stadium,距今~17h50m)——用Sports Mole《Argentina injury news ahead of FIFA World Cup 2026 final vs Spain》与Khelnow《Romero & Paredes - Argentina injury news ahead of FIFA World Cup 2026 final vs Spain》两条独立信源交叉核实新增细节:阿根廷帕雷德斯在1/4决赛(vs瑞士)出现伤情,半决赛(vs英格兰)第64分钟被换下,两源均评估其决赛「仍有望出战」(likely to feature);罗梅罗1/4决赛曾抽筋,但半决赛已踢满全场且贡献17次防守数据,状态正常。斯卡洛尼当前最大担忧不是伤病或停赛,而是阿根廷淘汰赛阶段两场都踢满120分钟加时对体能的消耗。西班牙方面波尔特罗(对法国一役肌肉问题)预计决赛前伤愈,皮诺肩伤报销全部剩余赛事——均与07:10条目口径一致,无变化。竞彩odds_data.js仍停留在102(match-prediction skill目录持续缺失89h+,103/104均未开票),本条仅作情报留痕。",
+   "enFull": "July 19, 09:10 BJT new intel: for the final Spain vs Argentina (kickoff 07-20 03:00 BJT at MetLife Stadium, ~17h50m away) — cross-checking Sports Mole's 'Argentina injury news ahead of FIFA World Cup 2026 final vs Spain' against Khelnow's 'Romero & Paredes - Argentina injury news ahead of FIFA World Cup 2026 final vs Spain' surfaces new detail: Leandro Paredes had an injury concern in the quarter-final vs Switzerland and was substituted in the 64th minute of the semi-final vs England, with both sources assessing him as 'still likely to feature' in the final; Cristian Romero cramped in the quarter-final but played the full semi-final with 17 defensive actions and looks fit. Coach Scaloni's chief concern is squad fatigue after two extra-time knockout wins, not injuries or suspensions. On Spain's side, Pedro Porro (muscular issue vs France) is expected to be fit by the final and Yeremy Pino (shoulder) remains ruled out for the rest of the tournament — both consistent with the 07:10 entry, no change. China Sports Lottery's odds_data.js remains stuck at match 102 (match-prediction skill directory still missing 89h+, neither 103 nor 104 on sale), so this entry is intel-only.",
+   "links": [
+    {
+     "name": "Khelnow: Romero & Paredes - Argentina injury news ahead of FIFA World Cup 2026 final vs Spain",
+     "url": "https://khelnow.com/football/argentina-injury-news-vs-spain-fifa-world-cup-2026"
+    },
+    {
+     "name": "Sports Mole: Spain injury, suspension list and return dates for World Cup 2026 final",
+     "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/injuries-and-suspensions/yamal-porro-latest-spain-injury-suspension-list-vs-argentina_601315.html"
+    }
+   ]
+  },
   {
    "date": "2026-07-19",
    "match": "周一104",
